@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="reader.db" />
+    <include domain="sharedpref" path="." />
+    <include domain="file" path="packs/" />
+</full-backup-content>
