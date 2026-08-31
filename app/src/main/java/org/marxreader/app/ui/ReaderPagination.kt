@@ -11,6 +11,10 @@ import android.text.style.StyleSpan
 import android.text.style.SuperscriptSpan
 import org.marxreader.app.data.Book
 import org.marxreader.app.data.Footnote
+import org.marxreader.app.data.Note
+import org.marxreader.app.data.ResolvedNoteAnchor
+import org.marxreader.app.data.ReaderFont
+import org.marxreader.app.data.ReaderFontWeight
 import org.marxreader.app.data.TocNodeType
 import kotlin.math.max
 
@@ -26,6 +30,15 @@ data class PageFootnote(
     val footnote: Footnote
 )
 
+data class PageNote(val start: Int, val end: Int, val note: Note)
+
+data class PageParagraphRange(
+    val paragraphIndex: Int,
+    val start: Int,
+    val end: Int,
+    val sourceStart: Int
+)
+
 data class ReaderPage(
     val chapterIndex: Int,
     val chapterId: String,
@@ -34,11 +47,16 @@ data class ReaderPage(
     val paragraphEndIndex: Int,
     val text: String,
     val emphasis: List<PageEmphasis>,
-    val footnotes: List<PageFootnote>
+    val footnotes: List<PageFootnote>,
+    val notes: List<PageNote> = emptyList(),
+    val paragraphRanges: List<PageParagraphRange> = emptyList()
 )
 
 private data class TextRange(val start: Int, val end: Int, val level: Int)
 private data class FootnoteRange(val start: Int, val end: Int, val footnote: Footnote)
+private data class NoteRange(val start: Int, val end: Int, val note: Note)
+private data class ParagraphRange(val paragraphIndex: Int, val start: Int, val end: Int)
+private data class SpacingRange(val start: Int, val end: Int)
 
 /**
  * Paginates using Android's actual text layout engine. Page boundaries therefore
@@ -51,7 +69,11 @@ fun paginateBook(
     heightPx: Int,
     fontSizePx: Float,
     lineHeightMultiplier: Float,
-    firstLineIndent: Boolean
+    paragraphSpacingMultiplier: Float = 0.72f,
+    fontFamily: ReaderFont = ReaderFont.SERIF,
+    fontWeight: ReaderFontWeight = ReaderFontWeight.REGULAR,
+    firstLineIndent: Boolean,
+    noteAnchors: List<ResolvedNoteAnchor> = emptyList()
 ): List<ReaderPage> = paginateChapters(
     book,
     book.chapters.indices,
@@ -59,7 +81,11 @@ fun paginateBook(
     heightPx,
     fontSizePx,
     lineHeightMultiplier,
-    firstLineIndent
+    paragraphSpacingMultiplier,
+    fontFamily,
+    fontWeight,
+    firstLineIndent,
+    noteAnchors
 )
 
 fun paginateChapter(
@@ -69,7 +95,11 @@ fun paginateChapter(
     heightPx: Int,
     fontSizePx: Float,
     lineHeightMultiplier: Float,
-    firstLineIndent: Boolean
+    paragraphSpacingMultiplier: Float = 0.72f,
+    fontFamily: ReaderFont = ReaderFont.SERIF,
+    fontWeight: ReaderFontWeight = ReaderFontWeight.REGULAR,
+    firstLineIndent: Boolean,
+    noteAnchors: List<ResolvedNoteAnchor> = emptyList()
 ): List<ReaderPage> = paginateChapters(
     book,
     listOf(chapterIndex),
@@ -77,7 +107,11 @@ fun paginateChapter(
     heightPx,
     fontSizePx,
     lineHeightMultiplier,
-    firstLineIndent
+    paragraphSpacingMultiplier,
+    fontFamily,
+    fontWeight,
+    firstLineIndent,
+    noteAnchors
 )
 
 private fun paginateChapters(
@@ -87,7 +121,11 @@ private fun paginateChapters(
     heightPx: Int,
     fontSizePx: Float,
     lineHeightMultiplier: Float,
-    firstLineIndent: Boolean
+    paragraphSpacingMultiplier: Float,
+    fontFamily: ReaderFont,
+    fontWeight: ReaderFontWeight,
+    firstLineIndent: Boolean,
+    noteAnchors: List<ResolvedNoteAnchor>
 ): List<ReaderPage> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     val pages = mutableListOf<ReaderPage>()
@@ -100,11 +138,16 @@ private fun paginateChapters(
         val paragraphContentStarts = mutableListOf<Int>()
         val ranges = mutableListOf<TextRange>()
         val footnoteRanges = mutableListOf<FootnoteRange>()
+        val noteRanges = mutableListOf<NoteRange>()
+        val paragraphRanges = mutableListOf<ParagraphRange>()
+        val spacingRanges = mutableListOf<SpacingRange>()
 
         val titleStart = text.length
         text.append(chapter.title)
         ranges += TextRange(titleStart, text.length, 0)
+        val titleSpacingStart = text.length
         text.append("\n\n")
+        spacingRanges += SpacingRange(titleSpacingStart, text.length)
 
         val sectionsByParagraph = sectionNodes
             .filter { it.chapterId == chapter.id }
@@ -118,10 +161,15 @@ private fun paginateChapters(
             paragraphContentStarts += text.length
             val start = text.length
             text.append(paragraph)
+            paragraphRanges += ParagraphRange(paragraphIndex, start, text.length)
             sectionNode?.let { node ->
                 ranges += TextRange(start, text.length, node.level.coerceIn(2, 4))
             }
-            if (paragraphIndex != chapter.paragraphs.lastIndex) text.append("\n\n")
+            if (paragraphIndex != chapter.paragraphs.lastIndex) {
+                val spacingStart = text.length
+                text.append("\n\n")
+                spacingRanges += SpacingRange(spacingStart, text.length)
+            }
         }
         chapter.footnotes.forEach { footnote ->
             footnote.references.forEach { reference ->
@@ -134,13 +182,32 @@ private fun paginateChapters(
                 )
             }
         }
+        noteAnchors.filter { it.note.chapterId == chapter.id }.forEach { anchor ->
+            val paragraphStart = paragraphContentStarts.getOrNull(anchor.paragraphIndex)
+                ?: return@forEach
+            val paragraph = chapter.paragraphs[anchor.paragraphIndex]
+            val start = anchor.start.coerceIn(0, paragraph.length)
+            val end = anchor.end.coerceIn(start, paragraph.length)
+            if (end > start) noteRanges += NoteRange(paragraphStart + start, paragraphStart + end, anchor.note)
+        }
         if (text.isEmpty()) return@chapterLoop
 
         val paint = TextPaint(TextPaint.ANTI_ALIAS_FLAG).apply {
             textSize = fontSizePx
-            typeface = Typeface.SERIF
+            typeface = Typeface.create(
+                if (fontFamily == ReaderFont.SERIF) "serif" else "sans-serif",
+                if (fontWeight == ReaderFontWeight.MEDIUM) Typeface.BOLD else Typeface.NORMAL
+            )
         }
         val styled = SpannableString(text.toString())
+        spacingRanges.forEach { range ->
+            styled.setSpan(
+                RelativeSizeSpan(paragraphSpacingMultiplier.coerceIn(.25f, 1.5f)),
+                range.start,
+                range.end,
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+            )
+        }
         ranges.forEach { range ->
             val extraPx = when (range.level) {
                 0 -> fontSizePx * .32f
@@ -220,6 +287,23 @@ private fun paginateChapters(
                     PageFootnote(range.start - startChar, range.end - startChar, range.footnote)
                 } else null
             }
+            val pageNotes = noteRanges.mapNotNull { range ->
+                val overlapStart = max(range.start, startChar)
+                val overlapEnd = minOf(range.end, endChar)
+                if (overlapStart < overlapEnd) PageNote(
+                    overlapStart - startChar, overlapEnd - startChar, range.note
+                ) else null
+            }
+            val pageParagraphs = paragraphRanges.mapNotNull { range ->
+                val overlapStart = max(range.start, startChar)
+                val overlapEnd = minOf(range.end, endChar)
+                if (overlapStart < overlapEnd) PageParagraphRange(
+                    paragraphIndex = range.paragraphIndex,
+                    start = overlapStart - startChar,
+                    end = overlapEnd - startChar,
+                    sourceStart = overlapStart - range.start
+                ) else null
+            }
             pages += ReaderPage(
                 chapterIndex = chapterIndex,
                 chapterId = chapter.id,
@@ -228,7 +312,9 @@ private fun paginateChapters(
                 paragraphEndIndex = paragraphEndIndex,
                 text = styled.substring(startChar, endChar).trimEnd(),
                 emphasis = pageRanges,
-                footnotes = pageFootnotes
+                footnotes = pageFootnotes,
+                notes = pageNotes,
+                paragraphRanges = pageParagraphs
             )
             startLine = endLine + 1
         }
@@ -247,10 +333,33 @@ fun shouldIndentParagraph(text: String): Boolean {
     return true
 }
 
-fun List<ReaderPage>.pageFor(chapterId: String?, paragraphIndex: Int): Int {
+fun List<ReaderPage>.pageFor(
+    chapterId: String?,
+    paragraphIndex: Int,
+    characterOffset: Int = 0
+): Int {
     if (isEmpty()) return 0
     val targetChapter = chapterId ?: first().chapterId
-    return indexOfFirst {
+    val exactPage = indexOfFirst {
+        it.chapterId == targetChapter && it.paragraphRanges.any { range ->
+            val sourceEnd = range.sourceStart + (range.end - range.start)
+            range.paragraphIndex == paragraphIndex &&
+                characterOffset >= range.sourceStart && characterOffset < sourceEnd
+        }
+    }
+    if (exactPage >= 0) return exactPage
+    val containingPage = indexOfFirst {
         it.chapterId == targetChapter && paragraphIndex in it.paragraphIndex..it.paragraphEndIndex
-    }.takeIf { it >= 0 } ?: indexOfFirst { it.chapterId == targetChapter }.coerceAtLeast(0)
+    }
+    return containingPage.takeIf { it >= 0 }
+        ?: indexOfFirst { it.chapterId == targetChapter }.coerceAtLeast(0)
 }
+
+fun ReaderPage.sourcePositionAt(pageOffset: Int): Pair<Int, Int>? {
+    val range = paragraphRanges.firstOrNull { pageOffset in it.start until it.end } ?: return null
+    return range.paragraphIndex to (range.sourceStart + pageOffset - range.start)
+}
+
+fun ReaderPage.firstSourcePosition(): Pair<Int, Int> = paragraphRanges.firstOrNull()?.let {
+    it.paragraphIndex to it.sourceStart
+} ?: (paragraphIndex to 0)

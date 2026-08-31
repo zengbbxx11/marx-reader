@@ -13,6 +13,8 @@ import json
 import re
 from pathlib import Path
 
+from audit_library_quality import suspicious_section_reason
+
 
 CAPITAL_STRUCTURE_ZH = {
     # (front matter count, chapter counts per part, appendix count)
@@ -187,7 +189,11 @@ def package(source: Path, target: Path) -> None:
         book = copy.deepcopy(original)
         for chapter in book.get("chapters", []):
             chapter["title"] = clean_title(chapter["title"])
-            for section in chapter.get("sections", []):
+            chapter["sections"] = [
+                section for section in chapter.get("sections", [])
+                if suspicious_section_reason(str(section.get("title", ""))) is None
+            ]
+            for section in chapter["sections"]:
                 section["title"] = clean_title(section["title"])
         book["toc"] = make_toc(book)
         full = {"schemaVersion": 2, "authors": combined["authors"], "books": [book]}
@@ -197,9 +203,15 @@ def package(source: Path, target: Path) -> None:
 
         metadata = copy.deepcopy(book)
         for chapter in metadata.get("chapters", []):
-            chapter["paragraphCount"] = len(chapter.get("content", []))
+            paragraph_character_counts = [len(paragraph) for paragraph in chapter.get("content", [])]
+            chapter["paragraphCount"] = len(paragraph_character_counts)
+            chapter["paragraphCharacterCounts"] = paragraph_character_counts
+            chapter["characterCount"] = sum(paragraph_character_counts)
             chapter.pop("content", None)
             chapter.pop("footnotes", None)
+        metadata["characterCount"] = sum(
+            chapter.get("characterCount", 0) for chapter in metadata.get("chapters", [])
+        )
         catalog_books.append(metadata)
 
     catalog = {"schemaVersion": 2, "authors": combined["authors"], "books": catalog_books}

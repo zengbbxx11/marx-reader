@@ -1,0 +1,126 @@
+package org.marxreader.app.ui.reader
+
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
+import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.Job
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import org.marxreader.app.data.LibraryRepository
+import org.marxreader.app.data.ReaderPosition
+
+class ReaderViewModel(
+    private val repository: LibraryRepository,
+    private val bookId: String
+) : ViewModel() {
+    private val mutableUiState = MutableStateFlow(ReaderUiState())
+    val uiState: StateFlow<ReaderUiState> = mutableUiState.asStateFlow()
+    private var searchJob: Job? = null
+
+    init {
+        viewModelScope.launch {
+            runCatching {
+                val book = repository.loadBook(bookId)
+                val savedPosition = withContext(Dispatchers.IO) { repository.progress(bookId) }
+                book to savedPosition
+            }
+                .onSuccess { (book, savedPosition) ->
+                    mutableUiState.value = if (book == null) {
+                        ReaderUiState(loading = false, error = "作品正文不存在")
+                    } else ReaderUiState(
+                        loading = false,
+                        book = book,
+                        savedPosition = savedPosition
+                    )
+                }
+                .onFailure { error ->
+                    mutableUiState.value = ReaderUiState(
+                        loading = false,
+                        error = error.message ?: "作品正文加载失败"
+                    )
+                }
+        }
+    }
+
+    fun savePosition(position: ReaderPosition) {
+        mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
+        repository.saveProgress(
+            bookId = position.bookId,
+            chapterId = position.chapterId,
+            paragraphIndex = position.paragraphIndex,
+            characterOffset = position.characterOffset,
+            completed = position.completed
+        )
+    }
+
+    fun search(
+        currentChapterId: String,
+        query: String = mutableUiState.value.search.query,
+        scope: ReaderSearchScope = mutableUiState.value.search.scope
+    ) {
+        searchJob?.cancel()
+        val normalized = query.trim()
+        mutableUiState.value = mutableUiState.value.copy(
+            search = mutableUiState.value.search.copy(
+                query = query,
+                scope = scope,
+                matches = if (normalized.length < 2) emptyList() else mutableUiState.value.search.matches,
+                selectedIndex = if (normalized.length < 2) -1 else mutableUiState.value.search.selectedIndex,
+                searching = normalized.length >= 2
+            )
+        )
+        val book = mutableUiState.value.book ?: return
+        if (normalized.length < 2) return
+        searchJob = viewModelScope.launch {
+            delay(160)
+            val matches = withContext(Dispatchers.Default) {
+                findReaderMatches(book, currentChapterId, normalized, scope)
+            }
+            val current = mutableUiState.value.search
+            if (current.query.trim() == normalized && current.scope == scope) {
+                mutableUiState.value = mutableUiState.value.copy(
+                    search = current.copy(
+                        matches = matches,
+                        selectedIndex = if (matches.isEmpty()) -1 else 0,
+                        searching = false
+                    )
+                )
+            }
+        }
+    }
+
+    fun selectSearchMatch(index: Int): ReaderSearchMatch? {
+        val current = mutableUiState.value.search
+        if (current.matches.isEmpty()) return null
+        val selectedIndex = index.coerceIn(current.matches.indices)
+        mutableUiState.value = mutableUiState.value.copy(
+            search = current.copy(selectedIndex = selectedIndex)
+        )
+        return current.matches[selectedIndex]
+    }
+
+    fun moveSearchSelection(delta: Int): ReaderSearchMatch? {
+        val current = mutableUiState.value.search
+        if (current.matches.isEmpty()) return null
+        val selected = if (current.selectedIndex < 0) 0 else {
+            (current.selectedIndex + delta).mod(current.matches.size)
+        }
+        return selectSearchMatch(selected)
+    }
+
+    companion object {
+        fun factory(repository: LibraryRepository, bookId: String): ViewModelProvider.Factory =
+            object : ViewModelProvider.Factory {
+                @Suppress("UNCHECKED_CAST")
+                override fun <T : ViewModel> create(modelClass: Class<T>): T {
+                    require(modelClass.isAssignableFrom(ReaderViewModel::class.java))
+                    return ReaderViewModel(repository, bookId) as T
+                }
+            }
+    }
+}

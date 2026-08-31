@@ -20,6 +20,8 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup, NavigableString
 
+from audit_library_quality import infer_local_year, is_credible_inferred_heading
+
 
 HOST = "www.marxists.org"
 USER_AGENT = "MarxismLibrary/0.2 (offline content builder; respectful crawler)"
@@ -177,9 +179,18 @@ def acceptable_text_link(url: str, label: str, prefixes: tuple[str, ...]) -> boo
 
 
 def infer_year(anchor) -> str:
-    context = clean_space(anchor.parent.get_text(" ", strip=True) if anchor.parent else "")
-    match = re.search(r"(?<!\d)(18\d{2}|19\d{2}|20\d{2})(?!\d)", context)
-    return match.group(1) if match else ""
+    """Infer a date only from evidence local to a work link.
+
+    Author indexes frequently wrap an entire period or volume in one parent
+    element.  Reading the first year from that large parent assigned the same
+    unrelated date to dozens of works.  A title year is good edition-level
+    evidence; otherwise accept one nearby year only when the local context is
+    compact and unambiguous.  Unknown is safer than a fabricated precise date.
+    """
+    label = clean_space(anchor.get_text(" ", strip=True))
+    parent = anchor.parent
+    context = clean_space(parent.get_text(" ", strip=True)) if parent is not None else ""
+    return infer_local_year(label, context)
 
 
 def infer_category(title: str) -> str:
@@ -238,7 +249,11 @@ def keep_text(value: str, title: str) -> bool:
 
 def inferred_heading_level(value: str) -> int | None:
     """Recognize standalone headings used by older BR-based MIA pages."""
-    if not 1 < len(value) <= 72 or value.endswith(("。", "！", "？", "；", ";")):
+    if (
+        not 1 < len(value) <= 72
+        or value.endswith(("。", "！", "？", "；", ";"))
+        or not is_credible_inferred_heading(value)
+    ):
         return None
     if re.match(r"^第[一二三四五六七八九十百0-9]+[篇章节部卷](?:\s|　|$)", value):
         return 2
@@ -246,7 +261,7 @@ def inferred_heading_level(value: str) -> int | None:
         return 2
     if re.match(r"^[（(][一二三四五六七八九十0-9]{1,4}[）)]\s*", value):
         return 3
-    if re.match(r"^\d{1,2}[．.、]\s*\S", value):
+    if re.match(r"^\d{1,2}[．.、]\s*(?=.*[^\W\d_])\S", value):
         return 3
     return None
 
@@ -342,6 +357,7 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             or value == title
             or is_navigation(value)
             or (len(value) == 1 and value.isascii())
+            or not is_credible_inferred_heading(value)
         ):
             node.decompose()
             continue

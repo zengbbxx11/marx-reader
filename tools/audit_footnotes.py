@@ -9,7 +9,15 @@ from pathlib import Path
 
 
 def audit(source: Path) -> None:
-    payload = json.loads(source.read_text(encoding="utf-8"))
+    if source.is_dir():
+        payload = {
+            "books": [
+                json.loads(path.read_text(encoding="utf-8"))["books"][0]
+                for path in sorted((source / "books").glob("*.json"))
+            ]
+        }
+    else:
+        payload = json.loads(source.read_text(encoding="utf-8"))
     errors: list[str] = []
     book_count = 0
     chapter_count = 0

@@ -22,8 +22,20 @@ data class Chapter(
     val level: Int,
     val paragraphs: List<String>,
     val footnotes: List<Footnote> = emptyList(),
-    val declaredParagraphCount: Int = paragraphs.size
-)
+    val declaredParagraphCount: Int = paragraphs.size,
+    val declaredParagraphCharacterCounts: List<Int> = paragraphs.map(String::length)
+) {
+    val paragraphCharacterCounts: List<Int> get() =
+        if (paragraphs.isNotEmpty()) paragraphs.map(String::length) else declaredParagraphCharacterCounts
+    val characterCount: Int get() = paragraphCharacterCounts.sum()
+
+    fun characterOffset(paragraphIndex: Int, characterOffset: Int = 0): Int {
+        if (paragraphCharacterCounts.isEmpty()) return 0
+        val index = paragraphIndex.coerceIn(0, paragraphCharacterCounts.lastIndex)
+        return paragraphCharacterCounts.take(index).sum() +
+            characterOffset.coerceIn(0, paragraphCharacterCounts[index])
+    }
+}
 
 data class FootnoteReference(
     val paragraphIndex: Int,
@@ -61,9 +73,17 @@ data class Book(
     val language: Language,
     val category: String,
     val year: String,
+    val yearType: String,
+    val yearBasis: String,
+    val yearEvidenceUrl: String,
+    val yearNote: String,
     val sourceUrl: String,
     val sourceCredit: String,
     val translator: String,
+    val translatorBasis: String,
+    val translatorEvidenceUrl: String,
+    val translationYear: String,
+    val editionNote: String,
     val rights: RightsStatus,
     val description: String,
     val chapters: List<Chapter>,
@@ -72,6 +92,7 @@ data class Book(
     val displayTitle: String get() = if (language == Language.ZH) titleZh else titleEn
     val counterpartKey: String get() = seriesId ?: id.substringBeforeLast("-")
     val paragraphCount: Int get() = chapters.sumOf { it.declaredParagraphCount }
+    val characterCount: Int get() = chapters.sumOf { it.characterCount }
     val hasContent: Boolean get() = chapters.any { it.paragraphs.isNotEmpty() }
 
     fun breadcrumb(chapterId: String, paragraphIndex: Int = 0): List<TocNode> {
@@ -93,19 +114,16 @@ data class LibraryCatalog(
     fun booksForAuthor(id: String) = books.filter { id in it.authorIds }
 }
 
-data class ReadingProgress(
+data class ReaderPosition(
     val bookId: String,
     val chapterId: String,
     val paragraphIndex: Int,
-    val updatedAt: Long
+    val updatedAt: Long,
+    val characterOffset: Int = 0,
+    val completed: Boolean = false
 )
 
-data class ChapterReadingProgress(
-    val bookId: String,
-    val chapterId: String,
-    val paragraphIndex: Int,
-    val updatedAt: Long
-)
+typealias ReadingProgress = ReaderPosition
 
 data class Bookmark(
     val id: Long,
@@ -116,6 +134,9 @@ data class Bookmark(
     val createdAt: Long
 )
 
+enum class NoteKind { HIGHLIGHT, ANNOTATION }
+enum class HighlightColor { YELLOW, RED, BLUE, GREEN }
+
 data class Note(
     val id: Long,
     val bookId: String,
@@ -123,7 +144,43 @@ data class Note(
     val paragraphIndex: Int,
     val excerpt: String,
     val text: String,
-    val updatedAt: Long
+    val updatedAt: Long,
+    val selectionStart: Int = 0,
+    val selectionEnd: Int = excerpt.length,
+    val paragraphHash: String = "",
+    val anchorPrefix: String = "",
+    val anchorSuffix: String = "",
+    val createdAt: Long = updatedAt,
+    val anchorState: String = "EXACT",
+    val kind: NoteKind = NoteKind.ANNOTATION,
+    val color: HighlightColor = HighlightColor.YELLOW,
+    val tags: List<String> = emptyList(),
+    val pinned: Boolean = false
+)
+
+data class ReadingSession(
+    val id: Long,
+    val bookId: String,
+    val startedAt: Long,
+    val endedAt: Long,
+    val activeMillis: Long,
+    val startChapterId: String,
+    val startParagraphIndex: Int,
+    val endChapterId: String,
+    val endParagraphIndex: Int
+)
+
+data class DailyReadingStat(val epochDay: Long, val activeMillis: Long)
+data class BookReadingStat(val bookId: String, val activeMillis: Long, val sessionCount: Int)
+data class ReadingStatistics(
+    val todayMillis: Long = 0,
+    val lastSevenDaysMillis: Long = 0,
+    val totalMillis: Long = 0,
+    val currentStreakDays: Int = 0,
+    val activeDays: Int = 0,
+    val completedBooks: Int = 0,
+    val daily: List<DailyReadingStat> = emptyList(),
+    val books: List<BookReadingStat> = emptyList()
 )
 
 data class SearchHit(
@@ -139,7 +196,7 @@ enum class SearchScope { ALL, TITLES, BODY }
 
 fun parseCatalog(json: String): LibraryCatalog {
     val root = JSONObject(json)
-    require(root.optInt("schemaVersion", 1) in 1..2) { "不支持的内容包版本" }
+    require(root.optInt("schemaVersion", 1) in 1..2) { "不支持的书库数据版本" }
 
     val authors = root.optJSONArray("authors").orEmpty().mapObjects { value ->
         Author(
@@ -183,7 +240,11 @@ fun parseCatalog(json: String): LibraryCatalog {
                 level = chapter.optInt("level", 1).coerceIn(1, 4),
                 paragraphs = paragraphs,
                 footnotes = footnotes,
-                declaredParagraphCount = chapter.optInt("paragraphCount", paragraphs.size)
+                declaredParagraphCount = chapter.optInt("paragraphCount", paragraphs.size),
+                declaredParagraphCharacterCounts = chapter.optJSONArray("paragraphCharacterCounts")
+                    ?.mapInts()
+                    ?.takeIf { it.size == chapter.optInt("paragraphCount", paragraphs.size) }
+                    ?: paragraphs.map(String::length)
             )
         }
         require(rights in setOf(RightsStatus.PUBLIC_DOMAIN, RightsStatus.CC_BY_SA) ||
@@ -199,11 +260,19 @@ fun parseCatalog(json: String): LibraryCatalog {
             language = Language.valueOf(value.requireString("language").uppercase()),
             category = value.optString("category", "著作"),
             year = value.optString("year"),
+            yearType = value.optString("yearType"),
+            yearBasis = value.optString("yearBasis"),
+            yearEvidenceUrl = value.optString("yearEvidenceUrl"),
+            yearNote = value.optString("yearNote"),
             sourceUrl = value.requireString("sourceUrl").also {
                 require(it.startsWith("https://www.marxists.org/")) { "只接受经审核的 MIA 来源" }
             },
             sourceCredit = value.optString("sourceCredit", "Marxists Internet Archive"),
             translator = value.optString("translator"),
+            translatorBasis = value.optString("translatorBasis"),
+            translatorEvidenceUrl = value.optString("translatorEvidenceUrl"),
+            translationYear = value.optString("translationYear"),
+            editionNote = value.optString("editionNote"),
             rights = rights,
             description = value.optString("description"),
             chapters = chapters,
@@ -243,3 +312,6 @@ private inline fun <T> JSONArray.mapObjects(block: (JSONObject) -> T): List<T> =
 
 private fun JSONArray.mapStrings(): List<String> =
     (0 until length()).map { getString(it).trim() }.filter { it.isNotEmpty() }
+
+private fun JSONArray.mapInts(): List<Int> =
+    (0 until length()).map { optInt(it, 0).coerceAtLeast(0) }

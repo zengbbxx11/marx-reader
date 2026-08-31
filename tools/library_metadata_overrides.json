@@ -1,0 +1,65 @@
+{
+  "books": {
+    "engels-work-3112e48c77b4": {
+      "year": "1851",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注（1851年4月）",
+      "yearNote": "题名中的1852年是作品讨论的战争年份，不是写作年份"
+    },
+    "engels-work-c157a254323a": {
+      "year": "1895",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注1895年3月6日",
+      "yearNote": "题名中的1848—1850年是作品讨论的历史时期，不是写作年份"
+    },
+    "engels-work-c682167136f4": {
+      "year": "1848",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注约写于1848年1月20日",
+      "yearNote": "采用来源页标注的约定写作年份"
+    },
+    "engels-work-f82e86462cd4": {
+      "year": "1884",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注1884年2月至3月",
+      "yearNote": "题名年份是作品讨论对象的年份，不是写作年份"
+    },
+    "lenin-work-8998292dabf0": {
+      "year": "1917",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注1917年4月",
+      "yearNote": "采用来源页标注的写作月份",
+      "translator": "赤军",
+      "translatorBasis": "来源页面头部明确标注“译者：赤军”"
+    },
+    "manifesto-zh-1920": {
+      "year": "1920",
+      "yearType": "TRANSLATION_PUBLICATION",
+      "yearBasis": "来源页面说明该文本为陈望道1920年首译本",
+      "yearNote": "这里记录当前中文译本的出版年份，而非原作初版年份"
+    },
+    "marx-work-3b86616edb1b": {
+      "year": "1851",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注（1851年6月）",
+      "yearNote": "题名中的1848年是宪法通过年份，不是写作年份"
+    },
+    "marx-work-09dde5cafc3d": {
+      "year": "1848",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注1848年2月22日",
+      "yearNote": "题名中的1846年是所纪念起义的年份，不是演说年份"
+    },
+    "marx-work-5a68e33187b5": {
+      "year": "1847",
+      "yearType": "WRITTEN",
+      "yearBasis": "来源页面标题明确标注1847年11月29日",
+      "yearNote": "题名中的1830年是所纪念起义的年份，不是演说年份"
+    },
+    "engels-work-57d2016edc45": {
+      "translator": "籍维立",
+      "translatorBasis": "来源页面头部明确署名籍维立，并注明载于《马列主义研究资料》1984年第3辑",
+      "editionNote": "来源页注明的中文译本版本信息"
+    }
+  }
+}

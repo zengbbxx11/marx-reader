@@ -22,11 +22,11 @@ class ShelfNavigationTest {
     }
 
     @Test
-    fun dataBackupIsReachableFromSettings() {
+    fun localReadingDataIsReachableFromSettings() {
         composeRule.waitUntil(timeoutMillis = 15_000) {
             composeRule.onAllNodesWithText("设置").fetchSemanticsNodes().isNotEmpty()
         }
         composeRule.onNodeWithText("设置").performClick()
-        composeRule.onNodeWithText("导出完整 JSON 备份").assertIsDisplayed()
+        composeRule.onNodeWithText("本地阅读数据").assertIsDisplayed()
     }
 }

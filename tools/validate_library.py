@@ -3,6 +3,8 @@ import json
 import sys
 from pathlib import Path
 
+from audit_library_quality import audit, load_library, summary
+
 
 def main(path: str) -> int:
     source = Path(path)
@@ -17,6 +19,21 @@ def main(path: str) -> int:
         }
         assert len(roots) == len(catalog["books"])
         assert {path.stem for path in asset_paths} == {book["id"] for book in catalog["books"]}
+        catalog_by_id = {book["id"]: book for book in catalog["books"]}
+        for item in roots:
+            for full_book in item["books"]:
+                summary_book = catalog_by_id[full_book["id"]]
+                full_chapters = {chapter["id"]: chapter for chapter in full_book["chapters"]}
+                assert summary_book["characterCount"] == sum(
+                    len(paragraph)
+                    for chapter in full_book["chapters"]
+                    for paragraph in chapter["content"]
+                )
+                for summary_chapter in summary_book["chapters"]:
+                    full_chapter = full_chapters[summary_chapter["id"]]
+                    expected_counts = [len(paragraph) for paragraph in full_chapter["content"]]
+                    assert summary_chapter["paragraphCharacterCounts"] == expected_counts
+                    assert summary_chapter["characterCount"] == sum(expected_counts)
     else:
         root = json.loads(source.read_text("utf-8"))
     assert root["schemaVersion"] in {1, 2}
@@ -49,7 +66,19 @@ def main(path: str) -> int:
             assert chapter["title"].strip()
             assert all(paragraph.strip() for paragraph in chapter["content"])
             assert len("".join(chapter["content"]).strip()) >= 100
-    print(f"OK: {len(author_ids)} authors, {len(book_ids)} versions, {len(chapter_ids)} chapters")
+    quality_payload = load_library(source)
+    quality_findings = audit(quality_payload)
+    quality_summary = summary(quality_payload, quality_findings)
+    errors = [item for item in quality_findings if item.severity == "ERROR"]
+    if errors:
+        preview = "\n".join(
+            f"{item.code} {item.location}: {item.message}" for item in errors[:20]
+        )
+        raise AssertionError(f"library quality audit found {len(errors)} error(s):\n{preview}")
+    print(
+        f"OK: {len(author_ids)} authors, {len(book_ids)} versions, {len(chapter_ids)} chapters; "
+        f"quality errors=0, review items={quality_summary['reviewItems']}"
+    )
     return 0
 
 
