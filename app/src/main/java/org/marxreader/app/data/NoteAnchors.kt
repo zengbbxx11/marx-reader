@@ -14,21 +14,6 @@ data class ResolvedNoteAnchor(
     val status: NoteAnchorStatus
 )
 
-fun sentenceSelection(text: String, touchedOffset: Int): TextSelection {
-    if (text.isEmpty()) return TextSelection(0, 0, "")
-    val offset = touchedOffset.coerceIn(0, text.lastIndex)
-    val boundaries = "。！？；!?;\n"
-    var start = offset
-    while (start > 0 && text[start - 1] !in boundaries) start--
-    while (start < text.length && text[start].isWhitespace()) start++
-    var end = offset
-    while (end < text.length && text[end] !in boundaries) end++
-    if (end < text.length && text[end] != '\n') end++
-    while (end > start && text[end - 1].isWhitespace()) end--
-    if (end <= start) return TextSelection(0, text.length, text)
-    return TextSelection(start, end, text.substring(start, end))
-}
-
 fun paragraphHash(text: String): String = MessageDigest.getInstance("SHA-256")
     .digest(text.toByteArray())
     .joinToString("") { "%02x".format(it) }
@@ -51,7 +36,7 @@ fun noteForSelection(
     bookId = bookId,
     chapterId = chapterId,
     paragraphIndex = paragraphIndex,
-    excerpt = selection.text.take(500),
+    excerpt = selection.text,
     text = text.trim(),
     updatedAt = updatedAt,
     selectionStart = selection.start,
@@ -75,7 +60,7 @@ fun resolveNoteAnchor(note: Note, paragraphs: List<String>): ResolvedNoteAnchor 
         val rangeMatches = end > start && original.substring(start, end) == note.excerpt
         val hashMatches = note.paragraphHash.isNotBlank() && paragraphHash(original) == note.paragraphHash
         if (rangeMatches || hashMatches) {
-            val resolvedEnd = if (rangeMatches) end else (start + note.excerpt.length).coerceAtMost(original.length)
+            val resolvedEnd = end
             return ResolvedNoteAnchor(note, note.paragraphIndex, start, resolvedEnd, NoteAnchorStatus.EXACT)
         }
     }

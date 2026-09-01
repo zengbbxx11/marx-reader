@@ -49,6 +49,33 @@ class ReaderPaginationTest {
     }
 
     @Test
+    fun sourceSelectionMapsExactRangeWithinOneParagraph() {
+        val target = page("a", 3, 4).copy(
+            text = "abcdefghijklmnopqrstuvwx",
+            paragraphRanges = listOf(
+                PageParagraphRange(paragraphIndex = 3, start = 0, end = 10, sourceStart = 4),
+                PageParagraphRange(paragraphIndex = 4, start = 12, end = 24, sourceStart = 0)
+            )
+        )
+
+        assertEquals(PageSourceSelection(3, 6, 12), target.sourceSelection(8, 2))
+        assertEquals(PageSourceSelection(4, 2, 8), target.sourceSelection(14, 20))
+    }
+
+    @Test
+    fun sourceSelectionRejectsParagraphSpanningRange() {
+        val target = page("a", 3, 4).copy(
+            text = "abcdefghijklmnopqrstuvwx",
+            paragraphRanges = listOf(
+                PageParagraphRange(paragraphIndex = 3, start = 0, end = 10, sourceStart = 4),
+                PageParagraphRange(paragraphIndex = 4, start = 12, end = 24, sourceStart = 0)
+            )
+        )
+
+        assertEquals(null, target.sourceSelection(8, 14))
+    }
+
+    @Test
     fun pageLookupUsesTheCharacterOffsetWhenAParagraphSpansPages() {
         val first = page("a", 3, 3).copy(
             paragraphRanges = listOf(PageParagraphRange(3, 0, 10, 0))
@@ -60,5 +87,19 @@ class ReaderPaginationTest {
         assertEquals(0, listOf(first, second).pageFor("a", 3, 4))
         assertEquals(1, listOf(first, second).pageFor("a", 3, 14))
         assertEquals(3 to 10, second.firstSourcePosition())
+    }
+
+    @Test
+    fun pageRangesKeepTheVisiblePartWhenAReferenceTouchesPageBoundary() {
+        assertEquals(2 to 5, clipTextRangeToPage(8, 15, 6, 11))
+        assertEquals(null, clipTextRangeToPage(2, 6, 6, 10))
+    }
+
+    @Test
+    fun textTapAtTheExclusiveEndStillHitsTheLastCharacter() {
+        assertTrue(textOffsetHitsRange(5, 2, 5))
+        assertTrue(textOffsetHitsRange(3, 2, 5))
+        assertFalse(textOffsetHitsRange(6, 2, 5))
+        assertFalse(textOffsetHitsRange(5, 5, 5))
     }
 }

@@ -14,7 +14,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.horizontalScroll
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -36,16 +35,13 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.BaselineShift
@@ -174,11 +170,6 @@ private fun HomeScreen(
                     BrandMark(42.dp)
                     Column(Modifier.weight(1f).padding(start = 13.dp)) {
                         Text(stringResource(R.string.app_name), style = MaterialTheme.typography.titleLarge)
-                        Text(
-                            stringResource(R.string.app_tagline),
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            style = MaterialTheme.typography.labelMedium
-                        )
                     }
                     Surface(
                         color = MaterialTheme.colorScheme.secondaryContainer,
@@ -244,9 +235,9 @@ private fun LibraryTab(
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
         item {
-            Text("经典著作，静心阅读", style = MaterialTheme.typography.headlineMedium)
+            Text("全部作品", style = MaterialTheme.typography.headlineMedium)
             Text(
-                "五位思想家 · ${catalog.books.size} 部/篇馆藏",
+                "${catalog.authors.size} 位作者 · ${catalog.books.size} 部/篇作品",
                 color = MaterialTheme.colorScheme.onSurfaceVariant,
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(top = 4.dp)
@@ -316,7 +307,7 @@ private fun LibraryTab(
                 }
             }
         }
-        item { SectionTitle("典藏作者", "按作者浏览全部著作与文章") }
+        item { SectionTitle("作者", "按作者浏览作品") }
         items(catalog.authors, key = { it.id }) { author ->
             val books = catalog.booksForAuthor(author.id)
             val read = books.count { progress.containsKey(it.id) }
@@ -397,7 +388,7 @@ private fun AuthorScreen(
                         ) { Text(author.nameZh.take(1), color = Color.White, fontFamily = FontFamily.Serif, fontSize = 28.sp, fontWeight = FontWeight.Bold) }
                         Column(Modifier.weight(1f).padding(start = 15.dp)) {
                             Text(author.years, style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
-                            Text("${allBooks.size} 部/篇典藏作品", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 3.dp))
+                            Text("${allBooks.size} 部/篇作品", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(top = 3.dp))
                             if (author.description.isNotBlank()) Text(
                                 author.description,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -728,17 +719,6 @@ private fun String.displayYearType(): String = when (this) {
     else -> ""
 }
 
-internal fun TextLayoutResult.hitsTextRange(
-    position: Offset,
-    start: Int,
-    end: Int,
-    hitSlopPx: Float
-): Boolean = (start until end.coerceAtMost(layoutInput.text.length)).any { offset ->
-    val box = getBoundingBox(offset)
-    position.x >= box.left - hitSlopPx && position.x <= box.right + hitSlopPx &&
-        position.y >= box.top - hitSlopPx && position.y <= box.bottom + hitSlopPx
-}
-
 internal data class NoteDraftTarget(
     val paragraphIndex: Int,
     val paragraph: String,
@@ -749,18 +729,18 @@ internal data class NoteDraftTarget(
 internal fun noteDraftTarget(
     chapter: Chapter,
     paragraphIndex: Int,
-    touchedOffset: Int,
+    selection: TextSelection,
     anchors: List<ResolvedNoteAnchor>
 ): NoteDraftTarget? {
     val paragraph = chapter.paragraphs.getOrNull(paragraphIndex) ?: return null
-    val offset = touchedOffset.coerceIn(0, paragraph.lastIndex.coerceAtLeast(0))
+    val start = minOf(selection.start, selection.end).coerceIn(0, paragraph.length)
+    val end = maxOf(selection.start, selection.end).coerceIn(start, paragraph.length)
+    if (end <= start) return null
     val existing = anchors.firstOrNull {
-        it.paragraphIndex == paragraphIndex && offset in it.start until it.end
+        it.paragraphIndex == paragraphIndex && it.start == start && it.end == end
     }
-    val selection = existing?.let {
-        TextSelection(it.start, it.end, paragraph.substring(it.start, it.end))
-    } ?: sentenceSelection(paragraph, offset)
-    return NoteDraftTarget(paragraphIndex, paragraph, selection, existing?.note)
+    val normalizedSelection = TextSelection(start, end, paragraph.substring(start, end))
+    return NoteDraftTarget(paragraphIndex, paragraph, normalizedSelection, existing?.note)
 }
 
 @OptIn(ExperimentalFoundationApi::class)

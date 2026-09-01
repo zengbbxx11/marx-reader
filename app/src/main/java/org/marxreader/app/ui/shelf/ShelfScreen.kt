@@ -139,7 +139,7 @@ internal fun ShelfTab(
                         Text(when (item) {
                             ShelfSection.RECENT -> "最近"
                             ShelfSection.BOOKMARKS -> "书签"
-                            ShelfSection.NOTES -> "整理"
+                            ShelfSection.NOTES -> "笔记"
                             ShelfSection.STATISTICS -> "统计"
                         })
                     }
@@ -324,8 +324,17 @@ internal fun ShelfTab(
             note = note,
             onDismiss = { editingNote = null },
             onSave = { updated ->
-                scope.launch { repository.saveNote(updated); refreshKey++ }
+                scope.launch {
+                    runCatching { repository.saveNote(updated) }
+                        .onSuccess {
+                            refreshKey++
+                            editingNote = null
+                        }
+                }
+            },
+            onDelete = {
                 editingNote = null
+                deleteTarget = ShelfDeleteTarget.NoteItem(note.id)
             }
         )
     }

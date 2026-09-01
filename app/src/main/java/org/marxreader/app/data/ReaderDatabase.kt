@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 
 class ReaderDatabase(context: Context) :
-    SQLiteOpenHelper(context, "reader.db", null, 5) {
+    SQLiteOpenHelper(context, "reader.db", null, 6) {
 
     override fun onConfigure(db: SQLiteDatabase) {
         super.onConfigure(db)
@@ -32,6 +32,7 @@ class ReaderDatabase(context: Context) :
                 paragraph_index INTEGER NOT NULL,
                 excerpt TEXT NOT NULL,
                 created_at INTEGER NOT NULL,
+                character_offset INTEGER NOT NULL DEFAULT 0,
                 UNIQUE(book_id, chapter_id, paragraph_index)
             )
         """.trimIndent())
@@ -74,6 +75,7 @@ class ReaderDatabase(context: Context) :
         if (oldVersion < 3) migrateNotesV3(db)
         if (oldVersion < 4) migrateProgressV4(db)
         if (oldVersion < 5) migrateReaderDataV5(db)
+        if (oldVersion < 6) migrateBookmarksV6(db)
     }
 
     private fun migrateNotesV3(db: SQLiteDatabase) {
@@ -138,6 +140,23 @@ class ReaderDatabase(context: Context) :
         db.addColumnIfMissing("notes", "pinned", "INTEGER NOT NULL DEFAULT 0")
         createNoteTags(db)
         createReadingSessions(db)
+    }
+
+    private fun migrateBookmarksV6(db: SQLiteDatabase) {
+        // Keep upgrades safe for legacy databases that may not have a bookmarks table.
+        db.execSQL("""
+            CREATE TABLE IF NOT EXISTS bookmarks(
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                book_id TEXT NOT NULL,
+                chapter_id TEXT NOT NULL,
+                paragraph_index INTEGER NOT NULL,
+                excerpt TEXT NOT NULL,
+                created_at INTEGER NOT NULL,
+                character_offset INTEGER NOT NULL DEFAULT 0,
+                UNIQUE(book_id, chapter_id, paragraph_index)
+            )
+        """.trimIndent())
+        db.addColumnIfMissing("bookmarks", "character_offset", "INTEGER NOT NULL DEFAULT 0")
     }
 
     private fun createNoteTags(db: SQLiteDatabase) {
@@ -325,7 +344,7 @@ class ReaderDatabase(context: Context) :
             put("book_id", note.bookId)
             put("chapter_id", note.chapterId)
             put("paragraph_index", note.paragraphIndex)
-            put("excerpt", note.excerpt.take(500))
+            put("excerpt", note.excerpt)
             put("note_text", note.text.trim())
             put("selection_start", note.selectionStart)
             put("selection_end", note.selectionEnd)

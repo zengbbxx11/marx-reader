@@ -11,6 +11,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import org.marxreader.app.data.*
 
@@ -18,12 +19,14 @@ import org.marxreader.app.data.*
 internal fun ShelfNoteOrganizerDialog(
     note: Note,
     onDismiss: () -> Unit,
-    onSave: (Note) -> Unit
+    onSave: (Note) -> Unit,
+    onDelete: (() -> Unit)? = null
 ) {
     var text by remember(note.id) { mutableStateOf(note.text) }
     var color by remember(note.id) { mutableStateOf(note.color) }
     var tagsText by remember(note.id) { mutableStateOf(note.tags.joinToString("，")) }
     var pinned by remember(note.id) { mutableStateOf(note.pinned) }
+    var deleteArmed by remember(note.id) { mutableStateOf(false) }
     AlertDialog(
         onDismissRequest = onDismiss,
         title = { Text("整理高亮与批注") },
@@ -31,6 +34,8 @@ internal fun ShelfNoteOrganizerDialog(
             Column {
                 Text(
                     note.excerpt,
+                    maxLines = 7,
+                    overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.background(
                         color.composeColor().copy(alpha = .25f), MaterialTheme.shapes.small
                     ).padding(10.dp)
@@ -53,7 +58,9 @@ internal fun ShelfNoteOrganizerDialog(
                 OutlinedTextField(
                     text, { text = it },
                     label = { Text("批注（留空则为纯高亮）") },
-                    minLines = 3, modifier = Modifier.fillMaxWidth().padding(top = 10.dp)
+                    minLines = 3,
+                    maxLines = 7,
+                    modifier = Modifier.fillMaxWidth().padding(top = 10.dp)
                 )
                 OutlinedTextField(
                     tagsText, { tagsText = it }, label = { Text("标签") },
@@ -78,6 +85,15 @@ internal fun ShelfNoteOrganizerDialog(
                 ))
             }) { Text("保存") }
         },
-        dismissButton = { TextButton(onClick = onDismiss) { Text("取消") } }
+        dismissButton = {
+            Row {
+                if (onDelete != null) TextButton(onClick = {
+                    if (deleteArmed) onDelete() else deleteArmed = true
+                }) {
+                    Text(if (deleteArmed) "确认删除" else "删除", color = MaterialTheme.colorScheme.error)
+                }
+                TextButton(onClick = onDismiss) { Text("取消") }
+            }
+        }
     )
 }

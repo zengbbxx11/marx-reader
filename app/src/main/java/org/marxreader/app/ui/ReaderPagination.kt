@@ -1,6 +1,8 @@
 package org.marxreader.app.ui
 
+import android.annotation.SuppressLint
 import android.graphics.Typeface
+import android.text.Layout
 import android.text.SpannableString
 import android.text.Spanned
 import android.text.StaticLayout
@@ -51,6 +53,44 @@ data class ReaderPage(
     val notes: List<PageNote> = emptyList(),
     val paragraphRanges: List<PageParagraphRange> = emptyList()
 )
+
+data class PageSourceSelection(
+    val paragraphIndex: Int,
+    val start: Int,
+    val end: Int
+)
+
+fun ReaderPage.sourceSelection(pageStart: Int, pageEnd: Int): PageSourceSelection? {
+    val start = minOf(pageStart, pageEnd).coerceIn(0, text.length)
+    val end = maxOf(pageStart, pageEnd).coerceIn(0, text.length)
+    if (end <= start) return null
+
+    val startRange = paragraphRanges.firstOrNull { start in it.start until it.end } ?: return null
+    val endRange = paragraphRanges.firstOrNull { (end - 1) in it.start until it.end } ?: return null
+    if (startRange.paragraphIndex != endRange.paragraphIndex) return null
+
+    val sourceStart = startRange.sourceStart + start - startRange.start
+    val sourceEnd = endRange.sourceStart + end - endRange.start
+    return if (sourceEnd > sourceStart) {
+        PageSourceSelection(startRange.paragraphIndex, sourceStart, sourceEnd)
+    } else null
+}
+
+internal fun clipTextRangeToPage(
+    start: Int,
+    end: Int,
+    pageStart: Int,
+    pageEnd: Int
+): Pair<Int, Int>? {
+    val overlapStart = maxOf(start, pageStart)
+    val overlapEnd = minOf(end, pageEnd)
+    return if (overlapStart < overlapEnd) {
+        overlapStart - pageStart to overlapEnd - pageStart
+    } else null
+}
+
+internal fun textOffsetHitsRange(offset: Int, start: Int, end: Int): Boolean =
+    start < end && (offset in start until end || offset == end)
 
 private data class TextRange(val start: Int, val end: Int, val level: Int)
 private data class FootnoteRange(val start: Int, val end: Int, val footnote: Footnote)
@@ -114,6 +154,7 @@ fun paginateChapter(
     noteAnchors
 )
 
+@SuppressLint("WrongConstant")
 private fun paginateChapters(
     book: Book,
     chapterIndices: Iterable<Int>,
@@ -194,10 +235,7 @@ private fun paginateChapters(
 
         val paint = TextPaint(TextPaint.ANTI_ALIAS_FLAG).apply {
             textSize = fontSizePx
-            typeface = Typeface.create(
-                if (fontFamily == ReaderFont.SERIF) "serif" else "sans-serif",
-                if (fontWeight == ReaderFontWeight.MEDIUM) Typeface.BOLD else Typeface.NORMAL
-            )
+            typeface = readerTypeface(fontFamily, fontWeight)
         }
         val styled = SpannableString(text.toString())
         spacingRanges.forEach { range ->
@@ -240,11 +278,19 @@ private fun paginateChapters(
                 range.end,
                 Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
             )
+            styled.setSpan(
+                StyleSpan(Typeface.BOLD),
+                range.start,
+                range.end,
+                Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+            )
         }
         val naturalLineHeight = paint.fontMetrics.run { descent - ascent }
         val desiredLineHeight = fontSizePx * lineHeightMultiplier
         val layout = StaticLayout.Builder.obtain(styled, 0, styled.length, paint, widthPx)
             .setIncludePad(false)
+            .setBreakStrategy(Layout.BREAK_STRATEGY_SIMPLE)
+            .setHyphenationFrequency(Layout.HYPHENATION_FREQUENCY_NONE)
             .setLineSpacing(max(0f, desiredLineHeight - naturalLineHeight), 1f)
             .build()
 
@@ -276,33 +322,29 @@ private fun paginateChapters(
             val paragraphIndex = paragraphStarts.indexOfLast { it <= startChar }.coerceAtLeast(0)
             val paragraphEndIndex = paragraphStarts.indexOfLast { it < endChar }.coerceAtLeast(paragraphIndex)
             val pageRanges = ranges.mapNotNull { range ->
-                val overlapStart = max(range.start, startChar)
-                val overlapEnd = minOf(range.end, endChar)
-                if (overlapStart < overlapEnd) {
-                    PageEmphasis(overlapStart - startChar, overlapEnd - startChar, range.level)
-                } else null
+                clipTextRangeToPage(range.start, range.end, startChar, endChar)?.let { (start, end) ->
+                    PageEmphasis(start, end, range.level)
+                }
             }
             val pageFootnotes = footnoteRanges.mapNotNull { range ->
-                if (range.start >= startChar && range.end <= endChar) {
-                    PageFootnote(range.start - startChar, range.end - startChar, range.footnote)
-                } else null
+                clipTextRangeToPage(range.start, range.end, startChar, endChar)?.let { (start, end) ->
+                    PageFootnote(start, end, range.footnote)
+                }
             }
             val pageNotes = noteRanges.mapNotNull { range ->
-                val overlapStart = max(range.start, startChar)
-                val overlapEnd = minOf(range.end, endChar)
-                if (overlapStart < overlapEnd) PageNote(
-                    overlapStart - startChar, overlapEnd - startChar, range.note
-                ) else null
+                clipTextRangeToPage(range.start, range.end, startChar, endChar)?.let { (start, end) ->
+                    PageNote(start, end, range.note)
+                }
             }
             val pageParagraphs = paragraphRanges.mapNotNull { range ->
-                val overlapStart = max(range.start, startChar)
-                val overlapEnd = minOf(range.end, endChar)
-                if (overlapStart < overlapEnd) PageParagraphRange(
-                    paragraphIndex = range.paragraphIndex,
-                    start = overlapStart - startChar,
-                    end = overlapEnd - startChar,
-                    sourceStart = overlapStart - range.start
-                ) else null
+                clipTextRangeToPage(range.start, range.end, startChar, endChar)?.let { (start, end) ->
+                    PageParagraphRange(
+                        paragraphIndex = range.paragraphIndex,
+                        start = start,
+                        end = end,
+                        sourceStart = startChar + start - range.start
+                    )
+                }
             }
             pages += ReaderPage(
                 chapterIndex = chapterIndex,

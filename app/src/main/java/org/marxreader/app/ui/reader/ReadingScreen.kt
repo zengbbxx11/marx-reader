@@ -15,7 +15,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.horizontalScroll
-import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
@@ -37,8 +36,8 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalDensity
@@ -46,14 +45,9 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
-import androidx.compose.ui.text.AnnotatedString
-import androidx.compose.ui.text.SpanStyle
-import androidx.compose.ui.text.TextLayoutResult
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.style.BaselineShift
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -149,7 +143,6 @@ internal fun ReadingScreen(
     } else settings.mode
     val expandedLayout = LocalConfiguration.current.screenWidthDp >= 900 && density.fontScale < 1.5f
     val accentColor = MaterialTheme.colorScheme.primary
-    val footnoteHitSlopPx = with(density) { 8.dp.toPx() }
     val pages by produceState(
         initialValue = emptyList(),
         book.id,
@@ -337,6 +330,26 @@ internal fun ReadingScreen(
             }
         }
     }
+    fun openSourceSelection(paragraphIndex: Int, start: Int, end: Int) {
+        val paragraph = chapter.paragraphs.getOrNull(paragraphIndex) ?: return
+        val safeStart = minOf(start, end).coerceIn(0, paragraph.length)
+        val safeEnd = maxOf(start, end).coerceIn(safeStart, paragraph.length)
+        if (safeEnd <= safeStart) return
+        noteTarget = noteDraftTarget(
+            chapter,
+            paragraphIndex,
+            TextSelection(safeStart, safeEnd, paragraph.substring(safeStart, safeEnd)),
+            resolvedNotes
+        )
+    }
+    fun openNoteAnchor(anchor: ResolvedNoteAnchor) {
+        openSourceSelection(anchor.paragraphIndex, anchor.start, anchor.end)
+    }
+    fun rejectCrossParagraphSelection() {
+        scope.launch {
+            snackbarHostState.showSnackbar("高亮和批注目前只支持同一段正文，请重新选择")
+        }
+    }
     LaunchedEffect(chapter.id) {
         if (
             readerUiState.search.scope == ReaderSearchScope.CHAPTER &&
@@ -472,60 +485,31 @@ internal fun ReadingScreen(
                     beyondViewportPageCount = 1
                 ) { pageIndex ->
                     val page = pages[pageIndex]
-                    var pageTextLayout by remember(pageIndex, page.text) {
-                        mutableStateOf<TextLayoutResult?>(null)
-                    }
                     val pageSearchRanges = remember(page, readerUiState.search.matches, readerUiState.search.selectedMatch) {
                         page.searchRanges(readerUiState.search.matches, readerUiState.search.selectedMatch)
                     }
-                    val pageText = remember(page, settings.fontSize, pageSearchRanges) {
-                        AnnotatedString.Builder(page.text).apply {
-                            page.emphasis.forEach { emphasis ->
-                                addStyle(
-                                    SpanStyle(
-                                        color = accentColor,
-                                        fontWeight = if (emphasis.level <= 2) FontWeight.Bold else FontWeight.SemiBold,
-                                        fontSize = when (emphasis.level) {
-                                            0 -> (settings.fontSize + 6).sp
-                                            2 -> (settings.fontSize + 3).sp
-                                            else -> (settings.fontSize + 1.5f).sp
-                                        }
-                                    ),
-                                    emphasis.start.coerceIn(0, page.text.length),
-                                    emphasis.end.coerceIn(0, page.text.length)
+                    val pageFontSizePx = with(density) { settings.fontSize.sp.toPx() }
+                    val pageLineHeightPx = with(density) {
+                        (settings.fontSize * settings.lineHeight).sp.toPx()
+                    }
+                    val selectionText = remember(page, pageFontSizePx, pageSearchRanges, accentColor) {
+                        page.selectionOverlayText(
+                            fontSizePx = pageFontSizePx,
+                            accentColor = accentColor,
+                            backgrounds = page.notes.map { note ->
+                                ReaderTextBackground(
+                                    note.start,
+                                    note.end,
+                                    note.note.color.composeColor().copy(alpha = .30f)
+                                )
+                            } + pageSearchRanges.map { match ->
+                                ReaderTextBackground(
+                                    match.start,
+                                    match.end,
+                                    accentColor.copy(alpha = if (match.selected) .52f else .24f)
                                 )
                             }
-                            page.footnotes.forEach { note ->
-                                addStyle(
-                                    SpanStyle(
-                                        color = accentColor,
-                                        fontWeight = FontWeight.SemiBold,
-                                        fontSize = (settings.fontSize * .78f).sp,
-                                        baselineShift = BaselineShift.Superscript
-                                    ),
-                                    note.start.coerceIn(0, page.text.length),
-                                    note.end.coerceIn(0, page.text.length)
-                                )
-                            }
-                            page.notes.forEach { note ->
-                                addStyle(
-                                    SpanStyle(background = note.note.color.composeColor().copy(alpha = .30f)),
-                                    note.start.coerceIn(0, page.text.length),
-                                    note.end.coerceIn(0, page.text.length)
-                                )
-                            }
-                            pageSearchRanges.forEach { match ->
-                                addStyle(
-                                    SpanStyle(
-                                        background = if (match.selected) {
-                                            accentColor.copy(alpha = .52f)
-                                        } else accentColor.copy(alpha = .24f)
-                                    ),
-                                    match.start.coerceIn(0, page.text.length),
-                                    match.end.coerceIn(0, page.text.length)
-                                )
-                            }
-                        }.toAnnotatedString()
+                        )
                     }
                     Box(
                         Modifier.fillMaxSize()
@@ -533,74 +517,60 @@ internal fun ReadingScreen(
                                 horizontal = settings.horizontalPadding.dp,
                                 vertical = settings.verticalPadding.dp
                             )
-                            .pointerInput(pageIndex, pages.size) {
-                                detectTapGestures(
-                                    onTap = { position ->
-                                        val selectedFootnote = pageTextLayout?.let { layout ->
-                                            page.footnotes.firstOrNull {
-                                                layout.hitsTextRange(position, it.start, it.end, footnoteHitSlopPx)
-                                            }
-                                        }
-                                        val selectedNote = pageTextLayout?.let { layout ->
-                                            page.notes.firstOrNull {
-                                                layout.hitsTextRange(position, it.start, it.end, footnoteHitSlopPx)
-                                            }
-                                        }
-                                        when {
-                                            selectedFootnote != null -> footnoteTarget = selectedFootnote.footnote
-                                            selectedNote != null -> {
-                                                val anchor = resolvedNotes.firstOrNull { it.note.id == selectedNote.note.id }
-                                                if (anchor != null) noteTarget = noteDraftTarget(
-                                                    chapter, anchor.paragraphIndex, anchor.start, resolvedNotes
-                                                )
-                                            }
-                                            position.x < size.width * .30f && pagerState.currentPage > 0 ->
-                                                scope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) }
-                                            position.x < size.width * .30f && chapterIndex > 0 -> {
-                                                val targetIndex = chapterIndex - 1
-                                                val target = book.chapters[targetIndex]
-                                                pageAnchorChapter = target.id
-                                                pageAnchorParagraph = target.paragraphs.lastIndex.coerceAtLeast(0)
-                                                pageAnchorCharacterOffset = target.paragraphs.lastOrNull()
-                                                    ?.length?.minus(1)?.coerceAtLeast(0) ?: 0
-                                                chapterIndex = targetIndex
-                                            }
-                                            position.x > size.width * .70f && pagerState.currentPage < pages.lastIndex ->
-                                                scope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) }
-                                            position.x > size.width * .70f && chapterIndex < book.chapters.lastIndex -> {
-                                                val targetIndex = chapterIndex + 1
-                                                val target = book.chapters[targetIndex]
-                                                pageAnchorChapter = target.id
-                                                pageAnchorParagraph = 0
-                                                pageAnchorCharacterOffset = 0
-                                                chapterIndex = targetIndex
-                                            }
-                                            else -> controlsVisible = !controlsVisible
-                                        }
-                                    },
-                                    onLongPress = { position ->
-                                        val layout = pageTextLayout ?: return@detectTapGestures
-                                        val pageOffset = layout.getOffsetForPosition(position)
-                                        val source = page.sourcePositionAt(pageOffset)
-                                            ?: return@detectTapGestures
-                                        noteTarget = noteDraftTarget(
-                                            chapter,
-                                            source.first,
-                                            source.second,
-                                            resolvedNotes
-                                        )
-                                    }
-                                )
-                            }
                     ) {
-                        Text(
-                            pageText,
-                            fontSize = settings.fontSize.sp,
-                            lineHeight = (settings.fontSize * settings.lineHeight).sp,
-                            fontFamily = settings.fontFamily.composeFontFamily,
-                            fontWeight = settings.fontWeight.composeFontWeight,
-                            onTextLayout = { pageTextLayout = it },
-                            modifier = Modifier.fillMaxSize()
+                        ReaderSelectableText(
+                            text = selectionText,
+                            fontSizePx = pageFontSizePx,
+                            lineHeightPx = pageLineHeightPx,
+                            fontFamily = settings.fontFamily,
+                            fontWeight = settings.fontWeight,
+                            contentKey = "page-$pageIndex-${page.hashCode()}-${pageSearchRanges.hashCode()}-${accentColor.hashCode()}-${settings.fontSize}-${settings.lineHeight}-${settings.fontFamily}-${settings.fontWeight}",
+                            textColorArgb = MaterialTheme.colorScheme.onBackground.toArgb(),
+                            modifier = Modifier.fillMaxSize(),
+                            onTextTap = { offset, x, _ ->
+                                if (offset >= 0) {
+                                    val selectedFootnote = page.footnotes.firstOrNull {
+                                        textOffsetHitsRange(offset, it.start, it.end)
+                                    }
+                                    val selectedNote = page.notes.firstOrNull {
+                                        textOffsetHitsRange(offset, it.start, it.end)
+                                    }
+                                    when {
+                                        selectedFootnote != null -> footnoteTarget = selectedFootnote.footnote
+                                        selectedNote != null -> {
+                                            resolvedNotes.firstOrNull { it.note.id == selectedNote.note.id }
+                                                ?.let(::openNoteAnchor)
+                                        }
+                                        x < pageAreaSize.width * .30f && pagerState.currentPage > 0 ->
+                                            scope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) }
+                                        x < pageAreaSize.width * .30f && chapterIndex > 0 -> {
+                                            val targetIndex = chapterIndex - 1
+                                            val target = book.chapters[targetIndex]
+                                            pageAnchorChapter = target.id
+                                            pageAnchorParagraph = target.paragraphs.lastIndex.coerceAtLeast(0)
+                                            pageAnchorCharacterOffset = target.paragraphs.lastOrNull()
+                                                ?.length?.minus(1)?.coerceAtLeast(0) ?: 0
+                                            chapterIndex = targetIndex
+                                        }
+                                        x > pageAreaSize.width * .70f && pagerState.currentPage < pages.lastIndex ->
+                                            scope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) }
+                                        x > pageAreaSize.width * .70f && chapterIndex < book.chapters.lastIndex -> {
+                                            val targetIndex = chapterIndex + 1
+                                            val target = book.chapters[targetIndex]
+                                            pageAnchorChapter = target.id
+                                            pageAnchorParagraph = 0
+                                            pageAnchorCharacterOffset = 0
+                                            chapterIndex = targetIndex
+                                        }
+                                        else -> controlsVisible = !controlsVisible
+                                    }
+                                }
+                            },
+                            onAnnotateSelection = { start, end ->
+                                page.sourceSelection(start, end)?.let { source ->
+                                    openSourceSelection(source.paragraphIndex, source.start, source.end)
+                                } ?: rejectCrossParagraphSelection()
+                            }
                         )
                         Text(
                             "${pageIndex + 1}",
@@ -648,98 +618,93 @@ internal fun ReadingScreen(
                         it.chapterId == chapter.id && it.paragraphIndex == index
                     }
                 }
-                var paragraphLayout by remember(chapter.id, index, paragraph) {
-                    mutableStateOf<TextLayoutResult?>(null)
-                }
                 val indentLength = if (settings.firstLineIndent && section == null && shouldIndentParagraph(paragraph)) 2 else 0
                 val displayParagraph = if (indentLength > 0) "　　$paragraph" else paragraph
-                val annotatedParagraph = remember(
-                    displayParagraph, paragraphFootnotes, paragraphNotes,
-                    paragraphSearchMatches, readerUiState.search.selectedMatch, settings.fontSize
-                ) {
-                    AnnotatedString.Builder(displayParagraph).apply {
-                        paragraphFootnotes.forEach { (reference, _) ->
-                            addStyle(
-                                SpanStyle(
-                                    color = accentColor,
-                                    fontWeight = FontWeight.SemiBold,
-                                    fontSize = (settings.fontSize * .78f).sp,
-                                    baselineShift = BaselineShift.Superscript
-                                ),
-                                (reference.start + indentLength).coerceIn(0, displayParagraph.length),
-                                (reference.end + indentLength).coerceIn(0, displayParagraph.length)
-                            )
-                        }
-                        paragraphNotes.forEach { anchor ->
-                            addStyle(
-                                SpanStyle(background = anchor.note.color.composeColor().copy(alpha = .30f)),
-                                (anchor.start + indentLength).coerceIn(0, displayParagraph.length),
-                                (anchor.end + indentLength).coerceIn(0, displayParagraph.length)
-                            )
-                        }
-                        paragraphSearchMatches.forEach { match ->
-                            addStyle(
-                                SpanStyle(
-                                    background = if (match == readerUiState.search.selectedMatch) {
-                                        accentColor.copy(alpha = .52f)
-                                    } else accentColor.copy(alpha = .24f)
-                                ),
-                                (match.start + indentLength).coerceIn(0, displayParagraph.length),
-                                (match.end + indentLength).coerceIn(0, displayParagraph.length)
-                            )
-                        }
-                    }.toAnnotatedString()
+                val paragraphFontSize = settings.fontSize + when (section?.level) {
+                    2 -> 3f
+                    3, 4 -> 1.5f
+                    else -> 0f
                 }
-                Text(
-                    annotatedParagraph,
-                    fontSize = (settings.fontSize + when (section?.level) { 2 -> 3f; 3, 4 -> 1.5f; else -> 0f }).sp,
-                    lineHeight = (settings.fontSize * settings.lineHeight).sp,
-                    fontFamily = settings.fontFamily.composeFontFamily,
-                    fontWeight = if (section != null) FontWeight.Bold else settings.fontWeight.composeFontWeight,
-                    color = if (section != null) MaterialTheme.colorScheme.primary else Color.Unspecified,
-                    onTextLayout = { paragraphLayout = it },
-                    modifier = Modifier.fillMaxWidth()
-                        .padding(top = if (section != null) 14.dp else 0.dp, bottom = if (section != null) 4.dp else 0.dp)
-                        .pointerInput(chapter.id, index, paragraphFootnotes, paragraphNotes) {
-                            detectTapGestures(
-                                onTap = { position ->
-                                    val selectedFootnote = paragraphLayout?.let { layout ->
-                                        paragraphFootnotes.firstOrNull { (reference, _) ->
-                                            layout.hitsTextRange(
-                                                position,
-                                                reference.start + indentLength,
-                                                reference.end + indentLength,
-                                                footnoteHitSlopPx
-                                            )
-                                        }
-                                    }
-                                    val selectedNote = paragraphLayout?.let { layout ->
-                                        paragraphNotes.firstOrNull { anchor ->
-                                            layout.hitsTextRange(
-                                                position,
-                                                anchor.start + indentLength,
-                                                anchor.end + indentLength,
-                                                footnoteHitSlopPx
-                                            )
-                                        }
-                                    }
-                                    if (selectedFootnote != null) {
-                                        footnoteTarget = selectedFootnote.second
-                                    } else if (selectedNote != null) {
-                                        noteTarget = noteDraftTarget(chapter, index, selectedNote.start, resolvedNotes)
-                                    } else {
-                                        controlsVisible = !controlsVisible
-                                    }
-                                },
-                                onLongPress = { position ->
-                                    val layout = paragraphLayout ?: return@detectTapGestures
-                                    val offset = (layout.getOffsetForPosition(position) - indentLength)
-                                        .coerceIn(0, paragraph.lastIndex.coerceAtLeast(0))
-                                    noteTarget = noteDraftTarget(chapter, index, offset, resolvedNotes)
-                                }
+                val paragraphFontSizePx = with(density) { paragraphFontSize.sp.toPx() }
+                val paragraphLineHeightPx = with(density) {
+                    (settings.fontSize * settings.lineHeight).sp.toPx()
+                }
+                val selectionText = remember(
+                    displayParagraph,
+                    paragraphFootnotes,
+                    paragraphNotes,
+                    paragraphSearchMatches,
+                    readerUiState.search.selectedMatch,
+                    accentColor
+                ) {
+                    selectionOverlayParagraphText(
+                        text = displayParagraph,
+                        footnotes = paragraphFootnotes,
+                        indentLength = indentLength,
+                        accentColor = accentColor,
+                        backgrounds = paragraphNotes.map { anchor ->
+                            ReaderTextBackground(
+                                anchor.start + indentLength,
+                                anchor.end + indentLength,
+                                anchor.note.color.composeColor().copy(alpha = .30f)
+                            )
+                        } + paragraphSearchMatches.map { match ->
+                            ReaderTextBackground(
+                                match.start + indentLength,
+                                match.end + indentLength,
+                                accentColor.copy(
+                                    alpha = if (match == readerUiState.search.selectedMatch) .52f else .24f
+                                )
                             )
                         }
-                )
+                    )
+                }
+                Box(
+                    Modifier.fillMaxWidth()
+                        .padding(
+                            top = if (section != null) 14.dp else 0.dp,
+                            bottom = if (section != null) 4.dp else 0.dp
+                        )
+                ) {
+                    ReaderSelectableText(
+                        text = selectionText,
+                        fontSizePx = paragraphFontSizePx,
+                        lineHeightPx = paragraphLineHeightPx,
+                        fontFamily = settings.fontFamily,
+                        fontWeight = settings.fontWeight,
+                        contentKey = "paragraph-${chapter.id}-$index-${displayParagraph.hashCode()}-${paragraphNotes.hashCode()}-${paragraphSearchMatches.hashCode()}-${readerUiState.search.selectedMatch?.hashCode()}-${accentColor.hashCode()}-${settings.fontSize}-${settings.lineHeight}-${settings.fontFamily}-${settings.fontWeight}-${section?.level}",
+                        textColorArgb = (if (section != null) accentColor else MaterialTheme.colorScheme.onBackground).toArgb(),
+                        modifier = Modifier.fillMaxWidth(),
+                        bold = section != null,
+                        onTextTap = { offset, _, _ ->
+                            if (offset >= 0) {
+                                val sourceOffset = (offset - indentLength).coerceIn(0, paragraph.length)
+                                val selectedFootnote = paragraphFootnotes.firstOrNull { (reference, _) ->
+                                    textOffsetHitsRange(sourceOffset, reference.start, reference.end)
+                                }
+                                val selectedNote = paragraphNotes.firstOrNull { anchor ->
+                                    textOffsetHitsRange(sourceOffset, anchor.start, anchor.end)
+                                }
+                                if (selectedFootnote != null) {
+                                    footnoteTarget = selectedFootnote.second
+                                } else if (selectedNote != null) {
+                                    openNoteAnchor(selectedNote)
+                                } else {
+                                    controlsVisible = !controlsVisible
+                                }
+                            }
+                        },
+                        onAnnotateSelection = { start, end ->
+                            val sourceStart = (start - indentLength).coerceIn(0, paragraph.length)
+                            val sourceEnd = (end - indentLength).coerceIn(0, paragraph.length)
+                            if (sourceEnd > sourceStart) {
+                                openSourceSelection(index, sourceStart, sourceEnd)
+                            } else {
+                                rejectCrossParagraphSelection()
+                            }
+                        }
+                    )
+                }
                 if (paragraphNotes.isNotEmpty()) Text(
                     "${paragraphNotes.count { it.note.kind == NoteKind.HIGHLIGHT }} 条高亮 · ${paragraphNotes.count { it.note.kind == NoteKind.ANNOTATION }} 条批注",
                     color = MaterialTheme.colorScheme.primary,
@@ -817,7 +782,7 @@ internal fun ReadingScreen(
                     .padding(bottom = 36.dp)
                     .navigationBarsPadding()
             ) {
-                Text("正文注释", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                Text("正文自带注释 · 只读", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                 Text(
                     "注释 ${footnote.marker}",
                     style = MaterialTheme.typography.headlineSmall,
@@ -878,10 +843,15 @@ internal fun ReadingScreen(
             onDelete = target.existing?.let { note ->
                 {
                     scope.launch {
-                        repository.deleteNote(note.id)
-                        noteRefreshKey++
-                        noteTarget = null
-                        snackbarHostState.showSnackbar("笔记已删除")
+                        runCatching { repository.deleteNote(note.id) }
+                            .onSuccess {
+                                noteRefreshKey++
+                                noteTarget = null
+                                snackbarHostState.showSnackbar("笔记已删除")
+                            }
+                            .onFailure {
+                                snackbarHostState.showSnackbar(it.message ?: "笔记删除失败")
+                            }
                     }
                 }
             }
