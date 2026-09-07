@@ -96,17 +96,23 @@ internal fun ReadingScreen(
         }
         return
     }
+    val initialPosition = remember(book.id) {
+        if (requestedChapterId == null) readerUiState.savedPosition else null
+    }
     var chapterIndex by rememberSaveable(bookId) {
-        mutableIntStateOf(book.chapters.indexOfFirst { it.id == requestedChapterId }.takeIf { it >= 0 } ?: 0)
+        mutableIntStateOf(book.chapters.indexOfFirst {
+            it.id == (requestedChapterId ?: initialPosition?.chapterId)
+        }.takeIf { it >= 0 } ?: 0)
     }
     val chapter = book.chapters.getOrNull(chapterIndex) ?: return
-    var noteRefreshKey by remember(book.id) { mutableIntStateOf(0) }
+    val dataRevision by repository.dataRevision.collectAsState()
+    val notesRevision by repository.notesRevision.collectAsState()
     var resolvedNotes by remember(book.id, chapter.id) { mutableStateOf<List<ResolvedNoteAnchor>>(emptyList()) }
-    LaunchedEffect(book.id, chapter.id, noteRefreshKey) {
+    LaunchedEffect(book.id, chapter.id, notesRevision) {
         resolvedNotes = repository.resolveNotes(book, chapter)
     }
     var savedChapterProgress by remember(book.id) { mutableStateOf<Map<String, Int>>(emptyMap()) }
-    LaunchedEffect(book.id) {
+    LaunchedEffect(book.id, dataRevision) {
         savedChapterProgress = withContext(Dispatchers.IO) { repository.chapterProgress(book.id) }
     }
     val listState = rememberLazyListState(
@@ -116,10 +122,13 @@ internal fun ReadingScreen(
     )
     var pageAreaSize by remember { mutableStateOf(IntSize.Zero) }
     var pageAnchorChapter by rememberSaveable(book.id) { mutableStateOf(chapter.id) }
-    var pageAnchorParagraph by rememberSaveable(book.id) { mutableIntStateOf(requestedParagraph.coerceAtLeast(0)) }
-    var pageAnchorCharacterOffset by rememberSaveable(book.id) {
-        mutableIntStateOf(requestedCharacterOffset.coerceAtLeast(0))
+    var pageAnchorParagraph by rememberSaveable(book.id) {
+        mutableIntStateOf((initialPosition?.paragraphIndex ?: requestedParagraph).coerceAtLeast(0))
     }
+    var pageAnchorCharacterOffset by rememberSaveable(book.id) {
+        mutableIntStateOf((initialPosition?.characterOffset ?: requestedCharacterOffset).coerceAtLeast(0))
+    }
+    var positionRequest by remember { mutableIntStateOf(0) }
     var readingCompleted by rememberSaveable(book.id) {
         mutableStateOf(requestedCompleted ?: readerUiState.savedPosition?.completed ?: false)
     }
@@ -143,7 +152,7 @@ internal fun ReadingScreen(
     } else settings.mode
     val expandedLayout = LocalConfiguration.current.screenWidthDp >= 900 && density.fontScale < 1.5f
     val accentColor = MaterialTheme.colorScheme.primary
-    val pages by produceState(
+    val layoutPages by produceState<List<ReaderPage>>(
         initialValue = emptyList(),
         book.id,
         chapter.id,
@@ -156,7 +165,8 @@ internal fun ReadingScreen(
         settings.horizontalPadding,
         settings.verticalPadding,
         settings.firstLineIndent,
-        resolvedNotes
+        density.density,
+        density.fontScale
     ) {
         if (pageAreaSize.width <= 0 || pageAreaSize.height <= 0) {
             value = emptyList()
@@ -175,18 +185,13 @@ internal fun ReadingScreen(
                     paragraphSpacingMultiplier = settings.paragraphSpacing,
                     fontFamily = settings.fontFamily,
                     fontWeight = settings.fontWeight,
-                    firstLineIndent = settings.firstLineIndent,
-                    noteAnchors = resolvedNotes
+                    firstLineIndent = settings.firstLineIndent
                 )
             }
         }
     }
+    val pages = remember(layoutPages, resolvedNotes) { layoutPages.withNoteAnchors(resolvedNotes) }
     val pagerState = rememberPagerState(pageCount = { pages.size.coerceAtLeast(1) })
-    LaunchedEffect(pages) {
-        if (pages.isNotEmpty()) pagerState.scrollToPage(
-            pages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset)
-        )
-    }
     val visibleSourcePosition by remember(readingMode, pages) {
         derivedStateOf {
             if (readingMode == ReadingMode.PAGE) {
@@ -197,7 +202,7 @@ internal fun ReadingScreen(
             }
         }
     }
-    val visibleParagraph by remember { derivedStateOf { visibleSourcePosition.first } }
+    val visibleParagraph = visibleSourcePosition.first
     val readingProgressValue by remember(book, chapter.id, visibleSourcePosition, readingCompleted) {
         derivedStateOf {
             book.readingProgress(
@@ -258,22 +263,30 @@ internal fun ReadingScreen(
             }
         }
     }
-    LaunchedEffect(readingMode, listState, chapter.id) {
+    LaunchedEffect(readingMode, listState, chapter.id, positionRequest) {
         if (readingMode == ReadingMode.SCROLL) {
+            listState.scrollToItem(
+                if (pageAnchorParagraph > 0 || pageAnchorCharacterOffset > 0)
+                    (pageAnchorParagraph + 1).coerceAtMost(chapter.paragraphs.size) else 0
+            )
             snapshotFlow { listState.firstVisibleItemIndex }
                 .distinctUntilChanged().collect { index ->
+                    pageAnchorChapter = chapter.id
+                    pageAnchorParagraph = (index - 1).coerceIn(0, chapter.paragraphs.lastIndex.coerceAtLeast(0))
+                    pageAnchorCharacterOffset = 0
                     readerViewModel.savePosition(ReaderPosition(
-                        book.id, chapter.id, (index - 1).coerceAtLeast(0),
+                        book.id, chapter.id, pageAnchorParagraph,
                         updatedAt = System.currentTimeMillis(), completed = readingCompleted
                     ))
                 }
         }
     }
-    LaunchedEffect(readingMode, pagerState, pages) {
-        if (readingMode == ReadingMode.PAGE) {
-            snapshotFlow { pagerState.currentPage }
+    LaunchedEffect(readingMode, pagerState, layoutPages, chapter.id) {
+        if (readingMode == ReadingMode.PAGE && layoutPages.firstOrNull()?.chapterId == chapter.id) {
+            pagerState.scrollToPage(layoutPages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset))
+            snapshotFlow { pagerState.settledPage }
                 .distinctUntilChanged().collect { pageIndex ->
-                    pages.getOrNull(pageIndex)?.let { page ->
+                    layoutPages.getOrNull(pageIndex)?.let { page ->
                         val sourcePosition = page.firstSourcePosition()
                         pageAnchorChapter = page.chapterId
                         pageAnchorParagraph = sourcePosition.first
@@ -288,47 +301,75 @@ internal fun ReadingScreen(
                 }
         }
     }
-    DisposableEffect(book.id, chapter.id, readingMode) {
+    // Read the latest visible position when leaving or moving to the background.
+    // A chapter still being laid out must not overwrite the last valid position.
+    val latestPosition = rememberUpdatedState(
+        if (readingMode == ReadingMode.SCROLL || pages.firstOrNull()?.chapterId == chapter.id) {
+            ReaderPosition(book.id, chapter.id, visibleSourcePosition.first,
+                characterOffset = visibleSourcePosition.second,
+                completed = readingCompleted, updatedAt = System.currentTimeMillis())
+        } else readerUiState.savedPosition
+    )
+    DisposableEffect(book.id, readerActivity) {
+        fun persist() { latestPosition.value?.let(readerViewModel::savePosition) }
+        val owner = readerActivity as? androidx.lifecycle.LifecycleOwner
+        val observer = object : androidx.lifecycle.DefaultLifecycleObserver {
+            override fun onPause(owner: androidx.lifecycle.LifecycleOwner) = persist()
+        }
+        owner?.lifecycle?.addObserver(observer)
         onDispose {
-            if (readingMode == ReadingMode.PAGE) {
-                pages.getOrNull(pagerState.currentPage)?.let {
-                    val sourcePosition = it.firstSourcePosition()
-                    readerViewModel.savePosition(ReaderPosition(
-                        book.id, it.chapterId, sourcePosition.first,
-                        updatedAt = System.currentTimeMillis(),
-                        characterOffset = sourcePosition.second,
-                        completed = readingCompleted
-                    ))
-                }
-            } else {
-                readerViewModel.savePosition(ReaderPosition(
-                    book.id, chapter.id, (listState.firstVisibleItemIndex - 1).coerceAtLeast(0),
-                    updatedAt = System.currentTimeMillis(), completed = readingCompleted
-                ))
-            }
+            owner?.lifecycle?.removeObserver(observer)
+            persist()
+        }
+    }
+    val writeError by repository.writeError.collectAsState()
+    LaunchedEffect(writeError) {
+        writeError?.let {
+            snackbarHostState.showSnackbar(it)
+            repository.dismissWriteError()
+        }
+    }
+
+    fun jumpToPosition(chapterId: String, paragraph: Int, characterOffset: Int = 0) {
+        val targetIndex = book.chapters.indexOfFirst { it.id == chapterId }
+        if (targetIndex < 0) return
+        val sameChapter = targetIndex == chapterIndex
+        pageAnchorChapter = chapterId
+        pageAnchorParagraph = paragraph.coerceAtLeast(0)
+        pageAnchorCharacterOffset = characterOffset.coerceAtLeast(0)
+        chapterIndex = targetIndex
+        positionRequest++
+        if (readingMode == ReadingMode.PAGE && sameChapter) scope.launch {
+            pagerState.scrollToPage(layoutPages.pageFor(chapterId, paragraph, characterOffset))
+        }
+    }
+    fun markCompleted() {
+        if (readingCompleted) return
+        readingCompleted = true
+        readerViewModel.savePosition(ReaderPosition(
+            book.id, chapter.id, chapter.paragraphs.lastIndex.coerceAtLeast(0),
+            characterOffset = chapter.paragraphs.lastOrNull()?.length ?: 0,
+            completed = true, updatedAt = System.currentTimeMillis()
+        ))
+        scope.launch { snackbarHostState.showSnackbar("已读完全书") }
+    }
+    fun turnPage(delta: Int, markEnd: Boolean = false) {
+        val targetPage = pagerState.currentPage + delta
+        if (readingMode == ReadingMode.PAGE && targetPage in pages.indices) {
+            scope.launch { pagerState.animateScrollToPage(targetPage) }
+        } else {
+            val target = book.chapters.getOrNull(chapterIndex + delta)
+            if (target != null) {
+                val atEnd = delta < 0 && readingMode == ReadingMode.PAGE
+                jumpToPosition(target.id,
+                    if (atEnd) target.paragraphs.lastIndex.coerceAtLeast(0) else 0,
+                    if (atEnd) target.paragraphs.lastOrNull()?.length?.minus(1)?.coerceAtLeast(0) ?: 0 else 0)
+            } else if (delta > 0 && markEnd) markCompleted()
+            else controlsVisible = !controlsVisible
         }
     }
     val jumpToSearchMatch: (ReaderSearchMatch) -> Unit = { match ->
-        val targetChapterIndex = book.chapters.indexOfFirst { it.id == match.chapterId }
-        if (targetChapterIndex >= 0) {
-            val chapterAlreadyVisible = targetChapterIndex == chapterIndex
-            pageAnchorChapter = match.chapterId
-            pageAnchorParagraph = match.paragraphIndex
-            pageAnchorCharacterOffset = match.start
-            chapterIndex = targetChapterIndex
-            if (readingMode == ReadingMode.PAGE && chapterAlreadyVisible) {
-                scope.launch {
-                    pagerState.scrollToPage(
-                        pages.pageFor(match.chapterId, match.paragraphIndex, match.start)
-                    )
-                }
-            } else if (readingMode == ReadingMode.SCROLL) {
-                scope.launch {
-                    delay(1)
-                    listState.scrollToItem(match.paragraphIndex + 1)
-                }
-            }
-        }
+        jumpToPosition(match.chapterId, match.paragraphIndex, match.start)
     }
     fun openSourceSelection(paragraphIndex: Int, start: Int, end: Int) {
         val paragraph = chapter.paragraphs.getOrNull(paragraphIndex) ?: return
@@ -376,30 +417,13 @@ internal fun ReadingScreen(
         },
         snackbarHost = { SnackbarHost(snackbarHostState) },
         bottomBar = {
-            if (controlsVisible) Surface(shadowElevation = 8.dp) {
+            if (controlsVisible) Surface(tonalElevation = 2.dp, color = MaterialTheme.colorScheme.surfaceContainerLow) {
                 Row(
-                    Modifier.fillMaxWidth().navigationBarsPadding().height(58.dp),
+                    Modifier.fillMaxWidth().navigationBarsPadding().heightIn(min = 64.dp),
                     horizontalArrangement = Arrangement.SpaceEvenly,
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    IconButton(onClick = {
-                        if (readingMode == ReadingMode.PAGE) {
-                            if (pagerState.currentPage > 0) scope.launch {
-                                pagerState.animateScrollToPage(pagerState.currentPage - 1)
-                            } else if (chapterIndex > 0) {
-                                val targetIndex = chapterIndex - 1
-                                val target = book.chapters[targetIndex]
-                                pageAnchorChapter = target.id
-                                pageAnchorParagraph = target.paragraphs.lastIndex.coerceAtLeast(0)
-                                pageAnchorCharacterOffset = target.paragraphs.lastOrNull()
-                                    ?.length?.minus(1)?.coerceAtLeast(0) ?: 0
-                                chapterIndex = targetIndex
-                            }
-                        } else if (chapterIndex > 0) {
-                            chapterIndex--
-                            scope.launch { listState.scrollToItem(0) }
-                        }
-                    }, enabled = if (readingMode == ReadingMode.PAGE) pagerState.currentPage > 0 || chapterIndex > 0 else chapterIndex > 0) {
+                    IconButton(onClick = { turnPage(-1) }, enabled = if (readingMode == ReadingMode.PAGE) pagerState.currentPage > 0 || chapterIndex > 0 else chapterIndex > 0) {
                         Icon(Icons.Default.SkipPrevious, if (readingMode == ReadingMode.PAGE) "上一页" else "上一章")
                     }
                     val progressLabel = if (readingMode == ReadingMode.PAGE && pages.isNotEmpty()) {
@@ -412,43 +436,7 @@ internal fun ReadingScreen(
                             stateDescription = progressLabel
                         }
                     )
-                    IconButton(onClick = {
-                        if (readingMode == ReadingMode.PAGE) {
-                            if (pagerState.currentPage < pages.lastIndex) scope.launch {
-                                pagerState.animateScrollToPage(pagerState.currentPage + 1)
-                            } else if (chapterIndex < book.chapters.lastIndex) {
-                                val targetIndex = chapterIndex + 1
-                                val target = book.chapters[targetIndex]
-                                pageAnchorChapter = target.id
-                                pageAnchorParagraph = 0
-                                pageAnchorCharacterOffset = 0
-                                chapterIndex = targetIndex
-                            } else if (!readingCompleted) {
-                                readingCompleted = true
-                                val lastParagraph = chapter.paragraphs.lastIndex.coerceAtLeast(0)
-                                readerViewModel.savePosition(ReaderPosition(
-                                    book.id, chapter.id, lastParagraph,
-                                    updatedAt = System.currentTimeMillis(),
-                                    characterOffset = chapter.paragraphs.lastOrNull()?.length ?: 0,
-                                    completed = true
-                                ))
-                                scope.launch { snackbarHostState.showSnackbar("已读完全书") }
-                            }
-                        } else if (chapterIndex < book.chapters.lastIndex) {
-                            chapterIndex++
-                            scope.launch { listState.scrollToItem(0) }
-                        } else if (!readingCompleted) {
-                            readingCompleted = true
-                            val lastParagraph = chapter.paragraphs.lastIndex.coerceAtLeast(0)
-                            readerViewModel.savePosition(ReaderPosition(
-                                book.id, chapter.id, lastParagraph,
-                                updatedAt = System.currentTimeMillis(),
-                                characterOffset = chapter.paragraphs.lastOrNull()?.length ?: 0,
-                                completed = true
-                            ))
-                            scope.launch { snackbarHostState.showSnackbar("已读完全书") }
-                        }
-                    }, enabled = if (readingMode == ReadingMode.PAGE) {
+                    IconButton(onClick = { turnPage(1, markEnd = true) }, enabled = if (readingMode == ReadingMode.PAGE) {
                         pages.isNotEmpty() && (
                             pagerState.currentPage < pages.lastIndex ||
                                 chapterIndex < book.chapters.lastIndex || !readingCompleted
@@ -541,27 +529,8 @@ internal fun ReadingScreen(
                                             resolvedNotes.firstOrNull { it.note.id == selectedNote.note.id }
                                                 ?.let(::openNoteAnchor)
                                         }
-                                        x < pageAreaSize.width * .30f && pagerState.currentPage > 0 ->
-                                            scope.launch { pagerState.animateScrollToPage(pagerState.currentPage - 1) }
-                                        x < pageAreaSize.width * .30f && chapterIndex > 0 -> {
-                                            val targetIndex = chapterIndex - 1
-                                            val target = book.chapters[targetIndex]
-                                            pageAnchorChapter = target.id
-                                            pageAnchorParagraph = target.paragraphs.lastIndex.coerceAtLeast(0)
-                                            pageAnchorCharacterOffset = target.paragraphs.lastOrNull()
-                                                ?.length?.minus(1)?.coerceAtLeast(0) ?: 0
-                                            chapterIndex = targetIndex
-                                        }
-                                        x > pageAreaSize.width * .70f && pagerState.currentPage < pages.lastIndex ->
-                                            scope.launch { pagerState.animateScrollToPage(pagerState.currentPage + 1) }
-                                        x > pageAreaSize.width * .70f && chapterIndex < book.chapters.lastIndex -> {
-                                            val targetIndex = chapterIndex + 1
-                                            val target = book.chapters[targetIndex]
-                                            pageAnchorChapter = target.id
-                                            pageAnchorParagraph = 0
-                                            pageAnchorCharacterOffset = 0
-                                            chapterIndex = targetIndex
-                                        }
+                                        x < pageAreaSize.width * .30f -> turnPage(-1)
+                                        x > pageAreaSize.width * .70f -> turnPage(1)
                                         else -> controlsVisible = !controlsVisible
                                     }
                                 }
@@ -725,16 +694,7 @@ internal fun ReadingScreen(
                 chapterProgress = savedChapterProgress,
                 modifier = Modifier.fillMaxSize(),
                 autoScrollToCurrent = true,
-                onSelect = { chapterId, paragraph ->
-                    chapterIndex = book.chapters.indexOfFirst { it.id == chapterId }.coerceAtLeast(0)
-                    pageAnchorChapter = chapterId
-                    pageAnchorParagraph = paragraph
-                    pageAnchorCharacterOffset = 0
-                    if (readingMode == ReadingMode.SCROLL) scope.launch {
-                        delay(1)
-                        listState.scrollToItem(if (paragraph > 0) paragraph + 1 else 0)
-                    }
-                }
+                onSelect = { chapterId, paragraph -> jumpToPosition(chapterId, paragraph) }
             )
         }
         }
@@ -749,16 +709,8 @@ internal fun ReadingScreen(
             modifier = Modifier.fillMaxWidth().fillMaxHeight(.9f),
             autoScrollToCurrent = true,
             onSelect = { chapterId, paragraph ->
-                chapterIndex = book.chapters.indexOfFirst { it.id == chapterId }.coerceAtLeast(0)
                 showToc = false
-                if (readingMode == ReadingMode.PAGE) {
-                    pageAnchorChapter = chapterId
-                    pageAnchorParagraph = paragraph
-                    pageAnchorCharacterOffset = 0
-                    scope.launch { pagerState.scrollToPage(pages.pageFor(chapterId, paragraph)) }
-                } else {
-                    scope.launch { listState.scrollToItem(if (paragraph > 0) paragraph + 1 else 0) }
-                }
+                jumpToPosition(chapterId, paragraph)
             }
         )
     }
@@ -805,15 +757,20 @@ internal fun ReadingScreen(
             target = target,
             onDismiss = { noteTarget = null },
             onBookmark = {
-                repository.toggleBookmark(
-                    book.id, chapter.id, target.paragraphIndex, target.selection.text
-                )
-                noteTarget = null
-                scope.launch { snackbarHostState.showSnackbar("已添加书签") }
+                scope.launch {
+                    readerOperation {
+                        repository.toggleBookmark(book.id, chapter.id, target.paragraphIndex, target.selection.text)
+                    }.onSuccess { added ->
+                        noteTarget = null
+                        snackbarHostState.showSnackbar(if (added) "已添加书签" else "已移除书签")
+                    }.onFailure {
+                        snackbarHostState.showSnackbar("书签保存失败，请重试")
+                    }
+                }
             },
             onSave = { value ->
                 scope.launch {
-                    runCatching {
+                    readerOperation {
                         val existing = target.existing
                         repository.saveNote(noteForSelection(
                             bookId = book.id,
@@ -830,7 +787,6 @@ internal fun ReadingScreen(
                             updatedAt = System.currentTimeMillis()
                         ))
                     }.onSuccess {
-                        noteRefreshKey++
                         noteTarget = null
                         snackbarHostState.showSnackbar(
                             if (value.kind == NoteKind.HIGHLIGHT) "高亮已保存" else "批注已保存"
@@ -843,10 +799,9 @@ internal fun ReadingScreen(
             onDelete = target.existing?.let { note ->
                 {
                     scope.launch {
-                        runCatching { repository.deleteNote(note.id) }
+                        readerOperation { repository.deleteNote(note.id) }
                             .onSuccess {
-                                noteRefreshKey++
-                                noteTarget = null
+                                        noteTarget = null
                                 snackbarHostState.showSnackbar("笔记已删除")
                             }
                             .onFailure {

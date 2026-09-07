@@ -60,6 +60,25 @@ data class PageSourceSelection(
     val end: Int
 )
 
+/** Annotations decorate an existing layout; they never change page boundaries. */
+internal fun List<ReaderPage>.withNoteAnchors(anchors: List<ResolvedNoteAnchor>): List<ReaderPage> {
+    val byLocation = anchors.groupBy { it.note.chapterId to it.paragraphIndex }
+    return map { page ->
+        val notes = page.paragraphRanges.flatMap { range ->
+            byLocation[page.chapterId to range.paragraphIndex].orEmpty().mapNotNull { anchor ->
+                val start = maxOf(anchor.start, range.sourceStart)
+                val end = minOf(anchor.end, range.sourceStart + range.end - range.start)
+                if (start < end) PageNote(
+                    range.start + start - range.sourceStart,
+                    range.start + end - range.sourceStart,
+                    anchor.note
+                ) else null
+            }
+        }
+        page.copy(notes = notes)
+    }
+}
+
 fun ReaderPage.sourceSelection(pageStart: Int, pageEnd: Int): PageSourceSelection? {
     val start = minOf(pageStart, pageEnd).coerceIn(0, text.length)
     val end = maxOf(pageStart, pageEnd).coerceIn(0, text.length)

@@ -75,7 +75,7 @@ internal sealed interface Screen : java.io.Serializable {
     ) : Screen
 }
 
-private enum class HomeTab { LIBRARY, SEARCH, SHELF, SETTINGS }
+internal enum class HomeTab { LIBRARY, SEARCH, SHELF, SETTINGS }
 
 @Composable
 fun ReaderApp(repository: LibraryRepository, preferences: ReaderPreferences) {
@@ -85,7 +85,7 @@ fun ReaderApp(repository: LibraryRepository, preferences: ReaderPreferences) {
         var initializationError by remember { mutableStateOf<String?>(null) }
         val catalog by repository.catalog.collectAsState()
         LaunchedEffect(Unit) {
-            runCatching { repository.initialize() }
+            readerOperation { repository.initialize() }
                 .onSuccess { initialized = true }
                 .onFailure { initializationError = it.message ?: "书库初始化失败" }
         }
@@ -104,26 +104,37 @@ private fun AppNavigator(
     preferences: ReaderPreferences,
     settings: ReaderSettings
 ) {
-    var screen by rememberSaveable { mutableStateOf<Screen>(Screen.Home) }
-    val history = remember { mutableStateListOf<Screen>() }
+    var backStack by rememberSaveable(
+        stateSaver = androidx.compose.runtime.saveable.listSaver<List<Screen>, Screen>(
+            save = { it }, restore = { it }
+        )
+    ) { mutableStateOf<List<Screen>>(listOf(Screen.Home)) }
+    var tab by rememberSaveable { mutableStateOf(HomeTab.LIBRARY) }
+    val screen = backStack.last()
+    val stateHolder = androidx.compose.runtime.saveable.rememberSaveableStateHolder()
     fun navigate(next: Screen) {
-        history += screen
-        screen = next
+        if (next != screen) backStack = backStack + next
     }
     fun back() {
-        screen = history.removeLastOrNull() ?: Screen.Home
+        if (backStack.size > 1) {
+            stateHolder.removeState(screen.stateKey())
+            backStack = backStack.dropLast(1)
+        }
     }
-    BackHandler(screen !is Screen.Home) { back() }
+    BackHandler(backStack.size > 1) { back() }
+
+    stateHolder.SaveableStateProvider(screen.stateKey()) {
 
     when (val current = screen) {
-        Screen.Home -> HomeScreen(catalog, repository, preferences, settings, ::navigate)
+        Screen.Home -> HomeScreen(catalog, repository, preferences, settings, tab, { tab = it }, ::navigate)
         is Screen.AuthorDetail -> AuthorScreen(catalog, repository, current.authorId, ::back, ::navigate)
         is Screen.BookDetail -> BookScreen(catalog, repository, current.bookId, ::back, ::navigate)
-        is Screen.Reader -> ReadingScreen(
+        is Screen.Reader -> ReaderDestination(current.bookId) { ReadingScreen(
             catalog, repository, preferences, settings,
             current.bookId, current.chapterId, current.paragraph, current.characterOffset,
             current.completed, ::back, ::navigate
-        )
+        ) }
+    }
     }
 }
 
@@ -156,32 +167,35 @@ private fun HomeScreen(
     repository: LibraryRepository,
     preferences: ReaderPreferences,
     settings: ReaderSettings,
+    tab: HomeTab,
+    selectTab: (HomeTab) -> Unit,
     navigate: (Screen) -> Unit
 ) {
-    var tab by rememberSaveable { mutableStateOf(HomeTab.LIBRARY) }
+    val tabStateHolder = androidx.compose.runtime.saveable.rememberSaveableStateHolder()
     Scaffold(
         containerColor = MaterialTheme.colorScheme.background,
         topBar = {
             Surface(color = MaterialTheme.colorScheme.background) {
                 Row(
-                    Modifier.fillMaxWidth().statusBarsPadding().height(72.dp).padding(horizontal = 20.dp),
+                        Modifier.fillMaxWidth().statusBarsPadding().heightIn(min = 76.dp).padding(horizontal = 20.dp, vertical = 10.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     BrandMark(42.dp)
                     Column(Modifier.weight(1f).padding(start = 13.dp)) {
                         Text(stringResource(R.string.app_name), style = MaterialTheme.typography.titleLarge)
+                        Text("思想原典 · 随身阅读", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                     Surface(
                         color = MaterialTheme.colorScheme.secondaryContainer,
                         contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
                         shape = MaterialTheme.shapes.small
-                    ) { Text("纯中文", Modifier.padding(horizontal = 10.dp, vertical = 6.dp), style = MaterialTheme.typography.labelSmall) }
+                    ) { Text("离线文库", Modifier.padding(horizontal = 10.dp, vertical = 6.dp), style = MaterialTheme.typography.labelSmall) }
                 }
             }
         },
         bottomBar = {
             NavigationBar(
-                containerColor = MaterialTheme.colorScheme.surfaceContainerLow,
+                containerColor = MaterialTheme.colorScheme.surface,
                 tonalElevation = 0.dp
             ) {
                 HomeTab.entries.forEach { item ->
@@ -193,7 +207,7 @@ private fun HomeScreen(
                     }
                     NavigationBarItem(
                         selected = tab == item,
-                        onClick = { tab = item },
+                        onClick = { selectTab(item) },
                         icon = { Icon(pair.first, pair.second) },
                         label = { Text(pair.second) },
                         colors = NavigationBarItemDefaults.colors(
@@ -207,11 +221,13 @@ private fun HomeScreen(
         }
     ) { padding ->
         Box(Modifier.padding(padding).fillMaxSize()) {
+            tabStateHolder.SaveableStateProvider(tab.name) {
             when (tab) {
-                HomeTab.LIBRARY -> LibraryTab(catalog, repository, navigate) { tab = HomeTab.SEARCH }
-                HomeTab.SEARCH -> SearchTab(catalog, repository, preferences, navigate)
-                HomeTab.SHELF -> ShelfTab(catalog, repository, navigate) { tab = HomeTab.LIBRARY }
+                HomeTab.LIBRARY -> LibraryTab(catalog, repository, navigate) { selectTab(HomeTab.SEARCH) }
+                HomeTab.SEARCH -> ReaderDestination { SearchTab(catalog, repository, preferences, navigate) }
+                HomeTab.SHELF -> ReaderDestination { ShelfTab(catalog, repository, navigate) { selectTab(HomeTab.LIBRARY) } }
                 HomeTab.SETTINGS -> SettingsTab(repository, preferences, settings)
+            }
             }
         }
     }
@@ -225,7 +241,8 @@ private fun LibraryTab(
     openSearch: () -> Unit
 ) {
     var progress by remember(catalog) { mutableStateOf<Map<String, ReadingProgress>>(emptyMap()) }
-    LaunchedEffect(catalog) {
+    val dataRevision by repository.dataRevision.collectAsState()
+    LaunchedEffect(catalog, dataRevision) {
         progress = withContext(Dispatchers.IO) { repository.allProgress() }
     }
     val recent = remember(progress) { progress.values.maxByOrNull { it.updatedAt } }
@@ -234,15 +251,7 @@ private fun LibraryTab(
         contentPadding = PaddingValues(start = 18.dp, top = 12.dp, end = 18.dp, bottom = 28.dp),
         verticalArrangement = Arrangement.spacedBy(14.dp)
     ) {
-        item {
-            Text("全部作品", style = MaterialTheme.typography.headlineMedium)
-            Text(
-                "${catalog.authors.size} 位作者 · ${catalog.books.size} 部/篇作品",
-                color = MaterialTheme.colorScheme.onSurfaceVariant,
-                style = MaterialTheme.typography.bodyMedium,
-                modifier = Modifier.padding(top = 4.dp)
-            )
-        }
+        item { LibraryOverview(catalog.authors.size, catalog.books.size) }
         item {
             Card(
                 onClick = openSearch,
@@ -267,25 +276,25 @@ private fun LibraryTab(
                         recent.characterOffset, recent.completed
                     ))
                 },
-                colors = CardDefaults.elevatedCardColors(containerColor = MaterialTheme.colorScheme.primaryContainer),
+                colors = CardDefaults.elevatedCardColors(containerColor = MaterialTheme.colorScheme.primary),
                 elevation = CardDefaults.elevatedCardElevation(defaultElevation = 1.dp)
             ) {
                 Column(Modifier.fillMaxWidth().padding(18.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Surface(
-                            color = MaterialTheme.colorScheme.primary,
-                            contentColor = MaterialTheme.colorScheme.onPrimary,
+                            color = MaterialTheme.colorScheme.onPrimary,
+                            contentColor = MaterialTheme.colorScheme.primary,
                             shape = MaterialTheme.shapes.medium
                         ) { Icon(Icons.Default.PlayArrow, null, Modifier.padding(10.dp).size(24.dp)) }
                         Column(Modifier.weight(1f).padding(start = 14.dp)) {
-                            Text("继续上次阅读", color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.labelLarge)
-                            Text(book.displayTitle, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
+                            Text("继续上次阅读", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelLarge)
+                            Text(book.displayTitle, color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         }
-                        Icon(Icons.AutoMirrored.Filled.ArrowForward, null, tint = MaterialTheme.colorScheme.primary)
+                        Icon(Icons.AutoMirrored.Filled.ArrowForward, null, tint = MaterialTheme.colorScheme.onPrimary)
                     }
                     Text(
                         book.chapters.firstOrNull { it.id == recent.chapterId }?.title.orEmpty(),
-                        color = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = .76f),
+                        color = MaterialTheme.colorScheme.onPrimary.copy(alpha = .76f),
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         style = MaterialTheme.typography.bodySmall,
@@ -295,12 +304,12 @@ private fun LibraryTab(
                     LinearProgressIndicator(
                         progress = { recentProgress.fraction },
                         modifier = Modifier.fillMaxWidth().padding(top = 10.dp).height(4.dp).clip(MaterialTheme.shapes.extraSmall),
-                        color = MaterialTheme.colorScheme.primary,
-                        trackColor = MaterialTheme.colorScheme.onPrimaryContainer.copy(alpha = .12f)
+                        color = MaterialTheme.colorScheme.onPrimary,
+                        trackColor = MaterialTheme.colorScheme.onPrimary.copy(alpha = .12f)
                     )
                     Text(
                         if (recentProgress.completed) "已读完" else "全书 ${recentProgress.displayPercent}",
-                        color = MaterialTheme.colorScheme.primary,
+                        color = MaterialTheme.colorScheme.onPrimary,
                         style = MaterialTheme.typography.labelSmall,
                         modifier = Modifier.padding(top = 6.dp)
                     )
@@ -352,7 +361,8 @@ private fun AuthorScreen(
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
     var readingProgress by remember(authorId) { mutableStateOf<Map<String, ReadingProgress>>(emptyMap()) }
-    LaunchedEffect(authorId) {
+    val dataRevision by repository.dataRevision.collectAsState()
+    LaunchedEffect(authorId, dataRevision) {
         readingProgress = withContext(Dispatchers.IO) { repository.allProgress() }
     }
     val showScrollToTop by remember { derivedStateOf { listState.firstVisibleItemIndex > 2 } }
@@ -445,6 +455,7 @@ private fun AuthorScreen(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun BookCard(book: Book, progress: ReadingProgress?, onClick: () -> Unit) {
     val progressValue = remember(book, progress) { book.readingProgress(progress) }
@@ -453,22 +464,13 @@ private fun BookCard(book: Book, progress: ReadingProgress?, onClick: () -> Unit
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow)
     ) {
         Row(Modifier.fillMaxWidth().padding(15.dp), verticalAlignment = Alignment.Top) {
-            Surface(
-                modifier = Modifier.width(42.dp).height(58.dp),
-                color = MaterialTheme.colorScheme.primaryContainer,
-                contentColor = MaterialTheme.colorScheme.primary,
-                shape = MaterialTheme.shapes.small
-            ) {
-                Box(contentAlignment = Alignment.Center) {
-                    Icon(Icons.AutoMirrored.Filled.MenuBook, null, modifier = Modifier.size(21.dp))
-                }
-            }
+            BookCoverMark(book.displayTitle, Modifier.width(44.dp).height(62.dp))
             Column(Modifier.weight(1f).padding(start = 13.dp)) {
                 Text(book.displayTitle, style = MaterialTheme.typography.titleMedium, maxLines = 2, overflow = TextOverflow.Ellipsis)
-                Row(
+                FlowRow(
                     modifier = Modifier.padding(top = 7.dp),
                     horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    verticalAlignment = Alignment.CenterVertically
+                    verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     book.category.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
                     book.year.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
@@ -558,72 +560,6 @@ private fun BookScreen(
 }
 
 @Composable
-private fun LegacyBookScreen(
-    catalog: LibraryCatalog,
-    repository: LibraryRepository,
-    bookId: String,
-    back: () -> Unit,
-    navigate: (Screen) -> Unit
-) {
-    val metadata = catalog.book(bookId) ?: return
-    val readerViewModel: ReaderViewModel = viewModel(
-        key = "reader-$bookId",
-        factory = ReaderViewModel.factory(repository, bookId)
-    )
-    val readerUiState by readerViewModel.uiState.collectAsState()
-    val book = readerUiState.book
-    if (book == null) {
-        Scaffold(topBar = { ReaderTopBar(metadata.displayTitle, metadata.year, back) }) { padding ->
-            Box(Modifier.padding(padding).fillMaxSize(), contentAlignment = Alignment.Center) {
-                if (readerUiState.error == null) CircularProgressIndicator()
-                else Text(readerUiState.error!!, color = MaterialTheme.colorScheme.error)
-            }
-        }
-        return
-    }
-    var progress by remember(bookId) { mutableStateOf<ReadingProgress?>(null) }
-    LaunchedEffect(bookId) {
-        progress = withContext(Dispatchers.IO) { repository.progress(bookId) }
-    }
-    Scaffold(topBar = { ReaderTopBar(book.displayTitle, book.year, back) }) { padding ->
-        LazyColumn(
-            Modifier.padding(padding).fillMaxSize(),
-            contentPadding = PaddingValues(18.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp)
-        ) {
-            item {
-                if (book.description.isNotBlank()) Text(book.description, style = MaterialTheme.typography.bodyLarge)
-                Spacer(Modifier.height(14.dp))
-                Button(
-                    onClick = {
-                        navigate(Screen.Reader(
-                            book.id, progress?.chapterId, progress?.paragraphIndex ?: 0,
-                            progress?.characterOffset ?: 0, progress?.completed ?: false
-                        ))
-                    }, modifier = Modifier.fillMaxWidth(), enabled = book.chapters.any { it.paragraphs.isNotEmpty() }
-                ) {
-                    Icon(if (progress == null) Icons.AutoMirrored.Filled.MenuBook else Icons.Default.PlayArrow, null)
-                    Text(if (progress == null) "开始离线阅读" else "继续阅读", Modifier.padding(start = 8.dp))
-                }
-                RightsPanel(book)
-                SectionTitle("目录 · ${book.chapters.size} 章")
-            }
-            items(book.chapters, key = { it.id }) { chapter ->
-                ListItem(
-                    headlineContent = { Text(chapter.title, fontWeight = if (chapter.level == 1) FontWeight.SemiBold else FontWeight.Normal) },
-                    supportingContent = { Text("${chapter.paragraphs.size} 段") },
-                    leadingContent = { Text((book.chapters.indexOf(chapter) + 1).toString(), color = MaterialTheme.colorScheme.primary) },
-                    trailingContent = { Icon(Icons.Default.ChevronRight, null) },
-                    modifier = Modifier.clip(RoundedCornerShape(10.dp)).clickable {
-                        navigate(Screen.Reader(book.id, chapter.id, 0))
-                    }
-                )
-            }
-        }
-    }
-}
-
-@Composable
 private fun BookHero(book: Book) {
     Surface(
         color = MaterialTheme.colorScheme.surfaceContainerLow,
@@ -632,17 +568,7 @@ private fun BookHero(book: Book) {
     ) {
         Column(Modifier.padding(20.dp)) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Surface(
-                    modifier = Modifier.width(58.dp).height(78.dp),
-                    color = MaterialTheme.colorScheme.primary,
-                    contentColor = MaterialTheme.colorScheme.onPrimary,
-                    shape = MaterialTheme.shapes.medium,
-                    shadowElevation = 2.dp
-                ) {
-                    Box(contentAlignment = Alignment.Center) {
-                        Icon(Icons.AutoMirrored.Filled.MenuBook, null, modifier = Modifier.size(28.dp))
-                    }
-                }
+                BookCoverMark(book.displayTitle, Modifier.width(62.dp).height(84.dp))
                 Column(Modifier.weight(1f).padding(start = 16.dp)) {
                     Text(book.displayTitle, style = MaterialTheme.typography.headlineSmall, maxLines = 3, overflow = TextOverflow.Ellipsis)
                     Text(

@@ -10,6 +10,10 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.Deferred
+import kotlinx.coroutines.async
+import kotlinx.coroutines.flow.update
 import java.security.MessageDigest
 
 data class SearchIndexState(
@@ -22,20 +26,32 @@ data class SearchIndexState(
 @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class LibraryRepository(private val context: Context) {
     private val database = ReaderDatabase(context)
-    private val ioScope = CoroutineScope(SupervisorJob() + Dispatchers.IO.limitedParallelism(1))
+    private val writeDispatcher = Dispatchers.IO.limitedParallelism(1)
+    private val ioScope = CoroutineScope(SupervisorJob() + writeDispatcher)
     private val mutableCatalog = MutableStateFlow(LibraryCatalog(emptyList(), emptyList()))
     private val loadedBooks = object : LinkedHashMap<String, Book>(6, .75f, true) {
         override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, Book>?): Boolean = size > 4
     }
     private val mutableSearchIndexState = MutableStateFlow(SearchIndexState())
     private val searchIndexMutex = Mutex()
+    private val initializationMutex = Mutex()
+    private val writeMutex = Mutex()
+    private var indexBuild: Deferred<Unit>? = null
+    private val mutableDataRevision = MutableStateFlow(0L)
+    private val mutableNotesRevision = MutableStateFlow(0L)
+    private val mutableWriteError = MutableStateFlow<String?>(null)
+    val dataRevision = mutableDataRevision.asStateFlow()
+    val notesRevision = mutableNotesRevision.asStateFlow()
+    val writeError = mutableWriteError.asStateFlow()
     @Volatile private var catalogFingerprint = ""
     @Volatile private var searchReadyFor = ""
     val catalog = mutableCatalog.asStateFlow()
     val searchIndexState = mutableSearchIndexState.asStateFlow()
 
     suspend fun initialize() = withContext(Dispatchers.IO) {
-        reload()
+        initializationMutex.withLock {
+            if (catalogFingerprint.isEmpty()) reload()
+        }
     }
 
     suspend fun reload() = withContext(Dispatchers.IO) {
@@ -63,14 +79,28 @@ class LibraryRepository(private val context: Context) {
         completed: Boolean = false
     ) {
         ioScope.launch {
-            database.saveProgress(bookId, chapterId, paragraphIndex, characterOffset, completed)
+            try {
+                write { database.saveProgress(bookId, chapterId, paragraphIndex, characterOffset, completed) }
+            } catch (cancelled: CancellationException) {
+                throw cancelled
+            } catch (error: Exception) {
+                mutableWriteError.value = "阅读进度保存失败，请稍后重试"
+            }
         }
     }
-    fun toggleBookmark(bookId: String, chapterId: String, paragraphIndex: Int, excerpt: String) {
-        ioScope.launch { database.toggleBookmark(bookId, chapterId, paragraphIndex, excerpt) }
+    fun dismissWriteError() { mutableWriteError.value = null }
+    private suspend fun <T> write(notesChanged: Boolean = false, block: () -> T): T = withContext(writeDispatcher) {
+        writeMutex.withLock {
+            block().also {
+                mutableDataRevision.update { it + 1 }
+                if (notesChanged) mutableNotesRevision.update { it + 1 }
+            }
+        }
     }
+    suspend fun toggleBookmark(bookId: String, chapterId: String, paragraphIndex: Int, excerpt: String): Boolean =
+        write { database.toggleBookmark(bookId, chapterId, paragraphIndex, excerpt) }
     fun bookmarks() = database.bookmarks()
-    suspend fun saveNote(note: Note): Long = withContext(Dispatchers.IO) { database.saveNote(note) }
+    suspend fun saveNote(note: Note): Long = write(notesChanged = true) { database.saveNote(note) }
     fun notes() = database.notes()
     suspend fun notesForChapter(bookId: String, chapterId: String): List<Note> =
         withContext(Dispatchers.IO) { database.notesForChapter(bookId, chapterId) }
@@ -83,9 +113,9 @@ class LibraryRepository(private val context: Context) {
             }
         }
     }
-    suspend fun deleteBookmark(id: Long) = withContext(Dispatchers.IO) { database.deleteBookmark(id) }
-    suspend fun updateNote(id: Long, text: String) = withContext(Dispatchers.IO) { database.updateNote(id, text) }
-    suspend fun deleteNote(id: Long) = withContext(Dispatchers.IO) { database.deleteNote(id) }
+    suspend fun deleteBookmark(id: Long) = write { database.deleteBookmark(id) }
+    suspend fun updateNote(id: Long, text: String) = write(notesChanged = true) { database.updateNote(id, text) }
+    suspend fun deleteNote(id: Long) = write(notesChanged = true) { database.deleteNote(id) }
     suspend fun startReadingSession(
         bookId: String,
         chapterId: String,
@@ -98,23 +128,25 @@ class LibraryRepository(private val context: Context) {
         activeMillis: Long,
         chapterId: String,
         paragraphIndex: Int
-    ) = withContext(Dispatchers.IO) {
+    ) = write {
         database.addReadingTime(sessionId, activeMillis, chapterId, paragraphIndex)
     }
     suspend fun readingStatistics(): ReadingStatistics = withContext(Dispatchers.IO) {
         database.readingStatistics()
     }
-    suspend fun deleteProgress(bookId: String) = withContext(Dispatchers.IO) { database.deleteProgress(bookId) }
-    suspend fun clearProgress() = withContext(Dispatchers.IO) { database.clearProgress() }
-    suspend fun clearBookmarks() = withContext(Dispatchers.IO) { database.clearBookmarks() }
-    suspend fun clearNotes() = withContext(Dispatchers.IO) { database.clearNotes() }
+    suspend fun deleteProgress(bookId: String) = write { database.deleteProgress(bookId) }
+    suspend fun clearProgress() = write { database.clearProgress() }
+    suspend fun clearBookmarks() = write { database.clearBookmarks() }
+    suspend fun clearNotes() = write(notesChanged = true) { database.clearNotes() }
 
     suspend fun search(
         query: String,
         scope: SearchScope = SearchScope.ALL,
         authorId: String? = null
     ): List<SearchHit> = withContext(Dispatchers.IO) {
-        searchIndexMutex.withLock {
+        initialize()
+        val build = searchIndexMutex.withLock {
+            indexBuild?.takeIf { it.isActive } ?: ioScope.async {
             if (searchReadyFor != catalogFingerprint) {
                 val books = mutableCatalog.value.books
                 val targetFingerprint = catalogFingerprint
@@ -122,7 +154,7 @@ class LibraryRepository(private val context: Context) {
                 try {
                     database.rebuildSearchIndex(targetFingerprint, sequence {
                         books.forEachIndexed { index, metadata ->
-                            readBook(metadata.id)?.let { yield(it) }
+                            yield(requireNotNull(readBook(metadata.id)) { "作品正文缺失：${metadata.displayTitle}" })
                             mutableSearchIndexState.value = SearchIndexState(
                                 building = true,
                                 current = index + 1,
@@ -132,7 +164,9 @@ class LibraryRepository(private val context: Context) {
                     })
                     searchReadyFor = targetFingerprint
                     mutableSearchIndexState.value = SearchIndexState(current = books.size, total = books.size)
-                } catch (error: Throwable) {
+                } catch (cancelled: CancellationException) {
+                    throw cancelled
+                } catch (error: Exception) {
                     mutableSearchIndexState.value = SearchIndexState(
                         total = books.size,
                         error = error.message ?: "搜索索引建立失败"
@@ -140,7 +174,10 @@ class LibraryRepository(private val context: Context) {
                     throw error
                 }
             }
+            }.also { indexBuild = it }
         }
+        // Cancelling a query must not cancel the shared first-run index build.
+        build.await()
         val bookIds = authorId?.let { id -> mutableCatalog.value.booksForAuthor(id).map { it.id }.toSet() }
         database.search(query, scope, bookIds)
     }

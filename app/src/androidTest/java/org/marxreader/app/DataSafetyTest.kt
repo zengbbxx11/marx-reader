@@ -27,6 +27,33 @@ class DataSafetyTest {
     }
 
     @Test
+    fun progressWriteRollsBackBothTablesWhenChapterWriteFails() {
+        context.deleteDatabase("reader.db")
+        ReaderDatabase(context).use { database ->
+            database.saveProgress("book", "chapter", 2, 3)
+            database.writableDatabase.execSQL("""
+                CREATE TRIGGER fail_chapter_progress BEFORE INSERT ON chapter_progress
+                BEGIN SELECT RAISE(ABORT, 'simulated write failure'); END
+            """.trimIndent())
+            val failed = runCatching { database.saveProgress("book", "chapter", 9, 15) }.isFailure
+            assertTrue(failed)
+            assertEquals(2, database.progress("book")?.paragraphIndex)
+            assertEquals(3, database.progress("book")?.characterOffset)
+            assertEquals(2, database.chapterProgress("book")["chapter"])
+        }
+    }
+
+    @Test
+    fun bookmarkToggleReportsTheActualStoredState() = runBlocking {
+        context.deleteDatabase("reader.db")
+        val repository = LibraryRepository(context)
+        assertTrue(repository.toggleBookmark("book", "chapter", 2, "摘录"))
+        assertEquals(1, repository.bookmarks().size)
+        assertEquals(false, repository.toggleBookmark("book", "chapter", 2, "摘录"))
+        assertTrue(repository.bookmarks().isEmpty())
+    }
+
+    @Test
     fun versionOneDatabaseCreatesChapterProgressDuringUpgrade() {
         context.deleteDatabase("reader.db")
         SQLiteDatabase.openOrCreateDatabase(context.getDatabasePath("reader.db"), null).use {

@@ -75,9 +75,11 @@ internal fun SettingsTab(repository: LibraryRepository, preferences: ReaderPrefe
     var message by remember { mutableStateOf<String?>(null) }
     var clearTarget by remember { mutableStateOf<ClearDataTarget?>(null) }
     val versionName = remember {
-        runCatching { context.packageManager.getPackageInfo(context.packageName, 0).versionName }.getOrNull() ?: "0.4.1"
+        runCatching { context.packageManager.getPackageInfo(context.packageName, 0).versionName }
+            .getOrNull() ?: "0.4.2-preview.20260907"
     }
     LazyColumn(Modifier.fillMaxSize(), contentPadding = PaddingValues(18.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+        item { PageHeading("阅读偏好", "让每一次翻阅，都更合心意。") }
         item { SectionTitle("本地阅读数据", "阅读记录、书签和笔记只保存在本机") }
         item {
             Card(colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow)) {
@@ -140,7 +142,7 @@ internal fun SettingsTab(repository: LibraryRepository, preferences: ReaderPrefe
                         }
                     }
                     Row(
-                        Modifier.fillMaxWidth().padding(top = 14.dp),
+                        Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()).padding(top = 14.dp),
                         horizontalArrangement = Arrangement.spacedBy(7.dp)
                     ) {
                         ReaderTheme.entries.forEach { theme ->
@@ -194,12 +196,14 @@ internal fun SettingsTab(repository: LibraryRepository, preferences: ReaderPrefe
             confirmButton = {
                 TextButton(onClick = {
                     scope.launch {
-                        when (target) {
-                            ClearDataTarget.PROGRESS -> repository.clearProgress()
-                            ClearDataTarget.BOOKMARKS -> repository.clearBookmarks()
-                            ClearDataTarget.NOTES -> repository.clearNotes()
-                        }
-                        message = "已清除$label"
+                        readerOperation {
+                            when (target) {
+                                ClearDataTarget.PROGRESS -> repository.clearProgress()
+                                ClearDataTarget.BOOKMARKS -> repository.clearBookmarks()
+                                ClearDataTarget.NOTES -> repository.clearNotes()
+                            }
+                        }.onSuccess { message = "已清除$label" }
+                            .onFailure { message = "清理失败，请重试" }
                     }
                     clearTarget = null
                 }) { Text("确认清除", color = MaterialTheme.colorScheme.error) }

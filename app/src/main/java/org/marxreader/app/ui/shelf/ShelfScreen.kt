@@ -79,28 +79,18 @@ internal fun ShelfTab(
     var noteKindFilter by rememberSaveable { mutableStateOf<NoteKind?>(null) }
     var noteColorFilter by rememberSaveable { mutableStateOf<HighlightColor?>(null) }
     var selectedTag by rememberSaveable { mutableStateOf<String?>(null) }
-    var refreshKey by remember { mutableIntStateOf(0) }
     var bookMenuExpanded by remember { mutableStateOf(false) }
     var editingNote by remember { mutableStateOf<Note?>(null) }
     var deleteTarget by remember { mutableStateOf<ShelfDeleteTarget?>(null) }
     val scope = rememberCoroutineScope()
-    var snapshot by remember(catalog) {
-        mutableStateOf(Triple(emptyList<ReadingProgress>(), emptyList<Bookmark>(), emptyList<Note>()))
-    }
-    var statistics by remember { mutableStateOf(ReadingStatistics()) }
-    LaunchedEffect(catalog, refreshKey) {
-        val loaded = withContext(Dispatchers.IO) {
-            Triple(
-                repository.allProgress().values.sortedByDescending { it.updatedAt },
-                repository.bookmarks(),
-                repository.notes()
-            ) to repository.readingStatistics()
-        }
-        snapshot = loaded.first
-        statistics = loaded.second
-    }
-    val (progress, bookmarks, notes) = snapshot
-    val availableBookIds = remember(snapshot) {
+    val shelfViewModel: ShelfViewModel = viewModel(factory = ShelfViewModel.factory(repository))
+    val state by shelfViewModel.state.collectAsState()
+    val progress = state.progress
+    val bookmarks = state.bookmarks
+    val notes = state.notes
+    val statistics = state.statistics
+    var operationError by remember { mutableStateOf<String?>(null) }
+    val availableBookIds = remember(progress, bookmarks, notes) {
         (progress.map { it.bookId } + bookmarks.map { it.bookId } + notes.map { it.bookId }).distinct()
     }
     fun matches(bookId: String, chapterId: String, text: String): Boolean {
@@ -128,7 +118,8 @@ internal fun ShelfTab(
         verticalArrangement = Arrangement.spacedBy(9.dp)
     ) {
         item {
-            Text("我的书架", style = MaterialTheme.typography.headlineMedium)
+            PageHeading("我的书架", "读过的篇章，留下的思考。")
+            ShelfSummary(progress.size, bookmarks.size, notes.size)
             SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 14.dp)) {
                 ShelfSection.entries.forEachIndexed { index, item ->
                     SegmentedButton(
@@ -206,6 +197,13 @@ internal fun ShelfTab(
                 }
             }
         }
+        if (state.loading) item {
+            LinearProgressIndicator(Modifier.fillMaxWidth())
+        }
+        state.error?.let { message -> item {
+            Text(message, color = MaterialTheme.colorScheme.error)
+            TextButton(onClick = shelfViewModel::retry) { Text("重试") }
+        } }
         when (section) {
             ShelfSection.RECENT -> {
                 if (visibleProgress.isEmpty()) item {
@@ -319,17 +317,24 @@ internal fun ShelfTab(
         }
     }
 
+    operationError?.let { message ->
+        AlertDialog(
+            onDismissRequest = { operationError = null },
+            title = { Text("操作未完成") },
+            text = { Text(message) },
+            confirmButton = { TextButton(onClick = { operationError = null }) { Text("知道了") } }
+        )
+    }
     editingNote?.let { note ->
         ShelfNoteOrganizerDialog(
             note = note,
             onDismiss = { editingNote = null },
             onSave = { updated ->
                 scope.launch {
-                    runCatching { repository.saveNote(updated) }
+                    readerOperation { repository.saveNote(updated) }
                         .onSuccess {
-                            refreshKey++
                             editingNote = null
-                        }
+                        }.onFailure { operationError = "笔记保存失败，请重试" }
                 }
             },
             onDelete = {
@@ -346,12 +351,13 @@ internal fun ShelfTab(
             confirmButton = {
                 TextButton(onClick = {
                     scope.launch {
-                        when (target) {
-                            is ShelfDeleteTarget.Progress -> repository.deleteProgress(target.bookId)
-                            is ShelfDeleteTarget.BookmarkItem -> repository.deleteBookmark(target.id)
-                            is ShelfDeleteTarget.NoteItem -> repository.deleteNote(target.id)
-                        }
-                        refreshKey++
+                        readerOperation {
+                            when (target) {
+                                is ShelfDeleteTarget.Progress -> repository.deleteProgress(target.bookId)
+                                is ShelfDeleteTarget.BookmarkItem -> repository.deleteBookmark(target.id)
+                                is ShelfDeleteTarget.NoteItem -> repository.deleteNote(target.id)
+                            }
+                        }.onFailure { operationError = "删除失败，请重试" }
                     }
                     deleteTarget = null
                 }) { Text("删除", color = MaterialTheme.colorScheme.error) }
@@ -364,7 +370,11 @@ internal fun ShelfTab(
 @Composable
 private fun EmptyShelfAction(text: String, openLibrary: () -> Unit) {
     Column(Modifier.fillMaxWidth().padding(30.dp), horizontalAlignment = Alignment.CenterHorizontally) {
+        Icon(Icons.AutoMirrored.Filled.MenuBook, null, Modifier.size(36.dp), tint = MaterialTheme.colorScheme.primary)
+        Spacer(Modifier.height(14.dp))
         Text(text, color = MaterialTheme.colorScheme.onSurfaceVariant)
+        Text("从一篇原典开始，慢慢积累。", style = MaterialTheme.typography.bodySmall,
+            color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
         TextButton(onClick = openLibrary) { Text("去书库阅读") }
     }
 }

@@ -16,21 +16,21 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.marxreader.app.data.ReaderTheme
 
-val Wine = Color(0xFF8B2631)
-val WineDark = Color(0xFF54151D)
+val Wine = Color(0xFF792F38)
+val WineDark = Color(0xFF4D2026)
 val Gold = Color(0xFF9B6B22)
 val Ink = Color(0xFF292522)
-val Paper = Color(0xFFFFFCF6)
+val Paper = Color(0xFFFAF7F0)
 val Sepia = Color(0xFFF4EBD8)
 
 private val PaperScheme = lightColorScheme(
     primary = Wine,
     onPrimary = Color.White,
-    primaryContainer = Color(0xFFFFDADF),
+    primaryContainer = Color(0xFFF0DDE0),
     onPrimaryContainer = WineDark,
     secondary = Gold,
     onSecondary = Color.White,
-    secondaryContainer = Color(0xFFFFEBC3),
+    secondaryContainer = Color(0xFFF0E5CC),
     onSecondaryContainer = Color(0xFF332000),
     background = Paper,
     onBackground = Ink,
@@ -39,11 +39,11 @@ private val PaperScheme = lightColorScheme(
     surfaceVariant = Color(0xFFF3EDE4),
     onSurfaceVariant = Color(0xFF6A625A),
     surfaceContainerLowest = Color(0xFFFFFFFF),
-    surfaceContainerLow = Color(0xFFFCF7EF),
-    surfaceContainer = Color(0xFFF7F1E8),
+    surfaceContainerLow = Color(0xFFF2EDE3),
+    surfaceContainer = Color(0xFFEDE6DA),
     surfaceContainerHigh = Color(0xFFF1EAE0),
     outline = Color(0xFF8D8278),
-    outlineVariant = Color(0xFFD8CEC3),
+    outlineVariant = Color(0xFFDED5C8),
     error = Color(0xFFBA1A1A)
 )
 
@@ -75,7 +75,7 @@ private val DarkScheme = darkColorScheme(
     primary = Color(0xFFFFB1BA),
     onPrimary = Color(0xFF580914),
     primaryContainer = Color(0xFF711E28),
-    onPrimaryContainer = Color(0xFFFFDADF),
+    onPrimaryContainer = Color(0xFFF0DDE0),
     secondary = Color(0xFFE6C17B),
     onSecondary = Color(0xFF402D00),
     secondaryContainer = Color(0xFF594000),
@@ -106,8 +106,8 @@ private val ReaderTypography = Typography(
     headlineMedium = TextStyle(
         fontFamily = FontFamily.Serif,
         fontWeight = FontWeight.Bold,
-        fontSize = 27.sp,
-        lineHeight = 35.sp
+        fontSize = 28.sp,
+        lineHeight = 39.sp
     ),
     headlineSmall = TextStyle(
         fontFamily = FontFamily.Serif,
@@ -129,8 +129,8 @@ private val ReaderTypography = Typography(
 private val ReaderShapes = Shapes(
     extraSmall = RoundedCornerShape(6.dp),
     small = RoundedCornerShape(10.dp),
-    medium = RoundedCornerShape(16.dp),
-    large = RoundedCornerShape(22.dp),
+    medium = RoundedCornerShape(14.dp),
+    large = RoundedCornerShape(20.dp),
     extraLarge = RoundedCornerShape(30.dp)
 )
 

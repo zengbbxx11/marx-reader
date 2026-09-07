@@ -201,7 +201,7 @@ class ReaderDatabase(context: Context) :
             books.forEach { book ->
                 book.chapters.forEach { chapter ->
                     chapter.paragraphs.forEachIndexed { index, paragraph ->
-                        writableDatabase.insert("content_fts", null, ContentValues().apply {
+                        writableDatabase.insertOrThrow("content_fts", null, ContentValues().apply {
                             put("book_id", book.id)
                             put("chapter_id", chapter.id)
                             put("paragraph_index", index)
@@ -231,23 +231,29 @@ class ReaderDatabase(context: Context) :
         characterOffset: Int = 0,
         completed: Boolean = false
     ) {
-        val now = System.currentTimeMillis()
-        writableDatabase.insertWithOnConflict("progress", null, ContentValues().apply {
-            put("book_id", bookId)
-            put("chapter_id", chapterId)
-            put("paragraph_index", paragraphIndex)
-            put("character_offset", characterOffset.coerceAtLeast(0))
-            put("completed", if (completed) 1 else 0)
-            put("updated_at", now)
-        }, SQLiteDatabase.CONFLICT_REPLACE)
-        writableDatabase.insertWithOnConflict("chapter_progress", null, ContentValues().apply {
-            put("book_id", bookId)
-            put("chapter_id", chapterId)
-            put("paragraph_index", paragraphIndex)
-            put("character_offset", characterOffset.coerceAtLeast(0))
-            put("completed", if (completed) 1 else 0)
-            put("updated_at", now)
-        }, SQLiteDatabase.CONFLICT_REPLACE)
+        writableDatabase.beginTransaction()
+        try {
+            val now = System.currentTimeMillis()
+            check(writableDatabase.insertWithOnConflict("progress", null, ContentValues().apply {
+                put("book_id", bookId)
+                put("chapter_id", chapterId)
+                put("paragraph_index", paragraphIndex)
+                put("character_offset", characterOffset.coerceAtLeast(0))
+                put("completed", if (completed) 1 else 0)
+                put("updated_at", now)
+            }, SQLiteDatabase.CONFLICT_REPLACE) != -1L) { "阅读进度写入失败" }
+            check(writableDatabase.insertWithOnConflict("chapter_progress", null, ContentValues().apply {
+                put("book_id", bookId)
+                put("chapter_id", chapterId)
+                put("paragraph_index", paragraphIndex)
+                put("character_offset", characterOffset.coerceAtLeast(0))
+                put("completed", if (completed) 1 else 0)
+                put("updated_at", now)
+            }, SQLiteDatabase.CONFLICT_REPLACE) != -1L) { "阅读进度写入失败" }
+            writableDatabase.setTransactionSuccessful()
+        } finally {
+            writableDatabase.endTransaction()
+        }
     }
 
     fun progress(bookId: String): ReadingProgress? = readableDatabase.rawQuery(
@@ -304,7 +310,7 @@ class ReaderDatabase(context: Context) :
             )
             return false
         }
-        writableDatabase.insert("bookmarks", null, ContentValues().apply {
+        writableDatabase.insertOrThrow("bookmarks", null, ContentValues().apply {
             put("book_id", bookId)
             put("chapter_id", chapterId)
             put("paragraph_index", paragraphIndex)

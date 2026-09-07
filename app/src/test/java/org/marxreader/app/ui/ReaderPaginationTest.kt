@@ -4,8 +4,30 @@ import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.marxreader.app.data.*
 
 class ReaderPaginationTest {
+    @Test
+    fun noteAcrossPagesDecoratesBothPagesWithoutChangingSourcePositions() {
+        val original = listOf(
+            page("a", 3, 3).copy(text = "abcdefghij", paragraphRanges = listOf(PageParagraphRange(3, 0, 10, 0))),
+            page("a", 3, 3).copy(text = "klmnopqrst", paragraphRanges = listOf(PageParagraphRange(3, 0, 10, 10))),
+            page("b", 3, 3).copy(text = "abcdefghij", paragraphRanges = listOf(PageParagraphRange(3, 0, 10, 0)))
+        )
+        val note = noteForSelection("book", "a", 3, "abcdefghijklmnopqrst",
+            TextSelection(7, 14, "hijklmn"), "跨页批注", id = 42)
+        val decorated = original.withNoteAnchors(listOf(ResolvedNoteAnchor(note, 3, 7, 14, NoteAnchorStatus.EXACT)))
+
+        assertEquals(listOf(7 to 10), decorated[0].notes.map { it.start to it.end })
+        assertEquals(listOf(0 to 4), decorated[1].notes.map { it.start to it.end })
+        assertTrue(decorated[2].notes.isEmpty())
+        assertEquals(original.map { it.paragraphRanges }, decorated.map { it.paragraphRanges })
+        assertEquals(original.map { it.text }, decorated.map { it.text })
+        assertEquals(original.pageFor("a", 3, 12), decorated.pageFor("a", 3, 12))
+        assertTrue(original.all { it.notes.isEmpty() })
+        assertTrue(decorated.withNoteAnchors(emptyList()).all { it.notes.isEmpty() })
+    }
+
     private fun page(chapter: String, start: Int, end: Int) = ReaderPage(
         chapterIndex = if (chapter == "a") 0 else 1,
         chapterId = chapter,

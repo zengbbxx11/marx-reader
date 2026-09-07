@@ -13,6 +13,20 @@ class ShelfNavigationTest {
     val composeRule = createAndroidComposeRule<MainActivity>()
 
     @Test
+    fun selectedHomeTabSurvivesActivityRecreation() {
+        composeRule.waitUntil(timeoutMillis = 15_000) {
+            composeRule.onAllNodesWithText("书架").fetchSemanticsNodes().isNotEmpty()
+        }
+        composeRule.onNodeWithText("书架").performClick()
+        composeRule.onNodeWithText("我的书架").assertIsDisplayed()
+        composeRule.activityRule.scenario.recreate()
+        composeRule.waitUntil(timeoutMillis = 15_000) {
+            composeRule.onAllNodesWithText("我的书架").fetchSemanticsNodes().isNotEmpty()
+        }
+        composeRule.onNodeWithText("我的书架").assertIsDisplayed()
+    }
+
+    @Test
     fun shelfIsReachableFromBottomNavigation() {
         composeRule.waitUntil(timeoutMillis = 15_000) {
             composeRule.onAllNodesWithText("书架").fetchSemanticsNodes().isNotEmpty()

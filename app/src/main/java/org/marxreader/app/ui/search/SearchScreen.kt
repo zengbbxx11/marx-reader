@@ -77,39 +77,19 @@ internal fun SearchTab(
     var searchScope by rememberSaveable { mutableStateOf(SearchScope.ALL) }
     var authorId by rememberSaveable { mutableStateOf<String?>(null) }
     var authorMenuExpanded by remember { mutableStateOf(false) }
-    var results by remember { mutableStateOf<List<SearchHit>>(emptyList()) }
-    var searching by remember { mutableStateOf(false) }
-    var searchError by remember { mutableStateOf<String?>(null) }
+    val searchViewModel: SearchViewModel = viewModel(factory = SearchViewModel.factory(repository, preferences))
+    val state by searchViewModel.state.collectAsState()
+    val results = state.results
+    val searching = state.searching
+    val searchError = state.error
     var retryKey by remember { mutableIntStateOf(0) }
     val indexState by repository.searchIndexState.collectAsState()
     val searchHistory by preferences.searchHistory.collectAsState()
     LaunchedEffect(query, searchScope, authorId, retryKey) {
-        delay(250)
-        if (query.trim().length >= 2) {
-            searching = true
-            searchError = null
-            try {
-                results = withContext(Dispatchers.IO) { repository.search(query, searchScope, authorId) }
-                preferences.addSearchHistory(query)
-            } catch (error: Throwable) {
-                results = emptyList()
-                searchError = error.message ?: "搜索失败，请重试"
-            } finally {
-                searching = false
-            }
-        } else {
-            searching = false
-            results = emptyList()
-        }
+        searchViewModel.search(query, searchScope, authorId)
     }
     Column(Modifier.fillMaxSize().padding(horizontal = 18.dp)) {
-        Text("检索文库", style = MaterialTheme.typography.headlineMedium, modifier = Modifier.padding(top = 12.dp))
-        Text(
-            "搜索 ${catalog.books.size} 部/篇作品的标题、章节与正文",
-            color = MaterialTheme.colorScheme.onSurfaceVariant,
-            style = MaterialTheme.typography.bodySmall,
-            modifier = Modifier.padding(top = 3.dp)
-        )
+        PageHeading("检索文库", "在 ${catalog.books.size} 部作品中，寻找一个问题的答案。")
         OutlinedTextField(
             value = query, onValueChange = { query = it },
             placeholder = { Text("搜索全部离线正文") },
@@ -144,7 +124,7 @@ internal fun SearchTab(
                 }
             }
         }
-        if (query.length < 2) {
+        if (query.trim().length < 2) {
             Column(Modifier.fillMaxWidth()) {
                 if (searchHistory.isNotEmpty()) {
                     Row(Modifier.fillMaxWidth().padding(top = 10.dp), verticalAlignment = Alignment.CenterVertically) {

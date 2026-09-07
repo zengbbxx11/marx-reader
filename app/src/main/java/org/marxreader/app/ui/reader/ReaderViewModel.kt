@@ -11,6 +11,7 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import org.marxreader.app.data.readerOperation
 import org.marxreader.app.data.LibraryRepository
 import org.marxreader.app.data.ReaderPosition
 
@@ -24,7 +25,7 @@ class ReaderViewModel(
 
     init {
         viewModelScope.launch {
-            runCatching {
+            readerOperation {
                 val book = repository.loadBook(bookId)
                 val savedPosition = withContext(Dispatchers.IO) { repository.progress(bookId) }
                 book to savedPosition
