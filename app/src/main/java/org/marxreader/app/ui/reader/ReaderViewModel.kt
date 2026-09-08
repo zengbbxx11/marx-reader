@@ -22,6 +22,9 @@ class ReaderViewModel(
     private val mutableUiState = MutableStateFlow(ReaderUiState())
     val uiState: StateFlow<ReaderUiState> = mutableUiState.asStateFlow()
     private var searchJob: Job? = null
+    private var progressJob: Job? = null
+    private var lastRequestedPosition: ReaderPosition? = null
+    private var pendingPosition: ReaderPosition? = null
 
     init {
         viewModelScope.launch {
@@ -48,7 +51,22 @@ class ReaderViewModel(
         }
     }
 
-    fun savePosition(position: ReaderPosition) {
+    fun savePosition(position: ReaderPosition, immediate: Boolean = false) {
+        val normalized = position.copy(updatedAt = 0L)
+        if (!immediate && lastRequestedPosition == normalized) return
+        lastRequestedPosition = normalized
+        pendingPosition = position
+        if (immediate) {
+            progressJob?.cancel()
+            persistPosition(position)
+        } else if (progressJob?.isActive != true) progressJob = viewModelScope.launch {
+            // Sample the latest position even during a long, uninterrupted scroll.
+            delay(400)
+            pendingPosition?.let(::persistPosition)
+        }
+    }
+
+    private fun persistPosition(position: ReaderPosition) {
         mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
         repository.saveProgress(
             bookId = position.bookId,

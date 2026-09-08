@@ -58,6 +58,8 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
+import kotlinx.coroutines.flow.filterNotNull
+import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.marxreader.app.data.*
@@ -112,9 +114,6 @@ internal fun ReadingScreen(
         resolvedNotes = repository.resolveNotes(book, chapter)
     }
     var savedChapterProgress by remember(book.id) { mutableStateOf<Map<String, Int>>(emptyMap()) }
-    LaunchedEffect(book.id, dataRevision) {
-        savedChapterProgress = withContext(Dispatchers.IO) { repository.chapterProgress(book.id) }
-    }
     val listState = rememberLazyListState(
         initialFirstVisibleItemIndex = if (requestedParagraph > 0) {
             (requestedParagraph + 1).coerceAtMost(chapter.paragraphs.size)
@@ -152,53 +151,66 @@ internal fun ReadingScreen(
     } else settings.mode
     val expandedLayout = LocalConfiguration.current.screenWidthDp >= 900 && density.fontScale < 1.5f
     val accentColor = MaterialTheme.colorScheme.primary
-    val layoutPages by produceState<List<ReaderPage>>(
-        initialValue = emptyList(),
-        book.id,
-        chapter.id,
-        pageAreaSize,
-        settings.fontSize,
-        settings.lineHeight,
-        settings.paragraphSpacing,
-        settings.fontFamily,
-        settings.fontWeight,
-        settings.horizontalPadding,
-        settings.verticalPadding,
-        settings.firstLineIndent,
-        density.density,
-        density.fontScale
+    val layoutSpec = with(density) {
+        ReaderLayoutSpec(
+            (pageAreaSize.width - 2 * settings.horizontalPadding.dp.roundToPx()).coerceAtLeast(1),
+            (pageAreaSize.height - 2 * settings.verticalPadding.dp.roundToPx()).coerceAtLeast(1),
+            settings.fontSize.sp.toPx(), settings.lineHeight, settings.paragraphSpacing,
+            settings.fontFamily, settings.fontWeight, settings.firstLineIndent
+        )
+    }
+    val pageCache = remember(book.id) { ChapterPageCache() }
+    val layoutResult by produceState<ChapterLayoutResult?>(
+        null, book.id, chapter.id, layoutSpec, readingMode
     ) {
-        if (pageAreaSize.width <= 0 || pageAreaSize.height <= 0) {
-            value = emptyList()
-        } else {
-            val horizontalInsets = with(density) { (settings.horizontalPadding * 2).dp.roundToPx() }
-            val verticalInsets = with(density) { (settings.verticalPadding * 2).dp.roundToPx() }
-            val fontSizePx = with(density) { settings.fontSize.sp.toPx() }
-            value = withContext(Dispatchers.Default) {
-                paginateChapter(
-                    book = book,
-                    chapterIndex = chapterIndex,
-                    widthPx = (pageAreaSize.width - horizontalInsets).coerceAtLeast(1),
-                    heightPx = (pageAreaSize.height - verticalInsets).coerceAtLeast(1),
-                    fontSizePx = fontSizePx,
-                    lineHeightMultiplier = settings.lineHeight,
-                    paragraphSpacingMultiplier = settings.paragraphSpacing,
-                    fontFamily = settings.fontFamily,
-                    fontWeight = settings.fontWeight,
-                    firstLineIndent = settings.firstLineIndent
-                )
+        value = null
+        if (readingMode == ReadingMode.PAGE && pageAreaSize.width > 0 && pageAreaSize.height > 0) {
+            // Coalesce slider updates before doing an entire chapter's layout.
+            delay(80)
+            value = ChapterLayoutResult(chapter.id, layoutSpec, pageCache.pages(book, chapterIndex, layoutSpec))
+            delay(150)
+            if (chapterIndex < book.chapters.lastIndex && book.chapters[chapterIndex + 1].characterCount <= 600_000) {
+                pageCache.pages(book, chapterIndex + 1, layoutSpec)
             }
         }
     }
-    val pages = remember(layoutPages, resolvedNotes) { layoutPages.withNoteAnchors(resolvedNotes) }
-    val pagerState = rememberPagerState(pageCount = { pages.size.coerceAtLeast(1) })
-    val visibleSourcePosition by remember(readingMode, pages) {
+    val layoutPages = layoutResult?.takeIf { it.chapterId == chapter.id && it.spec == layoutSpec }?.pages.orEmpty()
+    val pages = remember(layoutPages, resolvedNotes, chapter.id) {
+        if (layoutPages.firstOrNull()?.chapterId == chapter.id) layoutPages.withNoteAnchors(resolvedNotes)
+        else emptyList()
+    }
+    val pagerWindow = ChapterPagerWindow(pages.size, chapterIndex > 0, chapterIndex < book.chapters.lastIndex)
+    val pagerState = rememberPagerState(pageCount = { pagerWindow.slotCount })
+    val contentPageIndex by remember(pagerWindow) {
+        derivedStateOf { pagerWindow.contentPage(pagerState.currentPage) }
+    }
+    val paragraphLayouts = remember(chapter.id, layoutSpec.width, layoutSpec.fontSize,
+        layoutSpec.lineHeight, layoutSpec.font, layoutSpec.weight, layoutSpec.indent) {
+        mutableStateMapOf<Int, ParagraphLineMap>()
+    }
+    var positionReady by remember(chapter.id, readingMode, positionRequest, layoutSpec) { mutableStateOf(false) }
+    val sectionsByParagraph = remember(book.id, chapter.id) {
+        book.toc.filter { it.type == TocNodeType.SECTION && it.chapterId == chapter.id }
+            .associateBy { it.paragraphIndex }
+    }
+    val scrollTopPadding = with(density) { settings.verticalPadding.dp.roundToPx() }
+    val sectionTopPadding = with(density) { 14.dp.roundToPx() }
+    val visibleSourcePosition by remember(chapter.id, layoutSpec, readingMode, pages, positionReady, pagerWindow, paragraphLayouts) {
         derivedStateOf {
-            if (readingMode == ReadingMode.PAGE) {
-                pages.getOrNull(pagerState.currentPage)?.firstSourcePosition()
+            if (!positionReady) pageAnchorParagraph to pageAnchorCharacterOffset
+            else if (readingMode == ReadingMode.PAGE) {
+                pages.getOrNull(pagerWindow.contentPage(pagerState.settledPage))?.firstSourcePosition()
                     ?: (pageAnchorParagraph to pageAnchorCharacterOffset)
             } else {
-                (listState.firstVisibleItemIndex - 1).coerceAtLeast(0) to 0
+                if (listState.firstVisibleItemIndex == 0) return@derivedStateOf 0 to 0
+                if (listState.firstVisibleItemIndex > chapter.paragraphs.size) {
+                    return@derivedStateOf chapter.paragraphs.lastIndex.coerceAtLeast(0) to (chapter.paragraphs.lastOrNull()?.length ?: 0)
+                }
+                val paragraph = (listState.firstVisibleItemIndex - 1).coerceIn(0, chapter.paragraphs.lastIndex.coerceAtLeast(0))
+                val inset = if (sectionsByParagraph.containsKey(paragraph)) sectionTopPadding else 0
+                paragraph to (paragraphLayouts[paragraph]?.sourceAt(
+                    listState.firstVisibleItemScrollOffset - scrollTopPadding - inset
+                ) ?: 0)
             }
         }
     }
@@ -233,6 +245,16 @@ internal fun ReadingScreen(
     var showToc by remember { mutableStateOf(false) }
     var showStyle by remember { mutableStateOf(false) }
     var showSearch by remember { mutableStateOf(false) }
+    var searchNavigationVisible by rememberSaveable(book.id) { mutableStateOf(false) }
+    var returnChapter by rememberSaveable(book.id) { mutableStateOf<String?>(null) }
+    var returnParagraph by rememberSaveable(book.id) { mutableIntStateOf(0) }
+    var returnCharacter by rememberSaveable(book.id) { mutableIntStateOf(0) }
+    var returnCompleted by rememberSaveable(book.id) { mutableStateOf(false) }
+    LaunchedEffect(book.id, dataRevision, showToc, expandedLayout) {
+        if (showToc || expandedLayout) {
+            savedChapterProgress = withContext(Dispatchers.IO) { repository.chapterProgress(book.id) }
+        }
+    }
     var noteTarget by remember { mutableStateOf<NoteDraftTarget?>(null) }
     var footnoteTarget by remember { mutableStateOf<Footnote?>(null) }
     val snackbarHostState = remember { SnackbarHostState() }
@@ -242,7 +264,7 @@ internal fun ReadingScreen(
         readerActivity?.window?.attributes?.screenBrightness
             ?: WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_NONE
     }
-    SideEffect {
+    LaunchedEffect(readerActivity, settings.keepScreenOn, settings.brightnessMode, settings.brightness) {
         readerActivity?.window?.let { window ->
             if (settings.keepScreenOn) window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
             else window.clearFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON)
@@ -263,55 +285,42 @@ internal fun ReadingScreen(
             }
         }
     }
-    LaunchedEffect(readingMode, listState, chapter.id, positionRequest) {
+    LaunchedEffect(readingMode, listState, chapter.id, positionRequest, layoutSpec) {
         if (readingMode == ReadingMode.SCROLL) {
-            listState.scrollToItem(
-                if (pageAnchorParagraph > 0 || pageAnchorCharacterOffset > 0)
-                    (pageAnchorParagraph + 1).coerceAtMost(chapter.paragraphs.size) else 0
-            )
-            snapshotFlow { listState.firstVisibleItemIndex }
-                .distinctUntilChanged().collect { index ->
-                    pageAnchorChapter = chapter.id
-                    pageAnchorParagraph = (index - 1).coerceIn(0, chapter.paragraphs.lastIndex.coerceAtLeast(0))
-                    pageAnchorCharacterOffset = 0
-                    readerViewModel.savePosition(ReaderPosition(
-                        book.id, chapter.id, pageAnchorParagraph,
-                        updatedAt = System.currentTimeMillis(), completed = readingCompleted
-                    ))
-                }
-        }
-    }
-    LaunchedEffect(readingMode, pagerState, layoutPages, chapter.id) {
-        if (readingMode == ReadingMode.PAGE && layoutPages.firstOrNull()?.chapterId == chapter.id) {
-            pagerState.scrollToPage(layoutPages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset))
-            snapshotFlow { pagerState.settledPage }
-                .distinctUntilChanged().collect { pageIndex ->
-                    layoutPages.getOrNull(pageIndex)?.let { page ->
-                        val sourcePosition = page.firstSourcePosition()
-                        pageAnchorChapter = page.chapterId
-                        pageAnchorParagraph = sourcePosition.first
-                        pageAnchorCharacterOffset = sourcePosition.second
-                        readerViewModel.savePosition(ReaderPosition(
-                            book.id, page.chapterId, sourcePosition.first,
-                            updatedAt = System.currentTimeMillis(),
-                            characterOffset = sourcePosition.second,
-                            completed = readingCompleted
-                        ))
-                    }
-                }
+            val paragraph = pageAnchorParagraph.coerceIn(0, chapter.paragraphs.lastIndex.coerceAtLeast(0))
+            val character = pageAnchorCharacterOffset
+            if (paragraph == 0 && character == 0) listState.scrollToItem(0)
+            else if (chapter.paragraphs.isNotEmpty()) {
+                listState.scrollToItem(paragraph + 1)
+                val lines = snapshotFlow { paragraphLayouts[paragraph] }.filterNotNull().first()
+                val inset = if (sectionsByParagraph.containsKey(paragraph)) sectionTopPadding else 0
+                listState.scrollToItem(paragraph + 1, lines.topFor(character) + inset - scrollTopPadding)
+            }
+            positionReady = true
+            snapshotFlow { visibleSourcePosition }.distinctUntilChanged().collect { (paragraphIndex, characterOffset) ->
+                if (!positionReady || pageAnchorChapter != chapter.id) return@collect
+                pageAnchorChapter = chapter.id
+                pageAnchorParagraph = paragraphIndex
+                pageAnchorCharacterOffset = characterOffset
+                readerViewModel.savePosition(ReaderPosition(
+                    book.id, chapter.id, paragraphIndex, characterOffset = characterOffset,
+                    updatedAt = System.currentTimeMillis(), completed = readingCompleted
+                ))
+            }
         }
     }
     // Read the latest visible position when leaving or moving to the background.
     // A chapter still being laid out must not overwrite the last valid position.
     val latestPosition = rememberUpdatedState(
-        if (readingMode == ReadingMode.SCROLL || pages.firstOrNull()?.chapterId == chapter.id) {
+        if (positionReady) {
             ReaderPosition(book.id, chapter.id, visibleSourcePosition.first,
                 characterOffset = visibleSourcePosition.second,
                 completed = readingCompleted, updatedAt = System.currentTimeMillis())
-        } else readerUiState.savedPosition
+        } else ReaderPosition(book.id, pageAnchorChapter, pageAnchorParagraph,
+            characterOffset = pageAnchorCharacterOffset, completed = readingCompleted, updatedAt = 0L)
     )
     DisposableEffect(book.id, readerActivity) {
-        fun persist() { latestPosition.value?.let(readerViewModel::savePosition) }
+        fun persist() { latestPosition.value.let { readerViewModel.savePosition(it, immediate = true) } }
         val owner = readerActivity as? androidx.lifecycle.LifecycleOwner
         val observer = object : androidx.lifecycle.DefaultLifecycleObserver {
             override fun onPause(owner: androidx.lifecycle.LifecycleOwner) = persist()
@@ -333,15 +342,13 @@ internal fun ReadingScreen(
     fun jumpToPosition(chapterId: String, paragraph: Int, characterOffset: Int = 0) {
         val targetIndex = book.chapters.indexOfFirst { it.id == chapterId }
         if (targetIndex < 0) return
-        val sameChapter = targetIndex == chapterIndex
+        positionReady = false
         pageAnchorChapter = chapterId
         pageAnchorParagraph = paragraph.coerceAtLeast(0)
         pageAnchorCharacterOffset = characterOffset.coerceAtLeast(0)
         chapterIndex = targetIndex
         positionRequest++
-        if (readingMode == ReadingMode.PAGE && sameChapter) scope.launch {
-            pagerState.scrollToPage(layoutPages.pageFor(chapterId, paragraph, characterOffset))
-        }
+
     }
     fun markCompleted() {
         if (readingCompleted) return
@@ -354,9 +361,10 @@ internal fun ReadingScreen(
         scope.launch { snackbarHostState.showSnackbar("已读完全书") }
     }
     fun turnPage(delta: Int, markEnd: Boolean = false) {
-        val targetPage = pagerState.currentPage + delta
+        if (!positionReady) return
+        val targetPage = contentPageIndex + delta
         if (readingMode == ReadingMode.PAGE && targetPage in pages.indices) {
-            scope.launch { pagerState.animateScrollToPage(targetPage) }
+            scope.launch { pagerState.animateScrollToPage(targetPage + pagerWindow.firstPage) }
         } else {
             val target = book.chapters.getOrNull(chapterIndex + delta)
             if (target != null) {
@@ -368,7 +376,55 @@ internal fun ReadingScreen(
             else controlsVisible = !controlsVisible
         }
     }
+    fun rememberReturnPosition() {
+        if (returnChapter != null) return
+        returnChapter = chapter.id
+        returnParagraph = visibleSourcePosition.first
+        returnCharacter = visibleSourcePosition.second
+        returnCompleted = readingCompleted
+    }
+    fun returnToReading() {
+        val target = returnChapter ?: return
+        readingCompleted = returnCompleted
+        jumpToPosition(target, returnParagraph, returnCharacter)
+        returnChapter = null
+        searchNavigationVisible = false
+        showSearch = false
+        readerViewModel.search(chapter.id, query = "")
+    }
+    fun jumpFromToc(chapterId: String, paragraph: Int) {
+        rememberReturnPosition()
+        controlsVisible = false
+        jumpToPosition(chapterId, paragraph)
+    }
+    LaunchedEffect(readingMode, pagerState, layoutPages, chapter.id, positionRequest, layoutSpec) {
+        if (readingMode == ReadingMode.PAGE && pages.isNotEmpty()) {
+            pagerState.scrollToPage(layoutPages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset) + pagerWindow.firstPage)
+            positionReady = true
+            snapshotFlow { pagerState.settledPage }.distinctUntilChanged().collect { slot ->
+                if (!positionReady || pageAnchorChapter != chapter.id) return@collect
+                val delta = pagerWindow.chapterDelta(slot)
+                if (delta != 0) {
+                    val target = book.chapters[chapterIndex + delta]
+                    jumpToPosition(target.id,
+                        if (delta < 0) target.paragraphs.lastIndex.coerceAtLeast(0) else 0,
+                        if (delta < 0) target.paragraphs.lastOrNull()?.length?.minus(1)?.coerceAtLeast(0) ?: 0 else 0)
+                } else layoutPages.getOrNull(pagerWindow.contentPage(slot))?.let { page ->
+                    val source = page.firstSourcePosition()
+                    pageAnchorChapter = chapter.id
+                    pageAnchorParagraph = source.first
+                    pageAnchorCharacterOffset = source.second
+                    readerViewModel.savePosition(ReaderPosition(book.id, chapter.id, source.first,
+                        characterOffset = source.second, completed = readingCompleted, updatedAt = System.currentTimeMillis()))
+                }
+            }
+        }
+    }
     val jumpToSearchMatch: (ReaderSearchMatch) -> Unit = { match ->
+        rememberReturnPosition()
+        controlsVisible = false
+        showSearch = false
+        searchNavigationVisible = true
         jumpToPosition(match.chapterId, match.paragraphIndex, match.start)
     }
     fun openSourceSelection(paragraphIndex: Int, start: Int, end: Int) {
@@ -398,66 +454,11 @@ internal fun ReadingScreen(
         ) readerViewModel.search(chapter.id)
     }
 
-    Scaffold(
-        topBar = {
-            if (controlsVisible) ReaderTopBar(
-                chapter.title,
-                book.breadcrumb(chapter.id, visibleParagraph)
-                    .joinToString(" › ") { it.title }
-                    .ifBlank { "${book.displayTitle} · ${chapterIndex + 1}/${book.chapters.size}" },
-                back,
-                actions = {
-                    IconButton(onClick = { showSearch = true }) { Icon(Icons.Default.Search, "文内搜索") }
-                    if (!expandedLayout) IconButton(onClick = { showToc = true }) {
-                        Icon(Icons.Default.FormatListNumbered, "目录")
-                    }
-                    IconButton(onClick = { showStyle = true }) { Icon(Icons.Default.TextFields, "排版") }
-                }
-            )
-        },
-        snackbarHost = { SnackbarHost(snackbarHostState) },
-        bottomBar = {
-            if (controlsVisible) Surface(tonalElevation = 2.dp, color = MaterialTheme.colorScheme.surfaceContainerLow) {
-                Row(
-                    Modifier.fillMaxWidth().navigationBarsPadding().heightIn(min = 64.dp),
-                    horizontalArrangement = Arrangement.SpaceEvenly,
-                    verticalAlignment = Alignment.CenterVertically
-                ) {
-                    IconButton(onClick = { turnPage(-1) }, enabled = if (readingMode == ReadingMode.PAGE) pagerState.currentPage > 0 || chapterIndex > 0 else chapterIndex > 0) {
-                        Icon(Icons.Default.SkipPrevious, if (readingMode == ReadingMode.PAGE) "上一页" else "上一章")
-                    }
-                    val progressLabel = if (readingMode == ReadingMode.PAGE && pages.isNotEmpty()) {
-                            "${pagerState.currentPage + 1}/${pages.size} · ${readingProgressValue.displayPercent}"
-                        } else readingProgressValue.displayPercent
-                    Text(
-                        progressLabel,
-                        modifier = Modifier.semantics {
-                            contentDescription = "阅读进度"
-                            stateDescription = progressLabel
-                        }
-                    )
-                    IconButton(onClick = { turnPage(1, markEnd = true) }, enabled = if (readingMode == ReadingMode.PAGE) {
-                        pages.isNotEmpty() && (
-                            pagerState.currentPage < pages.lastIndex ||
-                                chapterIndex < book.chapters.lastIndex || !readingCompleted
-                            )
-                    } else chapterIndex < book.chapters.lastIndex || !readingCompleted) {
-                        val atBookEnd = chapterIndex == book.chapters.lastIndex &&
-                            (readingMode != ReadingMode.PAGE ||
-                                (pages.isNotEmpty() && pagerState.currentPage == pages.lastIndex))
-                        Icon(
-                            if (atBookEnd) Icons.Default.Check else Icons.Default.SkipNext,
-                            if (atBookEnd) "标记已读完" else if (readingMode == ReadingMode.PAGE) "下一页" else "下一章"
-                        )
-                    }
-                }
-            }
-        }
-    ) { padding ->
+    Scaffold(snackbarHost = { SnackbarHost(snackbarHostState) }) { padding ->
         Box(Modifier.fillMaxSize()) {
         if (readingMode == ReadingMode.PAGE) Box(
             Modifier.padding(padding)
-                .padding(start = if (expandedLayout) 320.dp else 0.dp)
+                .padding(start = if (expandedLayout) 320.dp else 0.dp, bottom = 72.dp)
                 .fillMaxSize().onSizeChanged { pageAreaSize = it },
             contentAlignment = Alignment.TopCenter
         ) {
@@ -470,8 +471,17 @@ internal fun ReadingScreen(
                 HorizontalPager(
                     state = pagerState,
                     modifier = Modifier.fillMaxSize(),
+                    userScrollEnabled = positionReady,
                     beyondViewportPageCount = 1
-                ) { pageIndex ->
+                ) { slot ->
+                    val boundary = pagerWindow.chapterDelta(slot)
+                    if (boundary != 0) {
+                        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                            Text(if (boundary > 0) "下一章" else "上一章")
+                        }
+                        return@HorizontalPager
+                    }
+                    val pageIndex = pagerWindow.contentPage(slot)
                     val page = pages[pageIndex]
                     val pageSearchRanges = remember(page, readerUiState.search.matches, readerUiState.search.selectedMatch) {
                         page.searchRanges(readerUiState.search.matches, readerUiState.search.selectedMatch)
@@ -508,6 +518,10 @@ internal fun ReadingScreen(
                     ) {
                         ReaderSelectableText(
                             text = selectionText,
+                            lockPageScroll = true,
+                            interactiveRanges = remember(page.footnotes) {
+                                page.footnotes.map { ReaderInteractiveRange(it.start, it.end) }
+                            },
                             fontSizePx = pageFontSizePx,
                             lineHeightPx = pageLineHeightPx,
                             fontFamily = settings.fontFamily,
@@ -541,20 +555,14 @@ internal fun ReadingScreen(
                                 } ?: rejectCrossParagraphSelection()
                             }
                         )
-                        Text(
-                            "${pageIndex + 1}",
-                            modifier = Modifier.align(Alignment.BottomCenter),
-                            style = MaterialTheme.typography.labelSmall,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = .65f)
-                        )
                     }
                 }
             }
         } else LazyColumn(
             state = listState,
             modifier = Modifier.padding(padding)
-                .padding(start = if (expandedLayout) 320.dp else 0.dp)
-                .fillMaxSize().widthIn(max = 840.dp).combinedClickable(
+                .padding(start = if (expandedLayout) 320.dp else 0.dp, bottom = 72.dp)
+                .fillMaxSize().onSizeChanged { pageAreaSize = it }.widthIn(max = 840.dp).combinedClickable(
                 onClick = { controlsVisible = !controlsVisible },
                 onLongClick = {}
             ),
@@ -569,9 +577,7 @@ internal fun ReadingScreen(
                 HorizontalDivider(Modifier.padding(top = 20.dp), color = MaterialTheme.colorScheme.primary.copy(alpha = .28f))
             }
             itemsIndexed(chapter.paragraphs, key = { index, _ -> "${chapter.id}-$index" }) { index, paragraph ->
-                val section = book.toc.firstOrNull {
-                    it.type == TocNodeType.SECTION && it.chapterId == chapter.id && it.paragraphIndex == index
-                }
+                val section = sectionsByParagraph[index]
                 val paragraphFootnotes = remember(chapter.id, index, chapter.footnotes) {
                     chapter.footnotes.flatMap { footnote ->
                         footnote.references
@@ -637,6 +643,11 @@ internal fun ReadingScreen(
                 ) {
                     ReaderSelectableText(
                         text = selectionText,
+                        interactiveRanges = remember(paragraphFootnotes, indentLength) {
+                            paragraphFootnotes.map { (reference, _) ->
+                                ReaderInteractiveRange(reference.start + indentLength, reference.end + indentLength)
+                            }
+                        },
                         fontSizePx = paragraphFontSizePx,
                         lineHeightPx = paragraphLineHeightPx,
                         fontFamily = settings.fontFamily,
@@ -645,6 +656,13 @@ internal fun ReadingScreen(
                         textColorArgb = (if (section != null) accentColor else MaterialTheme.colorScheme.onBackground).toArgb(),
                         modifier = Modifier.fillMaxWidth(),
                         bold = section != null,
+                        onTextLayout = { layout ->
+                            val lines = ParagraphLineMap(
+                                List(layout.lineCount) { layout.getLineStart(it) },
+                                List(layout.lineCount) { layout.getLineTop(it) }, indentLength, paragraph.length
+                            )
+                            if (paragraphLayouts[index] != lines) paragraphLayouts[index] = lines
+                        },
                         onTextTap = { offset, _, _ ->
                             if (offset >= 0) {
                                 val sourceOffset = (offset - indentLength).coerceIn(0, paragraph.length)
@@ -681,7 +699,14 @@ internal fun ReadingScreen(
                     modifier = Modifier.padding(top = 2.dp)
                 )
             }
-            item { Spacer(Modifier.height(80.dp)) }
+            item(key = "chapter-end") {
+                FilledTonalButton(
+                    onClick = { turnPage(1, markEnd = true) },
+                    enabled = chapterIndex < book.chapters.lastIndex || !readingCompleted,
+                    modifier = Modifier.fillMaxWidth().padding(vertical = 24.dp)
+                ) { Text(if (chapterIndex < book.chapters.lastIndex) "下一章" else if (readingCompleted) "已读完" else "标记已读完") }
+                Spacer(Modifier.height(96.dp))
+            }
         }
         if (expandedLayout) Surface(
             modifier = Modifier.padding(padding).width(320.dp).fillMaxHeight(),
@@ -694,9 +719,94 @@ internal fun ReadingScreen(
                 chapterProgress = savedChapterProgress,
                 modifier = Modifier.fillMaxSize(),
                 autoScrollToCurrent = true,
-                onSelect = { chapterId, paragraph -> jumpToPosition(chapterId, paragraph) }
+                onSelect = { chapterId, paragraph -> jumpFromToc(chapterId, paragraph) }
             )
         }
+            // Menus overlay the fixed text viewport and never trigger repagination.
+            if (!controlsVisible && !searchNavigationVisible && returnChapter == null) Text(
+                if (readingMode == ReadingMode.PAGE) "${contentPageIndex + 1}/${pages.size.coerceAtLeast(1)}" else readingProgressValue.displayPercent,
+                modifier = Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(bottom = 24.dp),
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant
+            )
+            if (controlsVisible) Box(Modifier.align(Alignment.TopCenter)) { ReaderTopBar(
+                chapter.title,
+                book.breadcrumb(chapter.id, visibleParagraph)
+                    .joinToString(" › ") { it.title }
+                    .ifBlank { "${book.displayTitle} · ${chapterIndex + 1}/${book.chapters.size}" },
+                back,
+                actions = {
+                    IconButton(onClick = { showSearch = true }) { Icon(Icons.Default.Search, "文内搜索") }
+                    if (!expandedLayout) IconButton(onClick = { showToc = true }) {
+                        Icon(Icons.Default.FormatListNumbered, "目录")
+                    }
+                    IconButton(onClick = { showStyle = true }) { Icon(Icons.Default.TextFields, "排版") }
+                }
+            )
+            }
+             if ((controlsVisible || returnChapter != null) && !searchNavigationVisible) Surface(
+                modifier = Modifier.align(Alignment.BottomCenter),tonalElevation = 2.dp, color = MaterialTheme.colorScheme.surfaceContainerLow) {
+                Row(
+                    Modifier.fillMaxWidth().navigationBarsPadding().heightIn(min = 64.dp),
+                    horizontalArrangement = Arrangement.SpaceEvenly,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    IconButton(onClick = { turnPage(-1) }, enabled = if (readingMode == ReadingMode.PAGE) contentPageIndex > 0 || chapterIndex > 0 else chapterIndex > 0) {
+                        Icon(Icons.Default.ChevronLeft, if (readingMode == ReadingMode.PAGE) "上一页" else "上一章")
+                    }
+                    val progressLabel = if (readingMode == ReadingMode.PAGE && pages.isNotEmpty()) {
+                            "${contentPageIndex + 1}/${pages.size} · ${readingProgressValue.displayPercent}"
+                        } else readingProgressValue.displayPercent
+                    Text(
+                        progressLabel,
+                        style = MaterialTheme.typography.labelLarge,
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center,
+                        modifier = Modifier.weight(1f).padding(horizontal = 8.dp).semantics {
+                            contentDescription = "阅读进度"
+                            stateDescription = progressLabel
+                        }
+                    )
+                    if (returnChapter != null) TextButton(onClick = { returnToReading() }) {
+                        Text("返回原位")
+                    }
+                    IconButton(onClick = { turnPage(1, markEnd = true) }, enabled = if (readingMode == ReadingMode.PAGE) {
+                        pages.isNotEmpty() && (
+                            contentPageIndex < pages.lastIndex ||
+                                chapterIndex < book.chapters.lastIndex || !readingCompleted
+                            )
+                    } else chapterIndex < book.chapters.lastIndex || !readingCompleted) {
+                        val atBookEnd = chapterIndex == book.chapters.lastIndex &&
+                            (readingMode != ReadingMode.PAGE ||
+                                (pages.isNotEmpty() && contentPageIndex == pages.lastIndex))
+                        Icon(
+                            if (atBookEnd) Icons.Default.Check else Icons.Default.ChevronRight,
+                            if (atBookEnd) "标记已读完" else if (readingMode == ReadingMode.PAGE) "下一页" else "下一章"
+                        )
+                    }
+                }
+            }
+            if (searchNavigationVisible) Surface(
+                modifier = Modifier.align(Alignment.BottomCenter).navigationBarsPadding().padding(12.dp),
+                shape = RoundedCornerShape(20.dp), shadowElevation = 8.dp
+            ) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    IconButton(onClick = { showSearch = true }) { Icon(Icons.Default.Search, "搜索结果列表") }
+                    Text("${(readerUiState.search.selectedIndex + 1).coerceAtLeast(0)}/${readerUiState.search.matches.size}")
+                    if (returnChapter != null) TextButton(onClick = { returnToReading() }) {
+                        Text("返回原位")
+                    }
+                    IconButton(onClick = { readerViewModel.moveSearchSelection(-1)?.let(jumpToSearchMatch) }, enabled = readerUiState.search.matches.isNotEmpty()) {
+                        Icon(Icons.Default.ChevronLeft, "上一个搜索结果")
+                    }
+                    IconButton(onClick = { readerViewModel.moveSearchSelection(1)?.let(jumpToSearchMatch) }, enabled = readerUiState.search.matches.isNotEmpty()) {
+                        Icon(Icons.Default.ChevronRight, "下一个搜索结果")
+                    }
+                    IconButton(onClick = {
+                        searchNavigationVisible = false
+                        readerViewModel.search(chapter.id, query = "")
+                    }) { Icon(Icons.Default.Close, "退出文内搜索") }
+                }
+            }
         }
     }
 
@@ -710,7 +820,7 @@ internal fun ReadingScreen(
             autoScrollToCurrent = true,
             onSelect = { chapterId, paragraph ->
                 showToc = false
-                jumpToPosition(chapterId, paragraph)
+                jumpFromToc(chapterId, paragraph)
             }
         )
     }

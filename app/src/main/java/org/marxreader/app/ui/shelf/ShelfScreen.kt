@@ -118,7 +118,7 @@ internal fun ShelfTab(
         verticalArrangement = Arrangement.spacedBy(9.dp)
     ) {
         item {
-            PageHeading("我的书架", "读过的篇章，留下的思考。")
+            PageHeading("我的书架")
             ShelfSummary(progress.size, bookmarks.size, notes.size)
             SingleChoiceSegmentedButtonRow(Modifier.fillMaxWidth().padding(top = 14.dp)) {
                 ShelfSection.entries.forEachIndexed { index, item ->
@@ -373,8 +373,6 @@ private fun EmptyShelfAction(text: String, openLibrary: () -> Unit) {
         Icon(Icons.AutoMirrored.Filled.MenuBook, null, Modifier.size(36.dp), tint = MaterialTheme.colorScheme.primary)
         Spacer(Modifier.height(14.dp))
         Text(text, color = MaterialTheme.colorScheme.onSurfaceVariant)
-        Text("从一篇原典开始，慢慢积累。", style = MaterialTheme.typography.bodySmall,
-            color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(top = 6.dp))
         TextButton(onClick = openLibrary) { Text("去书库阅读") }
     }
 }

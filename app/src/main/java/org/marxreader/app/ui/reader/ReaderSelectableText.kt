@@ -3,6 +3,7 @@ package org.marxreader.app.ui
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Typeface
+import android.os.Build
 import android.text.Layout
 import android.text.SpannableString
 import android.text.Spanned
@@ -44,6 +45,10 @@ internal class ReaderSelectableTextView(context: Context) : TextView(context) {
 
     var onTextTap: ((offset: Int, x: Float, y: Float) -> Unit)? = null
     var onAnnotateSelection: ((start: Int, end: Int) -> Unit)? = null
+    var onTextLayout: ((Layout) -> Unit)? = null
+    var lockPageScroll: Boolean = false
+    var interactiveRanges: List<ReaderInteractiveRange> = emptyList()
+    private var appliedStyle: List<Any>? = null
 
     private val touchSlop = ViewConfiguration.get(context).scaledTouchSlop
     private var downX = 0f
@@ -66,6 +71,7 @@ internal class ReaderSelectableTextView(context: Context) : TextView(context) {
         setSelectAllOnFocus(false)
         breakStrategy = Layout.BREAK_STRATEGY_SIMPLE
         hyphenationFrequency = Layout.HYPHENATION_FREQUENCY_NONE
+        if (Build.VERSION.SDK_INT >= 28) setFallbackLineSpacing(true)
         setCustomSelectionActionModeCallback(object : ActionMode.Callback {
             override fun onCreateActionMode(mode: ActionMode, menu: Menu): Boolean {
                 annotationActionMode = mode
@@ -101,15 +107,30 @@ internal class ReaderSelectableTextView(context: Context) : TextView(context) {
         bold: Boolean,
         textColorArgb: Int
     ) {
+        val style = listOf(fontSizePx, lineHeightPx, fontFamily, fontWeight, bold, textColorArgb)
+        if (style == appliedStyle) return
+        appliedStyle = style
         setTextSize(TypedValue.COMPLEX_UNIT_PX, fontSizePx)
-        setLineSpacing((lineHeightPx - fontSizePx).coerceAtLeast(0f), 1f)
-        setTextColor(textColorArgb)
         typeface = readerTypeface(fontFamily, fontWeight, bold)
+        val naturalLineHeight = paint.fontMetrics.run { descent - ascent }
+        setLineSpacing((lineHeightPx - naturalLineHeight).coerceAtLeast(0f), 1f)
+        setTextColor(textColorArgb)
+    }
+
+    override fun onLayout(changed: Boolean, left: Int, top: Int, right: Int, bottom: Int) {
+        super.onLayout(changed, left, top, right, bottom)
+        layout?.let { onTextLayout?.invoke(it) }
     }
 
     override fun performLongClick(): Boolean {
         longPressTriggered = true
         return super.performLongClick()
+    }
+
+    override fun scrollTo(x: Int, y: Int) {
+        // Selection remains native, but a paginated TextView must never become
+        // a second scrolling container inside the horizontal pager.
+        if (lockPageScroll) super.scrollTo(0, 0) else super.scrollTo(x, y)
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
@@ -140,7 +161,10 @@ internal class ReaderSelectableTextView(context: Context) : TextView(context) {
             if (!moved && !longPressTriggered && !downHadSelection &&
                 annotationActionMode == null && !selectionActive
             ) {
-                textOffsetAt(event.x, event.y).takeIf { it >= 0 }?.let { offset ->
+                val target = interactiveOffsetAt(downX, downY)
+                    ?: interactiveOffsetAt(event.x, event.y)
+                    ?: textOffsetAt(event.x, event.y)
+                target.takeIf { it >= 0 }?.let { offset ->
                     performClick()
                     onTextTap?.invoke(offset, event.x, event.y)
                 }
@@ -160,12 +184,47 @@ internal class ReaderSelectableTextView(context: Context) : TextView(context) {
     private fun textOffsetAt(x: Float, y: Float): Int {
         val textLayout = layout ?: return -1
         if (textLayout.lineCount <= 0) return -1
-        val verticalPosition = (y - totalPaddingTop).toInt()
+        val verticalPosition = (y + scrollY - totalPaddingTop).toInt()
             .coerceIn(0, (textLayout.height - 1).coerceAtLeast(0))
         val line = textLayout.getLineForVertical(verticalPosition)
-        return textLayout.getOffsetForHorizontal(line, x - totalPaddingLeft)
+        return textLayout.getOffsetForHorizontal(line, x + scrollX - totalPaddingLeft)
+    }
+
+    internal fun interactiveOffsetAt(x: Float, y: Float): Int? {
+        val textLayout = layout ?: return null
+        val localX = x + scrollX - totalPaddingLeft
+        val localY = y + scrollY - totalPaddingTop
+        val tolerance = 8f * resources.displayMetrics.density
+        var closest: Int? = null
+        var closestDistance = Float.POSITIVE_INFINITY
+        for (range in interactiveRanges) {
+            val start = range.start.coerceIn(0, text.length)
+            val end = range.end.coerceIn(start, text.length)
+            if (start == end) continue
+            val firstLine = textLayout.getLineForOffset(start)
+            val lastLine = textLayout.getLineForOffset(end - 1)
+            for (line in firstLine..lastLine) {
+                val segmentStart = maxOf(start, textLayout.getLineStart(line))
+                val segmentEnd = minOf(end, textLayout.getLineEnd(line))
+                val a = textLayout.getPrimaryHorizontal(segmentStart)
+                val b = if (segmentEnd == textLayout.getLineEnd(line)) textLayout.getLineRight(line)
+                    else textLayout.getPrimaryHorizontal(segmentEnd)
+                val left = minOf(a, b)
+                val right = maxOf(a, b)
+                val top = textLayout.getLineTop(line).toFloat()
+                val bottom = textLayout.getLineBottom(line).toFloat()
+                val distance = readerHitDistance(localX, localY, left, top, right, bottom, tolerance) ?: continue
+                if (distance < closestDistance) {
+                    closestDistance = distance
+                    closest = start
+                }
+            }
+        }
+        return closest
     }
 }
+
+internal data class ReaderInteractiveRange(val start: Int, val end: Int)
 
 internal data class ReaderTextBackground(
     val start: Int,
@@ -184,11 +243,15 @@ internal fun ReaderSelectableText(
     textColorArgb: Int,
     modifier: Modifier = Modifier,
     bold: Boolean = false,
+    lockPageScroll: Boolean = false,
+    interactiveRanges: List<ReaderInteractiveRange> = emptyList(),
+    onTextLayout: ((Layout) -> Unit)? = null,
     onTextTap: (offset: Int, x: Float, y: Float) -> Unit,
     onAnnotateSelection: (start: Int, end: Int) -> Unit
 ) {
     val currentOnTextTap = rememberUpdatedState(onTextTap)
     val currentOnAnnotateSelection = rememberUpdatedState(onAnnotateSelection)
+    val currentOnTextLayout = rememberUpdatedState(onTextLayout)
     AndroidView(
         modifier = modifier,
         factory = { context ->
@@ -200,8 +263,12 @@ internal fun ReaderSelectableText(
             }
         },
         update = { view ->
+            view.lockPageScroll = lockPageScroll
+            view.interactiveRanges = interactiveRanges
+            if (lockPageScroll && (view.scrollX != 0 || view.scrollY != 0)) view.scrollTo(0, 0)
             view.onTextTap = { offset, x, y -> currentOnTextTap.value(offset, x, y) }
             view.onAnnotateSelection = { start, end -> currentOnAnnotateSelection.value(start, end) }
+            view.onTextLayout = { currentOnTextLayout.value?.invoke(it) }
             view.applyReaderTextStyle(fontSizePx, lineHeightPx, fontFamily, fontWeight, bold, textColorArgb)
             if (view.tag != contentKey) {
                 view.setText(text, TextView.BufferType.SPANNABLE)
@@ -222,9 +289,9 @@ internal fun ReaderPage.selectionOverlayText(
         val end = emphasis.end.coerceIn(start, text.length)
         if (end > start) {
             val extraPx = when (emphasis.level) {
-                0 -> 6f
-                2 -> 3f
-                else -> 1.5f
+                0 -> fontSizePx * .32f
+                2 -> fontSizePx * .14f
+                else -> fontSizePx * .07f
             }
             styled.setSpan(
                 AbsoluteSizeSpan((fontSizePx + extraPx).toInt(), false),
@@ -245,6 +312,13 @@ internal fun ReaderPage.selectionOverlayText(
                 Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
             )
         }
+    }
+    spacing.forEach { gap ->
+        val start = gap.start.coerceIn(0, text.length)
+        val end = gap.end.coerceIn(start, text.length)
+        if (end > start) styled.setSpan(
+            RelativeSizeSpan(gap.multiplier), start, end, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE
+        )
     }
     footnotes.forEach { footnote ->
         val start = footnote.start.coerceIn(0, text.length)

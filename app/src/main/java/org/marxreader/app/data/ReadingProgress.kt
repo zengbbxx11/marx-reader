@@ -16,10 +16,8 @@ fun Book.readingProgress(position: ReaderPosition?): ReadingProgressValue {
     if (position == null || position.bookId != id || chapters.isEmpty() || total == 0L) {
         return ReadingProgressValue(0L, total, 0f, 0f, false)
     }
-    val chapterIndex = chapters.indexOfFirst { it.id == position.chapterId }
-        .takeIf { it >= 0 }
-        ?: 0
-    val beforeChapter = chapters.take(chapterIndex).sumOf { it.characterCount.toLong() }
+    val chapterIndex = chapterIndex(position.chapterId)
+    val beforeChapter = charactersBeforeChapter(chapterIndex).toLong()
     val insideChapter = chapters[chapterIndex]
         .characterOffset(position.paragraphIndex, position.characterOffset)
         .toLong()

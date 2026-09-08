@@ -171,8 +171,8 @@ private val ReaderLayoutPreset.label: String get() = when (this) {
 }
 
 private val ReaderTheme.label: String get() = when (this) {
-    ReaderTheme.PAPER -> "纸白"
+    ReaderTheme.PAPER -> "浅色"
     ReaderTheme.SEPIA -> "护眼"
-    ReaderTheme.DARK -> "夜间"
+    ReaderTheme.DARK -> "深色"
     ReaderTheme.SYSTEM -> "系统"
 }

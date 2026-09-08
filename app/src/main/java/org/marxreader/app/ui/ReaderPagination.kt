@@ -2,6 +2,7 @@ package org.marxreader.app.ui
 
 import android.annotation.SuppressLint
 import android.graphics.Typeface
+import android.os.Build
 import android.text.Layout
 import android.text.SpannableString
 import android.text.Spanned
@@ -33,6 +34,7 @@ data class PageFootnote(
 )
 
 data class PageNote(val start: Int, val end: Int, val note: Note)
+data class PageSpacing(val start: Int, val end: Int, val multiplier: Float)
 
 data class PageParagraphRange(
     val paragraphIndex: Int,
@@ -51,7 +53,8 @@ data class ReaderPage(
     val emphasis: List<PageEmphasis>,
     val footnotes: List<PageFootnote>,
     val notes: List<PageNote> = emptyList(),
-    val paragraphRanges: List<PageParagraphRange> = emptyList()
+    val paragraphRanges: List<PageParagraphRange> = emptyList(),
+    val spacing: List<PageSpacing> = emptyList()
 )
 
 data class PageSourceSelection(
@@ -158,7 +161,8 @@ fun paginateChapter(
     fontFamily: ReaderFont = ReaderFont.SERIF,
     fontWeight: ReaderFontWeight = ReaderFontWeight.REGULAR,
     firstLineIndent: Boolean,
-    noteAnchors: List<ResolvedNoteAnchor> = emptyList()
+    noteAnchors: List<ResolvedNoteAnchor> = emptyList(),
+    checkActive: () -> Unit = {}
 ): List<ReaderPage> = paginateChapters(
     book,
     listOf(chapterIndex),
@@ -170,7 +174,8 @@ fun paginateChapter(
     fontFamily,
     fontWeight,
     firstLineIndent,
-    noteAnchors
+    noteAnchors,
+    checkActive
 )
 
 @SuppressLint("WrongConstant")
@@ -185,13 +190,15 @@ private fun paginateChapters(
     fontFamily: ReaderFont,
     fontWeight: ReaderFontWeight,
     firstLineIndent: Boolean,
-    noteAnchors: List<ResolvedNoteAnchor>
+    noteAnchors: List<ResolvedNoteAnchor>,
+    checkActive: () -> Unit = {}
 ): List<ReaderPage> {
     if (widthPx <= 0 || heightPx <= 0) return emptyList()
     val pages = mutableListOf<ReaderPage>()
     val sectionNodes = book.toc.filter { it.type == TocNodeType.SECTION }
 
     chapterIndices.forEach chapterLoop@ { chapterIndex ->
+        checkActive()
         val chapter = book.chapters.getOrNull(chapterIndex) ?: return@chapterLoop
         val text = StringBuilder()
         val paragraphStarts = mutableListOf<Int>()
@@ -213,6 +220,7 @@ private fun paginateChapters(
             .filter { it.chapterId == chapter.id }
             .groupBy { it.paragraphIndex }
         chapter.paragraphs.forEachIndexed { paragraphIndex, paragraph ->
+            checkActive()
             paragraphStarts += text.length
             val sectionNode = sectionsByParagraph[paragraphIndex]?.maxByOrNull { it.level }
             if (firstLineIndent && sectionNode == null && shouldIndentParagraph(paragraph)) {
@@ -311,10 +319,16 @@ private fun paginateChapters(
             .setBreakStrategy(Layout.BREAK_STRATEGY_SIMPLE)
             .setHyphenationFrequency(Layout.HYPHENATION_FREQUENCY_NONE)
             .setLineSpacing(max(0f, desiredLineHeight - naturalLineHeight), 1f)
+            .apply {
+                // TextView enables fallback-font metrics by default. CJK fallback fonts
+                // can be taller than the Latin font used by TextPaint.fontMetrics.
+                if (Build.VERSION.SDK_INT >= 28) setUseLineSpacingFromFallbacks(true)
+            }
             .build()
 
         var startLine = 0
         while (startLine < layout.lineCount) {
+            checkActive()
             val top = layout.getLineTop(startLine)
             var endLine = startLine
             while (
@@ -375,7 +389,12 @@ private fun paginateChapters(
                 emphasis = pageRanges,
                 footnotes = pageFootnotes,
                 notes = pageNotes,
-                paragraphRanges = pageParagraphs
+                paragraphRanges = pageParagraphs,
+                spacing = spacingRanges.mapNotNull { range ->
+                    clipTextRangeToPage(range.start, range.end, startChar, endChar)?.let { (start, end) ->
+                        PageSpacing(start, end, paragraphSpacingMultiplier.coerceIn(.25f, 1.5f))
+                    }
+                }
             )
             startLine = endLine + 1
         }

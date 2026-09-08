@@ -89,7 +89,7 @@ internal fun SearchTab(
         searchViewModel.search(query, searchScope, authorId)
     }
     Column(Modifier.fillMaxSize().padding(horizontal = 18.dp)) {
-        PageHeading("检索文库", "在 ${catalog.books.size} 部作品中，寻找一个问题的答案。")
+        PageHeading("搜索")
         OutlinedTextField(
             value = query, onValueChange = { query = it },
             placeholder = { Text("搜索全部离线正文") },
@@ -135,18 +135,16 @@ internal fun SearchTab(
                         searchHistory.forEach { value -> AssistChip(onClick = { query = value }, label = { Text(value) }) }
                     }
                 }
-                EmptyHint("输入至少两个字或字母；搜索完全在本机完成。")
+                EmptyHint("输入至少 2 个字")
             }
         }
         else if (searching) Box(Modifier.fillMaxWidth().padding(30.dp), contentAlignment = Alignment.Center) {
             Column(horizontalAlignment = Alignment.CenterHorizontally) {
                 CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
                 Spacer(Modifier.height(12.dp))
-                Text(if (indexState.building) "正在建立离线索引…" else "正在搜索离线正文…")
-                Text(
-                    if (indexState.building && indexState.total > 0) {
-                        "正在处理 ${indexState.current}/${indexState.total} 部作品"
-                    } else "首次搜索需建立本地索引，请稍候",
+                Text(if (indexState.building) "首次建立索引…" else "搜索中…")
+                if (indexState.building && indexState.total > 0) Text(
+                    "${indexState.current} / ${indexState.total}",
                     style = MaterialTheme.typography.bodySmall
                 )
             }

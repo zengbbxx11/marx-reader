@@ -177,25 +177,22 @@ private fun HomeScreen(
         topBar = {
             Surface(color = MaterialTheme.colorScheme.background) {
                 Row(
-                        Modifier.fillMaxWidth().statusBarsPadding().heightIn(min = 76.dp).padding(horizontal = 20.dp, vertical = 10.dp),
+                        Modifier.fillMaxWidth().statusBarsPadding().heightIn(min = 56.dp).padding(horizontal = 20.dp, vertical = 8.dp),
                     verticalAlignment = Alignment.CenterVertically
                 ) {
-                    BrandMark(42.dp)
+                    BrandMark(32.dp)
                     Column(Modifier.weight(1f).padding(start = 13.dp)) {
-                        Text(stringResource(R.string.app_name), style = MaterialTheme.typography.titleLarge)
-                        Text("思想原典 · 随身阅读", style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        Text(stringResource(R.string.app_name), style = MaterialTheme.typography.titleSmall)
                     }
-                    Surface(
-                        color = MaterialTheme.colorScheme.secondaryContainer,
-                        contentColor = MaterialTheme.colorScheme.onSecondaryContainer,
-                        shape = MaterialTheme.shapes.small
-                    ) { Text("离线文库", Modifier.padding(horizontal = 10.dp, vertical = 6.dp), style = MaterialTheme.typography.labelSmall) }
                 }
             }
         },
         bottomBar = {
             NavigationBar(
+                modifier = Modifier.navigationBarsPadding().padding(horizontal = 16.dp, vertical = 8.dp)
+                    .clip(MaterialTheme.shapes.large),
                 containerColor = MaterialTheme.colorScheme.surface,
+                windowInsets = WindowInsets(0, 0, 0, 0),
                 tonalElevation = 0.dp
             ) {
                 HomeTab.entries.forEach { item ->
@@ -259,11 +256,8 @@ private fun LibraryTab(
             ) {
                 Row(Modifier.fillMaxWidth().padding(16.dp), verticalAlignment = Alignment.CenterVertically) {
                     IconBadge(Icons.Default.Search)
-                    Column(Modifier.weight(1f).padding(horizontal = 13.dp)) {
-                        Text("搜索离线文库", style = MaterialTheme.typography.titleSmall)
-                        Text("作品标题、章节与全部正文", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
-                    }
-                    Icon(Icons.AutoMirrored.Filled.ArrowForward, null, tint = MaterialTheme.colorScheme.onSurfaceVariant)
+                    Text("搜索作品、章节或正文", modifier = Modifier.weight(1f).padding(start = 12.dp),
+                        color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodyMedium)
                 }
             }
         }
@@ -287,7 +281,7 @@ private fun LibraryTab(
                             shape = MaterialTheme.shapes.medium
                         ) { Icon(Icons.Default.PlayArrow, null, Modifier.padding(10.dp).size(24.dp)) }
                         Column(Modifier.weight(1f).padding(start = 14.dp)) {
-                            Text("继续上次阅读", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelLarge)
+                            Text("继续阅读", color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.labelMedium)
                             Text(book.displayTitle, color = MaterialTheme.colorScheme.onPrimary, style = MaterialTheme.typography.titleMedium, maxLines = 1, overflow = TextOverflow.Ellipsis)
                         }
                         Icon(Icons.AutoMirrored.Filled.ArrowForward, null, tint = MaterialTheme.colorScheme.onPrimary)
@@ -316,31 +310,33 @@ private fun LibraryTab(
                 }
             }
         }
-        item { SectionTitle("作者", "按作者浏览作品") }
+        item { SectionTitle("作者") }
         items(catalog.authors, key = { it.id }) { author ->
             val books = catalog.booksForAuthor(author.id)
-            val read = books.count { progress.containsKey(it.id) }
-            AuthorCard(author, books.size, read) { navigate(Screen.AuthorDetail(author.id)) }
+            AuthorCard(author, books.size) { navigate(Screen.AuthorDetail(author.id)) }
         }
     }
 }
 
 @Composable
-private fun AuthorCard(author: Author, bookCount: Int, readCount: Int, onClick: () -> Unit) {
+private fun AuthorCard(author: Author, bookCount: Int, onClick: () -> Unit) {
     Card(
         onClick = onClick,
         colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceContainerLow)
     ) {
         Row(Modifier.fillMaxWidth().padding(15.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(
-                Modifier.size(56.dp).clip(MaterialTheme.shapes.medium).background(Color(author.color or 0xFF000000)),
+                Modifier.size(48.dp).clip(androidx.compose.foundation.shape.CircleShape)
+                    .background(MaterialTheme.colorScheme.secondaryContainer),
                 contentAlignment = Alignment.Center
-            ) { Text(author.nameZh.take(1), color = Color.White, fontFamily = FontFamily.Serif, fontSize = 25.sp, fontWeight = FontWeight.Bold) }
+            ) { Text(author.nameZh.take(1), color = MaterialTheme.colorScheme.onSecondaryContainer,
+                fontSize = 20.sp, fontWeight = FontWeight.SemiBold) }
             Column(Modifier.weight(1f).padding(horizontal = 14.dp)) {
                 Text(author.nameZh, style = MaterialTheme.typography.titleMedium)
-                Text(author.years, color = MaterialTheme.colorScheme.primary, style = MaterialTheme.typography.labelMedium)
-                Text("$bookCount 部/篇${if (readCount > 0) " · 已读 $readCount" else " · 尚未阅读"}", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
+                Text(author.years, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
             }
+            Text("$bookCount", style = MaterialTheme.typography.labelLarge,
+                color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.padding(end = 8.dp))
             Icon(Icons.Default.ChevronRight, null, tint = MaterialTheme.colorScheme.outline)
         }
     }
@@ -594,15 +590,22 @@ private fun BookHero(book: Book) {
 
 @Composable
 private fun RightsPanel(book: Book) {
+    var expanded by rememberSaveable(book.id) { mutableStateOf(false) }
     Surface(
         color = MaterialTheme.colorScheme.surfaceContainerLow,
         shape = MaterialTheme.shapes.medium,
         modifier = Modifier.fillMaxWidth().padding(vertical = 12.dp)
     ) {
-        Row(Modifier.padding(15.dp), verticalAlignment = Alignment.Top) {
+        Column {
+        Row(Modifier.fillMaxWidth().clickable { expanded = !expanded }.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically) {
+            Text("版本与来源", style = MaterialTheme.typography.titleSmall, modifier = Modifier.weight(1f))
+            Icon(if (expanded) Icons.Default.ExpandLess else Icons.Default.ExpandMore,
+                if (expanded) "收起来源" else "展开来源", tint = MaterialTheme.colorScheme.onSurfaceVariant)
+        }
+        if (expanded) Row(Modifier.padding(15.dp), verticalAlignment = Alignment.Top) {
             Icon(Icons.Default.Verified, null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(21.dp))
             Column(Modifier.padding(start = 11.dp)) {
-            Text("版本与来源", style = MaterialTheme.typography.titleSmall)
             Text(book.sourceCredit, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
             if (book.year.isNotBlank()) Text(
                 "年份：${book.year}${book.yearType.displayYearType()}",
@@ -632,6 +635,7 @@ private fun RightsPanel(book: Book) {
             Text("权利状态：${book.rights.name}", style = MaterialTheme.typography.bodySmall)
             Text(book.sourceUrl, color = MaterialTheme.colorScheme.onSurfaceVariant, maxLines = 2, overflow = TextOverflow.Ellipsis, style = MaterialTheme.typography.labelSmall)
             }
+        }
         }
     }
 }
@@ -681,7 +685,6 @@ internal fun ReaderTopBar(title: String, subtitle: String, back: () -> Unit, act
         },
         navigationIcon = { IconButton(onClick = back) { Icon(Icons.AutoMirrored.Filled.ArrowBack, "返回") } },
         actions = actions,
-        modifier = Modifier.statusBarsPadding(),
         colors = TopAppBarDefaults.topAppBarColors(
             containerColor = MaterialTheme.colorScheme.background,
             scrolledContainerColor = MaterialTheme.colorScheme.surfaceContainer
@@ -695,7 +698,7 @@ internal fun SectionTitle(text: String, supporting: String? = null) = Row(
     verticalAlignment = Alignment.Bottom
 ) {
     Column(Modifier.weight(1f)) {
-        Text(text, style = MaterialTheme.typography.titleLarge)
+        Text(text, style = MaterialTheme.typography.titleMedium)
         if (supporting != null) Text(
             supporting,
             color = MaterialTheme.colorScheme.onSurfaceVariant,
@@ -703,7 +706,6 @@ internal fun SectionTitle(text: String, supporting: String? = null) = Row(
             modifier = Modifier.padding(top = 2.dp)
         )
     }
-    Box(Modifier.width(26.dp).height(3.dp).clip(MaterialTheme.shapes.extraSmall).background(MaterialTheme.colorScheme.secondary))
 }
 
 @Composable
@@ -717,17 +719,12 @@ private fun MetadataPill(text: String) {
 
 @Composable
 private fun BrandMark(size: androidx.compose.ui.unit.Dp) {
-    Surface(
-        modifier = Modifier.size(size),
-        shape = MaterialTheme.shapes.medium,
-        color = MaterialTheme.colorScheme.primary,
-        contentColor = MaterialTheme.colorScheme.onPrimary,
-        shadowElevation = 2.dp
-    ) {
-        Box(contentAlignment = Alignment.Center) {
-            Icon(Icons.AutoMirrored.Filled.MenuBook, null, modifier = Modifier.size(size * .55f))
-        }
-    }
+    androidx.compose.foundation.Image(
+        painter = androidx.compose.ui.res.painterResource(R.drawable.ic_marx),
+        contentDescription = null,
+        contentScale = androidx.compose.ui.layout.ContentScale.Crop,
+        modifier = Modifier.size(size).clip(androidx.compose.foundation.shape.CircleShape)
+    )
 }
 
 @Composable

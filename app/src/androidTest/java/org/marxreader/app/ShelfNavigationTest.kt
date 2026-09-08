@@ -5,6 +5,9 @@ import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.performClick
+import androidx.compose.ui.test.hasScrollToNodeAction
+import androidx.compose.ui.test.hasText
+import androidx.compose.ui.test.performScrollToNode
 import org.junit.Rule
 import org.junit.Test
 
@@ -41,6 +44,7 @@ class ShelfNavigationTest {
             composeRule.onAllNodesWithText("设置").fetchSemanticsNodes().isNotEmpty()
         }
         composeRule.onNodeWithText("设置").performClick()
+        composeRule.onNode(hasScrollToNodeAction()).performScrollToNode(hasText("本地阅读数据"))
         composeRule.onNodeWithText("本地阅读数据").assertIsDisplayed()
     }
 }

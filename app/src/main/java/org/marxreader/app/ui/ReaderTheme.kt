@@ -8,6 +8,9 @@ import androidx.compose.material3.Typography
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.SideEffect
+import androidx.activity.compose.LocalActivity
+import androidx.core.view.WindowCompat
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontFamily
@@ -16,34 +19,35 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import org.marxreader.app.data.ReaderTheme
 
-val Wine = Color(0xFF792F38)
-val WineDark = Color(0xFF4D2026)
-val Gold = Color(0xFF9B6B22)
-val Ink = Color(0xFF292522)
-val Paper = Color(0xFFFAF7F0)
+val Wine = Color(0xFFBC3543)
+val WineDark = Color(0xFF74212B)
+val Gold = Color(0xFF59606D)
+val Ink = Color(0xFF17191E)
+val Paper = Color(0xFFF5F6F8)
 val Sepia = Color(0xFFF4EBD8)
 
 private val PaperScheme = lightColorScheme(
     primary = Wine,
     onPrimary = Color.White,
-    primaryContainer = Color(0xFFF0DDE0),
+    primaryContainer = Color(0xFFFBE8EB),
     onPrimaryContainer = WineDark,
     secondary = Gold,
     onSecondary = Color.White,
-    secondaryContainer = Color(0xFFF0E5CC),
-    onSecondaryContainer = Color(0xFF332000),
+    secondaryContainer = Color(0xFFEBEDF1),
+    onSecondaryContainer = Color(0xFF343944),
     background = Paper,
     onBackground = Ink,
-    surface = Paper,
+    surface = Color.White,
     onSurface = Ink,
-    surfaceVariant = Color(0xFFF3EDE4),
-    onSurfaceVariant = Color(0xFF6A625A),
+    surfaceVariant = Color(0xFFEEF0F4),
+    onSurfaceVariant = Color(0xFF616773),
     surfaceContainerLowest = Color(0xFFFFFFFF),
-    surfaceContainerLow = Color(0xFFF2EDE3),
-    surfaceContainer = Color(0xFFEDE6DA),
-    surfaceContainerHigh = Color(0xFFF1EAE0),
-    outline = Color(0xFF8D8278),
-    outlineVariant = Color(0xFFDED5C8),
+    surfaceContainerLow = Color(0xFFFFFFFF),
+    surfaceContainer = Color(0xFFF0F1F5),
+    surfaceContainerHigh = Color(0xFFE8EAF0),
+    surfaceContainerHighest = Color(0xFFDEE1E8),
+    outline = Color(0xFF818896),
+    outlineVariant = Color(0xFFE0E3E9),
     error = Color(0xFFBA1A1A)
 )
 
@@ -72,45 +76,46 @@ private val SepiaScheme = lightColorScheme(
 )
 
 private val DarkScheme = darkColorScheme(
-    primary = Color(0xFFFFB1BA),
-    onPrimary = Color(0xFF580914),
-    primaryContainer = Color(0xFF711E28),
-    onPrimaryContainer = Color(0xFFF0DDE0),
-    secondary = Color(0xFFE6C17B),
-    onSecondary = Color(0xFF402D00),
-    secondaryContainer = Color(0xFF594000),
-    onSecondaryContainer = Color(0xFFFFDEA1),
-    background = Color(0xFF171412),
-    onBackground = Color(0xFFECE2DA),
-    surface = Color(0xFF171412),
-    onSurface = Color(0xFFECE2DA),
-    surfaceVariant = Color(0xFF332D29),
-    onSurfaceVariant = Color(0xFFCFC3BA),
-    surfaceContainerLowest = Color(0xFF110F0D),
-    surfaceContainerLow = Color(0xFF1F1B18),
-    surfaceContainer = Color(0xFF24201D),
-    surfaceContainerHigh = Color(0xFF2F2A26),
-    outline = Color(0xFF9C9087),
-    outlineVariant = Color(0xFF4C443F),
+    primary = Color(0xFFFF9BA5),
+    onPrimary = Color(0xFF571321),
+    primaryContainer = Color(0xFF44232C),
+    onPrimaryContainer = Color(0xFFFFD9DE),
+    secondary = Color(0xFFBAC2D3),
+    onSecondary = Color(0xFF252C39),
+    secondaryContainer = Color(0xFF2C323E),
+    onSecondaryContainer = Color(0xFFE2E6F0),
+    background = Color(0xFF101114),
+    onBackground = Color(0xFFEEF0F5),
+    surface = Color(0xFF1A1C22),
+    onSurface = Color(0xFFEEF0F5),
+    surfaceVariant = Color(0xFF292D36),
+    onSurfaceVariant = Color(0xFFAFB5C3),
+    surfaceContainerLowest = Color(0xFF0C0D10),
+    surfaceContainerLow = Color(0xFF1A1C22),
+    surfaceContainer = Color(0xFF21242C),
+    surfaceContainerHigh = Color(0xFF2B2F39),
+    surfaceContainerHighest = Color(0xFF343945),
+    outline = Color(0xFF8992A4),
+    outlineVariant = Color(0xFF303540),
     error = Color(0xFFFFB4AB)
 )
 
 private val ReaderTypography = Typography(
     headlineLarge = TextStyle(
-        fontFamily = FontFamily.Serif,
+        fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Bold,
         fontSize = 32.sp,
         lineHeight = 40.sp,
         letterSpacing = (-0.3).sp
     ),
     headlineMedium = TextStyle(
-        fontFamily = FontFamily.Serif,
+        fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Bold,
         fontSize = 28.sp,
-        lineHeight = 39.sp
+        lineHeight = 36.sp
     ),
     headlineSmall = TextStyle(
-        fontFamily = FontFamily.Serif,
+        fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.SemiBold,
         fontSize = 23.sp,
         lineHeight = 31.sp
@@ -141,6 +146,19 @@ fun MarxReaderTheme(theme: ReaderTheme, content: @Composable () -> Unit) {
         dark -> DarkScheme
         theme == ReaderTheme.SEPIA -> SepiaScheme
         else -> PaperScheme
+    }
+    val activity = LocalActivity.current
+    SideEffect {
+        activity?.window?.let { window ->
+            @Suppress("DEPRECATION")
+            window.statusBarColor = android.graphics.Color.TRANSPARENT
+            @Suppress("DEPRECATION")
+            window.navigationBarColor = android.graphics.Color.TRANSPARENT
+            WindowCompat.getInsetsController(window, window.decorView).apply {
+                isAppearanceLightStatusBars = !dark
+                isAppearanceLightNavigationBars = !dark
+            }
+        }
     }
     MaterialTheme(
         colorScheme = colors,

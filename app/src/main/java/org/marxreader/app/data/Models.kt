@@ -25,14 +25,20 @@ data class Chapter(
     val declaredParagraphCount: Int = paragraphs.size,
     val declaredParagraphCharacterCounts: List<Int> = paragraphs.map(String::length)
 ) {
-    val paragraphCharacterCounts: List<Int> get() =
+    val paragraphCharacterCounts: List<Int> by lazy {
         if (paragraphs.isNotEmpty()) paragraphs.map(String::length) else declaredParagraphCharacterCounts
-    val characterCount: Int get() = paragraphCharacterCounts.sum()
+    }
+    private val paragraphOffsets: IntArray by lazy {
+        IntArray(paragraphCharacterCounts.size + 1).also { offsets ->
+            paragraphCharacterCounts.forEachIndexed { index, count -> offsets[index + 1] = offsets[index] + count }
+        }
+    }
+    val characterCount: Int get() = paragraphOffsets.last()
 
     fun characterOffset(paragraphIndex: Int, characterOffset: Int = 0): Int {
         if (paragraphCharacterCounts.isEmpty()) return 0
         val index = paragraphIndex.coerceIn(0, paragraphCharacterCounts.lastIndex)
-        return paragraphCharacterCounts.take(index).sum() +
+        return paragraphOffsets[index] +
             characterOffset.coerceIn(0, paragraphCharacterCounts[index])
     }
 }
@@ -92,7 +98,15 @@ data class Book(
     val displayTitle: String get() = if (language == Language.ZH) titleZh else titleEn
     val counterpartKey: String get() = seriesId ?: id.substringBeforeLast("-")
     val paragraphCount: Int get() = chapters.sumOf { it.declaredParagraphCount }
-    val characterCount: Int get() = chapters.sumOf { it.characterCount }
+    private val chapterOffsets: IntArray by lazy {
+        IntArray(chapters.size + 1).also { offsets ->
+            chapters.forEachIndexed { index, chapter -> offsets[index + 1] = offsets[index] + chapter.characterCount }
+        }
+    }
+    private val chapterIndices: Map<String, Int> by lazy { chapters.mapIndexed { index, chapter -> chapter.id to index }.toMap() }
+    val characterCount: Int get() = chapterOffsets.last()
+    internal fun chapterIndex(id: String): Int = chapterIndices[id] ?: 0
+    internal fun charactersBeforeChapter(index: Int): Int = chapterOffsets[index.coerceIn(0, chapters.size)]
     val hasContent: Boolean get() = chapters.any { it.paragraphs.isNotEmpty() }
 
     fun breadcrumb(chapterId: String, paragraphIndex: Int = 0): List<TocNode> {
