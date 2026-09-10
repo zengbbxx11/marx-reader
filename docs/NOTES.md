@@ -21,7 +21,17 @@
 
 ## 数据库与迁移
 
-`reader.db` 当前版本为 3。由版本 2 升级时会在 `SQLiteOpenHelper` 的升级事务内重建 `notes` 表，完整复制旧笔记，再增加精确锚点字段。新表允许同一段落保存多条不同摘录笔记。
+`reader.db`（`ReaderDatabase`，基于 `SQLiteOpenHelper`）当前版本为 6，除 `notes` 外还包含 `progress`、`chapter_progress`、`bookmarks`、`note_tags`、`reading_sessions`、`metadata` 以及全文检索表 `content_fts`（FTS4，`unicode61` 分词）。
+
+升级在 `SQLiteOpenHelper` 的事务内按版本逐级执行：
+
+- v2：新增 `chapter_progress`（章节级进度）；
+- v3：重建 `notes` 表，完整复制旧笔记并增加精确锚点字段（字符范围、段落指纹、前后文、`anchor_state`），新表允许同一段落保存多条不同摘录笔记；
+- v4：`progress` 与 `chapter_progress` 增加 `character_offset`、`completed`；
+- v5：`notes` 增加 `note_kind`、`highlight_color`、`pinned`，并新增 `note_tags` 与 `reading_sessions`；
+- v6：确保 `bookmarks` 表存在并补充 `character_offset`。
+
+升级均在单一事务内完成，任一步失败即回滚，不会留下半迁移状态。
 
 ## 本地边界
 

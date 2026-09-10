@@ -21,6 +21,7 @@ from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
 
 from audit_library_quality import infer_local_year, is_credible_inferred_heading
+from text_encoding import decode_html
 
 
 HOST = "www.marxists.org"
@@ -85,17 +86,12 @@ def fetch(url: str, cache: Path) -> str:
             if attempt == 2:
                 raise
             time.sleep(1.0 + attempt)
-    encoding = charset or detect_encoding(raw) or "utf-8"
-    text = raw.decode(encoding, errors="replace")
+    text = decode_html(raw, charset)
     target.write_text(text, "utf-8")
     time.sleep(DELAY_SECONDS)
     return text
 
 
-def detect_encoding(raw: bytes) -> str | None:
-    head = raw[:4096].decode("ascii", errors="ignore")
-    match = re.search(r"charset\s*=\s*['\"]?([\w-]+)", head, flags=re.I)
-    return match.group(1) if match else None
 
 
 def clean_space(value: str) -> str:
@@ -239,6 +235,13 @@ def is_navigation(value: str) -> bool:
 
 def keep_text(value: str, title: str) -> bool:
     if len(value) < 2 or value == title or is_navigation(value):
+        return False
+    # Older pages put the site breadcrumb on its own lines, for example
+    # "中文马克思主义文库" / "->" / "马克思". Those are navigation, not text.
+    stripped = value.strip()
+    if stripped in {"->", "- >", "→", ">>", "»"}:
+        return False
+    if stripped.startswith(("-> ", "→ ", ">> ")) and len(stripped) <= 40:
         return False
     lowered = value.lower()
     return not any(noise in lowered for noise in (

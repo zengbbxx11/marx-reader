@@ -23,6 +23,8 @@ try:
 except ImportError as exc:
     raise SystemExit("Install tools/requirements.txt before running this utility") from exc
 
+from text_encoding import decode_html
+
 
 USER_AGENT = "MarxismLibrary/0.2 (offline content builder; respectful crawler)"
 ALLOWED_HOST = "www.marxists.org"
@@ -88,17 +90,10 @@ def fetch(url: str, cache: Path) -> str:
     with urllib.request.urlopen(request, timeout=45) as response:
         raw = response.read()
         content_type = response.headers.get_content_charset()
-    encoding = content_type or detect_encoding(raw) or "utf-8"
-    text = raw.decode(encoding, errors="replace")
+    text = decode_html(raw, content_type)
     target.write_text(text, "utf-8")
     time.sleep(REQUEST_DELAY_SECONDS)
     return text
-
-
-def detect_encoding(raw: bytes) -> str | None:
-    head = raw[:4096].decode("ascii", errors="ignore")
-    match = re.search(r"charset\s*=\s*['\"]?([\w-]+)", head, flags=re.I)
-    return match.group(1) if match else None
 
 
 def page_links(source: Source, html: str) -> list[tuple[str, str]]:

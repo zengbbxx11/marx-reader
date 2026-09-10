@@ -18,6 +18,17 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Iterable
 
+from library_text_rules import (
+    HEAD_WINDOW,
+    NAV_MARK_RE,
+    NAV_RE,
+    PUA_UNRESOLVED,
+    STRUCT_MAX_LEN,
+    STRUCT_RE,
+    norm,
+)
+from text_encoding import REPLACEMENT_CHARACTER
+
 
 ALLOWED_CATEGORIES = {"著作", "文章", "书信"}
 ALLOWED_RIGHTS = {"PUBLIC_DOMAIN", "CC_BY_SA", "PERMISSION_REQUIRED", "UNKNOWN"}
@@ -202,6 +213,12 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
             add("ERROR", "MISSING_BOOK_ID", location, "book id is empty")
         if not title:
             add("ERROR", "MISSING_TITLE", location, "Chinese title is empty")
+        if REPLACEMENT_CHARACTER in title:
+            add(
+                "ERROR", "REPLACEMENT_CHARACTER", location,
+                f"{title.count(REPLACEMENT_CHARACTER)} undecodable character(s) in title; "
+                "re-fetch the source page with the correct charset",
+            )
         unknown_authors = set(book.get("authorIds", [])) - known_authors
         if unknown_authors:
             add("ERROR", "UNKNOWN_AUTHOR", location, f"unknown author ids: {sorted(unknown_authors)}")
@@ -282,6 +299,77 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
                 add("ERROR", "PRIVATE_TOKEN_LEAK", chapter_location, "private footnote token leaked into body")
             if HTML_RE.search(body):
                 add("ERROR", "HTML_LEAK", chapter_location, "probable HTML tag leaked into body")
+            # A replacement character means the source page was decoded with the
+            # wrong charset, and the original bytes are already lost by then.
+            broken_characters = sum(
+                str(value).count(REPLACEMENT_CHARACTER) for value in paragraphs
+            ) + str(chapter.get("title", "")).count(REPLACEMENT_CHARACTER)
+            if broken_characters:
+                add(
+                    "ERROR", "REPLACEMENT_CHARACTER", chapter_location,
+                    f"{broken_characters} undecodable character(s) in body or title; "
+                    "re-fetch the source page with the correct charset",
+                )
+            # Source-site navigation lines ("上一篇 回目录 下一篇") and structural
+            # heading lines ("第一篇 商品和货币") are not prose.  keep_text() keeps
+            # them because they only match as combinations, and older MIA pages
+            # emit volume/part/chapter titles as plain text rows.  Both are
+            # removable by tools/repair_library_text.py.
+            navigation_lines = [
+                index for index, paragraph in enumerate(paragraphs)
+                if isinstance(paragraph, str) and (
+                    NAV_RE.match(paragraph.strip())
+                    or (NAV_MARK_RE.search(paragraph) and len(paragraph.strip()) < 50)
+                )
+            ]
+            if navigation_lines:
+                add(
+                    "ERROR", "NAVIGATION_LINE", chapter_location,
+                    f"{len(navigation_lines)} source-site navigation line(s) retained "
+                    f"(first at paragraph {navigation_lines[0]}); "
+                    "run tools/repair_library_text.py",
+                )
+            chapter_title_normalized = norm(str(chapter.get("title", "")))
+            heading_lines = [
+                index for index, paragraph in enumerate(paragraphs)
+                if isinstance(paragraph, str)
+                and STRUCT_RE.match(paragraph.strip())
+                and len(paragraph.strip()) <= STRUCT_MAX_LEN
+                and (
+                    index < HEAD_WINDOW
+                    or norm(paragraph.strip()) == chapter_title_normalized
+                )
+            ]
+            if heading_lines:
+                add(
+                    "ERROR", "DUPLICATE_STRUCTURE_HEADING", chapter_location,
+                    f"{len(heading_lines)} structural heading line(s) duplicated in body "
+                    f"(first at paragraph {heading_lines[0]}); "
+                    "run tools/repair_library_text.py",
+                )
+            # GBK user-area bytes decode into the Unicode private use area.  Those
+            # characters have no glyph, so they surface as blanks in the reader.
+            # Mapped ones are repairable; the rest are irreversibly damaged at the
+            # source (a literal 0x3F replaced the original glyph) and only reviewed.
+            pua_counts: Counter = Counter()
+            for paragraph in [*paragraphs, str(chapter.get("title", ""))]:
+                if isinstance(paragraph, str):
+                    for character in paragraph:
+                        if 0xE000 <= ord(character) <= 0xF8FF:
+                            pua_counts[character] += 1
+            for character, count in pua_counts.items():
+                if character in PUA_UNRESOLVED:
+                    add(
+                        "REVIEW", "KNOWN_SOURCE_DAMAGE", chapter_location,
+                        f"U+{ord(character):04X} x{count}: source bytes irreversibly damaged "
+                        "(literal 0x3F), original glyph lost",
+                    )
+                else:
+                    add(
+                        "ERROR", "PRIVATE_USE_CHARACTER", chapter_location,
+                        f"U+{ord(character):04X} x{count}: GBK user-area byte decoded into "
+                        "private use area; run tools/repair_library_text.py",
+                    )
             if body:
                 digest = hashlib.sha256(body.encode("utf-8")).hexdigest()
                 content_owners[digest].append(chapter_location)
@@ -302,6 +390,12 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
                 reason = suspicious_section_reason(section_title)
                 if reason:
                     add("ERROR", "SUSPICIOUS_SECTION_TITLE", section_location, f"{reason}: {section_title!r}")
+                if REPLACEMENT_CHARACTER in section_title:
+                    add(
+                        "ERROR", "REPLACEMENT_CHARACTER", section_location,
+                        f"{section_title.count(REPLACEMENT_CHARACTER)} undecodable character(s) in section title; "
+                        "re-fetch the source page with the correct charset",
+                    )
                 paragraph_index = section.get("paragraphIndex")
                 if not isinstance(paragraph_index, int) or paragraph_index not in range(len(paragraphs)):
                     add("ERROR", "SECTION_TARGET_OUT_OF_RANGE", section_location, f"paragraph index {paragraph_index!r}")
@@ -320,6 +414,13 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
                     add("ERROR", "EMPTY_FOOTNOTE", footnote_location, "marker or footnote content is empty")
                 if any("MIA_FOOTNOTE" in value for value in note_content):
                     add("ERROR", "PRIVATE_TOKEN_LEAK", footnote_location, "private token leaked into footnote")
+                broken_characters = sum(value.count(REPLACEMENT_CHARACTER) for value in note_content)
+                if broken_characters:
+                    add(
+                        "ERROR", "REPLACEMENT_CHARACTER", footnote_location,
+                        f"{broken_characters} undecodable character(s) in footnote; "
+                        "re-fetch the source page with the correct charset",
+                    )
                 references = list(footnote.get("references", []))
                 if not references:
                     add("ERROR", "FOOTNOTE_WITHOUT_REFERENCE", footnote_location, "footnote has no body reference")
@@ -360,6 +461,13 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
                 add("ERROR", "UNKNOWN_TOC_PARENT", node_location, f"unknown parent {parent_id!r}")
             if node.get("type") not in ALLOWED_TOC_TYPES:
                 add("ERROR", "INVALID_TOC_TYPE", node_location, f"invalid type {node.get('type')!r}")
+            node_title = str(node.get("title", ""))
+            if REPLACEMENT_CHARACTER in node_title:
+                add(
+                    "ERROR", "REPLACEMENT_CHARACTER", node_location,
+                    f"{node_title.count(REPLACEMENT_CHARACTER)} undecodable character(s) in TOC title; "
+                    "re-fetch the source page with the correct charset",
+                )
             chapter_id = node.get("chapterId")
             if chapter_id is not None and chapter_id not in chapter_by_id:
                 add("ERROR", "UNKNOWN_TOC_CHAPTER", node_location, f"unknown chapter {chapter_id!r}")

@@ -21,3 +21,6 @@ __pycache__/
 keystore.properties
 .env
 .env.*
+# 工作区数据：本地构建工具链（JDK/SDK，体积可达 GB 级）、临时文件、备份
+# 注意：README 已规定本地 Android SDK 配置不得提交，此目录同理
+.workbuddy/

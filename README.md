@@ -1,6 +1,6 @@
 # 马列原典
 
-马恩列斯毛中文离线文库，面向手机长篇阅读的安卓原生纯中文阅读器。内置书库范围为马克思、恩格斯、列宁、斯大林和毛泽东，并将《资本论》三卷作为核心书系。当前内置书库包含 650 部著作、文章和书信，合计 884 个章节、2,276 个正文小节、约 873 万字。
+马恩列斯毛中文离线文库，面向手机长篇阅读的安卓原生纯中文阅读器。内置书库范围为马克思、恩格斯、列宁、斯大林和毛泽东，并将《资本论》三卷作为核心书系。当前内置书库包含 650 部著作、文章和书信，合计 884 个章节、1,935 个正文小节、约 867 万字。
 
 项目主页：<https://github.com/zengbbxx11/marx-reader>
 
@@ -52,9 +52,23 @@ python tools/remediate_library_metadata.py
 python tools/remediate_library_metadata.py --write
 ```
 
-质量审计把确定的结构或内容缺陷标为 `ERROR`，把年份冲突、译者未记录、权利依据待补等不能可靠自动判断的问题标为 `REVIEW`。正式版本必须保持 `ERROR=0`；`REVIEW` 项不得用未经核验的猜测批量填充。规则、当前基线和人工复核流程见 [docs/LIBRARY_QUALITY.md](docs/LIBRARY_QUALITY.md)。
+正文完整性修复使用两组默认只读的修复工具（先 dry-run 查看，确认后加 `--apply` 写入 `.generated/library-full.json`，再重新拆分资源）：
+
+```shell
+python tools/repair_library_text.py    # 来源导航行、重复结构标题行、可还原的私有使用区字符
+python tools/repair_source_shift.py    # 源页字节帧错位导致的丢失汉字
+```
+
+质量审计把确定的结构或内容缺陷标为 `ERROR`，把年份冲突、译者未记录、权利依据待补等不能可靠自动判断的问题标为 `REVIEW`。正式版本必须保持 `ERROR=0`；`REVIEW` 项不得用未经核验的猜测批量填充。当前 `ERROR` 级硬性检查包括断裂目录、空正文、来源导航行、重复结构标题行和私有使用区（PUA）字符等。规则、当前基线和人工复核流程见 [docs/LIBRARY_QUALITY.md](docs/LIBRARY_QUALITY.md)。
 
 这些脚本只用于开发和发布阶段维护随 APK 分发的内置书库，不是面向用户的内容入口。安装后的 App 不读取外部正文文件，也不提供书库更新、替换或删除功能；书库内容随应用版本统一更新。
+
+辅助与诊断工具：
+
+- `tools/text_encoding.py`：抓取页面的共享解码模块（UTF-8 / GB18030 / Big5 回退），被构建器和质量审计引用，避免把无法解码的字节写成替换字符。
+- `tools/build_library.py`：早期的单页目录抓取器，可用 `--only` 按来源 id 定向重建，缓存与输出路径由 `--cache`、`--output` 指定。
+- `tools/inspect_library.py`：遍历已拆分资源，逐本打印章节、目录节点、段落与字符数；加 `--titles` 输出章节标题，用于人工巡检。
+- `tools/verify_apk.py`：校验构建出的 APK 内含完整离线书库且未声明网络权限；默认检查 debug APK，`--aapt` 默认指向 `.toolchains/android-sdk` 布局，本地 SDK 路径不同时请显式传入。
 
 ## 本地精确笔记
 
@@ -73,6 +87,8 @@ python tools/remediate_library_metadata.py --write
 提交前建议运行：
 
 ```shell
+python tools/repair_library_text.py
+python tools/repair_source_shift.py
 python tools/validate_library.py
 python tools/audit_library_quality.py
 python tools/audit_footnotes.py
