@@ -6,7 +6,6 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.SupervisorJob
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
-import kotlinx.coroutines.launch
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
 import kotlinx.coroutines.withContext
@@ -23,12 +22,18 @@ data class SearchIndexState(
     val error: String? = null
 )
 
+/** Equal consecutive errors must still re-notify, so each report carries an occurrence id. */
+data class WriteError(val message: String, val occurrence: Long)
+
 @OptIn(kotlinx.coroutines.ExperimentalCoroutinesApi::class)
 class LibraryRepository(private val context: Context) {
     private val database = ReaderDatabase(context)
     private val writeDispatcher = Dispatchers.IO.limitedParallelism(1)
     private val ioScope = CoroutineScope(SupervisorJob() + writeDispatcher)
+    private val pendingProgress = mutableMapOf<String, ReaderPosition>()
     private val mutableCatalog = MutableStateFlow(LibraryCatalog(emptyList(), emptyList()))
+    private val loadedBookBudget = readerPageCacheBudget(context) * 4
+    private val bookLoadMutex = Mutex()
     private val loadedBooks = object : LinkedHashMap<String, Book>(6, .75f, true) {
         override fun removeEldestEntry(eldest: MutableMap.MutableEntry<String, Book>?): Boolean = size > 4
     }
@@ -39,10 +44,14 @@ class LibraryRepository(private val context: Context) {
     private var indexBuild: Deferred<Unit>? = null
     private val mutableDataRevision = MutableStateFlow(0L)
     private val mutableNotesRevision = MutableStateFlow(0L)
-    private val mutableWriteError = MutableStateFlow<String?>(null)
+    private val mutableProgressRevision = MutableStateFlow(0L)
+    private val mutableWriteError = MutableStateFlow<WriteError?>(null)
     val dataRevision = mutableDataRevision.asStateFlow()
     val notesRevision = mutableNotesRevision.asStateFlow()
+    /** Live position ticks (throttled saves); dataRevision stays quiet so off-reader screens do not reload. */
+    val progressRevision = mutableProgressRevision.asStateFlow()
     val writeError = mutableWriteError.asStateFlow()
+    private var writeErrorCount = 0L
     @Volatile private var catalogFingerprint = ""
     @Volatile private var searchReadyFor = ""
     val catalog = mutableCatalog.asStateFlow()
@@ -63,12 +72,36 @@ class LibraryRepository(private val context: Context) {
     }
 
     suspend fun loadBook(bookId: String): Book? = withContext(Dispatchers.IO) {
-        synchronized(loadedBooks) { loadedBooks[bookId] } ?: readBook(bookId)?.also {
-            synchronized(loadedBooks) { loadedBooks[bookId] = it }
+        bookLoadMutex.withLock {
+            synchronized(loadedBooks) { loadedBooks[bookId] } ?: readBook(bookId)?.also { book ->
+                synchronized(loadedBooks) {
+                    if (book.characterCount <= loadedBookBudget) {
+                        loadedBooks[bookId] = book
+                        val iterator = loadedBooks.entries.iterator()
+                        var weight = loadedBooks.values.sumOf { it.characterCount.toLong() }
+                        while (weight > loadedBookBudget && iterator.hasNext()) {
+                            weight -= iterator.next().value.characterCount
+                            iterator.remove()
+                        }
+                    }
+                }
+            }
         }
     }
 
-    fun progress(bookId: String) = database.progress(bookId)
+    /** Release rebuildable content without disk IO or forcing lazy initialization. */
+    fun trimLoadedBooks(keep: Int = 1) {
+        synchronized(loadedBooks) {
+            val iterator = loadedBooks.entries.iterator()
+            while (loadedBooks.size > keep.coerceAtLeast(0) && iterator.hasNext()) {
+                iterator.next()
+                iterator.remove()
+            }
+        }
+    }
+
+    fun progress(bookId: String): ReaderPosition? =
+        synchronized(pendingProgress) { pendingProgress[bookId] } ?: database.progress(bookId)
     fun allProgress() = database.allProgress()
     fun chapterProgress(bookId: String) = database.chapterProgress(bookId)
     fun saveProgress(
@@ -76,23 +109,62 @@ class LibraryRepository(private val context: Context) {
         chapterId: String,
         paragraphIndex: Int,
         characterOffset: Int = 0,
-        completed: Boolean = false
+        completed: Boolean = false,
+        progressOnly: Boolean = true
     ) {
-        ioScope.launch {
+        enqueueProgress(bookId, chapterId, paragraphIndex, characterOffset, completed, progressOnly)
+    }
+
+    /** Register the latest position before returning; the application owns its disk write. */
+    private fun enqueueProgress(
+        bookId: String,
+        chapterId: String,
+        paragraphIndex: Int,
+        characterOffset: Int,
+        completed: Boolean,
+        progressOnly: Boolean
+    ): Deferred<Unit> = synchronized(pendingProgress) {
+        val position = ReaderPosition(bookId, chapterId, paragraphIndex,
+            System.currentTimeMillis(), characterOffset.coerceAtLeast(0), completed)
+        pendingProgress[bookId] = position
+        ioScope.async {
             try {
-                write { database.saveProgress(bookId, chapterId, paragraphIndex, characterOffset, completed) }
+                write(progressTick = progressOnly) {
+                    database.saveProgress(bookId, chapterId, paragraphIndex, characterOffset, completed)
+                }
             } catch (cancelled: CancellationException) {
                 throw cancelled
             } catch (error: Exception) {
-                mutableWriteError.value = "阅读进度保存失败，请稍后重试"
+                reportWriteError("阅读进度保存失败，请稍后重试")
+                throw error
+            } finally {
+                synchronized(pendingProgress) {
+                    // An older write must never discard a newer pending position.
+                    if (pendingProgress[bookId] === position) pendingProgress.remove(bookId)
+                }
             }
         }
     }
-    fun dismissWriteError() { mutableWriteError.value = null }
-    private suspend fun <T> write(notesChanged: Boolean = false, block: () -> T): T = withContext(writeDispatcher) {
+
+    suspend fun saveProgressNow(
+        bookId: String,
+        chapterId: String,
+        paragraphIndex: Int,
+        characterOffset: Int = 0,
+        completed: Boolean = false,
+        progressOnly: Boolean = true
+    ) {
+        enqueueProgress(bookId, chapterId, paragraphIndex, characterOffset, completed, progressOnly).await()
+    }
+    fun dismissWriteError(error: WriteError) { mutableWriteError.compareAndSet(error, null) }
+    @Synchronized private fun reportWriteError(message: String) {
+        mutableWriteError.value = WriteError(message, ++writeErrorCount)
+    }
+    private suspend fun <T> write(notesChanged: Boolean = false, progressTick: Boolean = false, block: () -> T): T = withContext(writeDispatcher) {
         writeMutex.withLock {
             block().also {
-                mutableDataRevision.update { it + 1 }
+                if (progressTick) mutableProgressRevision.update { it + 1 }
+                else mutableDataRevision.update { it + 1 }
                 if (notesChanged) mutableNotesRevision.update { it + 1 }
             }
         }
@@ -105,12 +177,19 @@ class LibraryRepository(private val context: Context) {
     suspend fun notesForChapter(bookId: String, chapterId: String): List<Note> =
         withContext(Dispatchers.IO) { database.notesForChapter(bookId, chapterId) }
     suspend fun resolveNotes(book: Book, chapter: Chapter): List<ResolvedNoteAnchor> = withContext(Dispatchers.IO) {
-        database.notesForChapter(book.id, chapter.id).map { note ->
-            resolveNoteAnchor(note, chapter.paragraphs).also { resolved ->
-                if (resolved.status == NoteAnchorStatus.RELOCATED || note.anchorState != resolved.status.name) {
-                    database.updateNoteAnchor(resolved)
+        try {
+            database.notesForChapter(book.id, chapter.id).map { note ->
+                resolveNoteAnchor(note, chapter.paragraphs).also { resolved ->
+                    if (resolved.status == NoteAnchorStatus.RELOCATED || note.anchorState != resolved.status.name) {
+                        database.updateNoteAnchor(resolved)
+                    }
                 }
             }
+        } catch (cancelled: CancellationException) {
+            throw cancelled
+        } catch (error: Exception) {
+            reportWriteError("笔记加载失败，请稍后重试")
+            emptyList()
         }
     }
     suspend fun deleteBookmark(id: Long) = write { database.deleteBookmark(id) }
@@ -146,7 +225,7 @@ class LibraryRepository(private val context: Context) {
     ): List<SearchHit> = withContext(Dispatchers.IO) {
         initialize()
         val build = searchIndexMutex.withLock {
-            indexBuild?.takeIf { it.isActive } ?: ioScope.async {
+            indexBuild?.takeIf { it.isActive } ?: ioScope.async(Dispatchers.IO) {
             if (searchReadyFor != catalogFingerprint) {
                 val books = mutableCatalog.value.books
                 val targetFingerprint = catalogFingerprint
@@ -154,7 +233,8 @@ class LibraryRepository(private val context: Context) {
                 try {
                     database.rebuildSearchIndex(targetFingerprint, sequence {
                         books.forEachIndexed { index, metadata ->
-                            yield(requireNotNull(readBook(metadata.id)) { "作品正文缺失：${metadata.displayTitle}" })
+                            // Skip one unreadable book so a single bad file cannot fail the whole index.
+                            readBook(metadata.id)?.let { yield(it) }
                             mutableSearchIndexState.value = SearchIndexState(
                                 building = true,
                                 current = index + 1,
@@ -186,7 +266,8 @@ class LibraryRepository(private val context: Context) {
         val json = runCatching {
             context.assets.open("library/books/$bookId.json").bufferedReader().use { it.readText() }
         }.getOrNull() ?: return null
-        return parseCatalog(json).book(bookId)
+        // One malformed book file must degrade to "missing", never break the reader or the index build.
+        return runCatching { parseCatalog(json).book(bookId) }.getOrNull()
     }
 
     private fun sha256(value: String): String = MessageDigest.getInstance("SHA-256")

@@ -190,37 +190,68 @@ class ReaderDatabase(context: Context) :
     }
 
     fun rebuildSearchIndex(fingerprint: String, books: Sequence<Book>) {
-        val current = readableDatabase.rawQuery(
+        val db = writableDatabase
+        val current = db.rawQuery(
             "SELECT value FROM metadata WHERE key='catalog_fingerprint'", null
         ).use { if (it.moveToFirst()) it.getString(0) else null }
         if (current == fingerprint) return
 
-        writableDatabase.beginTransaction()
+        // Build a disposable staging index while preserving the published index.
+        db.execSQL("DROP TABLE IF EXISTS content_fts_build")
+        db.execSQL("""
+            CREATE VIRTUAL TABLE content_fts_build USING fts4(
+                book_id, chapter_id, paragraph_index, title, chapter_title, content,
+                tokenize=unicode61
+            )
+        """.trimIndent())
+        var indexedParagraphs = 0
         try {
-            writableDatabase.delete("content_fts", null, null)
-            books.forEach { book ->
-                book.chapters.forEach { chapter ->
-                    chapter.paragraphs.forEachIndexed { index, paragraph ->
-                        writableDatabase.insertOrThrow("content_fts", null, ContentValues().apply {
-                            put("book_id", book.id)
-                            put("chapter_id", chapter.id)
-                            put("paragraph_index", index)
-                            put("title", book.displayTitle)
-                            put("chapter_title", chapter.title)
-                            put("content", paragraph)
-                        })
+            db.compileStatement(
+                "INSERT INTO content_fts_build VALUES(?, ?, ?, ?, ?, ?)"
+            ).use { insert ->
+                books.forEach { book ->
+                    // Asset parsing happens before acquiring a write transaction.
+                    book.chapters.forEach { chapter ->
+                        var paragraphIndex = 0
+                        chapter.paragraphs.chunked(200).forEach { batch ->
+                            db.beginTransaction()
+                            try {
+                                batch.forEach { paragraph ->
+                                    insert.bindString(1, book.id)
+                                    insert.bindString(2, chapter.id)
+                                    insert.bindLong(3, paragraphIndex.toLong())
+                                    insert.bindString(4, book.displayTitle)
+                                    insert.bindString(5, chapter.title)
+                                    insert.bindString(6, paragraph)
+                                    insert.executeInsert()
+                                    paragraphIndex++
+                                    indexedParagraphs++
+                                }
+                                db.setTransactionSuccessful()
+                            } finally {
+                                db.endTransaction()
+                            }
+                        }
                     }
                 }
             }
-            writableDatabase.insertWithOnConflict(
-                "metadata", null, ContentValues().apply {
-                    put("key", "catalog_fingerprint")
-                    put("value", fingerprint)
-                }, SQLiteDatabase.CONFLICT_REPLACE
-            )
-            writableDatabase.setTransactionSuccessful()
+            check(indexedParagraphs > 0) { "搜索索引建立失败：没有可读取的作品正文" }
+            db.beginTransaction()
+            try {
+                db.execSQL("DROP TABLE content_fts")
+                db.execSQL("ALTER TABLE content_fts_build RENAME TO content_fts")
+                check(db.insertWithOnConflict(
+                    "metadata", null, ContentValues().apply {
+                        put("key", "catalog_fingerprint")
+                        put("value", fingerprint)
+                    }, SQLiteDatabase.CONFLICT_REPLACE
+                ) != -1L) { "搜索索引状态保存失败" }
+                db.setTransactionSuccessful()
+            } finally {
+                db.endTransaction()
+            }
         } finally {
-            writableDatabase.endTransaction()
+            db.execSQL("DROP TABLE IF EXISTS content_fts_build")
         }
     }
 
@@ -503,12 +534,39 @@ class ReaderDatabase(context: Context) :
         }
     }
 
-    fun readingStatistics(now: Long = System.currentTimeMillis()): ReadingStatistics =
-        calculateReadingStatistics(
-            readingSessions(),
-            allProgress().values.count { it.completed },
-            now
-        )
+    fun readingStatistics(now: Long = System.currentTimeMillis()): ReadingStatistics {
+        val zone = java.time.ZoneId.systemDefault()
+        val daily = mutableMapOf<java.time.LocalDate, Long>()
+        // Stream only the three needed columns, preserving per-session midnight rounding.
+        readableDatabase.rawQuery(
+            "SELECT started_at, ended_at, active_millis FROM reading_sessions WHERE active_millis > 0",
+            null
+        ).use { cursor ->
+            while (cursor.moveToNext()) {
+                distributeReadingTime(cursor.getLong(0), cursor.getLong(1), cursor.getLong(2), zone)
+                    .forEach { (date, millis) -> daily[date] = daily.getOrDefault(date, 0L) + millis }
+            }
+        }
+        val books = readableDatabase.rawQuery("""
+            SELECT book_id, SUM(active_millis), COUNT(*)
+            FROM reading_sessions WHERE active_millis > 0
+            GROUP BY book_id ORDER BY SUM(active_millis) DESC, MAX(started_at) DESC,
+                (SELECT latest.id FROM reading_sessions AS latest
+                 WHERE latest.book_id = reading_sessions.book_id AND latest.active_millis > 0
+                 ORDER BY latest.started_at DESC, latest.id DESC LIMIT 1) DESC
+        """.trimIndent(), null).use { cursor ->
+            buildList {
+                while (cursor.moveToNext()) add(
+                    BookReadingStat(cursor.getString(0), cursor.getLong(1), cursor.getInt(2))
+                )
+            }
+        }
+        val completedBooks = readableDatabase.rawQuery(
+            "SELECT COUNT(*) FROM progress WHERE completed != 0", null
+        ).use { it.moveToFirst(); it.getInt(0) }
+        return buildReadingStatistics(daily, books, books.sumOf { it.activeMillis },
+            completedBooks, now, zone)
+    }
 
     fun search(
         query: String,

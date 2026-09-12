@@ -338,7 +338,9 @@ private fun paginateChapters(
                 endLine++
             }
             val startChar = layout.getLineStart(startLine)
-            var endChar = layout.getLineEnd(endLine).coerceAtLeast(startChar + 1)
+            // A trailing newline can yield a phantom final line starting at text length.
+            if (startChar >= styled.length) break
+            var endChar = layout.getLineEnd(endLine).coerceIn(startChar + 1, styled.length)
             // Never leave half of a section heading at the foot of a page. If
             // the proposed boundary crosses a heading, move that heading to the
             // next page as one visual unit.
@@ -349,7 +351,7 @@ private fun paginateChapters(
                 val headingLine = layout.getLineForOffset(splitHeading.start)
                 if (headingLine > startLine) {
                     endLine = headingLine - 1
-                    endChar = layout.getLineEnd(endLine).coerceAtLeast(startChar + 1)
+                    endChar = layout.getLineEnd(endLine).coerceIn(startChar + 1, styled.length)
                 }
             }
             val paragraphIndex = paragraphStarts.indexOfLast { it <= startChar }.coerceAtLeast(0)

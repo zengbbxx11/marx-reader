@@ -56,8 +56,18 @@ class DataSafetyTest {
     @Test
     fun versionOneDatabaseCreatesChapterProgressDuringUpgrade() {
         context.deleteDatabase("reader.db")
-        SQLiteDatabase.openOrCreateDatabase(context.getDatabasePath("reader.db"), null).use {
-            it.version = 1
+        SQLiteDatabase.openOrCreateDatabase(context.getDatabasePath("reader.db"), null).use { db ->
+            // A version-one database contains the original tables; an empty file is not a migration fixture.
+            db.execSQL("""
+                CREATE TABLE progress(book_id TEXT PRIMARY KEY, chapter_id TEXT NOT NULL,
+                    paragraph_index INTEGER NOT NULL DEFAULT 0, updated_at INTEGER NOT NULL)
+            """.trimIndent())
+            db.execSQL("""
+                CREATE TABLE notes(id INTEGER PRIMARY KEY AUTOINCREMENT, book_id TEXT NOT NULL,
+                    chapter_id TEXT NOT NULL, paragraph_index INTEGER NOT NULL, excerpt TEXT NOT NULL,
+                    note_text TEXT NOT NULL, updated_at INTEGER NOT NULL)
+            """.trimIndent())
+            db.version = 1
         }
 
         val database = ReaderDatabase(context)
@@ -83,7 +93,56 @@ class DataSafetyTest {
     fun searchScopesSeparateTitlesAndBody() {
         context.deleteDatabase("reader.db")
         val database = ReaderDatabase(context)
-        val book = Book(
+        val book = searchBook()
+        database.rebuildSearchIndex("test", sequenceOf(book))
+
+        assertEquals(1, database.search("资本", SearchScope.TITLES).size)
+        assertEquals(0, database.search("劳动", SearchScope.TITLES).size)
+        assertEquals(1, database.search("劳动", SearchScope.BODY).size)
+        database.close()
+    }
+
+    @Test
+    fun validIndexIsReusedWithoutReadingBooks() {
+        context.deleteDatabase("reader.db")
+        ReaderDatabase(context).use { database ->
+            database.rebuildSearchIndex("same", sequenceOf(searchBook()))
+            database.rebuildSearchIndex("same", sequence { error("Must reuse existing index") })
+            assertEquals(1, database.search("劳动", SearchScope.BODY).size)
+        }
+    }
+
+    @Test
+    fun emptyOrFailedRebuildPreservesPreviousIndexAndAllowsRetry() {
+        context.deleteDatabase("reader.db")
+        ReaderDatabase(context).use { database ->
+            database.rebuildSearchIndex("old", sequenceOf(searchBook()))
+            assertTrue(runCatching {
+                database.rebuildSearchIndex("new", emptySequence())
+            }.isFailure)
+            assertEquals(1, database.search("劳动", SearchScope.BODY).size)
+            assertTrue(runCatching {
+                database.rebuildSearchIndex("new", sequence {
+                    yield(searchBook())
+                    error("Interrupted build")
+                })
+            }.isFailure)
+            database.rebuildSearchIndex("new", sequenceOf(searchBook()))
+            assertEquals(1, database.search("劳动", SearchScope.BODY).size)
+        }
+    }
+
+    @Test
+    fun repositoryReusesPersistedIndexAfterRecreation() = runBlocking {
+        context.deleteDatabase("reader.db")
+        val first = LibraryRepository(context)
+        assertTrue(first.search("劳动").isNotEmpty())
+        val recreated = LibraryRepository(context)
+        assertTrue(recreated.search("劳动").isNotEmpty())
+        assertEquals(null, recreated.searchIndexState.value.error)
+    }
+
+    private fun searchBook() = Book(
             id = "book", authorIds = emptyList(), seriesId = null,
             titleZh = "资本论", titleEn = "Capital", language = Language.ZH,
             category = "著作", year = "1867", yearType = "", yearBasis = "",
@@ -94,11 +153,4 @@ class DataSafetyTest {
             description = "", chapters = listOf(Chapter("chapter", "商品", 1, listOf("劳动创造价值"))),
             toc = emptyList()
         )
-        database.rebuildSearchIndex("test", sequenceOf(book))
-
-        assertEquals(1, database.search("资本", SearchScope.TITLES).size)
-        assertEquals(0, database.search("劳动", SearchScope.TITLES).size)
-        assertEquals(1, database.search("劳动", SearchScope.BODY).size)
-        database.close()
-    }
 }

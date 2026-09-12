@@ -67,14 +67,31 @@ data class ReaderSettings(
             horizontalPadding == horizontal && verticalPadding == vertical
 }
 
+/** Preserve every supported setting; corrupted values fall back to the existing defaults. */
+internal fun ReaderSettings.validated(): ReaderSettings {
+    val defaults = ReaderSettings()
+    fun Float.valid(range: ClosedFloatingPointRange<Float>, fallback: Float) =
+        takeIf { it.isFinite() && it in range } ?: fallback
+    return copy(
+        fontSize = fontSize.valid(15f..32f, defaults.fontSize),
+        lineHeight = lineHeight.valid(1.3f..2.2f, defaults.lineHeight),
+        paragraphSpacing = paragraphSpacing.valid(.35f..1.25f, defaults.paragraphSpacing),
+        horizontalPadding = horizontalPadding.takeIf { it in 12..42 } ?: defaults.horizontalPadding,
+        verticalPadding = verticalPadding.takeIf { it in 12..48 } ?: defaults.verticalPadding,
+        brightness = brightness.valid(.05f..1f, defaults.brightness)
+    )
+}
+
 class ReaderPreferences(context: Context) {
     private val preferences = context.getSharedPreferences("reader_settings", Context.MODE_PRIVATE)
+    private val storedValues = preferences.all
     private val mutableSettings = MutableStateFlow(load())
     val settings = mutableSettings.asStateFlow()
     private val mutableSearchHistory = MutableStateFlow(loadSearchHistory())
     val searchHistory = mutableSearchHistory.asStateFlow()
 
-    fun update(value: ReaderSettings) {
+    fun update(settings: ReaderSettings) {
+        val value = settings.validated()
         mutableSettings.value = value
         preferences.edit()
             .putString("font_family", value.fontFamily.name)
@@ -107,29 +124,28 @@ class ReaderPreferences(context: Context) {
         preferences.edit().remove("search_history").apply()
     }
 
-    private fun loadSearchHistory(): List<String> = preferences.getString("search_history", "")
-        .orEmpty().split("\u001F").filter { it.isNotBlank() }.take(8)
+    private fun loadSearchHistory(): List<String> = (storedValues["search_history"] as? String)
+        .orEmpty().split('\u001F').filter { it.isNotBlank() }.take(8)
 
     private fun load() = ReaderSettings(
         fontFamily = enumPreference("font_family", ReaderFont.SERIF),
         fontWeight = enumPreference("font_weight", ReaderFontWeight.REGULAR),
-        fontSize = preferences.getFloat("font_size", 20f),
-        lineHeight = preferences.getFloat("line_height", 1.75f),
-        paragraphSpacing = preferences.getFloat("paragraph_spacing", .72f),
-        horizontalPadding = preferences.getInt("horizontal_padding", 22),
-        verticalPadding = preferences.getInt("vertical_padding", 22),
-        theme = runCatching { ReaderTheme.valueOf(preferences.getString("theme", "PAPER")!!) }
-            .getOrDefault(ReaderTheme.PAPER),
-        mode = if (!preferences.getBoolean("mode_user_selected", false)) ReadingMode.PAGE else
-            runCatching { ReadingMode.valueOf(preferences.getString("mode", "PAGE")!!) }
-                .getOrDefault(ReadingMode.PAGE),
+        fontSize = storedValues["font_size"] as? Float ?: 20f,
+        lineHeight = storedValues["line_height"] as? Float ?: 1.75f,
+        paragraphSpacing = storedValues["paragraph_spacing"] as? Float ?: .72f,
+        horizontalPadding = storedValues["horizontal_padding"] as? Int ?: 22,
+        verticalPadding = storedValues["vertical_padding"] as? Int ?: 22,
+        theme = enumPreference("theme", ReaderTheme.PAPER),
+        mode = if (storedValues["mode_user_selected"] != true) ReadingMode.PAGE else
+            enumPreference("mode", ReadingMode.PAGE),
         brightnessMode = enumPreference("brightness_mode", ReaderBrightnessMode.SYSTEM),
-        brightness = preferences.getFloat("brightness", .5f).coerceIn(.05f, 1f),
-        keepScreenOn = preferences.getBoolean("keep_screen_on", false),
-        firstLineIndent = preferences.getBoolean("first_line_indent", true)
-    )
+        brightness = storedValues["brightness"] as? Float ?: .5f,
+        keepScreenOn = storedValues["keep_screen_on"] as? Boolean ?: false,
+        firstLineIndent = storedValues["first_line_indent"] as? Boolean ?: true
+    ).validated()
 
     private inline fun <reified T : Enum<T>> enumPreference(key: String, fallback: T): T =
-        runCatching { enumValueOf<T>(preferences.getString(key, fallback.name)!!) }
-            .getOrDefault(fallback)
+        (storedValues[key] as? String)?.let { value ->
+            enumValues<T>().firstOrNull { it.name == value }
+        } ?: fallback
 }

@@ -152,7 +152,7 @@ internal fun SearchTab(
         else if (searchError != null) {
             Column(Modifier.fillMaxWidth().padding(30.dp), horizontalAlignment = Alignment.CenterHorizontally) {
                 Icon(Icons.Default.ErrorOutline, null, tint = MaterialTheme.colorScheme.error)
-                Text(searchError!!, modifier = Modifier.padding(top = 10.dp))
+                Text(searchError, modifier = Modifier.padding(top = 10.dp))
                 TextButton(onClick = { retryKey++ }) { Text("重试") }
             }
         }

@@ -11,6 +11,9 @@ import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.CancellationException
+import kotlinx.coroutines.currentCoroutineContext
+import kotlinx.coroutines.ensureActive
 import org.marxreader.app.data.readerOperation
 import org.marxreader.app.data.LibraryRepository
 import org.marxreader.app.data.ReaderPosition
@@ -58,23 +61,43 @@ class ReaderViewModel(
         pendingPosition = position
         if (immediate) {
             progressJob?.cancel()
-            persistPosition(position)
+            // Immediate saves (exit/pause/mark-completed) also refresh library screens.
+            persistPosition(position, progressOnly = false)
         } else if (progressJob?.isActive != true) progressJob = viewModelScope.launch {
             // Sample the latest position even during a long, uninterrupted scroll.
             delay(400)
-            pendingPosition?.let(::persistPosition)
+            pendingPosition?.let { persistPosition(it, progressOnly = true) }
         }
     }
 
-    private fun persistPosition(position: ReaderPosition) {
+    private fun persistPosition(position: ReaderPosition, progressOnly: Boolean) {
         mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
         repository.saveProgress(
             bookId = position.bookId,
             chapterId = position.chapterId,
             paragraphIndex = position.paragraphIndex,
             characterOffset = position.characterOffset,
-            completed = position.completed
+            completed = position.completed,
+            progressOnly = progressOnly
         )
+    }
+
+    /** Awaitable persist for the exit flush; failures surface through writeError like the async path. */
+    suspend fun persistPositionNow(position: ReaderPosition) {
+        mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
+        try {
+            repository.saveProgressNow(
+                bookId = position.bookId,
+                chapterId = position.chapterId,
+                paragraphIndex = position.paragraphIndex,
+                characterOffset = position.characterOffset,
+                completed = position.completed
+            )
+        } catch (cancelled: CancellationException) {
+            throw cancelled
+        } catch (error: Exception) {
+            // The async save enqueued alongside this call reports the error; nothing more to do.
+        }
     }
 
     fun search(
@@ -98,7 +121,8 @@ class ReaderViewModel(
         searchJob = viewModelScope.launch {
             delay(160)
             val matches = withContext(Dispatchers.Default) {
-                findReaderMatches(book, currentChapterId, normalized, scope)
+                val context = currentCoroutineContext()
+                findReaderMatches(book, currentChapterId, normalized, scope) { context.ensureActive() }
             }
             val current = mutableUiState.value.search
             if (current.query.trim() == normalized && current.scope == scope) {

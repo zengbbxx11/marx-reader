@@ -89,8 +89,9 @@ fun ReaderApp(repository: LibraryRepository, preferences: ReaderPreferences) {
                 .onSuccess { initialized = true }
                 .onFailure { initializationError = it.message ?: "书库初始化失败" }
         }
+        val initError = initializationError
         when {
-            initializationError != null -> ErrorScreen(initializationError!!)
+            initError != null -> ErrorScreen(initError)
             !initialized -> LoadingScreen()
             else -> AppNavigator(catalog, repository, preferences, settings)
         }
@@ -240,7 +241,8 @@ private fun LibraryTab(
     var progress by remember(catalog) { mutableStateOf<Map<String, ReadingProgress>>(emptyMap()) }
     val dataRevision by repository.dataRevision.collectAsState()
     LaunchedEffect(catalog, dataRevision) {
-        progress = withContext(Dispatchers.IO) { repository.allProgress() }
+        readerOperation { withContext(Dispatchers.IO) { repository.allProgress() } }
+            .onSuccess { progress = it }
     }
     val recent = remember(progress) { progress.values.maxByOrNull { it.updatedAt } }
     LazyColumn(
@@ -359,7 +361,8 @@ private fun AuthorScreen(
     var readingProgress by remember(authorId) { mutableStateOf<Map<String, ReadingProgress>>(emptyMap()) }
     val dataRevision by repository.dataRevision.collectAsState()
     LaunchedEffect(authorId, dataRevision) {
-        readingProgress = withContext(Dispatchers.IO) { repository.allProgress() }
+        readerOperation { withContext(Dispatchers.IO) { repository.allProgress() } }
+            .onSuccess { readingProgress = it }
     }
     val showScrollToTop by remember { derivedStateOf { listState.firstVisibleItemIndex > 2 } }
     val allBooks = catalog.booksForAuthor(authorId).sortedWith(compareBy<Book> { it.year }.thenBy { it.displayTitle })
@@ -518,11 +521,14 @@ private fun BookScreen(
     var progress by remember(bookId) { mutableStateOf<ReadingProgress?>(null) }
     var savedChapterProgress by remember(bookId) { mutableStateOf<Map<String, Int>>(emptyMap()) }
     LaunchedEffect(bookId) {
-        val loadedProgress = withContext(Dispatchers.IO) {
-            repository.progress(bookId) to repository.chapterProgress(bookId)
+        readerOperation {
+            withContext(Dispatchers.IO) {
+                repository.progress(bookId) to repository.chapterProgress(bookId)
+            }
+        }.onSuccess { (loadedProgress, chapterProgressMap) ->
+            progress = loadedProgress
+            savedChapterProgress = chapterProgressMap
         }
-        progress = loadedProgress.first
-        savedChapterProgress = loadedProgress.second
     }
     Scaffold(
         topBar = { ReaderTopBar(book.displayTitle, book.year, back) }

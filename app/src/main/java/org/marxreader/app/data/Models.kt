@@ -115,7 +115,15 @@ data class Book(
             ?: toc.firstOrNull { it.chapterId == chapterId }
             ?: return emptyList()
         val byId = toc.associateBy { it.id }
-        return generateSequence(leaf) { node -> node.parentId?.let(byId::get) }.toList().asReversed()
+        val chain = buildList {
+            var node: TocNode? = leaf
+            val visited = mutableSetOf<String>()
+            while (node != null && visited.add(node.id)) {
+                add(node)
+                node = node.parentId?.let(byId::get)
+            }
+        }
+        return chain.asReversed()
     }
 }
 
@@ -307,7 +315,7 @@ fun parseCatalog(json: String): LibraryCatalog {
                 chapters.mapIndexed { index, chapter ->
                     TocNode("toc-${chapter.id}", null, chapter.title, TocNodeType.CHAPTER, index, chapter.id)
                 }
-            }
+            }.distinctBy { it.id }
         )
     }
     return LibraryCatalog(authors, books)

@@ -24,9 +24,9 @@ internal data class ReaderLayoutSpec(
 internal data class ChapterLayoutResult(val chapterId: String, val spec: ReaderLayoutSpec, val pages: List<ReaderPage>)
 
 /** Owned by one open book. Notes and theme colors never invalidate text layout. */
-internal class ChapterPageCache {
+internal class ChapterPageCache(maxWeightChars: Int) {
     private data class Key(val chapter: Int, val layout: ReaderLayoutSpec)
-    private val cache = WeightedReaderCache<Key, List<ReaderPage>>(3, 600_000)
+    private val cache = WeightedReaderCache<Key, List<ReaderPage>>(3, maxWeightChars)
 
     suspend fun pages(book: Book, chapter: Int, layout: ReaderLayoutSpec): List<ReaderPage> {
         val key = Key(chapter, layout)

@@ -56,12 +56,15 @@ import androidx.core.text.HtmlCompat
 import androidx.lifecycle.viewmodel.compose.viewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
+import kotlinx.coroutines.flow.combine
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.filter
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.withTimeoutOrNull
 import org.marxreader.app.data.*
 import org.marxreader.app.R
 import org.marxreader.app.ui.components.TocTree
@@ -92,8 +95,9 @@ internal fun ReadingScreen(
     if (book == null) {
         Scaffold(topBar = { ReaderTopBar(metadata.displayTitle, metadata.year, back) }) { padding ->
             Box(Modifier.padding(padding).fillMaxSize(), contentAlignment = Alignment.Center) {
-                if (readerUiState.error == null) CircularProgressIndicator()
-                else Text(readerUiState.error!!, color = MaterialTheme.colorScheme.error)
+                val loadError = readerUiState.error
+                if (loadError == null) CircularProgressIndicator()
+                else Text(loadError, color = MaterialTheme.colorScheme.error)
             }
         }
         return
@@ -107,11 +111,12 @@ internal fun ReadingScreen(
         }.takeIf { it >= 0 } ?: 0)
     }
     val chapter = book.chapters.getOrNull(chapterIndex) ?: return
-    val dataRevision by repository.dataRevision.collectAsState()
-    val notesRevision by repository.notesRevision.collectAsState()
     var resolvedNotes by remember(book.id, chapter.id) { mutableStateOf<List<ResolvedNoteAnchor>>(emptyList()) }
-    LaunchedEffect(book.id, chapter.id, notesRevision) {
-        resolvedNotes = repository.resolveNotes(book, chapter)
+    LaunchedEffect(book.id, chapter.id) {
+        // Collect inside the effect: revision bumps must not recompose the whole screen.
+        repository.notesRevision.collect {
+            resolvedNotes = repository.resolveNotes(book, chapter)
+        }
     }
     var savedChapterProgress by remember(book.id) { mutableStateOf<Map<String, Int>>(emptyMap()) }
     val listState = rememberLazyListState(
@@ -159,7 +164,8 @@ internal fun ReadingScreen(
             settings.fontFamily, settings.fontWeight, settings.firstLineIndent
         )
     }
-    val pageCache = remember(book.id) { ChapterPageCache() }
+    val pageCacheBudget = remember(context) { readerPageCacheBudget(context) }
+    val pageCache = remember(book.id, pageCacheBudget) { ChapterPageCache(pageCacheBudget) }
     val layoutResult by produceState<ChapterLayoutResult?>(
         null, book.id, chapter.id, layoutSpec, readingMode
     ) {
@@ -169,7 +175,7 @@ internal fun ReadingScreen(
             delay(80)
             value = ChapterLayoutResult(chapter.id, layoutSpec, pageCache.pages(book, chapterIndex, layoutSpec))
             delay(150)
-            if (chapterIndex < book.chapters.lastIndex && book.chapters[chapterIndex + 1].characterCount <= 600_000) {
+            if (chapterIndex < book.chapters.lastIndex && book.chapters[chapterIndex + 1].characterCount <= pageCacheBudget) {
                 pageCache.pages(book, chapterIndex + 1, layoutSpec)
             }
         }
@@ -195,7 +201,7 @@ internal fun ReadingScreen(
     }
     val scrollTopPadding = with(density) { settings.verticalPadding.dp.roundToPx() }
     val sectionTopPadding = with(density) { 14.dp.roundToPx() }
-    val visibleSourcePosition by remember(chapter.id, layoutSpec, readingMode, pages, positionReady, pagerWindow, paragraphLayouts) {
+    val visibleSourcePositionState = remember(chapter.id, layoutSpec, readingMode, pages, positionReady, pagerWindow, paragraphLayouts) {
         derivedStateOf {
             if (!positionReady) pageAnchorParagraph to pageAnchorCharacterOffset
             else if (readingMode == ReadingMode.PAGE) {
@@ -214,8 +220,9 @@ internal fun ReadingScreen(
             }
         }
     }
+    val visibleSourcePosition by visibleSourcePositionState
     val visibleParagraph = visibleSourcePosition.first
-    val readingProgressValue by remember(book, chapter.id, visibleSourcePosition, readingCompleted) {
+    val readingProgressValue by remember(book, chapter.id, visibleSourcePositionState, readingCompleted) {
         derivedStateOf {
             book.readingProgress(
                 ReaderPosition(
@@ -250,9 +257,14 @@ internal fun ReadingScreen(
     var returnParagraph by rememberSaveable(book.id) { mutableIntStateOf(0) }
     var returnCharacter by rememberSaveable(book.id) { mutableIntStateOf(0) }
     var returnCompleted by rememberSaveable(book.id) { mutableStateOf(false) }
-    LaunchedEffect(book.id, dataRevision, showToc, expandedLayout) {
+    LaunchedEffect(book.id, showToc, expandedLayout) {
         if (showToc || expandedLayout) {
-            savedChapterProgress = withContext(Dispatchers.IO) { repository.chapterProgress(book.id) }
+            // dataRevision covers library-visible writes; progressRevision the live position
+            // ticks. Together they keep the read-state dots current while the TOC is visible.
+            combine(repository.dataRevision, repository.progressRevision) { _, _ -> Unit }.collect {
+                readerOperation { withContext(Dispatchers.IO) { repository.chapterProgress(book.id) } }
+                    .onSuccess { savedChapterProgress = it }
+            }
         }
     }
     var noteTarget by remember { mutableStateOf<NoteDraftTarget?>(null) }
@@ -292,9 +304,15 @@ internal fun ReadingScreen(
             if (paragraph == 0 && character == 0) listState.scrollToItem(0)
             else if (chapter.paragraphs.isNotEmpty()) {
                 listState.scrollToItem(paragraph + 1)
-                val lines = snapshotFlow { paragraphLayouts[paragraph] }.filterNotNull().first()
-                val inset = if (sectionsByParagraph.containsKey(paragraph)) sectionTopPadding else 0
-                listState.scrollToItem(paragraph + 1, lines.topFor(character) + inset - scrollTopPadding)
+                // Bounded wait: a paragraph that never reports layout must not
+                // suspend this effect forever (it also gates position saving).
+                val lines = withTimeoutOrNull(2_000) {
+                    snapshotFlow { paragraphLayouts[paragraph] }.filterNotNull().first()
+                }
+                if (lines != null) {
+                    val inset = if (sectionsByParagraph.containsKey(paragraph)) sectionTopPadding else 0
+                    listState.scrollToItem(paragraph + 1, lines.topFor(character) + inset - scrollTopPadding)
+                }
             }
             positionReady = true
             snapshotFlow { visibleSourcePosition }.distinctUntilChanged().collect { (paragraphIndex, characterOffset) ->
@@ -328,14 +346,19 @@ internal fun ReadingScreen(
         owner?.lifecycle?.addObserver(observer)
         onDispose {
             owner?.lifecycle?.removeObserver(observer)
-            persist()
+            val finalPosition = latestPosition.value
+            // Register first so immediate re-entry sees the latest position even on slow storage.
+            readerViewModel.savePosition(finalPosition, immediate = true)
+            // Await an application-owned task, not blocking SQLite in a child coroutine.
+            // Timing out this await never waits for the database operation to finish.
+            runBlocking { withTimeoutOrNull(300) { readerViewModel.persistPositionNow(finalPosition) } }
         }
     }
     val writeError by repository.writeError.collectAsState()
     LaunchedEffect(writeError) {
         writeError?.let {
-            snackbarHostState.showSnackbar(it)
-            repository.dismissWriteError()
+            snackbarHostState.showSnackbar(it.message)
+            repository.dismissWriteError(it)
         }
     }
 

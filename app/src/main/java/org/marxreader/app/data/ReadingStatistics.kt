@@ -18,13 +18,28 @@ fun calculateReadingStatistics(
     nowMillis: Long = System.currentTimeMillis(),
     zoneId: ZoneId = ZoneId.systemDefault()
 ): ReadingStatistics {
-    val today = Instant.ofEpochMilli(nowMillis).atZone(zoneId).toLocalDate()
     val dailyMap = mutableMapOf<LocalDate, Long>()
     sessions.filter { it.activeMillis > 0 }.forEach { session ->
         distributeSessionAcrossDays(session, zoneId).forEach { (date, millis) ->
             dailyMap[date] = dailyMap.getOrDefault(date, 0L) + millis
         }
     }
+    val books = sessions.groupBy { it.bookId }.map { (bookId, values) ->
+        BookReadingStat(bookId, values.sumOf { it.activeMillis }, values.size)
+    }.filter { it.activeMillis > 0 }.sortedByDescending { it.activeMillis }
+    return buildReadingStatistics(dailyMap, books, sessions.sumOf { it.activeMillis },
+        completedBooks, nowMillis, zoneId)
+}
+
+internal fun buildReadingStatistics(
+    dailyMap: Map<LocalDate, Long>,
+    books: List<BookReadingStat>,
+    totalMillis: Long,
+    completedBooks: Int,
+    nowMillis: Long,
+    zoneId: ZoneId
+): ReadingStatistics {
+    val today = Instant.ofEpochMilli(nowMillis).atZone(zoneId).toLocalDate()
     val daily = (6 downTo 0).map { offset ->
         val date = today.minusDays(offset.toLong())
         DailyReadingStat(date.toEpochDay(), dailyMap[date] ?: 0L)
@@ -37,13 +52,10 @@ fun calculateReadingStatistics(
         streak++
         cursor = cursor.minusDays(1)
     }
-    val books = sessions.groupBy { it.bookId }.map { (bookId, values) ->
-        BookReadingStat(bookId, values.sumOf { it.activeMillis }, values.size)
-    }.filter { it.activeMillis > 0 }.sortedByDescending { it.activeMillis }
     return ReadingStatistics(
         todayMillis = dailyMap[today] ?: 0L,
         lastSevenDaysMillis = daily.sumOf { it.activeMillis },
-        totalMillis = sessions.sumOf { it.activeMillis },
+        totalMillis = totalMillis,
         currentStreakDays = streak,
         activeDays = activeDates.size,
         completedBooks = completedBooks,
@@ -56,8 +68,17 @@ private fun distributeSessionAcrossDays(
     session: ReadingSession,
     zoneId: ZoneId
 ): Map<LocalDate, Long> {
-    val start = session.startedAt
-    val end = session.endedAt.coerceAtLeast(start + 1)
+    return distributeReadingTime(session.startedAt, session.endedAt, session.activeMillis, zoneId)
+}
+
+internal fun distributeReadingTime(
+    startedAt: Long,
+    endedAt: Long,
+    activeMillis: Long,
+    zoneId: ZoneId
+): Map<LocalDate, Long> {
+    val start = startedAt
+    val end = endedAt.coerceAtLeast(start + 1)
     val wallMillis = end - start
     val allocations = linkedMapOf<LocalDate, Long>()
     var cursor = start
@@ -66,11 +87,11 @@ private fun distributeSessionAcrossDays(
         val date = zoned.toLocalDate()
         val nextDay = date.plusDays(1).atStartOfDay(zoneId).toInstant().toEpochMilli()
         val segmentEnd = minOf(end, nextDay)
-        val share = session.activeMillis.toDouble() * (segmentEnd - cursor).toDouble() / wallMillis
+        val share = activeMillis.toDouble() * (segmentEnd - cursor).toDouble() / wallMillis
         allocations[date] = allocations.getOrDefault(date, 0L) + share.roundToLong()
         cursor = segmentEnd
     }
-    val difference = session.activeMillis - allocations.values.sum()
+    val difference = activeMillis - allocations.values.sum()
     if (difference != 0L && allocations.isNotEmpty()) {
         val last = allocations.keys.last()
         allocations[last] = allocations.getValue(last) + difference

@@ -46,4 +46,20 @@ class ReadingStatisticsTest {
         assertEquals(3, result.currentStreakDays)
         assertEquals(3, result.activeDays)
     }
+
+    @Test fun daylightSavingDaysPreserveExactTotalAndMidnightRounding() {
+        val zone = ZoneId.of("America/New_York")
+        listOf(LocalDate.of(2026, 3, 8), LocalDate.of(2026, 11, 1)).forEach { day ->
+            val start = day.minusDays(1).atTime(23, 59).atZone(zone).toInstant().toEpochMilli()
+            val end = day.plusDays(1).atTime(0, 1).atZone(zone).toInstant().toEpochMilli()
+            val allocation = distributeReadingTime(start, end, 123_457L, zone)
+            assertEquals(3, allocation.size)
+            assertEquals(123_457L, allocation.values.sum())
+            val session = ReadingSession(1, "book", start, end, 123_457, "c", 0, "c", 1)
+            val expected = calculateReadingStatistics(listOf(session), 0, end, zone)
+            val actual = buildReadingStatistics(allocation,
+                listOf(BookReadingStat("book", 123_457, 1)), 123_457, 0, end, zone)
+            assertEquals(expected, actual)
+        }
+    }
 }

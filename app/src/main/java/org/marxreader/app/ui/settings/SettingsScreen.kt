@@ -152,8 +152,12 @@ internal fun SettingsTab(repository: LibraryRepository, preferences: ReaderPrefe
                                 modifier = Modifier.padding(top = 8.dp), style = MaterialTheme.typography.bodySmall,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant)
                             TextButton(onClick = {
-                                context.startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
-                                    Uri.parse("package:${context.packageName}")))
+                                readerOperation {
+                                    context.startActivity(Intent(Settings.ACTION_APPLICATION_DETAILS_SETTINGS,
+                                        Uri.parse("package:${context.packageName}")))
+                                }.onFailure {
+                                    scope.launch { snackbar.showSnackbar("无法打开系统应用信息") }
+                                }
                             }) { Text("系统应用信息") }
                         }
                     }

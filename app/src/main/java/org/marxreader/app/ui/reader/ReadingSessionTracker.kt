@@ -50,23 +50,29 @@ private class ForegroundReadingTracker(
     fun resume() {
         if (trackingJob?.isActive == true) return
         trackingJob = scope.launch {
-            val start = position()
-            val sessionId = repository.startReadingSession(
-                bookId, start.chapterId, start.paragraphIndex
-            )
-            var lastTick = SystemClock.elapsedRealtime()
             try {
-                while (isActive) {
-                    delay(15_000)
-                    val now = SystemClock.elapsedRealtime()
-                    record(sessionId, now - lastTick)
-                    lastTick = now
+                val start = position()
+                val sessionId = repository.startReadingSession(
+                    bookId, start.chapterId, start.paragraphIndex
+                )
+                var lastTick = SystemClock.elapsedRealtime()
+                try {
+                    while (isActive) {
+                        delay(15_000)
+                        val now = SystemClock.elapsedRealtime()
+                        record(sessionId, now - lastTick)
+                        lastTick = now
+                    }
+                } finally {
+                    withContext(NonCancellable) {
+                        val now = SystemClock.elapsedRealtime()
+                        record(sessionId, now - lastTick)
+                    }
                 }
-            } finally {
-                withContext(NonCancellable) {
-                    val now = SystemClock.elapsedRealtime()
-                    record(sessionId, now - lastTick)
-                }
+            } catch (cancelled: CancellationException) {
+                throw cancelled
+            } catch (error: Exception) {
+                // Reading statistics may fail (disk full, db closed); losing a session beats crashing the reader.
             }
         }
     }

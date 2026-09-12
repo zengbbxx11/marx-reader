@@ -32,7 +32,8 @@ internal fun findReaderMatches(
     currentChapterId: String,
     query: String,
     scope: ReaderSearchScope,
-    limit: Int = 500
+    limit: Int = 500,
+    checkActive: () -> Unit = {}
 ): List<ReaderSearchMatch> {
     val needle = query.trim()
     if (needle.length < 2 || limit <= 0) return emptyList()
@@ -42,6 +43,7 @@ internal fun findReaderMatches(
     return buildList {
         chapters.forEach { chapter ->
             chapter.paragraphs.forEachIndexed { paragraphIndex, paragraph ->
+                checkActive()
                 var from = 0
                 while (from <= paragraph.length - needle.length && size < limit) {
                     val start = paragraph.indexOf(needle, from, ignoreCase = true)

@@ -75,7 +75,8 @@ fun TocTree(
     val currentPathIds = remember(currentNode, nodeById) {
         buildSet {
             var node = currentNode
-            while (node != null) {
+            val visited = mutableSetOf<String>()
+            while (node != null && visited.add(node.id)) {
                 add(node.id)
                 node = node.parentId?.let(nodeById::get)
             }
@@ -84,7 +85,8 @@ fun TocTree(
     val currentPathTitle = remember(currentNode, nodeById) {
         buildList {
             var node = currentNode
-            while (node != null) {
+            val visited = mutableSetOf<String>()
+            while (node != null && visited.add(node.id)) {
                 if (node.type != TocNodeType.VOLUME) add(node.title)
                 node = node.parentId?.let(nodeById::get)
             }
@@ -96,16 +98,18 @@ fun TocTree(
 
     val rows = remember(nodes, byParent, collapsed, descending) {
         buildList {
-            fun visit(parentId: String?, depth: Int) {
+            fun visit(parentId: String?, depth: Int, visiting: MutableSet<String>) {
                 val children = byParent[parentId].orEmpty().let { if (descending) it.asReversed() else it }
                 children.forEach { node ->
+                    if (!visiting.add(node.id)) return@forEach
                     val grandchildren = byParent[node.id].orEmpty()
                     val isRoot = node.parentId == null && node.type == TocNodeType.VOLUME
                     if (!isRoot) add(TreeRow(node, depth, grandchildren.isNotEmpty(), node.id !in collapsed))
-                    if (node.id !in collapsed) visit(node.id, if (isRoot) depth else depth + 1)
+                    if (node.id !in collapsed) visit(node.id, if (isRoot) depth else depth + 1, visiting)
+                    visiting.remove(node.id)
                 }
             }
-            visit(null, 0)
+            visit(null, 0, mutableSetOf())
         }
     }
     val listState = rememberLazyListState()
