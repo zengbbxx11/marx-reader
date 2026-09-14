@@ -57,6 +57,8 @@ class ReaderTextLayoutTest {
     @Test fun tappingBesideASmallMarkerUsesNoteInsteadOfOrdinaryTextOffset() {
         instrumentation.runOnMainSync {
             val view = ReaderSelectableTextView(context).apply {
+                // A parent supplies this in production; native selection requires it.
+                layoutParams = android.view.ViewGroup.LayoutParams(720, 200)
                 lockPageScroll = true
                 text = "正文正文正文正文[1]正文正文正文正文"
                 interactiveRanges = listOf(ReaderInteractiveRange(8, 11))

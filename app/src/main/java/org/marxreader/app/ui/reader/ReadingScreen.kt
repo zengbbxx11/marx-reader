@@ -205,7 +205,11 @@ internal fun ReadingScreen(
         derivedStateOf {
             if (!positionReady) pageAnchorParagraph to pageAnchorCharacterOffset
             else if (readingMode == ReadingMode.PAGE) {
-                pages.getOrNull(pagerWindow.contentPage(pagerState.settledPage))?.firstSourcePosition()
+                val index = pagerWindow.contentPage(pagerState.settledPage)
+                // Reflow changes page boundaries, not the reader's source character.
+                if (index == pages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset)) {
+                    pageAnchorParagraph to pageAnchorCharacterOffset
+                } else pages.getOrNull(index)?.firstSourcePosition()
                     ?: (pageAnchorParagraph to pageAnchorCharacterOffset)
             } else {
                 if (listState.firstVisibleItemIndex == 0) return@derivedStateOf 0 to 0
@@ -422,10 +426,15 @@ internal fun ReadingScreen(
     }
     LaunchedEffect(readingMode, pagerState, layoutPages, chapter.id, positionRequest, layoutSpec) {
         if (readingMode == ReadingMode.PAGE && pages.isNotEmpty()) {
-            pagerState.scrollToPage(layoutPages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset) + pagerWindow.firstPage)
+            val restoredSlot = layoutPages.pageFor(pageAnchorChapter, pageAnchorParagraph, pageAnchorCharacterOffset) + pagerWindow.firstPage
+            pagerState.scrollToPage(restoredSlot)
             positionReady = true
+            readerViewModel.savePosition(ReaderPosition(book.id, chapter.id, pageAnchorParagraph,
+                characterOffset = pageAnchorCharacterOffset, completed = readingCompleted, updatedAt = System.currentTimeMillis()))
+            var lastObservedSlot = restoredSlot
             snapshotFlow { pagerState.settledPage }.distinctUntilChanged().collect { slot ->
-                if (!positionReady || pageAnchorChapter != chapter.id) return@collect
+                if (!positionReady || pageAnchorChapter != chapter.id || slot == lastObservedSlot) return@collect
+                lastObservedSlot = slot
                 val delta = pagerWindow.chapterDelta(slot)
                 if (delta != 0) {
                     val target = book.chapters[chapterIndex + delta]

@@ -8,6 +8,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.Job
+import kotlinx.coroutines.Deferred
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
@@ -28,6 +29,8 @@ class ReaderViewModel(
     private var progressJob: Job? = null
     private var lastRequestedPosition: ReaderPosition? = null
     private var pendingPosition: ReaderPosition? = null
+    private var lastEnqueuedPosition: ReaderPosition? = null
+    private var lastProgressWrite: Deferred<Unit>? = null
 
     init {
         viewModelScope.launch {
@@ -72,7 +75,8 @@ class ReaderViewModel(
 
     private fun persistPosition(position: ReaderPosition, progressOnly: Boolean) {
         mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
-        repository.saveProgress(
+        lastEnqueuedPosition = position.copy(updatedAt = 0L)
+        lastProgressWrite = repository.saveProgress(
             bookId = position.bookId,
             chapterId = position.chapterId,
             paragraphIndex = position.paragraphIndex,
@@ -86,17 +90,20 @@ class ReaderViewModel(
     suspend fun persistPositionNow(position: ReaderPosition) {
         mutableUiState.value = mutableUiState.value.copy(savedPosition = position)
         try {
-            repository.saveProgressNow(
-                bookId = position.bookId,
-                chapterId = position.chapterId,
-                paragraphIndex = position.paragraphIndex,
-                characterOffset = position.characterOffset,
-                completed = position.completed
-            )
+            // Exit already enqueued an immediate save. Await that application-owned write,
+            // including if it has finished, rather than issuing the same SQLite write twice.
+            val write = lastProgressWrite.takeIf {
+                lastEnqueuedPosition == position.copy(updatedAt = 0L)
+            }
+            if (write != null) write.await()
+            else {
+                persistPosition(position, progressOnly = false)
+                lastProgressWrite?.await()
+            }
         } catch (cancelled: CancellationException) {
             throw cancelled
         } catch (error: Exception) {
-            // The async save enqueued alongside this call reports the error; nothing more to do.
+            // The repository reports this write failure through writeError.
         }
     }
 

@@ -41,6 +41,12 @@ class LibraryRepository(private val context: Context) {
     private val searchIndexMutex = Mutex()
     private val initializationMutex = Mutex()
     private val writeMutex = Mutex()
+    private val statisticsMutex = Mutex()
+    private data class StatisticsKey(
+        val dataRevision: Long, val progressRevision: Long,
+        val date: java.time.LocalDate, val zone: java.time.ZoneId
+    )
+    private var cachedStatistics: Pair<StatisticsKey, ReadingStatistics>? = null
     private var indexBuild: Deferred<Unit>? = null
     private val mutableDataRevision = MutableStateFlow(0L)
     private val mutableNotesRevision = MutableStateFlow(0L)
@@ -68,7 +74,10 @@ class LibraryRepository(private val context: Context) {
         val bundled = parseCatalog(bundledJson)
         synchronized(loadedBooks) { loadedBooks.clear() }
         mutableCatalog.value = bundled.copy(books = bundled.books.sortedBy { it.displayTitle })
-        catalogFingerprint = sha256(bundledJson)
+        val contentFingerprint = context.assets.open("library/content.sha256")
+            .bufferedReader().use { it.readText().trim() }
+        check(contentFingerprint.matches(Regex("[0-9a-f]{64}"))) { "作品内容指纹无效" }
+        catalogFingerprint = sha256(bundledJson + contentFingerprint)
     }
 
     suspend fun loadBook(bookId: String): Book? = withContext(Dispatchers.IO) {
@@ -111,9 +120,8 @@ class LibraryRepository(private val context: Context) {
         characterOffset: Int = 0,
         completed: Boolean = false,
         progressOnly: Boolean = true
-    ) {
+    ): Deferred<Unit> =
         enqueueProgress(bookId, chapterId, paragraphIndex, characterOffset, completed, progressOnly)
-    }
 
     /** Register the latest position before returning; the application owns its disk write. */
     private fun enqueueProgress(
@@ -211,7 +219,14 @@ class LibraryRepository(private val context: Context) {
         database.addReadingTime(sessionId, activeMillis, chapterId, paragraphIndex)
     }
     suspend fun readingStatistics(): ReadingStatistics = withContext(Dispatchers.IO) {
-        database.readingStatistics()
+        statisticsMutex.withLock {
+            val now = System.currentTimeMillis()
+            val zone = java.time.ZoneId.systemDefault()
+            val key = StatisticsKey(dataRevision.value, progressRevision.value,
+                java.time.Instant.ofEpochMilli(now).atZone(zone).toLocalDate(), zone)
+            cachedStatistics?.takeIf { it.first == key }?.second
+                ?: database.readingStatistics(now).also { cachedStatistics = key to it }
+        }
     }
     suspend fun deleteProgress(bookId: String) = write { database.deleteProgress(bookId) }
     suspend fun clearProgress() = write { database.clearProgress() }

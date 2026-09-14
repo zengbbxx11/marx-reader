@@ -99,6 +99,9 @@ class DataSafetyTest {
         assertEquals(1, database.search("资本", SearchScope.TITLES).size)
         assertEquals(0, database.search("劳动", SearchScope.TITLES).size)
         assertEquals(1, database.search("劳动", SearchScope.BODY).size)
+        assertEquals(1, database.search("资本 商品", SearchScope.TITLES).size)
+        assertEquals(0, database.search("资本 不存在", SearchScope.TITLES).size)
+        assertEquals(0, database.search("劳动 不存在", SearchScope.BODY).size)
         database.close()
     }
 

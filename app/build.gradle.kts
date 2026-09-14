@@ -1,10 +1,43 @@
+import java.security.MessageDigest
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+
+// Compute the content fingerprint at build time, keeping startup independent of library size.
+val libraryAssets = fileTree("src/main/assets/library") { include("**/*.json") }
+val generatedLibraryAssets = layout.buildDirectory.dir("generated/libraryFingerprint/assets")
+val generateLibraryFingerprint by tasks.registering {
+    inputs.files(libraryAssets).withPathSensitivity(PathSensitivity.RELATIVE)
+    outputs.dir(generatedLibraryAssets)
+    doLast {
+        val digest = MessageDigest.getInstance("SHA-256")
+        val assetRoot = file("src/main/assets/library")
+        libraryAssets.files.sortedBy { it.relativeTo(assetRoot).invariantSeparatorsPath }.forEach { asset ->
+            digest.update(asset.relativeTo(assetRoot).invariantSeparatorsPath.toByteArray(Charsets.UTF_8))
+            digest.update(0.toByte())
+            asset.inputStream().use { input ->
+                val buffer = ByteArray(8192)
+                while (true) {
+                    val count = input.read(buffer)
+                    if (count < 0) break
+                    digest.update(buffer, 0, count)
+                }
+            }
+            digest.update(0.toByte())
+        }
+        val output = generatedLibraryAssets.get().file("library/content.sha256").asFile
+        output.parentFile.mkdirs()
+        output.writeText(digest.digest().joinToString("") { "%02x".format(it) })
+    }
+}
+tasks.named("preBuild").configure { dependsOn(generateLibraryFingerprint) }
+
 android {
+    sourceSets.getByName("main").assets.srcDir(generatedLibraryAssets)
     namespace = "org.marxreader.app"
     compileSdk = 35
 

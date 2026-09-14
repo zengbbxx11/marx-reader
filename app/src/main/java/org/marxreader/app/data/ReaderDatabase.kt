@@ -535,37 +535,46 @@ class ReaderDatabase(context: Context) :
     }
 
     fun readingStatistics(now: Long = System.currentTimeMillis()): ReadingStatistics {
-        val zone = java.time.ZoneId.systemDefault()
-        val daily = mutableMapOf<java.time.LocalDate, Long>()
-        // Stream only the three needed columns, preserving per-session midnight rounding.
-        readableDatabase.rawQuery(
-            "SELECT started_at, ended_at, active_millis FROM reading_sessions WHERE active_millis > 0",
-            null
-        ).use { cursor ->
-            while (cursor.moveToNext()) {
-                distributeReadingTime(cursor.getLong(0), cursor.getLong(1), cursor.getLong(2), zone)
-                    .forEach { (date, millis) -> daily[date] = daily.getOrDefault(date, 0L) + millis }
+        val db = readableDatabase
+        // All aggregates must describe the same committed state.
+        db.beginTransactionNonExclusive()
+        try {
+            val zone = java.time.ZoneId.systemDefault()
+            val daily = mutableMapOf<java.time.LocalDate, Long>()
+            // Stream only the three needed columns, preserving per-session midnight rounding.
+            db.rawQuery(
+                "SELECT started_at, ended_at, active_millis FROM reading_sessions WHERE active_millis > 0",
+                null
+            ).use { cursor ->
+                while (cursor.moveToNext()) {
+                    distributeReadingTime(cursor.getLong(0), cursor.getLong(1), cursor.getLong(2), zone)
+                        .forEach { (date, millis) -> daily[date] = daily.getOrDefault(date, 0L) + millis }
+                }
             }
-        }
-        val books = readableDatabase.rawQuery("""
-            SELECT book_id, SUM(active_millis), COUNT(*)
-            FROM reading_sessions WHERE active_millis > 0
-            GROUP BY book_id ORDER BY SUM(active_millis) DESC, MAX(started_at) DESC,
-                (SELECT latest.id FROM reading_sessions AS latest
-                 WHERE latest.book_id = reading_sessions.book_id AND latest.active_millis > 0
-                 ORDER BY latest.started_at DESC, latest.id DESC LIMIT 1) DESC
-        """.trimIndent(), null).use { cursor ->
-            buildList {
-                while (cursor.moveToNext()) add(
-                    BookReadingStat(cursor.getString(0), cursor.getLong(1), cursor.getInt(2))
-                )
+            val books = db.rawQuery("""
+                SELECT book_id, SUM(active_millis), COUNT(*)
+                FROM reading_sessions WHERE active_millis > 0
+                GROUP BY book_id ORDER BY SUM(active_millis) DESC, MAX(started_at) DESC,
+                    (SELECT latest.id FROM reading_sessions AS latest
+                     WHERE latest.book_id = reading_sessions.book_id AND latest.active_millis > 0
+                     ORDER BY latest.started_at DESC, latest.id DESC LIMIT 1) DESC
+            """.trimIndent(), null).use { cursor ->
+                buildList {
+                    while (cursor.moveToNext()) add(
+                        BookReadingStat(cursor.getString(0), cursor.getLong(1), cursor.getInt(2))
+                    )
+                }
             }
+            val completedBooks = db.rawQuery(
+                "SELECT COUNT(*) FROM progress WHERE completed != 0", null
+            ).use { it.moveToFirst(); it.getInt(0) }
+            val result = buildReadingStatistics(daily, books, books.sumOf { it.activeMillis },
+                completedBooks, now, zone)
+            db.setTransactionSuccessful()
+            return result
+        } finally {
+            db.endTransaction()
         }
-        val completedBooks = readableDatabase.rawQuery(
-            "SELECT COUNT(*) FROM progress WHERE completed != 0", null
-        ).use { it.moveToFirst(); it.getInt(0) }
-        return buildReadingStatistics(daily, books, books.sumOf { it.activeMillis },
-            completedBooks, now, zone)
     }
 
     fun search(
@@ -574,17 +583,22 @@ class ReaderDatabase(context: Context) :
         bookIds: Set<String>? = null,
         limit: Int = 80
     ): List<SearchHit> {
-        val match = buildFtsMatchQuery(query, scope) ?: return emptyList()
+        val matches = buildFtsMatchQueries(query, scope)
+        if (matches.isEmpty()) return emptyList()
+        val matchCondition = matches.indices.joinToString(" AND ") { index ->
+            if (index == 0) "content_fts MATCH ?"
+            else "docid IN (SELECT docid FROM content_fts WHERE content_fts MATCH ?)"
+        }
         if (bookIds != null && bookIds.isEmpty()) return emptyList()
         val filter = bookIds?.joinToString(",", prefix = " AND book_id IN (", postfix = ")") { "?" }.orEmpty()
         val arguments = buildList {
-            add(match)
+            addAll(matches)
             bookIds?.let { addAll(it) }
             add(limit.toString())
         }.toTypedArray()
         val sql = """SELECT book_id, chapter_id, paragraph_index, title, chapter_title,
             snippet(content_fts, '<b>', '</b>', '...', -1, 24)
-            FROM content_fts WHERE content_fts MATCH ?$filter LIMIT ?""".trimIndent()
+            FROM content_fts WHERE $matchCondition$filter LIMIT ?""".trimIndent()
         return readableDatabase.rawQuery(sql, arguments).use { cursor ->
             buildList {
                 while (cursor.moveToNext()) add(
@@ -634,16 +648,17 @@ private fun readNotes(cursor: android.database.Cursor): List<Note> = buildList {
     )
 }
 
-internal fun buildFtsMatchQuery(query: String, scope: SearchScope = SearchScope.ALL): String? {
-    val terms = query.trim().split(Regex("\\s+"))
-        .map { it.replace("\"", "").replace("*", "").trim() }
-        .filter { it.isNotEmpty() }
-    return terms.takeIf { it.isNotEmpty() }?.joinToString(" AND ") { term ->
-        val value = "\"${term.take(80)}\"*"
-        when (scope) {
-            SearchScope.ALL -> value
-            SearchScope.TITLES -> "(title:$value OR chapter_title:$value)"
-            SearchScope.BODY -> "content:$value"
-        }
+internal fun buildFtsMatchQueries(query: String, scope: SearchScope = SearchScope.ALL): List<String> {
+    // Android FTS4 may use the standard parser: no grouping parentheses or explicit AND.
+    // Bare Unicode tokens also prevent user text from becoming FTS operators.
+    val terms = Regex("[\\p{L}\\p{N}\\p{M}]+").findAll(
+        query.replace("\"", "").replace("*", "")
+    ).map { it.value.take(80) + "*" }.toList()
+    if (terms.isEmpty()) return emptyList()
+    return when (scope) {
+        SearchScope.ALL -> listOf(terms.joinToString(" "))
+        SearchScope.BODY -> listOf(terms.joinToString(" ") { "content:$it" })
+        // Intersect row ids in SQL so each term can appear in either title column.
+        SearchScope.TITLES -> terms.map { "title:$it OR chapter_title:$it" }
     }
 }

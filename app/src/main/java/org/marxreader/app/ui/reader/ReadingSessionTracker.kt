@@ -45,28 +45,33 @@ private class ForegroundReadingTracker(
     private val position: () -> ReaderPosition
 ) {
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main.immediate)
-    private var trackingJob: Job? = null
+    private class SessionRun {
+        var stoppedAt: Long? = null
+        var job: Job? = null
+    }
+    private var trackingRun: SessionRun? = null
 
     fun resume() {
-        if (trackingJob?.isActive == true) return
-        trackingJob = scope.launch {
+        if (trackingRun?.job?.isActive == true) return
+        val run = SessionRun()
+        trackingRun = run
+        run.job = scope.launch {
             try {
                 val start = position()
                 val sessionId = repository.startReadingSession(
                     bookId, start.chapterId, start.paragraphIndex
                 )
-                var lastTick = SystemClock.elapsedRealtime()
+                val checkpoint = ReadingTimeCheckpoint(SystemClock.elapsedRealtime())
                 try {
                     while (isActive) {
                         delay(15_000)
                         val now = SystemClock.elapsedRealtime()
-                        record(sessionId, now - lastTick)
-                        lastTick = now
+                        checkpoint.recordUntil(run.stoppedAt ?: now) { record(sessionId, it) }
                     }
                 } finally {
                     withContext(NonCancellable) {
                         val now = SystemClock.elapsedRealtime()
-                        record(sessionId, now - lastTick)
+                        checkpoint.recordUntil(run.stoppedAt ?: now) { record(sessionId, it) }
                     }
                 }
             } catch (cancelled: CancellationException) {
@@ -78,8 +83,11 @@ private class ForegroundReadingTracker(
     }
 
     fun pause() {
-        trackingJob?.cancel()
-        trackingJob = null
+        trackingRun?.let {
+            it.stoppedAt = SystemClock.elapsedRealtime()
+            it.job?.cancel()
+        }
+        trackingRun = null
     }
 
     fun close() {
