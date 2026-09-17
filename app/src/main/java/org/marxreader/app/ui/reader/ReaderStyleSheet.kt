@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.contentDescription
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import org.marxreader.app.data.*
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -26,11 +27,46 @@ internal fun ReaderStyleSheet(
     ModalBottomSheet(onDismissRequest = dismiss) {
         Box(Modifier.fillMaxWidth(), contentAlignment = Alignment.TopCenter) {
             Column(
-                Modifier.fillMaxWidth().widthIn(max = 720.dp)
+                Modifier.widthIn(max = 720.dp).fillMaxWidth()
                     .verticalScroll(rememberScrollState())
                     .padding(horizontal = 22.dp).padding(bottom = 34.dp)
             ) {
                 Text("阅读排版", style = MaterialTheme.typography.headlineSmall)
+                Text("调整后自动保存，关闭面板继续阅读",
+                    style = MaterialTheme.typography.bodySmall,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Surface(
+                    modifier = Modifier.fillMaxWidth().padding(top = 12.dp),
+                    color = MaterialTheme.colorScheme.background,
+                    contentColor = MaterialTheme.colorScheme.onBackground,
+                    shape = MaterialTheme.shapes.medium,
+                    border = androidx.compose.foundation.BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)
+                ) {
+                    Column(Modifier.padding(
+                        horizontal = settings.horizontalPadding.dp,
+                        vertical = settings.verticalPadding.dp
+                    )) {
+                        Text("排版预览", style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.primary)
+                        Text(
+                            (if (settings.firstLineIndent) "　　" else "") +
+                                "阅读原典，既要留意一段话的含义，也要联系上下文。",
+                            modifier = Modifier.padding(top = 8.dp),
+                            fontSize = settings.fontSize.sp,
+                            lineHeight = (settings.fontSize * settings.lineHeight).sp,
+                            fontFamily = settings.fontFamily.composeFontFamily,
+                            fontWeight = settings.fontWeight.composeFontWeight
+                        )
+                        Text(
+                            (if (settings.firstLineIndent) "　　" else "") + "随时调整，按自己的节奏阅读。",
+                            modifier = Modifier.padding(top = (settings.fontSize * settings.paragraphSpacing).dp),
+                            fontSize = settings.fontSize.sp,
+                            lineHeight = (settings.fontSize * settings.lineHeight).sp,
+                            fontFamily = settings.fontFamily.composeFontFamily,
+                            fontWeight = settings.fontWeight.composeFontWeight
+                        )
+                    }
+                }
                 Text("排版预设", modifier = Modifier.padding(top = 12.dp))
                 Row(
                     Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()),
@@ -60,7 +96,7 @@ internal fun ReaderStyleSheet(
                     )
                 }
                 Text("字体", modifier = Modifier.padding(top = 8.dp))
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Row(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState()), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
                     ReaderFont.entries.forEach { font ->
                         FilterChip(
                             selected = settings.fontFamily == font,
@@ -125,6 +161,13 @@ internal fun ReaderStyleSheet(
                     settings.brightness, .05f..1f, 18,
                     { update(settings.copy(brightness = it)) }
                 )
+                TextButton(
+                    onClick = { update(settings.applyPreset(ReaderLayoutPreset.DEFAULT).copy(
+                        fontFamily = ReaderFont.SERIF,
+                        fontWeight = ReaderFontWeight.REGULAR,
+                        firstLineIndent = true
+                    )) }
+                ) { Text("恢复默认排版") }
                 SettingSwitch("正文首行缩进两格", settings.firstLineIndent) {
                     update(settings.copy(firstLineIndent = it))
                 }
@@ -172,7 +215,7 @@ private val ReaderLayoutPreset.label: String get() = when (this) {
 
 private val ReaderTheme.label: String get() = when (this) {
     ReaderTheme.PAPER -> "浅色"
-    ReaderTheme.SEPIA -> "护眼"
+    ReaderTheme.SEPIA -> "暖色"
     ReaderTheme.DARK -> "深色"
     ReaderTheme.SYSTEM -> "系统"
 }

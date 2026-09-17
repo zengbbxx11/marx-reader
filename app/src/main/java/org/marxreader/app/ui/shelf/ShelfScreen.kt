@@ -221,7 +221,15 @@ internal fun ShelfTab(
                         ListItem(
                             headlineContent = { Text(book?.displayTitle ?: item.bookId) },
                             supportingContent = {
-                                Text("${chapter?.title ?: item.chapterId} · 第 ${item.paragraphIndex + 1} 段\n${formatShelfTime(item.updatedAt)}")
+                                Column {
+                                    Text(chapter?.title ?: item.chapterId)
+                                    book?.let {
+                                        val progress = it.readingProgress(item)
+                                        Text("${it.readingLengthLabel()} · " +
+                                            if (progress.completed) "已读完" else "已读 ${progress.displayPercent}")
+                                    }
+                                    Text(formatShelfTime(item.updatedAt))
+                                }
                             },
                             leadingContent = { Icon(Icons.Default.History, null) },
                             trailingContent = {

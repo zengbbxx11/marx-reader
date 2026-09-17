@@ -4,6 +4,8 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
+import androidx.compose.foundation.lazy.rememberLazyListState
+import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.ArrowForward
@@ -31,10 +33,16 @@ internal fun ReaderSearchSheet(
     onSelect: (Int, ReaderSearchMatch) -> Unit,
     onDismiss: () -> Unit
 ) {
+    val resultListState = rememberLazyListState()
+    LaunchedEffect(state.selectedIndex, state.matches) {
+        if (state.selectedIndex in state.matches.indices) {
+            resultListState.scrollToItem(state.selectedIndex)
+        }
+    }
     ModalBottomSheet(onDismissRequest = onDismiss) {
         Box(Modifier.fillMaxWidth(), contentAlignment = androidx.compose.ui.Alignment.TopCenter) {
             Column(
-                Modifier.fillMaxWidth().widthIn(max = 720.dp).fillMaxHeight(.88f)
+                Modifier.widthIn(max = 720.dp).fillMaxWidth().fillMaxHeight(.88f)
                     .padding(horizontal = 18.dp)
             ) {
                 Text("文内查找", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
@@ -81,6 +89,7 @@ internal fun ReaderSearchSheet(
                 Text(status, style = MaterialTheme.typography.labelMedium)
                 LazyColumn(
                     Modifier.fillMaxSize(),
+                    state = resultListState,
                     contentPadding = PaddingValues(vertical = 10.dp)
                 ) {
                     itemsIndexed(

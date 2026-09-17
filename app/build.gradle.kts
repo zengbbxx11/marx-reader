@@ -45,8 +45,8 @@ android {
         applicationId = "org.marxreader.app"
         minSdk = 26
         targetSdk = 35
-        versionCode = 14
-        versionName = "0.4.6-preview.20260910"
+        versionCode = 15
+        versionName = "0.4.7-preview.20260917"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true

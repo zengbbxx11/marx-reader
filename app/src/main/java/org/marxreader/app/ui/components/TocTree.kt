@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -116,7 +117,7 @@ fun TocTree(
     LaunchedEffect(autoScrollToCurrent, rows, currentNode?.id) {
         if (autoScrollToCurrent) {
             val index = rows.indexOfFirst { it.node.id == currentNode?.id }
-            if (index >= 0) listState.scrollToItem(index + 1)
+            if (index >= 0) listState.scrollToItem(index + 1 + if (headerContent != null) 1 else 0)
         }
     }
 
@@ -206,21 +207,21 @@ private fun TreeLine(
             .clip(MaterialTheme.shapes.small)
             .clickable(onClick = onClick)
     ) {
-        Row(Modifier.fillMaxWidth().height(rowHeight), verticalAlignment = Alignment.CenterVertically) {
+        Row(Modifier.fillMaxWidth().heightIn(min = rowHeight).padding(vertical = 8.dp), verticalAlignment = Alignment.CenterVertically) {
             Box(
                 Modifier.width(3.dp).height(if (selected) 26.dp else 0.dp)
                     .background(if (selected) MaterialTheme.colorScheme.primary else Color.Transparent, MaterialTheme.shapes.extraSmall)
             )
-            Spacer(Modifier.width((10 + row.depth * 18).dp))
+            Spacer(Modifier.width((10 + row.depth.coerceAtMost(3) * 12).dp))
             if (row.expandable) {
                 Icon(
                     if (row.expanded) Icons.Rounded.ExpandLess else Icons.Rounded.ExpandMore,
                     contentDescription = if (row.expanded) "收起子目录" else "展开子目录",
-                    modifier = Modifier.size(32.dp).clickable(onClick = onExpand).padding(6.dp),
+                    modifier = Modifier.size(48.dp).clickable(onClick = onExpand).padding(14.dp),
                     tint = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurfaceVariant
                 )
             } else {
-                Box(Modifier.width(32.dp), contentAlignment = Alignment.Center) {
+                Box(Modifier.width(48.dp), contentAlignment = Alignment.Center) {
                     Box(
                         Modifier.size(if (hasRead) 6.dp else 4.dp)
                             .background(
@@ -246,7 +247,7 @@ private fun TreeLine(
             )
         }
         HorizontalDivider(
-            modifier = Modifier.padding(start = (45 + row.depth * 18).dp, end = 15.dp),
+            modifier = Modifier.padding(start = (61 + row.depth.coerceAtMost(3) * 12).dp, end = 15.dp),
             color = if (selected) Color.Transparent else MaterialTheme.colorScheme.outlineVariant.copy(alpha = if (isGroup) .48f else .3f)
         )
     }

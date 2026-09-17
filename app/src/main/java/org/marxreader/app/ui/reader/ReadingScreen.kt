@@ -488,10 +488,14 @@ internal fun ReadingScreen(
 
     Scaffold(snackbarHost = { SnackbarHost(snackbarHostState) }) { padding ->
         Box(Modifier.fillMaxSize()) {
-        if (readingMode == ReadingMode.PAGE) Box(
+        Box(
             Modifier.padding(padding)
                 .padding(start = if (expandedLayout) 320.dp else 0.dp, bottom = 72.dp)
-                .fillMaxSize().onSizeChanged { pageAreaSize = it },
+                .fillMaxSize(),
+            contentAlignment = Alignment.TopCenter
+        ) {
+        if (readingMode == ReadingMode.PAGE) Box(
+            Modifier.widthIn(max = 840.dp).fillMaxSize().onSizeChanged { pageAreaSize = it },
             contentAlignment = Alignment.TopCenter
         ) {
             if (pages.isEmpty()) {
@@ -592,9 +596,8 @@ internal fun ReadingScreen(
             }
         } else LazyColumn(
             state = listState,
-            modifier = Modifier.padding(padding)
-                .padding(start = if (expandedLayout) 320.dp else 0.dp, bottom = 72.dp)
-                .fillMaxSize().onSizeChanged { pageAreaSize = it }.widthIn(max = 840.dp).combinedClickable(
+            modifier = Modifier.widthIn(max = 840.dp)
+                .fillMaxSize().onSizeChanged { pageAreaSize = it }.combinedClickable(
                 onClick = { controlsVisible = !controlsVisible },
                 onLongClick = {}
             ),
@@ -739,6 +742,7 @@ internal fun ReadingScreen(
                 ) { Text(if (chapterIndex < book.chapters.lastIndex) "下一章" else if (readingCompleted) "已读完" else "标记已读完") }
                 Spacer(Modifier.height(96.dp))
             }
+        }
         }
         if (expandedLayout) Surface(
             modifier = Modifier.padding(padding).width(320.dp).fillMaxHeight(),
@@ -887,6 +891,7 @@ internal fun ReadingScreen(
                 Text(
                     footnote.displayContent,
                     style = MaterialTheme.typography.bodyLarge,
+                    fontSize = settings.fontSize.sp,
                     lineHeight = (settings.fontSize * settings.lineHeight).sp,
                     fontFamily = settings.fontFamily.composeFontFamily,
                     fontWeight = settings.fontWeight.composeFontWeight

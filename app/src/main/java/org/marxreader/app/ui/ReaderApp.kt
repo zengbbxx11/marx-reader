@@ -454,6 +454,16 @@ private fun AuthorScreen(
     }
 }
 
+// Catalog metadata and loaded content share the same character-count definition.
+internal fun Book.readingLengthLabel(): String {
+    val length = if (characterCount < 10_000) {
+        "约 " + String.format(java.util.Locale.CHINA, "%,d", characterCount) + " 字"
+    } else {
+        "约 " + String.format(java.util.Locale.CHINA, "%.1f", characterCount / 10_000.0) + " 万字"
+    }
+    return if (chapters.size > 1) "${chapters.size} 章 · $length" else length
+}
+
 @OptIn(ExperimentalLayoutApi::class)
 @Composable
 private fun BookCard(book: Book, progress: ReadingProgress?, onClick: () -> Unit) {
@@ -473,7 +483,7 @@ private fun BookCard(book: Book, progress: ReadingProgress?, onClick: () -> Unit
                 ) {
                     book.category.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
                     book.year.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
-                    Text("${book.chapters.size} 章 · ${book.paragraphCount} 段", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall)
+                    Text(book.readingLengthLabel(), color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall)
                 }
             if (progress != null) {
                 val chapterIndex = book.chapters.indexOfFirst { it.id == progress.chapterId }.coerceAtLeast(0)
@@ -579,7 +589,7 @@ private fun BookHero(book: Book) {
                         style = MaterialTheme.typography.labelLarge,
                         modifier = Modifier.padding(top = 6.dp)
                     )
-                    Text("${book.chapters.size} 章 · ${book.paragraphCount} 段", color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
+                    Text(book.readingLengthLabel(), color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
                 }
             }
             if (book.description.isNotBlank()) Text(
