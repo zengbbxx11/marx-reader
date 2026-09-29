@@ -355,7 +355,6 @@ private fun AuthorScreen(
     val author = catalog.author(authorId) ?: return
     var category by remember { mutableStateOf("全部") }
     var query by rememberSaveable(authorId) { mutableStateOf("") }
-    var newestFirst by rememberSaveable(authorId) { mutableStateOf(false) }
     val listState = rememberLazyListState()
     val scope = rememberCoroutineScope()
     var readingProgress by remember(authorId) { mutableStateOf<Map<String, ReadingProgress>>(emptyMap()) }
@@ -365,11 +364,11 @@ private fun AuthorScreen(
             .onSuccess { readingProgress = it }
     }
     val showScrollToTop by remember { derivedStateOf { listState.firstVisibleItemIndex > 2 } }
-    val allBooks = catalog.booksForAuthor(authorId).sortedWith(compareBy<Book> { it.year }.thenBy { it.displayTitle })
+    val allBooks = catalog.booksForAuthor(authorId)
     val books = allBooks.filter {
         (category == "全部" || it.category == category) &&
             (query.isBlank() || it.displayTitle.contains(query.trim(), ignoreCase = true))
-    }.let { if (newestFirst) it.asReversed() else it }
+    }
     Scaffold(
         topBar = { ReaderTopBar(author.nameZh, "${author.years} · ${allBooks.size} 部/篇", back) },
         floatingActionButton = {
@@ -428,13 +427,13 @@ private fun AuthorScreen(
                     trailingIcon = {
                         Row(verticalAlignment = Alignment.CenterVertically) {
                             if (query.isNotBlank()) IconButton(onClick = { query = "" }) { Icon(Icons.Default.Close, "清空") }
-                            TextButton(onClick = { newestFirst = !newestFirst }) { Text(if (newestFirst) "新→旧" else "旧→新") }
                         }
                     },
                     placeholder = { Text("在${author.nameZh}的作品标题中搜索") }
                 )
-                Text("显示 ${books.size} 部/篇 · 可搜索、分类和排序", style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 8.dp))
+                Text("显示 ${books.size} 部/篇 · 源站目录顺序", style = MaterialTheme.typography.labelSmall, modifier = Modifier.padding(top = 8.dp))
             }
+            if (books.isEmpty()) item { EmptyHint("没有符合当前筛选条件的作品") }
             items(books, key = { it.id }) { book ->
                 BookCard(book, readingProgress[book.id]) {
                     val saved = readingProgress[book.id]
@@ -482,7 +481,7 @@ private fun BookCard(book: Book, progress: ReadingProgress?, onClick: () -> Unit
                     verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
                     book.category.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
-                    book.year.takeIf { it.isNotBlank() }?.let { MetadataPill(it) }
+                    MetadataPill(book.publicationLabel)
                     Text(book.readingLengthLabel(), color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.labelSmall)
                 }
             if (progress != null) {
@@ -623,6 +622,11 @@ private fun RightsPanel(book: Book) {
             Icon(Icons.Default.Verified, null, tint = MaterialTheme.colorScheme.secondary, modifier = Modifier.size(21.dp))
             Column(Modifier.padding(start = 11.dp)) {
             Text(book.sourceCredit, color = MaterialTheme.colorScheme.onSurfaceVariant, style = MaterialTheme.typography.bodySmall)
+            Text(book.publicationLabel, style = MaterialTheme.typography.bodySmall)
+            if (book.publicationDateBasis.isNotBlank()) Text("发表时间依据：${book.publicationDateBasis}", style = MaterialTheme.typography.bodySmall)
+            if (book.publicationDateNote.isNotBlank()) Text(book.publicationDateNote, style = MaterialTheme.typography.bodySmall)
+            if (book.publicationDateSourceUrl.isNotBlank() && book.publicationDateSourceUrl != book.sourceUrl)
+                Text(book.publicationDateSourceUrl, style = MaterialTheme.typography.labelSmall)
             if (book.year.isNotBlank()) Text(
                 "年份：${book.year}${book.yearType.displayYearType()}",
                 style = MaterialTheme.typography.bodySmall

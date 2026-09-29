@@ -4,8 +4,11 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 from pathlib import Path
+
+from library_footnotes import recover_book
 
 
 def audit(source: Path) -> None:
@@ -24,9 +27,16 @@ def audit(source: Path) -> None:
     footnote_count = 0
     reference_count = 0
     books_with_footnotes = 0
+    missing_source_notices = 0
 
     for book in payload.get("books", []):
         book_count += 1
+        recovered = recover_book(copy.deepcopy(book))
+        if recovered["addedReferences"]:
+            errors.append(
+                f"{book.get('titleZh')}: {recovered['addedReferences']} printed note reference(s) "
+                "have definitions but no clickable link; run repair_library_footnotes.py --apply"
+            )
         book_has_footnotes = False
         for chapter in book.get("chapters", []):
             chapter_count += 1
@@ -37,6 +47,7 @@ def audit(source: Path) -> None:
                 errors.append(f"private extraction token leaked into a section title in {book.get('titleZh')}")
             seen_ids: set[str] = set()
             for footnote in chapter.get("footnotes", []):
+                missing_source_notices += footnote.get("status") == "SOURCE_MISSING"
                 book_has_footnotes = True
                 footnote_count += 1
                 footnote_id = footnote.get("id", "")
@@ -77,6 +88,8 @@ def audit(source: Path) -> None:
         f"{books_with_footnotes} books with notes, {footnote_count} footnotes, "
         f"{reference_count} clickable references"
     )
+    if missing_source_notices:
+        print(f"Source gaps: {missing_source_notices} explicitly labeled clickable notices; original note text is still unavailable")
 
 
 def main() -> None:

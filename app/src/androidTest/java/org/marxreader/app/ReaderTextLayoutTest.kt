@@ -4,6 +4,9 @@ import android.view.View
 import android.widget.TextView
 import android.view.MotionEvent
 import android.os.SystemClock
+import android.text.Spanned
+import android.text.style.ForegroundColorSpan
+import android.text.style.SuperscriptSpan
 import androidx.compose.ui.graphics.Color
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -19,6 +22,66 @@ import kotlinx.coroutines.runBlocking
 class ReaderTextLayoutTest {
     private val instrumentation = InstrumentationRegistry.getInstrumentation()
     private val context get() = instrumentation.targetContext
+
+    @Test fun recoveredCapitalNotesAreColoredAndClickableInBothReadingModes() {
+        val book = runBlocking { LibraryRepository(context).loadBook("capital-v3-zh") }!!
+        val chapter = book.chapters[1]
+        // These nine printed references formerly had no footnote payload at all.
+        assertEquals(9, chapter.footnotes.sumOf { it.references.size })
+        instrumentation.runOnMainSync {
+            val pages = paginateChapter(book, 1, 720, 1000, 28f, 1.75f, .72f,
+                ReaderFont.SERIF, ReaderFontWeight.REGULAR, true)
+            var pageReferences = 0
+            pages.forEach { page ->
+                val styled = page.selectionOverlayText(28f, Color.Red) as Spanned
+                page.footnotes.forEach { target ->
+                    assertNoteTap(styled, target.start, target.end, true)
+                    assertTrue(target.footnote.content.isNotEmpty())
+                    pageReferences++
+                }
+            }
+            assertEquals(9, pageReferences)
+            chapter.footnotes.forEach { footnote ->
+                footnote.references.forEach { reference ->
+                    val source = chapter.paragraphs[reference.paragraphIndex]
+                    val styled = selectionOverlayParagraphText(
+                        "　　$source", listOf(reference to footnote), 2, Color.Red
+                    ) as Spanned
+                    assertNoteTap(styled, reference.start + 2, reference.end + 2, false)
+                }
+            }
+        }
+    }
+
+    private fun assertNoteTap(text: Spanned, start: Int, end: Int, paginated: Boolean) {
+        assertTrue(text.getSpans(start, end, SuperscriptSpan::class.java).isNotEmpty())
+        assertTrue(text.getSpans(start, end, ForegroundColorSpan::class.java)
+            .any { it.foregroundColor == android.graphics.Color.RED })
+        val view = ReaderSelectableTextView(context).apply {
+            layoutParams = android.view.ViewGroup.LayoutParams(720, 1000)
+            lockPageScroll = paginated
+            interactiveRanges = listOf(ReaderInteractiveRange(start, end))
+            setText(text, TextView.BufferType.SPANNABLE)
+        }
+        view.applyReaderTextStyle(28f, 49f, ReaderFont.SERIF, ReaderFontWeight.REGULAR,
+            false, android.graphics.Color.BLACK)
+        view.measure(View.MeasureSpec.makeMeasureSpec(720, View.MeasureSpec.EXACTLY),
+            View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED))
+        view.layout(0, 0, 720, view.measuredHeight)
+        val line = view.layout.getLineForOffset(start)
+        val x = view.layout.getPrimaryHorizontal(start) + 1f
+        val y = (view.layout.getLineTop(line) + view.layout.getLineBottom(line)) / 2f
+        var clicked = false
+        view.onTextTap = { offset, _, _ -> clicked = offset in start until end }
+        val time = SystemClock.uptimeMillis()
+        val down = MotionEvent.obtain(time, time, MotionEvent.ACTION_DOWN, x, y, 0)
+        val up = MotionEvent.obtain(time, time + 50, MotionEvent.ACTION_UP, x, y, 0)
+        view.onTouchEvent(down)
+        view.onTouchEvent(up)
+        down.recycle()
+        up.recycle()
+        assertTrue("Note at $start..$end must handle the tap, paginated=$paginated", clicked)
+    }
 
     @Test fun manifestoPagesFitAndEveryFootnoteReferenceRemainsReachable() {
         val book = runBlocking { LibraryRepository(context).loadBook("marx-work-6523f0586337") }!!

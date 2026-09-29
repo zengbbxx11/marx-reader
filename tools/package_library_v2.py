@@ -14,6 +14,10 @@ import re
 from pathlib import Path
 
 from audit_library_quality import suspicious_section_reason
+from library_footnotes import recover_book
+from library_publication_dates import apply_publication
+from library_source_order import apply_source_order
+from library_authorship import apply_authorship
 
 
 CAPITAL_STRUCTURE_ZH = {
@@ -187,6 +191,9 @@ def package(source: Path, target: Path) -> None:
             stale.unlink()
     for original in chinese_books:
         book = copy.deepcopy(original)
+        apply_authorship(book)
+        recover_book(book)
+        apply_publication(book)
         for chapter in book.get("chapters", []):
             chapter["title"] = clean_title(chapter["title"])
             chapter["sections"] = [
@@ -215,6 +222,7 @@ def package(source: Path, target: Path) -> None:
         catalog_books.append(metadata)
 
     catalog = {"schemaVersion": 2, "authors": combined["authors"], "books": catalog_books}
+    apply_source_order(catalog)
     (target / "catalog.json").write_text(
         json.dumps(catalog, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
     )

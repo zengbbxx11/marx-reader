@@ -1,0 +1,32 @@
+{
+  "books": {
+    "capital-v1-zh": {
+      "publicationDate": "1867-09",
+      "publicationDateEnd": "",
+      "publicationDateBasis": "在《资本论》第一卷出版（1867年9月）以后",
+      "publicationDateSourceUrl": "https://www.marxists.org/chinese/marx/capital/index.htm",
+      "publicationDateNote": "依据源站《资本论》第一卷序跋注释中对各卷出版时间的说明"
+    },
+    "capital-v2-zh": {
+      "publicationDate": "1885",
+      "publicationDateEnd": "",
+      "publicationDateBasis": "第二卷于1885年出版，第三卷于1894年出版。",
+      "publicationDateSourceUrl": "https://www.marxists.org/chinese/marx/capital/index.htm",
+      "publicationDateNote": "依据源站《资本论》第一卷序跋注释中对各卷出版时间的说明"
+    },
+    "capital-v3-zh": {
+      "publicationDate": "1894",
+      "publicationDateEnd": "",
+      "publicationDateBasis": "第二卷于1885年出版，第三卷于1894年出版。",
+      "publicationDateSourceUrl": "https://www.marxists.org/chinese/marx/capital/index.htm",
+      "publicationDateNote": "依据源站《资本论》第一卷序跋注释中对各卷出版时间的说明"
+    },
+    "marx-work-6523f0586337": {
+      "publicationDate": "1848-02",
+      "publicationDateEnd": "",
+      "publicationDateBasis": "卡·马克思和弗·恩格斯写于1847年12月-1848年1月底1848年2月以小册子形式在伦敦出版原文是德文选自《马克思恩格斯选集》第3版第1卷第399-435页",
+      "publicationDateSourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "publicationDateNote": "采用原作首次出版时间，附录和各版序言另有日期"
+    }
+  }
+}

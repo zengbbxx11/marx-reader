@@ -13,7 +13,8 @@ data class Author(
     val nameEn: String,
     val years: String,
     val description: String,
-    val color: Long
+    val color: Long,
+    val sourceBookIds: List<String> = emptyList()
 )
 
 data class Chapter(
@@ -53,7 +54,8 @@ data class Footnote(
     val id: String,
     val marker: String,
     val content: List<String>,
-    val references: List<FootnoteReference>
+    val references: List<FootnoteReference>,
+    val sourceMissing: Boolean = false
 ) {
     val displayContent: String get() = content.joinToString("\n\n")
 }
@@ -93,7 +95,12 @@ data class Book(
     val rights: RightsStatus,
     val description: String,
     val chapters: List<Chapter>,
-    val toc: List<TocNode>
+    val toc: List<TocNode>,
+    val publicationDate: String = "",
+    val publicationDateEnd: String = "",
+    val publicationDateBasis: String = "",
+    val publicationDateSourceUrl: String = "",
+    val publicationDateNote: String = ""
 ) {
     val displayTitle: String get() = if (language == Language.ZH) titleZh else titleEn
     val counterpartKey: String get() = seriesId ?: id.substringBeforeLast("-")
@@ -133,7 +140,12 @@ data class LibraryCatalog(
 ) {
     fun author(id: String) = authors.firstOrNull { it.id == id }
     fun book(id: String) = books.firstOrNull { it.id == id }
-    fun booksForAuthor(id: String) = books.filter { id in it.authorIds }
+    fun booksForAuthor(id: String): List<Book> {
+        val matching = books.filter { id in it.authorIds }
+        val byId = matching.associateBy { it.id }
+        val sourceIds = author(id)?.sourceBookIds.orEmpty().distinct()
+        return sourceIds.mapNotNull(byId::get) + matching.filter { it.id !in sourceIds }
+    }
 }
 
 data class ReaderPosition(
@@ -227,7 +239,8 @@ fun parseCatalog(json: String): LibraryCatalog {
             nameEn = value.requireString("nameEn"),
             years = value.optString("years"),
             description = value.optString("description"),
-            color = value.optString("color", "7A2024").removePrefix("#").toLong(16)
+            color = value.optString("color", "7A2024").removePrefix("#").toLong(16),
+            sourceBookIds = value.optJSONArray("sourceBookIds").orEmpty().mapStrings()
         )
     }
 
@@ -242,6 +255,7 @@ fun parseCatalog(json: String): LibraryCatalog {
                     id = footnote.requireString("id"),
                     marker = footnote.requireString("marker"),
                     content = footnote.optJSONArray("content").orEmpty().mapStrings(),
+                    sourceMissing = footnote.optString("status") == "SOURCE_MISSING",
                     references = footnote.optJSONArray("references").orEmpty().mapObjects { reference ->
                         FootnoteReference(
                             paragraphIndex = reference.optInt("paragraphIndex", -1),
@@ -286,6 +300,11 @@ fun parseCatalog(json: String): LibraryCatalog {
             yearBasis = value.optString("yearBasis"),
             yearEvidenceUrl = value.optString("yearEvidenceUrl"),
             yearNote = value.optString("yearNote"),
+            publicationDate = value.optString("publicationDate"),
+            publicationDateEnd = value.optString("publicationDateEnd"),
+            publicationDateBasis = value.optString("publicationDateBasis"),
+            publicationDateSourceUrl = value.optString("publicationDateSourceUrl"),
+            publicationDateNote = value.optString("publicationDateNote"),
             sourceUrl = value.requireString("sourceUrl").also {
                 require(it.startsWith("https://www.marxists.org/")) { "只接受经审核的 MIA 来源" }
             },

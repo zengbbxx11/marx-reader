@@ -98,8 +98,8 @@ def clean_space(value: str) -> str:
     return re.sub(r"\s+", " ", value.replace("\u00a0", " ")).strip()
 
 
-FOOTNOTE_REF_RE = re.compile(r"^_(?:f|e)tnref\d+$", re.I)
-FOOTNOTE_DEF_RE = re.compile(r"^_(?:f|e)tn\d+$", re.I)
+FOOTNOTE_REF_RE = re.compile(r"^_(?:ftn|edn|etn)ref\d+$", re.I)
+FOOTNOTE_DEF_RE = re.compile(r"^_(?:ftn|edn|etn)\d+$", re.I)
 FOOTNOTE_TOKEN_RE = re.compile(r"@@MIA_FOOTNOTE_(?:REF|DEF)_\d{5}@@")
 
 

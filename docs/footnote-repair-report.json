@@ -1,0 +1,278 @@
+{
+  "booksScanned": 650,
+  "booksChanged": 36,
+  "addedReferences": 973,
+  "books": [
+    {
+      "id": "capital-v1-zh",
+      "title": "资本论·第一卷",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/index.htm",
+      "addedReferences": 21,
+      "unresolved": []
+    },
+    {
+      "id": "capital-v2-zh",
+      "title": "资本论·第二卷",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol2-01.htm",
+      "addedReferences": 81,
+      "unresolved": []
+    },
+    {
+      "id": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol3-01.htm",
+      "addedReferences": 266,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-12d43c9362e2",
+      "title": "英国工人阶级状况",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/index.htm",
+      "addedReferences": 73,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-1a83a4cf679c",
+      "title": "德国的制宪问题",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184703-04.htm",
+      "addedReferences": 4,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-2f393606ec2c",
+      "title": "保护关税制度还是自由贸易制度",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470610.htm",
+      "addedReferences": 3,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-3112e48c77b4",
+      "title": "1852年神圣同盟对法战争的可能性与展望",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185104.htm",
+      "addedReferences": 10,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-35801f07645e",
+      "title": "给“前进报”编辑部的信",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18941112.htm",
+      "addedReferences": 2,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-36682211ce5c",
+      "title": "德国农民战争",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/index.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-4b61264cf09e",
+      "title": "雇佣劳动制度",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-18810515.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-be53783ee09e",
+      "title": "《反杜林论》的准备材料",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1873a.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-c3188b14b880",
+      "title": "在马克思墓前的讲话",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18830317.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "engels-work-ec2cd32a84c1",
+      "title": "基佐的穷途末日。法国资产阶级的现状",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626.htm",
+      "addedReferences": 3,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-1d0fc116fd84",
+      "title": "网页版",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-index.htm",
+      "addedReferences": 294,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-3422b6299ad0",
+      "title": "谈谈不幸的和约问题的历史（关于立刻缔结单独的兼并性和约问题的提纲）",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180107-0211.htm",
+      "addedReferences": 5,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-4c003207c69e",
+      "title": "第二国际的破产",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1915-5.htm",
+      "addedReferences": 15,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-7d5d5f5ac403",
+      "title": "革命的任务",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/18.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-7ecd845c1303",
+      "title": "论“擅自夺取”土地（“社会革命党人”的糟糕论据）",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170520.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-9a27cddcd577",
+      "title": "论民族自决权",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191402-05.htm",
+      "addedReferences": 3,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-9aefdc1cd4dc",
+      "title": "革命无产阶级的民主主义任务",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19050604.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-9b5e398ffc38",
+      "title": "无产阶级革命和叛徒考茨基",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1918-10.htm",
+      "addedReferences": 38,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-b82ea5f59688",
+      "title": "在阿列克谢耶夫练马场群众大会上的讲话",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180407.htm",
+      "addedReferences": 3,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-bd2bac75a5ae",
+      "title": "革命的一个根本问题",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170907.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-c2c3604c2d4f",
+      "title": "政论家札记――我们党的错误",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "lenin-work-f51338f28cf4",
+      "title": "俄国革命和国内战争――有人用国内战争来吓唬人",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170908.htm",
+      "addedReferences": 2,
+      "unresolved": []
+    },
+    {
+      "id": "mao-work-8a362e5a36af",
+      "title": "中国革命和中国共产党",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193912.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-3b86616edb1b",
+      "title": "1848年11月4日通过的法兰西共和国宪法",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-185106.htm",
+      "addedReferences": 4,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-3ba3570a1c1f",
+      "title": "马克思致库格曼",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1866-10-9.htm",
+      "addedReferences": 6,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-424ee990a3bf",
+      "title": "关于费尔巴哈的提纲",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1845.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-6523f0586337",
+      "title": "共产党宣言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "addedReferences": 27,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-873d7b3b471b",
+      "title": "“莱茵观察家”的共产主义",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18470905.htm",
+      "addedReferences": 3,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-8fab9f5331e5",
+      "title": "工人联合会",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-184712.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-aa2c432713a7",
+      "title": "法兰西内战",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+      "addedReferences": 2,
+      "unresolved": []
+    },
+    {
+      "id": "marx-work-bcd6bcd970b2",
+      "title": "雇佣劳动与资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "addedReferences": 93,
+      "unresolved": [
+        {
+          "chapterId": "chapter-001-bcd6bcd970",
+          "paragraphIndex": 107,
+          "start": 77,
+          "marker": "②",
+          "reason": "source-missing",
+          "clickableNotice": true,
+          "context": "一个方面制约着另一个方面，就如同高利贷者和挥霍者相互制约一样②。"
+        },
+        {
+          "chapterId": "chapter-001-bcd6bcd970",
+          "paragraphIndex": 125,
+          "start": 63,
+          "marker": "③",
+          "reason": "source-missing",
+          "clickableNotice": true,
+          "context": "的一份。工资是原有商品中由资本家用以购买一定量的生产性劳动力③的那一部分。”但是，资本家必须从出卖由工人创造的产品的价格中"
+        }
+      ]
+    },
+    {
+      "id": "marx-work-d1c3a7531cf2",
+      "title": "中国革命和欧洲革命",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1853-5-31.htm",
+      "addedReferences": 1,
+      "unresolved": []
+    },
+    {
+      "id": "principles-zh",
+      "title": "共产主义原理",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/04/025.htm",
+      "addedReferences": 2,
+      "unresolved": []
+    }
+  ]
+}

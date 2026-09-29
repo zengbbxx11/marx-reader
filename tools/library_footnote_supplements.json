@@ -1,0 +1,2509 @@
+{
+  "version": 1,
+  "description": "Verified missing notes. Locations are guarded by the entire unchanged source paragraph hash. PDF pages are one-based. Cross-edition supplements explicitly identify their edition in the displayed content.",
+  "records": [
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 6,
+      "start": 159,
+      "marker": "①",
+      "paragraphSha256": "711ba3a3ad511154925cc319ebba6769223c60c48378ddd6ca6ce76c6f3f01ba",
+      "context": "义的社会产物。”（格・季诺维也夫和尼・列宁《社会主义与战争》①1915年日内瓦版第13―14页）",
+      "content": [
+        "见《列宁全集》第2版第26卷。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 257,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 26,
+      "start": 79,
+      "marker": "①",
+      "paragraphSha256": "93972520c9381ee5f7afc4674857bddfb56d92f2d963b764033c04bc0daf8fbe",
+      "context": "政治上的过渡时期，这个时期的国家只能是无产阶级的革命专政。”①首先，把马克思总结他全部革命学说的这段著名论断称为“一个词”",
+      "content": [
+        "见《马克思恩格斯全集》第19卷第31页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 261,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 53,
+      "start": 70,
+      "marker": "①",
+      "paragraphSha256": "fed0d3b8cec886f0b7d63fe083cbb79b5380add3125cd6d75532b6aa8973c587",
+      "context": "个新的国家机器，用恩格斯的话说，“已经不是原来意义上的国家”①。",
+      "content": [
+        "见《马克思恩格斯全集》第19卷第7页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 265,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 67,
+      "start": 94,
+      "marker": "①",
+      "paragraphSha256": "1cede773807800f1e9d30c1ec64211a7aa5f365f699630782ca74f8add0d7bf1",
+      "context": "呢？当马克思认为公社没有夺取属于全法国的银行是一个错误的时候①，难道他是从“纯粹民主”的原则和实践出发的吗？？",
+      "content": [
+        "参看《马克思恩格斯全集》第22卷第225页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 268,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 70,
+      "start": 181,
+      "marker": "②",
+      "paragraphSha256": "eb9cfc55ac1782fa07c2470a45e4bf411085b2ea6f9223a8da2863851129afb1",
+      "context": "反过来说，难道我们没有理由责备公社把这个权威用得太少了吗？”②请看，这就是“纯粹民主”！一个异想天开、竟在划分为阶级的社会",
+      "content": [
+        "见《马克思恩格斯全集》第18卷第344页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 268,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 72,
+      "start": 47,
+      "marker": "③",
+      "paragraphSha256": "6ce7bc5dc99b994e37d43b76130544782335bf5f0fac1ab639b2070705eb1cee",
+      "context": "公社，指出它的功绩在于作了打碎和摧毁“现成的国家机器”的尝试③。马克思和恩格斯认为这个结论非常重要，因此，他们在1872年",
+      "content": [
+        "见《马克思恩格斯全集》第17卷第355页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 268,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 72,
+      "start": 107,
+      "marker": "①",
+      "paragraphSha256": "6ce7bc5dc99b994e37d43b76130544782335bf5f0fac1ab639b2070705eb1cee",
+      "context": "年对《共产党宣言》这个部分“过时的”纲领・仅・仅作了这个修改①。马克思和恩格斯指出，公社取消了军队和官吏，取消了议会制，破",
+      "content": [
+        "见《马克思恩格斯全集》第18卷第105页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 269,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 87,
+      "start": 51,
+      "marker": "①",
+      "paragraphSha256": "2c012efa2b3d361038e56bee5c3bc1dc7dd9a8ed30971a0490c047bf25c4f51c",
+      "context": "的国家”也“是资本剥削雇佣劳动的工具”（恩格斯论国家的著作）①。“既然国家只是在斗争中、在革命中用来对敌人实行暴力镇压的一",
+      "content": [
+        "见《马克思恩格斯全集》第21卷第196页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 271,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 87,
+      "start": 194,
+      "marker": "②",
+      "paragraphSha256": "2c012efa2b3d361038e56bee5c3bc1dc7dd9a8ed30971a0490c047bf25c4f51c",
+      "context": "身就不再存在了。”（恩格斯1875年3月28日给倍倍尔的信）②“国家无非是一个阶级镇压另一个阶级的机器，这一点即使在民主共",
+      "content": [
+        "见《马克思恩格斯全集》第19卷第7页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 271,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 87,
+      "start": 265,
+      "marker": "③",
+      "paragraphSha256": "2c012efa2b3d361038e56bee5c3bc1dc7dd9a8ed30971a0490c047bf25c4f51c",
+      "context": "主制下差。”（恩格斯为马克思的《法兰西内战》一书所写的导言）③普选制是“测量工人阶级成熟性的标尺。在现今的国家里，普选制不",
+      "content": [
+        "见《马克思恩格斯全集》第22卷第228页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 271,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 87,
+      "start": 322,
+      "marker": "①",
+      "paragraphSha256": "2c012efa2b3d361038e56bee5c3bc1dc7dd9a8ed30971a0490c047bf25c4f51c",
+      "context": "普选制不能而且永远不会提供更多的东西”（恩格斯论国家的著作。①考茨基先生非常枯燥地反复解释这个论点当中能为资产阶级接受的前",
+      "content": [
+        "见《马克思恩格斯全集》第21卷第197页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 272,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 87,
+      "start": 576,
+      "marker": "②",
+      "paragraphSha256": "2c012efa2b3d361038e56bee5c3bc1dc7dd9a8ed30971a0490c047bf25c4f51c",
+      "context": "任何一个工厂主一样。”（马克思论述巴黎公社的《法兰西内战》）②极其博学的考茨基先生十分熟悉的这些论点，每一条都在打他的嘴巴",
+      "content": [
+        "见《马克思恩格斯全集》第17卷第358页和第360页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 272,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 123,
+      "start": 68,
+      "marker": "①",
+      "paragraphSha256": "0b63957ccfb76a0428247dda9699265f95a96d193241634e5154aad029f8b7c6",
+      "context": "了粉碎资产阶级的反抗……赋予国家以一种革命的暂时的形式……”①恩格斯说：（在革命中）“……获得胜利的政党迫于必要，不得不凭",
+      "content": [
+        "见《马克思恩格斯全集》第18卷第335页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 279,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 123,
+      "start": 190,
+      "marker": "①",
+      "paragraphSha256": "0b63957ccfb76a0428247dda9699265f95a96d193241634e5154aad029f8b7c6",
+      "context": "来说，难道我们没有理由责备公社把这个权威用得太少了吗？……”①恩格斯又说：“既然国家只是在斗争中、在革命中用来对敌人实行暴",
+      "content": [
+        "见《马克思恩格斯全集》第18卷第344页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 280,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 123,
+      "start": 318,
+      "marker": "②",
+      "paragraphSha256": "0b63957ccfb76a0428247dda9699265f95a96d193241634e5154aad029f8b7c6",
+      "context": "己的敌人，一到有可能谈自由的时候，国家本身就不再存在了……”②考茨基同马克思、恩格斯之间，正如自由主义者同无产阶级革命者之",
+      "content": [
+        "见《马克思恩格斯全集》第19卷第7页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 280,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 169,
+      "start": 54,
+      "marker": "①",
+      "paragraphSha256": "1d66856cb391640caa5e5ecb57a9f2d1982a5d8307bde6cc90dec88a21d881fe",
+      "context": "要什么样的国家时就说过：“国家即组织成为统治阶级的无产阶级”①。现在，一个自以为仍然是马克思主义者的人竟出来说，已经全部组",
+      "content": [
+        "见《马克思恩格斯全集》第4卷第489页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 288,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 169,
+      "start": 169,
+      "marker": "①",
+      "paragraphSha256": "1d66856cb391640caa5e5ecb57a9f2d1982a5d8307bde6cc90dec88a21d881fe",
+      "context": "经转到资产阶级甚至很多工人的一般意识中去”的“对国家的迷信”①，就是考茨基在这里所暴露出来的东西。我们的这位庸人“同意”说",
+      "content": [
+        "见《马克思恩格斯全集》第22卷第228页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 289,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 181,
+      "start": 40,
+      "marker": "①",
+      "paragraphSha256": "b6d10e011e50cbb67fc2a953d90d34e397514cc25bc8a4ea7b234d3e43bde9b0",
+      "context": "在1917年12月26日《真理报》上的“关于立宪会议的提纲”①。这看来是考茨基拿着真凭实据来认真讨论问题的最好证明了。不过",
+      "content": [
+        "见《列宁全集》第2版第33卷第163—167页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 292,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 183,
+      "start": 60,
+      "marker": "①",
+      "paragraphSha256": "bab1f90aec484fee1c38da0502c68e33e6c76310749072a94f70b440f294ed7b",
+      "context": "立宪会议花冠的资产阶级共和国相比），而且是能够保证痛苦最少地①过渡到社会主义的唯一形式”（考茨基省去了“通常”一词和这一条",
+      "content": [
+        "附带说一下,考茨基多次引用了“痛苦最少地”过渡这几个字,显然是想来讽刺讽刺。可是他用的方法不中用,所以在几页之后,他就作假,把引文伪造成“无痛苦地”过渡!当然,用这种方法把荒谬的话加到论敌身上是不困难的。作假也能帮助回避论据的实质,即只有把全体贫苦农民组织起来(成为苏维埃),只有国家政权的中坚(无产阶级)帮助他们组织起来,才有可能痛苦最少地过渡到社会主义。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 293,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 190,
+      "start": 44,
+      "marker": "①",
+      "paragraphSha256": "65c465b9c82e9e8bc21fbf500494756ae05dd6f78b37b18a1b517d04f22361bb",
+      "context": "茨基的这一花招该叫作什么呢？根据什么理由可以原谅这种行为呢？①是考茨基不知道事实吗？真是这样，他为什么又要写到这些事实呢？",
+      "content": [
+        "附带说一下:在考茨基的小册子中,这种孟什维克式的谎话是很多的!这是一个怀着仇恨的孟什维克写的诽谤性的小册子。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 294,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 199,
+      "start": 155,
+      "marker": "①",
+      "paragraphSha256": "22db54c26aed9275b1d3639d8aa774f96aa57832349e3a70d26571197899aed1",
+      "context": "了跟马克思同样的思想：“巴黎公社已经不是原来意义上的国家。”①请看，这就是第二国际最卓越的理论家，他写了一本专著《无产阶级",
+      "content": [
+        "见《马克思恩格斯全集》第19卷第7页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 295,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 235,
+      "start": 20,
+      "marker": "①",
+      "paragraphSha256": "320f1edab3efbca42ec3d9beb25fe2b80a64cb282177b9bae6d00abf94258d9a",
+      "context": "考茨基先生从我1918年4月28日的讲话①中引了一句话：",
+      "content": [
+        "见《列宁全集》第2版第34卷第150—188页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 304,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 250,
+      "start": 18,
+      "marker": "①",
+      "paragraphSha256": "2ccce5cf692f717a0681a93024a6bd79c0dc6b397ed2e7724f43e69a2727ce97",
+      "context": "让那些受资产阶级和社会沙文主义者欢迎①的实行背叛的小人去痛骂我们的苏维埃宪法剥夺剥削者的选举权吧。",
+      "content": [
+        "我刚才读了《法兰克福报》(1918年10月22日第293号)的社论。这篇社论兴高采烈地转述了考茨基的小册子的内容。交易所经纪人的报纸十分满意。当然啦!一位同志从柏林写信告诉我,谢德曼之流的《前进报》在一篇专论上说,它几乎对考茨基的每句话都赞同。恭喜恭喜!"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 307,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 275,
+      "start": 178,
+      "marker": "①",
+      "paragraphSha256": "ba3a87cfa39ac95d7986e6f429c9ccf4634deefc11f4ab517058a35bc1dcda99",
+      "context": "因此，掌握国家大权的资产者的第一个信条就是解除工人的武装。”①武装工人是新军队的萌芽，是新社会制度的组织细胞。破坏这个细胞",
+      "content": [
+        "见《马克思恩格斯全集》第22卷第218页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 313,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 275,
+      "start": 284,
+      "marker": "②",
+      "paragraphSha256": "ba3a87cfa39ac95d7986e6f429c9ccf4634deefc11f4ab517058a35bc1dcda99",
+      "context": "的革命的第一个信条就是打碎旧军队，解散旧军队，用新军队代替它②。一个上升到统治地位的新的社会阶级，如果不使旧军队完全解体（",
+      "content": [
+        "见《马克思恩格斯全集》第17卷第358页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 313,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 284,
+      "start": 56,
+      "marker": "①",
+      "paragraphSha256": "bd47ef6570c5590799a8e2cf814c54993883c1a01104b4c4b7c012526c5ace06",
+      "context": "屠拉梯派等等叛徒那样推论的：敌人在我的国家，其余我一概不管。①社会主义者、革命的无产者、国际主义者的推论则不同：战争的性质",
+      "content": [
+        "社会沙文主义者(谢德曼、列诺得尔、韩德逊、龚帕斯之流等等)在战争期间根本不谈“国际”。他们认为反对“本国的”资产阶级就是“背叛”……社会主义。他们赞成本国的资产阶级的侵略政策。社会和平主义者(即口头上的社会主义者,实际上的市侩和平主义者)表现出种种“国际主义的”情感,奋起反对兼并等等,但实际上继续支持本国的帝国主义资产阶级。这两类人的差别很小,正象凶言恶语的资本家和甜言蜜语的资本家的差别一样。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 315,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 294,
+      "start": 81,
+      "marker": "①",
+      "paragraphSha256": "51786892d7f9c4c437243af2b5143ffc7d37de53784d9d8ab6aeb94646db22bd",
+      "context": "了界限，我说，我们指望美国革命，但并不指望它在一定时期内发生①。我同左派社会革命党人和“左派共产主义者”论战的时候（191",
+      "content": [
+        "见本卷第62页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 317,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 323,
+      "start": 138,
+      "marker": "①",
+      "paragraphSha256": "88f6198625185b7c96621770b3d8c525ba039c6501ac02b5eed3e1b01ceaeaaa",
+      "context": "民主革命不同的社会主义革命（见我在1905年写的《两种策略》①一书，重新刊载于1907年彼得堡出版的《十二年来》文集中）。",
+      "content": [
+        "见《列宁全集》第2版第11卷。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 324,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 325,
+      "start": 207,
+      "marker": "②",
+      "paragraphSha256": "77012c017abdd6e1930143e6e044812e7ff2cdc305f81ce9a3f7b57a4e380df8",
+      "context": "年法国资产阶级革命和1848年德国资产阶级革命时所说的一切！②谈到考茨基的“经济分析”的主要“论据”和主要内容之前，我们先",
+      "content": [
+        "参看《马克思恩格斯全集》第6卷第125—127页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 324,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 350,
+      "start": 86,
+      "marker": "①",
+      "paragraphSha256": "f7c36d998c96ffe5369095466f6dc29b97b28c3f02563de41e6c877ae02f235f",
+      "context": "”（指马克思在1871年谈到真正的人民革命时所说的“人民”）①、最灵敏地反映群众在政治上阶级上的成熟发展到什么程度的晴雨表",
+      "content": [
+        "见《马克思恩格斯全集》第33卷第206—207页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 329,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 363,
+      "start": 46,
+      "marker": "①",
+      "paragraphSha256": "0d34f877679f180f3a91bc1363bc40e0efd2ca89aa7b02883e9aa6e4095c66aa",
+      "context": "人、无气节的知识分子和农民中的富农，得到的却是千百万贫苦农民①。",
+      "content": [
+        "在苏维埃第六次代表大会(1918年11月6—9日)上,有表决权的代表有967人,其中布尔什维克占950人,有发言权的代表有351人,其中布尔什维克占335人。加在一起,布尔什维克占总数97%。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 332,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 381,
+      "start": 66,
+      "marker": "①",
+      "paragraphSha256": "8f45bdff13a40ae11886d47777bd985a42966cb2f361c64ad2b0bf94f951eafe",
+      "context": "过了现在已纳入苏维埃共和国根本法的《被剥削劳动人民权利宣言》①。宣言第2条第1项说：“废除土地私有制”，“模范田庄和模范农",
+      "content": [
+        "见《列宁全集》第2版第33卷。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 336,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 391,
+      "start": 64,
+      "marker": "①",
+      "paragraphSha256": "ea488eb434527d4bd3b6846333518610319a8da11590660d5c0ea804cfe9caa1",
+      "context": "1905年的经验时（例如见我论第一次俄国革命中土地问题的著作①）就曾指出平均使用土地的口号具有要求民主的进步意义、革命意义",
+      "content": [
+        "见《列宁全集》第2版第16卷《社会民主党在1905—1907年俄国第一次革命中的土地纲领》。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 337,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 418,
+      "start": 71,
+      "marker": "①",
+      "paragraphSha256": "a4c2f76aa669c62a81c86530c33ad77e9358cc235182107fedbeda1af0de6544",
+      "context": "他不会不知道马克思说过的话：土地国有正是资产阶级最彻底的口号①。考茨基不会不知道马克思在《剩余价值理论》一书中同洛贝尔图斯",
+      "content": [
+        "参看《马克思恩格斯全集》第26卷第2册第39页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 342,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 430,
+      "start": 177,
+      "marker": "①",
+      "paragraphSha256": "7434a45b5e13c3a1110dfe18f5a7af59a9473616d0e6e346da12ae5252fa5fe8",
+      "context": "中提到：‘工人牢牢地掌握着工厂，农民决不会把土地交给地主。’①‘工厂归工人，土地归农民’这个口号，从来不是社会民主党人的口",
+      "content": [
+        "见本卷第25页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 344,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 454,
+      "start": 217,
+      "marker": "①",
+      "paragraphSha256": "fb80597f9b85b64bbd76d5656e2fb05d7019b0ca3d30a9903829949c919f01cc",
+      "context": "：工人阶级不能简单地掌握现成的国家机器，而应当打碎这个机器。①关于这一点，他却一字不提！王德威尔得同考茨基一样，不约而同闭",
+      "content": [
+        "参看《马克思恩格斯全集》第18卷第105页。——编者注"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 349,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 217,
+      "start": 121,
+      "marker": "[117]",
+      "paragraphSha256": "d5f02480bb1ae9a158abd14c0ff97f0746194051d31dd30b45118a38ab3e4f0d",
+      "context": "1月10日）71043461％第四次（1918年3月14日）[117]123279564％第五次（1918年7月4日）[118]1",
+      "content": [
+        "全俄苏维埃第四次(非常)代表大会于1918年3月14—16日在莫斯科举行。这次代表大会是为解决批准布列斯特和约问题而召开的。出席大会的有表决权的代表共1232名,其中布尔什维克795名,左派社会革命党人283名,中派社会革命党人25名,孟什维克21名,孟什维克国际主义者11名。副外交人民委员格·瓦·契切林向代表大会介绍了和约的内容后,列宁代表全俄中央执行委员会就批准和约问题作了报告。波·达·卡姆柯夫代表左派社会革命党党团作了反对批准和约的副报告。会上,孟什维克、社会革命党和左派社会革命党、最高纲领派、无政府主义者等结成统一战线,反对批准布列斯特和约。经过辩论,大会以784票赞成、261票反对、115票弃权通过了列宁提出的关于批准和约的决议。“左派共产主义者”投了弃权票。和约批准后,左派社会革命党人宣布退出人民委员会。大会还批准了全俄中央执行委员会1918年2月底作出的关于把苏维埃共和国的首都由彼得格勒迁往莫斯科的决定,选出了由207人组成的新的全俄中央执行委员会 。——273。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 598,
+        "marker": "[117]"
+      }
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 217,
+      "start": 150,
+      "marker": "[118]",
+      "paragraphSha256": "d5f02480bb1ae9a158abd14c0ff97f0746194051d31dd30b45118a38ab3e4f0d",
+      "context": "）[117]123279564％第五次（1918年7月4日）[118]116477366％",
+      "content": [
+        "全俄苏维埃第五次代表大会于1918年7月4—10日在莫斯科举行。出席代表大会的有1164名有表决权的代表,其中布尔什维克773名,左派社会革命党人353名,最高纲领派17名,无政府主义者4名,孟什维克国际主义者4名,其他党派成员3名,无党派人士10名。乌克兰、拉脱维亚和外高加索等被占领区也有代表出席。  雅·米·斯维尔德洛夫在会上作了关于全俄中央执行委员会工作总结报告,列宁作了人民委员会工作报告。代表大会对两个报告进行了激烈的辩论,并以多数票通过了共产党党团提出的完全信任政府的对内对外政策的决议。左派社会革命党人提出的对苏维埃政府表示不信任、要求废除布列斯特和约、改变苏维埃政府的对内对外政策的决议案被否决。  左派社会革命党人在代表大会上遭到失败后于7月6日在莫斯科发动了反革命叛乱,代表大会的工作因而暂时中断。左派社会革命党党团全体成员被逮捕,与叛乱无干的后来获释,其中约有200人回来继续参加会议。代表大会于7月9日复会后,听取了政府关于7月6—7日事件的报告,完全同意政府为平定左派社会革命党人叛乱所采取的果断行动,并指出赞同自己上层领导观点的左派社会革命党人“不能再留在工农代表苏维埃之内”。  代表大会关于粮食问题的决议肯定粮食垄断制的不可动摇,认为必须坚决镇压富农的反抗,赞成组织贫苦农民委员会。代表大会关于组织红军的决议规定了在劳动者义务兵役制的基础上组织和巩固红军的措施。代表大会最后批准了俄罗斯联邦的第一部宪法,选出了由200人组成的全俄中央执行委员会 。——273。"
+      ],
+      "source": {
+        "title": "《列宁全集》第2版第35卷",
+        "url": "https://www.marxists.org/chinese/pdf/lenin/collectext/J75.pdf",
+        "pdfPage": 599,
+        "marker": "[118]"
+      }
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-031-1e6f40a934",
+      "paragraphIndex": 11,
+      "start": 206,
+      "marker": "[131]",
+      "paragraphSha256": "d6b4bdc74ee26ffc8c5adba09ff650d4b590aad1226958fb82be38fbdcb55e00",
+      "context": "总要在许多点上发生中断。我们在论述再生产过程时(第2卷第3篇[131])已经看到，不变资本的生产者彼此用一部分不变资本进行交换。这",
+      "content": [
+        "见《马克思恩格斯全集》中文版第24卷第470—474页。——第544页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第25卷下册",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me25b.pdf",
+        "pdfPage": 533,
+        "marker": "[131]"
+      }
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-031-1e6f40a934",
+      "paragraphIndex": 40,
+      "start": 50,
+      "marker": "[133]",
+      "paragraphSha256": "b8c635b79a7d221cc49005e2da2ec945abf234853c634f59b7fcfe71f67f7e13",
+      "context": "最初的推动，它就必然会周期地再现出来。［注：{我曾在别的地方[133]指出，自上一次大规模的普遍危机爆发以来，在这方面已经发生了转",
+      "content": [
+        "见《马克思恩格斯全集》中文版第23卷第36—37页。——第554页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第25卷下册",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me25b.pdf",
+        "pdfPage": 533,
+        "marker": "[133]"
+      }
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "paragraphIndex": 42,
+      "start": 135,
+      "marker": "[190]",
+      "paragraphSha256": "32e0a94cb9f5fc6c1f1aeaeb056b561864242d22932f4b1f765fecbcfdc68c05",
+      "context": "的。英国谷物法[46]的废除，已证明相反的事实（见纽曼的著作[190]），而相反的见解之所以产生，只是因为单纯由气候引起的收获上巨",
+      "content": [
+        "弗·威·纽曼《政治经济学讲演集》1851年伦敦版第158页（F. W. Newman. Lectures on Political Economy. London, 1851, p. 158）。——第741页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第25卷下册",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me25b.pdf",
+        "pdfPage": 540,
+        "marker": "[190]"
+      }
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "paragraphIndex": 49,
+      "start": 20,
+      "marker": "[192]",
+      "paragraphSha256": "a804ff91b456296d42f6de60fc45479b739b97895a732ae862da84a15e39fd8d",
+      "context": "因此，在威斯特、马尔萨斯、李嘉图等人那里[192]还占统治地位的有关级差地租的第一个错误假定就被推翻了。按照这",
+      "content": [
+        "马克思指以下著作：［爱·威斯特］《论资本用于土地，并论对谷物进口严加限制的失策》，牛津大学的大学学院一特待校友著，1815年伦敦版；托·罗·马尔萨斯《政治经济学原理的实际应用》，根据作者的手稿和杂记作了大量补充，1836年伦敦第2版（Th. R. Malthus. Principles of Political Economy considered with a view to their practical Application. 2nd edition with considerable additions from the author’s own manuscript and an original memoir. London, 1836）；托·罗·马尔萨斯《关于地租的本质和增长及其调整原则的研究》1815年伦敦版（Th. R. Malthus. An Inquiry into the Nature and Progress of Rent, and the Principles by which it is regulated. London, 1815）；大·李嘉图《政治经济学和赋税原理》1821年伦敦第3版第2章。——第743页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第25卷下册",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me25b.pdf",
+        "pdfPage": 540,
+        "marker": "[192]"
+      }
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "paragraphIndex": 100,
+      "start": 182,
+      "marker": "[194]",
+      "paragraphSha256": "0fa5283826ad6391ec47bb89bb895dd6c7c76326bca65d0af12c8bec81d625d9",
+      "context": "原或干草原地带的开垦的迅速发展，近来使“人口压迫着生活资料”[194]这样一个轰动一时的马尔萨斯命题，变成了幼稚可笑的东西。相反地",
+      "content": [
+        "这个论点出自马尔萨斯的著作《人口原理》1798年伦敦版。——第756页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第25卷下册",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me25b.pdf",
+        "pdfPage": 541,
+        "marker": "[194]"
+      }
+    },
+    {
+      "bookId": "engels-work-be53783ee09e",
+      "chapterId": "chapter-001-be53783ee0",
+      "paragraphIndex": 46,
+      "start": 11,
+      "marker": "①",
+      "paragraphSha256": "e3c55d5efd40f092820cb243c41ce4b437b5277be0f8778bd284eb58d13e5194",
+      "context": "“微分可以当作真正的零①来看待和对待，但是这些零相互处于由当前的问题的情况所决定的关",
+      "content": [
+        "着重号是恩格斯加的。——编者注"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第20卷",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me20.pdf",
+        "pdfPage": 681,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-d1c3a7531cf2",
+      "chapterId": "chapter-001-d1c3a7531c",
+      "paragraphIndex": 6,
+      "start": 10,
+      "marker": "[93]",
+      "paragraphSha256": "42eb63fc9994afdf008964aeb5deef77ce710b7bcfb62219556434c82ca18542",
+      "context": "中国在1840年战争[93]失败后被迫付给英国的赔款，大量的非生产性的鸦片消费，鸦片贸易",
+      "content": [
+        "指第一次鸦片战争(1839—1842年)。这是一次英国侵略中国的战争,从这次战争开始,中国就变成了一个半殖民地国家。战争的导火线是中国当局在广州焚毁了外国商人的鸦片。英国殖民主义者利用封建落后的中国战败的机会,强迫中国签订掠夺性的南京条约(1842年8月29日),条约规定中国向英国开放五个海港 (广州、厦门、福州、宁波和上海),把香港岛割给英国作 “永久的属地”,给英国巨额赔款。1843年又补充规定,外国人在中国享有治外法权。—— 第111页。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯全集》第1版第9卷",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/me09.pdf",
+        "pdfPage": 673,
+        "marker": "93"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 30,
+      "start": 42,
+      "marker": "①",
+      "paragraphSha256": "44fbc2267c771ccb2f3fb3dc51365b0391829d6aaa37872f3ac38480f30aac22",
+      "context": "说我们没有详述构成现代阶级斗争和民族斗争的物质基础的经济关系①。我们只是当这些关系在政治冲突中直接表现出来的时候，才有意地",
+      "content": [
+        "在《新莱茵报》上发表时,这句话的前面加有“科隆4月4日”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第343页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 343,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 39,
+      "start": 171,
+      "marker": "③",
+      "paragraphSha256": "2a2a7600c557fc79d2e1f54c9ac9142fcb88a54c7771b072e830a6e0ebfaa2d0",
+      "context": "他们得到的货币数量不同，但是有一点是一致的：就是工资是资本家③为了偿付劳动一定的时间或完成一定的工作而支出的一笔货币。",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本家”,而是“资产者”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 42,
+      "start": 2,
+      "marker": "④",
+      "paragraphSha256": "99e4180469a7365f1f774c62ac6f2a389400a5f6d75aa1ffc5058943a09930da",
+      "context": "可见④，看起来好像是资本家（3）用货币购买工人的劳动。工人是为了货",
+      "content": [
+        "在《新莱茵报》上发表时,“可见”后面没有“看起来好像是”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 42,
+      "start": 142,
+      "marker": "⑤",
+      "paragraphSha256": "99e4180469a7365f1f774c62ac6f2a389400a5f6d75aa1ffc5058943a09930da",
+      "context": "买劳动力以后使用这个劳动力，也就是让工人在约定的时间内劳动。⑤资本家（3）用以购买工人劳动力⑥的那个货币量，譬如说两马克，",
+      "content": [
+        "在《新莱茵报》上发表时没有“但这只是假象……　也就是让工人在约定的时间内劳动”这几句话。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "④"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 42,
+      "start": 158,
+      "marker": "⑥",
+      "paragraphSha256": "99e4180469a7365f1f774c62ac6f2a389400a5f6d75aa1ffc5058943a09930da",
+      "context": "是让工人在约定的时间内劳动。⑤资本家（3）用以购买工人劳动力⑥的那个货币量，譬如说两马克，也可以买到两磅糖或一定数量的其他",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "⑤"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 42,
+      "start": 232,
+      "marker": "⑦",
+      "paragraphSha256": "99e4180469a7365f1f774c62ac6f2a389400a5f6d75aa1ffc5058943a09930da",
+      "context": "的两马克，就是两磅糖的价格。他用以购买12小时的劳动力的使用⑦的两马克，就是12小时劳动的价格。可见，劳动力①是一种商品，",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力的使用”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "⑥"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 42,
+      "start": 256,
+      "marker": "①",
+      "paragraphSha256": "99e4180469a7365f1f774c62ac6f2a389400a5f6d75aa1ffc5058943a09930da",
+      "context": "劳动力的使用⑦的两马克，就是12小时劳动的价格。可见，劳动力①是一种商品，是和砂糖一模一样的商品。前者是用钟点来计量的，后",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "⑤"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 12,
+      "marker": "①",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "工人拿自己的商品即劳动力①去换得资本家的商品，即换得货币，并且这种交换是按一定的比例进",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第345页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 345,
+        "marker": "⑤"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 64,
+      "marker": "②",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "换是按一定的比例进行的。一定量的货币交换一定量的劳动力的使用②时间。织布工人的12小时劳动交换两马克。但是，难道这两马克不",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力的使用”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 146,
+      "marker": "③",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "见，实质上工人是拿他自己的商品即劳动力交换各种各样的其他商品③，并且是按一定的比例交换的。资本家付给他两马克，就是为交换他",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力交换各种各样的其他商品”,而是“劳动交换各种各样的商品”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 229,
+      "marker": "①",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "一定量的劈柴，一定量的灯光，等等。可见，这两马克是表现劳动力①同其他④商品相交换的比例，即表现他的劳动力的交换价值。商品通",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 233,
+      "marker": "④",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "劈柴，一定量的灯光，等等。可见，这两马克是表现劳动力①同其他④商品相交换的比例，即表现他的劳动力的交换价值。商品通过货币来",
+      "content": [
+        "在《新莱茵报》上发表时没有“其他”一词。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "④"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 43,
+      "start": 306,
+      "marker": "⑤",
+      "paragraphSha256": "68568dc23cca569a6e671d685b22e5bf2fc5e2a1136614be07a350c23eb1130c",
+      "context": "商品的价格。所以，工资只是人们通常称之为劳动价格的劳动力价格⑤的特种名称，是只能存在于人的血肉中的这种特殊商品价格的特种名",
+      "content": [
+        "在《新莱茵报》上发表时,不是“人们通常称之为劳动价格的劳动力价格”,而是“劳动价格”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "⑤"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 44,
+      "start": 26,
+      "marker": "⑥",
+      "paragraphSha256": "fac6708bfae9bc6af2a5ced4f7d0f9fd36494ad38095e09586b4e15812b5f6b3",
+      "context": "拿任何一个工人来说，比如拿一个织布工人来说吧。资本家⑥供给他一台织布机和一些纱。织布工人动手工作，纱变成了布。资本",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本家”,而是“资产者”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第346页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 346,
+        "marker": "⑥"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 44,
+      "start": 250,
+      "marker": "①",
+      "paragraphSha256": "fac6708bfae9bc6af2a5ced4f7d0f9fd36494ad38095e09586b4e15812b5f6b3",
+      "context": "机和纱不是织布工人的产品，同样，织布工人用自己的商品即劳动力①交换所得的那些商品也不是他的产品。可能有这样的情形：资产者给",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 44,
+      "start": 396,
+      "marker": "①",
+      "paragraphSha256": "fac6708bfae9bc6af2a5ced4f7d0f9fd36494ad38095e09586b4e15812b5f6b3",
+      "context": "本家拿自己的一部分现有财产即一部分财产去购买织布工人的劳动力①，这就同他拿他的另一部分资本去购买原料（纱）和劳动工具（织布",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 44,
+      "start": 456,
+      "marker": "①",
+      "paragraphSha256": "fac6708bfae9bc6af2a5ced4f7d0f9fd36494ad38095e09586b4e15812b5f6b3",
+      "context": "布机）完全一样。购买了这些东西（其中包括生产布所必需的劳动力①）以后，资本家就用只是属于他的原料和劳动工具进行生产。当然，",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 45,
+      "start": 50,
+      "marker": "①",
+      "paragraphSha256": "5c43c92cf0598bf9ff9802a56ea3d089079e8264473f7a304ef79b73c1340a0a",
+      "context": "的一份。工资是原有商品中由资本家用以购买一定量的生产性劳动力①的那一部分。",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 46,
+      "start": 6,
+      "marker": "①",
+      "paragraphSha256": "32e78662fc412bd44b93582a1ec15ec1d56a04541ae4e5ddbf25c3ac7a45e068",
+      "context": "总之，劳动力①是一种商品，是由其所有者即雇佣工人出卖给资本的一种商品。他为",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 47,
+      "start": 10,
+      "marker": "②",
+      "paragraphSha256": "9466e9efec64de4c4834745bdfc991d8c1ea18b55880efae4b638a422837f8eb",
+      "context": "可是，劳动力的表现即②劳动是工人本身的生命活动，是工人本身的生命的表现。工人正是把",
+      "content": [
+        "在《新莱茵报》上发表时没有“劳动力的表现即”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第347页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 347,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 3,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "劳动力①并不向来就是商品。劳动并不向来就是雇佣劳动，即自由劳动。奴隶",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第348页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 348,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 45,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "并不向来就是雇佣劳动，即自由劳动。奴隶就不是把他自己的劳动力①出卖给奴隶主，正如耕牛不是向农民卖工一样。奴隶连同自己的劳动",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第348页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 348,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 77,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "卖给奴隶主，正如耕牛不是向农民卖工一样。奴隶连同自己的劳动力①一次而永远地卖给奴隶的所有者了。奴隶是商品，可以从一个所有者",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第348页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 348,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 133,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "一个所有者手里转到另一个所有者手里。奴隶本身是商品，但劳动力①却不是他的商品。农奴只出卖自己的一部分劳动力①。不是他从土地",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第348页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 348,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 156,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "商品，但劳动力①却不是他的商品。农奴只出卖自己的一部分劳动力①。不是他从土地所有者方面领得报酬；相反，是土地所有者从他那里",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第348页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 348,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 442,
+      "marker": "①",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "者获得预期的利益，他就可以辞退工人。但是，工人是以出卖劳动力①为其收入的唯一来源的，如果他不愿饿死，就不能离开整个购买者阶",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第349页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 349,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 505,
+      "marker": "②",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "资本家阶级。工人不是属于某一个资本家，而是属于整个资本家阶级②；至于工人给自己寻找一个雇主，即在这个资本家阶级③中间寻找一",
+      "content": [
+        "在《新莱茵报》上发表时不是“不是属于某一个资本家,而是属于整个资本家阶级”;而是“不是属于某个资产者,而是属于整个资产阶级,即资产者阶级”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第349页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 349,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 48,
+      "start": 530,
+      "marker": "③",
+      "paragraphSha256": "4c526aec5d838cc46e0a86ec9721c3c8dd5782f606f6a63eb4bc1e0a5b56e078",
+      "context": "资本家阶级②；至于工人给自己寻找一个雇主，即在这个资本家阶级③中间寻找一个买者，那是工人自己的事情了。",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本家阶级”,而是“资产者阶级”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第349页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 349,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 50,
+      "start": 19,
+      "marker": "①",
+      "paragraphSha256": "6942fab3b8341dd80e041a73847e866d17a291655f433e4225178df6316d19ec",
+      "context": "我们已经说过，工资是一定商品，即劳动力①的价格。所以，工资同样也是由那些决定其他一切商品价格的规律决",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第349页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 349,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 72,
+      "start": 58,
+      "marker": "①",
+      "paragraphSha256": "08741ffdf7113d25afdedaa8c032e41180861ec6ccf51017d41cc729d727c055",
+      "context": "间决定，因为构成生产费用的是：（1）原料和劳动工具的损耗部分①，即产业产品，它们的生产耗费了一定数量的工作日，因而也就是代",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动工具的损耗部分”,而是“劳动工具”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第353页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 353,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 74,
+      "start": 35,
+      "marker": "②",
+      "paragraphSha256": "4dc3fdc502232aa24a92682ad7e61dd776310bc826eec961d6c268524b742cbf",
+      "context": "而提高，忽而降低，是依需求和供给的关系为转移的，依购买劳动力②的资本家和出卖劳动力②的工人之间的竞争情形为转移的。工资的波",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第354页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 354,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 74,
+      "start": 46,
+      "marker": "②",
+      "paragraphSha256": "4dc3fdc502232aa24a92682ad7e61dd776310bc826eec961d6c268524b742cbf",
+      "context": "需求和供给的关系为转移的，依购买劳动力②的资本家和出卖劳动力②的工人之间的竞争情形为转移的。工资的波动一般是和商品价格的波",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第354页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 354,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 74,
+      "start": 114,
+      "marker": "②",
+      "paragraphSha256": "4dc3fdc502232aa24a92682ad7e61dd776310bc826eec961d6c268524b742cbf",
+      "context": "是，在这种波动的范围内，劳动的价格是由生产费用即为创造劳动力②这一商品所需要的劳动时间来决定的。",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第354页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 354,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 75,
+      "start": 6,
+      "marker": "②",
+      "paragraphSha256": "d48197348fc72b564d9836e7df23121f23f07e7024aea47ac8e325d732252dbb",
+      "context": "那么，劳动力②的生产费用究竟是什么呢？",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动本身”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第354页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 354,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 77,
+      "start": 119,
+      "marker": "①",
+      "paragraphSha256": "5408065f754ed85eee2d4695e2d21c38a600463ffe7f23cd8536e65901f4e80a",
+      "context": "要的生产费用，几乎只归结为维持工人的可以保住其劳动能力的生存①所需要的商品。因此，工人的劳动的价格是由必要生活资料的价格决",
+      "content": [
+        "在《新莱茵报》上发表时不是“具有劳动能力的生命”,而是“生命”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第354页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 354,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 79,
+      "start": 129,
+      "marker": "②",
+      "paragraphSha256": "eb332b5d7370e26bd06f9720d35f8b5d9b538aa9ecb7e90c75ce2e4e6895e7b3",
+      "context": "10年期满时有可能用新机器来更换用坏的机器。同样，简单劳动力②的生产费用中也应加入延续工人后代的费用，从而使工人阶级能够繁",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第355页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 355,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 80,
+      "start": 8,
+      "marker": "②",
+      "paragraphSha256": "c5524e85b14fe67f696e972c1216a6e7dec89cfea8a10d932622ae3b889a5be0",
+      "context": "总之，简单劳动力②的生产费用就是维持工人生存和延续工人后代的费用。这种维持生存",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第355页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 355,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 83,
+      "start": 45,
+      "marker": "①",
+      "paragraphSha256": "b01da90bfd05247c1931cf15bd19493fbbee2ac17eb835bddbb7dc6c239fae67",
+      "context": "劳动工具和新的生活资料的各种原料、劳动工具和生活资料组成的。①资本的所有这些组成部分都是劳动的创造物，劳动的产品，积累起来",
+      "content": [
+        "在《新莱茵报》上发表时,这句话的前面加有“科隆4月6日”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第355页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 355,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 87,
+      "start": 22,
+      "marker": "②",
+      "paragraphSha256": "2a4adff8571ceba31b295970187503d288660e52ee2ce9087dcb9a9c22088e17",
+      "context": "人们在生产中不仅仅影响自然界，而且也互相影响②。他们只有以一定的方式共同活动和互相交换其活动，才能进行生产",
+      "content": [
+        "在《新莱茵报》上发表时不是“不仅仅影响自然界,而且也互相影响”;而是“不仅仅同自然界发生关系”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第356页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 356,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 87,
+      "start": 110,
+      "marker": "③",
+      "paragraphSha256": "2a4adff8571ceba31b295970187503d288660e52ee2ce9087dcb9a9c22088e17",
+      "context": "有在这些社会联系和社会关系的范围内，才会有他们对自然界的影响③，才会有生产。",
+      "content": [
+        "在《新莱茵报》上发表时不是“对自然界的影响”,而是“对自然界的关系”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第356页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 356,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 94,
+      "start": 72,
+      "marker": "①",
+      "paragraphSha256": "71f349a854608d9bb411567807b8c9d1bcd98e09244ff9faf40a0414001d274d",
+      "context": "，值1000马克的一座房子是1000马克的交换价值。值一分尼①的一张印纸是100/100分尼的交换价值的总和。能同别的产品",
+      "content": [
+        "在《新莱茵报》上发表时不是“分尼”,而是“生丁”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第357页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 357,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 94,
+      "start": 233,
+      "marker": "②",
+      "paragraphSha256": "71f349a854608d9bb411567807b8c9d1bcd98e09244ff9faf40a0414001d274d",
+      "context": "大小如何，终究是一株树。无论我们拿铁同别的产品交换时是以罗特②为单位还是以公担为单位，这一点难道会改变铁成为商品，成为交换",
+      "content": [
+        "欧洲旧重量单位,约为三十分之一磅。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第358页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 358,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 96,
+      "start": 51,
+      "marker": "③",
+      "paragraphSha256": "9839602b28115ca2251f6ef911181f8a6050aa89e3fdaeca58798046cdbcd4f7",
+      "context": "，即作为一种属于社会一部分的力量，通过交换直接的、活的劳动力③而保存并增大自身。除劳动能力以外一无所有的阶级的存在是资本的",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第358页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 358,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 99,
+      "start": 8,
+      "marker": "④",
+      "paragraphSha256": "aa86ff7c31ae5928897563d31ff3a210ea000205b78224494f48587e9492becd",
+      "context": "资本家和雇佣工人④是怎样进行交换的呢？",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本家和雇佣工人”,而是“资本和雇佣劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第358页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 358,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 100,
+      "start": 9,
+      "marker": "①",
+      "paragraphSha256": "d293bb17110b174f829267db6f7ce3c5a04a45ee69df3bd5c9944ba68771ffb8",
+      "context": "工人拿自己的劳动力①换到生活资料，而资本家拿他的生活资料换到劳动，即工人的生产活",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第358页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 358,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 103,
+      "start": 8,
+      "marker": "①",
+      "paragraphSha256": "7207ed14ae9b850f1415836e3ea7f150d77f86d72086c640f5b8289d5ae1822b",
+      "context": "资本只有同劳动力①交换，只有引起雇佣劳动的产生，才能增加。雇佣工人的劳动力②只",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 103,
+      "start": 37,
+      "marker": "②",
+      "paragraphSha256": "7207ed14ae9b850f1415836e3ea7f150d77f86d72086c640f5b8289d5ae1822b",
+      "context": "力①交换，只有引起雇佣劳动的产生，才能增加。雇佣工人的劳动力②只有在它增加资本，使奴役它的那种权力加强时，才能和资本交换。",
+      "content": [
+        "在《新莱茵报》上发表时不是“雇佣工人的劳动力”,而是“雇佣劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 104,
+      "start": 63,
+      "marker": "①",
+      "paragraphSha256": "50ece7bf9d716e17444c15c00ea63aa23cc19b1419779bb10c6630af1a0b7569",
+      "context": "确呵！如果资本不雇用工人，工人就会灭亡。如果资本不剥削劳动力①，资本就会灭亡，而要剥削劳动力①，资本就得购买劳动力①。投入",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 104,
+      "start": 79,
+      "marker": "①",
+      "paragraphSha256": "50ece7bf9d716e17444c15c00ea63aa23cc19b1419779bb10c6630af1a0b7569",
+      "context": "会灭亡。如果资本不剥削劳动力①，资本就会灭亡，而要剥削劳动力①，资本就得购买劳动力①。投入生产的资本即生产资本增加越快，从",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 104,
+      "start": 90,
+      "marker": "①",
+      "paragraphSha256": "50ece7bf9d716e17444c15c00ea63aa23cc19b1419779bb10c6630af1a0b7569",
+      "context": "劳动力①，资本就会灭亡，而要剥削劳动力①，资本就得购买劳动力①。投入生产的资本即生产资本增加越快，从而产业越繁荣，资产阶级",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 107,
+      "start": 13,
+      "marker": "①",
+      "paragraphSha256": "e5170ac7085357fc541be07cde67a415c333fe25ad2e486b0743463371f52a0f",
+      "context": "断言资本的利益和工人的利益①是一致的，事实上不过是说资本和雇佣劳动是同一种关系的两个方面",
+      "content": [
+        "在《新莱茵报》上发表时不是“工人的利益”,而是“劳动的利益”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第360页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 360,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 110,
+      "start": 44,
+      "marker": "②",
+      "paragraphSha256": "3c628f5d9dff99aa032dd49df795a7e67c70f9b8759143b8d58ff27b9413044d",
+      "context": "长，雇佣工人人数就越增加，一句话，受资本支配的人数就越增多。②我们且假定有这样一种最有利的情形：随着生产资本的增加，对劳动",
+      "content": [
+        "在《新莱茵报》上发表时,这句话前面加有“科隆4月7日”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第361页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 361,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 116,
+      "start": 14,
+      "marker": "①",
+      "paragraphSha256": "d5c136817942422075dbb499aaeeb448bb1cc42a15454028f62bce97b1abb1ae",
+      "context": "首先，工人靠出卖自己的劳动力①取得一定数量的货币。工资是不是单由这个货币价格来决定的呢？",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第362页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 362,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 117,
+      "start": 26,
+      "marker": "②",
+      "paragraphSha256": "dd567e876e06593ef19add67e73ae376d4a4dc7755b223c6b9bdbb1500eed23b",
+      "context": "在16世纪，由于在美洲发现了更丰富和更易于开采的矿藏②，欧洲流通的黄金和白银的数量增加了。因此，黄金和白银的价值和",
+      "content": [
+        "在《新莱茵报》上发表时不是“在美洲发现了更丰富和更易于开采的矿藏”,而是“美洲的发现”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第362页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 362,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 117,
+      "start": 86,
+      "marker": "①",
+      "paragraphSha256": "dd567e876e06593ef19add67e73ae376d4a4dc7755b223c6b9bdbb1500eed23b",
+      "context": "和其他各种商品比较起来就降低了。但是，工人们出卖自己的劳动力①所得到的银币数仍和从前一样。他们的劳动的货币价格仍然如旧，然",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第362页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 362,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 118,
+      "start": 66,
+      "marker": "①",
+      "paragraphSha256": "d7f81ffca2a6a4f7cc948437427c609bdc7464dd3dcfa370145865f402b4b0a3",
+      "context": "肉类、黄油、干酪等等）大大涨价了。假定工人靠出卖自己的劳动力①所得的货币量仍和以前一样。难道他们的工资没有降低吗？当然是降",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第362页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 362,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 125,
+      "start": 360,
+      "marker": "①",
+      "paragraphSha256": "2ad9fc64bdf3773dce48071beb7716ba293637bff282c30158bb066a0d6abd8d",
+      "context": "和利润加以比较，我们可以把两者都看成是工人的产品中的份额。”①",
+      "content": [
+        "在《新莱茵报》上发表时没有这一整段话。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第364页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 364,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 126,
+      "start": 213,
+      "marker": "②",
+      "paragraphSha256": "23e121b1370da449c509b29d462f3712ad5f7e34fe6cc3719fd31eb1cb4b83ce",
+      "context": "须生产出比以前多的交换价值。资本的份额与劳动的份额相比提高了②。社会财富在资本和劳动之间的分配更不平均了。资本家用同样多的",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本的份额与劳动的份额相比提高了”;而是“资本的价值与劳动的价值相比提高了”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第364页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 364,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 128,
+      "start": 17,
+      "marker": "①",
+      "paragraphSha256": "7cfbbc3b2734e881eae6b599d8be7339211bd5daad4b72cca2f0d2b79d0ed565",
+      "context": "工资和利润是互成反比的。资本的份额①即利润越增加，则劳动的份额②即日工资就越降低；反之亦然。利润",
+      "content": [
+        "在《新莱茵报》上发表时不是“资本的份额”,而是“资本的交换价值”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第364页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 364,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 128,
+      "start": 31,
+      "marker": "②",
+      "paragraphSha256": "7cfbbc3b2734e881eae6b599d8be7339211bd5daad4b72cca2f0d2b79d0ed565",
+      "context": "资和利润是互成反比的。资本的份额①即利润越增加，则劳动的份额②即日工资就越降低；反之亦然。利润增加多少，工资就降低多少；而",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动的份额”,而是“劳动的交换价值”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第364页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 364,
+        "marker": "④"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 129,
+      "start": 126,
+      "marker": "③",
+      "paragraphSha256": "2efde34791bf277d0cfe4ff39593cc947b25acc0951da1ba086b61dc244fc6b9",
+      "context": "利润的增加可能是由于损害了其他资本家的利益，而与工资即劳动力③的交换价值的涨落无关；或者，资本家所得利润的增加也可能是由于",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动力”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第365页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 365,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 130,
+      "start": 85,
+      "marker": "④",
+      "paragraphSha256": "c1ac65057ed4336e27226fd9c84550e8c9994921ecfa22b8df29f54840a73566",
+      "context": "是工资的降低却是由于利润的增加。资本家用同一数量的他人的劳动④，购得了更多的交换价值，而对这个劳动却没有多付一文。这就是说",
+      "content": [
+        "在《新莱茵报》上发表时不是“他人的劳动”,而是“劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第365页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 365,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 131,
+      "start": 223,
+      "marker": "①",
+      "paragraphSha256": "71c51455ad541a83e1a97193fad9c28486128b609bcb551f95ba80984df40b42",
+      "context": "倍的纱，比方从前为50磅，现在为100磅，那么我在一定时间内①用这100磅纱所交换到的商品不会比以前用50磅交换到的多些，",
+      "content": [
+        "在《新莱茵报》上发表时没有“从长期来看”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第365页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 365,
+        "marker": "③"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 132,
+      "start": 80,
+      "marker": "②",
+      "paragraphSha256": "dbd8494a01ab100c1113d177b037e80d124545a706f8707f61c283fcbfe338bb",
+      "context": "例如何，这个纯收入的总额归根到底只是直接劳动使积累起来的劳动②在总体上增加的那个数额。所以，这个总额是按劳动使资本增加的比",
+      "content": [
+        "在《新莱茵报》上发表时这里是“积累起来的劳动使直接劳动”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第366页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 366,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 134,
+      "start": 34,
+      "marker": "③",
+      "paragraphSha256": "e7e8c91190160074549e3a50dc45d04bbb39b1848441b05a41df24e7db8b852a",
+      "context": "速增加就等于利润的迅速增加。而利润的迅速增加只有在劳动的价格③，相对工资同样迅速下降的条件下才是可能的。即使实际工资同名义",
+      "content": [
+        "在《新莱茵报》上发表时不是“劳动的价格”,而是“劳动的交换价值”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第366页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 366,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 143,
+      "start": 44,
+      "marker": "①",
+      "paragraphSha256": "7b0d1a23acac1ea839582e0ca8ce64cb5233022fa3c5a94cd810e7eff4ca94ae",
+      "context": "学家们所说的那样，生产资本的增加真的和工资的提高密不可分呢？①我们不应当听信他们的话。我们甚至于不能相信他们的这种说法：似",
+      "content": [
+        "在《新莱茵报》上发表时,这句话的前面加有“科隆4月10日”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第367页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 367,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 146,
+      "start": 42,
+      "marker": "①",
+      "paragraphSha256": "9b3303e397d3745929bafa03b1c3ed2ed960e720315ee1d6cf3d799f2ebfaca7",
+      "context": "本整个说来是在不断增长，那么劳动的积累就是更多方面的了。资本①的数量和规模日益增大。资本的增大加剧资本家之间的竞争。资本规",
+      "content": [
+        "在《新莱茵报》上发表时误为“资本家”,后在第270号加以更正,现根据这一更正进行改动。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第368页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 368,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 156,
+      "start": 194,
+      "marker": "①",
+      "paragraphSha256": "b8954e8a29d05fa3dd6b90e34907fa00a1ff726307d7c95c68f93d89f3fc98fd",
+      "context": "的损失；因为他现在必须卖出更多的商品不仅是为了得到更多的利润①，并且也是为了补偿生产费用（我们已经说过，生产工具本身也日益",
+      "content": [
+        "在《新莱茵报》上发表时不是“得到更多的利润”,而是“得到利润”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第370页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 370,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 157,
+      "start": 117,
+      "marker": "①",
+      "paragraphSha256": "e898805bd83950187d3a83dfb377a959bcac63a87e0d49c4d69767e74a681d11",
+      "context": "的劳动生产更多的产品，竞争就使更便宜的生产即为了同一价格总额①而提高日益增多的产品数量成为确定不移的规律。可见，资本家努力",
+      "content": [
+        "在《新莱茵报》上发表时不是“为了同一价格总额”,而是“为了保持原来的价格”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第371页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 371,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 173,
+      "start": 14,
+      "marker": "①",
+      "paragraphSha256": "fc36fea3b0e14a78d4d1b837fc8f7e2686bde3a8fa719dfbd4cfe3f3e35c153d",
+      "context": "不言而喻，小产业家在这种斗争①中是不可能支持下去的：这种斗争的首要条件之一就是生产的规模经",
+      "content": [
+        "在《新莱茵报》上发表时不是“斗争”,而是“战争”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第374页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 374,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 175,
+      "start": 55,
+      "marker": "①",
+      "paragraphSha256": "883c591492e0fa86478359b58866c3da6ce47c32d7749023d985d10f4fd66d89",
+      "context": "既有的巨大的生产资料，并为此而动用一切信贷机构，产业“地震”①也就越来越频繁，在每次地震中，商业界只是由于埋葬一部分财富、",
+      "content": [
+        "在《新莱茵报》上发表时不是“产业地震”,而是“地震”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第374页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 374,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 175,
+      "start": 185,
+      "marker": "②",
+      "paragraphSha256": "883c591492e0fa86478359b58866c3da6ce47c32d7749023d985d10f4fd66d89",
+      "context": "场的需要的增长，世界市场变得日益狭窄了，剩下可供榨取的新市场②日益减少了，因为先前发生的每一次危机都把一些迄今未被占领的市",
+      "content": [
+        "在《新莱茵报》上发表时不是“新市场”,而是“市场”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第375页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 375,
+        "marker": "①"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 175,
+      "start": 409,
+      "marker": "③",
+      "paragraphSha256": "883c591492e0fa86478359b58866c3da6ce47c32d7749023d985d10f4fd66d89",
+      "context": "得越厉害；虽然如此，资本的迅速增长对雇佣劳动却是最有利的条件③。",
+      "content": [
+        "在《新莱茵报》上发表时,这句话后面加有“(待续)卡尔·马克思”。———编者注",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第375页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 375,
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 1,
+      "start": 16,
+      "marker": "[163]",
+      "paragraphSha256": "584bc0064c224b69a2912b8d9ab5363e39abc471ca8808312ffdc3e3bb482ac3",
+      "context": "恩格斯写的1891年单行本导言 [163]",
+      "content": [
+        "这篇导言是恩格斯为他本人校订的、于1891年在柏林出版的马克思的《雇佣劳动与资本》新版单行本而写的。恩格斯在导言开头部分,把他为这一著作的1884年单行本所写的前言(见《马克思恩格斯全集》中文第1版第21卷第204页)全部复述了一遍。19世纪90年代,为了在工人中宣传马克思的经济学说,马克思的这一著作和恩格斯的这篇导言曾在德国大量印行,广为传播。导言曾以独立的论文形式公开发表,在工人和社会主义报刊上获得广泛的传播。在《雇佣劳动与资本》的新版单行本出版以前,这篇导言曾以《雇佣劳动与资本》为题发表在1891年5月13日《前进报》第109号附刊。此外,导言还稍经删节刊载于1891年5月30日《自由报》第22号,1891年7月10日意大利杂志《社会评论》第10期,1891年7月22日《社会主义者报》第44号,1892年法国社会主义杂志《社会问题》等报刊。马克思的这一著作后来根据1891年版译成许多种外文出版,所有这些版本都收入了恩格斯写的这篇导言。———317。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第916页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 916,
+        "marker": "148"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 2,
+      "start": 32,
+      "marker": "[164]",
+      "paragraphSha256": "afea4f6a3d25c7c2cd8aa69fc10d8869e822453afa1b9c270a93b02af5198696",
+      "context": "著作从1849年4月5日起以社论的形式陆续发表在《新莱茵报》[164]上。它的基础是1847年马克思在布鲁塞尔德意志工人协会[16",
+      "content": [
+        "指《新莱茵报。民主派机关报》(Neue Rheinische Zeitung. Organ der De-mokratie)。该报是德国1848—1849年革命时期民主派中无产阶级一翼的战斗机关报,1848年6月1日—1849年5月19日每日在科隆出版,马克思任主编;参加编辑部工作的有恩格斯、威·沃尔弗、格·维尔特、斐·沃尔弗、恩·德朗克、斐·弗莱里格拉特和亨·毕尔格尔斯。报纸编辑部作为无产阶级革命运动的领导核心,实际履行了共产主义者同盟中央委员会的职责;1848年9月26日科隆实行戒严,报纸暂时停刊;此后在经济和组织方面遇到了巨大困难,马克思不得不在经济上对报纸的出版负责,为此,他把自己的全部积蓄贡献出来,使报纸得以继续出版。《新莱茵报》起到了教育和鼓舞人民群众的作用。报纸发表的有关德国和欧洲革命的重要观点的社论,通常都是由马克思和恩格斯执笔。尽管遭到当局的种种迫害和阻挠,《新莱茵报》仍然英勇地捍卫革命民主主义运动和无产阶级的利益。1849年5月,在反革命势力全面进攻的形势下,普鲁士政府借口马克思没有普鲁士国籍而把他驱逐出境,同时又加紧迫害《新莱茵报》的其他编辑,致使该报被迫停刊。1849年5月19日,《新莱茵报》用红色油墨印出了最后一号即301号。报纸的编辑在致科隆工人的告别书中写道:“无论何时何地,他们的最后一句话始终将是:工人阶级的解放!”(见《马克思恩格斯全集》中文第1版第6卷第619页)———317、468、628。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第917页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 917,
+        "marker": "149"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 2,
+      "start": 64,
+      "marker": "[165]",
+      "paragraphSha256": "afea4f6a3d25c7c2cd8aa69fc10d8869e822453afa1b9c270a93b02af5198696",
+      "context": "64]上。它的基础是1847年马克思在布鲁塞尔德意志工人协会[165]作的几次讲演。这部著作没有全文刊载；在第269号上的文章末尾",
+      "content": [
+        "布鲁塞尔德意志工人协会全称是布鲁塞尔德意志工人教育协会,是马克思和恩格斯1847年8月底在布鲁塞尔建立的德国工人团体,旨在对侨居比利时的德国工人进行政治教育并向他们宣传科学社会主义思想。在马克思和恩格斯及其战友的领导下,协会成了团结侨居比利时的德国革命无产者的合法中心,并同佛兰德和瓦隆的工人俱乐部保持着直接的联系。协会中的优秀分子加入了共产主义者同盟的布鲁塞尔支部。协会在布鲁塞尔民主协会成立过程中发挥了出色的作用。1848年法国资产阶级二月革命之后不久,由于协会成员被比利时警察当局逮捕或驱逐出境,协会在布鲁塞尔的活动即告停止。———317。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第917页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 917,
+        "marker": "150"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 2,
+      "start": 168,
+      "marker": "[166]",
+      "paragraphSha256": "afea4f6a3d25c7c2cd8aa69fc10d8869e822453afa1b9c270a93b02af5198696",
+      "context": "牙利，德累斯顿、伊瑟隆、埃尔伯费尔德、普法尔茨和巴登发生起义[166]，――使报纸本身被查封了（1849年5月19日）。这部著作的",
+      "content": [
+        "1849年,沙皇军队为了镇压匈牙利资产阶级革命、恢复奥地利哈布斯堡王朝的统治,对匈牙利进行了武装干涉。根据尼古拉一世的命令,俄国军队于1849年5月开进了匈牙利。———317、503。",
+        "指维护帝国宪法的运动。这是1848—1849年德国资产阶级民主革命的最后阶段。以普鲁士为首的德意志各邦拒绝承认法兰克福国民议会于1849年3月28日通过的帝国宪法,但是人民群众认为帝国宪法是唯一还没有被取消的革命成果。1849年5月初在萨克森和莱茵省,5—7月在巴登和普法尔茨相继爆发了维护帝国宪法的武装起义。6月初,两个普鲁士军团约6万人与一个联邦军团开始对两地起义者实行武力镇压,而法兰克福国民议会却不给起义者任何援助。1849年7月,维护帝国宪法的运动被镇压下去。———317、503、554、555、652、654。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第918页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 918,
+        "marker": "152"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 2,
+      "start": 220,
+      "marker": "[167]",
+      "paragraphSha256": "afea4f6a3d25c7c2cd8aa69fc10d8869e822453afa1b9c270a93b02af5198696",
+      "context": "年5月19日）。这部著作的续稿，在马克思的遗稿中始终没有发现[167]。",
+      "content": [
+        "后来在马克思的遗稿中发现了一份手稿,是为《雇佣劳动与资本》最后一讲或最后几讲准备的提纲,标题为《工资》(见《马克思恩格斯全集》中文第1版第6卷),封面上注明“1847年12月于布鲁塞尔”。从内容上看,这份手稿在某种程度上是马克思这篇未完成的著作《雇佣劳动与资本》的补充。但是在马克思的手稿中,未发现《雇佣劳动与资本》已定稿的结尾部分。———317。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第918页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 918,
+        "marker": "153"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 27,
+      "start": 477,
+      "marker": "[168]",
+      "paragraphSha256": "75f694f1b9f5e4064cef6ab16460d0b182d08a5077613c79d1f5d896c797b603",
+      "context": "社会制度，那在大洋两岸都将由明天的5月1日和5月3日的星期日[168]来证明。",
+      "content": [
+        "指1891年五一庆祝活动。在某些国家(英国、德国),这种庆祝活动是在5月1日以后头一个星期日举行的;1891年5月1日以后的头一个星期日是5月3日。英国、奥地利、德国、法国、意大利、俄国和其他国家许多城市的工人,在1891年五一纪念日举行了集会和示威游行。　 　———326。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第919页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 919,
+        "marker": "155"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 32,
+      "start": 55,
+      "marker": "[112]",
+      "paragraphSha256": "9789332c56a73289c1a49016fb283c745760e5509532663e515280c84eba48dc",
+      "context": "已有的和每天新出现的历史材料来从经验上证明：当实现了二月革命[112]和三月革命[160]的工人阶级被征服的时候，它的敌人（在法国",
+      "content": [
+        "二月革命指1848年2月爆发的法国资产阶级民主革命。代表金融资产阶级利益的“七月王朝”推行极端反动的政策,反对任何政治改革和经济改革,阻碍资本主义发展,加剧对无产阶级和农民的剥削,引起全国人民的不满;农业歉收和经济危机进一步加深了国内矛盾。1848年2月22—24日巴黎爆发革命,推翻了“七月王朝”,建立了资产阶级共和派的临时政府,宣布成立了法兰西第二共和国。法国二月革命在欧洲1848—1849年革命中具有重要影响。无产阶级和小资产阶级积极参加了这次革命,但革命果实却落到了资产阶级手里。———327、376、382、391、441、445、597、666、671。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第919页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 919,
+        "marker": "156"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 32,
+      "start": 65,
+      "marker": "[160]",
+      "paragraphSha256": "9789332c56a73289c1a49016fb283c745760e5509532663e515280c84eba48dc",
+      "context": "历史材料来从经验上证明：当实现了二月革命[112]和三月革命[160]的工人阶级被征服的时候，它的敌人（在法国是资产阶级共和派，在",
+      "content": [
+        "在二月革命的影响下,1848年3月13日,奥地利首都维也纳的市民、大学生和工人行动起来,举行了要求宪法、陪审制和新闻出版自由的游行示威。群众和军警发生冲突,起义爆发。这次起义导致反动政府的垮台和首相梅特涅的逃亡。1848年3月初,柏林群众举行集会,要求普鲁士政府取消等级特权、召开议会和赦免政治犯。国王弗里德里希—威廉四世调动军队进行镇压,遂发生流血冲突。3月13日,维也纳人民推翻梅特涅统治的消息传到柏林,斗争进一步激化。国王慑于群众的威力,并企图拉拢资产阶级自由派,阻止革命发展,于17、18日先后颁布特别命令,宣布取消书报检查制度;允诺召开联合议会,实行立宪君主制。资产阶级自由派遂与政府妥协。柏林群众要求军队撤出首都,在遭到军警镇压后,于3月18日构筑街垒举行武装起义,最终迫使国王于19日下令把军队撤出柏林。起义获得了胜利,但是起义成果却被资产阶级窃取,3月29日普鲁士成立了康普豪森—汉泽曼内阁。———327、440、441、503、554、601、618。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第919页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 919,
+        "marker": "157"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 32,
+      "start": 228,
+      "marker": "[114]",
+      "paragraphSha256": "9789332c56a73289c1a49016fb283c745760e5509532663e515280c84eba48dc",
+      "context": "到了过去那种受双重奴役即受英俄两国奴役的地位。巴黎的六月斗争[114]，维也纳的陷落[169]，1848年柏林11月②的悲喜剧[1",
+      "content": [
+        "指1848年6月巴黎无产阶级的起义。二月革命后,无产阶级要求把革命推向前进,资产阶级共和派政府推行反对无产阶级的政策,6月22日颁布了封闭“国家工场”的挑衅性法令,激起巴黎工人的强烈反抗。6月23—26日,巴黎工人举行了大规模武装起义。6月25日,镇压起义的让·巴·菲·布雷亚将军在枫丹白露哨兵站被起义者打死,两名起义者后来被判处死刑。经过四天英勇斗争,起义被资产阶级共和派政府残酷镇压下去。马克思论述这次起义时指出:“这是分裂现代社会的两个阶级之间的第一次大规模的战斗。这是保存还是消灭资产阶级制度的斗争。”(见本卷第467页)———327、376、382、391、446、473、478、500、615、692。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第919页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 919,
+        "marker": "158"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 32,
+      "start": 240,
+      "marker": "[169]",
+      "paragraphSha256": "9789332c56a73289c1a49016fb283c745760e5509532663e515280c84eba48dc",
+      "context": "受英俄两国奴役的地位。巴黎的六月斗争[114]，维也纳的陷落[169]，1848年柏林11月②的悲喜剧[170]，波兰、意大利和匈",
+      "content": [
+        "指1848年11月1日维也纳被文迪施格雷茨的军队占领。———327。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第920页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 920,
+        "marker": "159"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 32,
+      "start": 261,
+      "marker": "[170]",
+      "paragraphSha256": "9789332c56a73289c1a49016fb283c745760e5509532663e515280c84eba48dc",
+      "context": "4]，维也纳的陷落[169]，1848年柏林11月②的悲喜剧[170]，波兰、意大利和匈牙利的拚命努力，爱尔兰的严重饥荒――这些就",
+      "content": [
+        "指1848年11月的柏林事件。1848年11月8日国王下令把普鲁士国民议会会址从柏林迁往勃兰登堡。国民议会的多数派通过了一项继续把会址设在柏林的决定。11月10日国民议会被赶出它经常举行会议的话剧院。11月11—13日议会在射击俱乐部召开会议,11月15日被弗兰格尔将军的军队驱散。———327。",
+        "校补出处：《马克思恩格斯选集》第3版第1卷（2012年），PDF第920页。该版编号及部分译词与正文版本不同，此注按所注词句核对。"
+      ],
+      "source": {
+        "title": "《马克思恩格斯选集》第3版第1卷（2012年）",
+        "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+        "pdfPage": 920,
+        "marker": "160"
+      }
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-022-57cd2a5633",
+      "paragraphIndex": 441,
+      "start": 593,
+      "marker": "①",
+      "paragraphSha256": "3a9210e15b0f73f3cb38036d4a360296690c83713f467a211e9c0cb5bec704b4",
+      "context": "n est trop pres ou trop loin.》①（p. 242，243）［注：“我希望，人们注意到，对我们财",
+      "content": [
+        "“我希望，人们注意到，对我们财富的消费的这种考察和我们关于财富生产和分配所说的是多么一致；同时，这种考察把社会整个运动解释得多么清晰。这种一致和这种清晰是从哪里来的呢?来自我们遇到了真理。这使人想起了镜子的作用。如果我们站在适当的角度，事物就会清楚地并按照它们的正确比例反映出来。如果离得太近或太远，一切事物就会显得是混乱的和歪曲的。”（第242、243页）"
+      ],
+      "source": {
+        "title": "正文同段的法文译注",
+        "url": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol2-01.htm"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 107,
+      "start": 77,
+      "marker": "②",
+      "paragraphSha256": "e5170ac7085357fc541be07cde67a415c333fe25ad2e486b0743463371f52a0f",
+      "context": "一个方面制约着另一个方面，就如同高利贷者和挥霍者相互制约一样②。",
+      "status": "SOURCE_MISSING",
+      "content": [
+        "【源站注释缺文】",
+        "源站在此处保留了编号②，但未提供对应的注释正文。目前无法核实其内容。此处显示的是缺文说明，不是原书注释。",
+        "来源：https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm"
+      ],
+      "source": {
+        "title": "网页原有标记及缺文状态",
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "paragraphIndex": 125,
+      "start": 63,
+      "marker": "③",
+      "paragraphSha256": "2ad9fc64bdf3773dce48071beb7716ba293637bff282c30158bb066a0d6abd8d",
+      "context": "的一份。工资是原有商品中由资本家用以购买一定量的生产性劳动力③的那一部分。”但是，资本家必须从出卖由工人创造的产品的价格中",
+      "status": "SOURCE_MISSING",
+      "content": [
+        "【源站注释缺文】",
+        "源站在此处保留了编号③，但未提供对应的注释正文。目前无法核实其内容。此处显示的是缺文说明，不是原书注释。",
+        "来源：https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm"
+      ],
+      "source": {
+        "title": "网页原有标记及缺文状态",
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm"
+      }
+    }
+  ],
+  "exclusions": [
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "paragraphIndex": 199,
+      "start": 244,
+      "marker": "①",
+      "paragraphSha256": "22db54c26aed9275b1d3639d8aa774f96aa57832349e3a70d26571197899aed1",
+      "context": "出过的比民主的资产阶级共和国更高的国家形式的问题。（这862①见《马克思恩格斯全集》第19卷第7页。――编者注）",
+      "reason": "正文中粘连的页下注标签；同段 start=155 的①才是引用入口。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-002-8356fef4c5",
+      "paragraphIndex": 15,
+      "start": 0,
+      "marker": "①",
+      "paragraphSha256": "1e8a60c5434381bd2eb490174c24bf3f30ce38a21a0f996c8aee4221a9c62551",
+      "context": "① 对象性的原文是“Gegenständlichkeit”，意",
+      "reason": "独立译者注的标签，前段“对象性”后没有引用标记；注释正文已完整显示。"
+    },
+    {
+      "bookId": "engels-work-efffd00659ad",
+      "chapterId": "chapter-001-efffd00659",
+      "paragraphIndex": 16,
+      "start": 0,
+      "marker": "[1]",
+      "paragraphSha256": "03bac9805cae098d5478e2e270be8b4658577bebb8e84fe8d909352ca2257bef",
+      "context": "[1] 恩格斯套用了但丁《神曲》中《地狱篇》第三歌第三节地狱大门上",
+      "reason": "篇末注释定义的标签；正文段落4开头的[1]已经有原始 HTML 引用。"
+    },
+    {
+      "bookId": "mao-work-049319868a03",
+      "chapterId": "chapter-001-049319868a",
+      "paragraphIndex": 20,
+      "start": 26,
+      "marker": "[2]",
+      "paragraphSha256": "1877f78360763b53633565c4ac27612ac711a9ede8ab6cfe23f59f5891d6421b",
+      "context": "[1] 参看本书第四卷《以自卫战争粉碎蒋介石的进攻》[2]。",
+      "reason": "注释正文指向第四卷另一篇文章的注[2]，不是本篇正文注释入口。"
+    }
+  ]
+}
