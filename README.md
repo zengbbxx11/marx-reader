@@ -18,6 +18,7 @@
 - 章节目录采用适合手机快速扫读的“卷—篇—章”连续单列排版，不从正文猜测目录层级。
 - 默认按照实际屏幕尺寸和阅读排版横向分页，支持滑动及点击左右区域翻页；也可切换连续滚动。
 - 目录支持“卷／篇—章—正文小标题”，点击小标题可精确跳转到对应页面。
+- 《资本论》第二卷正文中的“图式”标记可打开源页公式原图；图片随书库保存在本地，分页和连续滚动均可查看。
 
 ## 构建
 
@@ -68,6 +69,13 @@ python tools/repair_source_shift.py    # 源页字节帧错位导致的丢失汉
 - `tools/text_encoding.py`：抓取页面的共享解码模块（UTF-8 / GB18030 / Big5 回退），被构建器和质量审计引用，避免把无法解码的字节写成替换字符。
 - `tools/build_library.py`：早期的单页目录抓取器，可用 `--only` 按来源 id 定向重建，缓存与输出路径由 `--cache`、`--output` 指定。
 - `tools/inspect_library.py`：遍历已拆分资源，逐本打印章节、目录节点、段落与字符数；加 `--titles` 输出章节标题，用于人工巡检。
+- `tools/audit_source_content.py`：对实际发布书库与源页作只读比对，保留原始响应字节和 SHA-256 证据，同时报告源页图片及独立 DOM 文本候选。文字一致不等于图表完整；详见 [源站核查与修复报告](docs/SOURCE_AUDIT_2026-10-01.md)。
+- `tools/repair_source_content.py`：使用已保存的核查证据恢复经复核的图式入口，并校正指定书名及导航残留；默认只预览，`--apply` 才写入。保留段落数量和已有 ID，重映射脚注字符范围。
+- 内容修复接续：先读 [已修复／待修清单](docs/SOURCE_REPAIR_PROGRESS.md)，运行 `python tools/verify_source_repairs.py` 校验，换设备可据此跳过未变更的已修项目。`tools/repair_source_layout.py` 负责第二轮已复核的正文原图及编号标题，默认预览，`--apply` 才写入。
+- 已核实单字行与原注修复：`tools/repair_source_short_lines.py`、`tools/repair_source_notes.py` 默认预览；121 组短行、27 个遗漏表格、3 条原注入口及 2 个大括号分组面板已修复。导入器按已登记源页摘要保留短行；版本不同的原注与 PDF 校补明确分列，详情及剩余待办见上述进度记录。
+- `tools/repair_source_tables.py`：按已核查的源表矩阵恢复单元格／行边界，保留原数字、段落和脚注；默认预览，`--apply` 写入。原表 HTML、摘要及离线排版资源清单保存在 `tools/library_source_tables.json`。
+- `tools/audit_source_short_lines.py`：直接从原始 DOM 复核独立单字行，避免提取器和文字审计同时丢字；本轮结论见 [其他文章核查](docs/SOURCE_SHORT_LINE_AUDIT_2026-10-01.md)。只读工具，不自动补字。
+- `tools/library_source_images.json`：保存 13 张《资本论》第二卷源图的 URL、离线路径、SHA-256 和辅助说明；构建器保留图式引用，遇到第二十四卷未复核的新图片时停止提取。辅助说明不是原著或公式转写。
 - `tools/verify_apk.py`：校验构建出的 APK 内含完整离线书库且未声明网络权限；默认检查 debug APK，`--aapt` 默认指向 `.toolchains/android-sdk` 布局，本地 SDK 路径不同时请显式传入。
 
 ## 阅读体验

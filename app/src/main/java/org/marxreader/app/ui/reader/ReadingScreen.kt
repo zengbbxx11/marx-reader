@@ -3,6 +3,7 @@
 package org.marxreader.app.ui
 
 import android.app.Activity
+import android.graphics.BitmapFactory
 import android.content.Intent
 import android.net.Uri
 import android.provider.Settings
@@ -11,6 +12,7 @@ import android.view.WindowManager
 import android.view.accessibility.AccessibilityManager
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.ExperimentalFoundationApi
+import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.combinedClickable
@@ -37,6 +39,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalConfiguration
@@ -880,14 +884,17 @@ internal fun ReadingScreen(
                     .padding(bottom = 36.dp)
                     .navigationBarsPadding()
             ) {
-                Text("正文自带注释 · 只读", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
+                Text(if (footnote.marker.startsWith("〔原表")) "源页表格 · 离线查看" else if (footnote.imageAsset != null) "源页图式 · 离线查看" else "正文自带注释 · 只读", style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.primary)
                 Text(
-                    "注释 ${footnote.marker}",
+                    if (footnote.imageAsset != null) footnote.marker else "注释 ${footnote.marker}",
                     style = MaterialTheme.typography.headlineSmall,
                     fontWeight = FontWeight.Bold,
                     modifier = Modifier.padding(top = 4.dp)
                 )
                 HorizontalDivider(Modifier.padding(vertical = 16.dp), color = MaterialTheme.colorScheme.primary.copy(alpha = .22f))
+                footnote.imageAsset?.let { asset ->
+                    OfflineSourceIllustration(asset, footnote.displayContent)
+                }
                 Text(
                     footnote.displayContent,
                     style = MaterialTheme.typography.bodyLarge,
@@ -958,6 +965,40 @@ internal fun ReadingScreen(
                 }
             }
         )
+    }
+}
+
+@Composable
+private fun OfflineSourceIllustration(asset: String, description: String) {
+    val context = LocalContext.current
+    val result by produceState<Result<android.graphics.Bitmap>?>(initialValue = null, asset) {
+        value = withContext(Dispatchers.IO) {
+            runCatching { context.assets.open(asset).use { requireNotNull(BitmapFactory.decodeStream(it)) } }
+        }
+    }
+    val image = result?.getOrNull()
+    if (image != null) {
+        var expanded by remember(asset) { mutableStateOf(false) }
+        TextButton(onClick = { expanded = !expanded }) {
+            Text(if (expanded) "适应屏幕" else "放大查看")
+        }
+        if (expanded) Text("左右滑动查看图表，上下滑动查看完整内容", style = MaterialTheme.typography.labelSmall)
+        BoxWithConstraints(Modifier.fillMaxWidth().padding(bottom = 16.dp)) {
+            val imageWidth = if (expanded) maxWidth * 3 else maxWidth
+            val imageHeight = if (expanded) imageWidth * image.height.toFloat() / image.width
+                else (imageWidth * image.height.toFloat() / image.width).coerceIn(56.dp, 280.dp)
+            Box(Modifier.fillMaxWidth().horizontalScroll(rememberScrollState())) {
+                Image(
+                    bitmap = image.asImageBitmap(), contentDescription = description,
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.width(imageWidth).height(imageHeight).background(Color.White)
+                )
+            }
+        }
+    } else if (result == null) {
+        CircularProgressIndicator(Modifier.padding(bottom = 16.dp))
+    } else {
+        Text("无法显示原页图式", color = MaterialTheme.colorScheme.error)
     }
 }
 

@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 from pathlib import Path
 
@@ -53,6 +54,17 @@ def audit(source: Path) -> None:
                 footnote_id = footnote.get("id", "")
                 marker = footnote.get("marker", "")
                 label = f"{book.get('titleZh')} / {chapter.get('title')} / {footnote_id}"
+                if footnote.get("imageAsset"):
+                    asset = footnote["imageAsset"]
+                    if not asset.startswith("library/illustrations/") or ".." in asset or "\\" in asset:
+                        errors.append(f"invalid image path: {label}")
+                    else:
+                        asset_root = source.parent if source.is_dir() else Path("app/src/main/assets")
+                        image_path = asset_root / asset
+                        if not image_path.exists():
+                            errors.append(f"missing offline image: {label}")
+                        elif hashlib.sha256(image_path.read_bytes()).hexdigest() != footnote.get("imageSha256"):
+                            errors.append(f"source image checksum mismatch: {label}")
                 if not footnote_id or footnote_id in seen_ids:
                     errors.append(f"duplicate or empty id: {label}")
                 seen_ids.add(footnote_id)

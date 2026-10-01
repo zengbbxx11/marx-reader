@@ -8,7 +8,7 @@ plugins {
 
 
 // Compute the content fingerprint at build time, keeping startup independent of library size.
-val libraryAssets = fileTree("src/main/assets/library") { include("**/*.json") }
+val libraryAssets = fileTree("src/main/assets/library")
 val generatedLibraryAssets = layout.buildDirectory.dir("generated/libraryFingerprint/assets")
 val generateLibraryFingerprint by tasks.registering {
     inputs.files(libraryAssets).withPathSensitivity(PathSensitivity.RELATIVE)

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-01",
+  "notes": [
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "noteId": "printed-cc271ec7fed6465f",
+      "marker": "②",
+      "paragraphSha256": "e5170ac7085357fc541be07cde67a415c333fe25ad2e486b0743463371f52a0f",
+      "status": "version_conflict_pending",
+      "displayContent": [
+        "【源站原注位置待复核】",
+        "中文网页保留编号②但缺注释正文。源站《选集》CHM 在本句末附有日期注释，但同一注释又在下一段重复出现；《全集》第六卷和2012年《选集》的本句位置未见该注释。目前不能确定应采用的位置。",
+        "校补候选（CHM 原样，尚未确认为本句原注）：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注",
+        "对照来源：https://www.marxists.org/chinese/pdf/new/Marx.chm（020.htm，第348页）；https://www.marxists.org/chinese/pdf/marx-engels/me06.pdf（PDF第525页，印本第491页）；https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf（PDF第360页，印本第344页）。"
+      ],
+      "evidence": {
+        "title": "源站《马克思恩格斯选集》CHM",
+        "url": "https://www.marxists.org/chinese/pdf/new/Marx.chm",
+        "archiveSha256": "0c477385548e7e578814023aafb645951c4e00bbd2c5921b7fb71bda8091a87e",
+        "internalPath": "020.htm",
+        "documentSha256": "e7a64e8ebd1f3d3001743570c5307997c7d3936f66c572b218be663650278930",
+        "printedPage": 348,
+        "sourceExcerpt": "高利贷者和挥霍者相互制约一样（注：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注）。 只要雇佣工人仍然是雇佣工人，他的命运就取决于资本。这就是一再被人称道的工人和资本家利益的共同性。 资本越增长，雇佣劳动量就越增长，雇佣工人人数就越增加，一句话，受资本支配的人数就越增多。（注：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注）。我们且假定有这样一种最有利的情形：随着生产资本的增加，对劳动的需求也增加了。因而劳动价格即工资也提高了。 一座房子不管怎样小，在周围的房屋都是这样小的时候，它是能满足社会对住房的一切要求的。但是，一旦在这座小房子近旁耸立起一座宫殿，这座小房子就缩成茅舍模样了。这时，狭小的房子证明它的居住者不能讲究或者只能有很低的要求；并且，不管小房子的规模怎样随着文明的进步而扩大起来，只要近旁的宫殿以同样的或更大的程度扩大起来，那座较小房子的居住者就会在那四壁之内越发觉得不舒适，越发不满意，越发感到受压",
+        "verifiedNoteText": "在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注",
+        "marker": "②"
+      }
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "noteId": "printed-f23b6a07921bb050",
+      "marker": "③",
+      "paragraphSha256": "2ad9fc64bdf3773dce48071beb7716ba293637bff282c30158bb066a0d6abd8d",
+      "status": "fixed_verified",
+      "displayContent": [
+        "在《新莱茵报》上发表时不是“劳动力”，而是“劳动”。——编者注",
+        "校补出处：源站《马克思恩格斯选集》CHM，020.htm，第350页。按“生产性劳动力”词句及上下文核对，保留中文网页编号③；此为另一版本的有据校补。"
+      ],
+      "evidence": {
+        "title": "源站《马克思恩格斯选集》CHM",
+        "url": "https://www.marxists.org/chinese/pdf/new/Marx.chm",
+        "archiveSha256": "0c477385548e7e578814023aafb645951c4e00bbd2c5921b7fb71bda8091a87e",
+        "internalPath": "020.htm",
+        "documentSha256": "e7a64e8ebd1f3d3001743570c5307997c7d3936f66c572b218be663650278930",
+        "printedPage": 350,
+        "sourceExcerpt": "上面，在第14页上，（注：见本卷第335页。——编者注）我们说过：“工资不是工人在他所生产的商品中占有的一份。工资是原有商品中由资本家用以购买一定量的生产性劳动力（注：在《新莱茵报》上发表时不是“劳动力”，而是“劳动”。——编者注）的那一部分。”但是，资本家必须从出卖由工人创造的产品的价格中再补偿这笔工资。资本家必须这样做：他在补偿这笔工资时，照例要剩下一笔超出他所支出的生产费用的余◎第351页◎额即利润。工人所生产的商品的销售价格，对资本家来说可分为三部分：第一，补偿他所预付的原料价格和他所预付的工具、机器及其他劳动资料的损耗；第二",
+        "verifiedNoteText": "在《新莱茵报》上发表时不是“劳动力”，而是“劳动”。——编者注",
+        "marker": "③"
+      }
+    }
+  ]
+}

@@ -1,0 +1,960 @@
+{
+  "schemaVersion": 1,
+  "pages": [
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+      "sourceRawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+      "decodedHtmlSha256": "53da1e9213b2cef92cda072a0c081671df9c1a248ae29e28ba2fc78110916b7d",
+      "records": [
+        {
+          "sourceLineIndex": 244,
+          "text": "：",
+          "reviewCategory": "CONFIRMED_PUNCTUATION_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v1-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+      "sourceRawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+      "decodedHtmlSha256": "272a082afe2e7c00d6b9a2524b0a162e2d0bf6a43d059aa5ce457c7aa7145f14",
+      "records": [
+        {
+          "sourceLineIndex": 213,
+          "text": "，",
+          "reviewCategory": "CONFIRMED_PUNCTUATION_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v1-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "decodedHtmlSha256": "59d0879c5a45c4f0bfcb1f3ae864d8e74b57fdbd4c730baaa7245ecd7edcd4e2",
+      "records": [
+        {
+          "sourceLineIndex": 21,
+          "text": "周",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 24,
+          "text": "12345",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v2-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "decodedHtmlSha256": "9149bc0807730b923f99b875c2e0db09251b4fdd33e91857e6aa736931796b0c",
+      "records": [
+        {
+          "sourceLineIndex": 23,
+          "text": "5",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 59,
+          "text": "5",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 81,
+          "text": "―",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 83,
+          "text": "――――",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 88,
+          "text": "―",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 91,
+          "text": "―――",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 111,
+          "text": "5",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+      "sourceRawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+      "decodedHtmlSha256": "97bcbd92a40b4798e54c07982f454b37e395e1586f468fd86bcf74452a066b66",
+      "records": [
+        {
+          "sourceLineIndex": 15,
+          "text": "8",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 18,
+          "text": "7",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+      "decodedHtmlSha256": "da61b2366cc883050a51d9937fdc9cc5cb39ca4e2d213e73f46a988de4064c1e",
+      "records": [
+        {
+          "sourceLineIndex": 172,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 193,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "sourceRawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+      "decodedHtmlSha256": "7f88c4400ec4e9b116bebebea8a895fd42110ab1ba36b9178b5536656c91dad7",
+      "records": [
+        {
+          "sourceLineIndex": 98,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 115,
+          "text": "―",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+      "decodedHtmlSha256": "49056bdc8111ea1d021c64ba02135ef8800b76d2ef170eb7da5844809c4ddf05",
+      "records": [
+        {
+          "sourceLineIndex": 13,
+          "text": "亩",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 52,
+          "text": "亩",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 86,
+          "text": "—",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 93,
+          "text": "亩",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 135,
+          "text": "亩",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 172,
+          "text": "亩",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 253,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+      "decodedHtmlSha256": "02be0a922ca83461a702af4dbe18b0697f6f3ca2325c3a01198461768909d15f",
+      "records": [
+        {
+          "sourceLineIndex": 305,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 368,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 398,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 431,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 686,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 721,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 818,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 835,
+          "text": "0",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 876,
+          "text": "—",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "capital-v3-zh"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+      "decodedHtmlSha256": "a644570b8744df7d6656721007be388a5bee27c290a6a81c6d52217c2c84acfd",
+      "records": [
+        {
+          "sourceLineIndex": 49,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 59,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 79,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 89,
+          "text": "2",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "engels-work-12d43c9362e2"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+      "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+      "decodedHtmlSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+      "records": [
+        {
+          "sourceLineIndex": 88,
+          "text": "完",
+          "reviewCategory": "CONFIRMED_END_MARK_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-1d0fc116fd84"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170404.htm",
+      "sourceRawSha256": "508e460b5f59076d1e247d74822108fbf3374ad383f2c9612bec274f94720869",
+      "decodedHtmlSha256": "b49b211109069845c74b70b8960d86a8a22554865b71f2284584e2d59475f2d0",
+      "records": [
+        {
+          "sourceLineIndex": 33,
+          "text": "］",
+          "reviewCategory": "CONFIRMED_PUNCTUATION_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-1fd6f1c48b67"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180107-0211.htm",
+      "sourceRawSha256": "a1f81547e4801b459d41824e7fd846dd5850edcb3511ea0e8b2dc949f73ea75d",
+      "decodedHtmlSha256": "4de34d814fffcee172c3a095e081822f8efe4118ec4fc6657cf6ba635421d89d",
+      "records": [
+        {
+          "sourceLineIndex": 65,
+          "text": "2",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 67,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-3422b6299ad0"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "decodedHtmlSha256": "cfd7aa4dda15b59d49c33385ca15bc4abbd5ddbc3a43109e1279a53baee9b15d",
+      "records": [
+        {
+          "sourceLineIndex": 24,
+          "text": "一",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 27,
+          "text": "二",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 33,
+          "text": "三",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 38,
+          "text": "四",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 44,
+          "text": "五",
+          "reviewCategory": "CONFIRMED_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 110,
+          "text": "4",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 115,
+          "text": "3",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 150,
+          "text": "1",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 155,
+          "text": "8",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 220,
+          "text": "？",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 391,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 396,
+          "text": "-",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 400,
+          "text": "？",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 404,
+          "text": "？",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 418,
+          "text": "4",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 424,
+          "text": "4",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 429,
+          "text": "87",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 546,
+          "text": "？",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 550,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 557,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 564,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 611,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 620,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 628,
+          "text": "--",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 702,
+          "text": "37",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 707,
+          "text": "8",
+          "reviewCategory": "CONFIRMED_PLAIN_TEXT_TABLE_OMISSION",
+          "headingLevel": 3
+        }
+      ],
+      "bookId": "lenin-work-5409317c986a"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+      "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+      "decodedHtmlSha256": "61c69246846f2b4508f1e611f2eb142db1d70a2e43e505bc3b5e3df8d2f50610",
+      "records": [
+        {
+          "sourceLineIndex": 27,
+          "text": "2",
+          "reviewCategory": "CONFIRMED_NOTE_NUMBER_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-b2eeb64ece7d"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+      "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+      "decodedHtmlSha256": "43361c38f327a2d09804b6c696c5b1e897c87b80c936a454b1757793da89cb2b",
+      "records": [
+        {
+          "sourceLineIndex": 21,
+          "text": "1",
+          "reviewCategory": "CONFIRMED_NOTE_NUMBER_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-b2eeb64ece7d"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-talkaboutplekhanov.htm",
+      "sourceRawSha256": "0fbb79790b44cb5a533b743befeedf9be473186a075b9d4716168cf619312435",
+      "decodedHtmlSha256": "548c1e656f99ec4cccce56f16deae3fb9cea478afc1c0e0b1f8355265a2e05e4",
+      "records": [
+        {
+          "sourceLineIndex": 30,
+          "text": "注",
+          "reviewCategory": "CONFIRMED_NOTE_HEADING_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "lenin-work-e59d5ea41776"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "records": [
+        {
+          "sourceLineIndex": 17,
+          "text": "）",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 14,
+          "text": "（",
+          "reviewCategory": "CONFIRMED_PUNCTUATION_OMISSION"
+        }
+      ],
+      "bookId": "manifesto-zh-1920"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "sourceRawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+      "decodedHtmlSha256": "7ef3f9c7b3aa29bcc60611bdfe61a56a8f6fea7494644fec466e9bcce0d5204d",
+      "records": [
+        {
+          "sourceLineIndex": 415,
+          "text": "A",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 422,
+          "text": "B",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 443,
+          "text": "C",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 445,
+          "text": "D",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 450,
+          "text": "F",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 456,
+          "text": "G",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 459,
+          "text": "H",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 468,
+          "text": "J",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 471,
+          "text": "K",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 479,
+          "text": "L",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 496,
+          "text": "M",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 507,
+          "text": "N",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 511,
+          "text": "O",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 513,
+          "text": "P",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 516,
+          "text": "R",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 518,
+          "text": "S",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 523,
+          "text": "W",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 528,
+          "text": "X",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        },
+        {
+          "sourceLineIndex": 531,
+          "text": "Y",
+          "reviewCategory": "CONFIRMED_INDEX_HEADING_OMISSION",
+          "headingLevel": 3
+        }
+      ],
+      "bookId": "marx-work-6523f0586337"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18490104.htm",
+      "sourceRawSha256": "3d674152359f41e789ef1ca5cf256dfb1a41c76d9d1cc7924f03c685737262b2",
+      "decodedHtmlSha256": "438987e4700f6d0d8ee749ba130f1e2406e475a800c2ae5fcee0904259c60271",
+      "records": [
+        {
+          "sourceLineIndex": 21,
+          "text": "{",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 24,
+          "text": "{",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-7aa83f66faf1"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm",
+      "sourceRawSha256": "4475be97c31ea2b1c0b2f17f99b8992e0d3ab1d49b04d837e21ccafdb648009c",
+      "decodedHtmlSha256": "a63ecd708619bae8b4edbd38c36d648da3bd23c75b298e213727df73dc63efff",
+      "records": [
+        {
+          "sourceLineIndex": 29,
+          "text": "}",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+      "sourceRawSha256": "930343ed9cc0348695b5289649b671860107554da40ec1c307e21e87ee5beafe",
+      "decodedHtmlSha256": "c73c9984a335be3f392c46c84acf92ca462f45f6143df0fc228a13ce6690cc45",
+      "records": [
+        {
+          "sourceLineIndex": 27,
+          "text": "}",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+      "sourceRawSha256": "13cd2c508c33bf33931d60a4ab603918e0d81b4d7e896a1d1b8c94c0d978ec98",
+      "decodedHtmlSha256": "1b5d9e045c18f5ef8005886e5503a9ba02a80c6f2f548cf4acc1ca0e25ae7526",
+      "records": [
+        {
+          "sourceLineIndex": 28,
+          "text": "}",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/005.htm",
+      "sourceRawSha256": "e4d4f900deddf1c18e5a56cf7498f46296db6c69d513b34984f653a48d2af1fd",
+      "decodedHtmlSha256": "5c1fd028f38d5dd0c1857d57d5542a849d90f624d4e28db8fafe7ba363a6e382",
+      "records": [
+        {
+          "sourceLineIndex": 27,
+          "text": "}",
+          "reviewCategory": "CONFIRMED_GROUPING_SYMBOL_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm",
+      "sourceRawSha256": "ddedd1a348f8ec43764e9035628bd2683ad9eca9f0cede6b6a7e6a993f91cf96",
+      "decodedHtmlSha256": "f4760592fa20a933b3a6dafbb59478b226a2e0968c487f249e055a7fe685f23d",
+      "records": [
+        {
+          "sourceLineIndex": 330,
+          "text": "在",
+          "reviewCategory": "CONFIRMED_ADVERT_WORD_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+      "sourceRawSha256": "a2fd8a0f6d60efe2725f43214e0a1103dcc052af8299c0566817c152238a4d8c",
+      "decodedHtmlSha256": "344ae0bf45ae3f3f1fcfb2d6f73daa94bf61ed7125f586ba550e4ba1413581ce",
+      "records": [
+        {
+          "sourceLineIndex": 227,
+          "text": "—",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 229,
+          "text": "——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 234,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 236,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 243,
+          "text": "盾〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 246,
+          "text": "—",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 248,
+          "text": "——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 251,
+          "text": "1",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 253,
+          "text": "〃——〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 258,
+          "text": "—",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 262,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 264,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 270,
+          "text": "盾〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 273,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 279,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 281,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 288,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 290,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 297,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 299,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 305,
+          "text": "〃",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        },
+        {
+          "sourceLineIndex": 307,
+          "text": "—〃——",
+          "reviewCategory": "CONFIRMED_TABLE_SHORT_LINE_OMISSION",
+          "headingLevel": 2
+        }
+      ],
+      "bookId": "marx-work-a100a1458ef3"
+    },
+    {
+      "bookId": "lenin-work-6f25afd43df4",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+      "sourceRawSha256": "ee2113a7814fed657e9abfe6b9e7790773304b0f3cc0264ae5b5511330f60d3e",
+      "decodedHtmlSha256": "8e08ee4bae99f37c2484160ea8d7adf0f05b30381322def13c47699b5c4831c7",
+      "records": [
+        {
+          "sourceLineIndex": 263,
+          "text": "？",
+          "reviewCategory": "CONFIRMED_PUNCTUATION_OMISSION",
+          "headingLevel": 2
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "sourceRawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+      "decodedHtmlSha256": "0c72ae8da64ccb595e7a8811d1b73f127da200b240c7881553bdcf10218f6a30",
+      "records": [
+        {
+          "sourceLineIndex": 45,
+          "text": "①",
+          "reviewCategory": "CONFIRMED_NOTE_NUMBER_OMISSION",
+          "headingLevel": 2
+        }
+      ]
+    }
+  ]
+}

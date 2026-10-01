@@ -216,6 +216,7 @@ def package(source: Path, target: Path) -> None:
             chapter["characterCount"] = sum(paragraph_character_counts)
             chapter.pop("content", None)
             chapter.pop("footnotes", None)
+            chapter.pop("sourceTextRepairs", None)
         metadata["characterCount"] = sum(
             chapter.get("characterCount", 0) for chapter in metadata.get("chapters", [])
         )

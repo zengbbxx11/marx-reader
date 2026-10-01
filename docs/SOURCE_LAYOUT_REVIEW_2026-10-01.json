@@ -1,0 +1,3137 @@
+{
+  "date": "2026-10-01",
+  "scope": "Chinese source-page text, remaining inline images, HTML table boundaries and numbered headings. Excludes the 49 restored Capital II image references.",
+  "summary": {
+    "imageReferencesReviewed": 47,
+    "uniqueImagesViewed": 42,
+    "allImagesDownloadedAndChecksummed": true,
+    "imageCategoriesUnique": {
+      "GROUPING_SYMBOL_MISSING": 3,
+      "BODY_DIAGRAM_MISSING": 5,
+      "FACSIMILE_NOT_BUNDLED": 25,
+      "BODY_TABLE_IMAGE_MISSING": 5,
+      "ADVERT_ILLUSTRATION_OMITTED": 4
+    },
+    "imageCategoriesReferences": {
+      "GROUPING_SYMBOL_MISSING": 3,
+      "BODY_DIAGRAM_MISSING": 5,
+      "FACSIMILE_NOT_BUNDLED": 26,
+      "BODY_TABLE_IMAGE_MISSING": 5,
+      "ADVERT_ILLUSTRATION_OMITTED": 8
+    },
+    "tableCandidates": 73,
+    "completeTableTextLocated": 46,
+    "tablesWithLostNumericBoundaries": 39,
+    "numberedHeadingCandidates": 33,
+    "headingsCoveredByCompositeTitles": 27,
+    "missingNumberedHeadings": 6
+  },
+  "images": [
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx-engels/dk2.jpg",
+      "sha256": "9dbb00f227d84fd510754def19e1a12b4681fc35a1bde6d3ea71ba25ba09c7d7",
+      "status": "GROUPING_SYMBOL_MISSING",
+      "description": "合并两部类再生产总额的右大括号。",
+      "references": [
+        {
+          "bookId": "capital-v3-zh",
+          "title": "资本论·第三卷",
+          "chapterId": "chapter-050-6263205336",
+          "chapterTitle": "第四十九章 关于生产过程的分析",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+          "before": "品，即由劳动资料、原料、辅助材料等等构成的产品来补偿，这部分地是由于第Ⅰ部类的资本家互相之间进行交换，部分地是由于这些资本家中的一部分人又可以把自己的产品直接当作生产资料来使用。 让我们再来看看以前的简单再生产的公式（第2卷第20章第236Ⅱ节）[236]： Ⅰ.4000c+1000v+1000m=6000 Ⅱ.2000c+ 500v+ 500m=3000 ",
+          "after": " ＝9000 按照这个公式，第Ⅱ部类的500v＋500m＝1000会由生产者和土地所有者作为收入来消费；剩下的2000c需要补偿。这个部分会被第Ⅰ部类的工人、资本家和收租人消费掉，他们的收入＝1000v＋1000m＝2000。这样消费的第Ⅱ部类的产品，是由第Ⅰ部类作为收入来消费的，而表现为不能消费的产品的第Ⅰ部类的收入部分，则由第Ⅱ部类作为不变资本来消费。因"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.jpg",
+      "sha256": "d3e5b664a620b9ec5cc62ee28a8e3f41153579cc6b25b8b2277afb0f50a11aeb",
+      "status": "BODY_DIAGRAM_MISSING",
+      "description": "曼彻斯特艾尔克河附近街区平面图。",
+      "references": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-005-ff164a7409",
+          "chapterTitle": "大城市",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "before": "建筑物是旧曼彻斯特时代保存下来的。这种杂乱无章的情形只是在最近才达到顶点，现在，在任何地方，只要那里的建筑方式比较古老因而还保留下那么一点点空隙，人们就在这里补盖起房子，把这个空隙填起来，直到房子和房子之间连一小块可以再建筑一些东西的空地也没有为止。我现在从曼彻斯特的平面图上描下一小块来证实我的话。这远不是最坏的一块地方，而且占地还不到整个旧城的十分之一。 ",
+          "after": " 这张图可以充分地表明全区的、尤其是艾尔克河附近的建筑方式是如何不合理。在这里，河的南岸很陡，有15英尺到30英尺高；在这个陡坡上，大部分的地方都有三排房屋，最下面一排紧靠水边，而最上面一排却已经是屋檐齐及山顶，面临着朗－密尔盖特街。此外，河岸上还有工厂，总之，这里的建筑也和朗－密尔盖特街下段一样密集而杂乱。大街左右有很多有顶的过道通到许多大杂院里面去；一到"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.jpg",
+      "sha256": "489e834144b69b9b6d99dbe71cbdfefd34a6f2ba1062a4ff1230291675eefad2",
+      "status": "BODY_DIAGRAM_MISSING",
+      "description": "沿街住宅与院落布局图。",
+      "references": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-005-ff164a7409",
+          "chapterTitle": "大城市",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "before": "半都是两排盖在一起，两排房子共用一堵后墙，这就足以使那里不可能有任何良好的通风了。又因为街道警察对这些大杂院的情况漠不关心，同时房屋里扔出来的一切东西都是扔在什么地方就留在什么地方，所以，在那里看到脏东西以及一堆堆的煤灰和垃圾，也就用不着惊奇了。我曾经访问过一些大杂院（在密勒街），这些大杂院至少要比大街低半英尺，没有排水沟，下雨时积起来的水一点也流不出去！ ",
+          "after": " 后来出现了另一种建筑形式，这种形式现在已普遍地采用了。现在，工人小宅子几乎再也不一所所地盖了，总是一盖就是几十所，甚至几百所；一个业主一下子就盖它一整条或两三条街。这些街道排列如下：第一排是比较高级的小宅子，很幸运，这些小宅子有一个后门和一个小院子，因而房租也最贵。这些小宅子的院子通向一条两端都盖有房子的弄堂（back-street），其中一端有一条窄缝或"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/1844-1845/09.jpg",
+      "sha256": "e1ffcd1954fbd55082f78dfb7225fab4d04af27bbcb55ff9d8e20da699dbac5a",
+      "status": "BODY_DIAGRAM_MISSING",
+      "description": "三排住宅及不同租金住户的布局示意。",
+      "references": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-005-ff164a7409",
+          "chapterTitle": "大城市",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "before": "这些小宅子有一个后门和一个小院子，因而房租也最贵。这些小宅子的院子通向一条两端都盖有房子的弄堂（back-street），其中一端有一条窄缝或有顶的过道通到这条弄堂里去。大门开在弄堂里的那些小宅子，房租最便宜，一般也照管得最坏。它们和第三排小宅子共用一堵后墙，第三排小宅子的门开在另一条街上，房租比第一排便宜，但比第二排贵。这样，街道的布置情况就约略如下图： ",
+          "after": " 由于房屋和街道是这样排列的，所以第一排小宅子的通风还相当不错，第三排的通风至少也不比前一种建筑形式中类似的小宅子差；但是中间一排的通风在任何情况下都和大杂院中的小宅子一样坏，而弄堂也并不比大杂院更整洁些。业主们宁愿要这种建筑方式，因为它既节省地面，又使他们能通过第一排和第三排小宅子的较高租金来更顺利地掠夺工资比较多的工人。 这三种小宅子建筑形式不仅在全曼彻"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/1844-1845/10.jpg",
+      "sha256": "a5f2b8556921283a516845d0057a5ff6b812879354baa16f0cd88f0c0c5201fd",
+      "status": "BODY_DIAGRAM_MISSING",
+      "description": "连续排列住宅的平面示意。",
+      "references": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-005-ff164a7409",
+          "chapterTitle": "大城市",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "before": "亮而坚固，外表结实的砖墙骗过了人们的眼睛，如果经过 新建的工人区 而不看一看那些弄堂，也不仔细看一下房屋是如何建筑的，那就会同意那些自由派厂主的说法：任何地方的工人也没有英国这样好的住宅。但是，只要走近细看一下，就会发现，这些小宅子的墙是薄到不能再薄了。支持地下室、房屋底层和屋顶的重量的外墙，最多也不过一块砖那么厚，也就是每一行中，砖的长边是紧靠在一起的（ ",
+          "after": " ）；但是，我也看见过不少同样高的小宅子（其中有些在我看到时还正在建造），它们的外墙只有半块砖那么厚，因为砖不是横排而是直排的，就是说，不是长边靠在一起，而是短边靠在一起（ ）。这样做，一半是为了节省材料，一半是由于盖房子的业主向来不是地基的所有者，按照英国的习惯他们把地基租上二十年、三十年、四十年、五十年或九十九年；期限一满，地基和它上面的一切建筑物都要毫"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/1844-1845/11.jpg",
+      "sha256": "1ec7a5ed80863f2a901e621d65822099373afabb7ad65fd1b208eecde47cb7a0",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-005-ff164a7409",
+          "chapterTitle": "大城市",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "before": "，就会发现，这些小宅子的墙是薄到不能再薄了。支持地下室、房屋底层和屋顶的重量的外墙，最多也不过一块砖那么厚，也就是每一行中，砖的长边是紧靠在一起的（ @@SOURCE_IMAGE_3@@ ）；但是，我也看见过不少同样高的小宅子（其中有些在我看到时还正在建造），它们的外墙只有半块砖那么厚，因为砖不是横排而是直排的，就是说，不是长边靠在一起，而是短边靠在一起（ ",
+          "after": " ）。这样做，一半是为了节省材料，一半是由于盖房子的业主向来不是地基的所有者，按照英国的习惯他们把地基租上二十年、三十年、四十年、五十年或九十九年；期限一满，地基和它上面的一切建筑物都要毫无代价地归还原主。所以租地的人总是精打细算使自己盖的房子在土地租赁期满时尽可能地变得不值钱；而由于这种小宅子常常是在满期前二三十年才盖起来的，这就容易了解，盖房子的业主是不"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "title": "英国工人阶级状况",
+          "chapterId": "chapter-015-3db3230e22",
+          "chapterTitle": "对英国工人阶级状况的补充评述",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+          "before": "对英国工人阶级状况的补充评述（1845年） 中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3） 对英国工人阶级状况的补充评述 [147] ",
+          "after": " 载有弗・恩格斯《对英国工人阶级状况的补充评述》 一文的《威斯特伐利亚汽船》杂志的封面 Ⅰ．英国的一次罢工 在我那本论述上述题目的书中，我不可能逐点提供事实的依据。为了使那本书不致于太厚和太不好读，我在引用了官方文件的材料，没有偏见的作家的材料，或者引用了我反对其利益的那些党派的文章来证明我的论点之后，不得不认为我的这些论点是有足够依据的。而在我不是根据亲自"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/05.jpg",
+      "sha256": "a23bc11dcf41c2e53f16ca8e2dd5caa71a1166689d75562609cd417325ad02b3",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "engels-work-59ac5a872794",
+          "title": "共产主义在德国的迅速进展",
+          "chapterId": "chapter-001-59ac5a8727",
+          "chapterTitle": "共产主义在德国的迅速进展",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184502-04.htm",
+          "before": "共产主义在德国的迅速进展（恩格斯，1845年2-4月） 中文马克思主义文库 -> 恩格斯 ",
+          "after": " 共产主义在德国的迅速进展 弗・恩格斯 一 现在给贵报 [124] 寄上短文一篇，想来贵国同胞听到我们的共同事业在海峡这边进展的消息一定会感到高兴。同时我也高兴我能够指出，虽然德国人通常在讨论社会改革问题方面总是相当落后，但是他们现在正在努力弥补自己虚度了的时间。的确，社会主义在我国传播之快简直是一个奇迹。四年前这里总共只有两个人对社会问题感兴趣，一年前才出"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/06.jpg",
+      "sha256": "725d4c1ebf8f37f4c1ce6474c48ed345720b3f43817f545330d7b692f5a1027a",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "engels-work-59ac5a872794",
+          "title": "共产主义在德国的迅速进展",
+          "chapterId": "chapter-001-59ac5a8727",
+          "chapterTitle": "共产主义在德国的迅速进展",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184502-04.htm",
+          "before": "耻辱， 我们在它那里饱经饥饿和困苦， 古老的德意志呵！我们正为你织着寿衣。 我们织呵，织呵！” 这首歌的德文原文是我所知道的最有力的诗歌之一；这次我也就此和你告别；希望不久我就能告诉你有关我们的进展和社会著作的消息。 您的诚挚的 德国老朋友 弗・恩格斯写于1844年11月9日左右 载于1844年12月13日“新道德世界”第25号 按报纸原文刊印 原文是英文 ",
+          "after": " 二 1845年2月2日于巴门 自从上次给你去信后，共产主义的事业仍然在迅速进展，就像在1844年最后的几个月里一样。不久以前我访问了莱茵河上的几个城市，到处我都看到，从我上次访问以来，我们的思想又占据了一些阵地，并且每天都在占领更多的阵地。到处我都碰到一些新近改变信仰的人，他们都在无比热情地讨论和传播共产主义的思想。普鲁士的一切城市都举行了许多公开的集会，"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/07.jpg",
+      "sha256": "01f6f5087b64fb5072721a1d651ffd93b7b5ff7db46246067565121301e68fea",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "engels-work-aabbcfed4568",
+          "title": "从巴黎到伯尔尼",
+          "chapterId": "chapter-001-aabbcfed45",
+          "chapterTitle": "从巴黎到伯尔尼",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+          "before": "期。 只是因为在两星期中几乎同清一色的农民，同各个地方的农民打交道；只是因为有机会在各外碰到了同样的情形：感觉迟钝，目光短浅，对城市、工业和商业的种种关系毫不了解，对政治盲目无知，对本村以外的一切东西妄下判断，用农民关系的尺度去衡量复杂的历史关系，——总之，只是因为恰好在1848年认识了法国农民，我才感觉到这种根深蒂固的迟钝所产生的影响是多么令人抑郁不安。 ",
+          "after": " [280] 二 勃艮第 布里阿尔是一个古老的小城市，位于沟通塞纳河和罗亚尔河的一条运河的河口。在这里我打听了前面的路程，发现到瑞士去经过奥克萨里比经过涅维尔要方便。于是我就离开了罗亚尔河，翻山到勃艮第去。 罗亚尔河河谷的一片富饶景象逐渐地但是相当缓慢地消失了。地势的上升是不知不觉的，只是在离开布里阿尔五六英里路远的地方，在圣索维尔和圣法尔若附近，才出现一片"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/08.jpg",
+      "sha256": "b28a290390fe6f898179049056e92b3ce3e37d739e69c4d95ec06066b543cbfd",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "engels-work-aabbcfed4568",
+          "title": "从巴黎到伯尔尼",
+          "chapterId": "chapter-001-aabbcfed45",
+          "chapterTitle": "从巴黎到伯尔尼",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+          "before": "农民，同各个地方的农民打交道；只是因为有机会在各外碰到了同样的情形：感觉迟钝，目光短浅，对城市、工业和商业的种种关系毫不了解，对政治盲目无知，对本村以外的一切东西妄下判断，用农民关系的尺度去衡量复杂的历史关系，——总之，只是因为恰好在1848年认识了法国农民，我才感觉到这种根深蒂固的迟钝所产生的影响是多么令人抑郁不安。 @@SOURCE_IMAGE_0@@ ",
+          "after": " [280] 二 勃艮第 布里阿尔是一个古老的小城市，位于沟通塞纳河和罗亚尔河的一条运河的河口。在这里我打听了前面的路程，发现到瑞士去经过奥克萨里比经过涅维尔要方便。于是我就离开了罗亚尔河，翻山到勃艮第去。 罗亚尔河河谷的一片富饶景象逐渐地但是相当缓慢地消失了。地势的上升是不知不觉的，只是在离开布里阿尔五六英里路远的地方，在圣索维尔和圣法尔若附近，才出现一片"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/engels/09.jpg",
+      "sha256": "7bbc787724a460b1dfc8c2d4226d71bb480e098a6bc5d8cdc7d8cf0589a96a61",
+      "status": "BODY_DIAGRAM_MISSING",
+      "description": "人种名称及分组关系，包含捷克、摩拉瓦、斯洛伐克等名称。",
+      "references": [
+        {
+          "bookId": "engels-work-aabbcfed4568",
+          "title": "从巴黎到伯尔尼",
+          "chapterId": "chapter-001-aabbcfed45",
+          "chapterTitle": "从巴黎到伯尔尼",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+          "before": "同上——珊安伊——沙龙》。 （2）从博佛尔到日内瓦的行程及其记号： 《博佛尔——奥尔热列——厄恩——穆阿兰——庞-杜-利臧〔庞-杜-利臧，在手稿中是庞-迪松〕——圣克劳第——拉缪尔〔拉缪尔，在手稿中是拉默尔〕——米茹——热克斯——费尔涅——萨科涅——日内瓦》。 此外，在这一张草图上还有几张插图，其中有穿匈牙利制服的骑士的形象。在这里能区别出人种名称的记载： ",
+          "after": " 在第二张草图上有如下的符号： （1）从奥克萨里到日内瓦的行程及其记号： 《奥克萨里——圣勃里——威尔曼顿——庞特-奥-阿鲁耶特——柳西-勒-布阿——阿瓦伦——〈卢弗勒〉——索耳尧——阿尔涅-勒-杜克——长长的村庄——伊弗里——拉坎什——珊安伊——沙龙——圣马尔谢耳——鲁安——博佛尔——奥尔热列——厄恩——穆阿兰——两座山——庞-杜-利臧〔庞-杜-利臧，在手"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin/selectedworks/img/1895_1899-t2.jpg",
+      "sha256": "33b82373a6db38d0710e4c5e19e239dedc13d0ffa416269eff9fd064ef2d067f",
+      "status": "BODY_TABLE_IMAGE_MISSING",
+      "description": "全俄水路运输发展统计表。",
+      "references": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "title": "列宁选集（网页版节选）",
+          "chapterId": "chapter-009-9b3046161f",
+          "chapterTitle": "俄国资本主义的发展(节选)",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "before": " ②注：《军事统计汇编》第511页。尼·-逊先生《论文集》附录。《俄国的生产力》第17编第67页。1898年《财政与工商业通报》 [97] 第43期。1905年的《俄罗斯年鉴》1906年圣彼得堡版。) 水路运输的发展如下(全俄的资料) ③ ( ③注：《军事统计汇编》第445页。《俄国的生产力》第17编第42页。1898年《财政与工商业通报》第44期。) ： ",
+          "after": " 附图： ◎第196页◎ 欧俄内河货运量，1881年为89970万普特；1893年为118150万普特；1896年为155300万普特。运费在以上各年为18650万卢布、25720万卢布、29　000万卢布。 俄国的商船队在1868年有汽船51艘，装载量为14300拉斯特 ① ( ①注：拉斯特是俄国在20世纪初以前使用的商船容量单位，等于5.663立方米，重"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin/selectedworks/img/1895_1899-t3.jpg",
+      "sha256": "fa1188ca45c84d12708cb05b99590f27931241195f2d3b33eb218fb3e5666f1b",
+      "status": "BODY_TABLE_IMAGE_MISSING",
+      "description": "欧俄城市人口与城市数目统计表。",
+      "references": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "title": "列宁选集（网页版节选）",
+          "chapterId": "chapter-009-9b3046161f",
+          "chapterTitle": "俄国资本主义的发展(节选)",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "before": "的《1897年俄罗斯帝国第一次人口普查》1897年和1898年圣彼得堡版第1编和第2编)。根据1897年的人口调查，城市的常住人口为11830500人，即12.55％。我们采取的是城市现有人口。应该指出：不能担保1863、1885、1897各年资料是完全同类的和可比的。因此，我们只限于比较最一般的关系并把大城市的资料划分出来。) ： ◎第200页◎ 附图： ",
+          "after": " 由此可见，城市人口的百分比在不断地增长，这就是说，人口离开农业而转向工商业在不断地进行着。 ① ( ①注：“具有农业性质的城市居民点的数目极少，而这些地方的居民数目，与市民总数比起来是非常小的。”(格里戈里耶夫先生的话，见《收成和粮价对俄国国民经济某些方面的影响》第2卷第126页)) 城市人口比其他人口增长快1倍：从1863年到1897年，全部人口增加了5"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin/selectedworks/img/1895_1899-t4.jpg",
+      "sha256": "8380e85bed4e4a154b754e94b5e592ac465a982133d82c946df2338b8f66e4d3",
+      "status": "BODY_TABLE_IMAGE_MISSING",
+      "description": "各省人口、城乡人口比例及增幅统计表。",
+      "references": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "title": "列宁选集（网页版节选）",
+          "chapterId": "chapter-009-9b3046161f",
+          "chapterTitle": "俄国资本主义的发展(节选)",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "before": "大量增加的现象掩盖了：在这一地区内，农村人口增加了87％，而俄国的平均增加数则为48.5％。就个别省份看来，这种人口工业化过程被掩盖的现象还更加明显。例如，在塔夫利达省，1897年城市人口的百分比仍然与1863年一样(19.6%)，而在赫尔松省，这种百分比甚至降低了(从25.9％降到25.4％)，虽然这两省城市的增长比首都的增长稍微 ◎第204页◎ 附图： ",
+          "after": " 各类所包括的省份：(I)圣彼得堡与莫斯科；(II)弗拉基米尔、卡卢加、科斯特罗马、下诺夫哥罗德、诺夫哥罗德、普斯科夫、斯摩棱斯克、特维尔与雅罗斯拉夫尔；(III)沃罗涅日、喀山、库尔斯克、奥廖尔、奔萨、波尔塔瓦、梁赞、萨拉托夫、辛比尔斯克、坦波夫、图拉、哈尔科夫与切尔尼戈夫；(IV)阿斯特拉罕、比萨拉比亚、顿河、叶卡捷琳诺斯拉夫、奥伦堡、萨马拉、塔夫利达、"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin/selectedworks/img/1895_1899-t5.jpg",
+      "sha256": "73bf749e779900f11a4723af614529b4495a01d4be8b289db1c3735d32d80bc4",
+      "status": "BODY_TABLE_IMAGE_MISSING",
+      "description": "不同省份、季节与性别的居民证发放比例表，含图下注释。",
+      "references": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "title": "列宁选集（网页版节选）",
+          "chapterId": "chapter-009-9b3046161f",
+          "chapterTitle": "俄国资本主义的发展(节选)",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "before": "取各县的平均数，于是我们也就把科斯特罗马省的资料单独列出来。根据计算，雅罗斯拉夫尔省的外出工业者中间，全年离家的有68.7％；秋冬两季离家的有12.6％；春夏两季离家的有18.7％。必须指出，雅罗斯拉夫尔省的资料(《雅罗斯拉夫尔省概述》1896年雅罗斯拉夫尔版第2编)是不能与前面的资料比较的，因为它们是根据神父等等的陈述，而不是根据关于身分证的资料。) ： ",
+          "after": " 附图： ◎第209页◎ 各地都是春季发出的身分证最多。因此，暂时离家的工人，大部分未列入城市人口调查之内。 ① ( ①注：大家知道，例如，在圣彼得堡近郊，夏季人口增加极多。) 但是，我们有更多的理由把这些临时的市民列为城市人口，而不列为农村人口：“全年或一年大部分时间都依赖在城里做工而获得生活资料的家庭，有更多的根据认为它们的定居点是城市而不是乡村，因为城"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin/selectedworks/img/1895_1899-t6.jpg",
+      "sha256": "366544672f336a2e63fc91a72ee9ae9bd594c9120d587f1c49d46788433369ea",
+      "status": "BODY_TABLE_IMAGE_MISSING",
+      "description": "外出许可证数量及省份分类人口统计表。",
+      "references": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "title": "列宁选集（网页版节选）",
+          "chapterId": "chapter-009-9b3046161f",
+          "chapterTitle": "俄国资本主义的发展(节选)",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "before": "5年图拉省省志》第6篇第10页：外出做零工者人数为188000人，--而谢·柯罗连科先生计算只有50　000剩余工人！--其中北部6个非黑土地带县份有107000外出做零工者)。库尔斯克省应列入第二类(上引谢·柯罗连科的书：7县的外出者大部分是去做手工业零工，其余8个县的只是去做农业零工)。可惜韦辛先生没有提供各省的外出许可证数目资料。)。 ◎第213页◎ ",
+          "after": " 附图 “这些数字表明，外出做零工在第一类中比在第三类中发展得厉害些……　其次，从所引用的数字可以看出，随着所属的类别的不同，外出谋生的期间也各异。外出做非农业零工占优势的地方，外出的期间就长得多。”(1886年《事业》第7期第134页) 最后，上述对缴纳消费税等等的各种行业的统计，使我们能够把发出的居民证数目，按欧俄全部50个省区别开来。对韦辛先生的分类作"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/lenin-cworks/33/082.jpg",
+      "sha256": "dbb9116b0fa588da617337cc2ff62d951a7bff7406e4d38d130350ed48bf296a",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "lenin-work-39d79baf18d3",
+          "title": "被剥削劳动人民权利宣言",
+          "chapterId": "chapter-001-39d79baf18",
+          "chapterTitle": "被剥削劳动人民权利宣言",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180103.htm",
+          "before": "和人民委员会的法令，并且认为它本身的全部任务就是规定对社会进行社会主义改造的根本原则。同时，立宪会议力求建立俄国各民族劳动阶级的真正自由和自愿的、因而也是更加紧密和巩固的联盟，不过它的任务只限于规定俄罗斯苏维埃共和国联邦的根本原则，而让每个民族的工人和农民在自己的全权苏维埃代表大会上独立决定，他们是否愿意参加和在什么基础上参加联邦政府及其他联邦苏维埃机关。 ",
+          "after": " 载于1918年1月4日（17日）《真理报》第2号和《中央执行委员会消息报》第2号 译自《列宁全集》俄文第5版第35卷第221―223页 注释： [107] 《被剥削劳动人民权利宣言》的草案是在全俄中央执行委员会1918年1月3日（16日）会议上提出的。草案以多数票（有两票反对，一票弃权）通过后，交协商委员会最后审定。《宣言》发表于1月4日（17日）《真理报"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/images/dk1.png",
+      "sha256": "1444c0010dce980e9bd907b33c867faf6442d0f13f89f5e5b7eb2174c7c7f2fc",
+      "status": "GROUPING_SYMBOL_MISSING",
+      "description": "左大括号：将无政府主义相关主张归为一组。",
+      "references": [
+        {
+          "bookId": "lenin-work-92b0f079cb51",
+          "title": "无政府主义和社会主义",
+          "chapterId": "chapter-001-92b0f079cb",
+          "chapterTitle": "无政府主义和社会主义",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1901.htm",
+          "before": "没有提供任何东西。 这类空话已经流行了2000多年。(α)不懂得剥削的 根源 ；(β)不懂得社会在向社会主义 发展 ；(γ)不懂得 阶级斗争 是实现社会主义的创造力量。 (2)对于剥削的 根源 的了解。 私有 制是 商品 经济的基础。生产资料公有制。无政府主义对此一窍不通。 无政府主义是改头换面的资产阶级 个人主义 。个人主义是无政府主义整个世界观的基础。 ",
+          "after": " 维护小私有制和 小农经济 。 无所谓多数（注：即无政府主义者否认少数服从多数。――编者注） 否认政权有统一的和组织的力量。 (3)不懂得社会的发展――大生产的作用――从资本主义向社会主义的发展。 （无政府主义是 绝望 的产物。它是失常的知识分子或游民的心◎第288页◎理状态，而不是无产者的心理状态。） (4)不懂得无产阶级的 阶级 斗争。 荒谬地否认资产阶"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/images/dk2.png",
+      "sha256": "39aae70d8e541109af51b3fa96806a582b5a45c0594555abc920e6dcac712f44",
+      "status": "GROUPING_SYMBOL_MISSING",
+      "description": "右大括号：与左括号共同构成分组。",
+      "references": [
+        {
+          "bookId": "lenin-work-92b0f079cb51",
+          "title": "无政府主义和社会主义",
+          "chapterId": "chapter-001-92b0f079cb",
+          "chapterTitle": "无政府主义和社会主义",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1901.htm",
+          "before": "2000多年。(α)不懂得剥削的 根源 ；(β)不懂得社会在向社会主义 发展 ；(γ)不懂得 阶级斗争 是实现社会主义的创造力量。 (2)对于剥削的 根源 的了解。 私有 制是 商品 经济的基础。生产资料公有制。无政府主义对此一窍不通。 无政府主义是改头换面的资产阶级 个人主义 。个人主义是无政府主义整个世界观的基础。 @@SOURCE_IMAGE_0@@ ",
+          "after": " 维护小私有制和 小农经济 。 无所谓多数（注：即无政府主义者否认少数服从多数。――编者注） 否认政权有统一的和组织的力量。 (3)不懂得社会的发展――大生产的作用――从资本主义向社会主义的发展。 （无政府主义是 绝望 的产物。它是失常的知识分子或游民的心◎第288页◎理状态，而不是无产者的心理状态。） (4)不懂得无产阶级的 阶级 斗争。 荒谬地否认资产阶"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/1948-04.jpg",
+      "sha256": "58749d496bfddc402aee05890bb68788f2d8ad877575d37b8d258c0d7f6bd3c8",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "manifesto-zh-1920",
+          "title": "共产党宣言（1920年陈望道译本）",
+          "chapterId": "chapter-001-6ba24f9fbb",
+          "chapterTitle": "共产党宣言（1920年陈望道译本）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+          "before": "共产党宣言——马格斯 安格尔斯 合著（陈望道 译；1920年8月第一个译本第一版） 中文马克思主义文库 -> 马克思 恩格斯 社会主义研究小丛书第一种 共产党宣言 马格斯 安格尔斯 合著 陈望道 译 ",
+          "after": " 〔左图〕1920年9月印刷本原件，现藏于中共一大纪念馆（2024年2月份摄） 录入者注 ：本书依照2011年北京大学对1920年8月陈望道译本第一版的影印本录入。简体字版本中，均将原书文字转为简体，相应表达中的文字亦转为简体文字使用时的习惯表达的文字，如“沈默”转为“沉默”；某些表达仍作保留，比如“植民地”。标点符号基本保持原貌，除了繁体双引号及单引号均按"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/1948-02.jpg",
+      "sha256": "d94abd35ac067113f20ad0ed75bb1df122036da8bf526f0608d4c6d9bba6eb62",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "manifesto-zh-1920",
+          "title": "共产党宣言（1920年陈望道译本）",
+          "chapterId": "chapter-001-6ba24f9fbb",
+          "chapterTitle": "共产党宣言（1920年陈望道译本）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+          "before": "共产党宣言——马格斯 安格尔斯 合著（陈望道 译；1920年8月第一个译本第一版） 中文马克思主义文库 -> 马克思 恩格斯 社会主义研究小丛书第一种 共产党宣言 马格斯 安格尔斯 合著 陈望道 译 @@SOURCE_IMAGE_0@@ ",
+          "after": " 〔左图〕1920年9月印刷本原件，现藏于中共一大纪念馆（2024年2月份摄） 录入者注 ：本书依照2011年北京大学对1920年8月陈望道译本第一版的影印本录入。简体字版本中，均将原书文字转为简体，相应表达中的文字亦转为简体文字使用时的习惯表达的文字，如“沈默”转为“沉默”；某些表达仍作保留，比如“植民地”。标点符号基本保持原貌，除了繁体双引号及单引号均按"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/1948-01.jpg",
+      "sha256": "c5ada9fdd0c1533c678948aea005c43f3ed15fe33973b5f31b28a5a150a4ab1d",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "manifesto-zh-1920",
+          "title": "共产党宣言（1920年陈望道译本）",
+          "chapterId": "chapter-001-6ba24f9fbb",
+          "chapterTitle": "共产党宣言（1920年陈望道译本）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+          "before": "共产党宣言——马格斯 安格尔斯 合著（陈望道 译；1920年8月第一个译本第一版） 中文马克思主义文库 -> 马克思 恩格斯 社会主义研究小丛书第一种 共产党宣言 马格斯 安格尔斯 合著 陈望道 译 @@SOURCE_IMAGE_0@@ @@SOURCE_IMAGE_1@@ ",
+          "after": " 〔左图〕1920年9月印刷本原件，现藏于中共一大纪念馆（2024年2月份摄） 录入者注 ：本书依照2011年北京大学对1920年8月陈望道译本第一版的影印本录入。简体字版本中，均将原书文字转为简体，相应表达中的文字亦转为简体文字使用时的习惯表达的文字，如“沈默”转为“沉默”；某些表达仍作保留，比如“植民地”。标点符号基本保持原貌，除了繁体双引号及单引号均按"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/1948-03.jpg",
+      "sha256": "4c66e222c7ed531d1cd7e9a2d0f3f266b152ee23574370b6a0f01a06cb051ffd",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "manifesto-zh-1920",
+          "title": "共产党宣言（1920年陈望道译本）",
+          "chapterId": "chapter-001-6ba24f9fbb",
+          "chapterTitle": "共产党宣言（1920年陈望道译本）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+          "before": "处尽力为万国民治党谋统一及团结。 〔五十四页〕 共产党最鄙薄隐秘自己的主义和政见。所以我们公然宣言道：要达到我们的目的，只有打破一切现社会的状况，叫那班权力阶级在共产的革命面前发抖呵！无产阶级所失的不过是他们的锁练，得到的是全世界。 万国劳动者团结起来呵！ （Workingmen of all Countries unite！） 〔五十五页〕 〔五十六页〕 ",
+          "after": " 〔封底〕 一千九百二十年 八月　　出 版 定价大洋一角 原　著　者　马 格 斯 安格尔斯 翻　译　者　陈望道 印 刷 及 发 行 者　社会主义研究社 [1] 原文如此 [2] 原文如此。 [3] 原文为“封建度”，“制”系录入者增补。 [4] 原文如此。 [5] 原文为“其初”。 [6] 原文标点为“。，” [7] 原文为“世界时灭亡时” [8] 原书为竖"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/maozedong/19540410.jpg",
+      "sha256": "1b7f1ec28e04c24e70eb6f30757e9907d037718263e09146268f24d5407a6ca1",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "mao-work-7a96f9fcf9ab",
+          "title": "致达赖喇嘛",
+          "chapterId": "chapter-001-7a96f9fcf9",
+          "chapterTitle": "致达赖喇嘛",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19540410.htm",
+          "before": "藏作了不少对国家和西藏民族有益的事，是很好的。正如你的来信所说，为了使西藏僧俗人民对新的祖国更加了解，为了日渐巩固和加强汉藏民族的团结，西藏每年有些人到内地来参观，确实很好。除此以外，西藏还可以选送一些青年到内地来短期或长期地学习，以便更好地培养建设西藏的民族干部。 随函附上牛奶分离机两部，扩音机壹部，两用收音机壹台。顺祝健康。 毛泽东 一九五四年四月十日 ",
+          "after": " 注释： * 二〇一〇年九月日本横滨国立大学教授村田忠禧在西藏博物馆发现本文手稿，后将手稿照片及日译文发表于《关于在西藏博物馆发现的毛泽东写给达赖喇嘛的信》一文中（《东亚论坛》第七期，二〇一一年十二月）〔村田忠禧：西藏博物館で見つけた毛沢東のダライラマに宛てた書簡について，東アジア論壇，第七号〕。现据手稿照片录入。"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/maozedong/19450528-1.jpg",
+      "sha256": "55bad7c37675862d2234f1e93a24edd9e0aa29725ec7e573fe06103e3dfb1f01",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "mao-work-a952bfecc86f",
+          "title": "致野坂参三",
+          "chapterId": "chapter-001-a952bfecc8",
+          "chapterTitle": "致野坂参三",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19450528.htm",
+          "before": "问题，目前宣传时期，不宜牵涉得太广泛；待将来实行时期，依照群众发动的程度，临时伸缩处理，似较有利。 37页，10行，“尽速由一般人民”，尽速二字似可去掉。这个投票问题，那时究竟以速为有利，或者 [3] 以缓为有利，要看情况才能决定。依我估计，日本人民不要天皇，恐怕不是短期所能做到的。 以上，请加斟酌，并送博古发表，广播。 同志的敬礼！ 毛泽东 五月二十八日 ",
+          "after": " 注释： * 二〇〇三年七月，日本一桥大学教授加藤哲郎发现了两封毛泽东致野坂参三的信，本文即为其中之一。现据庆应义塾大学教授寺出道雄与徐一睿文章《毛沢東の野坂参三宛て書簡》（以下简称《书简》）中的简体字本，并参照信件手稿照片整理出本文。 [1] “冈野进”为野坂参三化名。 [2] 此处“者”在《书简》中为“仍”，据手稿照片改。 [3] 此处“者”在《书简》中"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/maozedong/19450528-2.jpg",
+      "sha256": "10900b04ec9592d563c175986299907ac2077278d118bff40246c000e4b939df",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "mao-work-a952bfecc86f",
+          "title": "致野坂参三",
+          "chapterId": "chapter-001-a952bfecc8",
+          "chapterTitle": "致野坂参三",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19450528.htm",
+          "before": "待将来实行时期，依照群众发动的程度，临时伸缩处理，似较有利。 37页，10行，“尽速由一般人民”，尽速二字似可去掉。这个投票问题，那时究竟以速为有利，或者 [3] 以缓为有利，要看情况才能决定。依我估计，日本人民不要天皇，恐怕不是短期所能做到的。 以上，请加斟酌，并送博古发表，广播。 同志的敬礼！ 毛泽东 五月二十八日 @@SOURCE_IMAGE_0@@ ",
+          "after": " 注释： * 二〇〇三年七月，日本一桥大学教授加藤哲郎发现了两封毛泽东致野坂参三的信，本文即为其中之一。现据庆应义塾大学教授寺出道雄与徐一睿文章《毛沢東の野坂参三宛て書簡》（以下简称《书简》）中的简体字本，并参照信件手稿照片整理出本文。 [1] “冈野进”为野坂参三化名。 [2] 此处“者”在《书简》中为“仍”，据手稿照片改。 [3] 此处“者”在《书简》中"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/01.jpg",
+      "sha256": "a1fab6a6d2b99c3a923608ee770709111cd4909e0c42e54359e940377a6cf3cf",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-0d2bd1ff0af7",
+          "title": "共产党在德国的要求",
+          "chapterId": "chapter-001-0d2bd1ff0a",
+          "chapterTitle": "共产党在德国的要求",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184803.htm",
+          "before": "，1848年3月30日左右在巴黎印成传单：并载于下列各报：1848年4月5日“柏林阅报室”第82号的号外；1848年4月6日“曼海姆晚报”第96号；1848年4月6日“特利尔日报”第97号的附页和1848年4月9日“德意志总汇报”第100号的附刊，而在1848年9月10日之前在科伦又印成传单发表 原文是德文 俄文译自“柏林阅报室”，并照科伦的传单原文校对过 ",
+          "after": " 注： “共产党在德国的要求”是卡・马克思和弗・恩格斯在1848年3月21日至29日之间在巴黎写成的。这些要求是共产主义者同盟在刚开始的德国革命中的政治纲领。3月30日左右“共产党在德国的要求”印成了传单，4月初发表在“柏林阅报室”、“曼海姆晚报”、“特利尔日报”和“德意志总汇报”等民主报纸上。 “共产党在德国的要求”是作为指示性的文件分发给回国的共产主义者"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18761021.jpg",
+      "sha256": "37f26be33eca80103f8b08e8e9797c2381726574ac941862bc280c3d3a797bd5",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-152941db5873",
+          "title": "马克思致昂利・奥里奥尔（1876年10月21日）",
+          "chapterId": "chapter-001-152941db58",
+          "chapterTitle": "马克思致昂利·奥里奥尔（1876年10月21日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18761021.htm",
+          "before": "公报》）有人说：“应当通过准确而完整的翻译将全部著作（《资本论》）呈现给公众。”而拉沙特尔出版社的法定管理人将译著封存在塞瓦斯托波尔大街的仓库里，这难道不是咄咄怪事吗？ 尽管如此，关键在拉沙特尔先生一方。他应当敦促凯先生遵守合同。 您最为忠实的  卡尔・马克思 根据合同最后一段，既然我按照合同文本享有权利，我将自己的《资本论》样书分发给了工人与国外新闻界。 ",
+          "after": " 感谢 先知在1917 收集、录入及校对"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18741112.jpg",
+      "sha256": "46acc7320542d8dd9929c73f5d46e015c010b73c0b3b1bbead0350fa9f4b911c",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-2940ce3bbbab",
+          "title": "马克思致莫里斯・拉沙特尔（1874年11月12日）",
+          "chapterId": "chapter-001-2940ce3bbb",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1874年11月12日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18741112.htm",
+          "before": "1874年11月12日于伦敦 亲爱的公民： 直至今日，我才回复您9日的来信，因为我刚从阿姆斯特丹赶回来，我被叫到那里处理家庭事务。我已于10月15日开始继续工作，并完全重写了鲁瓦先生的剩余译稿。目前要抄写大部分稿件，但这项工作会进行得很快，印刷厂厂主下周就会收到第一封邮件。既然再不会有耽搁，您尽可以通告读者，很快就会提供后续分册。 您忠诚的  卡尔・马克思 ",
+          "after": " 感谢 先知在1917 收集、录入及校对"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18720130-1.jpg",
+      "sha256": "abff9fce57f88c00ca338796fecc278f22d2b9ad028edbd9a4c7e86dc6372f77",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-295f93ee8d22",
+          "title": "马克思致莫里斯・拉沙特尔（1872年1月30日）",
+          "chapterId": "chapter-001-295f93ee8d",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1872年1月30日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18720130.htm",
+          "before": "出版的形式并非最为有利，我还是同意您的看法，在目前情况下，我们最好还是采用这种办法。在您请我撰写的亲笔信中，我会用几句话向法国公众解释这一点。 [4] 看来您觉得出版的这一卷是完整的著作。不可否认，我是把它当作独立的著作出版的。只是我想再续写两卷。至于这两卷，我保留所有权利。另外，我眼下无意请您出版这两卷的法文版。 先生，请接受我的诚挚敬意。 卡尔・马克思 ",
+          "after": " 译者注 ： [1] 莫里斯・拉沙特尔（Maurice Lachatre，1814-1900），法国进步的新闻记者，巴黎公社的参加者，马克思《资本论》第一卷法文版的出版者。 [2] 保尔・拉法格（Paul Lafargue，1842-1911），法国工人运动和国际工人运动的著名活动家，杰出的马克思主义宣传家和政论家，国际总委员会委员；法国工人党的创始人之一；"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18720130-2.jpg",
+      "sha256": "8dc1b6deda2878f47f40031b0ab1caf1aeb935c0aa567bb570c18dea3202365b",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-295f93ee8d22",
+          "title": "马克思致莫里斯・拉沙特尔（1872年1月30日）",
+          "chapterId": "chapter-001-295f93ee8d",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1872年1月30日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18720130.htm",
+          "before": "看法，在目前情况下，我们最好还是采用这种办法。在您请我撰写的亲笔信中，我会用几句话向法国公众解释这一点。 [4] 看来您觉得出版的这一卷是完整的著作。不可否认，我是把它当作独立的著作出版的。只是我想再续写两卷。至于这两卷，我保留所有权利。另外，我眼下无意请您出版这两卷的法文版。 先生，请接受我的诚挚敬意。 卡尔・马克思 @@SOURCE_IMAGE_0@@ ",
+          "after": " 译者注 ： [1] 莫里斯・拉沙特尔（Maurice Lachatre，1814-1900），法国进步的新闻记者，巴黎公社的参加者，马克思《资本论》第一卷法文版的出版者。 [2] 保尔・拉法格（Paul Lafargue，1842-1911），法国工人运动和国际工人运动的著名活动家，杰出的马克思主义宣传家和政论家，国际总委员会委员；法国工人党的创始人之一；"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.jpg",
+      "sha256": "486d531563b3d551e1b26034a3778407e310450bdbf23a7ec578b192272197a8",
+      "status": "ADVERT_ILLUSTRATION_OMITTED",
+      "description": "旧报广告中的冲压或密封设备图案。",
+      "references": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-004-35a27b0a79",
+          "chapterTitle": "第4号（1848年6月4日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+          "before": "市圣使徒集市签字，会有多件家具出售：桌子、椅子、橱柜、沙发、镜子、五斗柜、写字桌、支架、厨房用具。拍卖且现金交易。 科隆，1848年5月31日。 菲勒斯， 法警 . 司法拍卖 1848年6月5日周一，经由科隆新市场签字，会有一些家具出售：桌子、带管道烤箱、以及一些皮制品、旅行毛巾、打猎袋、行李箱等，通过拍卖方式公开出售，现金结账，价高者得。 法警, 加森. ",
+          "after": " 对于所有市政、铁路局、小业主、商户来说，所签协议适用于在制造 载货两轮平板车 时使用车皮称重装置， 各种四轮马车与手推车，均具备相关证书。以下详情请向我咨询： 1-100森特纳 [166] 力的 各种三轮车 ，以本人名义担保其质量；用来存钱或重要物品的 铁箱 。目前 尚缺 两种 画布 。 各种样式的 信纸复制印刷 。 密封-冲压机， 尤其适合公证人员与纸张"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/finger.jpg",
+      "sha256": "886d03cd1254b5dd8307a95379d3ed45c78b8e2fd2d3351f7bdcdaa45e6f3505",
+      "status": "ADVERT_ILLUSTRATION_OMITTED",
+      "description": "旧报广告中的右指手形符号。",
+      "references": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-012-94c07c2da5",
+          "chapterTitle": "第20号（1848年6月20日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+          "before": "们在珍珠潭A. 斯坦斯泰勒 家举行。 以下书籍已由我社出版 ，并可通过所有书店购买： 共和党人 （自由公民） 权利和义务。 科隆。 M. 贝克 （莫里鸠斯-施泰因韦格 [187] ）。 开张营业 。 在此我们荣幸地声明，我们在 使徒大街7号 建立了一家 利口酒和葡萄酒醋厂 。我们以最低的价格真诚向您推荐我们的所有产品。 科隆1848年6月。 弗兰克&康佩斯 ",
+          "after": " 根据我提供的样品，在此特别推荐由当地市民自卫队指挥官和官员批准的绶带及佩剑。 吕岑教堂 ，花边制造商，希尔德巷 19号。 柠檬香料 施特恩巷9号和11号。 以最便宜的价格提供新鲜的莱茵河鱼，有意者联系 约翰·吕斯多夫 ，林德巷21号。 〔第四版下部四栏〕 朗姆酒，科涅克白兰地和粕酒 施特恩巷9号和11号。 布鲁塞尔的英文报纸。 《布鲁塞尔先驱报》 创办于1"
+        },
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-012-94c07c2da5",
+          "chapterTitle": "第20号（1848年6月20日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+          "before": "格每季度5法郎，不包括比利时境外的邮资。《布鲁塞尔先驱报》是针对欧洲大陆所有英国居民和英国旅行者发布广告的绝佳媒介。办公地点：——布鲁塞尔，沃丢街13号。 在圣使徒博览会之际， 今天 下午3点开始， 大型音乐会 由普鲁士皇家合唱团 第8轻骑兵乐团 在城市花园装饰典雅的 科隆大棚剧场演出。 每天供应樱桃豌豆和草莓冷黄瓜。 弗兰茨·斯托尔威尔克 [188] 。 ",
+          "after": " 每天新鲜的： 高地面包，大蒜香肠，香肚。香菜奶酪，烤鱼，正宗巴伐利亚啤酒，长巷1号 高地风味餐厅 的上等红酒和利口酒。 1500至1600塔勒贷款。首次三倍抵押。询问本报广告部。 发行人： 科尔夫 [189] 。 印刷： 威·克劳特 [190] ，圣阿加塔街12号。 编译主持：陈力丹 组织翻译：陈沛芹；翻译：任亚鸽、金淑琴、牛金格、王昱茜、王妍俐 审读：李"
+        },
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-013-3776c72de1",
+          "chapterTitle": "第23号（1848年6月28日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+          "before": "布街12号有售。 弗朗茨·斯托尔威尔克 ，宫廷供应商。 冰淇淋 每天出售，在本店品尝及外卖均可，每份售价4银格罗申。 弗朗茨·斯托尔威尔克 ，宫廷供应商。 两间宽敞的客房（有漂亮的地板）连同储藏室和封闭的地下室一起出租。电报街6号。 〔第四版下部三栏〕 音乐会 今天周五晚上7点到11点，由科隆市民自卫团的音乐家们在佩伦普富尔街上的A. 斯坦斯泰勒 处举行。 ",
+          "after": " 不容错过 ！ 从今年7月1日开始， 所有邮局 均可提供： 《新德意志报.》 [203] 民主机关报. 主编：奥托·吕宁 [204] 博士。 标题表明了本报的倾向；它首先要求的是民主、做主和人民的主权。 《新德意志报》 以大版面出版，每页三栏。本报价格为每季度2弗罗林 [205] 或1塔勒4银格罗申。本报每日一刊，除星期天外，因为我们认为给工人休息一天是很合"
+        },
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-013-3776c72de1",
+          "chapterTitle": "第23号（1848年6月28日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+          "before": "斗是真理占据上风的条件。 《贝吉施-勃兰登堡信使》 并不局限于贝吉施 [210] 和勃兰登堡省，而是将目光投向了对贝吉施和勃兰登堡省感兴趣人的所有一切，投向我们整个祖国，每周出版两期。最便宜的价格是在出版商处每季度12.5银格罗申；在邮寄员投递范围内的附近地方每季度15银格罗申；在普鲁士国家邮局和书店处每季度16.75银格罗申。广告费按字数每行1银格罗申。 ",
+          "after": " 新季度报纸将于7月1日开始预定，欲购从速。 鲁尔河畔哈廷根，1848年6月。 阿尔伯特·弗里斯 ， 《贝吉施-勃兰登堡信使》编辑和出版商 莱茵街10号3楼出租。 一位抄写员寻求工作，半天工或钟点工均可。葡萄园街6号。 价廉味美的甜橙。圣阿加塔街25号。 约翰·吕斯多夫以最低价格出售新打捞的莱茵河鱼，林德巷21号。 发行人： 科尔夫 [211] 。 印刷： "
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/finger2.jpg",
+      "sha256": "2d2924efb3a29190f85e2d21468908f6d96f245dcfa0911078298a34a3503da9",
+      "status": "ADVERT_ILLUSTRATION_OMITTED",
+      "description": "旧报广告中的左指手形符号。",
+      "references": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-012-94c07c2da5",
+          "chapterTitle": "第20号（1848年6月20日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+          "before": "驱报》是针对欧洲大陆所有英国居民和英国旅行者发布广告的绝佳媒介。办公地点：——布鲁塞尔，沃丢街13号。 在圣使徒博览会之际， 今天 下午3点开始， 大型音乐会 由普鲁士皇家合唱团 第8轻骑兵乐团 在城市花园装饰典雅的 科隆大棚剧场演出。 每天供应樱桃豌豆和草莓冷黄瓜。 弗兰茨·斯托尔威尔克 [188] 。 @@SOURCE_IMAGE_1@@ 每天新鲜的： ",
+          "after": " 高地面包，大蒜香肠，香肚。香菜奶酪，烤鱼，正宗巴伐利亚啤酒，长巷1号 高地风味餐厅 的上等红酒和利口酒。 1500至1600塔勒贷款。首次三倍抵押。询问本报广告部。 发行人： 科尔夫 [189] 。 印刷： 威·克劳特 [190] ，圣阿加塔街12号。 编译主持：陈力丹 组织翻译：陈沛芹；翻译：任亚鸽、金淑琴、牛金格、王昱茜、王妍俐 审读：李大雪 编辑：杜"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.jpg",
+      "sha256": "70bb6a561d3d5f9e9f264075f0bf8fa7248563515e5260a21f55e51332057dab",
+      "status": "ADVERT_ILLUSTRATION_OMITTED",
+      "description": "旧报移民航运广告中的帆船图。",
+      "references": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-014-be5b74606f",
+          "chapterTitle": "第301号（1849年5月19日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+          "before": "里兄弟，糕点师傅，旧市场10号 费德·魏登佩西，欧本马斯入口42号 约·麦斯特，在道依茨。 希尔登布兰德，在林茨。 新到了。 滑稽的卡通人像。 最滑稽的人物造型在 赫尔曼女士 ，火星广场3号。 每天新鲜的五月酒在施密茨-比尔施泰因，“金色十字”，格赫罗斯大街38号 。 ☞ 适合大鼠、老鼠、蟑螂和臭虫的优质饲料。 大布登街道 5号。 〔增刊第二版三－四通栏〕 ",
+          "after": " 给移民的信息。 从安特卫普、鹿特丹港口、伦敦、不莱梅或者汉堡 至南美洲和北美洲 之间的 定期邮件与包裹航运。 每五天有机会从这里摆渡驶往想去的地方。移民可以在这种镀铜三桅船上获得座位，因为它带有宽敞的甲板间。最低的价格可以咨询 总承包货物运送的商人， 安德烈·施塔尔, 图尔市场第46号 科隆，1849年5月 雅努斯神 [215] 汉堡的人寿和养老保险公司 "
+        },
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "title": "马克思主编《新莱茵报》中译版 （文字版）",
+          "chapterId": "chapter-014-be5b74606f",
+          "chapterTitle": "第301号（1849年5月19日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+          "before": "稽的人物造型在 赫尔曼女士 ，火星广场3号。 每天新鲜的五月酒在施密茨-比尔施泰因，“金色十字”，格赫罗斯大街38号 。 ☞ 适合大鼠、老鼠、蟑螂和臭虫的优质饲料。 大布登街道 5号。 〔增刊第二版三－四通栏〕 @@SOURCE_IMAGE_0@@ 给移民的信息。 从安特卫普、鹿特丹港口、伦敦、不莱梅或者汉堡 至南美洲和北美洲 之间的 定期邮件与包裹航运。 ",
+          "after": " 每五天有机会从这里摆渡驶往想去的地方。移民可以在这种镀铜三桅船上获得座位，因为它带有宽敞的甲板间。最低的价格可以咨询 总承包货物运送的商人， 安德烈·施塔尔, 图尔市场第46号 科隆，1849年5月 雅努斯神 [215] 汉堡的人寿和养老保险公司 基础资金：一百万马克银行款项 根据最灵活的条件，公司保障健康和不健康的投保人。 您可以按季度或者按月缴费 为了"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/062.jpg",
+      "sha256": "37ccf0cdb1d3a9dadc36ce419cfd3592c73b5d49ca9846317d7e4e3e9e539f5b",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-e086617bc095",
+          "title": "革命的西班牙",
+          "chapterId": "chapter-001-e086617bc0",
+          "chapterTitle": "革命的西班牙",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-185408-11.htm",
+          "before": "德国人这样称呼他）统治时期的神圣同盟战争 [238] 的话。一般说来，后者是在西班牙摄政阿德里安红衣主教（佛来米人）庇护下的一个宫廷集团的行为直接引起的，这个集团进行无耻敲诈，使加斯梯里亚人到了绝望的地步，而且还向出价最高的人卖公职，公开以法庭判决做买卖。反抗佛来米人的权奸，只是运动的表面。这个运动在根本上是要保住中世纪西班牙的自由不受当代专制制度的侵犯。 ",
+          "after": " 马克思摘有西班牙历史材料的一本笔记本的首页 [239] 阿腊贡、加斯梯里亚和格拉纳达的合并在天主教徒斐迪南和伊萨伯拉一世统治之下为西班牙的君主国创造了物质基础，在这以后，查理一世企图把这个还是封建的君主国改变成专制的君主国。他立刻向西班牙自由的两根支柱，即议会和地方自治机关 [240] 进攻；议会是古哥特人concilia〔谘议会〕的改变形式，地方自治机关"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18760504.jpg",
+      "sha256": "9d0b2cebcf690317e9aa41a3d5075b76b931d527572b2ddfb12f5f64f1803d55",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-e697f05cdfe4",
+          "title": "马克思致昂利・奥里奥尔（1876年5月4日）",
+          "chapterId": "chapter-001-e697f05cdf",
+          "chapterTitle": "马克思致昂利·奥里奥尔（1876年5月4日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18760504.htm",
+          "before": "・奥里奥尔（1876年5月4日） 中文马克思主义文库 -> 马克思 马克思致昂利・奥里奥尔 [1] （1876年5月4日） 1876年5月4日于〔伦敦〕西北区 梅特兰公园路月牙街41号 公民： 为答复您4月13日的来信，我一直在等卡尔・希尔施 [2] 博士先生回到巴黎。他住在敦刻尔克路6号。他确实是您报道《资本论》所需要的人。 您极其忠实的  卡尔・马克思 ",
+          "after": " 译者注 ： [1] 昂利・奥里奥尔（Henri Oriol），巴黎莫里斯・拉沙特尔图书出版社的职员，八十年代初为出版社所有者。 [2] 卡尔・希尔施（Karl Hirsch，1841-1900），德国新闻工作者，全德工人联合会会员和国际会员，社会民主工党创始人之一。 感谢 先知在1917 收集、录入及校对"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18750927-1.jpg",
+      "sha256": "5c6761713343444d12f758d04734955c675b3b3dd3a2a79d4d63d2cd08fc38ff",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-f1ad8c166622",
+          "title": "马克思致莫里斯・拉沙特尔（1875年9月27日）",
+          "chapterId": "chapter-001-f1ad8c1666",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1875年9月27日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18750927.htm",
+          "before": "赞扬并感谢布洛克先生完成这一任务的同时，表示希望布洛克先生不会止步于此。 靠引用摘要和引出重要思想来分析卡尔・马克思先生和其他人的著述，这是不够的……应当通过准确而完整的翻译将全部著作呈现给公众。 ” 因此，您有理由说，出版这样一部译著，您便实现了《公报》刊登的伦理与政治科学院表达的愿望。此后，继续出版还会有困难。 您忠诚的  卡尔・马克思 感谢您的邮件。 ",
+          "after": " 译者注 ： [1] 阿道夫・凯（Adolphe Quêst），巴黎莫里斯・拉沙特尔图书出版社的法定管理人，曾阻挠《资本论》在法国出版。 [2] 信中提及的1872年10月4日的《公报》为《法兰西共和国公报》，摘引自该《公报》一段话中的着重号是马克思自己加的。 [3] 莫里斯・布洛克（Maurice Block, 1816-1900），法国统计学家和经济学家"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18750927-2.jpg",
+      "sha256": "34037b5fc38912561f18e8a4123a87f049ce98f1c126dbd703a764bef8ff6ce4",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-f1ad8c166622",
+          "title": "马克思致莫里斯・拉沙特尔（1875年9月27日）",
+          "chapterId": "chapter-001-f1ad8c1666",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1875年9月27日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18750927.htm",
+          "before": "，表示希望布洛克先生不会止步于此。 靠引用摘要和引出重要思想来分析卡尔・马克思先生和其他人的著述，这是不够的……应当通过准确而完整的翻译将全部著作呈现给公众。 ” 因此，您有理由说，出版这样一部译著，您便实现了《公报》刊登的伦理与政治科学院表达的愿望。此后，继续出版还会有困难。 您忠诚的  卡尔・马克思 感谢您的邮件。 @@SOURCE_IMAGE_0@@ ",
+          "after": " 译者注 ： [1] 阿道夫・凯（Adolphe Quêst），巴黎莫里斯・拉沙特尔图书出版社的法定管理人，曾阻挠《资本论》在法国出版。 [2] 信中提及的1872年10月4日的《公报》为《法兰西共和国公报》，摘引自该《公报》一段话中的着重号是马克思自己加的。 [3] 莫里斯・布洛克（Maurice Block, 1816-1900），法国统计学家和经济学家"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18721114-1.jpg",
+      "sha256": "5f0cdeaa91ed3a652834d53ee1632573fc1a1be2a971c9d80d0bd5414f424d0d",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-f214bdfe3e5c",
+          "title": "马克思致莫里斯・拉沙特尔（1872年11月14日）",
+          "chapterId": "chapter-001-f214bdfe3e",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1872年11月14日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18721114.htm",
+          "before": "意大利文版将依据德文和法文文本翻译。 龙格 [3] 跟我说起，他正在撰写《帝国治下的公社》这本书。我对这一主题非常感兴趣。他曾向勒谢瓦利埃 [4] 先生请教，他认识勒谢瓦利埃先生的儿子。只是勒谢瓦利埃先生建议他，首先给您写信。 拉法格和劳拉 [5] 已经在我家住了几周，多次向我谈起受到过您与您的家人的亲切款待，令他们无法忘怀。 您最为忠诚的  卡尔・马克思 ",
+          "after": " 译者注 ： [1] 路易・拉羽尔（Louis Lahure, 约1850-1878），印刷《资本论》第一卷法文版的巴黎印刷厂主。 [2] 拿破仑涅・拉塞西利亚（Napoleone La Cécilla，1835-1878），法国革命家（意大利人）；国际巴黎组织的成员，巴黎公社的将军，公社被镇压后流亡英国；曾同马克思和恩格斯保持联系。 [3] 沙尔・龙格（C"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/marx/letter-18721114-2.jpg",
+      "sha256": "d949fcadd13d47067b6cd00b37b03c70bd3eea137662f813bc30f97eb5da321a",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "marx-work-f214bdfe3e5c",
+          "title": "马克思致莫里斯・拉沙特尔（1872年11月14日）",
+          "chapterId": "chapter-001-f214bdfe3e",
+          "chapterTitle": "马克思致莫里斯·拉沙特尔（1872年11月14日）",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18721114.htm",
+          "before": "龙格 [3] 跟我说起，他正在撰写《帝国治下的公社》这本书。我对这一主题非常感兴趣。他曾向勒谢瓦利埃 [4] 先生请教，他认识勒谢瓦利埃先生的儿子。只是勒谢瓦利埃先生建议他，首先给您写信。 拉法格和劳拉 [5] 已经在我家住了几周，多次向我谈起受到过您与您的家人的亲切款待，令他们无法忘怀。 您最为忠诚的  卡尔・马克思 @@SOURCE_IMAGE_0@@ ",
+          "after": " 译者注 ： [1] 路易・拉羽尔（Louis Lahure, 约1850-1878），印刷《资本论》第一卷法文版的巴黎印刷厂主。 [2] 拿破仑涅・拉塞西利亚（Napoleone La Cécilla，1835-1878），法国革命家（意大利人）；国际巴黎组织的成员，巴黎公社的将军，公社被镇压后流亡英国；曾同马克思和恩格斯保持联系。 [3] 沙尔・龙格（C"
+        }
+      ]
+    },
+    {
+      "imageUrl": "https://www.marxists.org/chinese/stalin/19171024-25.jpg",
+      "sha256": "c5a4ac13450c02d0a38a8bd059247c39e146dca26cec021bc56b51e5efc356aa",
+      "status": "FACSIMILE_NOT_BUNDLED",
+      "description": "原版报刊、封面、手稿或信件的影印附件；不直接判作中文正文缺文。",
+      "references": [
+        {
+          "bookId": "stalin-work-4b3dd86998cd",
+          "title": "十月变革〔原始版本〕（1917年10月24日和25日）",
+          "chapterId": "chapter-001-4b3dd86998",
+          "chapterTitle": "十月变革〔原始版本〕（1917年10月24日和25日）",
+          "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19171024-25.htm",
+          "before": "林全集》版本中，最后两段被篡改为： 以列宁同志为首的党中央自始至终是革命的鼓舞者。弗拉基米尔・伊里奇当时住在彼得格勒维波尔格区的一个秘密住宅里。十月二十四日傍晚，他被请到斯穆尔尼去领导运动。 波罗的海水兵和维波尔格区赤卫队在十月起义中起了卓越的作用。由于这些人异常勇敢，彼得格勒卫戍部队主要是在精神上、部分是在军事上起了支援先锋战士的作用。 《真理报》原文： ",
+          "after": " 感谢 闲汉 收集、整理"
+        }
+      ]
+    }
+  ],
+  "missingHeadings": [
+    {
+      "bookId": "lenin-work-4c003207c69e",
+      "title": "第二国际的破产",
+      "chapterId": "chapter-001-4c003207c6",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1915-5.htm",
+      "heading": "九",
+      "nextText": "现在我们来作一个总结。 第二国际破产的最突出的表现，就是欧洲大多数正式的社会民主党令人触目惊心地背叛了自己的信念，背叛了自己在斯图加特和巴塞尔大会上通过的庄严的决议。但是，这种意味着机会主义完全得胜、意味着社会民主党变成了民族主义自由派工人政党的破产，正是第二国际整个历史时代（１９世纪末到２０世纪初）的产物。这个时代―",
+      "html": "<p align=\"center\" class=\"MsoNormal\" style=\"text-align: center; text-autospace: none; line-height: 200%\">\n<span lang=\"ZH-CN\"><font size=\"3\">九</font><br/><br/>\n　　现在我们来作一个总结。<br/><br/>\n　　第二国际破产的最突出的表现，就是欧洲大多数正式的社会民主党令人触目惊心地背叛了自己的信念，背叛了自己在斯图加特和巴塞尔大会上通过的庄严的决议。但是，这种意味着机会主义完全得胜、意味着社会民主党变成了民族主义自由派工人政党的破产，正是第二国际整个历史时代（１９世纪末到２０世纪初）的产物。这个时代――从西欧完成资产阶级的和民族的革命开始向社会主义革命过渡的时代――的客观条件产生并培育了机会主义。这个时期，我们在欧洲的一些国家中看到工人运动和社会主义运动的分裂，这种分裂总的说来正是由于机会主义而发生的（英国、意大利、荷兰、保加利亚、俄国）；我们在欧洲的另一些国家中看到各个派别之间由于同样的原因进行了长期顽强的斗争（德国、法国、比利时、瑞典、瑞士）。这场大战所造成的危机，揭开了帷幕，打破了常规，割破了早已熟透了的脓疮，表明了机会主义所扮演的真正角色就是资产阶级的同盟者。因此，在组织上把这种成分从工人政党中彻底清除出去，已经不可避免了。帝国主义时代不容许在一个党内同时存在革命无产阶级的先进分子和工人阶级中由于“自己”民族的“大国”地位的特权而分享一点油水的半小市民式贵族。说机会主义是不走“极端”的统一的党中的“合法派别”，这种旧理论现在已成为对工人的最大的欺骗和妨害工人运动的最大的障碍了。会使自己立刻失去工人群众的露骨的机会主义，不象这种中庸理论这么可怕和有害，因为后者用马克思主义的词句来为机会主义的行为辩护，用种种诡辩来证明革命行动不合时宜，等等。这个理论的最著名的代表和第二国际的最著名的权威考茨基，已经表明自己是头号伪君子和糟蹋马克思主义的能手。在拥有百万党员的德国党内，凡是多少忠诚、多少有觉悟和多少革命的社会民主党人，无不愤懑地唾弃这种为休特古姆和谢德曼之流所热情维护的“权威”。<br/><br/>\n　　无产阶级群众（他们的旧领导层大概有将近十分之九的人已经投靠了资产阶级）在沙文主义猖獗的情况下，在戒严和战时书报检查的压力下，处于四分五裂和束手无策的境地。但是战争所造成的日益扩大、日益深化的客观革命形势，正在不可避免地引起革命的情绪，正在锻炼和教育一切最优秀、最有觉悟的无产者。象俄国１９０５年初由“加邦请愿事件”引起的那种群众情绪的急速转变，在今天不仅是有可能发生，而且可能性愈来愈大；当时俄国在几个月里，有时甚至在几个星期里就从落后的无产阶级阶层中涌现出跟着无产阶级革命先锋队前进的百万大军。我们不可能",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    },
+    {
+      "bookId": "lenin-work-9e03e6d955d8",
+      "title": "关于用自由平等口号欺骗人民",
+      "chapterId": "chapter-001-9e03e6d955",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/03.htm",
+      "heading": "一",
+      "nextText": "",
+      "html": "<p align=\"center\">一</p>",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    },
+    {
+      "bookId": "lenin-work-9e03e6d955d8",
+      "title": "关于用自由平等口号欺骗人民",
+      "chapterId": "chapter-001-9e03e6d955",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/03.htm",
+      "heading": "二",
+      "nextText": "",
+      "html": "<p align=\"center\">二</p>",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    },
+    {
+      "bookId": "lenin-work-9e03e6d955d8",
+      "title": "关于用自由平等口号欺骗人民",
+      "chapterId": "chapter-001-9e03e6d955",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/03.htm",
+      "heading": "三",
+      "nextText": "",
+      "html": "<p align=\"center\">三</p>",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    },
+    {
+      "bookId": "lenin-work-9e03e6d955d8",
+      "title": "关于用自由平等口号欺骗人民",
+      "chapterId": "chapter-001-9e03e6d955",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/03.htm",
+      "heading": "四",
+      "nextText": "",
+      "html": "<p align=\"center\">四</p>",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    },
+    {
+      "bookId": "lenin-work-9e03e6d955d8",
+      "title": "关于用自由平等口号欺骗人民",
+      "chapterId": "chapter-001-9e03e6d955",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/03.htm",
+      "heading": "五",
+      "nextText": "",
+      "html": "<p align=\"center\">五</p>",
+      "representedByCompositeTitle": false,
+      "status": "NUMBERED_HEADING_MISSING"
+    }
+  ],
+  "tables": [
+    {
+      "bookId": "capital-v1-zh",
+      "title": "资本论·第一卷",
+      "chapterId": "chapter-009-8d1c274824",
+      "chapterTitle": "工作日",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            0,
+            1
+          ],
+          "sourceCells": [
+            "14.9",
+            "598"
+          ],
+          "localMerged": "14.9598",
+          "paragraphIndex": 397
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "644",
+            "18.0"
+          ],
+          "localMerged": "64418.0",
+          "paragraphIndex": 397
+        },
+        {
+          "row": 2,
+          "columns": [
+            0,
+            1
+          ],
+          "sourceCells": [
+            "42.6",
+            "708"
+          ],
+          "localMerged": "42.6708",
+          "paragraphIndex": 398
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "title": "资本论·第一卷",
+      "chapterId": "chapter-014-cae77f7ce7",
+      "chapterTitle": "机器和大工业",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "805",
+            "1145"
+          ],
+          "localMerged": "8051145",
+          "paragraphIndex": 232
+        },
+        {
+          "row": 3,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "958",
+            "1262"
+          ],
+          "localMerged": "9581262",
+          "paragraphIndex": 232
+        },
+        {
+          "row": 3,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1262",
+            "2093"
+          ],
+          "localMerged": "12622093",
+          "paragraphIndex": 232
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "title": "资本论·第二卷",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "chapterTitle": "第十五章 周转时间对预付资本量的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "title": "资本论·第二卷",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "chapterTitle": "第十五章 周转时间对预付资本量的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "title": "资本论·第二卷",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "chapterTitle": "第十五章 周转时间对预付资本量的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "tableIndex": 3,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-006-82161dea0f",
+      "chapterTitle": "第五章 不变资本使用上的节约",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-006-82161dea0f",
+      "chapterTitle": "第五章 不变资本使用上的节约",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "805",
+            "1145"
+          ],
+          "localMerged": "8051145",
+          "paragraphIndex": 56
+        },
+        {
+          "row": 3,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "958",
+            "1262"
+          ],
+          "localMerged": "9581262",
+          "paragraphIndex": 56
+        },
+        {
+          "row": 4,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1747",
+            "2367"
+          ],
+          "localMerged": "17472367",
+          "paragraphIndex": 56
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-010-220b6efe49",
+      "chapterTitle": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-010-220b6efe49",
+      "chapterTitle": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-010-220b6efe49",
+      "chapterTitle": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-030-587bf0c778",
+      "chapterTitle": "第二十九章 银行资本的组成部分",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "9317629",
+            "746551"
+          ],
+          "localMerged": "9317629746551",
+          "paragraphIndex": 32
+        },
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "11392744",
+            "1307483"
+          ],
+          "localMerged": "113927441307483",
+          "paragraphIndex": 34
+        },
+        {
+          "row": 3,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "3987400",
+            "447157"
+          ],
+          "localMerged": "3987400447157",
+          "paragraphIndex": 36
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-034-b9534f14da",
+      "chapterTitle": "第三十三章 信用制度下的流通手段",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-034-b9534f14da",
+      "chapterTitle": "第三十三章 信用制度下的流通手段",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            0,
+            1
+          ],
+          "sourceCells": [
+            "1844",
+            "9263"
+          ],
+          "localMerged": "18449263",
+          "paragraphIndex": 8
+        },
+        {
+          "row": 2,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "45.7",
+            "5735"
+          ],
+          "localMerged": "45.75735",
+          "paragraphIndex": 9
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "5735",
+            "28.3"
+          ],
+          "localMerged": "573528.3",
+          "paragraphIndex": 9
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-035-4f0a07c579",
+      "chapterTitle": "第三十四章 通货原理和1844年英国的银行立法",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "9104000",
+            "2 3 / 4 ％"
+          ],
+          "localMerged": "910400023/4％",
+          "paragraphIndex": 11
+        },
+        {
+          "row": 3,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "6274000",
+            "3 3 / 4 ％"
+          ],
+          "localMerged": "627400033/4％",
+          "paragraphIndex": 11
+        },
+        {
+          "row": 3,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "7",
+            "7"
+          ],
+          "localMerged": "77",
+          "paragraphIndex": 11
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-035-4f0a07c579",
+      "chapterTitle": "第三十四章 通货原理和1844年英国的银行立法",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "16162000",
+            "2 1 / 4 ％"
+          ],
+          "localMerged": "1616200021/4％",
+          "paragraphIndex": 13
+        },
+        {
+          "row": 3,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "13237000",
+            "4 1 / 2 ％"
+          ],
+          "localMerged": "1323700041/2％",
+          "paragraphIndex": 13
+        },
+        {
+          "row": 3,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "11",
+            "4"
+          ],
+          "localMerged": "114",
+          "paragraphIndex": 13
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-036-8491d12676",
+      "chapterTitle": "第三十五章 贵金属和汇兑率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "25.67 1 / 2",
+            "13.09 3 / 4"
+          ],
+          "localMerged": "25.671/213.093/4",
+          "paragraphIndex": 92
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "13.09 3 / 4",
+            "12.2 1 / 2"
+          ],
+          "localMerged": "13.093/412.21/2",
+          "paragraphIndex": 92
+        },
+        {
+          "row": 3,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "25.80",
+            "13.10"
+          ],
+          "localMerged": "25.8013.10",
+          "paragraphIndex": 92
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "60"
+          ],
+          "localMerged": "160",
+          "paragraphIndex": 19
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "50",
+            "1/6"
+          ],
+          "localMerged": "501/6",
+          "paragraphIndex": 19
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "1/6",
+            "10"
+          ],
+          "localMerged": "1/610",
+          "paragraphIndex": 19
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1 1/3",
+            "60"
+          ],
+          "localMerged": "11/360",
+          "paragraphIndex": 36
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "50",
+            "2/9"
+          ],
+          "localMerged": "502/9",
+          "paragraphIndex": 36
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "2/9",
+            "10"
+          ],
+          "localMerged": "2/910",
+          "paragraphIndex": 36
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "2",
+            "60"
+          ],
+          "localMerged": "260",
+          "paragraphIndex": 39
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "50",
+            "1/3"
+          ],
+          "localMerged": "501/3",
+          "paragraphIndex": 39
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "1/3",
+            "10"
+          ],
+          "localMerged": "1/310",
+          "paragraphIndex": 39
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 4,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "3镑"
+          ],
+          "localMerged": "13镑",
+          "paragraphIndex": 65
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 65
+        },
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "3镑"
+          ],
+          "localMerged": "13镑",
+          "paragraphIndex": 65
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 5,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "2",
+            "6镑"
+          ],
+          "localMerged": "26镑",
+          "paragraphIndex": 67
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 67
+        },
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "2",
+            "6镑"
+          ],
+          "localMerged": "26镑",
+          "paragraphIndex": 67
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 6,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-040-ebaa639173",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "tableIndex": 7,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-042-41c2ead987",
+      "chapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2"
+          ],
+          "localMerged": "121/2",
+          "paragraphIndex": 6
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1 / 2",
+            "3"
+          ],
+          "localMerged": "1/23",
+          "paragraphIndex": 6
+        },
+        {
+          "row": 2,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "1",
+            "3"
+          ],
+          "localMerged": "13",
+          "paragraphIndex": 6
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-042-41c2ead987",
+      "chapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2 =5"
+          ],
+          "localMerged": "121/2+21/2=5",
+          "paragraphIndex": 11
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 11
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "2"
+          ],
+          "localMerged": "62",
+          "paragraphIndex": 11
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-042-41c2ead987",
+      "chapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 3,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 4,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 5,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 6,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "5",
+            "4"
+          ],
+          "localMerged": "54",
+          "paragraphIndex": 57
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 57
+        },
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "5",
+            "6"
+          ],
+          "localMerged": "56",
+          "paragraphIndex": 57
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 7,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 8,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2"
+          ],
+          "localMerged": "121/2+21/2",
+          "paragraphIndex": 74
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "2+1 1 / 2 =3 1 / 2"
+          ],
+          "localMerged": "12+11/2=31/2",
+          "paragraphIndex": 74
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "1 5/7",
+            "6"
+          ],
+          "localMerged": "15/76",
+          "paragraphIndex": 74
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 9,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 ＋2 1 / 2 =5"
+          ],
+          "localMerged": "121/2＋21/2=5",
+          "paragraphIndex": 90
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 90
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1+1 1/5=2 1/5"
+          ],
+          "localMerged": "61+11/5=21/5",
+          "paragraphIndex": 90
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-043-8e88226134",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "tableIndex": 10,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2 =5"
+          ],
+          "localMerged": "121/2+21/2=5",
+          "paragraphIndex": 110
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "1+3　=4"
+          ],
+          "localMerged": "11+3=4",
+          "paragraphIndex": 110
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "1+3　=4",
+            "1 1 / 2"
+          ],
+          "localMerged": "1+3=411/2",
+          "paragraphIndex": 110
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2"
+          ],
+          "localMerged": "121/2+21/2",
+          "paragraphIndex": 4
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 4
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1 / 2 +1 1 / 4 =1 3 / 4"
+          ],
+          "localMerged": "61/2+11/4=13/4",
+          "paragraphIndex": 4
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2"
+          ],
+          "localMerged": "121/2+21/2",
+          "paragraphIndex": 10
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 10
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1 / 2 +1　=1 1 / 2"
+          ],
+          "localMerged": "61/2+1=11/2",
+          "paragraphIndex": 10
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2"
+          ],
+          "localMerged": "121/2+21/2",
+          "paragraphIndex": 15
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 15
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1　+ 1 / 2 =1 1 / 2"
+          ],
+          "localMerged": "61+1/2=11/2",
+          "paragraphIndex": 15
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 3,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "2 1 / 2 +2 1 / 2"
+          ],
+          "localMerged": "121/2+21/2",
+          "paragraphIndex": 19
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 19
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1+ 1 / 4 =1 1 / 4"
+          ],
+          "localMerged": "61+1/4=11/4",
+          "paragraphIndex": 19
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 4,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "5"
+          ],
+          "localMerged": "15",
+          "paragraphIndex": 26
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 26
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1 1 / 2"
+          ],
+          "localMerged": "611/2",
+          "paragraphIndex": 26
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 5,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "5"
+          ],
+          "localMerged": "15",
+          "paragraphIndex": 29
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 29
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1 1 / 4"
+          ],
+          "localMerged": "611/4",
+          "paragraphIndex": 29
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 6,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "5"
+          ],
+          "localMerged": "15",
+          "paragraphIndex": 32
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "6"
+          ],
+          "localMerged": "16",
+          "paragraphIndex": 32
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "6",
+            "1 1/8"
+          ],
+          "localMerged": "611/8",
+          "paragraphIndex": 32
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 7,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 8,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "10+10=20",
+            "6"
+          ],
+          "localMerged": "10+10=206",
+          "paragraphIndex": 73
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "6",
+            "120"
+          ],
+          "localMerged": "6120",
+          "paragraphIndex": 73
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 73
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 9,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 10,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 11,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 12,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "12+12=24",
+            "5"
+          ],
+          "localMerged": "12+12=245",
+          "paragraphIndex": 94
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "5",
+            "120"
+          ],
+          "localMerged": "5120",
+          "paragraphIndex": 94
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 94
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 13,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "12+ 9=21",
+            "5 5/7"
+          ],
+          "localMerged": "12+9=2155/7",
+          "paragraphIndex": 98
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "120",
+            "0"
+          ],
+          "localMerged": "1200",
+          "paragraphIndex": 98
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 98
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 14,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "10+15=25",
+            "4 4 / 5"
+          ],
+          "localMerged": "10+15=2544/5",
+          "paragraphIndex": 102
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "120",
+            "0"
+          ],
+          "localMerged": "1200",
+          "paragraphIndex": 102
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 102
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 15,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "6 6 / 7",
+            "120"
+          ],
+          "localMerged": "66/7120",
+          "paragraphIndex": 109
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 109
+        },
+        {
+          "row": 2,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "9+12=21",
+            "6 6 / 7"
+          ],
+          "localMerged": "9+12=2166/7",
+          "paragraphIndex": 109
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 16,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "10+ 5=15",
+            "8"
+          ],
+          "localMerged": "10+5=158",
+          "paragraphIndex": 114
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "8",
+            "120"
+          ],
+          "localMerged": "8120",
+          "paragraphIndex": 114
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 114
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 17,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "6 6 / 7",
+            "120"
+          ],
+          "localMerged": "66/7120",
+          "paragraphIndex": 118
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 118
+        },
+        {
+          "row": 2,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "6+15=21",
+            "6 6 / 7"
+          ],
+          "localMerged": "6+15=2166/7",
+          "paragraphIndex": 118
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 18,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "120",
+            "16"
+          ],
+          "localMerged": "12016",
+          "paragraphIndex": 130
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "7 1 / 2",
+            "120"
+          ],
+          "localMerged": "71/2120",
+          "paragraphIndex": 130
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "0",
+            "0"
+          ],
+          "localMerged": "00",
+          "paragraphIndex": 130
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 19,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 20,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 21,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-044-054339ee3a",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "tableIndex": 22,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-045-c39223de01",
+      "chapterTitle": "第四十四章 最坏耕地也有级差地租",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "3"
+          ],
+          "localMerged": "13",
+          "paragraphIndex": 5
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "3"
+          ],
+          "localMerged": "13",
+          "paragraphIndex": 5
+        },
+        {
+          "row": 1,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "3",
+            "3"
+          ],
+          "localMerged": "33",
+          "paragraphIndex": 5
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-045-c39223de01",
+      "chapterTitle": "第四十四章 最坏耕地也有级差地租",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "1",
+            "3"
+          ],
+          "localMerged": "13",
+          "paragraphIndex": 8
+        },
+        {
+          "row": 1,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1",
+            "3 1 / 2"
+          ],
+          "localMerged": "131/2",
+          "paragraphIndex": 8
+        },
+        {
+          "row": 1,
+          "columns": [
+            5,
+            6
+          ],
+          "sourceCells": [
+            "3 1 / 2",
+            "1 / 7"
+          ],
+          "localMerged": "31/21/7",
+          "paragraphIndex": 8
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "title": "资本论·第三卷",
+      "chapterId": "chapter-051-b2e1b30b29",
+      "chapterTitle": "第五十章 竞争的假象",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            0,
+            1
+          ],
+          "sourceCells": [
+            "第一种情形：400c＋100v＋150m＝650",
+            "250"
+          ],
+          "localMerged": "第一种情形：400c＋100v＋150m＝650250",
+          "paragraphIndex": 11
+        },
+        {
+          "row": 2,
+          "columns": [
+            0,
+            1
+          ],
+          "sourceCells": [
+            "第二种情形：400c＋150v＋100m＝650",
+            "250"
+          ],
+          "localMerged": "第二种情形：400c＋150v＋100m＝650250",
+          "paragraphIndex": 11
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "title": "英国工人阶级状况",
+      "chapterId": "chapter-008-c9517b7869",
+      "chapterTitle": "结果",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "title": "英国工人阶级状况",
+      "chapterId": "chapter-012-0b59796b85",
+      "chapterTitle": "矿业无产阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "83408",
+            "32475"
+          ],
+          "localMerged": "8340832475",
+          "paragraphIndex": 2
+        },
+        {
+          "row": 2,
+          "columns": [
+            3,
+            4
+          ],
+          "sourceCells": [
+            "1185",
+            "1165"
+          ],
+          "localMerged": "11851165",
+          "paragraphIndex": 2
+        },
+        {
+          "row": 2,
+          "columns": [
+            4,
+            5
+          ],
+          "sourceCells": [
+            "1165",
+            "118233"
+          ],
+          "localMerged": "1165118233",
+          "paragraphIndex": 2
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "title": "帝国主义是资本主义的最高阶段",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "tableIndex": 1,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "title": "帝国主义是资本主义的最高阶段",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "title": "帝国主义是资本主义的最高阶段",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "tableIndex": 3,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "lenin-work-9b5e398ffc38",
+      "title": "无产阶级革命和叛徒考茨基",
+      "chapterId": "chapter-001-9b5e398ffc",
+      "chapterTitle": "无产阶级革命和叛徒考茨基",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1918-10.htm",
+      "tableIndex": 0,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": [
+        {
+          "row": 1,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "790",
+            "103"
+          ],
+          "localMerged": "790103",
+          "paragraphIndex": 217
+        },
+        {
+          "row": 1,
+          "columns": [
+            2,
+            3
+          ],
+          "sourceCells": [
+            "103",
+            "13％"
+          ],
+          "localMerged": "10313％",
+          "paragraphIndex": 217
+        },
+        {
+          "row": 2,
+          "columns": [
+            1,
+            2
+          ],
+          "sourceCells": [
+            "675",
+            "343"
+          ],
+          "localMerged": "675343",
+          "paragraphIndex": 217
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterId": "chapter-002-3ead29be2f",
+      "chapterTitle": "第2号（1848年6月2日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterId": "chapter-002-3ead29be2f",
+      "chapterTitle": "第2号（1848年6月2日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+      "tableIndex": 4,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterId": "chapter-011-162ccf643c",
+      "chapterTitle": "第19号（1848年6月19日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm",
+      "tableIndex": 7,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterId": "chapter-013-3776c72de1",
+      "chapterTitle": "第23号（1848年6月28日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+      "tableIndex": 2,
+      "completeTableTextLocated": false,
+      "numericBoundaryExamples": []
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterId": "chapter-014-be5b74606f",
+      "chapterTitle": "第301号（1849年5月19日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+      "tableIndex": 3,
+      "completeTableTextLocated": true,
+      "numericBoundaryExamples": []
+    }
+  ]
+}

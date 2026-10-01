@@ -55,7 +55,8 @@ data class Footnote(
     val marker: String,
     val content: List<String>,
     val references: List<FootnoteReference>,
-    val sourceMissing: Boolean = false
+    val sourceMissing: Boolean = false,
+    val imageAsset: String? = null
 ) {
     val displayContent: String get() = content.joinToString("\n\n")
 }
@@ -256,6 +257,11 @@ fun parseCatalog(json: String): LibraryCatalog {
                     marker = footnote.requireString("marker"),
                     content = footnote.optJSONArray("content").orEmpty().mapStrings(),
                     sourceMissing = footnote.optString("status") == "SOURCE_MISSING",
+                    imageAsset = footnote.optString("imageAsset").takeIf { it.isNotBlank() }?.also {
+                        require(it.startsWith("library/illustrations/") && !it.contains("..") && !it.contains('\\')) {
+                            "Invalid offline illustration path"
+                        }
+                    },
                     references = footnote.optJSONArray("references").orEmpty().mapObjects { reference ->
                         FootnoteReference(
                             paragraphIndex = reference.optInt("paragraphIndex", -1),

@@ -1,0 +1,104 @@
+{
+  "blocks": [
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+      "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+      "decodedHtmlSha256": "f0336cbad3ca21ce63fe7074b64480585c62d55facd18cc4cb07343532d988db",
+      "selector": "p.title1",
+      "sourceText": "一德国共产党人的分裂",
+      "kind": "heading",
+      "retainedTitle": "一 德国共产党人的分裂"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+      "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+      "decodedHtmlSha256": "81a57812a84f53f0a1954aa9f371a6e307b03d152505988197d98eee0045f402",
+      "selector": "p.title1",
+      "sourceText": "二德国的共产党人和独立党人",
+      "kind": "heading",
+      "retainedTitle": "二 德国的共产党人和独立党人"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+      "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+      "decodedHtmlSha256": "0e1c79178bb5b476bec70191fce1ce860b9485c7498c16235d573c50259af609",
+      "selector": "p.title1",
+      "sourceText": "三意大利的屠拉梯之流",
+      "kind": "heading",
+      "retainedTitle": "三 意大利的屠拉梯之流"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+      "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+      "decodedHtmlSha256": "157568b106e4b4fa01ad9f598eadb71c5db390492f37b5778cd35770a6422662",
+      "selector": "p.title1",
+      "sourceText": "四由正确的前提作出的错误结论",
+      "kind": "heading",
+      "retainedTitle": "四 由正确的前提作出的错误结论"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+      "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+      "decodedHtmlSha256": "5b3a1022be08cac422d7480a107612745ee0d31ca6895f7816198b9a89c7527f",
+      "selector": "p.title1",
+      "sourceText": "五",
+      "kind": "heading",
+      "retainedTitle": "五"
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "decodedHtmlSha256": "cfd7aa4dda15b59d49c33385ca15bc4abbd5ddbc3a43109e1279a53baee9b15d",
+      "selector": "p",
+      "sourceText": "在澳洲100.0%100.0%-",
+      "kind": "statistical_row",
+      "retainedText": "在澳洲 100.0% 100.0% -"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第一章有产者及无产者",
+      "kind": "heading",
+      "retainedTitle": "第一章 有产者及无产者"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第二章无产者和共产党",
+      "kind": "heading",
+      "retainedTitle": "第二章 无产者和共产党"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第三章社会主义及共产主义的著作",
+      "kind": "heading",
+      "retainedTitle": "第三章 社会主义及共产主义的著作"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第四章共产党和在野各党底关系",
+      "kind": "heading",
+      "retainedTitle": "第四章 共产党和在野各党底关系"
+    }
+  ]
+}

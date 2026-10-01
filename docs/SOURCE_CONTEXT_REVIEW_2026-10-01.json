@@ -1,0 +1,1538 @@
+{
+  "date": "2026-10-01",
+  "groups": 49,
+  "statuses": {
+    "reviewed_present_in_body": 29,
+    "reviewed_present_in_chapter_title": 13,
+    "fixed_verified": 7
+  },
+  "reviews": [
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-049-154926d8e7",
+      "chapterTitle": "第四十八章 三位一体的公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+      "sourceRawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+      "sourceLineIndex": 6,
+      "text": "Ⅰ",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">Ⅰ </h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:00.267608+00:00",
+        "rawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+        "bytes": 31163
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "Ⅰ",
+          "paragraphIndex": 1,
+          "paragraph": "Ⅰ"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-0018674e8276",
+      "chapterId": "chapter-001-0018674e82",
+      "chapterTitle": "工联",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+      "sourceRawSha256": "9ec49edb4c086c22ab574b069d574c2b0a143fc8dbf3c04bf2474cc6ca504302",
+      "sourceLineIndex": 4,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:53.800407+00:00",
+        "rawSha256": "9ec49edb4c086c22ab574b069d574c2b0a143fc8dbf3c04bf2474cc6ca504302",
+        "bytes": 11398
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-004-f4e26d3b6a",
+      "chapterTitle": "（二）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+      "sourceRawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+      "sourceLineIndex": 1,
+      "text": "二",
+      "matchingNodes": [
+        "<p class=\"title1\">二</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:49.206214+00:00",
+        "rawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+        "bytes": 38495
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（二）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-005-a18c6ba919",
+      "chapterTitle": "（三）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+      "sourceRawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+      "sourceLineIndex": 1,
+      "text": "三",
+      "matchingNodes": [
+        "<p class=\"title1\">三</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:49.394807+00:00",
+        "rawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+        "bytes": 24026
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（三）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-006-895265cde2",
+      "chapterTitle": "（四）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+      "sourceRawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+      "sourceLineIndex": 1,
+      "text": "四",
+      "matchingNodes": [
+        "<p class=\"title1\">四</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:49.576072+00:00",
+        "rawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+        "bytes": 8561
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（四）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-007-afcc83fb51",
+      "chapterTitle": "（五）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+      "sourceRawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+      "sourceLineIndex": 1,
+      "text": "五",
+      "matchingNodes": [
+        "<p class=\"title1\">五</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:49.912844+00:00",
+        "rawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+        "bytes": 43312
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（五）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-008-55ac668045",
+      "chapterTitle": "（六）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+      "sourceRawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+      "sourceLineIndex": 1,
+      "text": "六",
+      "matchingNodes": [
+        "<p class=\"title1\">六</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:50.184653+00:00",
+        "rawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+        "bytes": 16517
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（六）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-009-7fa82b5d9d",
+      "chapterTitle": "（七）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+      "sourceRawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+      "sourceLineIndex": 1,
+      "text": "七",
+      "matchingNodes": [
+        "<p class=\"title1\">七</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:50.439180+00:00",
+        "rawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+        "bytes": 8331
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "（七）"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-59ac5a872794",
+      "chapterId": "chapter-001-59ac5a8727",
+      "chapterTitle": "共产主义在德国的迅速进展",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184502-04.htm",
+      "sourceRawSha256": "513b3c99038531305a18a80d1fac4db2894910edaadfa717f1dd39b5dadd72b5",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184502-04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184502-04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:51.549772+00:00",
+        "rawSha256": "513b3c99038531305a18a80d1fac4db2894910edaadfa717f1dd39b5dadd72b5",
+        "bytes": 26551
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-66b404140af3",
+      "chapterId": "chapter-001-66b404140a",
+      "chapterTitle": "六月革命（巴黎起义的经过）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626a.htm",
+      "sourceRawSha256": "05053b84b6142a5d20be38921a5c5a74ef9e00b9ef6d25104462b33c45987293",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:51.716233+00:00",
+        "rawSha256": "05053b84b6142a5d20be38921a5c5a74ef9e00b9ef6d25104462b33c45987293",
+        "bytes": 13802
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-6c82007913ba",
+      "chapterId": "chapter-001-6c82007913",
+      "chapterTitle": "一八七七年的欧洲工人",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187802-03.htm",
+      "sourceRawSha256": "738433fc2b1905e7dafcd81ce3f4b2f777b84d1fb09624f7b57c4af3523eda0d",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187802-03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187802-03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:53.626750+00:00",
+        "rawSha256": "738433fc2b1905e7dafcd81ce3f4b2f777b84d1fb09624f7b57c4af3523eda0d",
+        "bytes": 29737
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-79eb46736f38",
+      "chapterId": "chapter-001-79eb46736f",
+      "chapterTitle": "去年十二月法国无产者相对消极的真正原因",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185202-04.htm",
+      "sourceRawSha256": "3e7d4a4b11b733e9e7ae241a82b90ce13db40eb4a51592a2292b9621ce2248b7",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185202-04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185202-04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:52.589582+00:00",
+        "rawSha256": "3e7d4a4b11b733e9e7ae241a82b90ce13db40eb4a51592a2292b9621ce2248b7",
+        "bytes": 16157
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 0,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-91d92c260e99",
+      "chapterId": "chapter-001-91d92c260e",
+      "chapterTitle": "流亡者文献",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+      "sourceRawSha256": "4735f6139fab53a911e64d852b2d874935f4892803a6c26b0a7e512ed2527122",
+      "sourceLineIndex": 9,
+      "text": "一",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:53.333076+00:00",
+        "rawSha256": "4735f6139fab53a911e64d852b2d874935f4892803a6c26b0a7e512ed2527122",
+        "bytes": 85961
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一 波兰宣言 [426]",
+          "paragraphIndex": 1,
+          "paragraph": "一 波兰宣言 [426]"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-95ed94e903a2",
+      "chapterId": "chapter-001-95ed94e903",
+      "chapterTitle": "法兰克福起义",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18480919-20.htm",
+      "sourceRawSha256": "8d923cd2da420ed0f9fb8a859d14b1c1442ddd71943efffee5b63c3031e4eb0e",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18480919-20.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18480919-20.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:52.237465+00:00",
+        "rawSha256": "8d923cd2da420ed0f9fb8a859d14b1c1442ddd71943efffee5b63c3031e4eb0e",
+        "bytes": 6028
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-aabbcfed4568",
+      "chapterId": "chapter-001-aabbcfed45",
+      "chapterTitle": "从巴黎到伯尔尼",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+      "sourceRawSha256": "0f11f475b6d73eba16dc1e771f8417c42becc3f549422ace680e73276f72901e",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18470626b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:51.937745+00:00",
+        "rawSha256": "0f11f475b6d73eba16dc1e771f8417c42becc3f549422ace680e73276f72901e",
+        "bytes": 34885
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一 塞纳河和罗亚尔河",
+          "paragraphIndex": 1,
+          "paragraph": "一 塞纳河和罗亚尔河"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-001-ef01c4c9ae",
+      "chapterTitle": "（一）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+      "sourceRawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:50.522218+00:00",
+        "rawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+        "bytes": 30778
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-002-b33f6d2e7f",
+      "chapterTitle": "（二）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+      "sourceRawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+      "sourceLineIndex": 2,
+      "text": "二",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">二</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:50.650659+00:00",
+        "rawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+        "bytes": 14642
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "二",
+          "paragraphIndex": 1,
+          "paragraph": "二"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-003-fe2db52546",
+      "chapterTitle": "（三）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+      "sourceRawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+      "sourceLineIndex": 2,
+      "text": "三",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">三</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:51.353618+00:00",
+        "rawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+        "bytes": 33087
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "三",
+          "paragraphIndex": 1,
+          "paragraph": "三"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-0eccdda97b29",
+      "chapterId": "chapter-001-0eccdda97b",
+      "chapterTitle": "对工厂工人罚款法的解释",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1895.htm",
+      "sourceRawSha256": "90a6c78a1220cf8fe1e2da1eebe7703108bbb6c4ca1905c2352b9a4806be0119",
+      "sourceLineIndex": 11,
+      "text": "一",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1895.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1895.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:57.094544+00:00",
+        "rawSha256": "90a6c78a1220cf8fe1e2da1eebe7703108bbb6c4ca1905c2352b9a4806be0119",
+        "bytes": 55401
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一 什么是罚款？",
+          "paragraphIndex": 1,
+          "paragraph": "一 什么是罚款？"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-154a7e910b61",
+      "chapterId": "chapter-001-154a7e910b",
+      "chapterTitle": "全俄苏维埃第四次（非常）代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+      "sourceRawSha256": "180a76d5730bfa5c258fa13bd649bc6e964f1457a9dae5e28710d78391730096",
+      "sourceLineIndex": 7,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:59.740142+00:00",
+        "rawSha256": "180a76d5730bfa5c258fa13bd649bc6e964f1457a9dae5e28710d78391730096",
+        "bytes": 47523
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 关于威尔逊的声明的决议草案 [46] （3月14日）",
+          "paragraphIndex": 1,
+          "paragraph": "1 关于威尔逊的声明的决议草案 [46] （3月14日）"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-2d5cdc60a74b",
+      "chapterId": "chapter-001-2d5cdc60a7",
+      "chapterTitle": "俄国社会民主工党（布）第七次全国代表会议（四月代表会议）文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+      "sourceRawSha256": "056ca6e389334738e40cc8fdb5b43aa25a4db3cccf3537d9429fad50d3ae7e34",
+      "sourceLineIndex": 29,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:58.159754+00:00",
+        "rawSha256": "056ca6e389334738e40cc8fdb5b43aa25a4db3cccf3537d9429fad50d3ae7e34",
+        "bytes": 134566
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 代表会议开幕词 （4月24日〔5月7日〕）",
+          "paragraphIndex": 1,
+          "paragraph": "1 代表会议开幕词 （4月24日〔5月7日〕）"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "sourceLineIndex": 529,
+      "text": "-",
+      "matchingNodes": [
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>",
+        "<span lang=\"EN-US\">-</span>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:54.576953+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "status": "fixed_verified",
+      "details": "恢复澳洲统计行第二个 100.0% 和末尾 -，保留两个相同数值。",
+      "finalMachineStatus": "PRESENT_IN_LOCAL_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-6f25afd43df4",
+      "chapterId": "chapter-001-6f25afd43d",
+      "chapterTitle": "俄共（布）第七次（紧急）代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+      "sourceRawSha256": "ee2113a7814fed657e9abfe6b9e7790773304b0f3cc0264ae5b5511330f60d3e",
+      "sourceLineIndex": 21,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:59.801662+00:00",
+        "rawSha256": "ee2113a7814fed657e9abfe6b9e7790773304b0f3cc0264ae5b5511330f60d3e",
+        "bytes": 114353
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 央委员会政治报告 （3月7日）",
+          "paragraphIndex": 1,
+          "paragraph": "1 央委员会政治报告 （3月7日）"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-aa5d8f8b4bc3",
+      "chapterId": "chapter-001-aa5d8f8b4b",
+      "chapterTitle": "全俄工兵农代表苏维埃第三次代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+      "sourceRawSha256": "5d38a1d5ea6c4f2f0b531bb06ec45355d930bd0cd3c9168c53d11cf8fce49dcd",
+      "sourceLineIndex": 7,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:59.302822+00:00",
+        "rawSha256": "5d38a1d5ea6c4f2f0b531bb06ec45355d930bd0cd3c9168c53d11cf8fce49dcd",
+        "bytes": 41121
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 人民委员会工作报告",
+          "paragraphIndex": 1,
+          "paragraph": "1 人民委员会工作报告"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-011-8055be513d",
+      "chapterTitle": "德国共产党人的分裂",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+      "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:54.620997+00:00",
+        "rawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+        "bytes": 3921
+      },
+      "status": "fixed_verified",
+      "details": "恢复源页增补编号及其标题；正文插入并增补目录入口。",
+      "finalMachineStatus": "PRESENT_IN_LOCAL_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-012-7d1e35d230",
+      "chapterTitle": "德国的共产党人和独立党人",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+      "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+      "sourceLineIndex": 1,
+      "text": "二",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:54.692512+00:00",
+        "rawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+        "bytes": 4388
+      },
+      "status": "fixed_verified",
+      "details": "恢复源页增补编号及其标题；正文插入并增补目录入口。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-013-04d525d516",
+      "chapterTitle": "意大利的屠拉梯之流",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+      "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+      "sourceLineIndex": 1,
+      "text": "三",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:55.059474+00:00",
+        "rawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+        "bytes": 2834
+      },
+      "status": "fixed_verified",
+      "details": "恢复源页增补编号及其标题；正文插入并增补目录入口。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-014-836bb50e59",
+      "chapterTitle": "由正确的前提作出的错误结论",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+      "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+      "sourceLineIndex": 1,
+      "text": "四",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:55.409394+00:00",
+        "rawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+        "bytes": 7434
+      },
+      "status": "fixed_verified",
+      "details": "恢复源页增补编号及其标题；正文插入并增补目录入口。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-015-1b23ad060e",
+      "chapterTitle": "怀恩科普的来信",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+      "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+      "sourceLineIndex": 1,
+      "text": "五",
+      "matchingNodes": [
+        "<p class=\"title1\">五</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:55.744222+00:00",
+        "rawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+        "bytes": 1932
+      },
+      "status": "fixed_verified",
+      "details": "恢复源页增补编号及其标题；正文插入并增补目录入口。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b5dee19bbdf0",
+      "chapterId": "chapter-001-b5dee19bbd",
+      "chapterTitle": "修改党纲的材料",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191704-05.htm",
+      "sourceRawSha256": "aafbd1e49f623dbd6ee3f590e930e9969fdf8ac2de099369de046788d8631770",
+      "sourceLineIndex": 3,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191704-05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191704-05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:57.722470+00:00",
+        "rawSha256": "aafbd1e49f623dbd6ee3f590e930e9969fdf8ac2de099369de046788d8631770",
+        "bytes": 27766
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 序言",
+          "paragraphIndex": 1,
+          "paragraph": "1 序言"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-b6c9b759b0d5",
+      "chapterId": "chapter-001-b6c9b759b0",
+      "chapterTitle": "全俄工兵代表苏维埃第二次代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+      "sourceRawSha256": "879b13f701a44eec9a1fc0431bebdeeb052b2a8169a7bb4ac66bb705a6ca4350",
+      "sourceLineIndex": 10,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:58.716523+00:00",
+        "rawSha256": "879b13f701a44eec9a1fc0431bebdeeb052b2a8169a7bb4ac66bb705a6ca4350",
+        "bytes": 28565
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 告工人、士兵和农民书",
+          "paragraphIndex": 1,
+          "paragraph": "1 告工人、士兵和农民书"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-bedd07acd3c1",
+      "chapterId": "chapter-001-bedd07acd3",
+      "chapterTitle": "新工厂法",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1897.htm",
+      "sourceRawSha256": "1ce39c31370ed888bb3ffe75c7c0410405313b20fb1950d67773f307e1d60ae2",
+      "sourceLineIndex": 14,
+      "text": "一",
+      "matchingNodes": [
+        "<h4 style=\"text-align: center\">一</h4>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1897.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-1897.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:57.525714+00:00",
+        "rawSha256": "1ce39c31370ed888bb3ffe75c7c0410405313b20fb1950d67773f307e1d60ae2",
+        "bytes": 60875
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一 什么东西促成了新工厂法的颁布？",
+          "paragraphIndex": 1,
+          "paragraph": "一 什么东西促成了新工厂法的颁布？"
+        },
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 38,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-c11f06413c0f",
+      "chapterId": "chapter-001-c11f06413c",
+      "chapterTitle": "危机成熟了",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170929.htm",
+      "sourceRawSha256": "eef586d68d69802970c011a791836400a3226ceebf94872c91b062b438facef2",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170929.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170929.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:58.367486+00:00",
+        "rawSha256": "eef586d68d69802970c011a791836400a3226ceebf94872c91b062b438facef2",
+        "bytes": 16163
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-d8d6f0343f91",
+      "chapterId": "chapter-001-d8d6f0343f",
+      "chapterTitle": "共产国际第一次代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191903.htm",
+      "sourceRawSha256": "407655835a88b10676b5d71c3de41245c8cc52adb5f0875ca5c4328685135c7a",
+      "sourceLineIndex": 4,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191903.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191903.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:56.285139+00:00",
+        "rawSha256": "407655835a88b10676b5d71c3de41245c8cc52adb5f0875ca5c4328685135c7a",
+        "bytes": 15157
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 开幕词 (3月2日)",
+          "paragraphIndex": 1,
+          "paragraph": "1 开幕词 (3月2日)"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "lenin-work-edec9404921c",
+      "chapterId": "chapter-001-edec940492",
+      "chapterTitle": "关于无产阶级文化",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1920a.htm",
+      "sourceRawSha256": "e7149b7d9b9d187ca1891f4bd8684775576f4e2111c43567a8fc4503be61cb59",
+      "sourceLineIndex": 4,
+      "text": "1",
+      "matchingNodes": [],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1920a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1920a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:56.424447+00:00",
+        "rawSha256": "e7149b7d9b9d187ca1891f4bd8684775576f4e2111c43567a8fc4503be61cb59",
+        "bytes": 3149
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "1 决议草案 (10月8日)",
+          "paragraphIndex": 1,
+          "paragraph": "1 决议草案 (10月8日)"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "chapterId": "chapter-001-6ba24f9fbb",
+      "chapterTitle": "共产党宣言（1920年陈望道译本）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "sourceLineIndex": 14,
+      "text": "（",
+      "matchingNodes": [
+        "<td style=\"line-height: 200%\">\n<b><font size=\"7\">（</font></b></td>",
+        "<font size=\"7\">（</font>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:04.171375+00:00",
+        "rawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+        "bytes": 48212
+      },
+      "status": "fixed_verified",
+      "details": "恢复四个章标题、目录入口及第一章释义开括号。",
+      "finalMachineStatus": "PRESENT_IN_LOCAL_CONTEXT"
+    },
+    {
+      "bookId": "mao-work-17fd9fa108ce",
+      "chapterId": "chapter-001-17fd9fa108",
+      "chapterTitle": "《农村调查》的序言和跋",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-194134.htm",
+      "sourceRawSha256": "c9704f34c4e6be07fc663bc198af6f969e3866dbea250a3fec72a7e9ccc1e6fc",
+      "sourceLineIndex": 3,
+      "text": "序",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">序</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-194134.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-194134.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:33:59.919461+00:00",
+        "rawSha256": "c9704f34c4e6be07fc663bc198af6f969e3866dbea250a3fec72a7e9ccc1e6fc",
+        "bytes": 8383
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "序",
+          "paragraphIndex": 1,
+          "paragraph": "序"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-003-1f1b053bf5",
+      "chapterTitle": "一 1848年2月至1851年12月",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+      "sourceRawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<p class=\"title1\">一</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:00.830190+00:00",
+        "rawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+        "bytes": 20438
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "一 1848年2月至1851年12月"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-004-23967e8bc3",
+      "chapterTitle": "二 共和党的倒台",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+      "sourceRawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+      "sourceLineIndex": 1,
+      "text": "二",
+      "matchingNodes": [
+        "<p class=\"title1\">二</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:01.183622+00:00",
+        "rawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+        "bytes": 22367
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "二 共和党的倒台"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-005-6e8d972984",
+      "chapterTitle": "三 路易・波拿巴的崛起",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+      "sourceRawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+      "sourceLineIndex": 1,
+      "text": "三",
+      "matchingNodes": [
+        "<p class=\"title1\">三</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:01.489260+00:00",
+        "rawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+        "bytes": 24814
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "三 路易・波拿巴的崛起"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-006-1861b155a5",
+      "chapterTitle": "四 小资产阶级民主派的失败",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+      "sourceRawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+      "sourceLineIndex": 1,
+      "text": "四",
+      "matchingNodes": [
+        "<p class=\"title1\">四</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:01.673305+00:00",
+        "rawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+        "bytes": 17382
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "四 小资产阶级民主派的失败"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-007-1604d7f197",
+      "chapterTitle": "五 制宪国民议会和波拿巴",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+      "sourceRawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+      "sourceLineIndex": 1,
+      "text": "五",
+      "matchingNodes": [
+        "<p class=\"title1\">五</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:02.042248+00:00",
+        "rawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+        "bytes": 30536
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "五 制宪国民议会和波拿巴"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-008-b27d9cd47e",
+      "chapterTitle": "六 波拿巴的胜利",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+      "sourceRawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+      "sourceLineIndex": 1,
+      "text": "六",
+      "matchingNodes": [
+        "<p class=\"title1\">六</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:02.369688+00:00",
+        "rawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+        "bytes": 31004
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "六 波拿巴的胜利"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-009-c567f68dc0",
+      "chapterTitle": "七 总结",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+      "sourceRawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+      "sourceLineIndex": 1,
+      "text": "七",
+      "matchingNodes": [
+        "<p class=\"title1\">七</p>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:02.933963+00:00",
+        "rawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+        "bytes": 25574
+      },
+      "status": "reviewed_present_in_chapter_title",
+      "localEvidence": {
+        "chapterTitle": "七 总结"
+      },
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-aa2c432713a7",
+      "chapterId": "chapter-001-aa2c432713",
+      "chapterTitle": "法兰西内战",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+      "sourceRawSha256": "50dd99fa706d932551385c5f0e95fcb90bf7a41da0f8bb5a4df510b64034f789",
+      "sourceLineIndex": 83,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>",
+        "<h4 style=\"text-align: center\">一</h4>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:03.906776+00:00",
+        "rawSha256": "50dd99fa706d932551385c5f0e95fcb90bf7a41da0f8bb5a4df510b64034f789",
+        "bytes": 114774
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 77,
+          "paragraph": "一"
+        },
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 222,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "chapterTitle": "雇佣劳动与资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "sourceRawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+      "sourceLineIndex": 43,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:05.222288+00:00",
+        "rawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+        "bytes": 56961
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 29,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-c5c29e257f85",
+      "chapterId": "chapter-001-c5c29e257f",
+      "chapterTitle": "资产阶级和反革命",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184812.htm",
+      "sourceRawSha256": "ac70a06e68ecb58988512bb21728bc0f0e81feba8dd2a87d68409cca629e1612",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184812.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184812.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:04.540002+00:00",
+        "rawSha256": "ac70a06e68ecb58988512bb21728bc0f0e81feba8dd2a87d68409cca629e1612",
+        "bytes": 48261
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 0,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-db00bc86f053",
+      "chapterId": "chapter-001-db00bc86f0",
+      "chapterTitle": "雇佣劳动与资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-1847-1849.htm",
+      "sourceRawSha256": "fb5db72baac237eb76a926f608e32fa4ec444d38008cd769579eb663edf4c434",
+      "sourceLineIndex": 2,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-1847-1849.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-1847-1849.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:04.137257+00:00",
+        "rawSha256": "fb5db72baac237eb76a926f608e32fa4ec444d38008cd769579eb663edf4c434",
+        "bytes": 53310
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    },
+    {
+      "bookId": "marx-work-fd45202891f0",
+      "chapterId": "chapter-001-fd45202891",
+      "chapterTitle": "鸦片贸易史",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1858.htm",
+      "sourceRawSha256": "11b48e727c9bf45648b74fc42a0dd46b05dc58e6c8c82f19606c148ba37c2dee",
+      "sourceLineIndex": 3,
+      "text": "一",
+      "matchingNodes": [
+        "<h3 style=\"text-align: center\">一</h3>"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1858.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1858.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-01T14:34:03.090302+00:00",
+        "rawSha256": "11b48e727c9bf45648b74fc42a0dd46b05dc58e6c8c82f19606c148ba37c2dee",
+        "bytes": 9650
+      },
+      "status": "reviewed_present_in_body",
+      "localEvidence": [
+        {
+          "sectionTitle": "一",
+          "paragraphIndex": 1,
+          "paragraph": "一"
+        }
+      ],
+      "details": "机器上下文包含页面导航或章节外标题，不能直接定位；本地分节／章节标题已呈现该源页编号，无需重复补写。",
+      "finalMachineStatus": "UNRESOLVED_CONTEXT"
+    }
+  ],
+  "reviewedBlocks": [
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+      "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+      "decodedHtmlSha256": "f0336cbad3ca21ce63fe7074b64480585c62d55facd18cc4cb07343532d988db",
+      "selector": "p.title1",
+      "sourceText": "一德国共产党人的分裂",
+      "kind": "heading",
+      "retainedTitle": "一 德国共产党人的分裂"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+      "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+      "decodedHtmlSha256": "81a57812a84f53f0a1954aa9f371a6e307b03d152505988197d98eee0045f402",
+      "selector": "p.title1",
+      "sourceText": "二德国的共产党人和独立党人",
+      "kind": "heading",
+      "retainedTitle": "二 德国的共产党人和独立党人"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+      "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+      "decodedHtmlSha256": "0e1c79178bb5b476bec70191fce1ce860b9485c7498c16235d573c50259af609",
+      "selector": "p.title1",
+      "sourceText": "三意大利的屠拉梯之流",
+      "kind": "heading",
+      "retainedTitle": "三 意大利的屠拉梯之流"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+      "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+      "decodedHtmlSha256": "157568b106e4b4fa01ad9f598eadb71c5db390492f37b5778cd35770a6422662",
+      "selector": "p.title1",
+      "sourceText": "四由正确的前提作出的错误结论",
+      "kind": "heading",
+      "retainedTitle": "四 由正确的前提作出的错误结论"
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+      "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+      "decodedHtmlSha256": "5b3a1022be08cac422d7480a107612745ee0d31ca6895f7816198b9a89c7527f",
+      "selector": "p.title1",
+      "sourceText": "五",
+      "kind": "heading",
+      "retainedTitle": "五"
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "decodedHtmlSha256": "cfd7aa4dda15b59d49c33385ca15bc4abbd5ddbc3a43109e1279a53baee9b15d",
+      "selector": "p",
+      "sourceText": "在澳洲100.0%100.0%-",
+      "kind": "statistical_row",
+      "retainedText": "在澳洲 100.0% 100.0% -"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第一章有产者及无产者",
+      "kind": "heading",
+      "retainedTitle": "第一章 有产者及无产者"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第二章无产者和共产党",
+      "kind": "heading",
+      "retainedTitle": "第二章 无产者和共产党"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第三章社会主义及共产主义的著作",
+      "kind": "heading",
+      "retainedTitle": "第三章 社会主义及共产主义的著作"
+    },
+    {
+      "bookId": "manifesto-zh-1920",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184002-cwd.htm",
+      "sourceRawSha256": "72fcf1c2b8bcdda6abfc3f76b3ead602e0f2c754391c7fde8faac367e183b99e",
+      "decodedHtmlSha256": "1b8f9d2c36a6900018ca794b08ee438d3e0f05f5236c7b30af17168f69c93bd9",
+      "selector": "h3",
+      "sourceText": "第四章共产党和在野各党底关系",
+      "kind": "heading",
+      "retainedTitle": "第四章 共产党和在野各党底关系"
+    }
+  ],
+  "note": "Manual dispositions supplement the raw scanner; chapter-title presentation is accepted. These conclusions only cover these candidates, not whole-library sentence-level proofreading.",
+  "finalIndependentScan": {
+    "date": "2026-10-01",
+    "books": 650,
+    "chapters": 884,
+    "statuses": {
+      "PRESENT_IN_LOCAL_CONTEXT": 469,
+      "UNRESOLVED_CONTEXT": 46
+    },
+    "allUnresolvedHaveManualDisposition": true
+  }
+}

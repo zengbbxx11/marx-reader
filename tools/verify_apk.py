@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import hashlib
 import subprocess
 import zipfile
 from pathlib import Path
@@ -19,6 +20,16 @@ def main() -> None:
     expected = {f"assets/library/books/{book['id']}.json" for book in catalog["books"]}
     with zipfile.ZipFile(args.apk) as archive:
         names = set(archive.namelist())
+        image_references = 0
+        for name in sorted(expected):
+            book = json.loads(archive.read(name))["books"][0]
+            for chapter in book["chapters"]:
+                for note in chapter.get("footnotes", []):
+                    if note.get("imageAsset"):
+                        image_name = "assets/" + note["imageAsset"]
+                        assert image_name in names, f"missing offline source illustration: {image_name}"
+                        assert hashlib.sha256(archive.read(image_name)).hexdigest() == note["imageSha256"], image_name
+                        image_references += 1
     actual = {name for name in names if name.startswith("assets/library/books/") and name.endswith(".json")}
     assert actual == expected, f"offline asset mismatch: missing={expected - actual}, extra={actual - expected}"
 
@@ -26,7 +37,7 @@ def main() -> None:
         [str(args.aapt), "dump", "permissions", str(args.apk)], text=True, encoding="utf-8", errors="replace"
     )
     assert "android.permission.INTERNET" not in permission_dump, "APK unexpectedly requests INTERNET"
-    print(f"OK: apk_bytes={args.apk.stat().st_size} offline_books={len(actual)} INTERNET=false")
+    print(f"OK: apk_bytes={args.apk.stat().st_size} offline_books={len(actual)} image_references={image_references} INTERNET=false")
 
 
 if __name__ == "__main__":

@@ -79,6 +79,8 @@ def repair_book(book: dict, stats: collections.Counter, samples: dict) -> None:
             book[field] = replace_pua(book[field], stats)
 
     titles = build_title_set(book)
+    from library_source_reviewed_blocks import preserved_titles
+    reviewed_titles = {norm(title) for title in preserved_titles(book['id'])}
 
     for chapter in book.get("chapters") or []:
         content = chapter.get("content") or []
@@ -98,7 +100,8 @@ def repair_book(book: dict, stats: collections.Counter, samples: dict) -> None:
                 stats["nav_removed"] += 1
                 samples.setdefault("nav", []).append(f"{book['id']}/{chapter['id']}#{index}: {text[:60]}")
                 continue
-            if (STRUCT_RE.match(text) and len(text) <= STRUCT_MAX_LEN
+            if (not any(norm(text).startswith(title) for title in reviewed_titles)
+                    and STRUCT_RE.match(text) and len(text) <= STRUCT_MAX_LEN
                     and (norm(text) in titles or norm(text) == title_n or index < HEAD_WINDOW)):
                 removed.add(index)
                 stats["struct_removed"] += 1

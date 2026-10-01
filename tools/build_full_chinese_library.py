@@ -22,6 +22,11 @@ from bs4 import BeautifulSoup, NavigableString
 
 from audit_library_quality import infer_local_year, is_credible_inferred_heading
 from text_encoding import decode_html
+from library_source_images import image_tokens
+from library_source_headings import restore_numbered_headings
+from library_source_tables import table_tokens
+from library_source_short_lines import preserve_short_lines, materialize_short_lines
+from library_source_notes import note_tokens
 
 
 HOST = "www.marxists.org"
@@ -307,6 +312,11 @@ def split_long(value: str, target: int = 1400) -> list[str]:
 
 def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | None:
     soup = BeautifulSoup(html, "lxml")
+    for table in soup.find_all("table"):
+        table._original_source_sha256 = hashlib.sha256(str(table).encode()).hexdigest()
+    short_tokens = preserve_short_lines(soup, url, html)
+    from library_source_reviewed_blocks import restore_blocks
+    restore_blocks(soup, url, html)
     for selector in NOISE_SELECTORS:
         for node in soup.select(selector):
             node.decompose()
@@ -327,6 +337,9 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
 
     reference_tokens: dict[str, tuple[str, str]] = {}
     definition_tokens: dict[str, tuple[str, str]] = {}
+    source_images = table_tokens(root, url, reference_tokens)
+    source_images.update(image_tokens(root, url, reference_tokens))
+    note_tokens(root, url, reference_tokens, definition_tokens, short_tokens)
     for anchor in list(root.select("a[href]")):
         key = anchor_key(anchor)
         href = str(anchor.get("href", "")).strip()
@@ -346,6 +359,7 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
         definition_tokens[token] = (key, marker)
         anchor.replace_with(NavigableString(token))
 
+    restore_numbered_headings(root, url)
     heading = root.find(["h1", "h2", "h3"])
     title = clean_space(label or (heading.get_text(" ", strip=True) if heading else ""))
     markers: dict[str, tuple[str, int, str]] = {}
@@ -411,13 +425,14 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             value, references, definitions = materialize_footnote_tokens(
                 value, reference_tokens, definition_tokens
             )
-            value = clean_space(value)
+            reviewed_heading = short_tokens.get(value)
+            value = clean_space(materialize_short_lines(value, short_tokens))
             if not value:
                 continue
             paragraph_index = len(paragraphs)
             footnote_references.extend({**reference, "paragraphIndex": paragraph_index} for reference in references)
             footnote_definitions.extend({**definition, "paragraphIndex": paragraph_index} for definition in definitions)
-            inferred_level = inferred_heading_level(value)
+            inferred_level = reviewed_heading["level"] if reviewed_heading and reviewed_heading["heading"] else inferred_heading_level(value)
             if inferred_level is not None and not any(section["paragraphIndex"] == len(paragraphs) for section in sections):
                 sections.append({
                     "id": f"section-{len(sections) + 1:03d}-{hashlib.sha1((url + value).encode()).hexdigest()[:8]}",
@@ -510,6 +525,12 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
         references_by_id.setdefault(reference["id"], []).append(reference)
     footnotes = []
     for footnote_id, references in references_by_id.items():
+        if footnote_id in source_images:
+            footnotes.append({**source_images[footnote_id], "references": [
+                {"paragraphIndex": r["paragraphIndex"], "start": r["start"], "end": r["end"]}
+                for r in references
+            ]})
+            continue
         definition = definition_by_id.get(footnote_id)
         if definition is None:
             continue

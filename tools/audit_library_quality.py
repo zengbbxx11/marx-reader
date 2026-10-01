@@ -57,6 +57,20 @@ class LibraryPayload:
     load_findings: list[Finding]
 
 
+def reviewed_numeric_section(book_id, chapter, section):
+    manifest = json.loads(Path(__file__).with_name('library_source_short_lines.json').read_text())
+    for page in manifest['pages']:
+        if page.get('bookId') != book_id: continue
+        if not chapter['id'].endswith(hashlib.sha1(page['sourceUrl'].encode()).hexdigest()[:10]): continue
+        for record in page['records']:
+            if record['reviewCategory'] != 'CONFIRMED_HEADING_OMISSION' or not record['text'].isdecimal(): continue
+            expected = 'source-short-heading-' + hashlib.sha1((page['sourceUrl'] + str(record['sourceLineIndex']) + record['text']).encode()).hexdigest()[:12]
+            pi = section.get('paragraphIndex')
+            if section['id'] == expected and section['title'] == record['text'] and isinstance(pi,int) and 0 <= pi < len(chapter['content']) and chapter['content'][pi].startswith(record['text'] + '\n'):
+                return True
+    return False
+
+
 def suspicious_section_reason(value: str) -> str | None:
     """Return a reason when a heading is clearly numeric/table data."""
     title = re.sub(r"\s+", " ", value).strip()
@@ -160,6 +174,7 @@ def load_library(path: Path) -> LibraryPayload:
             chapter["characterCount"] = sum(paragraph_character_counts)
             chapter.pop("content", None)
             chapter.pop("footnotes", None)
+            chapter.pop("sourceTextRepairs", None)
         expected_metadata["characterCount"] = sum(
             chapter.get("characterCount", 0) for chapter in expected_metadata.get("chapters", [])
         )
@@ -388,7 +403,7 @@ def audit(payload: LibraryPayload, include_rights_review: bool = False) -> list[
                 section_location = f"{chapter_location}/{section_id}"
                 section_title = str(section.get("title", "")).strip()
                 reason = suspicious_section_reason(section_title)
-                if reason:
+                if reason and not reviewed_numeric_section(book_id, chapter, section):
                     add("ERROR", "SUSPICIOUS_SECTION_TITLE", section_location, f"{reason}: {section_title!r}")
                 if REPLACEMENT_CHARACTER in section_title:
                     add(
