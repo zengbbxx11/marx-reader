@@ -249,9 +249,15 @@ def keep_text(value: str, title: str) -> bool:
     if stripped.startswith(("-> ", "→ ", ">> ")) and len(stripped) <= 40:
         return False
     lowered = value.lower()
+    # The archive name also appears in inline editorial notes (e.g. Mao's
+    # paragraph 88 in On Protracted War). Only standalone breadcrumbs are noise.
+    if re.match(r"^中文马克思主义文库(?:\s*(?:->|→|>>|»).*)?$", stripped):
+        return False
+    if re.fullmatch(r"中文马克思主义文库\s*\d{4}年\d{1,2}月(?:\d{1,2}日)?更新[。.]?", stripped):
+        return False
     return not any(noise in lowered for noise in (
         "marxists internet archive", "google site search", "contact us", "last updated",
-        "中文马克思主义文库", "download:", "jump to", "privacy policy", "文库管理员",
+        "download:", "jump to", "privacy policy", "文库管理员",
     ))
 
 
@@ -332,7 +338,11 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             node.decompose()
     for node in list(root.find_all(["div", "p"])):
         value = clean_space(node.get_text(" ", strip=True))
-        if value.startswith(("〔来源〕", "[来源]", "来源：")) and len(value) < 600:
+        if (
+            value.startswith(("〔来源〕", "[来源]", "来源："))
+            and len(value) < 600
+            and not re.search(r"(?:说明|编者注|译者注)[:：]", value)
+        ):
             node.decompose()
 
     reference_tokens: dict[str, tuple[str, str]] = {}
@@ -536,6 +546,15 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             continue
         start_index = definition["paragraphIndex"]
         end_index = definition_end_by_id[footnote_id]
+        # A final note must not absorb a separately headed index that follows it.
+        index_boundaries = [
+            paragraph_index_map[section['paragraphIndex']]
+            for section in sections
+            if section['title'] in {'人名索引', '名词索引', '书刊索引', '索引'}
+            and start_index < paragraph_index_map[section['paragraphIndex']] < end_index
+        ]
+        if index_boundaries:
+            end_index = min(index_boundaries)
         first = deduped[start_index]
         content = [
             (first[:definition["start"]] + first[definition["end"]:]).strip(),

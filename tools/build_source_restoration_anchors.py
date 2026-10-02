@@ -8,6 +8,21 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def generate():
     mappings={}
+    # Portable evidence retains this mapping even when local snapshots are absent.
+    review = ROOT/'docs/SOURCE_LONG_WAR_REVIEW_2026-10-02.json'
+    if review.exists():
+        mapping = json.loads(review.read_text())['restorationMapping']
+        mappings[(mapping['currentHash'], mapping['previousHash'])] = [tuple(r) for r in mapping['ranges']]
+    filter_review = ROOT/'docs/SOURCE_FILTER_REVIEW_2026-10-02.json'
+    if filter_review.exists():
+        for record in json.loads(filter_review.read_text())['repairs']:
+            mapping = record['restorationMapping']
+            mappings[(mapping['currentHash'], mapping['previousHash'])] = [tuple(r) for r in mapping['ranges']]
+    container_review = ROOT/'docs/SOURCE_CONTAINER_REVIEW_2026-10-02.json'
+    if container_review.exists():
+        for record in json.loads(container_review.read_text())['repairs']:
+            mapping = record['restorationMapping']
+            mappings[(mapping['currentHash'], mapping['previousHash'])] = [tuple(r) for r in mapping['ranges']]
     for folder in ['before-repair','before-layout-repair','before-table-repair','before-short-line-repair','before-source-note-repair']:
         paths = list((ROOT/'.generated/source-audit-20261001'/folder).glob('*.json'))
         if folder == 'before-repair':
