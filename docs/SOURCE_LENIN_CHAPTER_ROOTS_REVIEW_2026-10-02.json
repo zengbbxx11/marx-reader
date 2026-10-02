@@ -1,0 +1,3693 @@
+{
+  "date": "2026-10-02",
+  "scope": "怎么办、社会民主党在民主革命中的两种策略、国家与革命、左派幼稚病47个新鲜源页及138个独立短行候选；根标题、BR分行、独立文库路径和导航。两处序言抽取例外显式登记。",
+  "reviews": [
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-001-057d21ff84",
+      "title": "《怎么办？》",
+      "chapterTitle": "序言",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+      "sourceRawSha256": "024e47bb9f418a74a42d53279f443be5e66d5adf0e21c67d3d9b1ce0ad5a299d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:10.109083+00:00",
+        "rawSha256": "024e47bb9f418a74a42d53279f443be5e66d5adf0e21c67d3d9b1ce0ad5a299d",
+        "bytes": 9113
+      },
+      "localBodySha256": "2a36049295321ef0aa2d18f5980ce7e24a167cbc91d00a310a585632961a0b6a",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-001-057d21ff84",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "序言",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-057d21ff84",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "照作者的原定计划，这本小册子要详细发挥《从何着手？》（1901年5月《火星报》[2] 第4号）一文[3]中所谈的那些思想。我们应当首先向读者致歉，在那篇文章中许下的诺言（这个诺言在答复许多私人询问和信件时也一再重复过）履行得迟了些。推迟的原因之一，是去年（1901年）6月间曾经试图把所有的国外社会民主党人组织统一起来141。当时自然要等待这次尝试的结果，因为这次尝试如果成功，我们也许就要从稍微不同的角度来说明《火星报》的组织观点；无论如何，这次尝试成功就有希望很快消除俄国社会民主党内存在两个派别的现象。读者知道，这次尝试以失败告终，而且，正像我们在下面将要竭力证明的那样，《工人事业》[4]在第10期上重新转向“经济主义”以后，这次尝试也不能不以失败告终。同这个模糊不清、缺乏明确性、可是却比较顽固并能在各种形式下复活起来的派别作坚决的斗争，已经是绝对必要的事情了。因此，本书的原定计划也就有所改变并且大大地扩充了。",
+        "本书的主题，本来应当是《从何着手？》一文中所提出的三个问题，即我们的政治鼓动的性质和主要内容问题，我们的组织任务问题，在各地同时着手建立全俄的战斗组织的计划问题。作者早就关心这些问题，还在筹划《工人报》[5]复刊时就曾想在这个报上提出来，不过这次复刊的尝试也没有成功（见第5章）。原来设想在本书中只分析这三个问题，并尽可能正面阐述自己的观点，而不采用或者几乎不采用论战方式，但是由于下面两个原因，这种设想根本无法实现。一方面，“经济主义”比我们设想的要顽强得多（我们用“经济主义”这个词是广义的，在1901年12月《火星报》第12号上发表的《同经济主义的拥护者商榷》一文已经说明了这一点，那篇文章可以说是定出了本书的大纲[6]。现在已经很明显，对于解决这三个问题所以存在着各种不同的观点，在很大程度上是由于俄国社会民主党内两个派别的根本对立，而不是由于局部的意见分歧。另一方面，“经济派”[7]对于《火星报》实际宣传我们的观点表示茫然不解，这显然表明：我们往往简直是各讲各的话；如果我们不从头讲起，那我们就不可能谈出什么结果；必须作一次尝试，用尽可能通俗的方式，用大量具体的例证，来就我们之间的意见分歧的一切根本之点，向所有的“经济派”作系统的“说明”。于是我就决定作这样一次“说明”的尝试，虽然我明明知道，这会使本书的篇幅大大增加，并且使出版日期推迟，但是除此之外，我看不出有什么别的办法来履行我在《从何着手？》一文中许下的诺言，除了为出版迟缓致歉之外，还要为本书文字修饰方面的很多缺点致歉，因为我不得不非常匆忙地写作，而且经常被其他各种工作所打断。"
+      ],
+      "nativeNoteCount": 6,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-001-057d21ff84",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+          "sourceRawSha256": "024e47bb9f418a74a42d53279f443be5e66d5adf0e21c67d3d9b1ce0ad5a299d",
+          "lineIndex": 3,
+          "text": "序　言",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>序　言</title>",
+            "<p class=\"title1\">序　言</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-001-057d21ff84",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+          "sourceRawSha256": "024e47bb9f418a74a42d53279f443be5e66d5adf0e21c67d3d9b1ce0ad5a299d",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋―1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-001-057d21ff84",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/00.htm",
+          "sourceRawSha256": "024e47bb9f418a74a42d53279f443be5e66d5adf0e21c67d3d9b1ce0ad5a299d",
+          "lineIndex": 6,
+          "text": "序　言",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>序　言</title>",
+            "<p class=\"title1\">序　言</p>"
+          ]
+        }
+      ],
+      "sourceBodyComparisonException": {
+        "kind": "root_title_extraction_difference",
+        "sourceNodeHtml": [
+          "<p class=\"title1\">序　言</p>"
+        ],
+        "localChapterTitle": "序言",
+        "sourceExtraParagraph": "序 言",
+        "reason": "源P使用全角空格，原打包把章标题标准化为序言；按当前标签重抽取会保留序 言。本地章节栏／目录已呈现序言，其余正文相同。"
+      },
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-002-7a3cd9c09c",
+      "title": "《怎么办？》",
+      "chapterTitle": "一 教条主义和“批评自由”",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+      "sourceRawSha256": "b90acbf19d23eac5697bacac14d361253eb40bf334b9fe4acb30fae0a77e1d89",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:11.621807+00:00",
+        "rawSha256": "b90acbf19d23eac5697bacac14d361253eb40bf334b9fe4acb30fae0a77e1d89",
+        "bytes": 61954
+      },
+      "localBodySha256": "1f1917ceee1800eba70120776d02599db2ea915ca91bdffcedf4c4983793c81b",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-002-7a3cd9c09c",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "一 教条主义和“批评自由”",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-7a3cd9c09c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一）什么是“批评自由”？",
+        "“批评自由”——这无疑是目前最时髦的口号，是各国社会主义者和民主主义者在争论中最常用的口号。乍看起来，很难想象还有什么比争论的一方一再郑重其事地引用批评自由更奇怪的了。难道在先进政党中，有人声言反对欧洲大多数国家用来保障科学自由和科学研究自由的宪法条文吗？凡是在街头巷尾一再听到这个时髦的口号而还没有深入了解争论双方意见分歧的实质的局外人，一定会想：“这里恐怕有问题吧！”“这个口号显然是一种特定用语，像代号一样，用习惯了，几乎成为一种普通名词了。”"
+      ],
+      "nativeNoteCount": 45,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-002-7a3cd9c09c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+          "sourceRawSha256": "b90acbf19d23eac5697bacac14d361253eb40bf334b9fe4acb30fae0a77e1d89",
+          "lineIndex": 3,
+          "text": "一　教条主义和“批评自由”",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一　教条主义和“批评自由”</title>",
+            "<p class=\"title1\">一　教条主义和“批评自由”</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-002-7a3cd9c09c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+          "sourceRawSha256": "b90acbf19d23eac5697bacac14d361253eb40bf334b9fe4acb30fae0a77e1d89",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋—1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-002-7a3cd9c09c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/01.htm",
+          "sourceRawSha256": "b90acbf19d23eac5697bacac14d361253eb40bf334b9fe4acb30fae0a77e1d89",
+          "lineIndex": 6,
+          "text": "一　教条主义和“批评自由”",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一　教条主义和“批评自由”</title>",
+            "<p class=\"title1\">一　教条主义和“批评自由”</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-003-cdce42570c",
+      "title": "《怎么办？》",
+      "chapterTitle": "二 群众的自发性和社会民主党的自觉性",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+      "sourceRawSha256": "bf015f212699fd2853b8c0c276be91fad6add551c9d6ab8487e0c3c289c4492e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:12.841834+00:00",
+        "rawSha256": "bf015f212699fd2853b8c0c276be91fad6add551c9d6ab8487e0c3c289c4492e",
+        "bytes": 55734
+      },
+      "localBodySha256": "051b990aa28f8173b39c02b2654c0845aab84b32fabf056a14938b2bd5746304",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-003-cdce42570c",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "二 群众的自发性和社会民主党的自觉性",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-cdce42570c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们说，必须用70年代的那种献身的决心和毅力，来鼓舞我们的比当时更广阔和更深刻得多的运动。的确，直到现在，似乎还没有人怀疑过：当前运动的力量在于群众（主要是工业无产阶级）的觉醒，而它的弱点却在于身为领导者的革命家缺乏自觉性和首创精神。",
+        "但是，最近有人作出了一个惊人的发现，大有把至今对这个问题的一切流行观点全部推翻之势。作出这个发现的是《工人事业》，它在同《火星报》和《曙光》进行论战的时候，不仅提出局部性的反驳，而且力图把“总的意见分歧”归结到更深的根源上去，即归结为“对自发因素和自觉的’有计划’因素相比哪个意义大，有不同的估计”。《工人事业》提出的指责是：“轻视发展过程中的客观因素或自发因素的意义”[53]。对此我们回答说：即使同《火星报》和《曙光》的论战，只是促使《工人事业》想到这个“总的意见分歧”，而完全没有产生任何其他的结果，那么单是这个结果也就使我们很满意了，因为这句话的含义很深，它把俄国社会民主党人之间当前在理论上和政治上的意见分歧的全部实质都非常清楚地点明了。"
+      ],
+      "nativeNoteCount": 31,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-003-cdce42570c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+          "sourceRawSha256": "bf015f212699fd2853b8c0c276be91fad6add551c9d6ab8487e0c3c289c4492e",
+          "lineIndex": 1,
+          "text": "二　群众的自发性和社会民主党的自觉性",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二　群众的自发性和社会民主党的自觉性</title>",
+            "<p class=\"title1\">二　群众的自发性和社会民主党的自觉性</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-003-cdce42570c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+          "sourceRawSha256": "bf015f212699fd2853b8c0c276be91fad6add551c9d6ab8487e0c3c289c4492e",
+          "lineIndex": 2,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋―1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-003-cdce42570c",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/02.htm",
+          "sourceRawSha256": "bf015f212699fd2853b8c0c276be91fad6add551c9d6ab8487e0c3c289c4492e",
+          "lineIndex": 4,
+          "text": "二　群众的自发性和社会民主党的自觉性",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二　群众的自发性和社会民主党的自觉性</title>",
+            "<p class=\"title1\">二　群众的自发性和社会民主党的自觉性</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-004-d7dbba58ac",
+      "title": "《怎么办？》",
+      "chapterTitle": "三 工联主义的政治和社会民主主义的政治",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+      "sourceRawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:13.990923+00:00",
+        "rawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+        "bytes": 77588
+      },
+      "localBodySha256": "435a0ea16cbf243390daa6005b33e84f28e3498c7720ec59ed331375a33f4ef3",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "三 工联主义的政治和社会民主主义的政治",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-d7dbba58ac",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们还是从夸奖《工人事业》开始吧。马尔丁诺夫在《工人事业》第10期上，发表了一篇论述同《火星报》的意见分歧的文章，标题为《揭露性的出版物和无产阶级的斗争》。他把这些意见分歧的实质表述如下：“我们不能只限于揭露那个阻碍它〈工人政党〉发展的制度。我们还应当对无产阶级当前的日常利益作出反应。”（第63页）“……《火星报》……实际上是革命反对派的机关报，它揭露我国的制度，主要是政治制度…… 而我们现在和将来都要在同无产阶级斗争保持密切的有机联系的条件下为工人的事业努力。”（同上）对马尔丁诺夫的这种说法，我们不能不表示感谢。这种说法具有重大的普遍意义，因为它实质上决不仅仅是概括了我们同《工人事业》的意见分歧，而且概括了我们同“经济派”在政治斗争问题上的一切意见分歧。我们已经指出过，“经济派”并不绝对否认“政治”，而只是常常从社会民主主义的政治观滑到工联主义的政治观上去。马尔丁诺夫也正是这样滑过去的。因此我们也就同意选择他作为经济派在这个问题上的错误的典型。对于这一选择，无论《〈工人思想报〉增刊》的作者们，还是“自我解放社”宣言的作者们，或《火星报》第12号上所载的那封“经济派”的来信的作者们，都没有理由责备我们，这一点我们往下将予以证明。",
+        "（一）政治鼓动和经济派缩小政治鼓动的范围"
+      ],
+      "nativeNoteCount": 28,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-004-d7dbba58ac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+          "sourceRawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+          "lineIndex": 1,
+          "text": "三　工联主义的政治和社会民主主义的政治",
+          "compactLength": 18,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三　工联主义的政治和社会民主主义的政治</title>",
+            "<p class=\"title1\">三　工联主义的政治和社会民主主义的政治</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-004-d7dbba58ac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+          "sourceRawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+          "lineIndex": 2,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋―1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-004-d7dbba58ac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+          "sourceRawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+          "lineIndex": 4,
+          "text": "三　工联主义的政治和社会民主主义的政治",
+          "compactLength": 18,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三　工联主义的政治和社会民主主义的政治</title>",
+            "<p class=\"title1\">三　工联主义的政治和社会民主主义的政治</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-005-98b5d1c539",
+      "title": "《怎么办？》",
+      "chapterTitle": "四 经济派的手工业方式和革命家的组织",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+      "sourceRawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:14.842970+00:00",
+        "rawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+        "bytes": 86507
+      },
+      "localBodySha256": "911f977a602b61b167fbedbcea0fc67da0ee1cbbcd361e6df328defdfa5eb7db",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "四 经济派的手工业方式和革命家的组织",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-98b5d1c539",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们上面已把《工人事业》说经济斗争是政治鼓动的最普遍适用的手段，说我们目前的任务是赋予经济斗争本身以政治性质等等论调，都一一分析过了。这些论调表明，它们不仅对我们的政治任务，而且对我们的组织任务都持有狭隘的见解。为了“同厂主和政府作经济斗争”，完全不需要有（因而在这种斗争的基础上也不可能产生）一个全俄的集中的组织，即一个能把政治上的反政府态度、抗议和义愤的各种各样的表现都汇合成一个总攻击的组织，一个由职业革命家组成而由全体人民的真正的政治领袖们领导的组织。这是不言而喻的。任何一个机构的组织，其性质自然而且必然取决于这一机构的活动内容。因此，《工人事业》的上述论调，不仅把政治活动的狭隘性，而且也把组织工作的狭隘性神圣化和合法化了。在这个问题上，《工人事业》一如既往，是一个自觉性屈服于自发性的刊物。而崇拜自发形成的组织形式，不了解我们的组织工作多么狭隘和原始，不了解我们在这一重要方面还是怎样的一些“手工业者”，在我看来，这就是我们运动的真正病症。当然，这不是衰落中的病症，而是成长中的病症。但正是在目前，在自发义愤的浪潮简直要把我们这些运动的领导者和组织者淹没时，特别需要同一切维护落后性的主张，同一切想把这方面的狭隘性合法化的企图进行最不调和的斗争，特别需要促使每一个参加实际工作或仅仅准备进行这种工作的人都对现在我们中间盛行的手工业方式感到不满，并且下最大的决心抛弃它。",
+        "（一）什么是手工业方式？"
+      ],
+      "nativeNoteCount": 22,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-005-98b5d1c539",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+          "sourceRawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+          "lineIndex": 3,
+          "text": "四　经济派的手工业方式和革命家的组织",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四　经济派的手工业方式和革命家的组织</title>",
+            "<p class=\"title1\">四　经济派的手工业方式和革命家的组织</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-005-98b5d1c539",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+          "sourceRawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋―1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-005-98b5d1c539",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+          "sourceRawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+          "lineIndex": 6,
+          "text": "四　经济派的手工业方式和革命家的组织",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四　经济派的手工业方式和革命家的组织</title>",
+            "<p class=\"title1\">四　经济派的手工业方式和革命家的组织</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-006-e932fb85f1",
+      "title": "《怎么办？》",
+      "chapterTitle": "五 全俄政治报“计划”",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+      "sourceRawSha256": "b0527d059ffaf1e6891e2c9b0f4a47fb7a390300f3e68c02089b95f042564f6e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:15.627207+00:00",
+        "rawSha256": "b0527d059ffaf1e6891e2c9b0f4a47fb7a390300f3e68c02089b95f042564f6e",
+        "bytes": 43620
+      },
+      "localBodySha256": "6ccad71263111a09ee6772a845e9fff7d5f8f2caf2dc011b5a887c0bbb40417e",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-006-e932fb85f1",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "五 全俄政治报“计划”",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-e932fb85f1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "波・克里切夫斯基责备我们有“使理论脱离实践而把它变为死教条”的倾向，他写道（《工人事业》第10期第30页）：“《火星报》在这方面的最大错误”就是“它那个全党组织的’计划’”（即《从何着手？》一文[134]）。马尔丁诺夫也附和他说：“《火星报》有轻视平凡的日常斗争进程的意义而偏重宣传光辉的完备的思想的倾向……结果就在第4号上所载的《从何着手？》一文中提出了党的组织的计划。”（同上，第61页）最后，尔・纳杰日丁近来也出来响应对这个“计划”（引号想必是表示对这个计划的讽刺）表示愤慨的人们。他在我们刚刚收到的《革命前夜》一书（这本书是我们已经熟知的那个“革命社会主义”自由社出版的）中说道：“现在来谈什么由全俄报纸牵线的组织，就是培植脱离实际的思想和脱离实际的工作”（第126页），就是“文人习气”的表现等等。",
+        "我们的恐怖派和“平凡的日常斗争进程”的拥护者志同道合，这并不使我们感到奇怪，因为我们在论述政治和组织的那两章里已经考察了他们这种互相接近的根源。但是现在我们也应当指出：尔・纳杰日丁，并且只有他一个人，打算诚心诚意地来研究一下他所不喜欢的这篇文章的思路，打算从实质上来回答这篇文章，而《工人事业》却没有从实质上讲过任何一句话，只是竭力用一大堆无聊的蛊惑人心的胡言乱语来搞乱问题。于是，无论我们怎样不乐意，也不得不费些时间来首先打扫一下这个奥吉亚斯的牛圈[135]。"
+      ],
+      "nativeNoteCount": 13,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-006-e932fb85f1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+          "sourceRawSha256": "b0527d059ffaf1e6891e2c9b0f4a47fb7a390300f3e68c02089b95f042564f6e",
+          "lineIndex": 3,
+          "text": "五　全俄政治报“计划”",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>五　全俄政治报“计划”</title>",
+            "<p class=\"title1\">五　全俄政治报“计划”</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-006-e932fb85f1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+          "sourceRawSha256": "b0527d059ffaf1e6891e2c9b0f4a47fb7a390300f3e68c02089b95f042564f6e",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋―1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-006-e932fb85f1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/05.htm",
+          "sourceRawSha256": "b0527d059ffaf1e6891e2c9b0f4a47fb7a390300f3e68c02089b95f042564f6e",
+          "lineIndex": 6,
+          "text": "五　全俄政治报“计划”",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>五　全俄政治报“计划”</title>",
+            "<p class=\"title1\">五　全俄政治报“计划”</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-007-e9396b46bf",
+      "title": "《怎么办？》",
+      "chapterTitle": "结束语",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+      "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:16.344321+00:00",
+        "rawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+        "bytes": 5146
+      },
+      "localBodySha256": "facf95e935249feb862982755721087ac5e3730e6c980647b633cdf4ff22c60b",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-81b8941e4843-chapter-chapter-007-e9396b46bf",
+          "parentId": "toc-lenin-work-81b8941e4843-root",
+          "title": "结束语",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-e9396b46bf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "俄国社会民主党的历史，可以明显地分为三个时期。",
+        "第一个时期包括大约十年，大致是1884-1894年。这是社会民主党的理论和纲领产生和巩固的时期。当时俄国拥护新派别的人还寥寥无几。社会民主党是在没有工人运动的条件下存在的，它作为一个政党当时还处在胚胎发育的过程中。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-007-e9396b46bf",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+          "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+          "lineIndex": 1,
+          "text": "结束语",
+          "compactLength": 3,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>结束语</title>",
+            "<p class=\"title1\">结束语</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-007-e9396b46bf",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+          "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+          "lineIndex": 2,
+          "text": "中文马克思主义文库 -> 列宁 -> 怎么办？（1901年秋—1902年2月）",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-007-e9396b46bf",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+          "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+          "lineIndex": 4,
+          "text": "结束语",
+          "compactLength": 3,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>结束语</title>",
+            "<p class=\"title1\">结束语</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-81b8941e4843",
+          "chapterId": "chapter-007-e9396b46bf",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+          "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+          "lineIndex": 58,
+          "text": "上一篇　回目录",
+          "compactLength": 6,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"05.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-001-e68e5a5665",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "序言",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/00.htm",
+      "sourceRawSha256": "75888ae319daef6db71ad9abf8f17c89c329d4bbe732ba4ff77f1fc2e22a3ca1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/00.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/00.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:16.753745+00:00",
+        "rawSha256": "75888ae319daef6db71ad9abf8f17c89c329d4bbe732ba4ff77f1fc2e22a3ca1",
+        "bytes": 18083
+      },
+      "localBodySha256": "5f1863159a0aa03717bafd590f17049eb160d6567d84446a6313ee40ca2a3991",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-001-e68e5a5665",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "序言",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-e68e5a5665",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "社会民主党在民主革命中的两种策略[1]（1905年6―7月）",
+        "序言"
+      ],
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-001-e68e5a5665",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/00.htm",
+          "sourceRawSha256": "75888ae319daef6db71ad9abf8f17c89c329d4bbe732ba4ff77f1fc2e22a3ca1",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyComparisonException": {
+        "kind": "root_title_extraction_difference",
+        "sourceNodeHtml": [
+          "<p class=\"title1\">序言</p>"
+        ],
+        "localChapterTitle": "序言",
+        "localRetainedParagraphIndex": 1,
+        "reason": "源P与当前章名同名，重抽取略去；本地仍完整保留该旧根标题段落。其余正文相同，不删旧段落。"
+      },
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-002-3072fb4005",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "1．一个迫切的政治问题",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+      "sourceRawSha256": "c04e7058d9d33cc2d82bf88923a121ce8569675a5d693c457403566148c80125",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:17.163724+00:00",
+        "rawSha256": "c04e7058d9d33cc2d82bf88923a121ce8569675a5d693c457403566148c80125",
+        "bytes": 9005
+      },
+      "localBodySha256": "320c09c9531785d57f33a8d98b4775a2b5edfc5cc27f2bacbaafd6c6bb16cebc",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-002-3072fb4005",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "1．一个迫切的政治问题",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-3072fb4005",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在当前革命时期的日程上，摆着一个召集全民立宪会议的问题。这个问题如何解决，意见是不一致的。现在有三种政治趋向。沙皇政府承认有召集人民代表会议的必要，但是无论如何不愿意让这个代表会议成为全民的和立宪的会议。按报纸所载关于布里根委员会[9]工作的消息来看，沙皇政府似乎同意在没有鼓动自由的条件下，按照有严格的资格限制或严格的等级限制的选举制选出一个咨议性会议。社会民主党领导下的革命无产阶级则要求权力完全转归立宪会议，为了实现这个目的，不仅要力争普选权，不仅要力争充分的鼓动自由，而且要立刻推翻沙皇政府，代之以临时革命政府。最后，通过所谓“立宪民主党”[10]领袖们之口来表达自己愿望的自由派资产阶级，并不要求推翻沙皇政府，不提出成立临时政府的口号，不坚持切实保障选举的完全自由和公正，不坚持切实保障代表会议能成为真正全民的和真正立宪的会议。其实，作为“解放派”[11]唯一重要的社会支柱的自由派资产阶级，正力求在沙皇和革命人民之间达成尽可能和平的交易，并且通过这种交易使它自己即资产阶级获得的权力最多，而使革命的人民即无产阶级和农民获得的权力最少。",
+        "这就是目前的政治形势。这就是和现代俄国三种主要社会力量相适应的三种主要政治趋向。至于“解放派”怎样用假民主的词句来掩饰他们那种不彻底的政策，直截了当地说，那种背叛革命、出卖革命的政策，我们已经不止一次地在《无产者报》（第3、4、5号）［注：见《列宁全集》第2版第10卷第245―253、258―264、277―283页。――编者注］上谈过了。现在我们来看看社会民主党人怎样估计目前的任务吧。俄国社会民主工党第三次代表大会和党内分裂出去的部分的“代表会议”最近分别通过的两个决议，便是这方面的最好的材料。这两个决议，究竟哪一个能正确地估计目前的政治形势和正确地规定革命无产阶级的策略，这个问题具有极其重大的意义，任何一个社会民主党人，只要他愿意自觉地履行他所担负的宣传、鼓动和组织的义务，就应当十分细心地研究这个问题，而完全抛开那些和问题实质无关的考虑。"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-002-3072fb4005",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+          "sourceRawSha256": "c04e7058d9d33cc2d82bf88923a121ce8569675a5d693c457403566148c80125",
+          "lineIndex": 6,
+          "text": "1．一个迫切的政治问题",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>1．一个迫切的政治问题</title>",
+            "<p class=\"title1\">1．一个迫切的政治问题</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-002-3072fb4005",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+          "sourceRawSha256": "c04e7058d9d33cc2d82bf88923a121ce8569675a5d693c457403566148c80125",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-002-3072fb4005",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/01.htm",
+          "sourceRawSha256": "c04e7058d9d33cc2d82bf88923a121ce8569675a5d693c457403566148c80125",
+          "lineIndex": 12,
+          "text": "1．一个迫切的政治问题",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>1．一个迫切的政治问题</title>",
+            "<p class=\"title1\">1．一个迫切的政治问题</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-003-25516cc7ce",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "2．俄国社会民主工党第三次代表大会关于临时革命政府的决议给了我们什么？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/02.htm",
+      "sourceRawSha256": "f7e90a52e1a5791c2e5939f11b7f8ad7d8b7a970ea2a6bde9f1a4a8b61c8c2e3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:17.669822+00:00",
+        "rawSha256": "f7e90a52e1a5791c2e5939f11b7f8ad7d8b7a970ea2a6bde9f1a4a8b61c8c2e3",
+        "bytes": 10704
+      },
+      "localBodySha256": "b4ff174feb49a5c392ce1d0a821cda00a4ecdc1c2edd624623b2db468fe09dcf",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-003-25516cc7ce",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "2．俄国社会民主工党第三次代表大会关于临时革命政府的决议给了我们什么？",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-25516cc7ce",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "2．俄国社会民主工党第三次代表大会",
+        "关于临时革命政府的决议给了我们什么？"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-003-25516cc7ce",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/02.htm",
+          "sourceRawSha256": "f7e90a52e1a5791c2e5939f11b7f8ad7d8b7a970ea2a6bde9f1a4a8b61c8c2e3",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-004-7614ca17c7",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "3．什么是“革命对沙皇制度的彻底胜利”？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+      "sourceRawSha256": "4859a45194caa76fc32dfa46492567a2dc954cd63ba5fe607c6a3e501d24eef6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:18.277129+00:00",
+        "rawSha256": "4859a45194caa76fc32dfa46492567a2dc954cd63ba5fe607c6a3e501d24eef6",
+        "bytes": 15439
+      },
+      "localBodySha256": "793d10adb2f3ffb8c2cef714f13ca4d8c69c69ab438fd6a430ca4be1f19c65a0",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-004-7614ca17c7",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "3．什么是“革命对沙皇制度的彻底胜利”？",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-7614ca17c7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“代表会议”的决议是专门论述“关于夺取政权和参加临时政府”问题的［注：读者把本书第400、403―404、407、431、433―434页上所引各段集中在一起，便可得到这个决议的全文。（这是作者为1907年版加的注释。见本卷第16、21、26、61、65页。――编者注）］。我们已经指出，问题的这种提法就包含着一种糊涂观念。一方面，问题提得很狭窄：只谈我们参加临时政府的问题，而不一般地谈党在对待临时革命政府方面的任务。另一方面，又把我们参加民主革命的一个阶段和进行社会主义革命这样两个性质完全不同的问题混为一谈。其实，社会民主党“夺取政权”，如果按这几个字的直接的和通常的含义来说，正好就是社会主义革命，而决不可能是别的什么东西。如果把这几个字理解为不是为社会主义革命夺取政权，而是为民主革命夺取政权，那么，不仅谈参加临时革命政府，而且还一般地谈“夺取政权”，这有什么意思呢？显然，我们的“代表会议派”自己还不大清楚他们究竟应当说什么：是要说民主革命，还是要说社会主义革命。谁留心过有关这个问题的著作，他就会知道，这种糊涂观念是马尔丁诺夫同志在他那本有名的《两种专政》中开始提出来的，新火星派不乐意提起这一典型的尾巴主义著作中所提供的（早在1月9日事件[13]以前）这种问题的提法，但是这一著作对代表会议的思想影响是无可怀疑的。",
+        "不过我们暂且不谈这个决议的标题。这个决议的内容，暴露了更深刻得多、更严重得多的错误。下面是这个决议的第一部分："
+      ],
+      "nativeNoteCount": 7,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-004-7614ca17c7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+          "sourceRawSha256": "4859a45194caa76fc32dfa46492567a2dc954cd63ba5fe607c6a3e501d24eef6",
+          "lineIndex": 6,
+          "text": "3．什么是“革命对沙皇制度的彻底胜利”？",
+          "compactLength": 20,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>3．什么是“革命对沙皇制度的彻底胜利”？</title>",
+            "<p class=\"title1\">3．什么是“革命对沙皇制度的彻底胜利”？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-004-7614ca17c7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+          "sourceRawSha256": "4859a45194caa76fc32dfa46492567a2dc954cd63ba5fe607c6a3e501d24eef6",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-004-7614ca17c7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/03.htm",
+          "sourceRawSha256": "4859a45194caa76fc32dfa46492567a2dc954cd63ba5fe607c6a3e501d24eef6",
+          "lineIndex": 12,
+          "text": "3．什么是“革命对沙皇制度的彻底胜利”？",
+          "compactLength": 20,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>3．什么是“革命对沙皇制度的彻底胜利”？</title>",
+            "<p class=\"title1\">3．什么是“革命对沙皇制度的彻底胜利”？</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-005-e84fc76221",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "4．君主制度的铲除和共和制",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+      "sourceRawSha256": "add2c03a8b57b21656bce042fa159982f666bdbeb98c4570e6c238bc66720421",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:18.556040+00:00",
+        "rawSha256": "add2c03a8b57b21656bce042fa159982f666bdbeb98c4570e6c238bc66720421",
+        "bytes": 9435
+      },
+      "localBodySha256": "e572750a41a95309a8f5210c2216f080f167b213bb3fa1878d3239fff70b31f7",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-005-e84fc76221",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "4．君主制度的铲除和共和制",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-e84fc76221",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在我们来看这个决议的下一部分：",
+        "“……无论在哪一种场合下，这样的胜利都将是革命时代的新阶段的开端。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-005-e84fc76221",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+          "sourceRawSha256": "add2c03a8b57b21656bce042fa159982f666bdbeb98c4570e6c238bc66720421",
+          "lineIndex": 6,
+          "text": "4．君主制度的铲除和共和制",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>4．君主制度的铲除和共和制</title>",
+            "<p class=\"title1\">4．君主制度的铲除和共和制</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-005-e84fc76221",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+          "sourceRawSha256": "add2c03a8b57b21656bce042fa159982f666bdbeb98c4570e6c238bc66720421",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-005-e84fc76221",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/04.htm",
+          "sourceRawSha256": "add2c03a8b57b21656bce042fa159982f666bdbeb98c4570e6c238bc66720421",
+          "lineIndex": 12,
+          "text": "4．君主制度的铲除和共和制",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>4．君主制度的铲除和共和制</title>",
+            "<p class=\"title1\">4．君主制度的铲除和共和制</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-006-4885a2c1f3",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "5．应当怎样“把革命推向前进”？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+      "sourceRawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:19.091460+00:00",
+        "rawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+        "bytes": 6202
+      },
+      "localBodySha256": "6f154a886f06dafa9ee0337d2d9c47bdfd2c073e7061c28da74b8f866a40801a",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-006-4885a2c1f3",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "5．应当怎样“把革命推向前进”？",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-4885a2c1f3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们把这个决议的下一部分引录出来：",
+        "“在这样的条件下，社会民主党在整个革命过程中应当竭力保持这样的地位：使自己最有可能把革命推向前进，不致在和资产阶级政党的不彻底的和自私自利的政策作斗争时束缚住自己的手脚，不致溶化在资产阶级民主派之中。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-006-4885a2c1f3",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+          "sourceRawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+          "lineIndex": 6,
+          "text": "5．应当怎样“把革命推向前进”？",
+          "compactLength": 16,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>5．应当怎样“把革命推向前进”？</title>",
+            "<p class=\"title1\">5．应当怎样“把革命推向前进”？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-006-4885a2c1f3",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+          "sourceRawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-006-4885a2c1f3",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+          "sourceRawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+          "lineIndex": 12,
+          "text": "5．应当怎样“把革命推向前进”？",
+          "compactLength": 16,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>5．应当怎样“把革命推向前进”？</title>",
+            "<p class=\"title1\">5．应当怎样“把革命推向前进”？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-006-4885a2c1f3",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/05.htm",
+          "sourceRawSha256": "0f0a0ab46f73aa2f6052e9dddb6196a5136613394e4466dab176315763caeff7",
+          "lineIndex": 53,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"04.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"06.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-007-34324aa044",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "6．无产阶级在和不彻底的资产阶级作斗争时被束缚住手脚的危险是从哪个方面来的？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/06.htm",
+      "sourceRawSha256": "5a9a4c1b4b83b6c40f4d77aaccdf9e74ee52b27c394a1a7c24c15b229cec98b8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:19.539529+00:00",
+        "rawSha256": "5a9a4c1b4b83b6c40f4d77aaccdf9e74ee52b27c394a1a7c24c15b229cec98b8",
+        "bytes": 23848
+      },
+      "localBodySha256": "b3dea936499d930e95dd3bc52e62838054de593d1e13690781bf99e421b51b33",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-007-34324aa044",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "6．无产阶级在和不彻底的资产阶级作斗争时被束缚住手脚的危险是从哪个方面来的？",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-34324aa044",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "6．无产阶级在和不彻底的资产阶级作斗争时",
+        "被束缚住手脚的危险是从哪个方面来的？"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-007-34324aa044",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/06.htm",
+          "sourceRawSha256": "5a9a4c1b4b83b6c40f4d77aaccdf9e74ee52b27c394a1a7c24c15b229cec98b8",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-008-964e885836",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "7．“把保守派排斥于政府之外”的策略",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+      "sourceRawSha256": "348e57250db36931a4b6ff5dc6259651f5301393b4a04805a19929697c848377",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:20.115417+00:00",
+        "rawSha256": "348e57250db36931a4b6ff5dc6259651f5301393b4a04805a19929697c848377",
+        "bytes": 12130
+      },
+      "localBodySha256": "924054cae97f517861b73b1a5b4406a5793bf70a19216e437f6305247fe038b2",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-008-964e885836",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "7．“把保守派排斥于政府之外”的策略",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-964e885836",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在上面提到过的孟什维克梯弗利斯“委员会”机关报（《社会民主党人报》第1号）上的那篇论文，叫作《国民代表会议和我们的策略》。该文作者还没有完全忘记我们的纲领，他提出了共和制的口号，但是他谈到策略问题时却说：",
+        "“为了达到这个目的（共和制），可以指出两条道路：一条道路是毫不理会政府所召集的国民代表会议，拿着武器去打倒政府，组织革命政府，召集立宪会议；另一条道路是宣布国民代表会议为我们活动的中心，拿着武器来影响它的成分和它的活动，并用强力迫使它宣布自己为立宪会议，或通过它来召集立宪会议。这两种策略是极不相同的。现在我们来看看，究竟哪一种策略对我们更有利。”"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-008-964e885836",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+          "sourceRawSha256": "348e57250db36931a4b6ff5dc6259651f5301393b4a04805a19929697c848377",
+          "lineIndex": 6,
+          "text": "7．“把保守派排斥于政府之外”的策略",
+          "compactLength": 18,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>7．“把保守派排斥于政府之外”的策略</title>",
+            "<p class=\"title1\">7．“把保守派排斥于政府之外”的策略</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-008-964e885836",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+          "sourceRawSha256": "348e57250db36931a4b6ff5dc6259651f5301393b4a04805a19929697c848377",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-008-964e885836",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/07.htm",
+          "sourceRawSha256": "348e57250db36931a4b6ff5dc6259651f5301393b4a04805a19929697c848377",
+          "lineIndex": 12,
+          "text": "7．“把保守派排斥于政府之外”的策略",
+          "compactLength": 18,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>7．“把保守派排斥于政府之外”的策略</title>",
+            "<p class=\"title1\">7．“把保守派排斥于政府之外”的策略</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-009-0bb3a62394",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "8．解放派和新火星派",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+      "sourceRawSha256": "1fb9b4bb1b172a2b807ef5956c8654d3e7e9d76ab4363c04a0f98c80c6a23ecf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:20.709246+00:00",
+        "rawSha256": "1fb9b4bb1b172a2b807ef5956c8654d3e7e9d76ab4363c04a0f98c80c6a23ecf",
+        "bytes": 16440
+      },
+      "localBodySha256": "7a083c9a184172ead07b8d8649dcd1dc41e128ac5c198eea37d1b589055c7e0d",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-009-0bb3a62394",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "8．解放派和新火星派",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-0bb3a62394",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在，我们来看另一个具体证实新火星派的政治作用的事实。",
+        "司徒卢威先生在《怎样认识自己的使命》这篇卓越的、超群出众的、极有教益的论文（《解放》杂志第71期）中，猛烈地攻击我国各极端党派的“纲领的革命主义”。司徒卢威先生对我个人更是特别不满。［注：“和列宁先生及其各位同志先生的革命主义比较起来，倍倍尔以至考茨基的西欧社会民主党的革命主义就成为机会主义了，但是就连这个已经变得温和了的革命主义的基础也已经受到历史冲刷并被彻底摧毁了。”好厉害的攻击。不过司徒卢威先生以为可以把我当作死人来随便诬赖，是徒劳无益的。我只要向司徒卢威先生提出下面这个挑战就够了，这个挑战是他永远不能接受的。试问：我在什么地方和什么时候把“倍倍尔和考茨基的革命主义”叫作机会主义的？我在什么地方和什么时候企图在国际社会民主运动中创立任何一种同倍倍尔和考茨基两人的派别不相同的特别派别呢？究竟在什么地方和什么时候曾经暴露过我同倍倍尔和考茨基两人间的意见分歧，即使是就严重性来说和倍倍尔同考茨基例如在布雷斯劳代表大会上关于土地问题的分歧[31]稍微有点近似的分歧呢？让司徒卢威先生试着来回答这三个问题吧。而我们要告诉读者：自由派资产阶级随时随地都在运用的手法就是说服他们的本国同道者相信本国的社会民主党人最缺乏理性，而邻国的社会民主党人都是“好孩子”。德国资产阶级曾经几百次地把法国社会党人说成“好孩子”以训诫倍倍尔们和考茨基们。法国资产阶级在不久以前也把倍倍尔说成“好孩子”以训诫法国社会党人。司徒卢威先生，这是老一套的手法！只有小孩和不学无术的人才会上你的圈套。国际革命社会民主党在一切重大的纲领问题和策略问题上的完全一致，是绝对无可争辩的事实。］至于我自己，那我对司徒卢威先生是再满意不过了，因为在我同新火星派中日渐复活的“经济主义”和“社会革命党人”那种毫无原则的立场进行斗争时，司徒卢威先生是我的最好的同盟者。司徒卢威先生和《解放》杂志怎样在实际上证明了社会革命党人纲领草案中对马克思主义所作的种种“修正”的全部反动性，我们下次有机会时再说。关于司徒卢威先生每次在原则上称赞新火星派时总是给我一种诚实、可靠和真正的帮助这一点，我们已经说过多次［注：请读者回想一下，《不该这么办》这篇论文（《火星报》第52号）曾受到《解放》杂志的十分热闹的欢迎，被认为是向机会主义者让步的一个“重大的转变”。新火星派的原则趋向，《解放》杂志在一篇论俄国社会民主党人分裂问题的短评中特别加以赞扬。关于托洛茨基的小册子《我们的政治任务》，《解放》杂志指出，该书作者的思想同工人事业派分子克里切夫斯基、马尔丁诺夫和阿基莫夫曾经写过和说过的东西是一致的（见《前进报》出版的传单《一个热心效劳的自由派》。《列宁全集》第2版第9卷第55―58页。――编者注）。马尔丁诺夫论两种专政的小册子受到了《解放》杂志的欢迎（见《前进报》第9号的短评。同上，弟289―290页。――编者注）。最后，斯塔罗韦尔事后对旧《火星报》的旧口号“先划清界限，然后统一”的抱怨得到了《解放》杂志的特别的同情。］，而现在我们还要再说一次。"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-009-0bb3a62394",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+          "sourceRawSha256": "1fb9b4bb1b172a2b807ef5956c8654d3e7e9d76ab4363c04a0f98c80c6a23ecf",
+          "lineIndex": 6,
+          "text": "8．解放派和新火星派",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>8．解放派和新火星派</title>",
+            "<p class=\"title1\">8．解放派和新火星派</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-009-0bb3a62394",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+          "sourceRawSha256": "1fb9b4bb1b172a2b807ef5956c8654d3e7e9d76ab4363c04a0f98c80c6a23ecf",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-009-0bb3a62394",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/08.htm",
+          "sourceRawSha256": "1fb9b4bb1b172a2b807ef5956c8654d3e7e9d76ab4363c04a0f98c80c6a23ecf",
+          "lineIndex": 12,
+          "text": "8．解放派和新火星派",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>8．解放派和新火星派</title>",
+            "<p class=\"title1\">8．解放派和新火星派</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-010-c8aff22b3a",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "9．什么是在革命时期做一个持极端反对派态度的政党？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+      "sourceRawSha256": "829264c027d7d89ed807669e65340bee1b9481845817de2ad37e49fc3f8728b4",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:21.163285+00:00",
+        "rawSha256": "829264c027d7d89ed807669e65340bee1b9481845817de2ad37e49fc3f8728b4",
+        "bytes": 7735
+      },
+      "localBodySha256": "7db85539126b04aa58be64bc051c794ab208d086e1122a814e1d7340fd793ccf",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-010-c8aff22b3a",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "9．什么是在革命时期做一个持极端反对派态度的政党？",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-c8aff22b3a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在我们再回头来考察关于临时政府的决议。我们已经指出，新火星派的策略并不是把革命推向前进――虽然他们也许是想用自己的决议来保证把革命推向前进――而是把它拉向后退。我们已经指出，正是这种策略使社会民主党在和不彻底的资产阶级作斗争时被束缚住手脚，并且不能预防溶化在资产阶级民主派之中的危险。从决议的不正确的前提中，自然就得出不正确的结论：“因此，社会民主党不应当抱定夺取政权或在临时政府中分掌政权的目的，而应当始终如一地做一个持极端革命反对派态度的政党。”请看看这个结论的前一半即提出目的的这一半吧。新火星派是否提出革命对沙皇制度的彻底胜利作为社会民主党活动的目的呢？是提出来了。他们不善于正确表述彻底胜利的条件而错误地用了“解放派”的说法，但是他们毕竟提出了上面那个目的。其次，他们是不是把临时政府和起义联系了起来呢？是的，他们直接把这两件事情联系了起来，说临时政府是“来自胜利的人民起义”。最后，他们是否提出领导起义作为自己的目的呢？是的，他们虽然也象司徒卢威先生一样躲躲闪闪，不肯承认起义是必要的和刻不容缓的，但是又和司徒卢威先生不同，他们同时还说“社会民主党力求使它（起义）服从于自己的影响和领导，并利用它来为工人阶级谋利益”。",
+        "这岂不是说得头头是道么？我们的目的是使无产阶级群众和非无产阶级群众的起义服从于我们的影响和我们的领导，并利用它来为我们自己谋利益。所以我们的目的是在起义时既领导无产阶级，又领导革命的资产阶级和小资产阶级（“非无产阶级的集团”），就是说，由社会民主党和革命资产阶级“分掌”起义的领导权。我们的目的是使起义胜利，以便成立临时政府（“来自胜利的人民起义的”临时政府）。因此……因此我们不应当抱定夺取政权或在临时革命政府中分掌政权的目的！！"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-010-c8aff22b3a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+          "sourceRawSha256": "829264c027d7d89ed807669e65340bee1b9481845817de2ad37e49fc3f8728b4",
+          "lineIndex": 6,
+          "text": "9．什么是在革命时期做一个持极端反对派态度的政党？",
+          "compactLength": 25,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>9．什么是在革命时期做一个持极端反对派态度的政党？</title>",
+            "<p class=\"title1\">9．什么是在革命时期做一个持极端反对派态度的政党？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-010-c8aff22b3a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+          "sourceRawSha256": "829264c027d7d89ed807669e65340bee1b9481845817de2ad37e49fc3f8728b4",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-010-c8aff22b3a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/09.htm",
+          "sourceRawSha256": "829264c027d7d89ed807669e65340bee1b9481845817de2ad37e49fc3f8728b4",
+          "lineIndex": 12,
+          "text": "9．什么是在革命时期做一个持极端反对派态度的政党？",
+          "compactLength": 25,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>9．什么是在革命时期做一个持极端反对派态度的政党？</title>",
+            "<p class=\"title1\">9．什么是在革命时期做一个持极端反对派态度的政党？</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-011-722646fa71",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "10．“革命公社”与无产阶级和农民的革命民主专政",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+      "sourceRawSha256": "478771fa6647501657957172f321037318b8e9df9c21fd5ba68475bfb8f16e85",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:21.637341+00:00",
+        "rawSha256": "478771fa6647501657957172f321037318b8e9df9c21fd5ba68475bfb8f16e85",
+        "bytes": 18491
+      },
+      "localBodySha256": "2d3a61a6139faa3bc756acdc21d52b2ee4db2bd40a86968c0c321c39469122dd",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-011-722646fa71",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "10．“革命公社”与无产阶级和农民的革命民主专政",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-722646fa71",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "新火星派的代表会议没有保持住新《火星报》所采取的那种无政府主义立场（仅仅“从下面”行动，而不是“既从下面，又从上面”行动）。容许起义而不容许胜利和参加临时革命政府，这未免荒谬得太显眼了。因此，决议就给马尔丁诺夫和马尔托夫对问题的解答加上一些附带条件和限制。我们来看看决议在下一段中叙述的这些附带条件：",
+        "“实行这种策略〈“始终如一地做一个持极端革命反对派态度的政党”〉，当然决不是说，专门为了促使起义扩大和政府瓦解，也不宜于在某一个城市，在某一个地区局部地、暂时地夺取政权，成立革命公社。”"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-011-722646fa71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+          "sourceRawSha256": "478771fa6647501657957172f321037318b8e9df9c21fd5ba68475bfb8f16e85",
+          "lineIndex": 6,
+          "text": "10．“革命公社”与无产阶级和农民的革命民主专政",
+          "compactLength": 24,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>10．“革命公社”与无产阶级和农民的革命民主专政</title>",
+            "<p class=\"title1\">10．“革命公社”与无产阶级和农民的革命民主专政</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-011-722646fa71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+          "sourceRawSha256": "478771fa6647501657957172f321037318b8e9df9c21fd5ba68475bfb8f16e85",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-011-722646fa71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/10.htm",
+          "sourceRawSha256": "478771fa6647501657957172f321037318b8e9df9c21fd5ba68475bfb8f16e85",
+          "lineIndex": 12,
+          "text": "10．“革命公社”与无产阶级和农民的革命民主专政",
+          "compactLength": 24,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>10．“革命公社”与无产阶级和农民的革命民主专政</title>",
+            "<p class=\"title1\">10．“革命公社”与无产阶级和农民的革命民主专政</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-012-41c8bc0c41",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "11．俄国社会民主工党第三次代表大会某些决议和“代表会议”某些决议的粗略比较",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/11.htm",
+      "sourceRawSha256": "7e247f4d3e7e804598483f8a6df7197e841dfe3d030d07572dbb458c31711f40",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:21.883182+00:00",
+        "rawSha256": "7e247f4d3e7e804598483f8a6df7197e841dfe3d030d07572dbb458c31711f40",
+        "bytes": 7930
+      },
+      "localBodySha256": "321df2e10e123ad5c429cd78a5bf7afdd4230f6b36b33bc0078458e2a96c1ec0",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-012-41c8bc0c41",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "11．俄国社会民主工党第三次代表大会某些决议和“代表会议”某些决议的粗略比较",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-41c8bc0c41",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "11．俄国社会民主工党第三次代表大会某些决议",
+        "和“代表会议”某些决议的粗略比较"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-012-41c8bc0c41",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/11.htm",
+          "sourceRawSha256": "7e247f4d3e7e804598483f8a6df7197e841dfe3d030d07572dbb458c31711f40",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-012-41c8bc0c41",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/11.htm",
+          "sourceRawSha256": "7e247f4d3e7e804598483f8a6df7197e841dfe3d030d07572dbb458c31711f40",
+          "lineIndex": 46,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"10.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"12.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-013-7edb0973f7",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "12．民主革命的规模是否会因为资产阶级退出而缩小？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+      "sourceRawSha256": "d8020605f9d72578d01edcb8cc0ca2c9ac4f16a5e15f65ba38e363af6eff1143",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:22.260477+00:00",
+        "rawSha256": "d8020605f9d72578d01edcb8cc0ca2c9ac4f16a5e15f65ba38e363af6eff1143",
+        "bytes": 16005
+      },
+      "localBodySha256": "22dccd6da2b8588f1c205a5dac9c64ffb91be8b14950017fd15d5084c7b3b521",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-013-7edb0973f7",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "12．民主革命的规模是否会因为资产阶级退出而缩小？",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-7edb0973f7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "上面各节写好以后，我们收到了《火星报》出版的新火星派高加索代表会议的决议。对于写出一个好的结尾（pour la bonne bouche），我们真是想不出比这更好的材料了。",
+        "《火星报》编辑部很公正地指出：“在基本的策略问题上，高加索代表会议也通过了和全俄代表会议〈即新火星派代表会议〉所通过的决议相似的〈老实话！〉决议。”“在社会民主党对临时革命政府的态度问题上，高加索的同志所通过的决议，坚决反对《前进报》集团以及附和它的所谓代表大会代表们所宣传的新方法。”“应该承认代表会议非常恰当地表述了无产阶级政党在资产阶级革命中的策略。”"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-013-7edb0973f7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+          "sourceRawSha256": "d8020605f9d72578d01edcb8cc0ca2c9ac4f16a5e15f65ba38e363af6eff1143",
+          "lineIndex": 6,
+          "text": "12．民主革命的规模是否会因为资产阶级退出而缩小？",
+          "compactLength": 25,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>12．民主革命的规模是否会因为资产阶级退出而缩小？</title>",
+            "<p class=\"title1\">12．民主革命的规模是否会因为资产阶级退出而缩小？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-013-7edb0973f7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+          "sourceRawSha256": "d8020605f9d72578d01edcb8cc0ca2c9ac4f16a5e15f65ba38e363af6eff1143",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-013-7edb0973f7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/12.htm",
+          "sourceRawSha256": "d8020605f9d72578d01edcb8cc0ca2c9ac4f16a5e15f65ba38e363af6eff1143",
+          "lineIndex": 12,
+          "text": "12．民主革命的规模是否会因为资产阶级退出而缩小？",
+          "compactLength": 25,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>12．民主革命的规模是否会因为资产阶级退出而缩小？</title>",
+            "<p class=\"title1\">12．民主革命的规模是否会因为资产阶级退出而缩小？</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-014-2fafb0af56",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "13．结论。我们敢不敢胜利？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+      "sourceRawSha256": "434242961ee14f8cb9bf96973c778ffa4efff0e92c31bff8ac4d71142c2f3fe9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:22.584659+00:00",
+        "rawSha256": "434242961ee14f8cb9bf96973c778ffa4efff0e92c31bff8ac4d71142c2f3fe9",
+        "bytes": 18981
+      },
+      "localBodySha256": "888d4f06e4910b65158cd5fd7908b4276b88cd4bf914c478063f9e585937b024",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-014-2fafb0af56",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "13．结论。我们敢不敢胜利？",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-2fafb0af56",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "对俄国社会民主党内的实际情况了解得很肤浅的人，或者不知道我们党内从“经济主义”时期以来的全部斗争历史而从旁判断的人，还往往只是简单地援引任何一个国家的社会民主运动中都有两种自然而然的、必不可免的、彼此完全可以调和的倾向，来说明现在（特别是在第三次代表大会以后）已经明朗化的策略分歧。据说，一方面是特别强调寻常的、目前的、日常的工作，强调必须展开宣传和鼓动，必须准备力量，加深运动等等；另一方面是强调运动的战斗的、一般政治的、革命的任务，指出武装起义的必要，提出革命民主专政和临时革命政府的口号。无论对哪一方面都不应当夸大，不管是在这里还是在那里（不管在世界上哪个地方），都不宜走极端，如此等等。",
+        "这类议论中无疑含有一些处世（以及带引号的“政治”）秘诀的廉价真理，但是这种真理往往掩盖着人们对党的迫切紧急需要的无知。就拿俄国社会民主党人中现在的策略分歧来说吧。新火星派谈论策略问题时特别强调日常的普通工作，这件事本身当然还不会造成任何危险，也不会引起策略口号方面的任何分歧。但是，只要把俄国社会民主工党第三次代表大会的决议和代表会议的决议比较一下，这种分歧就一目了然了。"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-014-2fafb0af56",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+          "sourceRawSha256": "434242961ee14f8cb9bf96973c778ffa4efff0e92c31bff8ac4d71142c2f3fe9",
+          "lineIndex": 6,
+          "text": "13．结论。我们敢不敢胜利？",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>13．结论。我们敢不敢胜利？</title>",
+            "<p class=\"title1\">13．结论。我们敢不敢胜利？</p>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-014-2fafb0af56",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+          "sourceRawSha256": "434242961ee14f8cb9bf96973c778ffa4efff0e92c31bff8ac4d71142c2f3fe9",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-014-2fafb0af56",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/13.htm",
+          "sourceRawSha256": "434242961ee14f8cb9bf96973c778ffa4efff0e92c31bff8ac4d71142c2f3fe9",
+          "lineIndex": 12,
+          "text": "13．结论。我们敢不敢胜利？",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>13．结论。我们敢不敢胜利？</title>",
+            "<p class=\"title1\">13．结论。我们敢不敢胜利？</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c94023023772",
+      "chapterId": "chapter-015-14affd5c1f",
+      "title": "社会民主党在民主革命中的两种策略",
+      "chapterTitle": "补充说明 再论解放派，再论新火星派",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/14.htm",
+      "sourceRawSha256": "255407960006f5db31cc6f81412585040df22f881bdcdc7439a23b481b485a51",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/190506-07/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/190506-07/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:23.118275+00:00",
+        "rawSha256": "255407960006f5db31cc6f81412585040df22f881bdcdc7439a23b481b485a51",
+        "bytes": 48126
+      },
+      "localBodySha256": "d6c321b6f5c12f4d1163ae178c3788a16e1a18744ad69523ebe1f2a7bea559f8",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c94023023772-chapter-chapter-015-14affd5c1f",
+          "parentId": "toc-lenin-work-c94023023772-root",
+          "title": "补充说明 再论解放派，再论新火星派",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-14affd5c1f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "补充说明再论解放派，再论新火星派",
+        "《解放》杂志第71―72期和《火星报》第102―103号，给我们在本书第8节中所讨论的问题提供了异常丰富的新材料。我们在这里决不可能把所有这些丰富的材料都利用起来，我们只谈谈最主要的：第一，《解放》杂志称赞社会民主党内的哪一种“现实主义”，它为什么要称赞这种“现实主义”；第二，革命和专政这两个概念的相互关系。"
+      ],
+      "nativeNoteCount": 15,
+      "findings": [
+        {
+          "bookId": "lenin-work-c94023023772",
+          "chapterId": "chapter-015-14affd5c1f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/190506-07/14.htm",
+          "sourceRawSha256": "255407960006f5db31cc6f81412585040df22f881bdcdc7439a23b481b485a51",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 社会民主党在民主革命中的两种策略（1905年6―7月）",
+          "compactLength": 42,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-001-0a5f13f959",
+      "title": "国家与革命",
+      "chapterTitle": "第一版序言・第二版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/01.htm",
+      "sourceRawSha256": "84f97499cbdee173240aeed8df675be55d28f81fb1036aab78f5a312114144f7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:23.418072+00:00",
+        "rawSha256": "84f97499cbdee173240aeed8df675be55d28f81fb1036aab78f5a312114144f7",
+        "bytes": 6317
+      },
+      "localBodySha256": "9b1e18187bc04607b9e100aeee11170f14e0f102729587d09643b1aecb8a120a",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-001-0a5f13f959",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第一版序言・第二版序言",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-0a5f13f959",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "国家与革命",
+        "马克思主义关于国家的学说与无产阶级在革命中的任务 [1]"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-001-0a5f13f959",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/01.htm",
+          "sourceRawSha256": "84f97499cbdee173240aeed8df675be55d28f81fb1036aab78f5a312114144f7",
+          "lineIndex": 6,
+          "text": "第一版序言・第二版序言",
+          "compactLength": 11,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>第一版序言・第二版序言</title>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-001-0a5f13f959",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/01.htm",
+          "sourceRawSha256": "84f97499cbdee173240aeed8df675be55d28f81fb1036aab78f5a312114144f7",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-002-b8ddb41916",
+      "title": "国家与革命",
+      "chapterTitle": "第一章 阶级社会和国家",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+      "sourceRawSha256": "8807d67bf3d7ae5003955ae5946d15ff0f50d37475c350b1af65890e12da3fd9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:23.755895+00:00",
+        "rawSha256": "8807d67bf3d7ae5003955ae5946d15ff0f50d37475c350b1af65890e12da3fd9",
+        "bytes": 28142
+      },
+      "localBodySha256": "e57668543eb5272f1c68f2631045291ec801897effe375368ad1e4096407a97b",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-002-b8ddb41916",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第一章 阶级社会和国家",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-b8ddb41916",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1．国家是阶级矛盾不可调和的产物",
+        "马克思的学说在今天的遭遇，正如历史上被压迫阶级在解放斗争中的革命思想家和领袖的学说常有的遭遇一样。当伟大的革命家在世时，压迫阶级总是不断迫害他们，以最恶毒的敌意、最疯狂的仇恨、最放肆的造谣和诽谤对待他们的学说。在他们逝世以后，便试图把他们变为无害的神像，可以说是把他们偶像化，赋予他们的名字某种荣誉，以便“安慰”和愚弄被压迫阶级，同时却阉割革命学说的内容，磨去它的革命锋芒，把它庸俗化。现在资产阶级和工人运动中的机会主义者在对马克思主义作这种“加工”的事情上正一致起来。他们忘记、抹杀和歪曲这个学说的革命方面，革命灵魂。他们把资产阶级可以接受或者觉得资产阶级可以接受的东西放在第一位来加以颂扬。现在，一切社会沙文主义者都成了“马克思主义者”，这可不是说着玩的！那些德国的资产阶级学者，昨天还是剿灭马克思主义的专家，现在却愈来愈频繁地谈论起“德意志民族的”马克思来了，似乎马克思培育出了为进行掠夺战争而组织得非常出色的工人联合会！"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-002-b8ddb41916",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+          "sourceRawSha256": "8807d67bf3d7ae5003955ae5946d15ff0f50d37475c350b1af65890e12da3fd9",
+          "lineIndex": 6,
+          "text": "第一章 阶级社会和国家",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第一章 阶级社会和国家</title>",
+            "<p class=\"title1\">第一章 阶级社会和国家</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-002-b8ddb41916",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+          "sourceRawSha256": "8807d67bf3d7ae5003955ae5946d15ff0f50d37475c350b1af65890e12da3fd9",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-002-b8ddb41916",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/02.htm",
+          "sourceRawSha256": "8807d67bf3d7ae5003955ae5946d15ff0f50d37475c350b1af65890e12da3fd9",
+          "lineIndex": 12,
+          "text": "第一章 阶级社会和国家",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第一章 阶级社会和国家</title>",
+            "<p class=\"title1\">第一章 阶级社会和国家</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-003-8bef0d9cdb",
+      "title": "国家与革命",
+      "chapterTitle": "第二章 国家与革命。1848―1851年的经验",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+      "sourceRawSha256": "b5b901e8233a42db1e885b6961b90d04c0666db602145d337742c8f7c4f9925e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:24.303387+00:00",
+        "rawSha256": "b5b901e8233a42db1e885b6961b90d04c0666db602145d337742c8f7c4f9925e",
+        "bytes": 22713
+      },
+      "localBodySha256": "3b5b5cd203448396f94cc06877adf22a9808ddf2759bf705805d2952eb45b4e0",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-003-8bef0d9cdb",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第二章 国家与革命。1848―1851年的经验",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-8bef0d9cdb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1．革命的前夜",
+        "成熟的马克思主义的头两部著作《哲学的贫困》和《共产党宣言》，恰巧是在1848年革命前夜写成的。由于这种情况，这两部著作除了叙述马克思主义的一般原理，还在一定程度上反映了当时具体的革命形势。因此，我们来研究一下这两部著作的作者从1848―1851年革命的经验作出结论以前不久关于国家问题的言论，也许更为恰当。"
+      ],
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-003-8bef0d9cdb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+          "sourceRawSha256": "b5b901e8233a42db1e885b6961b90d04c0666db602145d337742c8f7c4f9925e",
+          "lineIndex": 6,
+          "text": "第二章 国家与革命。1848―1851年的经验",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第二章 国家与革命。1848―1851年的经验</title>",
+            "<p class=\"title1\">第二章 国家与革命。1848―1851年的经验</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-003-8bef0d9cdb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+          "sourceRawSha256": "b5b901e8233a42db1e885b6961b90d04c0666db602145d337742c8f7c4f9925e",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-003-8bef0d9cdb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/03.htm",
+          "sourceRawSha256": "b5b901e8233a42db1e885b6961b90d04c0666db602145d337742c8f7c4f9925e",
+          "lineIndex": 12,
+          "text": "第二章 国家与革命。1848―1851年的经验",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第二章 国家与革命。1848―1851年的经验</title>",
+            "<p class=\"title1\">第二章 国家与革命。1848―1851年的经验</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-004-9bb6125a71",
+      "title": "国家与革命",
+      "chapterTitle": "第三章 国家与革命。1871年巴黎公社的经验。马克思的分析",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+      "sourceRawSha256": "c45d84468aabe0ace12055f92a6103d24866e863e3771c33c0de3d1d6433d0f5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:24.589134+00:00",
+        "rawSha256": "c45d84468aabe0ace12055f92a6103d24866e863e3771c33c0de3d1d6433d0f5",
+        "bytes": 31692
+      },
+      "localBodySha256": "547918b40b69c0db0169b16e7e58336587c8b9432fed726da06c2c94d7600d8a",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-004-9bb6125a71",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第三章 国家与革命。1871年巴黎公社的经验。马克思的分析",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-9bb6125a71",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1．公社战士这次尝试的英雄主义何在？",
+        "大家知道，在巴黎公社出现以前几个月，即1870年秋，马克思曾经告诫巴黎工人说，推翻政府的尝试会是一种绝望的愚蠢举动。［注：参看《马克思恩格斯全集》第17卷第292页。――编者注］但是，当1871年3月工人被迫进行决战的时候，当起义已经成为事实的时候，尽管当时有种种恶兆，马克思还是以极其欢欣鼓舞的心情来迎接无产阶级革命。马克思并没有固执己见，学究式地非难运动“不合时宜”，象臭名昭彰的俄国马克思主义叛徒普列汉诺夫那样：普列汉诺夫在1905年11月曾写文章鼓励工人农民进行斗争，而在1905年12月以后却自由派式地大叫什么“本来就用不着拿起武器”[16]。"
+      ],
+      "nativeNoteCount": 6,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-004-9bb6125a71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+          "sourceRawSha256": "c45d84468aabe0ace12055f92a6103d24866e863e3771c33c0de3d1d6433d0f5",
+          "lineIndex": 6,
+          "text": "第三章 国家与革命。1871年巴黎公社的经验。马克思的分析",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第三章 国家与革命。1871年巴黎公社的经验。马克思的分析</title>",
+            "<p class=\"title1\">第三章 国家与革命。1871年巴黎公社的经验。马克思的分析</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-004-9bb6125a71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+          "sourceRawSha256": "c45d84468aabe0ace12055f92a6103d24866e863e3771c33c0de3d1d6433d0f5",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-004-9bb6125a71",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/04.htm",
+          "sourceRawSha256": "c45d84468aabe0ace12055f92a6103d24866e863e3771c33c0de3d1d6433d0f5",
+          "lineIndex": 12,
+          "text": "第三章 国家与革命。1871年巴黎公社的经验。马克思的分析",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第三章 国家与革命。1871年巴黎公社的经验。马克思的分析</title>",
+            "<p class=\"title1\">第三章 国家与革命。1871年巴黎公社的经验。马克思的分析</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-005-5d48c57c34",
+      "title": "国家与革命",
+      "chapterTitle": "第四章 续前。恩格斯的补充说明",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+      "sourceRawSha256": "1cd1f67250784293cd9c8a9a6475f270f60fe5dcd2dae73cbbfccdaa12912961",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:24.952981+00:00",
+        "rawSha256": "1cd1f67250784293cd9c8a9a6475f270f60fe5dcd2dae73cbbfccdaa12912961",
+        "bytes": 43715
+      },
+      "localBodySha256": "478965581817440e4fa24ef579652687792b98bfd9bd27af65fb9da810188be5",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-005-5d48c57c34",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第四章 续前。恩格斯的补充说明",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-5d48c57c34",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "马克思对公社经验的意义问题指出了基本的要点。恩格斯不止一次地谈到这个问题，说明马克思的分析和结论，并且有时非常有力非常突出地阐明这个问题的其他方面，因此我们必须特别来谈谈这些说明。",
+        "1．《住宅问题》"
+      ],
+      "nativeNoteCount": 12,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-005-5d48c57c34",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+          "sourceRawSha256": "1cd1f67250784293cd9c8a9a6475f270f60fe5dcd2dae73cbbfccdaa12912961",
+          "lineIndex": 6,
+          "text": "第四章 续前。恩格斯的补充说明",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第四章 续前。恩格斯的补充说明</title>",
+            "<p class=\"title1\">第四章 续前。恩格斯的补充说明</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-005-5d48c57c34",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+          "sourceRawSha256": "1cd1f67250784293cd9c8a9a6475f270f60fe5dcd2dae73cbbfccdaa12912961",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-005-5d48c57c34",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/05.htm",
+          "sourceRawSha256": "1cd1f67250784293cd9c8a9a6475f270f60fe5dcd2dae73cbbfccdaa12912961",
+          "lineIndex": 12,
+          "text": "第四章 续前。恩格斯的补充说明",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第四章 续前。恩格斯的补充说明</title>",
+            "<p class=\"title1\">第四章 续前。恩格斯的补充说明</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-006-c175ed7851",
+      "title": "国家与革命",
+      "chapterTitle": "第五章 国家消亡的经济基础",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+      "sourceRawSha256": "bcf708f9319ee3f8fe77979c17cc35917dee8bf8a378fa5986440244a514d7bc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:25.281208+00:00",
+        "rawSha256": "bcf708f9319ee3f8fe77979c17cc35917dee8bf8a378fa5986440244a514d7bc",
+        "bytes": 28240
+      },
+      "localBodySha256": "033daba557d38a61173acdd5ecdf955f1a230cb41e6bf925ba7df893734c0516",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-006-c175ed7851",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第五章 国家消亡的经济基础",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-c175ed7851",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "马克思在他的《哥达纲领批判》（即1875年5月5日给白拉克的信，这封信直到1891年才在《新时代》第9年卷第1册上发表，有俄文单行本）［注：见《马克思恩格斯全集》第19卷第11―35页。――编者注］中对这个问题作了最详尽的说明。在这篇出色的著作中，批判拉萨尔主义的论战部分可以说是遮盖了正面论述的部分，即遮盖了对共产主义发展和国家消亡之间的联系的分析。",
+        "1．马克思如何提出问题"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-006-c175ed7851",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+          "sourceRawSha256": "bcf708f9319ee3f8fe77979c17cc35917dee8bf8a378fa5986440244a514d7bc",
+          "lineIndex": 6,
+          "text": "第五章 国家消亡的经济基础",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第五章 国家消亡的经济基础</title>",
+            "<p class=\"title1\">第五章 国家消亡的经济基础</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-006-c175ed7851",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+          "sourceRawSha256": "bcf708f9319ee3f8fe77979c17cc35917dee8bf8a378fa5986440244a514d7bc",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-006-c175ed7851",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/06.htm",
+          "sourceRawSha256": "bcf708f9319ee3f8fe77979c17cc35917dee8bf8a378fa5986440244a514d7bc",
+          "lineIndex": 12,
+          "text": "第五章 国家消亡的经济基础",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第五章 国家消亡的经济基础</title>",
+            "<p class=\"title1\">第五章 国家消亡的经济基础</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-007-37af34c9d6",
+      "title": "国家与革命",
+      "chapterTitle": "第六章 马克思主义被机会主义者庸俗化",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+      "sourceRawSha256": "7b297389650f4f2b9fb534966ec01642ec3a800c23ced6fc5d0a15555e0f7d60",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:25.796880+00:00",
+        "rawSha256": "7b297389650f4f2b9fb534966ec01642ec3a800c23ced6fc5d0a15555e0f7d60",
+        "bytes": 32532
+      },
+      "localBodySha256": "a18225ebbf6c6f339029b2b4380ec30693b1ec35d4fac59069561cd35e85a5fb",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-007-37af34c9d6",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第六章 马克思主义被机会主义者庸俗化",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-37af34c9d6",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "国家对社会革命的态度和社会革命对国家的态度问题，象整个革命问题一样，是第二国际（1889―1914年）最著名的理论家和政论家们很少注意的。但是，在机会主义逐渐滋长而使第二国际在1914年破产的过程中，最突出的一点就是：甚至当他们直接遇到这个问题的时候，他们还是竭力回避或者不加理会。",
+        "总的看来可以说，由于在无产阶级革命对国家的态度问题上采取了有利于机会主义和助长机会主义的躲躲闪闪的态度，结果就产生了对马克思主义的歪曲和对马克思主义的完全庸俗化。"
+      ],
+      "nativeNoteCount": 11,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-007-37af34c9d6",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+          "sourceRawSha256": "7b297389650f4f2b9fb534966ec01642ec3a800c23ced6fc5d0a15555e0f7d60",
+          "lineIndex": 6,
+          "text": "第六章 马克思主义被机会主义者庸俗化",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第六章 马克思主义被机会主义者庸俗化</title>",
+            "<p class=\"title1\">第六章 马克思主义被机会主义者庸俗化</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-007-37af34c9d6",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+          "sourceRawSha256": "7b297389650f4f2b9fb534966ec01642ec3a800c23ced6fc5d0a15555e0f7d60",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-007-37af34c9d6",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/07.htm",
+          "sourceRawSha256": "7b297389650f4f2b9fb534966ec01642ec3a800c23ced6fc5d0a15555e0f7d60",
+          "lineIndex": 12,
+          "text": "第六章 马克思主义被机会主义者庸俗化",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第六章 马克思主义被机会主义者庸俗化</title>",
+            "<p class=\"title1\">第六章 马克思主义被机会主义者庸俗化</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-008-143a54893f",
+      "title": "国家与革命",
+      "chapterTitle": "第一版跋",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+      "sourceRawSha256": "1e71851f56abcbf97292c5b4c5aee04b8d4aa1639129c58b10781f213d6071f1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:26.440384+00:00",
+        "rawSha256": "1e71851f56abcbf97292c5b4c5aee04b8d4aa1639129c58b10781f213d6071f1",
+        "bytes": 1860
+      },
+      "localBodySha256": "b181bfc8f36f874abb93a2448dd129ff26bb9b9d6e356b53f60b4d7a7b8a8606",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-008-143a54893f",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "第一版跋",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-143a54893f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "这本小册子是在1917年8、9月间写成的。我当时已经拟定了下一章即第7章《1905年和1917年俄国革命的经验》的提纲。但这一章除了题目以外，我连一行字也没有来得及写，因为1917年十月革命前夜的政治危机“妨碍”了我。对于这种“妨碍”，只有高兴。但是本书第2册（《1905年和1917年俄国革命的经验》）看来只好长时间拖下去了；做出“革命的经验”是会比论述“革命的经验”更愉快、更有益的。",
+        "作者"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-008-143a54893f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+          "sourceRawSha256": "1e71851f56abcbf97292c5b4c5aee04b8d4aa1639129c58b10781f213d6071f1",
+          "lineIndex": 6,
+          "text": "第一版跋",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第一版跋</title>",
+            "<p class=\"title1\">第一版跋</p>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-008-143a54893f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+          "sourceRawSha256": "1e71851f56abcbf97292c5b4c5aee04b8d4aa1639129c58b10781f213d6071f1",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-008-143a54893f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/08.htm",
+          "sourceRawSha256": "1e71851f56abcbf97292c5b4c5aee04b8d4aa1639129c58b10781f213d6071f1",
+          "lineIndex": 12,
+          "text": "第一版跋",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>第一版跋</title>",
+            "<p class=\"title1\">第一版跋</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-009-b4831ce0c1",
+      "title": "国家与革命",
+      "chapterTitle": "《列宁全集》第三十一卷前言",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/09.htm",
+      "sourceRawSha256": "a825e6c59ce37a70a65826a9534151de4a1a5b5823775bb1a0f35d5f6f37afe7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:26.713176+00:00",
+        "rawSha256": "a825e6c59ce37a70a65826a9534151de4a1a5b5823775bb1a0f35d5f6f37afe7",
+        "bytes": 10861
+      },
+      "localBodySha256": "4c42fd500c2e4d231a33c0bb5e25e8168ede95519594d41cbd0e41133b2d172a",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-009-b4831ce0c1",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "《列宁全集》第三十一卷前言",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-b4831ce0c1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《列宁全集》第三十一卷（第二版）",
+        "前言"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-009-b4831ce0c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/09.htm",
+          "sourceRawSha256": "a825e6c59ce37a70a65826a9534151de4a1a5b5823775bb1a0f35d5f6f37afe7",
+          "lineIndex": 11,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-009-b4831ce0c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/09.htm",
+          "sourceRawSha256": "a825e6c59ce37a70a65826a9534151de4a1a5b5823775bb1a0f35d5f6f37afe7",
+          "lineIndex": 73,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"08.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"10.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "state-revolution-zh",
+      "chapterId": "chapter-010-0703e9484e",
+      "title": "国家与革命",
+      "chapterTitle": "列宁的《国家与革命》",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+      "sourceRawSha256": "9f2038036b4e078625149fdb0a59ccad750f6cf04b7f8350ca2e9b30d156027c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:27.197775+00:00",
+        "rawSha256": "9f2038036b4e078625149fdb0a59ccad750f6cf04b7f8350ca2e9b30d156027c",
+        "bytes": 15028
+      },
+      "localBodySha256": "ed0874f5b0da0ca2244e6fb2fdf8727e6e14f925b66077a68eb2ea33893f8c13",
+      "localChapterToc": [
+        {
+          "id": "toc-state-revolution-zh-chapter-chapter-010-0703e9484e",
+          "parentId": "toc-state-revolution-zh-root",
+          "title": "列宁的《国家与革命》",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-0703e9484e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "[意大利]科莱蒂Lucio Colletti",
+        "《国家与革命》的基本主题就是破坏性的暴力行动的革命的主题，它牢牢地铭刻于人们的记忆之中，人们只要一想到这部著作，这个主题立刻就会在心灵中呈现出来。革命不能只限于夺取政权，还必须破坏旧的国家。列宁说：“问题的本质在于：是保存旧的国家机器……呢，还是把它破坏”。（《国家与革命》中文版单行本第103页）炸毁、打碎、破坏、粉碎：这些词汇是该文的基本语调。列宁并不是在驳斥那些不希望夺取政权的人。他攻击的对象不是改良主义。恰恰相反，列宁驳斥的是那些要求夺取政权、但又不希望破坏旧的国家的人。他所针对的作者是考茨基。但要说明的是，列宁所针对的考茨基并不是1917年后出场的考茨基（例如，以《恐怖政治和共产主义》一书出场的考茨基），而是致力于对机会主义进行笔伐的考茨基。当时的考茨基要求革命，但并不希望破坏旧的国家机器。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-010-0703e9484e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+          "sourceRawSha256": "9f2038036b4e078625149fdb0a59ccad750f6cf04b7f8350ca2e9b30d156027c",
+          "lineIndex": 3,
+          "text": "列宁的《国家与革命》（作者：[意大利] 科莱蒂 Lucio Colletti）",
+          "compactLength": 36,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>列宁的《国家与革命》（作者：[意大利] 科莱蒂 Lucio Colletti）</title>"
+          ]
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-010-0703e9484e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+          "sourceRawSha256": "9f2038036b4e078625149fdb0a59ccad750f6cf04b7f8350ca2e9b30d156027c",
+          "lineIndex": 8,
+          "text": "中文马克思主义文库 -> 列宁  -> 国家与革命――马克思主义关于国家的学说与无产阶级在革命中的任务（1917年8―9月）",
+          "compactLength": 57,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "state-revolution-zh",
+          "chapterId": "chapter-010-0703e9484e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/191708-09/10.htm",
+          "sourceRawSha256": "9f2038036b4e078625149fdb0a59ccad750f6cf04b7f8350ca2e9b30d156027c",
+          "lineIndex": 10,
+          "text": "列宁的《国家与革命》",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">列宁的《国家与革命》</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-001-e78a4aa375",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "在什么意义上可以说俄国革命具有国际意义？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/01.htm",
+      "sourceRawSha256": "a3ae8c41cc19862fe726c1e52bc115789d2d316567804bf41084eccc8c676b63",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:27.462677+00:00",
+        "rawSha256": "a3ae8c41cc19862fe726c1e52bc115789d2d316567804bf41084eccc8c676b63",
+        "bytes": 4480
+      },
+      "localBodySha256": "b728eb981fa018fa5566c3690102037d1f51f74cb945b6453a527f0a1f88b384",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-001-e78a4aa375",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "在什么意义上可以说俄国革命具有国际意义？",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-e78a4aa375",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "一、在什么意义上可以说俄国革命具有国际意义？",
+        "无产阶级在俄国夺取政权（1917年10月25日，即公历11月7日）后的最初几个月，人们可能觉得，由于落后的俄国同先进的西欧各国有巨大的差别，西欧各国的无产阶级革命同我国的革命将很少有相似之处。现在我们已经有相当丰富的国际经验，它十分明确地说明，我国革命的某些基本特点所具有的意义，不是局部地区的、一国特有的、仅限于俄国的意义，而是国际的意义。我这里所说的国际意义不是按广义来说的，不是说：不仅我国革命的某些基本特点，而且所有基本特点和许多次要特点都具有国际意义，都对所有国家发生影响。不是的，我是按最狭义来说的，就是说，所谓国际意义是指我国所发生过的事情在国际上具有重要性，或者说，具有在国际范围内重演的历史必然性，因此必须承认，具有国际意义的是我国革命的某些基本特点。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-001-e78a4aa375",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/01.htm",
+          "sourceRawSha256": "a3ae8c41cc19862fe726c1e52bc115789d2d316567804bf41084eccc8c676b63",
+          "lineIndex": 2,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-001-e78a4aa375",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/01.htm",
+          "sourceRawSha256": "a3ae8c41cc19862fe726c1e52bc115789d2d316567804bf41084eccc8c676b63",
+          "lineIndex": 40,
+          "text": "回目录　下一篇",
+          "compactLength": 6,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"02.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-002-1339c5babb",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "布尔什维克成功的基本条件之一",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/02.htm",
+      "sourceRawSha256": "9e3a007bf2ffc8868ed92d932b9c7c44ae125c8be670075e614838be17ec006d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:27.805162+00:00",
+        "rawSha256": "9e3a007bf2ffc8868ed92d932b9c7c44ae125c8be670075e614838be17ec006d",
+        "bytes": 4850
+      },
+      "localBodySha256": "6b9d9f13030461331e6e39e0bf70dd8fa5237d0cb16dcc343ba9408f2791c4a1",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-002-1339c5babb",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "布尔什维克成功的基本条件之一",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-1339c5babb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "二、布尔什维克成功的基本条件之一",
+        "大概，现在差不多每个人都能看出，如果我们党没有极严格的真正铁的纪律，如果我们党没有得到整个工人阶级全心全意的拥护，就是说，没有得到工人阶级中所有一切善于思考、正直、有自我牺牲精神、有威信并且能带领或吸引落后阶层的人的全心全意的拥护，那么布尔什维克别说把政权保持两年半，就是两个半月也保持不住。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-002-1339c5babb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/02.htm",
+          "sourceRawSha256": "9e3a007bf2ffc8868ed92d932b9c7c44ae125c8be670075e614838be17ec006d",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-002-1339c5babb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/02.htm",
+          "sourceRawSha256": "9e3a007bf2ffc8868ed92d932b9c7c44ae125c8be670075e614838be17ec006d",
+          "lineIndex": 45,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"01.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"03.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-003-b1f571269a",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "布尔什维主义历史的几个主要阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+      "sourceRawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:28.155068+00:00",
+        "rawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+        "bytes": 7314
+      },
+      "localBodySha256": "d0e269b5ef6f2c8a29034e67f68aef5caec4d35e71933a4cbb89296698e37951",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-003-b1f571269a",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "布尔什维主义历史的几个主要阶段",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-b1f571269a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "三、",
+        "革命准备年代（1903─1905年）。处处都感到大风暴即将到来。一切阶级都动了起来，准备应变。国外的侨民报刊，从理论上提出了革命的一切基本问题。三个主要阶级的代表，即自由主义资产阶级派、小资产阶级民主派（它挂着“社会民主”派和“社会革命”派的招牌）和无产阶级革命派这三个主要政治派别的代表，在纲领观点和策略观点上进行着十分激烈的斗争，预示着和准备着行将到来的公开的阶级斗争。1905─1907年间以及1917─1920年间导致群众武装斗争的一切问题，都可以（而且应当）在当时报刊上找到它们的最初提法。自然，在这三个主要派别之间，还有无数中间的、过渡的、摇摆的派别。确切些说，在各机关报刊、各政党、各派别、各集团之间所展开的斗争中，逐渐形成真正代表阶级的各种思想政治派别；各阶级都在为未来的战斗锻造自己的思想政治武器。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-003-b1f571269a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+          "sourceRawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+          "lineIndex": 5,
+          "text": "三、布尔什维主义历史的几个主要阶段",
+          "compactLength": 17,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">三、<br/>布尔什维主义历史的几个主要阶段</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-003-b1f571269a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+          "sourceRawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-003-b1f571269a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+          "sourceRawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+          "lineIndex": 10,
+          "text": "布尔什维主义历史的几个主要阶段",
+          "compactLength": 15,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">三、<br/>布尔什维主义历史的几个主要阶段</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-003-b1f571269a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/03.htm",
+          "sourceRawSha256": "ac01121f1b5ba7b42b7ba79f83cf837908e3a121e8bfa995bc956ea4e246a8f3",
+          "lineIndex": 43,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"02.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"04.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-004-5a29e71df0",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+      "sourceRawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:28.500485+00:00",
+        "rawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+        "bytes": 11593
+      },
+      "localBodySha256": "0c08959faed55f9bcaacbe7213de4cbd1976701795b046ff35202c4dd1d4f302",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-004-5a29e71df0",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-5a29e71df0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "四、",
+        "首先是而且主要是在反对机会主义的斗争中。机会主义在1914年彻底变成社会沙文主义，彻底倒向资产阶级方面反对无产阶级。这自然是布尔什维主义在工人运动内部的主要敌人。现在这个敌人在国际范围内仍然是主要敌人。对于这个敌人，布尔什维主义过去和现在都给予极大的注意。布尔什维克在这方面的活动，现在就是国外也知道得很清楚。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-004-5a29e71df0",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+          "sourceRawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+          "lineIndex": 5,
+          "text": "四、布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？",
+          "compactLength": 38,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">四、<br/>\r\n布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-004-5a29e71df0",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+          "sourceRawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-004-5a29e71df0",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+          "sourceRawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+          "lineIndex": 11,
+          "text": "布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？",
+          "compactLength": 36,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">四、<br/>\r\n布尔什维主义是在反对工人运动内部哪些敌人的斗争中成长、壮大和得到锻炼的？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-004-5a29e71df0",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/04.htm",
+          "sourceRawSha256": "222f4e0be4b0fc94a6f061e002c07535b35f65a085880e326ef98047f5eac81a",
+          "lineIndex": 65,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"03.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"05.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-006-b3dbb5e701",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "革命家应当不应当在反动工会里做工作？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+      "sourceRawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:28.858697+00:00",
+        "rawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+        "bytes": 13911
+      },
+      "localBodySha256": "e47f0170b2663856dd5fcdf1928fba4ab2aa6d274c619a3f2caef9b7d8ddfd51",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-006-b3dbb5e701",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "革命家应当不应当在反动工会里做工作？",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-b3dbb5e701",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "六、",
+        "德国“左派”认为对这个问题无疑应当作绝对否定的回答。他们以为只要对“反动的”和“反革命的”工会慷慨陈词，怒气冲冲地叫嚷一番（克・霍纳在这方面干得特别“庄重”，也特别笨拙），就足以“证明”，革命家、共产党人不需要甚至不容许在黄色的、社会沙文主义的、妥协主义的、列金派的、反革命的工会里做工作。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-006-b3dbb5e701",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+          "sourceRawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+          "lineIndex": 5,
+          "text": "六、革命家应当不应当在反动工会里做工作？",
+          "compactLength": 20,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">六、<br/>革命家应当不应当在反动工会里做工作？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-006-b3dbb5e701",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+          "sourceRawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-006-b3dbb5e701",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+          "sourceRawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+          "lineIndex": 10,
+          "text": "革命家应当不应当在反动工会里做工作？",
+          "compactLength": 18,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">六、<br/>革命家应当不应当在反动工会里做工作？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-006-b3dbb5e701",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/06.htm",
+          "sourceRawSha256": "28cc36985fdec178261b454d67adc8f0e676912eb65a3c097597f8993878307d",
+          "lineIndex": 69,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"05.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"07.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-008-e09e4b73c1",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "不作任何妥协吗？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+      "sourceRawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:29.408954+00:00",
+        "rawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+        "bytes": 16704
+      },
+      "localBodySha256": "650157b75b37e6cece25aa22505518dfbd982673c82e9452427c4243bf1edaad",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-008-e09e4b73c1",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "不作任何妥协吗？",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-e09e4b73c1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "八、",
+        "我们从上面引自法兰克福出版的小册子的那段话里，已经看到“左派”何等坚决地提出“不作任何妥协”的口号。这些无疑是以马克思主义者自居并且愿意做马克思主义者的人，竟忘记了马克思主义的基本真理，这实在使人感到可悲。请看看1874年恩格斯反驳33个布朗基派公社战士的宣言时说的话吧（恩格斯同马克思一样，都属于那种少见的和极少见的著作家，能做到每一巨著中的每一句话含义都极为深刻）："
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-008-e09e4b73c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+          "sourceRawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+          "lineIndex": 5,
+          "text": "八、不作任何妥协吗？",
+          "compactLength": 10,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">八、<br/>不作任何妥协吗？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-008-e09e4b73c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+          "sourceRawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-008-e09e4b73c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+          "sourceRawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+          "lineIndex": 10,
+          "text": "不作任何妥协吗？",
+          "compactLength": 8,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">八、<br/>不作任何妥协吗？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-008-e09e4b73c1",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/08.htm",
+          "sourceRawSha256": "89dd5401ef70e03b1d72948aae5f77a7546dbabde181dea17f5081f18749aafa",
+          "lineIndex": 71,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"07.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"09.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-009-451cd7e5a2",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "英国“左派”共产主义者",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+      "sourceRawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:29.843520+00:00",
+        "rawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+        "bytes": 19195
+      },
+      "localBodySha256": "eb55231db95113b13ce5af1b1e77f299a2193576ba927f99acb478716c06b984",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-009-451cd7e5a2",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "英国“左派”共产主义者",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-451cd7e5a2",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "九、",
+        "英国现在还没有共产党，但是工人中间出现了一种崭新的、广泛的、强大的、迅速增长的、令人感到极有希望的共产主义运动；有几个政党和政治组织（“英国社会党”、“社会主义工人党”、“南威尔士社会主义协会”、“工人社会主义联盟”）希望成立共产党，并且正在就这个问题进行谈判。在“工人社会主义联盟”的机关报《工人无畏舰》周刊（1920年2月21日第6卷第48期）上刊载了该刊主编西尔维娅・潘克赫斯特同志的一篇文章：《向建立共产党的目标前进》。这篇文章叙述了上述四个组织谈判的经过，谈判的内容是：在加入第三国际、承认苏维埃制度（而不是议会制）和无产阶级专政的基础上建立统一的共产党。原来，不能立刻成立统一的共产党的主要障碍之一，是它们之间发生了意见分歧，分歧在于要不要参加议会以及新成立的共产党要不要加入旧的、行业性的（大半由工联组成的）、机会主义和社会沙文主义的“工党”。“工人社会主义联盟”以及“社会主义工人党”1都反对参加议会选举，反对参加议会，反对加入“工党”，在这方面它们和英国社会党全体党员或多数党员意见不一致，在它们看来英国社会党是英国“各共产主义政党中的右翼”（西尔维娅・潘克赫斯特的上述文章，第5页）。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-009-451cd7e5a2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+          "sourceRawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+          "lineIndex": 5,
+          "text": "九、英国“左派”共产主义者",
+          "compactLength": 13,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">九、<br/>英国“左派”共产主义者</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-009-451cd7e5a2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+          "sourceRawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-009-451cd7e5a2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+          "sourceRawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+          "lineIndex": 10,
+          "text": "英国“左派”共产主义者",
+          "compactLength": 11,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">九、<br/>英国“左派”共产主义者</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-009-451cd7e5a2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/09.htm",
+          "sourceRawSha256": "548a808e866a0268cd17b1bcf71bd9cdfe74c67aad3c6f85674b23c48cd8dce6",
+          "lineIndex": 105,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"08.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"10.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-010-bb8eacb7b8",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "几点结论",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+      "sourceRawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:30.121903+00:00",
+        "rawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+        "bytes": 21021
+      },
+      "localBodySha256": "39bfac294f037abacf5082e0e65e403dc191f03beed2f321b956adb24a63bc65",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-010-bb8eacb7b8",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "几点结论",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-bb8eacb7b8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "十、",
+        "1905年的俄国资产阶级革命显示了世界历史上的一个异常独特的转变：在一个最落后的资本主义国家里，罢工运动范围之广和力量之大在世界上第一次达到了空前未有的程度。单单1905年头一个月的罢工人数就等于以往十年（1895─1904年）平均每年罢工人数的十倍，而且从1905年1月到10月，罢工还在不断和急剧地发展。由于许多完全特殊的历史条件，落后的俄国第一个向世界不仅表明了被压迫群众在革命时的主动精神的飞跃增长（在一切大革命中都是如此），而且表明无产阶级的作用大大超过了它在人口中所占的比例，表明经济罢工怎样和政治罢工结合，而政治罢工又怎样变成武装起义，表明受资本主义压迫的各阶级怎样创造出了苏维埃这种群众斗争和群众组织的新形式。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-010-bb8eacb7b8",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+          "sourceRawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+          "lineIndex": 5,
+          "text": "十、几点结论",
+          "compactLength": 6,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">十、<br/>几点结论</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-010-bb8eacb7b8",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+          "sourceRawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-010-bb8eacb7b8",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+          "sourceRawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+          "lineIndex": 10,
+          "text": "几点结论",
+          "compactLength": 4,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">十、<br/>几点结论</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-010-bb8eacb7b8",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/10.htm",
+          "sourceRawSha256": "0470dd35ae821300b0cd2c248760d698059e7a2fc93637d503ea3400bfc30b58",
+          "lineIndex": 65,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"09.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"11.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-005-75d3fb004a",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+      "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:30.465413+00:00",
+        "rawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+        "bytes": 11717
+      },
+      "localBodySha256": "da431f332cf6b8cec038cde1ba24157388643dc80ff75ac366322d9f4b4f4fbb",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-005-75d3fb004a",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-75d3fb004a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "五、",
+        "我们现在所要讲的那些德国共产党人，他们不是把自己叫作“左派”，而是叫作──如果我没有记错的话──“原则上的反对派”。但是他们却完全具有“左派幼稚病”的症候，这从下面的阐述中可以清楚地看出。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-005-75d3fb004a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+          "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+          "lineIndex": 5,
+          "text": "五、德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系",
+          "compactLength": 30,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">五、<br/>德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-005-75d3fb004a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+          "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-005-75d3fb004a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+          "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+          "lineIndex": 10,
+          "text": "德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系",
+          "compactLength": 28,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">五、<br/>德国“左派”共产党人。领袖、政党、阶级、群众间的相互关系</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-005-75d3fb004a",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/05.htm",
+          "sourceRawSha256": "51d2bbebc50ab6d3cbce74ff3a998b5ee36bbb53b08321095d3bc81de7514537",
+          "lineIndex": 82,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"04.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"06.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-007-6ac097c448",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "参加不参加资产阶级议会？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+      "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:31.012978+00:00",
+        "rawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+        "bytes": 16038
+      },
+      "localBodySha256": "223b1f99f675b8a213d5f667a0495ab2a4642e08106bcc50295490949b32791f",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-007-6ac097c448",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "参加不参加资产阶级议会？",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-6ac097c448",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "七、",
+        "德国“左派”共产党人以极端鄙视又极端轻率的态度对这个问题作了否定的回答。他们的论据是什么呢？我们在前面的引文中已经看到："
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-007-6ac097c448",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+          "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+          "lineIndex": 5,
+          "text": "七、参加不参加资产阶级议会？",
+          "compactLength": 14,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">七、<br/>参加不参加资产阶级议会？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-007-6ac097c448",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+          "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-007-6ac097c448",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+          "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+          "lineIndex": 10,
+          "text": "参加不参加资产阶级议会？",
+          "compactLength": 12,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">七、<br/>参加不参加资产阶级议会？</p>"
+          ],
+          "reason": "同一title1章根P以BR将编号与题目分行，题目由现有章节栏和章目录呈现；章ID、章次及counterpartKey沿用，非缺失的内文章标题。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-007-6ac097c448",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/07.htm",
+          "sourceRawSha256": "9aea366f8c68f776cc97f840f93d2a21babf24536065df05725c6ff74574ad23",
+          "lineIndex": 66,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"06.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"08.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-011-8055be513d",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "德国共产党人的分裂",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+      "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:31.260228+00:00",
+        "rawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+        "bytes": 3921
+      },
+      "localBodySha256": "0a9756dbc769817491a231fd5c32031b44409a75917aa1c89d8f4cee47ff80ba",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-011-8055be513d",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "德国共产党人的分裂",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-8055be513d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "增补",
+        "全世界帝国主义者为了对无产阶级进行报复，把我国劫掠一空，并且不顾对本国工人许下了怎样的诺言，继续实行掠夺和封锁，因此直到我国出版机构已经把这本小册子的出版任务安排停当时，我才从国外得到了一些补充材料。我决不奢望把这本小册子看做超过匆匆草就的政论家札记的著作，因此只扼要地再谈几点。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-011-8055be513d",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+          "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+          "lineIndex": 5,
+          "text": "增补　一、德国共产党人的分裂",
+          "compactLength": 13,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>增补　一、德国共产党人的分裂</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-011-8055be513d",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+          "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-011-8055be513d",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/11.htm",
+          "sourceRawSha256": "c93ac370d97f0e9a7c3d4cfb1f55b5ea086855eff095021996d204007b48f443",
+          "lineIndex": 44,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"10.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"12.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-012-7d1e35d230",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "德国的共产党人和独立党人",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+      "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:31.614704+00:00",
+        "rawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+        "bytes": 4388
+      },
+      "localBodySha256": "0584527870195dc4bccef6d584fe196e64b3df8e41d512f5edd88a5541bdb4f0",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-012-7d1e35d230",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "德国的共产党人和独立党人",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-7d1e35d230",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "二 德国的共产党人和独立党人\n我在这本小册子里说过，共产党人和左翼独立党人之间的妥协对于共产主义运动是必要的和有益的，但是要实现这种妥协并不容易。此后我收到的几份报纸也证实了这两点。1920年3月26日出版的德国共产党中央机关报《红旗报》（《Die Rote Fahne，Zentralorgan de Kommunistischen Partei Deutschlands，Spartakusbund》）第32号上，载有中央就卡普、吕特维茨军事“叛乱”（阴谋，冒险）和“社会主义政府”问题发表的“声明”。这篇声明，无论从基本前提或实际结论看来，都是完全正确的。它的基本前提是：目前还没有实现无产阶级专政的“客观基础”，因为“多数城市工人”拥护独立党人。它的结论是：答应“在排除各资产阶级资本主义政党的条件下，对社会主义”政府采取“守法的反对派”的态度（即不进行用“暴力推翻”政府的准备工作）。",
+        "无疑，这个策略基本上是正确的。我们固然不应当在措词上吹毛求疵，但是对有些地方则不能默不作声，例如不该把社会主义叛徒的政府（在共产党的正式声明中）称为“社会主义”政府，又如谢德曼之流的党和考茨基─克里斯平之流先生们的党既然是小资产阶级民主派的政党，那就不该说排除“各资产阶级资本主义政党”这类话；也不该写出像声明第4条里这样的语句："
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-012-7d1e35d230",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+          "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+          "lineIndex": 5,
+          "text": "增补　二、德国的共产党人和独立党人",
+          "compactLength": 16,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>增补　二、德国的共产党人和独立党人</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-012-7d1e35d230",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+          "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-012-7d1e35d230",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/12.htm",
+          "sourceRawSha256": "e1b5a463dc6210ecd21327783f901177db06ee34cf07448d9eb90bb19e3f932d",
+          "lineIndex": 41,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"11.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"13.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-013-04d525d516",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "意大利的屠拉梯之流",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+      "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:32.005805+00:00",
+        "rawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+        "bytes": 2834
+      },
+      "localBodySha256": "daa7d107640912b1253b0685b93111f8fd60766356594efe6cbf98d8108f5603",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-013-04d525d516",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "意大利的屠拉梯之流",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-04d525d516",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "三 意大利的屠拉梯之流\n我在这本小册子里说过，意大利社会党容忍这样一些党员，甚至这样一批议员留在党内是错误的。前面提到的那两号意大利《苏维埃报》完全证实了我的话。英国资产阶级自由派报纸《曼彻斯特卫报》驻罗马记者这样一位旁观者，更进一步证实了这一点。1920年3月12日该报登载了这位记者对屠拉梯的一篇访问记。他写道：",
+        "“……屠拉梯先生认为革命的危险还没有达到在意大利引起过份忧虑的程度。最高纲领派把苏维埃理论当火来完，只是为了使群众经常处于兴奋紧张的状态。然而这种理论纯属海外奇谈，是尚未成熟的纲领，毫无实际用处。它只能使各劳动者阶级处于期待的状态。那些把这种理论当作诱饵去迷惑无产者的人，发现自己不得不进行日常的斗争，以获得某些往往是微小的经济改善，好来延迟时日，使各劳动者阶级不致立即失去幻想，失去的心爱的神话的信心。因此，发生了一连串大大小小的、各种原因的罢工，一直到最近的邮政和铁路部门的罢工，──这些罢工使得本来就很严重的国内情势越发严重了。亚得里亚海问题所造成的困难，使全国忿忿不满，积欠外债和滥发纸币，使得全国消沉颓丧，但是我们的国家还远未意识到有推行劳动纪律的必要，而只有这种纪律，才能恢复国内的秩序和繁荣。……”"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-013-04d525d516",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+          "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+          "lineIndex": 5,
+          "text": "增补　三、意大利的屠拉梯之流",
+          "compactLength": 13,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>增补　三、意大利的屠拉梯之流</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-013-04d525d516",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+          "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-013-04d525d516",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/13.htm",
+          "sourceRawSha256": "23b88df4ee0810d9c5d0d7c30a1718e9eaddce62271a7350728ee41a5edcf399",
+          "lineIndex": 31,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"12.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"14.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-014-836bb50e59",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "由正确的前提作出的错误结论",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+      "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:32.329292+00:00",
+        "rawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+        "bytes": 7434
+      },
+      "localBodySha256": "b761458cbb15faa25d9589cb5966db1ca72929f409e3d665b505a9092d5df316",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-014-836bb50e59",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "由正确的前提作出的错误结论",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-836bb50e59",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "四 由正确的前提作出的错误结论\n但是博尔迪加同志和他的“左派”友人们，却从对屠拉梯之流先生们所作的正确批判中得出了错误的结论，认为凡是参加议会都是有害的。意大利“左派”拿不出丝毫郑重的论据来为这种观点辩护。他们简直不知道（或尽量想忘掉）国际上有过以真正革命的和共产主义的方式、以确实有益于无产阶级革命作准备的方式来利用资产阶级议会的范例。他们简直想象不出什么“新”方式，而对利用议会的“旧”方式、非布尔什维克的方式叫喊不休。",
+        "他们的根本错误也就在这里。共产主义运动不仅在议会这一活动场所，而且在一切活动场所都应该提供（如果不进行长期的、顽强的、坚持不懈的工作，它就无法提供）在原则上是新的、同第二国际传统彻底决裂的东西（同时要保持并发扬第二国际所贡献的好东西）。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-014-836bb50e59",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+          "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+          "lineIndex": 5,
+          "text": "增补　四、由正确的前提作出的错误结论",
+          "compactLength": 17,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>增补　四、由正确的前提作出的错误结论</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-014-836bb50e59",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+          "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-014-836bb50e59",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/14.htm",
+          "sourceRawSha256": "7fe6c4d7f1fe5251d11bbccbc75bcb0e79634cb22dac57411dbb5bca0f319895",
+          "lineIndex": 51,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"13.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"15.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "chapterId": "chapter-015-1b23ad060e",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterTitle": "怀恩科普的来信",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+      "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:02:32.672446+00:00",
+        "rawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+        "bytes": 1932
+      },
+      "localBodySha256": "d7843af7577a4532d9a6bfcd9b23b69e8e53ad14545556262f2980ffba3c9340",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-b2eeb64ece7d-chapter-chapter-015-1b23ad060e",
+          "parentId": "toc-lenin-work-b2eeb64ece7d-root",
+          "title": "怀恩科普的来信",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-1b23ad060e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "五\n在本书俄文版中，关于整个荷兰共产党在国际性的革命政策方面的行为，我说得有点不正确。因此，我趁这个机会把我们荷兰同志关于这个问题的一封信发表在下面，并且把我在俄文版中所用的“荷兰论坛派”一词，改为“荷兰共产党的某些党员”。",
+        "尼・列宁\n怀恩科普的来信\n亲爱的同志："
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-015-1b23ad060e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+          "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+          "lineIndex": 5,
+          "text": "增补　五、怀恩科普的来信",
+          "compactLength": 11,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>增补　五、怀恩科普的来信</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-015-1b23ad060e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+          "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 列宁 -> 共产主义运动中的“左派”幼稚病",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-b2eeb64ece7d",
+          "chapterId": "chapter-015-1b23ad060e",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+          "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+          "lineIndex": 54,
+          "text": "上一篇　回目录",
+          "compactLength": 6,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"14.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a><br/><br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootExceptions": true,
+      "nativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 47,
+    "candidatesReviewed": 138,
+    "newRepairs": 0,
+    "paragraphsNotesSectionsAndAnnotationsUnchanged": true
+  }
+}

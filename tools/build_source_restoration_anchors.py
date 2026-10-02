@@ -2,12 +2,24 @@
 import difflib
 import hashlib
 import json
+import re
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
 
 def generate():
     mappings={}
+    # Historical mappings remain valid without device-local audit snapshots.
+    target = ROOT/'app/src/main/java/org/marxreader/app/data/SourceTextRestorations.kt'
+    if target.exists():
+        for after, before, values in re.findall(r'\("([0-9a-f]{64})" to "([0-9a-f]{64})"\) to listOf\(([^)]*)\)', target.read_text()):
+            mappings[(after, before)] = [(int(a), int(b)) for a, b in re.findall(r'(\d+)\.\.(\d+)', values)]
+    heading_review = ROOT/'docs/SOURCE_INTERNAL_HEADINGS_REVIEW_2026-10-02.json'
+    if heading_review.exists():
+        for record in json.loads(heading_review.read_text())['repairs']:
+            for change in record['changes']:
+                mapping = change['restorationMapping']
+                mappings[(mapping['currentHash'], mapping['previousHash'])] = [tuple(r) for r in mapping['ranges']]
     # Portable evidence retains this mapping even when local snapshots are absent.
     review = ROOT/'docs/SOURCE_LONG_WAR_REVIEW_2026-10-02.json'
     if review.exists():
@@ -55,7 +67,7 @@ def generate():
         values=', '.join(f'{a}..{b}' for a,b in ranges)
         lines.append(f'    ("{after}" to "{before}") to listOf({values}),')
     lines+=[')','']
-    (ROOT/'app/src/main/java/org/marxreader/app/data/SourceTextRestorations.kt').write_text('\n'.join(lines))
+    target.write_text('\n'.join(lines))
     print('Exact paragraph-hash mappings:',len(mappings))
 
 if __name__=='__main__':generate()

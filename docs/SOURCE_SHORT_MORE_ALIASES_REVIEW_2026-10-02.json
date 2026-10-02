@@ -1,0 +1,491 @@
+{
+  "date": "2026-10-02",
+  "scope": "10个短行候选新鲜源页核验：文档TITLE附带作者、日期／刊载信息，不是正文缺失，正式正文及网页原注一致。广播演说与无线电广播按各自源页核验，不合并版本。",
+  "reviews": [
+    {
+      "bookId": "stalin-work-34d3e993a9e5",
+      "chapterId": "chapter-001-34d3e993a9",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19240212.htm",
+      "sourceRawSha256": "13018e5c95c829802688df6bd4ad68aaf066cd31e250ba28ac661c58a39a42ff",
+      "lineIndex": 2,
+      "text": "论列宁――在克里姆林军校学员晚会上的演说（斯大林，1924年2月12日）",
+      "compactLength": 36,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19240212.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19240212.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:32.039977+00:00",
+        "rawSha256": "13018e5c95c829802688df6bd4ad68aaf066cd31e250ba28ac661c58a39a42ff",
+        "bytes": 16832
+      },
+      "sourceNodesHtml": [
+        "<title>论列宁――在克里姆林军校学员晚会上的演说（斯大林，1924年2月12日）</title>"
+      ],
+      "localChapterTitle": "论列宁――在克里姆林军校学员晚会上的演说（1924年2月12日）",
+      "localBookTitle": "论列宁――在克里姆林军校学员晚会上的演说（1924年2月12日）",
+      "localFirstParagraphs": [
+        "论列宁在克里姆林军校学员晚会上的演说斯大林1924年2月12日",
+        "同志们！我接到通知，说你们这里要举行回忆列宁的晚会，并邀请我也来做一个报告。我认为没有必要做一个关于列宁的生平事业的连贯性的报告。我想，倒不如只把一些表明列宁作为一个人和作为一个活动家的某些特点的事实告诉大家。这些事实相互间也许没有什么内在的联系，但是这并不妨碍我们得到一个关于列宁的总的概念。不管怎样，我这一次向你们讲的不可能比我刚才所答应的更多。"
+      ],
+      "localLastParagraphs": [
+        "天才的远见，迅速抓住并看透即将发生的事变的内在意义的才能，――这就是列宁的一个特点，这个特点使他能够制定正确的战略和革命运动转折关头的明确的行动路线。",
+        "载于一九二四年二月十二日 “真理报”第三十四号感谢 闲汉 收集"
+      ],
+      "localBodySha256": "20c346dbf7a3826b15da786fbcb0bcb82eca30e69229b5196542b40fbacffe3f",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-34d3e993a9e5-chapter-chapter-001-34d3e993a9",
+          "parentId": "toc-stalin-work-34d3e993a9e5-root",
+          "title": "论列宁――在克里姆林军校学员晚会上的演说（1924年2月12日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-34d3e993a9",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-10fdd40dde4e",
+      "chapterId": "chapter-001-10fdd40dde",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19271106-07.htm",
+      "sourceRawSha256": "2222fd57ca9d275b33bb52bee8a65ddb788e160eb463ccca6a0773975ad8613c",
+      "lineIndex": 2,
+      "text": "十月革命的国际性质（约·斯大林，载于1927年11月6—7日《真理报》第255号）",
+      "compactLength": 41,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19271106-07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19271106-07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:32.862003+00:00",
+        "rawSha256": "2222fd57ca9d275b33bb52bee8a65ddb788e160eb463ccca6a0773975ad8613c",
+        "bytes": 12540
+      },
+      "sourceNodesHtml": [
+        "<title>十月革命的国际性质（约·斯大林，载于1927年11月6—7日《真理报》第255号）</title>"
+      ],
+      "localChapterTitle": "十月革命的国际性质（载于1927年11月6―7日《真理报》第255号）",
+      "localBookTitle": "十月革命的国际性质（载于1927年11月6―7日《真理报》第255号）",
+      "localFirstParagraphs": [
+        "十月革命的国际性质约·斯大林载于1927年11月6—7日《真理报》第255号",
+        "十月革命不能认为只是“一国范围内的”革命。它首先是国际性的、世界性的革命，因为它是全世界人类历史中从资本主义旧世界到社会主义新世界的根本转变。"
+      ],
+      "localLastParagraphs": [
+        "列宁主义和第三国际统治的时代已经到来了。",
+        "感谢 闲汉 收集"
+      ],
+      "localBodySha256": "d9fcc3ba1c2e751b44ee407ee103653346c842f350904c96d252e69d30ae55ec",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-10fdd40dde4e-chapter-chapter-001-10fdd40dde",
+          "parentId": "toc-stalin-work-10fdd40dde4e-root",
+          "title": "十月革命的国际性质（载于1927年11月6―7日《真理报》第255号）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-10fdd40dde",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-c2e612d8310a",
+      "chapterId": "chapter-001-c2e612d831",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19480314.htm",
+      "sourceRawSha256": "d333c0c857988ac12c6875250c74db64d06a4788c2dac1992dd3dcc8803e56ad",
+      "lineIndex": 2,
+      "text": "纪念《共产党宣言》发表100周年的讲话（斯大林，1948年3月14日）",
+      "compactLength": 35,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19480314.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19480314.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:33.967653+00:00",
+        "rawSha256": "d333c0c857988ac12c6875250c74db64d06a4788c2dac1992dd3dcc8803e56ad",
+        "bytes": 9611
+      },
+      "sourceNodesHtml": [
+        "<title>纪念《共产党宣言》发表100周年的讲话（斯大林，1948年3月14日）</title>"
+      ],
+      "localChapterTitle": "纪念《共产党宣言》发表100周年的讲话（1948年3月14日）",
+      "localBookTitle": "纪念《共产党宣言》发表100周年的讲话（1948年3月14日）",
+      "localFirstParagraphs": [
+        "纪念《共产党宣言》发表100周年的讲话斯大林（1948年3月14日）",
+        "在政治局2月会议上，莫洛托夫同志给我们详尽地论述了当前的国际形势。总的说来，我同意他所作的结论，但是对当前世界危机的原因的判断，我还有些不同的看法。以前我曾提出世界已经分裂成两个阵营：一个阵营是由掌握着金融资本、剥削地球上大多数人的那些人所组成;另一个阵营则由殖民地和附属国那些受压迫、受剥削的人所组成。很自然，一个发达的资本主义国家美国成为前一个阵营的头领，而依据马克思和列宁的基本原理而发展起来的苏联，则成为后一个阵营的领袖。由于两个阵营的各自目标是完全对立的，它们之间的冲突迟早要发生。"
+      ],
+      "localLastParagraphs": [
+        "马克思主义诞生以来已经有100年了。在这段时期里，许多资产阶级政府都试图消灭马克思主义。结果怎么样呢？马克思主义仍然存在，而资产阶级政府一个个崩溃了。所以，同志们，我们必须在马克思、恩格斯和列宁的旗帜下，为我们的成功而工作而斗争。由此可以得出结论：要永远忠于马克思、恩格斯和列宁的伟大旗帜，永远忠于所有国家兄弟般联合起来的无产阶级的事业。",
+        "感谢 闲汉 收集"
+      ],
+      "localBodySha256": "48dd756ed6765017b742cf71540c3413a00b9ebbe6ebe83c6251fbed0037361b",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-c2e612d8310a-chapter-chapter-001-c2e612d831",
+          "parentId": "toc-stalin-work-c2e612d8310a-root",
+          "title": "纪念《共产党宣言》发表100周年的讲话（1948年3月14日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-c2e612d831",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-1a0c4d00af64",
+      "chapterId": "chapter-001-1a0c4d00af",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703.htm",
+      "sourceRawSha256": "df3345beaf9b29ddd11aaf25fd3e6476086cb443f28a545be133d98ee829764b",
+      "lineIndex": 2,
+      "text": "广播演说（斯大林，1941年7月3日）",
+      "compactLength": 19,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:34.362000+00:00",
+        "rawSha256": "df3345beaf9b29ddd11aaf25fd3e6476086cb443f28a545be133d98ee829764b",
+        "bytes": 9115
+      },
+      "sourceNodesHtml": [
+        "<title>广播演说（斯大林，1941年7月3日）</title>"
+      ],
+      "localChapterTitle": "广播演说（1941年7月3日）",
+      "localBookTitle": "广播演说（1941年7月3日）",
+      "localFirstParagraphs": [
+        "广播演说斯大林1941年7月3日",
+        "同志们！公民们！"
+      ],
+      "localLastParagraphs": [
+        "为争取我们的胜利，前进！",
+        "感谢 闲汉 收集"
+      ],
+      "localBodySha256": "d044e9d8a007cce7200e5166dc0c272637ec38303e0925cb2c44ac14661ffd7c",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-1a0c4d00af64-chapter-chapter-001-1a0c4d00af",
+          "parentId": "toc-stalin-work-1a0c4d00af64-root",
+          "title": "广播演说（1941年7月3日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-1a0c4d00af",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-2e8dfd8c69e2",
+      "chapterId": "chapter-001-2e8dfd8c69",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703b.htm",
+      "sourceRawSha256": "30c0b24d2e68717f3c12c5ea122e9b7585f7282769ccaedeb1c019096bfd51aa",
+      "lineIndex": 2,
+      "text": "无线电广播（约瑟夫・维萨里奥诺维奇・斯大林，1941年7月3日）",
+      "compactLength": 32,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19410703b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:34.984143+00:00",
+        "rawSha256": "30c0b24d2e68717f3c12c5ea122e9b7585f7282769ccaedeb1c019096bfd51aa",
+        "bytes": 8693
+      },
+      "sourceNodesHtml": [
+        "<title>无线电广播（约瑟夫・维萨里奥诺维奇・斯大林，1941年7月3日）</title>"
+      ],
+      "localChapterTitle": "无线电广播（1941年7月3日）",
+      "localBookTitle": "无线电广播（1941年7月3日）",
+      "localFirstParagraphs": [
+        "无线电广播约瑟夫・维萨里奥诺维奇・斯大林1941年7月3日日光兰 翻译同志们，公民们，兄弟姐妹们，我们的海陆军战士们！",
+        "我的话正是对你们说的，亲爱的朋友们！"
+      ],
+      "localLastParagraphs": [
+        "向胜向胜利前进！",
+        "原文链接：https://www.marxists.org/reference/archive/stalin/works/1941/07/03.htm"
+      ],
+      "localBodySha256": "68d51c7ad56a4ef61dd1ffa0ac436f6e24ff1262d7f39a426565c942c4366335",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-2e8dfd8c69e2-chapter-chapter-001-2e8dfd8c69",
+          "parentId": "toc-stalin-work-2e8dfd8c69e2-root",
+          "title": "无线电广播（1941年7月3日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-2e8dfd8c69",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-bdba107e7a1a",
+      "chapterId": "chapter-001-bdba107e7a",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19231107.htm",
+      "sourceRawSha256": "5a7e7e394a5ad21464a5ef16cc10b1291dd14aa2d04598d3613bf7956aadd804",
+      "lineIndex": 2,
+      "text": "十月革命和中间阶层问题（约・斯大林，载1923年11月7日《真理报》第253号）",
+      "compactLength": 40,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19231107.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19231107.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:35.706026+00:00",
+        "rawSha256": "5a7e7e394a5ad21464a5ef16cc10b1291dd14aa2d04598d3613bf7956aadd804",
+        "bytes": 6509
+      },
+      "sourceNodesHtml": [
+        "<title>十月革命和中间阶层问题（约・斯大林，载1923年11月7日《真理报》第253号）</title>"
+      ],
+      "localChapterTitle": "十月革命和中间阶层问题（载1923年11月7日《真理报》第253号）",
+      "localBookTitle": "十月革命和中间阶层问题（载1923年11月7日《真理报》第253号）",
+      "localFirstParagraphs": [
+        "十月革命和中间阶层问题约・斯大林载1923年11月7日《真理报》第253号",
+        "毫无疑问，中间阶层问题是工人革命的基本问题之一。中间阶层就是农民和城市小劳动者。被压迫民族也应该算在里面，因为它们中间十分之九是中间阶层。可见，按经济地位来说，这是一些介于无产阶级和资产阶级之间的阶层。这些阶层的重要性是由下面两种情况决定的：第一，这些阶层是现今各国人口中的大多数，或者至少是数量很大的少数；第二，它们是资产阶级从中招募军队以反对无产阶级的重要后备力量。如果没有中间阶层首先是农民的同情和支持，无产阶级就不能保持政权，在我们共和国联盟这样的国家内尤其是如此。如果没有使这些阶层至少保持中立，如果这些阶层还没有脱离资本家阶级，如果这些阶层的大多数还是资本的军队，那么无产阶级就休想夺取政权。由此就产生了争取中间阶层的斗争，争取农民的斗争，这一斗争像一根红线贯穿在我们1905年到1917年的全部革命中，这一斗争还远没有结束，还将继续进行下去。"
+      ],
+      "localLastParagraphs": [
+        "简单地说：十月革命为社会主义思想扫清了通向各民族和各部落内的中间的、非无产阶级的农民阶层的道路，十月革命把社会主义旗帜变成了这些阶层所欢迎的旗帜。这就是十月革命的第三个功绩。",
+        "感谢 闲汉 收集"
+      ],
+      "localBodySha256": "5dcd09bab322cffaa70ded59a0c8d621f6cc484075669b9bd74906046bfba2dc",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-bdba107e7a1a-chapter-chapter-001-bdba107e7a",
+          "parentId": "toc-stalin-work-bdba107e7a1a-root",
+          "title": "十月革命和中间阶层问题（载1923年11月7日《真理报》第253号）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-bdba107e7a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-11a74c34bf7f",
+      "chapterId": "chapter-001-11a74c34bf",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-191204.htm",
+      "sourceRawSha256": "1ada34c6bfa5aace53fd40396bd20a6d869bab8d1faa6594dca85c19c83d04f2",
+      "lineIndex": 2,
+      "text": "五一万岁！（斯大林，1912年4月）",
+      "compactLength": 18,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-191204.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-191204.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:36.267160+00:00",
+        "rawSha256": "1ada34c6bfa5aace53fd40396bd20a6d869bab8d1faa6594dca85c19c83d04f2",
+        "bytes": 6716
+      },
+      "sourceNodesHtml": [
+        "<title>五一万岁！（斯大林，1912年4月）</title>"
+      ],
+      "localChapterTitle": "五一万岁！（1912年4月）",
+      "localBookTitle": "五一万岁！（1912年4月）",
+      "localFirstParagraphs": [
+        "五一万岁！",
+        "斯大林1912年4月"
+      ],
+      "localLastParagraphs": [
+        "俄国社会民主工党万岁！",
+        "俄国社会民主工党中央委员会一九一二年四月感谢 闲汉 收集"
+      ],
+      "localBodySha256": "e96a03c0e4aebeb32e8175feec6f606a39334cff4677cc3e6f943017f62c0a8c",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-11a74c34bf7f-chapter-chapter-001-11a74c34bf",
+          "parentId": "toc-stalin-work-11a74c34bf7f-root",
+          "title": "五一万岁！（1912年4月）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-11a74c34bf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "mao-work-0d9f6c382f8f",
+      "chapterId": "chapter-001-0d9f6c382f",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19370624.htm",
+      "sourceRawSha256": "cf8b675eb8c289bf68d1b9bfe56ea24d77c362e15ce6c050b9bff2418483bc64",
+      "lineIndex": 2,
+      "text": "致美国共产党总书记厄尔・白劳德的信（毛泽东，1937年6月24日之前）",
+      "compactLength": 35,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19370624.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19370624.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:36.684783+00:00",
+        "rawSha256": "cf8b675eb8c289bf68d1b9bfe56ea24d77c362e15ce6c050b9bff2418483bc64",
+        "bytes": 1814
+      },
+      "sourceNodesHtml": [
+        "<title>致美国共产党总书记厄尔・白劳德的信（毛泽东，1937年6月24日之前）</title>"
+      ],
+      "localChapterTitle": "致美国共产党总书记厄尔・白劳德的信（1937年6月24日之前）",
+      "localBookTitle": "致美国共产党总书记厄尔・白劳德的信（1937年6月24日之前）",
+      "localFirstParagraphs": [
+        "致美国共产党总书记厄尔・白劳德的信毛泽东1937年6月24日之前",
+        "我亲爱的白劳德同志："
+      ],
+      "localLastParagraphs": [
+        "毛泽东摘自丁金光《白劳德评传》",
+        "感谢 闲汉 录入"
+      ],
+      "localBodySha256": "460ed5db4f9f997277342b26bfaa9f3e667c9fdf017cd1ab834bc8b0e6a00069",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-0d9f6c382f8f-chapter-chapter-001-0d9f6c382f",
+          "parentId": "toc-mao-work-0d9f6c382f8f-root",
+          "title": "致美国共产党总书记厄尔・白劳德的信（1937年6月24日之前）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-0d9f6c382f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-30c2f9d18c6f",
+      "chapterId": "chapter-001-30c2f9d18c",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19450509.htm",
+      "sourceRawSha256": "b00c684aee364343054ea158df5a9fd25645ccfad2d6cdeb8846d8f0d0dc50fa",
+      "lineIndex": 2,
+      "text": "告人民书（斯大林，1945年5月9日）",
+      "compactLength": 19,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19450509.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19450509.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:36.910297+00:00",
+        "rawSha256": "b00c684aee364343054ea158df5a9fd25645ccfad2d6cdeb8846d8f0d0dc50fa",
+        "bytes": 2730
+      },
+      "sourceNodesHtml": [
+        "<title>告人民书（斯大林，1945年5月9日）</title>"
+      ],
+      "localChapterTitle": "告人民书（1945年5月9日）",
+      "localBookTitle": "告人民书（1945年5月9日）",
+      "localFirstParagraphs": [
+        "告人民书斯大林1945年5月9日",
+        "同志们，男女同胞们！"
+      ],
+      "localLastParagraphs": [
+        "在同敌人作战中牺牲了的、为了我国人民的自由和幸福而献出了生命的英雄们永垂不朽！",
+        "感谢 闲汉 收集"
+      ],
+      "localBodySha256": "0001edf05e798245be7236ef2b945cd9033d012b59d13e6aeab43bdd38d4e7d2",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-30c2f9d18c6f-chapter-chapter-001-30c2f9d18c",
+          "parentId": "toc-stalin-work-30c2f9d18c6f-root",
+          "title": "告人民书（1945年5月9日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-30c2f9d18c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    },
+    {
+      "bookId": "stalin-work-b7daf9c5c644",
+      "chapterId": "chapter-001-b7daf9c5c6",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19220927.htm",
+      "sourceRawSha256": "d07c2de29ea9cddd61fa8f839e76b04f3d3c392b8a5a4178c098e69d981646a2",
+      "lineIndex": 2,
+      "text": "给列宁的信（约・斯大林，1922年9月27日）",
+      "compactLength": 23,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19220927.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19220927.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:30:37.581880+00:00",
+        "rawSha256": "d07c2de29ea9cddd61fa8f839e76b04f3d3c392b8a5a4178c098e69d981646a2",
+        "bytes": 2838
+      },
+      "sourceNodesHtml": [
+        "<title>给列宁的信（约・斯大林，1922年9月27日）</title>"
+      ],
+      "localChapterTitle": "给列宁的信（1922年9月27日）",
+      "localBookTitle": "给列宁的信（1922年9月27日）",
+      "localFirstParagraphs": [
+        "给列宁的信约・斯大林1922年9月27日郭宏丽 译；张瑞亭 校",
+        "斯大林的这封信，在苏联未见发表。该信的打字副本存于托洛茨基档案，西德《东欧》杂志（1972年第12期）发表了这个副本的原文和德译文。现根据俄文原文译出，供研究参考。这封信所答复的列宁的原信，见《列宁文稿》第4卷第385―387页。该卷第 222注介绍了有关背景，请参阅。"
+      ],
+      "localLastParagraphs": [
+        "4、关于第四条，我认为列宁同志要求把财政、粮食、劳动和国民经济等人民委员部合并成为联邦的人民委员部，是\"操之过急\"了。这种\"操之过急\"的做法将会\"助长独立分子\"而使列宁同志的民族自由主义受到损害，是未必可以怀疑的。",
+        "5、关于第五条，我认为列宁同志的修改是多余的。"
+      ],
+      "localBodySha256": "136f654e474c9c4372c998cbc60106dba2135a66c937deade8dd5d1f2a6bc3d7",
+      "reason": "该候选只在源HEAD/TITLE中出现，非被删正文；本地章标题保留作品名和日期／刊载信息，源作者信息在正文及作者元数据中呈现。",
+      "sourceBodyAndNativeNotesMatch": true,
+      "nativeNoteCount": 0,
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-b7daf9c5c644-chapter-chapter-001-b7daf9c5c6",
+          "parentId": "toc-stalin-work-b7daf9c5c644-root",
+          "title": "给列宁的信（1922年9月27日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-b7daf9c5c6",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 10,
+    "newRepairs": 0,
+    "paragraphsNotesSectionsAndAnnotationsUnchanged": true
+  }
+}

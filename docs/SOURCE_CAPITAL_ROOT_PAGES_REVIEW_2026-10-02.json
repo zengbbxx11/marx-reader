@@ -1,0 +1,3163 @@
+{
+  "date": "2026-10-02",
+  "scope": "资本论第一、二卷49个新鲜源页的93个未判定短行候选，文档TITLE、章根及独立文库导航逐项核验；正文和原注再比较，第一卷[175]表格排版例外明列。",
+  "reviews": [
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-001-ffa9f45ac8",
+      "title": "资本论·第一卷",
+      "chapterTitle": "序言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+      "sourceRawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:30.713679+00:00",
+        "rawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+        "bytes": 56250
+      },
+      "localBodySha256": "7002a17838ad180d26ceff3cee0f459a29fd8d0ac0b69ddca69185cabfe59c51",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+          "parentId": "toc-capital-v1-zh-root",
+          "title": "序言",
+          "type": "PREFACE",
+          "order": 0,
+          "chapterId": "chapter-001-ffa9f45ac8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "序和跋",
+        "第一版序言 [1]"
+      ],
+      "nativeNoteCount": 33,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-001-ffa9f45ac8",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+          "sourceRawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-002-8356fef4c5",
+      "title": "资本论·第一卷",
+      "chapterTitle": "商品",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+      "sourceRawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:31.754355+00:00",
+        "rawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+        "bytes": 89797
+      },
+      "localBodySha256": "10b36cd1764292b6363de06a1bcb5e0576d98d0f44d89bc6f8dd814242abb443",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+          "parentId": "toc-capital-v1-zh-part-1",
+          "title": "商品",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-8356fef4c5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、商品的两个因素：使用价值 和价值(价值实体，价值量)",
+        "资本主义生产方式占统治地位的社会的财富，表现为“庞大的商品堆积”[1]，单个的商品表现为这种财富的元素形式。因此，我们的研究就从分析商品开始。"
+      ],
+      "nativeNoteCount": 57,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-002-8356fef4c5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+          "sourceRawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-003-140de2edec",
+      "title": "资本论·第一卷",
+      "chapterTitle": "交换过程",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/02.htm",
+      "sourceRawSha256": "a335ed96a8f69852c4f94838afa8888dbe223f9bbd68cd76d387aa869791eb8a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:33.178230+00:00",
+        "rawSha256": "a335ed96a8f69852c4f94838afa8888dbe223f9bbd68cd76d387aa869791eb8a",
+        "bytes": 19543
+      },
+      "localBodySha256": "e98ee8bf25e9e9960f42f6080c0a7c4f7b9049f424b003adebcd0e81e6ff9e75",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-003-140de2edec",
+          "parentId": "toc-capital-v1-zh-part-1",
+          "title": "交换过程",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-140de2edec",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "商品不能自己到市场去，不能自己去交换。因此，我们必须找寻它的监护人，商品所有者。商品是物，所以不能反抗人。如果它不乐意，人可以使用强力，换句话说，把它拿走[37]。为了使这些物作为商品彼此发生关系，商品监护人必须作为有自己的意志体现在这些物中的人彼此发生关系，因此，一方只有符合另一方的意志，就是说每一方只有通过双方共同一致的意志行为，才能让渡自己的商品，占有别人的商品。可见，他们必须彼此承认对方是私有者。这种具有契约形式的（不管这种契约是不是用法律固定下来的）法权关系，是一种反映着经济关系的意志关系。这种法权关系或意志关系的内容是由这种经济关系本身决定的[38]。在这里，人们彼此只是作为商品的代表即商品所有者而存在。在研究进程中我们会看到，人们扮演的经济角色不过是经济关系的人格化，人们是作为这种关系的承担者而彼此对立着的。",
+        "商品所有者与商品不同的地方，主要在于：对商品来说，每个别的商品体只是它本身的价值的表现形式。商品是天生的平等派和昔尼克派，它随时准备不仅用自己的灵魂而且用自己的肉体去同任何别的商品交换，哪怕这个商品生得比马立托奈斯还丑。商品所缺乏的这种感知其他商品体的具体属性的能力，由商品所有者用他自己的五种和五种以上的感官补足了。商品所有者的商品对他没有直接的使用价值。否则，他就不会把它拿到市场上去。他的商品对别人有使用价值。他的商品对他来说，直接有的只是这样的使用价值：它是交换价值的承担者，从而是交换手段[39]。所以，他愿意让渡他的商品来换取那些使用价值为他所需要的商品。一切商品对它们的所有者是非使用价值，对它们的非所有者是使用价值。因此，商品必须全面转手。这种转手就形成商品交换，而商品交换使商品彼此作为价值发生关系并作为价值来实现。可见，商品在能够作为使用价值实现以前，必须先作为价值来实现。"
+      ],
+      "nativeNoteCount": 20,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-003-140de2edec",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/02.htm",
+          "sourceRawSha256": "a335ed96a8f69852c4f94838afa8888dbe223f9bbd68cd76d387aa869791eb8a",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-004-01cb784f15",
+      "title": "资本论·第一卷",
+      "chapterTitle": "货币或商品流通",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+      "sourceRawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:33.838586+00:00",
+        "rawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+        "bytes": 101585
+      },
+      "localBodySha256": "1b8fb634931feb2238357a27ab2acff727e3bf3bdae57e7219f2599026e72852",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-004-01cb784f15",
+          "parentId": "toc-capital-v1-zh-part-1",
+          "title": "货币或商品流通",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-01cb784f15",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、价值尺度",
+        "为了简单起见，我在本书各处都假定金是货币商品。"
+      ],
+      "nativeNoteCount": 96,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-004-01cb784f15",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+          "sourceRawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-005-e7585fe27c",
+      "title": "资本论·第一卷",
+      "chapterTitle": "货币转化为资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/04.htm",
+      "sourceRawSha256": "15c98e56388bf57c88f3556111301d895aff6839165aabf6bf08e6ba2c4bacf5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:35.459281+00:00",
+        "rawSha256": "15c98e56388bf57c88f3556111301d895aff6839165aabf6bf08e6ba2c4bacf5",
+        "bytes": 58279
+      },
+      "localBodySha256": "932ad9b511f51d4b349818991bb1136dfda53d4bf1b341f5991958d290f48f35",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-005-e7585fe27c",
+          "parentId": "toc-capital-v1-zh-part-2",
+          "title": "货币转化为资本",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-e7585fe27c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、资本的总公式",
+        "商品流通是资本的起点。商品生产和发达的商品流通，即贸易，是资本产生的历史前提。世界贸易和世界市场在十六世纪揭开了资本的近代生活史。"
+      ],
+      "nativeNoteCount": 56,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-005-e7585fe27c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/04.htm",
+          "sourceRawSha256": "15c98e56388bf57c88f3556111301d895aff6839165aabf6bf08e6ba2c4bacf5",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-006-91b4b8d228",
+      "title": "资本论·第一卷",
+      "chapterTitle": "劳动过程和价值增殖过程",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/05.htm",
+      "sourceRawSha256": "f9ca030413ac8a1c96d9e673aa6838ec6389f05a29b118d73fd737bcd2421f8d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:36.797787+00:00",
+        "rawSha256": "f9ca030413ac8a1c96d9e673aa6838ec6389f05a29b118d73fd737bcd2421f8d",
+        "bytes": 38896
+      },
+      "localBodySha256": "62833275a58cd63391e51084f95d9b160e68007827218f9cff0976d3a8a83cfb",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-006-91b4b8d228",
+          "parentId": "toc-capital-v1-zh-part-3",
+          "title": "劳动过程和价值增殖过程",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-91b4b8d228",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、劳动过程",
+        "2、价值增殖过程"
+      ],
+      "nativeNoteCount": 25,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-006-91b4b8d228",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/05.htm",
+          "sourceRawSha256": "f9ca030413ac8a1c96d9e673aa6838ec6389f05a29b118d73fd737bcd2421f8d",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-007-26a87be1a8",
+      "title": "资本论·第一卷",
+      "chapterTitle": "不变资本和可变资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/06.htm",
+      "sourceRawSha256": "c4eafffa21448251f65cc108904a6b1159d98f095429dc9bd1d7e1ad4853e843",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:37.927652+00:00",
+        "rawSha256": "c4eafffa21448251f65cc108904a6b1159d98f095429dc9bd1d7e1ad4853e843",
+        "bytes": 20785
+      },
+      "localBodySha256": "85ac6c77d377e8d1fd934940adae32d8a2df48016998781272a83d83e3b9ac08",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-007-26a87be1a8",
+          "parentId": "toc-capital-v1-zh-part-3",
+          "title": "不变资本和可变资本",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-26a87be1a8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "劳动过程的不同因素在产品价值的形成上起着不同的作用。",
+        "工人把一定量的劳动——撇开他的劳动所具有的特定的内容、目的和技术性质——加到劳动对象上，也就把新价值加到劳动对象上。另一方面我们发现，被消耗的生产资料的价值又成了产品价值的组成部分，例如，棉花和纱锭的价值包含在棉纱的价值中。可见，生产资料的价值由于转移到产品上而被保存下来。这种转移是在生产资料转化为产品时发生的，是在劳动过程中发生的。它是通过劳动实现的。然而是怎样实现的呢？"
+      ],
+      "nativeNoteCount": 7,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-007-26a87be1a8",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/06.htm",
+          "sourceRawSha256": "c4eafffa21448251f65cc108904a6b1159d98f095429dc9bd1d7e1ad4853e843",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-008-071e6d82a9",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/07.htm",
+      "sourceRawSha256": "8e956d5295917bb2c5b4820c6aaa88b0dae0a8f17df1c8ccce7761fff9cbc153",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:38.569717+00:00",
+        "rawSha256": "8e956d5295917bb2c5b4820c6aaa88b0dae0a8f17df1c8ccce7761fff9cbc153",
+        "bytes": 34230
+      },
+      "localBodySha256": "866fa75ba85b9c92a1c10695b5960eb4956344c48bfc55ca7af1c7744129f241",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-008-071e6d82a9",
+          "parentId": "toc-capital-v1-zh-part-3",
+          "title": "剩余价值率",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-071e6d82a9",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、劳动力的剥削程度",
+        "预付资本C在生产过程中生出的剩余价值，或预付资本价值C的价值增殖额，首先表现为产品价值超过它的各种生产要素的价值总和而形成的余额。"
+      ],
+      "nativeNoteCount": 15,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-008-071e6d82a9",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/07.htm",
+          "sourceRawSha256": "8e956d5295917bb2c5b4820c6aaa88b0dae0a8f17df1c8ccce7761fff9cbc153",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-010-dd20bbe967",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率和剩余价值量",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/09.htm",
+      "sourceRawSha256": "2c325351ce694a5048454a5030df868d2971d81e14f81f42156f6c2efd2bd51c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:38.886159+00:00",
+        "rawSha256": "2c325351ce694a5048454a5030df868d2971d81e14f81f42156f6c2efd2bd51c",
+        "bytes": 16838
+      },
+      "localBodySha256": "9f1239fb2d89eefd177ed3f3e5031d1600de815874d7c556e94ba914a8cb0d9e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-010-dd20bbe967",
+          "parentId": "toc-capital-v1-zh-part-3",
+          "title": "剩余价值率和剩余价值量",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-dd20bbe967",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在这一章里，也同前面一样，假定劳动力的价值，从而再生产或维持劳动力所必要的工作日部分，是一个已知的不变的量。",
+        "根据这个假设，知道剩余价值率，同时也就知道一个工人在一定的时间内为资本家提供的剩余价值量。例如，假设必要劳动每天是6小时，表现为金额3先令或1塔勒，那末，1塔勒就是一个劳动力的日价值，或者说，是购买一个劳动力所预付的资本价值。再假设剩余价值率是100％，那末，这1塔勒的可变资本就生产1塔勒的剩余价值量，或者说，工人每天提供6小时的剩余劳动量。"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-010-dd20bbe967",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/09.htm",
+          "sourceRawSha256": "2c325351ce694a5048454a5030df868d2971d81e14f81f42156f6c2efd2bd51c",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-011-8b72bc0507",
+      "title": "资本论·第一卷",
+      "chapterTitle": "相对剩余价值的概念",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/10.htm",
+      "sourceRawSha256": "38b7dabb4f213482c1bd994ad91062496c7583d5f4f7f1ca21fb87e745f10f19",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:39.244475+00:00",
+        "rawSha256": "38b7dabb4f213482c1bd994ad91062496c7583d5f4f7f1ca21fb87e745f10f19",
+        "bytes": 12479
+      },
+      "localBodySha256": "ab299354d4d568fbfaa78b70b071630d72699932e23f83b01bab4f580fcf0c61",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-011-8b72bc0507",
+          "parentId": "toc-capital-v1-zh-part-4",
+          "title": "相对剩余价值的概念",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-8b72bc0507",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "工作日的一部分只是生产出资本所支付的劳动力价值的等价物。到现在为止，工作日的这一部分被看作不变量，而在一定的生产条件下，在社会现有的经济发展阶段上，它实际上也是这样的。在这个必要劳动时间之外，工人还能劳动2小时、3小时、4小时、6小时等。剩余价值率和工作日的长度就取决于这个延长的量。如果说必要劳动时间是不变的，那末相反，整个工作日是可变的。现在假定有一个工作日，它的总长度以及它的必要劳动和剩余劳动的划分是已定的。例如ac线a――――――――――b――c代表一个十二小时工作日，ab段代表10小时必要劳动，bc段代表2小时剩余劳动。现在，如果没有ac的进一步延长，或者说不依靠ac的进一步延长，怎样才能增加剩余价值的生产呢？也就是说，怎样才能延长剩余劳动呢？",
+        "尽管工作日的界限ac已定，看来bc仍然可以延长，不过不是越过它的终点c（同时也是工作日ac的终点）延长，而是由它的起点b以相反的方向向a端推移而延长。假定在a―――――――――b'―b――c中，b'―b等于bc的一半，或一个劳动小时。假定在一个十二小时工作日ac中，b移到b'，bc就延长到b'c，剩余劳动就增加了一半，从2小时增加到3小时，虽然工作日仍旧是12小时。但是很明显，如果必要劳动不同时从ab缩短到ab'，从10小时缩短到9小时，要使剩余劳动这样从bc延长到b'c，从2小时延长到3小时是不可能的。必要劳动的缩短要与剩余劳动的延长相适应，或者说，工人实际上一直为自己耗费的劳动时间的一部分，要变成为资本家耗费的劳动时间。这里，改变的不是工作日的长度，而是工作日中必要劳动和剩余劳动的划分。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-011-8b72bc0507",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/10.htm",
+          "sourceRawSha256": "38b7dabb4f213482c1bd994ad91062496c7583d5f4f7f1ca21fb87e745f10f19",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-012-35f7110a1c",
+      "title": "资本论·第一卷",
+      "chapterTitle": "协作",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/11.htm",
+      "sourceRawSha256": "171703ea3dde6045a0ba7e8a94a03a228be67f0ef2161f7c3e6a3aa5a4750bb6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:40.408325+00:00",
+        "rawSha256": "171703ea3dde6045a0ba7e8a94a03a228be67f0ef2161f7c3e6a3aa5a4750bb6",
+        "bytes": 18527
+      },
+      "localBodySha256": "07fdc488d6493ee0784ac32d90fb9638464caa513a9894ca827c204a7cb37c67",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-012-35f7110a1c",
+          "parentId": "toc-capital-v1-zh-part-4",
+          "title": "协作",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-35f7110a1c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经看到，资本主义生产实际上是在同一个资本同时雇用较多的工人，因而劳动过程扩大了自己的规模并提供了较大量的产品的时候才开始的。较多的工人在同一时间、同一空间（或者说同一劳动场所），为了生产同种商品，在同一资本家的指挥下工作，这在历史上和逻辑上都是资本主义生产的起点。就生产方式本身来说，例如初期的工场手工业，除了同一资本同时雇用的工人较多而外，和行会手工业几乎没有什么区别。行会师傅的作坊只是扩大了而已。",
+        "因此，起初只是量上的区别。我们已经看到，一定的资本所生产的剩余价值量，等于一个工人所提供的剩余价值乘以同时雇用的工人人数。工人人数本身丝毫不会改变剩余价值率或劳动力的剥削程度，而且，就商品价值的生产来说，劳动过程的任何质的变化，看来是没有关系的。这是由价值的性质得出来的。如果一个十二小时工作日物化为6先令，那末1200个这样的工作日就物化为6先令×1200。在前一种情况下，产品体现了12个劳动小时，在后一种情况下，则体现了12×1200个劳动小时。在价值生产上，多数始终只是许多个数的总和。因此对于价值生产来说，1200个工人无论是单独进行生产，还是在同一资本指挥下联合起来进行生产，都不会引起任何差别。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-012-35f7110a1c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/11.htm",
+          "sourceRawSha256": "171703ea3dde6045a0ba7e8a94a03a228be67f0ef2161f7c3e6a3aa5a4750bb6",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-013-255f19f476",
+      "title": "资本论·第一卷",
+      "chapterTitle": "分工和工场手工业",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/12.htm",
+      "sourceRawSha256": "45844600a0b3c7df12d64de33c9b74d934d3ece5421291f8bee7cbf172a2e86e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:41.015707+00:00",
+        "rawSha256": "45844600a0b3c7df12d64de33c9b74d934d3ece5421291f8bee7cbf172a2e86e",
+        "bytes": 37486
+      },
+      "localBodySha256": "ef84e9349438e0e5799a423c283fdbc8baa0cc286ae003488792d0ff4d38f2c0",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-013-255f19f476",
+          "parentId": "toc-capital-v1-zh-part-4",
+          "title": "分工和工场手工业",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-255f19f476",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、工场手工业的二重起源",
+        "以分工为基础的协作，在工场手工业上取得了自己的典型形态。这种协作，作为资本主义生产过程的特殊形式，在真正的工场手工业时期占居统治地位。这个时期大约从十六世纪中叶到十八世纪末叶。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-013-255f19f476",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/12.htm",
+          "sourceRawSha256": "45844600a0b3c7df12d64de33c9b74d934d3ece5421291f8bee7cbf172a2e86e",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-015-19b1a2ffc7",
+      "title": "资本论·第一卷",
+      "chapterTitle": "绝对剩余价值和相对剩余价值",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/14.htm",
+      "sourceRawSha256": "f6775fd9f369da8296109a83de5994ee55fc831e56de4b79fb8ae7f8d4e3aa8b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:41.513750+00:00",
+        "rawSha256": "f6775fd9f369da8296109a83de5994ee55fc831e56de4b79fb8ae7f8d4e3aa8b",
+        "bytes": 14840
+      },
+      "localBodySha256": "fcb17678e6334cd6555ae474ab718af11989a2a5a7cfa43ac40f60ba3fcee0cf",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-015-19b1a2ffc7",
+          "parentId": "toc-capital-v1-zh-part-5",
+          "title": "绝对剩余价值和相对剩余价值",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-19b1a2ffc7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "劳动过程最初是抽象地，撇开它的各种历史形式，作为人和自然之间的过程来考察的（见第五章）。在那里曾指出：“如果整个劳动过程从其结果的角度加以考察，那末劳动资料和劳动对象表现为生产资料，劳动本身则表现为生产劳动。”并补充说：“这个从简单劳动过程的观点得出的生产劳动的定义，对于资本主义生产过程是绝对不够的。”在这里要进一步研究这个问题。",
+        "就劳动过程是纯粹个人的劳动过程来说，同一劳动者是把后来彼此分离开来的一切职能结合在一起的。当他为了自己的生活目的对自然物实行个人占有时，他是自己支配自己的。后来他成为被支配者。单个人如果不在自己的头脑的支配下使自己的肌肉活动起来，就不能对自然发生作用。正如在自然机体中头和手组成一体一样，劳动过程把脑力劳动和体力劳动结合在一起了。后来它们分离开来，直到处于敌对的对立状态。产品从个体生产者的直接产品转化为社会产品，转化为总体工人即结合劳动人员的共同产品。总体工人的各个成员较直接地或者较间接地作用于劳动对象。因此，随着劳动过程本身的协作性质的发展，生产劳动和它的承担者即生产工人的概念也就必然扩大。为了从事生产劳动，现在不一定要亲自动手；只要成为总体工人的一个器官，完成他所属的某一种职能就够了。上面从物质生产性质本身中得出的关于生产劳动的最初的定义，对于作为整体来看的总体工人始终是正确的。但是，对于总体工人中的每一单个成员来说，就不再适用了。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-015-19b1a2ffc7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/14.htm",
+          "sourceRawSha256": "f6775fd9f369da8296109a83de5994ee55fc831e56de4b79fb8ae7f8d4e3aa8b",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-016-2370068d1a",
+      "title": "资本论·第一卷",
+      "chapterTitle": "劳动力价格和剩余价值的量的变化",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/15.htm",
+      "sourceRawSha256": "4369f1ae14d8d10dc3455c4bc8051d9138e48eac46a7cf83847e90a903b8688b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:41.837723+00:00",
+        "rawSha256": "4369f1ae14d8d10dc3455c4bc8051d9138e48eac46a7cf83847e90a903b8688b",
+        "bytes": 15005
+      },
+      "localBodySha256": "c5fd7be5a0f79f5212cff7a902c2697fa9e0902002e1cca406b21a146dfc88d8",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-016-2370068d1a",
+          "parentId": "toc-capital-v1-zh-part-5",
+          "title": "劳动力价格和剩余价值的量的变化",
+          "type": "CHAPTER",
+          "order": 15,
+          "chapterId": "chapter-016-2370068d1a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-16"
+        }
+      ],
+      "localFirstParagraphs": [
+        "劳动力价值是由平均工人通常必需的生活资料的价值决定的。这些生活资料在形式上虽然可能有变化，但是在一定社会的一定时代，它们的量是一定的，所以应该看作是一个不变量。变化的是这个量的价值。还有两个因素决定劳动力的价值。一个是劳动力的发展费用，这种费用是随生产方式的变化而变化的；另一个是劳动力的自然差别，男劳动力和女劳动力，成年劳动力和未成年劳动力的自然差别。这些不同劳动力的使用（这又是由生产方式决定的）在工人家庭的再生产费用上和在成年男工的价值上都造成很大的差别。但是在下面的研究中，是撇开这两个因素的。",
+        "我们假定：1、商品是按照它的价值出售的；2、劳动力的价格有时可能比它的价值高，但从不比它的价值低。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-016-2370068d1a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/15.htm",
+          "sourceRawSha256": "4369f1ae14d8d10dc3455c4bc8051d9138e48eac46a7cf83847e90a903b8688b",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-017-a9b805ed04",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率的各种公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/16.htm",
+      "sourceRawSha256": "dc2f7da1129f7d04070ed37483527450955c7299a8f3ef2dce9d83189b1c6d97",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/16.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/16.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:42.453230+00:00",
+        "rawSha256": "dc2f7da1129f7d04070ed37483527450955c7299a8f3ef2dce9d83189b1c6d97",
+        "bytes": 6622
+      },
+      "localBodySha256": "a490b4d70757d90421c572e35373cb9baf6b2b819acdd2f8f14e0f5380f63f6b",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-017-a9b805ed04",
+          "parentId": "toc-capital-v1-zh-part-5",
+          "title": "剩余价值率的各种公式",
+          "type": "CHAPTER",
+          "order": 16,
+          "chapterId": "chapter-017-a9b805ed04",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-17"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经知道，剩余价值率是用下列公式来表示的：",
+        "I、剩余价值m/可变资本v＝剩余价值/劳动力价值＝剩余劳动/必要劳动前两个公式是价值的比率，第三个公式是生产这些价值所需要的时间的比率，它们表示同一个东西。这些互相替代的公式在概念上是严格的。因此，我们看到，在古典政治经济学中，这些公式诚然在实质上已经制定出来，但是还不是有意识地制定的。在那里我们看到的是下列派生的公式："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-017-a9b805ed04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/16.htm",
+          "sourceRawSha256": "dc2f7da1129f7d04070ed37483527450955c7299a8f3ef2dce9d83189b1c6d97",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-018-d7d08b16b3",
+      "title": "资本论·第一卷",
+      "chapterTitle": "劳动力的价值或价格转化为工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/17.htm",
+      "sourceRawSha256": "42c87df07e415e5cac69d1e01e1fd19db03313d3b11e7711f2ccca3689c05299",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/17.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/17.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:42.716793+00:00",
+        "rawSha256": "42c87df07e415e5cac69d1e01e1fd19db03313d3b11e7711f2ccca3689c05299",
+        "bytes": 14504
+      },
+      "localBodySha256": "7bdc8a91b60b6e02a550c61b872f625f7346f00fc972352485a6bb26e1edb6e7",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-018-d7d08b16b3",
+          "parentId": "toc-capital-v1-zh-part-6",
+          "title": "劳动力的价值或价格转化为工资",
+          "type": "CHAPTER",
+          "order": 17,
+          "chapterId": "chapter-018-d7d08b16b3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-18"
+        }
+      ],
+      "localFirstParagraphs": [
+        "马克思 ->《资本论》第一卷：资本的生产过程(1867)",
+        "第六篇"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-018-d7d08b16b3",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/17.htm",
+          "sourceRawSha256": "42c87df07e415e5cac69d1e01e1fd19db03313d3b11e7711f2ccca3689c05299",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 ->",
+          "compactLength": 11,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-019-fce05cfe2f",
+      "title": "资本论·第一卷",
+      "chapterTitle": "计时工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/18.htm",
+      "sourceRawSha256": "4cdbee354bf06a445e9326a90cbdd7fd387ba284571523f514f7cdc2dbc0b5e5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:43.567439+00:00",
+        "rawSha256": "4cdbee354bf06a445e9326a90cbdd7fd387ba284571523f514f7cdc2dbc0b5e5",
+        "bytes": 16505
+      },
+      "localBodySha256": "07de306487f98ea7830c62013c995a9a471276bf4cce5079bc34a604db1122f4",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-019-fce05cfe2f",
+          "parentId": "toc-capital-v1-zh-part-6",
+          "title": "计时工资",
+          "type": "CHAPTER",
+          "order": 18,
+          "chapterId": "chapter-019-fce05cfe2f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-19"
+        }
+      ],
+      "localFirstParagraphs": [
+        "工资本身又采取各种各样的形式，这种情况从那些过分注重材料而忽视一切形式区别的经济学教程中是了解不到的。但是，阐述所有这些形式是属于专门研究雇佣劳动的学说的范围，因而不是本书的任务。不过，这里要简单地说明一下两种占统治地位的基本形式。",
+        "我们记得，劳动力总是按一定时期来出卖的。因此，直接表现劳动力的日价值、周价值等等的转化形式，就是“计时工资”的形式，也就是日工资等等。"
+      ],
+      "nativeNoteCount": 15,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-019-fce05cfe2f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/18.htm",
+          "sourceRawSha256": "4cdbee354bf06a445e9326a90cbdd7fd387ba284571523f514f7cdc2dbc0b5e5",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-020-95f54e3076",
+      "title": "资本论·第一卷",
+      "chapterTitle": "计件工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/19.htm",
+      "sourceRawSha256": "1143004f094c9f43a1e8040260514805c45dd9c4632d59fc60884b56af3b0b3f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/19.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/19.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:44.043487+00:00",
+        "rawSha256": "1143004f094c9f43a1e8040260514805c45dd9c4632d59fc60884b56af3b0b3f",
+        "bytes": 18558
+      },
+      "localBodySha256": "2063cf4623f495f41d6137f35e31e327682b0bc26cf284cb9a17d17815d6d51a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-020-95f54e3076",
+          "parentId": "toc-capital-v1-zh-part-6",
+          "title": "计件工资",
+          "type": "CHAPTER",
+          "order": 19,
+          "chapterId": "chapter-020-95f54e3076",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-20"
+        }
+      ],
+      "localFirstParagraphs": [
+        "计件工资无非是计时工资的转化形式，正如计时工资是劳动力的价值或价格的转化形式一样。",
+        "在实行计件工资的情况下，乍一看来，似乎工人出卖的使用价值不是他的劳动力的职能即活的劳动，而是已经物化在产品中的劳动，似乎这种劳动的价格不是象计时工资那样，由（劳动力的日价值／一定小时数的工作日）这个分数来决定，而是由生产者的工作效率来决定的。[1]"
+      ],
+      "nativeNoteCount": 20,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-020-95f54e3076",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/19.htm",
+          "sourceRawSha256": "1143004f094c9f43a1e8040260514805c45dd9c4632d59fc60884b56af3b0b3f",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-021-2d433daf48",
+      "title": "资本论·第一卷",
+      "chapterTitle": "工资的国民差异",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/20.htm",
+      "sourceRawSha256": "b5658a1874bf767687ff3f082894782a2b4faf5c28d49dcad3c4b3d08c010068",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/20.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/20.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:44.336345+00:00",
+        "rawSha256": "b5658a1874bf767687ff3f082894782a2b4faf5c28d49dcad3c4b3d08c010068",
+        "bytes": 9478
+      },
+      "localBodySha256": "1845fae8ed2452ede3216a21bc1e32b26f88f3ec392b6c1eee801687a908e4a6",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-021-2d433daf48",
+          "parentId": "toc-capital-v1-zh-part-6",
+          "title": "工资的国民差异",
+          "type": "CHAPTER",
+          "order": 20,
+          "chapterId": "chapter-021-2d433daf48",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-21"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在第十五章，我们考察了可以引起劳动力价值的绝对量或相对量（即同剩余价值相比较的量）发生变化的种种组合的情况，而另一方面，劳动力价格借以实现的生活资料量，又可以发生与这一价格的变动无关[1]或不同的运动。我们已经说过，只要把劳动力的价值或价格换成外在的工资形式，那里的一切规律就会转化为工资运动的规律。在这一运动中表现为各种变动着的组合的情况，对于不同的国家说来，会表现为国民工资的同时存在的差异。因此，在比较国民工资时，必须考虑到决定劳动力的价值量的变化的一切因素：自然的和历史地发展起来的首要的生活必需品的价格和范围，工人的教育费，妇女劳动和儿童劳动的作用，劳动生产率，劳动的外延量和内含量。即使作最肤浅的比较，首先也要求把不同国家同一行业的平均日工资化为长度相等的工作日。在对日工资作了这样换算以后，还必须把计时工资换算为计件工资，因为只有计件工资才是计算劳动生产率和劳动内含量的尺度。",
+        "每一个国家都有一个中等的劳动强度，在这个强度以下的劳动，在生产一种商品时所耗费的时间要多于社会必要劳动时间，所以不能算作正常质量的劳动。在一个国家内，只有超过国民平均水平的强度，才会改变单纯以劳动的持续时间来计量的价值尺度。在以各个国家作为组成部分的世界市场上，情形就不同了。国家不同，劳动的中等强度也就不同；有的国家高些，有的国家低些。于是各国的平均数形成一个阶梯，它的计量单位是世界劳动的平均单位。因此，强度较大的国民劳动比强度较小的国民劳动，会在同一时间内生产出更多的价值，而这又表现为更多的货币。"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-021-2d433daf48",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/20.htm",
+          "sourceRawSha256": "b5658a1874bf767687ff3f082894782a2b4faf5c28d49dcad3c4b3d08c010068",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-022-d3ecd5c107",
+      "title": "资本论·第一卷",
+      "chapterTitle": "简单再生产",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/21.htm",
+      "sourceRawSha256": "6ad4bd4fa474ea8f45792e369bd650f3c5f8db376775e926c1f587aafe5808ee",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/21.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/21.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:44.687310+00:00",
+        "rawSha256": "6ad4bd4fa474ea8f45792e369bd650f3c5f8db376775e926c1f587aafe5808ee",
+        "bytes": 19632
+      },
+      "localBodySha256": "f84f0a544818fe3ba84b1f1f2c978f470726e53912824330ee5377b3b6681427",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-022-d3ecd5c107",
+          "parentId": "toc-capital-v1-zh-part-7",
+          "title": "简单再生产",
+          "type": "CHAPTER",
+          "order": 21,
+          "chapterId": "chapter-022-d3ecd5c107",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-22"
+        }
+      ],
+      "localFirstParagraphs": [
+        "资本的积累过程――――",
+        "一个货币额转化为生产资料和劳动力，这是要执行资本职能的价值量所完成的第一个运动。这个运动是在市场上，在流通领域内进行的。运动的第二阶段，生产过程，在生产资料转化为商品时就告结束，这些商品的价值大于其组成部分的价值，也就是包含原预付资本加上剩余价值。接着，这些商品必须再投入流通领域。必须出售这些商品，把它们的价值实现在货币上，把这些货币又重新转化为资本，这样周而复始地不断进行。这种不断地通过同一些连续阶段的循环，就形成资本流通。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-022-d3ecd5c107",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/21.htm",
+          "sourceRawSha256": "6ad4bd4fa474ea8f45792e369bd650f3c5f8db376775e926c1f587aafe5808ee",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-023-1abce4ba01",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值转化为资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/22.htm",
+      "sourceRawSha256": "33d4c3545a4cf91d1c6f7470e5de8f1444be3fa5b7cccef310191ce774c031ec",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/22.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/22.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:45.557730+00:00",
+        "rawSha256": "33d4c3545a4cf91d1c6f7470e5de8f1444be3fa5b7cccef310191ce774c031ec",
+        "bytes": 49524
+      },
+      "localBodySha256": "46b88286ce3d90a91f87bb6431d418b43ff9c1f865001e304382ad7c8b67949a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-023-1abce4ba01",
+          "parentId": "toc-capital-v1-zh-part-7",
+          "title": "剩余价值转化为资本",
+          "type": "CHAPTER",
+          "order": 22,
+          "chapterId": "chapter-023-1abce4ba01",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-23"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、规模扩大的资本主义生产过程。商品生产所有权规律转变为资本主义占有规律",
+        "我们以前考察了剩余价值怎样从资本产生，现在我们考察资本怎样从剩余价值产生。把剩余价值当作资本使用，或者说，把剩余价值再转化为资本，叫做资本积累。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-023-1abce4ba01",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/22.htm",
+          "sourceRawSha256": "33d4c3545a4cf91d1c6f7470e5de8f1444be3fa5b7cccef310191ce774c031ec",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-025-927572cb43",
+      "title": "资本论·第一卷",
+      "chapterTitle": "所谓原始积累",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/24.htm",
+      "sourceRawSha256": "e03191418416fcc000a662541c06245c92c88a3d85fdd429123ce1e94ca8d139",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/24.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/24.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:46.262548+00:00",
+        "rawSha256": "e03191418416fcc000a662541c06245c92c88a3d85fdd429123ce1e94ca8d139",
+        "bytes": 58144
+      },
+      "localBodySha256": "86a0c468a21f895d7846c634f007cf0a748f60c13fef7e02e6280b5d3a97627d",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-025-927572cb43",
+          "parentId": "toc-capital-v1-zh-part-8",
+          "title": "所谓原始积累",
+          "type": "CHAPTER",
+          "order": 24,
+          "chapterId": "chapter-025-927572cb43",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-25"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、原始积累的秘密",
+        "我们已经知道，货币怎样转化为资本，资本怎样产生剩余价值，剩余价值又怎样产生更多的资本。但是，资本积累以剩余价值为前提，剩余价值以资本主义生产为前提，而资本主义生产又以商品生产者握有较大量的资本和劳动力为前提。因此，这整个运动好象是在一个恶性循环中兜圈子，要脱出这个循环，就只有假定在资本主义积累之前有一种“原始”积累（亚当・斯密称为“预先积累”），这种积累不是资本主义生产方式的结果，而是它的起点。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-025-927572cb43",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/24.htm",
+          "sourceRawSha256": "e03191418416fcc000a662541c06245c92c88a3d85fdd429123ce1e94ca8d139",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-026-91abf7a26b",
+      "title": "资本论·第一卷",
+      "chapterTitle": "现代殖民理论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/25.htm",
+      "sourceRawSha256": "9f0a65ca50aeb8174dafa02cea122246553eb06edc0c13a37b3f98c6b6c55cab",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/25.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/25.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:46.566859+00:00",
+        "rawSha256": "9f0a65ca50aeb8174dafa02cea122246553eb06edc0c13a37b3f98c6b6c55cab",
+        "bytes": 13426
+      },
+      "localBodySha256": "ea6655cfa420614ef61a761326d84c69b7b8c561dda7728a6f677fd95a9eef96",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-026-91abf7a26b",
+          "parentId": "toc-capital-v1-zh-part-8",
+          "title": "现代殖民理论",
+          "type": "CHAPTER",
+          "order": 25,
+          "chapterId": "chapter-026-91abf7a26b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-26"
+        }
+      ],
+      "localFirstParagraphs": [
+        "〔注：这里说的是真正的殖民地，即自由移民所开拓的处女地。从经济上来说，美国仍然是欧洲的殖民地。此外，这里还包括那些由于消灭了奴隶制而完全改变了关系的旧种植殖民地在内。〕",
+        "政治经济学在原则上把两种极不相同的私有制混同起来了。其中一种是以生产者自己的劳动为基础，另一种是以剥削别人的劳动为基础。它忘记了，后者不仅与前者直接对立，而且只是在前者的坟墓上成长起来的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-026-91abf7a26b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/25.htm",
+          "sourceRawSha256": "9f0a65ca50aeb8174dafa02cea122246553eb06edc0c13a37b3f98c6b6c55cab",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-001-8d7e761651",
+      "title": "资本论·第二卷",
+      "chapterTitle": "弗・恩格斯。序言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/001.htm",
+      "sourceRawSha256": "75d535f06d2479932711e1b49f133774c1477ebcf4ff12df431f86876822a465",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/001.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/001.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:47.123107+00:00",
+        "rawSha256": "75d535f06d2479932711e1b49f133774c1477ebcf4ff12df431f86876822a465",
+        "bytes": 35705
+      },
+      "localBodySha256": "7b4b1110d0e115851cf7486649e07ff9c939bd1334f04ee448d8a739f5b21029",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-001-8d7e761651",
+          "parentId": "toc-capital-v2-zh-root",
+          "title": "弗・恩格斯。序言",
+          "type": "PREFACE",
+          "order": 0,
+          "chapterId": "chapter-001-8d7e761651",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "序言",
+        "要完成《资本论》第二卷的付印工作，使本书既成为一部联贯的、尽可能完整的著作，又成为一部只是作者的而不是编者的著作，这不是一件容易的事情。留下的修订稿很多，多半带有片断性质，所以要完成这个任务就更为困难。至多只有一稿（第Ⅳ稿）经过彻底校订，可以照原样付印。但是，由于有了以后的修订稿，这一稿的大部分也变得陈旧了。材料的主要部分，虽然在实质上已经大体完成，但是在文字上没有经过推敲，使用的是马克思写摘要时惯用的语句：不讲究文体，有随便的、往往是粗鲁而诙谐的措辞和用语，夹杂英法两种文字的术语，常常出现整句甚至整页的英文。这是按照作者当时头脑中发挥的思想的原样写下来的。有些部分作了详细的论述，而另一些同样重要的部分只是作了一些提示。用作例解的事实材料搜集了，可是几乎没有分类，更谈不上加工整理了。在有些章的结尾，由于急于要转入下一章，往往只写下几个不联贯的句子，表示这里的阐述还不完全。最后，还有大家知道的、连作者自己有时也辨认不出的字体。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-001-8d7e761651",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/001.htm",
+          "sourceRawSha256": "75d535f06d2479932711e1b49f133774c1477ebcf4ff12df431f86876822a465",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――序言",
+          "compactLength": 13,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――序言</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-001-8d7e761651",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/001.htm",
+          "sourceRawSha256": "75d535f06d2479932711e1b49f133774c1477ebcf4ff12df431f86876822a465",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-002-8c13db8ae6",
+      "title": "资本论·第二卷",
+      "chapterTitle": "弗・恩格斯。第二版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/002.htm",
+      "sourceRawSha256": "5bccc3585cd2cd961a0f962bea36f7a4bc767b094f92443d098454c03cc5cb5c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/002.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/002.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:47.456154+00:00",
+        "rawSha256": "5bccc3585cd2cd961a0f962bea36f7a4bc767b094f92443d098454c03cc5cb5c",
+        "bytes": 2644
+      },
+      "localBodySha256": "1e25e543ba69208475f6b47196e73efb52de711092c8f578ef6f44f732f8a863",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-002-8c13db8ae6",
+          "parentId": "toc-capital-v2-zh-root",
+          "title": "弗・恩格斯。第二版序言",
+          "type": "PREFACE",
+          "order": 1,
+          "chapterId": "chapter-002-8c13db8ae6",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "[第二版序言]［注：本卷中凡是四角括号［］内的话都是德文版编者加的。--译者注］",
+        "这里印出的第二版，基本上是按第一版原样翻印的。印刷错误改正了，若干文体上不讲究的地方纠正了，若干短的、内容重复的段落删掉了。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-002-8c13db8ae6",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/002.htm",
+          "sourceRawSha256": "5bccc3585cd2cd961a0f962bea36f7a4bc767b094f92443d098454c03cc5cb5c",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――[第二版序言]",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――[第二版序言]</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-002-8c13db8ae6",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/002.htm",
+          "sourceRawSha256": "5bccc3585cd2cd961a0f962bea36f7a4bc767b094f92443d098454c03cc5cb5c",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-007-40a6eb1d10",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第五章 流通时间",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+      "sourceRawSha256": "cfef4a8b6f8d7ba0c4ae293c336fe80de5443d7b304b28bb1c82b63095bdf7fb",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:47.780275+00:00",
+        "rawSha256": "cfef4a8b6f8d7ba0c4ae293c336fe80de5443d7b304b28bb1c82b63095bdf7fb",
+        "bytes": 11632
+      },
+      "localBodySha256": "378468f890e8957bec0dbd2bc94196ec1090e611ff6a7bfcbd90db60e84909f0",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-007-40a6eb1d10",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第五章 流通时间",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-40a6eb1d10",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "［注：以下是第Ⅳ稿。］",
+        "我们已经知道，资本通过生产领域和流通领域两阶段的运动，是按照时间的顺序进行的。资本在生产领域停留的时间是它的生产时间，资本在流通领域停留的时间是它的流通时间。所以，资本完成它的循环的全部时间，等于生产时间和流通时间之和。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-007-40a6eb1d10",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+          "sourceRawSha256": "cfef4a8b6f8d7ba0c4ae293c336fe80de5443d7b304b28bb1c82b63095bdf7fb",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第五章　流通时间",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第五章　流通时间</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-007-40a6eb1d10",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+          "sourceRawSha256": "cfef4a8b6f8d7ba0c4ae293c336fe80de5443d7b304b28bb1c82b63095bdf7fb",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-007-40a6eb1d10",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/007.htm",
+          "sourceRawSha256": "cfef4a8b6f8d7ba0c4ae293c336fe80de5443d7b304b28bb1c82b63095bdf7fb",
+          "lineIndex": 6,
+          "text": "第五章　流通时间",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第五章　流通时间</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-008-412cdf3116",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第六章 流通费用",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+      "sourceRawSha256": "578d1fa53aff11e0b0a18f77778cfe8d3f0cd085af52ee2a0fc55fb04bbca282",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:48.312133+00:00",
+        "rawSha256": "578d1fa53aff11e0b0a18f77778cfe8d3f0cd085af52ee2a0fc55fb04bbca282",
+        "bytes": 37206
+      },
+      "localBodySha256": "5461bfee38361c9996ae441eeca5341781b79514daff236a5ac315862b15372e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-008-412cdf3116",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第六章 流通费用",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-412cdf3116",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．纯粹的流通费用",
+        "1．买卖时间"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-008-412cdf3116",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+          "sourceRawSha256": "578d1fa53aff11e0b0a18f77778cfe8d3f0cd085af52ee2a0fc55fb04bbca282",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第六章　 流通费用",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第六章　 流通费用</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-008-412cdf3116",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+          "sourceRawSha256": "578d1fa53aff11e0b0a18f77778cfe8d3f0cd085af52ee2a0fc55fb04bbca282",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-008-412cdf3116",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/008.htm",
+          "sourceRawSha256": "578d1fa53aff11e0b0a18f77778cfe8d3f0cd085af52ee2a0fc55fb04bbca282",
+          "lineIndex": 6,
+          "text": "第六章　 流通费用",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第六章　 流通费用</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-009-a970f98c04",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第七章 周转时间和周转次数",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+      "sourceRawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:48.635511+00:00",
+        "rawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+        "bytes": 6221
+      },
+      "localBodySha256": "dc15f1f23dbbf5e827b087f50a9d1b950a42e8839f51dbb46d61854c73620fde",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-009-a970f98c04",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第七章 周转时间和周转次数",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-a970f98c04",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经知道，一定资本的总流通时间，等于它的流通时间和它的生产时间之和。这就是从资本价值以一定的形式预付时起，到处在过程中的资本价值回到同一形式时止的一段时间。",
+        "资本主义生产的决定目的，总是预付价值的增殖，不管这个预付价值采取它的独立的形式，即货币形式，还是采取商品形式，因而它的价值形式在预付商品的价格中具有仅仅观念上的独立性。在这两个场合，这个资本价值在它循环时都要经过不同的存在形式。这个资本价值自身的同一性，是在资本家的账簿上或在计算货币的形式上得到证实的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-009-a970f98c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+          "sourceRawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第二篇　资本周转",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第二篇　资本周转</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-009-a970f98c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+          "sourceRawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-009-a970f98c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+          "sourceRawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+          "lineIndex": 11,
+          "text": "第七章　周转时间和周转次数",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第七章　周转时间和周转次数</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-010-d381ef7444",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第八章 固定资本和流动资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+      "sourceRawSha256": "ff5a0a576bd13d14248b0dd33b6b267d85d6086bcc444949c4a5c310067190cf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:49.468670+00:00",
+        "rawSha256": "ff5a0a576bd13d14248b0dd33b6b267d85d6086bcc444949c4a5c310067190cf",
+        "bytes": 40831
+      },
+      "localBodySha256": "5d6825adadf1e7e465e1c7690ae94954dae5960aa764aaf77e017c3a9465bcbe",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-010-d381ef7444",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第八章 固定资本和流动资本",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-d381ef7444",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．形式区别Ⅱ．固定资本的组成部分、补偿、修理和积累",
+        "Ⅰ．形式区别"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-010-d381ef7444",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+          "sourceRawSha256": "ff5a0a576bd13d14248b0dd33b6b267d85d6086bcc444949c4a5c310067190cf",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第八章　固定资本和流动资本",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第八章　固定资本和流动资本</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-010-d381ef7444",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+          "sourceRawSha256": "ff5a0a576bd13d14248b0dd33b6b267d85d6086bcc444949c4a5c310067190cf",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-010-d381ef7444",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/010.htm",
+          "sourceRawSha256": "ff5a0a576bd13d14248b0dd33b6b267d85d6086bcc444949c4a5c310067190cf",
+          "lineIndex": 6,
+          "text": "第八章　固定资本和流动资本",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第八章　固定资本和流动资本</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-011-6937d74067",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第九章 预付资本的总周转。周转的周期",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+      "sourceRawSha256": "1d0cca8a6b3b3192630bb26a3e63bb5cafe0ae0c973c8e12f091a6de619cb809",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:49.755699+00:00",
+        "rawSha256": "1d0cca8a6b3b3192630bb26a3e63bb5cafe0ae0c973c8e12f091a6de619cb809",
+        "bytes": 10565
+      },
+      "localBodySha256": "ebdcff3715fb788f374f1f80aa13517c3a1c077f4abc4745be6b11120443becd",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-011-6937d74067",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第九章 预付资本的总周转。周转的周期",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-6937d74067",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们知道，生产资本的固定组成部分和流动组成部分，是按不同的方式，以不同的期间周转的；我们又知道，同一企业的固定资本的不同组成部分，根据它们的不同的寿命，从而不同的再生产时间，又各有不同的周转期间。（关于同一企业的流动资本的不同组成部分周转上的实际差别和表面差别，见本章末的第6点。）",
+        "1．预付资本的总周转，是它的不同组成部分的平均周转；计算方法见后。如果问题只是不同的期间，那末，计算它们的平均数当然是再简单不过了。但是："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-011-6937d74067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+          "sourceRawSha256": "1d0cca8a6b3b3192630bb26a3e63bb5cafe0ae0c973c8e12f091a6de619cb809",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第九章　预付资本的总周转。周转的周期",
+          "compactLength": 28,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第九章　预付资本的总周转。周转的周期</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-011-6937d74067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+          "sourceRawSha256": "1d0cca8a6b3b3192630bb26a3e63bb5cafe0ae0c973c8e12f091a6de619cb809",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-011-6937d74067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/011.htm",
+          "sourceRawSha256": "1d0cca8a6b3b3192630bb26a3e63bb5cafe0ae0c973c8e12f091a6de619cb809",
+          "lineIndex": 6,
+          "text": "第九章　预付资本的总周转。周转的周期",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第九章　预付资本的总周转。周转的周期</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-012-68cf4bbcf4",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十章 关于固定资本和流动资本的理论。重农学派和亚当・斯密",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+      "sourceRawSha256": "fec43ab2734c9491509668b240b6dee2f6019ba2c47d86f03dbc3d0b09549ebe",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:50.485464+00:00",
+        "rawSha256": "fec43ab2734c9491509668b240b6dee2f6019ba2c47d86f03dbc3d0b09549ebe",
+        "bytes": 41608
+      },
+      "localBodySha256": "e6c1477184b834fa7d707d587cd87cb6d2dd9ec49b35fe1faf9c2551e141d25f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-012-68cf4bbcf4",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十章 关于固定资本和流动资本的理论。重农学派和亚当・斯密",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-68cf4bbcf4",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在魁奈那里，固定资本和流动资本的区别表现为“原预付”和“年预付”。他正确地把这种区别说成是生产资本即并入直接生产过程的资本内部的区别。因为在他看来，农业上使用的资本即租地农场主的资本是唯一的实际的生产资本，所以，这种区别也只是对于租地农场主的资本来说才是存在的。因此，他也就认为，资本一部分是每年周转一次，另一部分是多年（十年）周转一次。重农学派在发展过程中，也曾偶然把这种区别应用于其他种类的资本，应用于一般产业资本。年预付和多年预付的区别对社会来说是如此重要，以至许多经济学家，甚至在斯密以后，还是要回到这个规定上来。",
+        "这两种预付的区别，只有在预付货币转化为生产资本的要素时才产生。这种区别唯一地只是存在于生产资本中。所以，魁奈不把货币算在原预付内，也不把它算在年预付内。作为生产预付，即作为生产资本，这两种预付是同货币和市场上出现的商品相对立的。其次，在魁奈那里，生产资本这两种要素的区别，正确地归结为它们加入成品的价值的方式不同，从而归结为它们的价值随着产品的价值一起流通的方式不同，并从而归结为它们的补偿或再生产的方式不同，因为一种要素的价值是一年全部补偿的，而另一种要素的价值是在较长时期内一部分一部分地补偿的。［注：参看魁奈《经济表的分析》（德尔编《重农学派》1846年巴黎版第1部）。例如，那里说：“年预付是由每年在耕作劳动上的支出构成的；这种预付必须和代表农业创办基金的原预付相区别。”（第59页）――晚一辈的重农学派已经时常直接把“预付”叫做“资本”：“资本或预付”，见杜邦・德・奈穆尔《魁奈医生的学说，或他的社会经济学原理概述》（德尔，第1部第391页）。其次，列特隆写道：“由于劳动产品的耐久程度不同，一个国家就拥有不以每年再生产为转移的一个可观的财富储备，这个储备代表长期以来积累的资本，它原来是用产品支付的，是不断保存和增加的。”（德尔，第2部第928―929页）――杜尔哥已经更经常地用“资本”一词代替“预付”，更彻底地把“工厂主”的“预付”和租地农场主的“预付”等同起来。（杜尔哥《关于财富的形成和分配的考察》1766年版）］"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-012-68cf4bbcf4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+          "sourceRawSha256": "fec43ab2734c9491509668b240b6dee2f6019ba2c47d86f03dbc3d0b09549ebe",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十章　关于固定资本和流动资本的理论。重农学派和亚当・斯密",
+          "compactLength": 39,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十章　关于固定资本和流动资本的理论。重农学派和亚当・斯密</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-012-68cf4bbcf4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+          "sourceRawSha256": "fec43ab2734c9491509668b240b6dee2f6019ba2c47d86f03dbc3d0b09549ebe",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-012-68cf4bbcf4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/012.htm",
+          "sourceRawSha256": "fec43ab2734c9491509668b240b6dee2f6019ba2c47d86f03dbc3d0b09549ebe",
+          "lineIndex": 6,
+          "text": "第十章　关于固定资本和流动资本的理论。重农学派和亚当・斯密",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十章　关于固定资本和流动资本的理论。重农学派和亚当・斯密</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-013-dff5d1c285",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十一章 关于固定资本和流动资本的理论。李嘉图",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+      "sourceRawSha256": "4c7ad8b1ed817e35c6a032b97c219e0a06ecf4450fdd563f2a2471d5d153874a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:50.953020+00:00",
+        "rawSha256": "4c7ad8b1ed817e35c6a032b97c219e0a06ecf4450fdd563f2a2471d5d153874a",
+        "bytes": 23376
+      },
+      "localBodySha256": "e41274f64f978d3a0922963466f065b1cf1ddce4af27311125c58f18146df39f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-013-dff5d1c285",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十一章 关于固定资本和流动资本的理论。李嘉图",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-dff5d1c285",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "李嘉图提到固定资本和流动资本的区别，只是为了说明价值规律的例外，即工资率影响价格的各种情况。这个问题，我们要到第三卷才谈。[56]",
+        "但是，原来的糊涂观念一开始就表现为下面这种轻率的并列："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-013-dff5d1c285",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+          "sourceRawSha256": "4c7ad8b1ed817e35c6a032b97c219e0a06ecf4450fdd563f2a2471d5d153874a",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十一章　关于固定资本和流动资本的理论。李嘉图",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十一章　关于固定资本和流动资本的理论。李嘉图</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-013-dff5d1c285",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+          "sourceRawSha256": "4c7ad8b1ed817e35c6a032b97c219e0a06ecf4450fdd563f2a2471d5d153874a",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-013-dff5d1c285",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/013.htm",
+          "sourceRawSha256": "4c7ad8b1ed817e35c6a032b97c219e0a06ecf4450fdd563f2a2471d5d153874a",
+          "lineIndex": 6,
+          "text": "第十一章　关于固定资本和流动资本的理论。李嘉图",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十一章　关于固定资本和流动资本的理论。李嘉图</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-014-b442242ed7",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十二章 劳动期间",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+      "sourceRawSha256": "2c599ddce80ebed49429fffd7a910fc86fd40b8103e0237b5f02ceb2b5f73df9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:51.242426+00:00",
+        "rawSha256": "2c599ddce80ebed49429fffd7a910fc86fd40b8103e0237b5f02ceb2b5f73df9",
+        "bytes": 15627
+      },
+      "localBodySha256": "518bdcb98e0cabf7edcccb2b7421e500b98db857dd7e31a3e076c8b1d708ac71",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-014-b442242ed7",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十二章 劳动期间",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-b442242ed7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "假定有两个生产部门，一个是棉纺业，一个是机车制造业，它们的工作日一样长，比如说十小时的劳动过程。在一个部门，每天、每周提供一定量的成品，棉纱；在另一个部门，劳动过程也许要反复进行三个月，才能制成一件成品，一台机车。在一个场合，产品具有可分离的性质，每天或每周都重新开始同样的劳动。在另一个场合，劳动过程是连续的，包括好多个每天的劳动过程，它们互相结合，连续操作，要经过较长时间才提供一件成品。尽管每天的劳动过程的持续时间在这里是一样的，但生产行为的持续时间，即为提供一件成品，把它作为商品送到市场，从而使它由生产资本转化为商品资本所必须反复进行的劳动过程的持续时间，却具有非常明显的差别。固定资本和流动资本的区别，和这里的问题无关。即使两个生产部门所使用的固定资本和流动资本的比例完全相同，上述差别也还会存在。",
+        "生产行为持续时间的差别，不仅在不同生产部门之间发生，而且在同一个生产部门内也会发生，因为所要提供的产品的规模有大有小。建筑一所普通住宅比建筑一个大工厂需要的时间少，因而需要的连续劳动过程也少。制造一台机车需要三个月，制造一艘装甲舰则需要一年或数年。谷物的生产需要将近一年，牛羊的生产需要几年，木材的生产可长达12年到100年。一条农村土路也许几个月就可以修好，而一条铁路却要几年才能建成；织一条普通地毯也许需要一周，而织一条戈比林壁毯则需要几年，等等。因此，生产行为持续时间的差别，是无穷无尽的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-014-b442242ed7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+          "sourceRawSha256": "2c599ddce80ebed49429fffd7a910fc86fd40b8103e0237b5f02ceb2b5f73df9",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷——第十二章　劳动期间",
+          "compactLength": 19,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷——第十二章　劳动期间</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-014-b442242ed7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+          "sourceRawSha256": "2c599ddce80ebed49429fffd7a910fc86fd40b8103e0237b5f02ceb2b5f73df9",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-014-b442242ed7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/014.htm",
+          "sourceRawSha256": "2c599ddce80ebed49429fffd7a910fc86fd40b8103e0237b5f02ceb2b5f73df9",
+          "lineIndex": 6,
+          "text": "第十二章　劳动期间",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十二章　劳动期间</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-015-119003cf5b",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十三章 生产时间",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+      "sourceRawSha256": "76a147e0c2d2d62e4526dbcd0f804da9685465c034a6b68a8cbfa1dd6af2fbf7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:51.569307+00:00",
+        "rawSha256": "76a147e0c2d2d62e4526dbcd0f804da9685465c034a6b68a8cbfa1dd6af2fbf7",
+        "bytes": 15128
+      },
+      "localBodySha256": "09c9a76affadcda0ffbc54f396e60340263a18441aa02a7c2d483303c588c35b",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-015-119003cf5b",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十三章 生产时间",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-119003cf5b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "劳动时间始终是生产时间，即资本束缚在生产领域的时间。但是反过来，资本处于生产过程中的全部时间，并不因此也必然是劳动时间。",
+        "这里指的不是受劳动力本身的自然界限制约的劳动过程的中断，虽然我们说过，只是固定资本即厂房、机器等等在劳动过程休止时闲置不用这一情况，就已经成为超出自然界限来延长劳动过程和实行日夜班劳动[66]的动机之一。这里指的是与劳动过程长短无关，但受产品的性质和制造产品的方式本身制约的那种中断。在这个中断期间，劳动对象受时间长短不一的自然过程的支配，要经历物理的、化学的、生理的变化；在这个期间，劳动过程全部停止或者局部停止。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-015-119003cf5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+          "sourceRawSha256": "76a147e0c2d2d62e4526dbcd0f804da9685465c034a6b68a8cbfa1dd6af2fbf7",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十三章　生产时间",
+          "compactLength": 19,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十三章　生产时间</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-015-119003cf5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+          "sourceRawSha256": "76a147e0c2d2d62e4526dbcd0f804da9685465c034a6b68a8cbfa1dd6af2fbf7",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-015-119003cf5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/015.htm",
+          "sourceRawSha256": "76a147e0c2d2d62e4526dbcd0f804da9685465c034a6b68a8cbfa1dd6af2fbf7",
+          "lineIndex": 6,
+          "text": "第十三章　生产时间",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十三章　生产时间</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-016-826263b816",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十四章 流通时间",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+      "sourceRawSha256": "91bafeec420709a978eb6ce6049eb037919ab8e5d24394e88470d77eb6fd4c3d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:51.918593+00:00",
+        "rawSha256": "91bafeec420709a978eb6ce6049eb037919ab8e5d24394e88470d77eb6fd4c3d",
+        "bytes": 12489
+      },
+      "localBodySha256": "2d5aa0a88aca62e6352740f3df4ea9f3b094cb04bbc58b93668dd8b808597305",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-016-826263b816",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十四章 流通时间",
+          "type": "CHAPTER",
+          "order": 15,
+          "chapterId": "chapter-016-826263b816",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-16"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们以前考察的一切情况，引起了投入不同生产部门的不同资本的周转期间的差别，从而也引起了资本所必须预付的时间的差别。这些情况都是在生产过程本身发生的，例如固定资本和流动资本的差别、劳动期间的差别等等。但是，资本的周转时间等于它的生产时间和它的流通时间之和。因此，不言而喻，流通时间的长短不一会造成周转时间，从而造成周转期间的长短不一。只要拿两个不同的投资作比较，假定其他一切影响周转的条件都相同，只是流通时间不同，或者，考察一定量资本，假定固定资本和流动资本的构成已定，劳动期间已定等等，只是流通时间是可变的，那末情况就显得清清楚楚了。",
+        "流通时间的一部分――相对地说最有决定意义的部分――是由出售时间，即资本处在商品资本状态的期间构成的。流通时间，从而整个周转期间，是按照这个时间的相对的长短而延长或缩短的。由于保管费用等等，追加的资本支出也就成为必要的了。从一开始就很清楚：出售成品所需的时间，对同一个生产部门的单个资本家来说，可能是极不相同的；因此，它不仅对投入不同生产部门的资本量来说，是极不相同的，而且对各个独立的资本即实际上只是投入同一个生产领域的总资本的独立部分来说，也是极不相同的。在其他条件相同的情况下，同一个单个资本的出售期间，随着市场情况的一般变动或者随着特殊生产部门的市场情况的变动而变动。关于这一点，在这里就不多讲了。我们只是说明一个简单的事实：所有那些会使投在不同生产部门的资本的周转期间产生差别的情况，即使它们单个地发生作用（例如，假定一个资本家有机会比他的竞争对手卖得更快，或者比另一个资本家采用更多的方法来缩短劳动期间），同样会使处在同一个生产部门的不同的单个资本的周转产生差别。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-016-826263b816",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+          "sourceRawSha256": "91bafeec420709a978eb6ce6049eb037919ab8e5d24394e88470d77eb6fd4c3d",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十四章　流通时间",
+          "compactLength": 19,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十四章　流通时间</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-016-826263b816",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+          "sourceRawSha256": "91bafeec420709a978eb6ce6049eb037919ab8e5d24394e88470d77eb6fd4c3d",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-016-826263b816",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/016.htm",
+          "sourceRawSha256": "91bafeec420709a978eb6ce6049eb037919ab8e5d24394e88470d77eb6fd4c3d",
+          "lineIndex": 6,
+          "text": "第十四章　流通时间",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十四章　流通时间</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-018-8e73e9524f",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十六章 可变资本的周转",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+      "sourceRawSha256": "cb2548ced0da6283449e56b6822ed463deea2713ba9d629b0311c360a8fbadb0",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:52.469681+00:00",
+        "rawSha256": "cb2548ced0da6283449e56b6822ed463deea2713ba9d629b0311c360a8fbadb0",
+        "bytes": 38308
+      },
+      "localBodySha256": "6fa2e567f461a4dbbd36159f2129d4fddef8413e2061db92c4549b04cb829892",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-018-8e73e9524f",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十六章 可变资本的周转",
+          "type": "CHAPTER",
+          "order": 17,
+          "chapterId": "chapter-018-8e73e9524f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-18"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．年剩余价值率",
+        "假定有一个2500镑的流动资本，其中4/5＝2000镑是不变资本（生产材料），1/5＝500镑是投在工资上的可变资本。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-018-8e73e9524f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+          "sourceRawSha256": "cb2548ced0da6283449e56b6822ed463deea2713ba9d629b0311c360a8fbadb0",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十六章　可变资本的周转",
+          "compactLength": 22,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十六章　可变资本的周转</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-018-8e73e9524f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+          "sourceRawSha256": "cb2548ced0da6283449e56b6822ed463deea2713ba9d629b0311c360a8fbadb0",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-018-8e73e9524f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/018.htm",
+          "sourceRawSha256": "cb2548ced0da6283449e56b6822ed463deea2713ba9d629b0311c360a8fbadb0",
+          "lineIndex": 6,
+          "text": "第十六章　可变资本的周转",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十六章　可变资本的周转</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-019-9bd865b8ad",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十七章 剩余价值的流通",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+      "sourceRawSha256": "d5875f0e43919a301a1de77f4b4c7601348187591af31b24fda79c8a589e6181",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:53.102783+00:00",
+        "rawSha256": "d5875f0e43919a301a1de77f4b4c7601348187591af31b24fda79c8a589e6181",
+        "bytes": 48120
+      },
+      "localBodySha256": "8d8ac1025ebcd9c9ff620b330552f6d35ba5ea6d5de46fc0d9c5ea65cae37e3a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-019-9bd865b8ad",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十七章 剩余价值的流通",
+          "type": "CHAPTER",
+          "order": 18,
+          "chapterId": "chapter-019-9bd865b8ad",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-19"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．简单再生产Ⅱ．积累和扩大再生产",
+        "以上我们知道，即使一年内生产的剩余价值量相等，周转期间的差别也会引起年剩余价值率的差别。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-019-9bd865b8ad",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+          "sourceRawSha256": "d5875f0e43919a301a1de77f4b4c7601348187591af31b24fda79c8a589e6181",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十七章　剩余价值的流通",
+          "compactLength": 22,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十七章　剩余价值的流通</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-019-9bd865b8ad",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+          "sourceRawSha256": "d5875f0e43919a301a1de77f4b4c7601348187591af31b24fda79c8a589e6181",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-019-9bd865b8ad",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/019.htm",
+          "sourceRawSha256": "d5875f0e43919a301a1de77f4b4c7601348187591af31b24fda79c8a589e6181",
+          "lineIndex": 6,
+          "text": "第十七章　剩余价值的流通",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十七章　剩余价值的流通</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-020-85f66caf67",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十八章 导言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+      "sourceRawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:53.405476+00:00",
+        "rawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+        "bytes": 12591
+      },
+      "localBodySha256": "216fc1a73bf82e8737b6f579ff137849e612cdd57b7f9ced8a79cff23f08e91a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-020-85f66caf67",
+          "parentId": "toc-capital-v2-zh-part-3",
+          "title": "第十八章 导言",
+          "type": "CHAPTER",
+          "order": 19,
+          "chapterId": "chapter-020-85f66caf67",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-20"
+        }
+      ],
+      "localFirstParagraphs": [
+        "［注：采自第Ⅱ稿。］Ⅰ．研究的对象Ⅱ．货币资本的作用",
+        "Ⅰ．研究的对象"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-020-85f66caf67",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+          "sourceRawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第三篇　社会总资本的再生产和流通",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第三篇　社会总资本的再生产和流通</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-020-85f66caf67",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+          "sourceRawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-020-85f66caf67",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+          "sourceRawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+          "lineIndex": 11,
+          "text": "第十八章　导言",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十八章　导言</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-021-e03ad085cf",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十九章 前人对这个问题的阐述",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+      "sourceRawSha256": "866d8cb890df7e5d8c13c0dbe2373912982581b83359467a92778a1350549ea1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:53.947122+00:00",
+        "rawSha256": "866d8cb890df7e5d8c13c0dbe2373912982581b83359467a92778a1350549ea1",
+        "bytes": 54513
+      },
+      "localBodySha256": "6d457f1db381b5f53caae44885754d7f79d392a32ccb69a667de86634476ad0e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-021-e03ad085cf",
+          "parentId": "toc-capital-v2-zh-part-3",
+          "title": "第十九章 前人对这个问题的阐述",
+          "type": "CHAPTER",
+          "order": 20,
+          "chapterId": "chapter-021-e03ad085cf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-21"
+        }
+      ],
+      "localFirstParagraphs": [
+        "［注：这里第・开始。］",
+        "Ⅰ．重农学派"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-021-e03ad085cf",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+          "sourceRawSha256": "866d8cb890df7e5d8c13c0dbe2373912982581b83359467a92778a1350549ea1",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第十九章　前人对这个问题的阐述",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十九章　前人对这个问题的阐述</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-021-e03ad085cf",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+          "sourceRawSha256": "866d8cb890df7e5d8c13c0dbe2373912982581b83359467a92778a1350549ea1",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-021-e03ad085cf",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/021.htm",
+          "sourceRawSha256": "866d8cb890df7e5d8c13c0dbe2373912982581b83359467a92778a1350549ea1",
+          "lineIndex": 6,
+          "text": "第十九章　前人对这个问题的阐述",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十九章　前人对这个问题的阐述</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-023-190ae29932",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第二十一章 积累和扩大再生产",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+      "sourceRawSha256": "c1f78025131aa75712c77735503d0e594fab039d5a7957533b75a4f70fff4490",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:54.635092+00:00",
+        "rawSha256": "c1f78025131aa75712c77735503d0e594fab039d5a7957533b75a4f70fff4490",
+        "bytes": 59931
+      },
+      "localBodySha256": "2a13e3dd1372c68d2197392c668d6738df358e178074c5b104966212e6c4e644",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-023-190ae29932",
+          "parentId": "toc-capital-v2-zh-part-3",
+          "title": "第二十一章 积累和扩大再生产",
+          "type": "CHAPTER",
+          "order": 22,
+          "chapterId": "chapter-023-190ae29932",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-23"
+        }
+      ],
+      "localFirstParagraphs": [
+        "［注：从这里到本卷末，采自第ⅤⅢ稿。］",
+        "第一卷已经指出，单个资本家的积累是怎样进行的。由于商品资本转化为货币，代表剩余价值的剩余产品也转化为货币。资本家把这样转化为货币的剩余价值，再转化为他的生产资本的追加的实物要素。这个增大的资本，在生产的下一个循环内，会提供更多的产品。但是，在单个资本上发生的情况，也必然会在全年的总再生产上出现，正象在考察简单再生产时我们已经看到，在单个资本的再生产中，单个资本的已经损耗的固定组成部分相继沉淀为贮藏货币的现象，也会在社会的年再生产上表现出来。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-023-190ae29932",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+          "sourceRawSha256": "c1f78025131aa75712c77735503d0e594fab039d5a7957533b75a4f70fff4490",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第二十一章　积累和扩大再生产",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第二十一章　积累和扩大再生产</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-023-190ae29932",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+          "sourceRawSha256": "c1f78025131aa75712c77735503d0e594fab039d5a7957533b75a4f70fff4490",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-023-190ae29932",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/023.htm",
+          "sourceRawSha256": "c1f78025131aa75712c77735503d0e594fab039d5a7957533b75a4f70fff4490",
+          "lineIndex": 6,
+          "text": "第二十一章　积累和扩大再生产",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十一章　积累和扩大再生产</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-009-8d1c274824",
+      "title": "资本论·第一卷",
+      "chapterTitle": "工作日",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+      "sourceRawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:08:55.504187+00:00",
+        "rawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+        "bytes": 162253
+      },
+      "localBodySha256": "d9c2c0234de3f5ee2540e5e1b7186b5a88ff8bcd3c67a6040eba9df5caa9b42e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+          "parentId": "toc-capital-v1-zh-part-3",
+          "title": "工作日",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-8d1c274824",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、工作日的界限",
+        "我们已经假定劳动力是按照它的价值买卖的。它的价值，和其他各种商品的价值一样，是由生产它所必需的劳动时间决定的。因此，如果工人平均一天生活资料的生产需要6小时，那末工人平均每天就要劳动6小时来逐日生产他的劳动力，或者说，再生产出他出卖劳动力得到的价值。这样，他的工作日的必要部分就是6小时，因而，在其他条件不变的情况下，是一个一定量。但是由此还不能确定工作日本身的量。"
+      ],
+      "nativeNoteCount": 206,
+      "nativeNoteLayoutDifferences": [
+        {
+          "noteId": "_ftn175",
+          "sourceContent": [
+            "《工厂视察员报告。1861年10月31日》第27页，一般说来，工厂法影响所及的劳动居民的体格都大大增强了。医生的所有证词在这一点上都是一致的，我根据自己在各个不同时期的亲身观察，也确信这一点。尽管如此，并且即使撇开初生婴儿的惊人的死亡率不说，袼林豪医生的正式报告还是表明，同“具有正常健康状况的农业区”相比，工厂区的健康状况是不良的，我引用他1861年报告中的下列统计表作为证明：",
+            "〔原表3〕在工业中做工的成年男子的百分比 每10万个男子中死于肺病的人数 地区名称 每10万个妇女中死于肺病的人数 在工业中做工的成年妇女的百分比 妇女职业类别",
+            "14.9 598 威根 644 18.0 棉业",
+            "42.6 708 布莱克本 734 34.9 同上",
+            "37.3 547 哈里法克斯 564 20.4 毛业",
+            "41.9 611 布莱得弗德 603 30.0 同上",
+            "31.0 691 麦克尔士菲尔德 804 26.0 丝业",
+            "14.9 588 利克 705 17.2 同上",
+            "36.6 721 特伦特河畔的斯托克 665 19.3 瓦器业",
+            "30.4 726 沃尔斯坦登 727 13.9 同上",
+            "― 305 8个健康的农业区 340 ―"
+          ],
+          "localContent": [
+            "《工厂视察员报告。1861年10月31日》第27页，一般说来，工厂法影响所及的劳动居民的体格都大大增强了。医生的所有证词在这一点上都是一致的，我根据自己在各个不同时期的亲身观察，也确信这一点。尽管如此，并且即使撇开初生婴儿的惊人的死亡率不说，袼林豪医生的正式报告还是表明，同“具有正常健康状况的农业区”相比，工厂区的健康状况是不良的，我引用他1861年报告中的下列统计表作为证明：",
+            "在工业中做工的成年男子的百分比每10万个男子中死于肺病的人数地区名称每10万个妇女中死于肺病的人数在工业中做工的成年妇女的百分比妇女职业类别",
+            "14.9598威根64418.0棉业",
+            "42.6708布莱克本73434.9同上",
+            "37.3547哈里法克斯56420.4毛业",
+            "41.9611布莱得弗德60330.0同上",
+            "31.0691麦克尔士菲尔德80426.0丝业",
+            "14.9588利克70517.2同上",
+            "36.6721特伦特河畔的斯托克66519.3瓦器业",
+            "30.4726沃尔斯坦登72713.9同上",
+            "―3058个健康的农业区340―"
+          ],
+          "reason": "去除表格空白及离线原表标识后逐字一致；不改本地脚注内容或引用。"
+        }
+      ],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-009-8d1c274824",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+          "sourceRawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-014-cae77f7ce7",
+      "title": "资本论·第一卷",
+      "chapterTitle": "机器和大工业",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+      "sourceRawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:31.644909+00:00",
+        "rawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+        "bytes": 158390
+      },
+      "localBodySha256": "00e5ff837a66b689d1951ce94ad0b6259a125ac2778c396eec9f7d6fe3deb354",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-014-cae77f7ce7",
+          "parentId": "toc-capital-v1-zh-part-4",
+          "title": "机器和大工业",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-cae77f7ce7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、机器的发展",
+        "约翰·斯图亚特·穆勒在他的《政治经济学原理》一书中说道："
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-014-cae77f7ce7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+          "sourceRawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-024-d82b3e60f9",
+      "title": "资本论·第一卷",
+      "chapterTitle": "资本主义积累的一般规律",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+      "sourceRawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/23.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:32.252399+00:00",
+        "rawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+        "bytes": 132149
+      },
+      "localBodySha256": "0fea05fa755d6bfdaeb93e407914efd70f7d548cecbff8e62a1594e45f2150d8",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v1-zh-chapter-chapter-024-d82b3e60f9",
+          "parentId": "toc-capital-v1-zh-part-7",
+          "title": "资本主义积累的一般规律",
+          "type": "CHAPTER",
+          "order": 23,
+          "chapterId": "chapter-024-d82b3e60f9",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-24"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1、资本构成不变，对劳动力的需求随积累的增长而增长",
+        "我们在这一章要研究资本的增长对工人阶级的命运产生的影响。在这种研究中，最重要的因素就是资本的构成和它在积累过程进行中所起的变化。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v1-zh",
+          "chapterId": "chapter-024-d82b3e60f9",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+          "sourceRawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思 -> 《资本论》第一卷：资本的生产过程(1867)",
+          "compactLength": 38,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-003-5b25d39805",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第一章 货币资本的循环",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+      "sourceRawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:33.386818+00:00",
+        "rawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+        "bytes": 56145
+      },
+      "localBodySha256": "f73e476bb6e07ecc06e9e2b0336cf8d9c483888928e1425cdd7f5850b6a8588d",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-003-5b25d39805",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第一章 货币资本的循环",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-5b25d39805",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "资本的循环过程［注：采自第Ⅱ稿。］经过三个阶段；根据第一卷的叙述，这些阶段形成如下的序列：",
+        "第一阶段：资本家作为买者出现于商品市场和劳动市场；他的货币转化为商品，或者说，完成Ｇ―Ｗ这个流通行为。"
+      ],
+      "nativeNoteCount": 23,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-003-5b25d39805",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+          "sourceRawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第一篇　资本形态变化及其循环",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第一篇　资本形态变化及其循环</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-003-5b25d39805",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+          "sourceRawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-003-5b25d39805",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+          "sourceRawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+          "lineIndex": 29,
+          "text": "第一章　货币资本的循环",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第一章　货币资本的循环</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-004-860d16c1af",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第二章 生产资本的循环",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+      "sourceRawSha256": "751fdbaf274da9e2c7e6f65f1ca478357cfd3d9af4f62cfa217eb6ab9b3827d0",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:33.866415+00:00",
+        "rawSha256": "751fdbaf274da9e2c7e6f65f1ca478357cfd3d9af4f62cfa217eb6ab9b3827d0",
+        "bytes": 35882
+      },
+      "localBodySha256": "a429040e94194cf456973cf511819d3f9fa369d2f9b7be4f5be502f02581e241",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-004-860d16c1af",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第二章 生产资本的循环",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-860d16c1af",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "生产资本循环的总公式是：Ｐ…Ｗ′―Ｇ′―Ｗ…Ｐ。这个循环表示生产资本职能的周期更新，也就是表示再生产，或者说，表示资本的生产过程是增殖价值的再生产过程；它不仅表示剩余价值的生产，而且表示剩余价值的周期再生产；它表示，处在生产形式上的产业资本不是执行一次职能，而是周期反复地执行职能，因此，过程的重新开始，已由起点本身规定了。Ｗ′的一部分（在某些场合，在产业资本的某些投资部门内）可以直接再作为生产资料，进入把它当作商品生产出来的同一劳动过程；这样，它的价值就不用转化为实在货币或货币符号，或者它只是取得计算货币这种独立表现。这部分价值不进入流通。这样，有的价值不进入流通过程，但进入生产过程。Ｗ′中被资本家作为剩余产品部分以实物形式消耗的那一部分，也是这样。不过，这种情况对于资本主义生产来说并不重要，最多在农业上值得注意。",
+        "在这个形式上，有两点是显而易见的。"
+      ],
+      "nativeNoteCount": 12,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-004-860d16c1af",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+          "sourceRawSha256": "751fdbaf274da9e2c7e6f65f1ca478357cfd3d9af4f62cfa217eb6ab9b3827d0",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第二章　生产资本的循环",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第二章　生产资本的循环</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-004-860d16c1af",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+          "sourceRawSha256": "751fdbaf274da9e2c7e6f65f1ca478357cfd3d9af4f62cfa217eb6ab9b3827d0",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-004-860d16c1af",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/004.htm",
+          "sourceRawSha256": "751fdbaf274da9e2c7e6f65f1ca478357cfd3d9af4f62cfa217eb6ab9b3827d0",
+          "lineIndex": 6,
+          "text": "第二章　生产资本的循环",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二章　生产资本的循环</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-005-888f05d60c",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第三章 商品资本的循环",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+      "sourceRawSha256": "71fb4ff85ea0103aa7f2e93de9f7c7fd23c2c06f495dabe12a6ba78bfdd2498d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:34.145508+00:00",
+        "rawSha256": "71fb4ff85ea0103aa7f2e93de9f7c7fd23c2c06f495dabe12a6ba78bfdd2498d",
+        "bytes": 20491
+      },
+      "localBodySha256": "21e9f150a6ee91fcf1551afaffa3d6c09dba3ffde7345a5a4b8f08faf3fbae6a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-005-888f05d60c",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第三章 商品资本的循环",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-888f05d60c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "商品资本循环的总公式是：",
+        "Ｗ′―Ｇ′―Ｗ…Ｐ…Ｗ′。"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-005-888f05d60c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+          "sourceRawSha256": "71fb4ff85ea0103aa7f2e93de9f7c7fd23c2c06f495dabe12a6ba78bfdd2498d",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第三章　商品资本的循环",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第三章　商品资本的循环</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-005-888f05d60c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+          "sourceRawSha256": "71fb4ff85ea0103aa7f2e93de9f7c7fd23c2c06f495dabe12a6ba78bfdd2498d",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-005-888f05d60c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/005.htm",
+          "sourceRawSha256": "71fb4ff85ea0103aa7f2e93de9f7c7fd23c2c06f495dabe12a6ba78bfdd2498d",
+          "lineIndex": 6,
+          "text": "第三章　商品资本的循环",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三章　商品资本的循环</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-006-f9a997cdb9",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第四章 循环过程的三个公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+      "sourceRawSha256": "b8e7d1985dc13966537757327c574f9d805086edf77ad4758112c09efc5aa112",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:34.495496+00:00",
+        "rawSha256": "b8e7d1985dc13966537757327c574f9d805086edf77ad4758112c09efc5aa112",
+        "bytes": 32387
+      },
+      "localBodySha256": "b6d4bbe74587382097d427b685c258f3796e9a9587e0a335851789d900c023fd",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-006-f9a997cdb9",
+          "parentId": "toc-capital-v2-zh-part-1",
+          "title": "第四章 循环过程的三个公式",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-f9a997cdb9",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "・ 自然经济、货币经济和信用经济・ 需求和供给相抵",
+        "如果用Ｃｋ代表总流通过程，这三个公式可以表示如下："
+      ],
+      "nativeNoteCount": 6,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-006-f9a997cdb9",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+          "sourceRawSha256": "b8e7d1985dc13966537757327c574f9d805086edf77ad4758112c09efc5aa112",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第四章　循环过程的三个公式",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第四章　循环过程的三个公式</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-006-f9a997cdb9",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+          "sourceRawSha256": "b8e7d1985dc13966537757327c574f9d805086edf77ad4758112c09efc5aa112",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-006-f9a997cdb9",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/006.htm",
+          "sourceRawSha256": "b8e7d1985dc13966537757327c574f9d805086edf77ad4758112c09efc5aa112",
+          "lineIndex": 6,
+          "text": "第四章　循环过程的三个公式",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四章　循环过程的三个公式</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十五章 周转时间对预付资本量的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:35.383721+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "localBodySha256": "eecadaf00d0d1322c779fc4682cbba8bea45000e6fc2040d9d6aaf63401c010f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-017-2e2b9aa7fb",
+          "parentId": "toc-capital-v2-zh-part-2",
+          "title": "第十五章 周转时间对预付资本量的影响",
+          "type": "CHAPTER",
+          "order": 16,
+          "chapterId": "chapter-017-2e2b9aa7fb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-17"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在这一章和后面的第十六章，我们要考察周转时间对资本价值增殖的影响。",
+        "假定有一个商品资本，比如说是一个9周劳动期间的产品。我们暂且不谈由固定资本的平均损耗追加到产品中去的那部分价值和在生产过程中追加到产品中去的剩余价值，这样，这个产品的价值就等于生产这个产品时预付的流动资本的价值，也就是等于工资和生产这个产品时消费的原料和辅助材料的价值。假定这个价值＝900镑，这样，每周的支出是100镑。在这里，周期的生产时间同劳动期间一致，因此也是9周。不管我们假定的是一个具有连续性的产品的劳动期间，还是一个可分离的产品的连续的劳动期间，只要一次运到市场上去的可分离的产品的量要花费9周劳动，情况都一样。再假定流通时间持续3周。那末，整个周转期间就要持续12周。在9周完了以后，预付生产资本转化成商品资本了，但是它还有3周留在流通期间内。因此，新的生产期间要到第13周开始时才开始。生产要停顿3周，或者说，要停顿整个周转期间的1/4。不管我们假定这3周期间是出售产品平均所需的时间，还是假定这段时间要由市场的远近或由所出售的商品的支付期限来决定，情况也都是一样。每3个月中，生产要停顿3周，也就是说，一年中要停顿4×3＝12周＝3个月＝年周转期间的1/4。因此，为了使生产连续进行，一周一周地按相同的规模进行，只有两种办法可行。"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-017-2e2b9aa7fb",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+          "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+          "lineIndex": 2,
+          "text": "马恩全集第二十四卷――第十五章　周转时间对预付资本量的影响",
+          "compactLength": 28,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第十五章　周转时间对预付资本量的影响</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-017-2e2b9aa7fb",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+          "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-017-2e2b9aa7fb",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+          "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+          "lineIndex": 7,
+          "text": "第十五章　周转时间对预付资本量的影响",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十五章　周转时间对预付资本量的影响</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-022-57cd2a5633",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第二十章 简单再生产",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+      "sourceRawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:09:36.353564+00:00",
+        "rawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+        "bytes": 156229
+      },
+      "localBodySha256": "0d063f0ead56b673d00acd4b4a1c9f6348908915936a8a3455924ef5e9c6f3d6",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+          "parentId": "toc-capital-v2-zh-part-3",
+          "title": "第二十章 简单再生产",
+          "type": "CHAPTER",
+          "order": 21,
+          "chapterId": "chapter-022-57cd2a5633",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-22"
+        }
+      ],
+      "localFirstParagraphs": [
+        "I、问题的提出",
+        "如果我们考察社会资本，即总资本――各单个资本只形成它的分数部分，这些部分的运动，既是它们的单个的运动，同时又是总资本运动的不可缺少的环节――在一年内执行职能的结果，也就是说，如果我们考察社会在一年间提供的商品产品，那末，就会清楚地看到：社会资本的再生产过程是怎样进行的，这个再生产过程和单个资本的再生产过程相比有哪些不同的特征，二者又有那些共同的特征。年产品既包括补偿资本的那部分社会产品，即社会再生产，也包括归入消费基金的、由工人和资本家消费的那部分社会产品，就是说，既包括生产消费，也包括个人消费。这种消费包括资本家阶级和工人阶级的再生产（即维持），因而也包括总生产过程的资本主义性质的再生产。"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-022-57cd2a5633",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+          "sourceRawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+          "lineIndex": 1,
+          "text": "马恩全集第二十四卷――第二十章 简单再生产",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十四卷――第二十章 简单再生产</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-022-57cd2a5633",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+          "sourceRawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十四卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v2-zh",
+          "chapterId": "chapter-022-57cd2a5633",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+          "sourceRawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+          "lineIndex": 6,
+          "text": "第二十章 简单再生产",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十章 简单再生产</p>"
+          ]
+        }
+      ],
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringRecordedTableLayout": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 49,
+    "candidatesReviewed": 93,
+    "newRepairs": 0,
+    "paragraphsFootnotesTocAndAnnotationsUnchanged": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "chapters": 884,
+  "cacheOnly": true,
+  "candidates": [
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "htmlClosingTags": 2,
+      "charactersAfterFinalClosing": 2
+    }
+  ],
+  "scope": "仅扫描已校验摘要的884章缓存原始HTML：重复html结束标签或最终结束标签后超过200字符。不是884章新鲜网站访问，不证明无其他DOM截断。唯一候选已新鲜获取并修复。",
+  "repairEvidence": "docs/SOURCE_DOCUMENT_TAIL_REVIEW_2026-10-02.json"
+}

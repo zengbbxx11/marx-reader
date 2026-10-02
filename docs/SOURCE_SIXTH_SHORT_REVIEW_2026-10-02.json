@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-02",
+  "scope": "六书七页剩余8个上下文候选结论，加1处署名遗漏。5个内文章标题与1组署名日期恢复；章节根标题、独立来源和站点更新过滤单独登记。",
+  "reviews": [
+    {
+      "bookId": "capital-v1-zh",
+      "title": "资本论·第一卷",
+      "chapterId": "chapter-018-d7d08b16b3",
+      "chapterTitle": "劳动力的价值或价格转化为工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/17.htm",
+      "sourceRawSha256": "42c87df07e415e5cac69d1e01e1fd19db03313d3b11e7711f2ccca3689c05299",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/17.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/17.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:49.052848+00:00",
+        "rawSha256": "42c87df07e415e5cac69d1e01e1fd19db03313d3b11e7711f2ccca3689c05299",
+        "bytes": 14504
+      },
+      "localBodySha256": "7bdc8a91b60b6e02a550c61b872f625f7346f00fc972352485a6bb26e1edb6e7",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 5,
+          "text": "第十七章劳动力的价值或价格转化为工资",
+          "status": "reviewed_chapter_heading_rendered",
+          "sourceHtml": [
+            "<p class=\"title1\">第十七章　劳动力的价值或价格转化为工资</p>"
+          ],
+          "localChapterTitle": "劳动力的价值或价格转化为工资"
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "title": "资本论·第一卷",
+      "chapterId": "chapter-022-d3ecd5c107",
+      "chapterTitle": "简单再生产",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/21.htm",
+      "sourceRawSha256": "6ad4bd4fa474ea8f45792e369bd650f3c5f8db376775e926c1f587aafe5808ee",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/21.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/21.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:51.364512+00:00",
+        "rawSha256": "6ad4bd4fa474ea8f45792e369bd650f3c5f8db376775e926c1f587aafe5808ee",
+        "bytes": 19632
+      },
+      "localBodySha256": "f84f0a544818fe3ba84b1f1f2c978f470726e53912824330ee5377b3b6681427",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 8,
+          "text": "第二十一章简单再生产",
+          "status": "fixed_internal_headings",
+          "sourceHtml": [
+            "<p class=\"title1\">第二十一章 简单再生产</p>"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-b2eeb64ece7d",
+      "title": "共产主义运动中的「左派」幼稚病",
+      "chapterId": "chapter-015-1b23ad060e",
+      "chapterTitle": "怀恩科普的来信",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+      "sourceRawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/192004/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:51.945658+00:00",
+        "rawSha256": "891b19031d9f94c2e13ea7e0ab30a234c6a80b06d1cd3d3e70a92ea706f92c76",
+        "bytes": 1932
+      },
+      "localBodySha256": "d7843af7577a4532d9a6bfcd9b23b69e8e53ad14545556262f2980ffba3c9340",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 4,
+          "text": "怀恩科普的来信",
+          "status": "fixed_internal_headings",
+          "sourceHtml": [
+            "<p class=\"title1\">怀恩科普的来信</p>"
+          ]
+        },
+        {
+          "text": "戴・怀恩科普",
+          "status": "fixed_source_signature_and_date",
+          "sourceHtml": "<p align=\"right\"><b>戴・怀恩科普</b><br/>\r\n1920年6月30日于莫斯科 </p>"
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-e59d5ea41776",
+      "title": "列宁论普列汉诺夫",
+      "chapterId": "chapter-001-e59d5ea417",
+      "chapterTitle": "列宁论普列汉诺夫",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-talkaboutplekhanov.htm",
+      "sourceRawSha256": "0fbb79790b44cb5a533b743befeedf9be473186a075b9d4716168cf619312435",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-talkaboutplekhanov.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-talkaboutplekhanov.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:52.338452+00:00",
+        "rawSha256": "0fbb79790b44cb5a533b743befeedf9be473186a075b9d4716168cf619312435",
+        "bytes": 8157
+      },
+      "localBodySha256": "8ad0a48a116f63f92e11d322e7e074c1bcb12ed46fd1999f6754e17639490cd5",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 32,
+          "text": "来源：《党史研究资料》（内部刊物）第一集P1-P7。中国革命博物馆党史研究室编。（1982年，成都，四川人民出版社出版）",
+          "status": "reviewed_standalone_source_credit_filtered",
+          "sourceHtml": [
+            "<p align=\"right\">来源：《党史研究资料》（内部刊物）第一集P1-P7。中国革命博物馆党史研究室编。（1982年，成都，四川人民出版社出版）</p>"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-6523f0586337",
+      "title": "共产党宣言",
+      "chapterId": "chapter-001-6523f05863",
+      "chapterTitle": "共产党宣言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "sourceRawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:53.402691+00:00",
+        "rawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+        "bytes": 138477
+      },
+      "localBodySha256": "6dcb0b2554b44368ceb8ff5014d1cf0e63d19dbabd040126e10563387ed2e715",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 18,
+          "text": "中文马克思主义文库2022年11月更新。",
+          "status": "reviewed_site_update_filtered",
+          "sourceHtml": []
+        },
+        {
+          "sourceLineIndex": 122,
+          "text": "共产党宣言",
+          "status": "fixed_internal_headings",
+          "sourceHtml": [
+            "<p class=\"title0\">共产党宣言</p>",
+            "<p class=\"title1\">共产党宣言</p>"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-aa2c432713a7",
+      "title": "法兰西内战",
+      "chapterId": "chapter-001-aa2c432713",
+      "chapterTitle": "法兰西内战",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+      "sourceRawSha256": "50dd99fa706d932551385c5f0e95fcb90bf7a41da0f8bb5a4df510b64034f789",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:54.210014+00:00",
+        "rawSha256": "50dd99fa706d932551385c5f0e95fcb90bf7a41da0f8bb5a4df510b64034f789",
+        "bytes": 114774
+      },
+      "localBodySha256": "a6096e3ca64f2f1832ccad5e919764db61a0cd24e9ff388a1bcaf425f86eac42",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 80,
+          "text": "法兰西内战",
+          "status": "fixed_internal_headings",
+          "sourceHtml": [
+            "<p class=\"title0\">法兰西内战</p>",
+            "<p class=\"title1\">法兰西内战</p>"
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "title": "雇佣劳动与资本",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "chapterTitle": "雇佣劳动与资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "sourceRawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:45:54.693974+00:00",
+        "rawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+        "bytes": 56961
+      },
+      "localBodySha256": "d22fa066eb818b0015c3ccc4af7ebbfb172c13d7038f3e02251b36c8dfad3305",
+      "scope": "剩余上下文候选逐项独立DOM核查，原页正文与网页原注复核。",
+      "findings": [
+        {
+          "sourceLineIndex": 42,
+          "text": "雇佣劳动与资本",
+          "status": "fixed_internal_headings",
+          "sourceHtml": [
+            "<p class=\"title1\">雇佣劳动与资本</p>",
+            "<p class=\"title1\">雇佣劳动与资本</p>"
+          ]
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 31,
+    "idempotent": true
+  }
+}

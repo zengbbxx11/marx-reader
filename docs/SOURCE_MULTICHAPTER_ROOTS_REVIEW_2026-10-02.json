@@ -1,0 +1,1407 @@
+{
+  "date": "2026-10-02",
+  "scope": "三部多章作品的22个新鲜章页：德国农民战争、社会主义从空想到科学的发展、德国维护帝国宪法的运动。核查本批41个TITLE／根标题／独立导航候选，源正文及原注另行比较；导言同名根标题抽取例外显式列明。",
+  "reviews": [
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-004-f4e26d3b6a",
+      "title": "德国农民战争",
+      "chapterTitle": "（二）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+      "sourceRawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:14.948268+00:00",
+        "rawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+        "bytes": 38495
+      },
+      "localBodySha256": "0b6b7f22d23848c24ede20f9f9372d9ecfa5ee7e2d15ede9d109c893b73c3d63",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-004-f4e26d3b6a",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（二）",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-f4e26d3b6a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "地方分权状态以及地方各省的独立地位，各省工商业彼此隔绝，交通条件的恶劣，都使得当时如此繁多的等级要归并成较大的集团几乎是不可能的。这种较大规模的归并是在宗教改革时期随着革命的、政治性的宗教思想之普遍传播才开始的。有些等级赞成这些思想，有些等级反对这些思想；所有这些等级把全民集结成（当然只是很费劲地而且勉强地）三大营垒，即天主教派或反动派，路德式的市民改良派，革命派。这次全民大分野并不彻底，而且在第一第二两大营垒中还有一部分成分相同，这是因为从中世纪沿袭下来的大多数正式的等级此时已处于溶解状态中；又因为地方分权状态暂时地使同样的等级在不同的地方走着完全相反的方向。我们在过去几年间还能在德意志见到这么多完全类似的事实，那末在16世纪更加复杂得多的关系中那些等级和阶级之间好象混淆不清的情形就更不稀奇了。",
+        "尽管有了最近时期的经验，可是以德意志思想看来，把中世纪送入坟墓的那些斗争仍只不过是激烈的神学上的争论。据我们的爱国的历史学家和聪明的政治家们看来，只要那个时代的人能够对天国事物取得一致的认识，他们就毫无理由去为人间的事物争吵了。这些思想家们习于轻信，他们总是把某一个时代对本时代的一切幻想信以为真，或者把某一个时代的思想家们对那个时代的一切幻想信以为真。正是这一班人把1789年革命看成只不过是君主立宪制度优于君主专制制度问题的狂热辩论，把七月革命看成只是“神授”君权无法继续的实际争执，把二月革命看成只是要解决“共和制乎？君主制乎？”问题的尝试，诸如此类，不一而足。其实在这许多次大震荡中，每一次都经过了阶级斗争的搏战，每一次都把斗争内容简明地以政治标语的形式写在旗帜上，可是对于这许多次阶级斗争，我们的思想家们甚至今天还莫名其妙哩，虽然关于这些问题不仅来自外国的消息在大谈特谈，而且从成千上万的国内无产者的愤怒的怨声也可听到的。"
+      ],
+      "nativeNoteCount": 20,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-004-f4e26d3b6a",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+          "sourceRawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+          "lineIndex": 2,
+          "text": "德国农民战争（二）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（二）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-004-f4e26d3b6a",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/02.htm",
+          "sourceRawSha256": "2074e8aaf0292df37e2e4810e68ce15f5db6d7f14f5f0a3056d025078627a95c",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-005-a18c6ba919",
+      "title": "德国农民战争",
+      "chapterTitle": "（三）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+      "sourceRawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:15.412013+00:00",
+        "rawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+        "bytes": 24026
+      },
+      "localBodySha256": "09284ea4d10cdfd3456f513da38bc6fe74a873526b78ce21061ad16a97cae8f2",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-005-a18c6ba919",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（三）",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-a18c6ba919",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "胡斯运动被镇压下去以后约50年，处于萌芽状态的革命精神的最初征象就在德国农民间显露出来了［注：我们在自己的大事纪里都是沿用齐美尔曼的材料，一则由于我们缺乏国外的充分资料不能不完全依靠他的材料，再则这些材料也能完全满足本著作的要求。――恩格斯原注］。",
+        "1476年在维尔茨堡主教辖区已有了最初的农民密谋活动，这是一块经过胡斯战争，“暴政、苛捐、杂税、争斗、敌视、战争、烧杀、逮捕等等”早已弄得一贫如洗，而又继续遭受主教、僧侣、贵族无耻搜刮的地区。一个年轻的牧人兼乐师，尼克拉斯豪森的汉斯・贝海姆，又叫吹鼓手汉斯，忽然以预言者的身分出现于陶伯尔。他说圣母马利亚曾在他面前显圣；圣母叫他把鼓烧掉，不要再为跳舞和邪恶的狂欢奏乐，而要劝告人民忏悔。所以每人都应戒除罪过，戒除尘世虚浮欲念，抛弃一切浮华虚饰，到尼克拉斯豪森去朝拜圣母，以求赦罪。"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-005-a18c6ba919",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+          "sourceRawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+          "lineIndex": 2,
+          "text": "德国农民战争（三）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（三）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-005-a18c6ba919",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/03.htm",
+          "sourceRawSha256": "b93efb840557f142aacb4b36a6e4734e7ca1b7f57a02e0f12ea9e1ebcf28b0bb",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-006-895265cde2",
+      "title": "德国农民战争",
+      "chapterTitle": "（四）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+      "sourceRawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:16.245987+00:00",
+        "rawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+        "bytes": 8561
+      },
+      "localBodySha256": "5df90f6fee2abf4c0e006e7b8db7ac6cc881b9c652adf44c3e1d89246ef8d49d",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-006-895265cde2",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（四）",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-895265cde2",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "正当第四次“鞋会”密谋活动在黑森林遭到镇压的时候，路德在维登堡发出了席卷一切等级并震撼整个帝国的运动的信号。这个图林根的奥古斯丁派[236]提出的论纲就象火花落入火药桶一样，起了点火的作用。骑士，市民，农民，平民，觊觎主权的诸侯，下级僧侣，隐蔽的神秘派，文学界反对派的博学的布尔勒斯加诙谐作家[237]，各有图谋，纵横交错，但是路德的论纲一时却成了他们的共同语言，这个共同语言以出人意料的速度把他们团结起来了。这一切反对派分子仓猝形成的联盟虽然没有维持多久，但却突然一下把运动的惊人力量展示出来，而且把运动飞速推向前进。",
+        "但是正由于运动发展得这样迅速，运动中包藏着的分裂的萌芽也就不能不很快地发展起来，至少在被激发起来的群众中间由于整个生活地位而直接对立的成分不能不重新回到平常彼此敌对的状态。早在宗教改革的最初几年，各色各样的反对派群众就已经围绕着两个中心向两极分化了；贵族和市民无条件地团结在路德周围；农民和平民还没有看出路德是自己直接的敌人，但也和从前一样形成一个单独的革命的反对派。不过运动在此时已比路德出场以前要普遍得多，深入得多，因而必然引起两个党派之间的尖锐对抗和直接冲突。这种直接对抗很快就表面化了。路德和闵采尔在书刊上和讲坛上展开了斗争；而诸侯、骑士和城市的军队（绝大部分是由路德派或至少是倾向路德的分子组成的），则击溃了农民和平民的队伍。"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-006-895265cde2",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+          "sourceRawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+          "lineIndex": 2,
+          "text": "德国农民战争（四）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（四）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-006-895265cde2",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/04.htm",
+          "sourceRawSha256": "1b0910ddd41e195d544942d6ec4b0d13c4d2012c724122d6bc81de4f2b151822",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-007-afcc83fb51",
+      "title": "德国农民战争",
+      "chapterTitle": "（五）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+      "sourceRawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:16.813148+00:00",
+        "rawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+        "bytes": 43312
+      },
+      "localBodySha256": "f604f03b41531f252b2c164b826774d886a6599bd5eba08b397779b7640c17fe",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-007-afcc83fb51",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（五）",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-afcc83fb51",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "自从路德对天主教会等级制度宣战，把德国一切反对派分子都发动起来的时刻起，没有一年农民不起来照样重提自己的要求。从1518到1523年在黑森林和士瓦本北部，地方性的农民起义接踵而起。自从1524年春天以后，这些起义都带有系统性了。这一年4月马赫塔尔修道院的农民拒绝徭役和贡赋；5月圣布拉济延农民拒绝履行农奴义务；6月梅明根附近的施泰茵海姆农民宣告不愿缴纳什一税以及其他赋税；7月和8月图尔郜农民起义，但是一则由于苏黎世人的调停，再则由于瑞士当局处决了很多人，进行残酷镇压，起义又被平息下去。最后在伯爵领地施图林根爆发了一次更为坚决的起义，这次起义简直就可算作农民战争的开始。",
+        "施图林根农民突然拒绝向伯爵缴纳贡赋，集合成强大队伍并在布尔根巴赫的汉斯・弥勒统率下于1524年8月24日开往瓦尔茨胡特。他们在此和市民联合创立了一个新教兄弟会。这些市民所以很愿意促成此种联合，是因为他们当时正在反对奥地利边区政府[239]对他们的牧师巴尔塔扎尔・胡布马伊埃进行宗教迫害，此人乃是托马斯・闵采尔的友人兼弟子。这个同盟组织规定每星期要收3个克里泽的盟捐，就当时币值论是巨大的数目，还派遣密使到亚尔萨斯，摩塞尔，整个莱茵河上游以及法兰克尼亚去到处吸收农民入盟，宣告同盟的目标是要消除封建统治，破坏所有城堡寺院，消灭除皇帝一人而外的一切统治者。盟旗是德意志三色旗。"
+      ],
+      "nativeNoteCount": 12,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-007-afcc83fb51",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+          "sourceRawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+          "lineIndex": 2,
+          "text": "德国农民战争（五）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（五）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-007-afcc83fb51",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/05.htm",
+          "sourceRawSha256": "07f6879d1128226f8bdf9b56705a6320e37c73b60b26b9f428a026f5a027f8ce",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-008-55ac668045",
+      "title": "德国农民战争",
+      "chapterTitle": "（六）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+      "sourceRawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:17.342600+00:00",
+        "rawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+        "bytes": 16517
+      },
+      "localBodySha256": "c959c1a78c4cc014d5a223beef3fa701ea3b9f0e6431e72b8803a0e290e60b41",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-008-55ac668045",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（六）",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-55ac668045",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "正当士瓦本爆发第一批运动的时候，托马斯・闵采尔又赶回图林根，并且自2月底或3月初起即定居于帝国自由市缪尔豪森，此城是他的党的力量最强的地方。他成了整个运动的牵线人；他深知在德国南部即将普遍暴发风暴，他就着手把图林根变成德国北部运动的中心。他找到的是一块大有可为的地盘。图林根是宗教改革运动的策源地，此地本身群情已经激昂万分了；不仅流行的革命的宗教政治理论，而且还有被压迫农民物质上的缺乏，也都把邻近各邦，黑森，萨克森和哈茨地区的总起义的条件准备成熟了。尤其是在缪尔豪森，整个小市民阶级群众都已被争取到极端的闵采尔路线这一边来，并且迫不及待地期待着凭他们在人数方面的优势去和作威作福的名门望族较量高低的时机赶快到来。闵采尔为了避免在适当时机到来以前操之过急，不得不亲自出面劝告大家忍耐一下；然而在此领导运动的他的学生普法伊费尔，却已蛮干起来，将局面弄到这样的地步，以致不能按兵不动，而于1525年3月17日，即还在德国南部总起义之前，缪尔豪森就已发生革命了。原有的城市贵族议会被推翻了，政权转入新选出来的“永久议会”手中，永久议会的主席就是闵采尔[251]。",
+        "这是一个极端党派的领袖所难于应付的最糟的事情了。如果这样一个领袖在自己所代表的阶级进行统治的时机还未成熟，为了这个阶级统治必需贯彻一些措施的时机还未成熟，而这个领袖在这种时期中被迫出来掌握政权，这是最糟不过的事了。他所能做的事，并不取决于他的意志，而是取决于不同阶级的矛盾尖锐化的程度，取决于历来决定着阶级对立的发展程度的物质生活条件、生产条件和交换条件的发展程度。他所应做的事，他自己的党要求于他的事，又不取决于他，但也不取决于阶级斗争及其条件的发展程度；他为他一向鼓吹的理论和要求束缚住了，这些理论和要求又不是从当时社会各阶级之间的地位得出来的，也不是从当时生产条件和交换条件的或多或少是偶然的水平中得出来的，而是从他对于社会政治运动的总趋势的几分远见中得出来的。于是他就不可免地陷入一种无可救药的进退维谷之境：他所能做的事，是和他一向的整个主张、他的原则、他的党的直接利益不相容的；他所应做的事，则是无法实行的。总而言之，他是被迫而不代表自己的党，自己的阶级，却去代表当时运动使其统治条件已成熟的那一阶级。他不得不为运动本身的利益而保护异己阶级的利益，他不得不以一些空话、诺言来应付自己的阶级，硬说那个异己阶级的利益就是自己的利益。任何人陷入这样的苦境，都是无可救药，注定要失败的。在现代我们还经历过同样的事例；我们只须回想一下无产阶级代表们[252]在最近法国临时政府中所处的地位即可了然，他们本身虽然还只代表着无产阶级发展的最低阶段。谁根据二月政府的经验――不谈我们的高贵的德国临时政府和帝国摄政[253]――还能贪图官方地位，就必然或者是格外地愚蠢，或者至多是口头上的极端革命派罢了。"
+      ],
+      "nativeNoteCount": 6,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-008-55ac668045",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+          "sourceRawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+          "lineIndex": 2,
+          "text": "德国农民战争（六）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（六）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-008-55ac668045",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/06.htm",
+          "sourceRawSha256": "556bc747a6ea179257d8b9b444e3a65a2c23a35402a35b531b96e9d32b041adc",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-009-7fa82b5d9d",
+      "title": "德国农民战争",
+      "chapterTitle": "（七）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+      "sourceRawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:17.591115+00:00",
+        "rawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+        "bytes": 8331
+      },
+      "localBodySha256": "9f18ca785cab03a99304dda4c31c9810f67226a6fdf98150752c0cd9ad6d7038",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-009-7fa82b5d9d",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（七）",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-7fa82b5d9d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "盖斯迈尔退到威尼斯地区以后，农民战争的最后一幕就告结束了。各处农民重新陷入他们的教会领主、贵族领主或城市贵族领主的奴役之中；各处和农民缔结的协定都被撕毁，胜利者对战败者极尽掠夺搜刮之能事，因而使一向承当的负担更加重了。德国人民进行的最伟大的革命尝试，以忍辱失败而告终了，而且暂时还使压迫倍增。然而从长远看来，使农民阶级处境更加恶化的还不能说是起义被镇压下去这件事。凡是贵族，诸侯，僧侣们能够年复一年地从农民身上榨取到的东西，在战前就都已榨取到了；当时德国农民从自己的劳动产品中所能得到的份额，仅限于维持自己生存以及延续后代所必需的最低限度的一部分生活资料，这一点是和现代无产者相同的。所以一般说来农民身上再没有什么东西可以榨取的了。许多富裕中农自然是破产了，大量依附农沦为农奴，整片的公社地产被没收，大批农民由于家宅被毁，田园荒芜，饱经祸乱，流浪四方，或变为城市平民。但是战争和祸乱成为当时的家常便饭，农民阶级痛苦已深，而捐税还在增加，使他们的生活状况继续恶化。以后各次宗教战争以及连绵不断毁灭生命财产的三十年战争使农民遭受灾难之惨重远远超过农民战争；尤其是三十年战争把用于农业生产的最主要的一部分劳动力消灭了，同时又有许多城市被破坏了，因此，农民、贫民和破产市民都长期陷入最艰苦的爱尔兰的贫困境地。",
+        "遭受农民战争的打击最大的是僧侣。他们的寺院和教堂被焚毁了，他们的金银财宝被抢劫，不是卖给外国，就是被熔化了，他们的储备物资都耗尽了。在各处都是他们的抵抗力最小，而人民仇恨的怒火却是最集中地针对着他们。其他等级，即诸侯，贵族和市民阶级，甚至眼见众怒所指的高级僧侣处境困难而暗中称快。农民战争使教产还俗以利农民成为通俗的想法，世俗诸侯以及一些城市则极力设法使教产还俗按照对他们最有利的方式来进行，而在新教各邦中，高级僧侣的产业很快就转入诸侯或城市贵族手中。就是僧侣诸侯们的权势也已受到侵害，世俗诸侯们很善于在这方面去利用人民的仇恨。所以我们曾看到富尔德修道院长如何从黑森的菲力浦的采邑领主地位降为他的臣属的情况。所以肯普腾城竟强迫诸侯修道院长将他在此城享有的一系列重要特权廉价地卖给此城了。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-009-7fa82b5d9d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+          "sourceRawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+          "lineIndex": 2,
+          "text": "德国农民战争（七）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（七）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-009-7fa82b5d9d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+          "sourceRawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-009-7fa82b5d9d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/07.htm",
+          "sourceRawSha256": "b8ee7f087c6d39cd1b0fe8cf64009c0670cf42a2f1aca0a492f60f356314f110",
+          "lineIndex": 44,
+          "text": "上一篇　回目录",
+          "compactLength": 6,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"06.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a><br/><br/>\n<br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-001-ef01c4c9ae",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "（一）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+      "sourceRawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:18.264844+00:00",
+        "rawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+        "bytes": 30778
+      },
+      "localBodySha256": "724e42de9fc3f797642ed85ad1a9d06bd4c8705f3876813519b05d93f2ca071b",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-001-ef01c4c9ae",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "（一）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-ef01c4c9ae",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "社会主义从空想到科学的发展[114]",
+        "一"
+      ],
+      "nativeNoteCount": 22,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-001-ef01c4c9ae",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+          "sourceRawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+          "lineIndex": 2,
+          "text": "社会主义从空想到科学的发展（一）",
+          "compactLength": 16,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>社会主义从空想到科学的发展（一）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-001-ef01c4c9ae",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/01.htm",
+          "sourceRawSha256": "ec8d84abf2fccc61c923f62b881cfb437c5243a05d03198ffda1fbda8d731669",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-002-b33f6d2e7f",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "（二）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+      "sourceRawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:18.739238+00:00",
+        "rawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+        "bytes": 14642
+      },
+      "localBodySha256": "187e8b17def7d1e06ee0b416529f789ba525de98746617c5384368017d99e4d1",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-002-b33f6d2e7f",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "（二）",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-b33f6d2e7f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "社会主义从空想到科学的发展",
+        "二"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-002-b33f6d2e7f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+          "sourceRawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+          "lineIndex": 2,
+          "text": "社会主义从空想到科学的发展（二）",
+          "compactLength": 16,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>社会主义从空想到科学的发展（二）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-002-b33f6d2e7f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/02.htm",
+          "sourceRawSha256": "8160a568c9ddd50baee24e8c5c59215e4a8fd35161fb9c47e7f0c5c7f539d156",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-003-fe2db52546",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "（三）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+      "sourceRawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:19.155243+00:00",
+        "rawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+        "bytes": 33087
+      },
+      "localBodySha256": "b48057e1c99ecf028d492967d4bd4905bd9a4a02e36f9e8baa01bf0399b60d0b",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-003-fe2db52546",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "（三）",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-fe2db52546",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "社会主义从空想到科学的发展",
+        "三"
+      ],
+      "nativeNoteCount": 10,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-003-fe2db52546",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+          "sourceRawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+          "lineIndex": 2,
+          "text": "社会主义从空想到科学的发展（三）",
+          "compactLength": 16,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>社会主义从空想到科学的发展（三）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-003-fe2db52546",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/03.htm",
+          "sourceRawSha256": "bea03170f93887b06a16c507e6125f486a6dcc1badd654afa460655cede923c4",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-b38c0fca4321",
+      "chapterId": "chapter-001-e31fe387eb",
+      "title": "德国维护帝国宪法的运动",
+      "chapterTitle": "导言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/01.htm",
+      "sourceRawSha256": "0366e08aa2666c21d128b4644cc3d24fffb42a1a131fa768c2a832cbea196a06",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/184908-185002/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/184908-185002/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:19.472440+00:00",
+        "rawSha256": "0366e08aa2666c21d128b4644cc3d24fffb42a1a131fa768c2a832cbea196a06",
+        "bytes": 10124
+      },
+      "localBodySha256": "74d4ed96030c3164f9891e3f72cb63a8dd0aea91f3cc001751316c5aae7913c0",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-b38c0fca4321-chapter-chapter-001-e31fe387eb",
+          "parentId": "toc-engels-work-b38c0fca4321-root",
+          "title": "导言",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-e31fe387eb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "德国维护帝国宪法的运动",
+        "导言"
+      ],
+      "nativeNoteCount": 7,
+      "findings": [
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-001-e31fe387eb",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/01.htm",
+          "sourceRawSha256": "0366e08aa2666c21d128b4644cc3d24fffb42a1a131fa768c2a832cbea196a06",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国维护帝国宪法的运动》",
+          "compactLength": 29,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyComparisonException": {
+        "kind": "root_heading_filtered_by_same_title_extraction",
+        "sourceNodeHtml": [
+          "<h3 style=\"text-align: center\">导言</h3>"
+        ],
+        "localParagraphIndex": 1,
+        "localParagraph": "导言",
+        "reason": "源页导言标题真实存在，本地保留为旧段落；本轮以相同章节名抽取会略去根标题。其余源正文与本地逐字一致，不删除旧段落或更改其编号。"
+      },
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-b38c0fca4321",
+      "chapterId": "chapter-002-3b982540ca",
+      "title": "德国维护帝国宪法的运动",
+      "chapterTitle": "一 莱茵普鲁士",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+      "sourceRawSha256": "9a0a74145af39ecc7837cca90b649194f9d6647772f930fa2e4eac6c0b6290b8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:53.831132+00:00",
+        "rawSha256": "9a0a74145af39ecc7837cca90b649194f9d6647772f930fa2e4eac6c0b6290b8",
+        "bytes": 32627
+      },
+      "localBodySha256": "e9fd83fbc23f5cea47db58bfc1b45897885dfaebfc249be1e4c487afc36ea6ba",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-b38c0fca4321-chapter-chapter-002-3b982540ca",
+          "parentId": "toc-engels-work-b38c0fca4321-root",
+          "title": "一 莱茵普鲁士",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-3b982540ca",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "读者还记得，维护帝国宪法的武装起义是5月初首先在德勒斯顿爆发的[74]。大家知道，得到农村居民的支持但被莱比锡小市民出卖了的德勒斯顿街垒的战士们，经过6天的战斗之后，被敌人以优势兵力打败了。这里的战士不超过2500名，他们的武器是形形色色各种各样的，他们的炮兵只有两三尊不大的轻型臼炮。而王室军队除了萨克森的几个营以外，还有两个普鲁士团。他们拥有骑兵、炮兵、步枪手和一个针发枪营。在德勒斯顿，王室军队大概比在任何地方都表现得更为胆怯［注：由于书报检查的缘故，这里的《feig》（“胆怯”）一词曾改为《kläglicｈ》（“可怜”）以缓和语气。――编者注］；然而，同时无可怀疑的是，德勒斯顿的战士们在和这些优势敌人作战时要比维护帝国宪法运动期间的任何人都更勇敢。当然，巷战是与野战完全不同的。",
+        "在柏林，由于实行戒严和解除武装，到处都一直保持着宁静的气氛。甚至也不曾把铁路炸毁，以便在柏林城下就把普鲁士增援部队截住。布勒斯劳［注：波兰称为：弗罗茨拉夫。――编者注］那里曾企图发动街垒战，但政府对此早有戒备，因此，这个城市更是注定陷入军刀的专政之下。德国北部其余地区失去了革命中心，陷入了瘫痪状态。只有把希望寄托给莱茵普鲁士和德国南部；而在德国南部的普法尔茨此时也已经动了起来。"
+      ],
+      "nativeNoteCount": 7,
+      "findings": [
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-002-3b982540ca",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+          "sourceRawSha256": "9a0a74145af39ecc7837cca90b649194f9d6647772f930fa2e4eac6c0b6290b8",
+          "lineIndex": 2,
+          "text": "一　莱茵普鲁士",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一　莱茵普鲁士</title>",
+            "<p class=\"title1\">一　莱茵普鲁士</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-002-3b982540ca",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+          "sourceRawSha256": "9a0a74145af39ecc7837cca90b649194f9d6647772f930fa2e4eac6c0b6290b8",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国维护帝国宪法的运动》",
+          "compactLength": 29,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-002-3b982540ca",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/02.htm",
+          "sourceRawSha256": "9a0a74145af39ecc7837cca90b649194f9d6647772f930fa2e4eac6c0b6290b8",
+          "lineIndex": 7,
+          "text": "一　莱茵普鲁士",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一　莱茵普鲁士</title>",
+            "<p class=\"title1\">一　莱茵普鲁士</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-b38c0fca4321",
+      "chapterId": "chapter-003-4e1f2272a7",
+      "title": "德国维护帝国宪法的运动",
+      "chapterTitle": "二 卡尔斯卢厄",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+      "sourceRawSha256": "8ed77566ee62ee7d3827ebfa319bcdbdc308019d3ae844cded62f674c2456b00",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:54.132514+00:00",
+        "rawSha256": "8ed77566ee62ee7d3827ebfa319bcdbdc308019d3ae844cded62f674c2456b00",
+        "bytes": 25686
+      },
+      "localBodySha256": "c762878190a07ad36ecf0eaaaec19a4e879c021f0cc87fd2e9f6626bce8ce049",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-b38c0fca4321-chapter-chapter-003-4e1f2272a7",
+          "parentId": "toc-engels-work-b38c0fca4321-root",
+          "title": "二 卡尔斯卢厄",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-4e1f2272a7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "巴登的起义是在最有利的、只能进行暴动的条件下发动起来的。全体人民一致痛恨政府所进行的背信弃义、笑里藏刀、凶残狠毒的政治迫害。反动的阶级即贵族、官僚和大资产阶级是人数不多的阶级。在巴登，大资产阶级可以说才刚刚处于萌芽状态。除开这些人数不多的贵族、官吏和资产者，除开那些仰仗宫廷和外国富翁过活的卡尔斯卢厄和巴登－巴登的小铺老板，再除开海得尔堡的一些教授和卡尔斯卢厄郊区的几个村庄以外，整个这个地区都同心同德地站在运动的方面。在别的起义中都必须把军队打败，可是这里的军队却站在运动的最前列，甚至把运动进行得超过了奥芬堡会议[81]的资产阶级领导者们的愿望，因为这里的军队受贵族军官的欺压比任何其他地方都更厉害，其次，民主党派已经对他们进行了一年的教育工作，不久前又由于实行了一种普遍兵役制而使得军队里面的叛乱者更增多了。正是军队在拉施塔特和卡尔斯卢厄把“运动”变成了起义。",
+        "因此，武装起义的政府在一开始执行自己职务的时候，就得到了现成的军队、充足的军械库、组织完备的国家机器、充实的国库以及几乎是万众一心的居民。其次，这时正逢莱茵河左岸普法尔茨的起义已经展开，正好给自己的左翼作了掩护；在莱茵普鲁士，起义固然是受到了严重的威胁，但尚未彻底败北；在维尔腾堡、在法兰克尼亚、在黑森的两个公国和在拿骚，甚至连军队里面也都普遍地流露出昂然激奋之情，只要在这些军队里面点起星星之火，便可以使巴登的起义在整个德国南部和德国中部重演。这样就将会有不下于5―6万的正规军掌握到起义者的手里。"
+      ],
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-003-4e1f2272a7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+          "sourceRawSha256": "8ed77566ee62ee7d3827ebfa319bcdbdc308019d3ae844cded62f674c2456b00",
+          "lineIndex": 2,
+          "text": "二　卡尔斯卢厄",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二　卡尔斯卢厄</title>",
+            "<p class=\"title1\">二　卡尔斯卢厄</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-003-4e1f2272a7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+          "sourceRawSha256": "8ed77566ee62ee7d3827ebfa319bcdbdc308019d3ae844cded62f674c2456b00",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国维护帝国宪法的运动》",
+          "compactLength": 29,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-003-4e1f2272a7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/03.htm",
+          "sourceRawSha256": "8ed77566ee62ee7d3827ebfa319bcdbdc308019d3ae844cded62f674c2456b00",
+          "lineIndex": 7,
+          "text": "二　卡尔斯卢厄",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二　卡尔斯卢厄</title>",
+            "<p class=\"title1\">二　卡尔斯卢厄</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-b38c0fca4321",
+      "chapterId": "chapter-004-4863c44298",
+      "title": "德国维护帝国宪法的运动",
+      "chapterTitle": "三 普法尔茨",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+      "sourceRawSha256": "f94083d159c7f169be96f3eb73611ec0968765e8803febcf3066bd224c3f6434",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:55.076033+00:00",
+        "rawSha256": "f94083d159c7f169be96f3eb73611ec0968765e8803febcf3066bd224c3f6434",
+        "bytes": 30816
+      },
+      "localBodySha256": "77d0cfe13ea7183ef1271fb006d1a639bfe2d38b034cb7d092e8ec93dd6148a9",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-b38c0fca4321-chapter-chapter-004-4863c44298",
+          "parentId": "toc-engels-work-b38c0fca4321-root",
+          "title": "三 普法尔茨",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-4863c44298",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们从卡尔斯卢厄出发到普法尔茨去，首先到了本来是德斯特尔先生和临时政府的所在地斯拜尔。但在那时，他们已经迁到了凯则尔斯劳顿，政府认为这个地方是“普法尔茨战略上最好的据点”，因而使那里成为最终的政府所在地。到了斯拜尔，我们没有见到他们，却见到了维利希和他的志愿兵。他和一支几百人的部队使得兰都和盖尔曼尔斯海姆这两个要塞的4000多人的警备队处在紧张状态之中，切断了他们的供应，并千方百计地使得他们坐卧不安。在我们到达的那一天，他带领80名左右的步枪手攻打了盖尔曼尔斯海姆警备队的两个连，一枪没放就把他们赶回了要塞。第二天早晨，我们和维利希一齐出发到了凯则尔斯劳顿，在那里我们找到了德斯特尔、临时政府和整个德国民主派的精华。在这里，当然也谈不上什么正式参加对于我们党是完全陌生的这个运动。因此，过了几天，我们就回到了宾根；在路上我们和几个朋友因为有参加起义的嫌疑而被黑森的士兵逮捕；我们被押解到达姆斯塔德，而后被送往法兰克福，到了法兰克福才终于被释放。",
+        "在这以后不久，我们便离开了宾根，马克思受了民主主义者中央委员会[89]的委托前往将要发生决定性事件的巴黎；他应当代表德国的革命政党去会见法国的社会民主主义者[90]。而我则返回凯则尔斯劳顿，想留在那里最初作一个普通的政治流亡者，以后如果有适当的时机和爆发了战争的话，或许在这个运动中占居“新莱茵报”唯一能占居的地位——士兵的地位。"
+      ],
+      "nativeNoteCount": 11,
+      "findings": [
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-004-4863c44298",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+          "sourceRawSha256": "f94083d159c7f169be96f3eb73611ec0968765e8803febcf3066bd224c3f6434",
+          "lineIndex": 2,
+          "text": "三　普法尔茨",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三　普法尔茨</title>",
+            "<p class=\"title1\">三　普法尔茨</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-004-4863c44298",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+          "sourceRawSha256": "f94083d159c7f169be96f3eb73611ec0968765e8803febcf3066bd224c3f6434",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国维护帝国宪法的运动》",
+          "compactLength": 29,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-004-4863c44298",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/04.htm",
+          "sourceRawSha256": "f94083d159c7f169be96f3eb73611ec0968765e8803febcf3066bd224c3f6434",
+          "lineIndex": 7,
+          "text": "三　普法尔茨",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三　普法尔茨</title>",
+            "<p class=\"title1\">三　普法尔茨</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-b38c0fca4321",
+      "chapterId": "chapter-005-20810b8ea0",
+      "title": "德国维护帝国宪法的运动",
+      "chapterTitle": "四 为共和国捐躯！",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+      "sourceRawSha256": "b1e58b449fecdf5146eeb0950ce5c7cd7d7552c10f53480594912f368fc36f99",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:55.902805+00:00",
+        "rawSha256": "b1e58b449fecdf5146eeb0950ce5c7cd7d7552c10f53480594912f368fc36f99",
+        "bytes": 67825
+      },
+      "localBodySha256": "cb73df4fc19751e6be1027183da1a78d0fdc3d875800ae10658d063dcfc7a61c",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-b38c0fca4321-chapter-chapter-005-20810b8ea0",
+          "parentId": "toc-engels-work-b38c0fca4321-root",
+          "title": "四 为共和国捐躯！",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-20810b8ea0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“为了德意志共和国的繁荣，",
+        "必须把那36个王座推翻；"
+      ],
+      "nativeNoteCount": 12,
+      "findings": [
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-005-20810b8ea0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+          "sourceRawSha256": "b1e58b449fecdf5146eeb0950ce5c7cd7d7552c10f53480594912f368fc36f99",
+          "lineIndex": 2,
+          "text": "四　为共和国捐躯！",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四　为共和国捐躯！</title>",
+            "<p class=\"title1\">四　为共和国捐躯！</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-005-20810b8ea0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+          "sourceRawSha256": "b1e58b449fecdf5146eeb0950ce5c7cd7d7552c10f53480594912f368fc36f99",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国维护帝国宪法的运动》",
+          "compactLength": 29,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-b38c0fca4321",
+          "chapterId": "chapter-005-20810b8ea0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/184908-185002/05.htm",
+          "sourceRawSha256": "b1e58b449fecdf5146eeb0950ce5c7cd7d7552c10f53480594912f368fc36f99",
+          "lineIndex": 7,
+          "text": "四　为共和国捐躯！",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四　为共和国捐躯！</title>",
+            "<p class=\"title1\">四　为共和国捐躯！</p>"
+          ],
+          "reason": "源P为title1章根标题，与现有章节栏和章目录完全对应，不是缺失的内文章标题。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-001-ab486c2870",
+      "title": "德国农民战争",
+      "chapterTitle": "第二版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/0a.htm",
+      "sourceRawSha256": "3cb9ddebd02d9061272f8942d5c1381ca8e4fe8ee99e16d5ea294cdbf4d406c3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/0a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/0a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:56.388782+00:00",
+        "rawSha256": "3cb9ddebd02d9061272f8942d5c1381ca8e4fe8ee99e16d5ea294cdbf4d406c3",
+        "bytes": 17374
+      },
+      "localBodySha256": "d2b464b1a44025e067ef459b4ae358b177b53f94b811c95039e1df2ad94947fd",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-001-ab486c2870",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "第二版序言",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-ab486c2870",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗·恩格斯“德国农民战争”第二版序言[342]",
+        "这部著作是1850年夏天当刚刚完成的反革命还留着直接印象的时候在伦敦写成的；它发表于1850年由卡·马克思主编在汉堡出版的“新莱茵报。政治经济评论”杂志第5期和第6期上。我的在德国的一些政治友人要求我把它再版，于是我便来满足他们的愿望，因为可惜的是，这部著作至今还没有失去它的现实意义。"
+      ],
+      "nativeNoteCount": 11,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-001-ab486c2870",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/0a.htm",
+          "sourceRawSha256": "3cb9ddebd02d9061272f8942d5c1381ca8e4fe8ee99e16d5ea294cdbf4d406c3",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-002-497e6ff5f8",
+      "title": "德国农民战争",
+      "chapterTitle": "一八七○年版序言的补充",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/0b.htm",
+      "sourceRawSha256": "846539f13e4262bc1374cf6d989c75ce443ae72569dc699bf7025f118e413b62",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/0b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/0b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:56.670568+00:00",
+        "rawSha256": "846539f13e4262bc1374cf6d989c75ce443ae72569dc699bf7025f118e413b62",
+        "bytes": 13483
+      },
+      "localBodySha256": "787e3e677ec8f6a848ce59890bc6d797c8d7f3e973da232d43820b436815c222",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-002-497e6ff5f8",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "一八七○年版序言的补充",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-497e6ff5f8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯“德国农民战争”一八七○年版序言的补充[417]",
+        "上面那一部分是四年多以前写成的。它直到现在还具有意义。在萨多瓦会战及德国分裂后是正确的东西，在色当会战及普鲁士民族的神圣德意志帝国[418]建立以后又得到了证实。可见，所谓伟大政策造成的“震撼世界的”重大国家事件，并不能使历史运动的方向发生什么变化。"
+      ],
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-002-497e6ff5f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/0b.htm",
+          "sourceRawSha256": "846539f13e4262bc1374cf6d989c75ce443ae72569dc699bf7025f118e413b62",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-36682211ce5c",
+      "chapterId": "chapter-003-5245af8105",
+      "title": "德国农民战争",
+      "chapterTitle": "（一）",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1850/01.htm",
+      "sourceRawSha256": "2a42eac4cf086ff0c7adada58555e02bb45da0adcaeb99320bc42c423a4276f8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1850/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1850/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:57.019525+00:00",
+        "rawSha256": "2a42eac4cf086ff0c7adada58555e02bb45da0adcaeb99320bc42c423a4276f8",
+        "bytes": 23506
+      },
+      "localBodySha256": "d1fcdec61440f383f92aedaebd8626b98b8e2da2a28475217c75456881af6dba",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-36682211ce5c-chapter-chapter-003-5245af8105",
+          "parentId": "toc-engels-work-36682211ce5c-root",
+          "title": "（一）",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-5245af8105",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "德国农民战争[204]",
+        "德意志民族也有自己的革命传统。在历史上德国也曾出过能和他国最优秀的革命人物媲美的人才。在历史上德意志民族也曾表现过坚韧不拔的精神，如果是在一个中央集权化了的国家，说不定会创造出多么伟大的成果。在历史上德国农民和平民所怀抱的理想和计划，常常使他们的后代为之惊惧。"
+      ],
+      "nativeNoteCount": 7,
+      "findings": [
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-003-5245af8105",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/01.htm",
+          "sourceRawSha256": "2a42eac4cf086ff0c7adada58555e02bb45da0adcaeb99320bc42c423a4276f8",
+          "lineIndex": 2,
+          "text": "德国农民战争（一）",
+          "compactLength": 9,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>德国农民战争（一）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-36682211ce5c",
+          "chapterId": "chapter-003-5245af8105",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1850/01.htm",
+          "sourceRawSha256": "2a42eac4cf086ff0c7adada58555e02bb45da0adcaeb99320bc42c423a4276f8",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国农民战争》",
+          "compactLength": 24,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-004-9875bfacdd",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "1880年法文版导言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/04.htm",
+      "sourceRawSha256": "2edb1abeecb8c802cebd2552318e996425e53d938acd366a9968441244578e99",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:57.545229+00:00",
+        "rawSha256": "2edb1abeecb8c802cebd2552318e996425e53d938acd366a9968441244578e99",
+        "bytes": 6971
+      },
+      "localBodySha256": "25b591f648a5175ecba659f0002de211dc1ab8f4e853d235277fbe3075d33a7d",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-004-9875bfacdd",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "1880年法文版导言",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-9875bfacdd",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "卡・马克思*弗・恩格斯的小册子“社会主义从空想到科学的发展”法文版导言[155]",
+        "这本小册子中所包含的几页早先曾作为三篇论文发表在“社会主义评论”[156]上，它们是从恩格斯最近的著作“科学中的变革”[157]中抽出来译成法文的［注：在保・拉法格出版的“社会主义从空想到科学的发展”一书导言的正文中还做了如下的补充：“它们经作者校阅过，而且作者为了使资本主义生产的经济力量的辩证运动更容易为法国读者所理解，还在第三部分做了一些补充。”――编者注］。"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-004-9875bfacdd",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/04.htm",
+          "sourceRawSha256": "2edb1abeecb8c802cebd2552318e996425e53d938acd366a9968441244578e99",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-005-fada1622f3",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "1882年德文本初版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/05.htm",
+      "sourceRawSha256": "750ad17ace7c825ecc511aba6b89b45dc41621367db7aef490f23f5c2eb20d43",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:57.835959+00:00",
+        "rawSha256": "750ad17ace7c825ecc511aba6b89b45dc41621367db7aef490f23f5c2eb20d43",
+        "bytes": 5924
+      },
+      "localBodySha256": "c8c764618a717d7c24a8d8f68f73c0af89538c8746142c0b2c12c384ddda12b2",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-005-fada1622f3",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "1882年德文本初版序言",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-fada1622f3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“社会主义从空想到科学的发展”德文本初版序言",
+        "这本小册子来自1878年在莱比锡出版的我的著作“欧根・杜林先生在科学中实行的变革”一书中的三章。我为我的朋友保尔・拉法格把这三章汇集在一起交给他译成法文，并增加了若干比较详细的说明。经我校阅过的法译文最初发表在“社会主义评论”上，后来于1880年在巴黎印成单行本出版，书名为“空想社会主义和科学社会主义”[206]。根据法译文翻译的波兰文本于1882年在日内瓦“黎明”印刷所出版，书名为“空想的和科学的社会主义”[207]。"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-005-fada1622f3",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/05.htm",
+          "sourceRawSha256": "750ad17ace7c825ecc511aba6b89b45dc41621367db7aef490f23f5c2eb20d43",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-006-97115a6936",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "1891年德文第四版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/06.htm",
+      "sourceRawSha256": "4f4766d1365a35c7ca3b28caa33a345ead74a84d1196d8081ac9808c2b270d4f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:58.160650+00:00",
+        "rawSha256": "4f4766d1365a35c7ca3b28caa33a345ead74a84d1196d8081ac9808c2b270d4f",
+        "bytes": 4450
+      },
+      "localBodySha256": "81313a9c185f0b8a75c46b091ed9227b956619156964ccb89801ab57c9db1408",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-006-97115a6936",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "1891年德文第四版序言",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-97115a6936",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“社会主义从空想到科学的发展”德文第四版序言[210]",
+        "我曾经预料，这一著作对我们的德国工人来说困难是不多的，现在这个预料已被证实。至少从1883年3月第一版问世以来已经印行了三版，总数达一万册，而且这是在已经升天的反社会党人法的统治下的事情，――同时，这也是一个新的例证，证明警察的禁令在像现代无产阶级的运动这样的运动面前是多么软弱无力。"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-006-97115a6936",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/06.htm",
+          "sourceRawSha256": "4f4766d1365a35c7ca3b28caa33a345ead74a84d1196d8081ac9808c2b270d4f",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-007-e8192768f4",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "1892年英文版导言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/07.htm",
+      "sourceRawSha256": "ea0169e18af70935488ab34e39472799126a0c15f140d3073b0bc991fee1537f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:58.729896+00:00",
+        "rawSha256": "ea0169e18af70935488ab34e39472799126a0c15f140d3073b0bc991fee1537f",
+        "bytes": 52807
+      },
+      "localBodySha256": "7373b0206037edb85407c670fbd40c2be1bb69a0fd5adde6f4f226e1ca19a927",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-007-e8192768f4",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "1892年英文版导言",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-e8192768f4",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“社会主义从空想到科学的发展”英文版导言[286]",
+        "这本小册子本来是一个更大的整体的一部分。大约在1875年，柏林大学副教授欧·杜林博士突然大叫大嚷地宣布他改信社会主义，他不仅向德国公众提出了一套详尽的社会主义理论，而且还提出了一个改造社会的完备的实践计划。自然，他与他的前辈发生了冲突；首先，他将满腹怒气发泄在马克思身上。"
+      ],
+      "nativeNoteCount": 35,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-007-e8192768f4",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/07.htm",
+          "sourceRawSha256": "ea0169e18af70935488ab34e39472799126a0c15f140d3073b0bc991fee1537f",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-e40a3854850f",
+      "chapterId": "chapter-008-0d277ac073",
+      "title": "社会主义从空想到科学的发展",
+      "chapterTitle": "对《反杜林论》正文的补充和修改",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1880/08.htm",
+      "sourceRawSha256": "1a55fb2dac4914c11aabbf8eeffbdd9ecd0a33c2e51aac43565c3da7a8c52352",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1880/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1880/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:33:59.221055+00:00",
+        "rawSha256": "1a55fb2dac4914c11aabbf8eeffbdd9ecd0a33c2e51aac43565c3da7a8c52352",
+        "bytes": 22372
+      },
+      "localBodySha256": "00cc9dfc4e579d388c7d63a4f0d9412f8e3ca50d9530e69c3226363287d637a3",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-e40a3854850f-chapter-chapter-008-0d277ac073",
+          "parentId": "toc-engels-work-e40a3854850f-root",
+          "title": "对《反杜林论》正文的补充和修改",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-0d277ac073",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "恩格斯在《社会主义从空想到科学的发展》这本小册子中对《反杜林论》正文所作的补充和修改[538]",
+        "《引论》第一章"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "engels-work-e40a3854850f",
+          "chapterId": "chapter-008-0d277ac073",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1880/08.htm",
+          "sourceRawSha256": "1a55fb2dac4914c11aabbf8eeffbdd9ecd0a33c2e51aac43565c3da7a8c52352",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《社会主义从空想到科学的发展》",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 22,
+    "candidatesReviewed": 41,
+    "newRepairs": 0,
+    "articleAssetsAndAnnotationsUnchanged": true
+  }
+}

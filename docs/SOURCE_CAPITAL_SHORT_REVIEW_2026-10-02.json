@@ -1,0 +1,2364 @@
+{
+  "date": "2026-10-02",
+  "scope": "剩余67个资本论短行逐项核查；41个新鲜章页及第三卷源站总目录。未发现新的正文／目录缺失。",
+  "reviews": [
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-001-ffa9f45ac8",
+      "title": "资本论·第一卷",
+      "chapterTitle": "序言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+      "sourceRawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:40.779706+00:00",
+        "rawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+        "bytes": 56250
+      },
+      "localBodySha256": "7002a17838ad180d26ceff3cee0f459a29fd8d0ac0b69ddca69185cabfe59c51",
+      "nativeNoteCount": 33,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "·第一版序言（卡尔·马克思，1867年7月25日）",
+          "sourceLineIndex": 2,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1\">第一版序言（卡尔·马克思，1867年7月25日）</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">第一版序言<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\"><sup><font size=\"3\">[1]</font></sup></a></h3>",
+          "localSection": {
+            "id": "section-001-2db0ad28",
+            "title": "第一版序言 [1]",
+            "level": 2,
+            "paragraphIndex": 1
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-001-2db0ad28",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "第一版序言 [1]",
+            "type": "SECTION",
+            "order": 0,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 1,
+            "counterpartKey": "chapter-1-section-1",
+            "level": 2
+          },
+          "localParagraph": "第一版序言 [1]"
+        },
+        {
+          "text": "·第二版跋（卡尔·马克思，1873年1月24日）",
+          "sourceLineIndex": 3,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#2\">第二版跋　（卡尔·马克思，1873年1月24日）</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">第二版跋</h3>",
+          "localSection": {
+            "id": "section-002-90f4ec3b",
+            "title": "第二版跋",
+            "level": 2,
+            "paragraphIndex": 17
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-002-90f4ec3b",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "第二版跋",
+            "type": "SECTION",
+            "order": 1,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 17,
+            "counterpartKey": "chapter-1-section-2",
+            "level": 2
+          },
+          "localParagraph": "第二版跋"
+        },
+        {
+          "text": "·法文版序言（卡尔·马克思，1872年3月18日）",
+          "sourceLineIndex": 4,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#3\">法文版序言（卡尔·马克思，1872年3月18日）</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">法文版序言</h3>",
+          "localSection": {
+            "id": "section-003-0ee37a4e",
+            "title": "法文版序言",
+            "level": 2,
+            "paragraphIndex": 50
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-003-0ee37a4e",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "法文版序言",
+            "type": "SECTION",
+            "order": 2,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 50,
+            "counterpartKey": "chapter-1-section-3",
+            "level": 2
+          },
+          "localParagraph": "法文版序言"
+        },
+        {
+          "text": "·法文版跋（卡尔·马克思，1875年4月28日）",
+          "sourceLineIndex": 5,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#4\">法文版跋　（卡尔·马克思，1875年4月28日）</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">法文版跋</h3>",
+          "localSection": {
+            "id": "section-004-c149a9af",
+            "title": "法文版跋",
+            "level": 2,
+            "paragraphIndex": 58
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-004-c149a9af",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "法文版跋",
+            "type": "SECTION",
+            "order": 3,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 58,
+            "counterpartKey": "chapter-1-section-4",
+            "level": 2
+          },
+          "localParagraph": "法文版跋"
+        },
+        {
+          "text": "·第三版序言（弗里德思希·恩格斯，1883年11月7日）",
+          "sourceLineIndex": 6,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#5\">第三版序言（弗里德思希·恩格斯，1883年11月7日）</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">第三版序言</h3>",
+          "localSection": {
+            "id": "section-005-0f564105",
+            "title": "第三版序言",
+            "level": 2,
+            "paragraphIndex": 63
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-005-0f564105",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "第三版序言",
+            "type": "SECTION",
+            "order": 4,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 63,
+            "counterpartKey": "chapter-1-section-5",
+            "level": 2
+          },
+          "localParagraph": "第三版序言"
+        },
+        {
+          "text": "·英文版序言（弗里德里希·恩格斯，1886年11月5日）",
+          "sourceLineIndex": 7,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#6\">英文版序言（弗里德里希·恩格斯，1886年11月5日）</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">英文版序言</h3>",
+          "localSection": {
+            "id": "section-006-72a9b398",
+            "title": "英文版序言",
+            "level": 2,
+            "paragraphIndex": 74
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-006-72a9b398",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "英文版序言",
+            "type": "SECTION",
+            "order": 5,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 74,
+            "counterpartKey": "chapter-1-section-6",
+            "level": 2
+          },
+          "localParagraph": "英文版序言"
+        },
+        {
+          "text": "·第四版序言（弗里德里希·恩格斯，1890年6月25日）",
+          "sourceLineIndex": 8,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#7\">第四版序言（弗里德里希·恩格斯，1890年6月25日）</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">第四版序言</h3>",
+          "localSection": {
+            "id": "section-007-1cd0c354",
+            "title": "第四版序言",
+            "level": 2,
+            "paragraphIndex": 84
+          },
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-007-1cd0c354",
+            "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+            "title": "第四版序言",
+            "type": "SECTION",
+            "order": 6,
+            "chapterId": "chapter-001-ffa9f45ac8",
+            "paragraphIndex": 84,
+            "counterpartKey": "chapter-1-section-7",
+            "level": 2
+          },
+          "localParagraph": "第四版序言"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-002-8356fef4c5",
+      "title": "资本论·第一卷",
+      "chapterTitle": "商品",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+      "sourceRawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:43.614876+00:00",
+        "rawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+        "bytes": 89797
+      },
+      "localBodySha256": "10b36cd1764292b6363de06a1bcb5e0576d98d0f44d89bc6f8dd814242abb443",
+      "nativeNoteCount": 57,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第一卷资本的生产过程",
+          "sourceLineIndex": 1,
+          "status": "reviewed_volume_title_metadata",
+          "sourceNodeHtml": "<p class=\"title0\"><font color=\"#FF0000\">第一卷　资本的生产过程</font></p>",
+          "localTitle": "资本论·第一卷",
+          "localDescription": "资本的生产过程。"
+        },
+        {
+          "text": "第一篇商品和货币",
+          "sourceLineIndex": 2,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第一篇　商品和货币</p>",
+          "localToc": {
+            "id": "toc-capital-v1-zh-part-1",
+            "parentId": "toc-capital-v1-zh-root",
+            "title": "第一篇　商品和货币",
+            "type": "PART",
+            "order": 1,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-1"
+          }
+        },
+        {
+          "text": "第一章商品",
+          "sourceLineIndex": 3,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第一章　商　品</p>",
+          "localChapterTitle": "商品",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+            "parentId": "toc-capital-v1-zh-part-1",
+            "title": "商品",
+            "type": "CHAPTER",
+            "order": 1,
+            "chapterId": "chapter-002-8356fef4c5",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-2"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-003-140de2edec",
+      "title": "资本论·第一卷",
+      "chapterTitle": "交换过程",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/02.htm",
+      "sourceRawSha256": "a335ed96a8f69852c4f94838afa8888dbe223f9bbd68cd76d387aa869791eb8a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:45.004233+00:00",
+        "rawSha256": "a335ed96a8f69852c4f94838afa8888dbe223f9bbd68cd76d387aa869791eb8a",
+        "bytes": 19543
+      },
+      "localBodySha256": "e98ee8bf25e9e9960f42f6080c0a7c4f7b9049f424b003adebcd0e81e6ff9e75",
+      "nativeNoteCount": 20,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二章交换过程",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二章　交换过程</p>",
+          "localChapterTitle": "交换过程",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-003-140de2edec",
+            "parentId": "toc-capital-v1-zh-part-1",
+            "title": "交换过程",
+            "type": "CHAPTER",
+            "order": 2,
+            "chapterId": "chapter-003-140de2edec",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-3"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-004-01cb784f15",
+      "title": "资本论·第一卷",
+      "chapterTitle": "货币或商品流通",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+      "sourceRawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:46.488897+00:00",
+        "rawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+        "bytes": 101585
+      },
+      "localBodySha256": "1b8fb634931feb2238357a27ab2acff727e3bf3bdae57e7219f2599026e72852",
+      "nativeNoteCount": 96,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第三章货币或商品流通",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第三章　货币或商品流通</p>",
+          "localChapterTitle": "货币或商品流通",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-004-01cb784f15",
+            "parentId": "toc-capital-v1-zh-part-1",
+            "title": "货币或商品流通",
+            "type": "CHAPTER",
+            "order": 3,
+            "chapterId": "chapter-004-01cb784f15",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-4"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-005-e7585fe27c",
+      "title": "资本论·第一卷",
+      "chapterTitle": "货币转化为资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/04.htm",
+      "sourceRawSha256": "15c98e56388bf57c88f3556111301d895aff6839165aabf6bf08e6ba2c4bacf5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:47.226482+00:00",
+        "rawSha256": "15c98e56388bf57c88f3556111301d895aff6839165aabf6bf08e6ba2c4bacf5",
+        "bytes": 58279
+      },
+      "localBodySha256": "932ad9b511f51d4b349818991bb1136dfda53d4bf1b341f5991958d290f48f35",
+      "nativeNoteCount": 56,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二篇货币转化为资本",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第二篇　货币转化为资本</p>",
+          "localToc": {
+            "id": "toc-capital-v1-zh-part-2",
+            "parentId": "toc-capital-v1-zh-root",
+            "title": "第二篇　货币转化为资本",
+            "type": "PART",
+            "order": 2,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-2"
+          }
+        },
+        {
+          "text": "第四章货币转化为资本",
+          "sourceLineIndex": 2,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第四章　货币转化为资本</p>",
+          "localChapterTitle": "货币转化为资本",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-005-e7585fe27c",
+            "parentId": "toc-capital-v1-zh-part-2",
+            "title": "货币转化为资本",
+            "type": "CHAPTER",
+            "order": 4,
+            "chapterId": "chapter-005-e7585fe27c",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-5"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-006-91b4b8d228",
+      "title": "资本论·第一卷",
+      "chapterTitle": "劳动过程和价值增殖过程",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/05.htm",
+      "sourceRawSha256": "f9ca030413ac8a1c96d9e673aa6838ec6389f05a29b118d73fd737bcd2421f8d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:48.615819+00:00",
+        "rawSha256": "f9ca030413ac8a1c96d9e673aa6838ec6389f05a29b118d73fd737bcd2421f8d",
+        "bytes": 38896
+      },
+      "localBodySha256": "62833275a58cd63391e51084f95d9b160e68007827218f9cff0976d3a8a83cfb",
+      "nativeNoteCount": 25,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第五章劳动过程和价值增殖过程",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第五章　劳动过程和价值增殖过程</p>",
+          "localChapterTitle": "劳动过程和价值增殖过程",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-006-91b4b8d228",
+            "parentId": "toc-capital-v1-zh-part-3",
+            "title": "劳动过程和价值增殖过程",
+            "type": "CHAPTER",
+            "order": 5,
+            "chapterId": "chapter-006-91b4b8d228",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-6"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-007-26a87be1a8",
+      "title": "资本论·第一卷",
+      "chapterTitle": "不变资本和可变资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/06.htm",
+      "sourceRawSha256": "c4eafffa21448251f65cc108904a6b1159d98f095429dc9bd1d7e1ad4853e843",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:49.446877+00:00",
+        "rawSha256": "c4eafffa21448251f65cc108904a6b1159d98f095429dc9bd1d7e1ad4853e843",
+        "bytes": 20785
+      },
+      "localBodySha256": "85ac6c77d377e8d1fd934940adae32d8a2df48016998781272a83d83e3b9ac08",
+      "nativeNoteCount": 7,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第六章不变资本和可变资本",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第六章　不变资本和可变资本</p>",
+          "localChapterTitle": "不变资本和可变资本",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-007-26a87be1a8",
+            "parentId": "toc-capital-v1-zh-part-3",
+            "title": "不变资本和可变资本",
+            "type": "CHAPTER",
+            "order": 6,
+            "chapterId": "chapter-007-26a87be1a8",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-7"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-008-071e6d82a9",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/07.htm",
+      "sourceRawSha256": "8e956d5295917bb2c5b4820c6aaa88b0dae0a8f17df1c8ccce7761fff9cbc153",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:50.400863+00:00",
+        "rawSha256": "8e956d5295917bb2c5b4820c6aaa88b0dae0a8f17df1c8ccce7761fff9cbc153",
+        "bytes": 34230
+      },
+      "localBodySha256": "866fa75ba85b9c92a1c10695b5960eb4956344c48bfc55ca7af1c7744129f241",
+      "nativeNoteCount": 15,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第七章剩余价值率",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第七章　剩余价值率</p>",
+          "localChapterTitle": "剩余价值率",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-008-071e6d82a9",
+            "parentId": "toc-capital-v1-zh-part-3",
+            "title": "剩余价值率",
+            "type": "CHAPTER",
+            "order": 7,
+            "chapterId": "chapter-008-071e6d82a9",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-8"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-010-dd20bbe967",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率和剩余价值量",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/09.htm",
+      "sourceRawSha256": "2c325351ce694a5048454a5030df868d2971d81e14f81f42156f6c2efd2bd51c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:50.861375+00:00",
+        "rawSha256": "2c325351ce694a5048454a5030df868d2971d81e14f81f42156f6c2efd2bd51c",
+        "bytes": 16838
+      },
+      "localBodySha256": "9f1239fb2d89eefd177ed3f3e5031d1600de815874d7c556e94ba914a8cb0d9e",
+      "nativeNoteCount": 9,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第九章剩余价值率和剩余价值量",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第九章　剩余价值率和剩余价值量</p>",
+          "localChapterTitle": "剩余价值率和剩余价值量",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-010-dd20bbe967",
+            "parentId": "toc-capital-v1-zh-part-3",
+            "title": "剩余价值率和剩余价值量",
+            "type": "CHAPTER",
+            "order": 9,
+            "chapterId": "chapter-010-dd20bbe967",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-10"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-011-8b72bc0507",
+      "title": "资本论·第一卷",
+      "chapterTitle": "相对剩余价值的概念",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/10.htm",
+      "sourceRawSha256": "38b7dabb4f213482c1bd994ad91062496c7583d5f4f7f1ca21fb87e745f10f19",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:51.188453+00:00",
+        "rawSha256": "38b7dabb4f213482c1bd994ad91062496c7583d5f4f7f1ca21fb87e745f10f19",
+        "bytes": 12479
+      },
+      "localBodySha256": "ab299354d4d568fbfaa78b70b071630d72699932e23f83b01bab4f580fcf0c61",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十章相对剩余价值的概念",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十章 相对剩余价值的概念</p>",
+          "localChapterTitle": "相对剩余价值的概念",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-011-8b72bc0507",
+            "parentId": "toc-capital-v1-zh-part-4",
+            "title": "相对剩余价值的概念",
+            "type": "CHAPTER",
+            "order": 10,
+            "chapterId": "chapter-011-8b72bc0507",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-11"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-012-35f7110a1c",
+      "title": "资本论·第一卷",
+      "chapterTitle": "协作",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/11.htm",
+      "sourceRawSha256": "171703ea3dde6045a0ba7e8a94a03a228be67f0ef2161f7c3e6a3aa5a4750bb6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:51.520395+00:00",
+        "rawSha256": "171703ea3dde6045a0ba7e8a94a03a228be67f0ef2161f7c3e6a3aa5a4750bb6",
+        "bytes": 18527
+      },
+      "localBodySha256": "07fdc488d6493ee0784ac32d90fb9638464caa513a9894ca827c204a7cb37c67",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十一章协作",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十一章 协作</p>",
+          "localChapterTitle": "协作",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-012-35f7110a1c",
+            "parentId": "toc-capital-v1-zh-part-4",
+            "title": "协作",
+            "type": "CHAPTER",
+            "order": 11,
+            "chapterId": "chapter-012-35f7110a1c",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-12"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-013-255f19f476",
+      "title": "资本论·第一卷",
+      "chapterTitle": "分工和工场手工业",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/12.htm",
+      "sourceRawSha256": "45844600a0b3c7df12d64de33c9b74d934d3ece5421291f8bee7cbf172a2e86e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:52.355910+00:00",
+        "rawSha256": "45844600a0b3c7df12d64de33c9b74d934d3ece5421291f8bee7cbf172a2e86e",
+        "bytes": 37486
+      },
+      "localBodySha256": "ef84e9349438e0e5799a423c283fdbc8baa0cc286ae003488792d0ff4d38f2c0",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十二章分工和工场手工业",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十二章 分工和工场手工业</p>",
+          "localChapterTitle": "分工和工场手工业",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-013-255f19f476",
+            "parentId": "toc-capital-v1-zh-part-4",
+            "title": "分工和工场手工业",
+            "type": "CHAPTER",
+            "order": 12,
+            "chapterId": "chapter-013-255f19f476",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-13"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-015-19b1a2ffc7",
+      "title": "资本论·第一卷",
+      "chapterTitle": "绝对剩余价值和相对剩余价值",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/14.htm",
+      "sourceRawSha256": "f6775fd9f369da8296109a83de5994ee55fc831e56de4b79fb8ae7f8d4e3aa8b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:52.989420+00:00",
+        "rawSha256": "f6775fd9f369da8296109a83de5994ee55fc831e56de4b79fb8ae7f8d4e3aa8b",
+        "bytes": 14840
+      },
+      "localBodySha256": "fcb17678e6334cd6555ae474ab718af11989a2a5a7cfa43ac40f60ba3fcee0cf",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十四章绝对剩余价值和相对剩余价值",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十四章 绝对剩余价值和相对剩余价值</p>",
+          "localChapterTitle": "绝对剩余价值和相对剩余价值",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-015-19b1a2ffc7",
+            "parentId": "toc-capital-v1-zh-part-5",
+            "title": "绝对剩余价值和相对剩余价值",
+            "type": "CHAPTER",
+            "order": 14,
+            "chapterId": "chapter-015-19b1a2ffc7",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-15"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-016-2370068d1a",
+      "title": "资本论·第一卷",
+      "chapterTitle": "劳动力价格和剩余价值的量的变化",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/15.htm",
+      "sourceRawSha256": "4369f1ae14d8d10dc3455c4bc8051d9138e48eac46a7cf83847e90a903b8688b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:53.242440+00:00",
+        "rawSha256": "4369f1ae14d8d10dc3455c4bc8051d9138e48eac46a7cf83847e90a903b8688b",
+        "bytes": 15005
+      },
+      "localBodySha256": "c5fd7be5a0f79f5212cff7a902c2697fa9e0902002e1cca406b21a146dfc88d8",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十五章劳动力价格和剩余价值的量的变化",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十五章 劳动力价格和剩余价值的量的变化</p>",
+          "localChapterTitle": "劳动力价格和剩余价值的量的变化",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-016-2370068d1a",
+            "parentId": "toc-capital-v1-zh-part-5",
+            "title": "劳动力价格和剩余价值的量的变化",
+            "type": "CHAPTER",
+            "order": 15,
+            "chapterId": "chapter-016-2370068d1a",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-16"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-017-a9b805ed04",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值率的各种公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/16.htm",
+      "sourceRawSha256": "dc2f7da1129f7d04070ed37483527450955c7299a8f3ef2dce9d83189b1c6d97",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/16.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/16.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:53.737138+00:00",
+        "rawSha256": "dc2f7da1129f7d04070ed37483527450955c7299a8f3ef2dce9d83189b1c6d97",
+        "bytes": 6622
+      },
+      "localBodySha256": "a490b4d70757d90421c572e35373cb9baf6b2b819acdd2f8f14e0f5380f63f6b",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十六章剩余价值率的各种公式",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十六章 剩余价值率的各种公式</p>",
+          "localChapterTitle": "剩余价值率的各种公式",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-017-a9b805ed04",
+            "parentId": "toc-capital-v1-zh-part-5",
+            "title": "剩余价值率的各种公式",
+            "type": "CHAPTER",
+            "order": 16,
+            "chapterId": "chapter-017-a9b805ed04",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-17"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-019-fce05cfe2f",
+      "title": "资本论·第一卷",
+      "chapterTitle": "计时工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/18.htm",
+      "sourceRawSha256": "4cdbee354bf06a445e9326a90cbdd7fd387ba284571523f514f7cdc2dbc0b5e5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:54.371551+00:00",
+        "rawSha256": "4cdbee354bf06a445e9326a90cbdd7fd387ba284571523f514f7cdc2dbc0b5e5",
+        "bytes": 16505
+      },
+      "localBodySha256": "07de306487f98ea7830c62013c995a9a471276bf4cce5079bc34a604db1122f4",
+      "nativeNoteCount": 15,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十八章计时工资",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十八章　计时工资</p>",
+          "localChapterTitle": "计时工资",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-019-fce05cfe2f",
+            "parentId": "toc-capital-v1-zh-part-6",
+            "title": "计时工资",
+            "type": "CHAPTER",
+            "order": 18,
+            "chapterId": "chapter-019-fce05cfe2f",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-19"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-020-95f54e3076",
+      "title": "资本论·第一卷",
+      "chapterTitle": "计件工资",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/19.htm",
+      "sourceRawSha256": "1143004f094c9f43a1e8040260514805c45dd9c4632d59fc60884b56af3b0b3f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/19.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/19.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:54.802470+00:00",
+        "rawSha256": "1143004f094c9f43a1e8040260514805c45dd9c4632d59fc60884b56af3b0b3f",
+        "bytes": 18558
+      },
+      "localBodySha256": "2063cf4623f495f41d6137f35e31e327682b0bc26cf284cb9a17d17815d6d51a",
+      "nativeNoteCount": 20,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十九章计件工资",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十九章　计件工资</p>",
+          "localChapterTitle": "计件工资",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-020-95f54e3076",
+            "parentId": "toc-capital-v1-zh-part-6",
+            "title": "计件工资",
+            "type": "CHAPTER",
+            "order": 19,
+            "chapterId": "chapter-020-95f54e3076",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-20"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-021-2d433daf48",
+      "title": "资本论·第一卷",
+      "chapterTitle": "工资的国民差异",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/20.htm",
+      "sourceRawSha256": "b5658a1874bf767687ff3f082894782a2b4faf5c28d49dcad3c4b3d08c010068",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/20.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/20.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:55.098878+00:00",
+        "rawSha256": "b5658a1874bf767687ff3f082894782a2b4faf5c28d49dcad3c4b3d08c010068",
+        "bytes": 9478
+      },
+      "localBodySha256": "1845fae8ed2452ede3216a21bc1e32b26f88f3ec392b6c1eee801687a908e4a6",
+      "nativeNoteCount": 4,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二十章工资的国民差异",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二十章　工资的国民差异</p>",
+          "localChapterTitle": "工资的国民差异",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-021-2d433daf48",
+            "parentId": "toc-capital-v1-zh-part-6",
+            "title": "工资的国民差异",
+            "type": "CHAPTER",
+            "order": 20,
+            "chapterId": "chapter-021-2d433daf48",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-21"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-023-1abce4ba01",
+      "title": "资本论·第一卷",
+      "chapterTitle": "剩余价值转化为资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/22.htm",
+      "sourceRawSha256": "33d4c3545a4cf91d1c6f7470e5de8f1444be3fa5b7cccef310191ce774c031ec",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/22.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/22.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:55.601747+00:00",
+        "rawSha256": "33d4c3545a4cf91d1c6f7470e5de8f1444be3fa5b7cccef310191ce774c031ec",
+        "bytes": 49524
+      },
+      "localBodySha256": "46b88286ce3d90a91f87bb6431d418b43ff9c1f865001e304382ad7c8b67949a",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二十二章剩余价值转化为资本",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二十二章 剩余价值转化为资本</p>",
+          "localChapterTitle": "剩余价值转化为资本",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-023-1abce4ba01",
+            "parentId": "toc-capital-v1-zh-part-7",
+            "title": "剩余价值转化为资本",
+            "type": "CHAPTER",
+            "order": 22,
+            "chapterId": "chapter-023-1abce4ba01",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-23"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-025-927572cb43",
+      "title": "资本论·第一卷",
+      "chapterTitle": "所谓原始积累",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/24.htm",
+      "sourceRawSha256": "e03191418416fcc000a662541c06245c92c88a3d85fdd429123ce1e94ca8d139",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/24.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/24.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:56.299407+00:00",
+        "rawSha256": "e03191418416fcc000a662541c06245c92c88a3d85fdd429123ce1e94ca8d139",
+        "bytes": 58144
+      },
+      "localBodySha256": "86a0c468a21f895d7846c634f007cf0a748f60c13fef7e02e6280b5d3a97627d",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二十四章所谓原始积累",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二十四章 所谓原始积累</p>",
+          "localChapterTitle": "所谓原始积累",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-025-927572cb43",
+            "parentId": "toc-capital-v1-zh-part-8",
+            "title": "所谓原始积累",
+            "type": "CHAPTER",
+            "order": 24,
+            "chapterId": "chapter-025-927572cb43",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-25"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-026-91abf7a26b",
+      "title": "资本论·第一卷",
+      "chapterTitle": "现代殖民理论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/25.htm",
+      "sourceRawSha256": "9f0a65ca50aeb8174dafa02cea122246553eb06edc0c13a37b3f98c6b6c55cab",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/25.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/25.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:56.612230+00:00",
+        "rawSha256": "9f0a65ca50aeb8174dafa02cea122246553eb06edc0c13a37b3f98c6b6c55cab",
+        "bytes": 13426
+      },
+      "localBodySha256": "ea6655cfa420614ef61a761326d84c69b7b8c561dda7728a6f677fd95a9eef96",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二十五章现代殖民理论",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二十五章 现代殖民理论</p>",
+          "localChapterTitle": "现代殖民理论",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-026-91abf7a26b",
+            "parentId": "toc-capital-v1-zh-part-8",
+            "title": "现代殖民理论",
+            "type": "CHAPTER",
+            "order": 25,
+            "chapterId": "chapter-026-91abf7a26b",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-26"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-009-a970f98c04",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第七章 周转时间和周转次数",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+      "sourceRawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/009.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:56.943559+00:00",
+        "rawSha256": "ec0b51554e13a8fe047a487e7481937d2c2a2ab6d1ac63e40de70eea1309fe42",
+        "bytes": 6221
+      },
+      "localBodySha256": "dc15f1f23dbbf5e827b087f50a9d1b950a42e8839f51dbb46d61854c73620fde",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二篇资本周转",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第二篇　资本周转</p>",
+          "localToc": {
+            "id": "toc-capital-v2-zh-part-2",
+            "parentId": "toc-capital-v2-zh-root",
+            "title": "第二篇　资本周转",
+            "type": "PART",
+            "order": 3,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-2"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-020-85f66caf67",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第十八章 导言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+      "sourceRawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/020.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:57.300656+00:00",
+        "rawSha256": "d41d4740000704b17efa64e83a6b255fff47a7a212699d5b60d4b858a9e1c929",
+        "bytes": 12591
+      },
+      "localBodySha256": "216fc1a73bf82e8737b6f579ff137849e612cdd57b7f9ced8a79cff23f08e91a",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第三篇社会总资本的再生产和流通",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第三篇　社会总资本的再生产和流通</p>",
+          "localToc": {
+            "id": "toc-capital-v2-zh-part-3",
+            "parentId": "toc-capital-v2-zh-root",
+            "title": "第三篇　社会总资本的再生产和流通",
+            "type": "PART",
+            "order": 4,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-3"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-002-12494db576",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第一章 成本价格和利润",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+      "sourceRawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:57.660534+00:00",
+        "rawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+        "bytes": 23965
+      },
+      "localBodySha256": "57f696dfcd9bdb63cd5e3f8b428c56e87bab334d7601db1c9d54b9ddcfa81afb",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第一篇剩余价值转化为利润和剩余价值率转化为利润率",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第一篇 剩余价值转化为利润和剩余价值率转化为利润率</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-1",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第一篇　剩余价值转化为利润和剩余价值率转化为利润率",
+            "type": "PART",
+            "order": 1,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-1"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-009-88e16c3c04",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+      "sourceRawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:58.169766+00:00",
+        "rawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+        "bytes": 19459
+      },
+      "localBodySha256": "4d49bb8b234373892a1b2fa3194c2b2c98a1c2a8b3dc4b1860e98b25f6d808f4",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二篇利润转化为平均利润",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第二篇 利润转化为平均利润</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-2",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第二篇　利润转化为平均利润",
+            "type": "PART",
+            "order": 2,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-2"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-014-970c655271",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十三章 规律本身",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+      "sourceRawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:58.598436+00:00",
+        "rawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+        "bytes": 33606
+      },
+      "localBodySha256": "e64471233d85798007fc01453f903bcabaa9275b76255e9c207ae3daf02ef052",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第三篇利润率趋向下降的规律",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第三篇 利润率趋向下降的规律</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-3",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第三篇　利润率趋向下降的规律",
+            "type": "PART",
+            "order": 3,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-3"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-017-a880711391",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十六章 商品经营资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+      "sourceRawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:59.087335+00:00",
+        "rawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+        "bytes": 21746
+      },
+      "localBodySha256": "50332813be859e9dfa797208902007e7602b2742391d4e3411a1c83bd481250f",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第四篇商品资本和货币资本转化为",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-4",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第四篇　商品资本和货币资本转化为商品经营资本和货币经营资本",
+            "type": "PART",
+            "order": 4,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-4"
+          },
+          "sourceIndexHeadingHtml": "<h4 style=\"text-align: center\">第四篇　商品资本和货币资本转化为商品经营资本和货币经营资本（商人资本）</h4>",
+          "sourceIndexEvidence": {
+            "url": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol3-01.htm",
+            "finalUrl": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol3-01.htm",
+            "status": 200,
+            "charset": null,
+            "retrievedAt": "2026-10-02T08:17:05.804088+00:00",
+            "rawSha256": "95b35db9823388e324818ed484f9acae2ec79916b5538e7cc478591d933e63d5",
+            "bytes": 15296
+          },
+          "reason": "第四篇导航行在BR处断开，篇标题末尾商人资本为源站括注；第五篇章页只显示篇标题前半句，生息资本在源站总目录的完整篇标题中。现有篇目录已覆盖。"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-022-60692f75ac",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十一章 生息资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+      "sourceRawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:15:59.362113+00:00",
+        "rawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+        "bytes": 34145
+      },
+      "localBodySha256": "01e8f5e8f1919d69280b408b66bc34f510528092693b2c327949f4baf57f7888",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第五篇利润分为利息和企业主收入",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-5",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第五篇　利润分为利息和企业主收入。生息资本",
+            "type": "PART",
+            "order": 5,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-5"
+          },
+          "sourceIndexHeadingHtml": "<h4 style=\"text-align: center\">第五篇　利润分为利息和企业主收入。生息资本</h4>",
+          "sourceIndexEvidence": {
+            "url": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol3-01.htm",
+            "finalUrl": "https://www.marxists.org/chinese/marx/capital/marxist.org-chinese-marx-capital-vol3-01.htm",
+            "status": 200,
+            "charset": null,
+            "retrievedAt": "2026-10-02T08:17:05.804088+00:00",
+            "rawSha256": "95b35db9823388e324818ed484f9acae2ec79916b5538e7cc478591d933e63d5",
+            "bytes": 15296
+          },
+          "reason": "第四篇导航行在BR处断开，篇标题末尾商人资本为源站括注；第五篇章页只显示篇标题前半句，生息资本在源站总目录的完整篇标题中。现有篇目录已覆盖。"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-038-54ebea608d",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十七章 导论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+      "sourceRawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:00.070764+00:00",
+        "rawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+        "bytes": 47430
+      },
+      "localBodySha256": "eabfde2cca990051118b0cb59adb3af05ec7cc65590908c8b4c81f46ee418221",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第六篇超额利润转化为地租",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第六篇　超额利润转化为地租</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-6",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第六篇　超额利润转化为地租",
+            "type": "PART",
+            "order": 6,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-6"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-041-4110648a0b",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十章 级差地租的第二形式（级差地租Ⅱ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+      "sourceRawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:00.535693+00:00",
+        "rawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+        "bytes": 18988
+      },
+      "localBodySha256": "5165a23951c9613f6c77781977032baec5ba409a978a3a47fcc7f97109871cbf",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第四十章级差地租的第二形式（级差地租II）",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第四十章 级差地租的第二形式（级差地租II）</p>",
+          "localChapterTitle": "第四十章 级差地租的第二形式（级差地租Ⅱ）",
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-chapter-041-4110648a0b",
+            "parentId": "toc-capital-v3-zh-part-6",
+            "title": "第四十章 级差地租的第二形式（级差地租Ⅱ）",
+            "type": "CHAPTER",
+            "order": 40,
+            "chapterId": "chapter-041-4110648a0b",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-41"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-009-8d1c274824",
+      "title": "资本论·第一卷",
+      "chapterTitle": "工作日",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+      "sourceRawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:01.232767+00:00",
+        "rawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+        "bytes": 162253
+      },
+      "localBodySha256": "d9c2c0234de3f5ee2540e5e1b7186b5a88ff8bcd3c67a6040eba9df5caa9b42e",
+      "nativeNoteCount": 206,
+      "noteDifferences": [
+        {
+          "id": "_ftn175",
+          "source": {
+            "id": "_ftn175",
+            "marker": "[175]",
+            "content": [
+              "《工厂视察员报告。1861年10月31日》第27页，一般说来，工厂法影响所及的劳动居民的体格都大大增强了。医生的所有证词在这一点上都是一致的，我根据自己在各个不同时期的亲身观察，也确信这一点。尽管如此，并且即使撇开初生婴儿的惊人的死亡率不说，袼林豪医生的正式报告还是表明，同“具有正常健康状况的农业区”相比，工厂区的健康状况是不良的，我引用他1861年报告中的下列统计表作为证明：",
+              "〔原表3〕在工业中做工的成年男子的百分比 每10万个男子中死于肺病的人数 地区名称 每10万个妇女中死于肺病的人数 在工业中做工的成年妇女的百分比 妇女职业类别",
+              "14.9 598 威根 644 18.0 棉业",
+              "42.6 708 布莱克本 734 34.9 同上",
+              "37.3 547 哈里法克斯 564 20.4 毛业",
+              "41.9 611 布莱得弗德 603 30.0 同上",
+              "31.0 691 麦克尔士菲尔德 804 26.0 丝业",
+              "14.9 588 利克 705 17.2 同上",
+              "36.6 721 特伦特河畔的斯托克 665 19.3 瓦器业",
+              "30.4 726 沃尔斯坦登 727 13.9 同上",
+              "― 305 8个健康的农业区 340 ―"
+            ],
+            "references": [
+              {
+                "paragraphIndex": 196,
+                "start": 42,
+                "end": 47
+              }
+            ]
+          },
+          "local": {
+            "id": "_ftn175",
+            "marker": "[175]",
+            "content": [
+              "《工厂视察员报告。1861年10月31日》第27页，一般说来，工厂法影响所及的劳动居民的体格都大大增强了。医生的所有证词在这一点上都是一致的，我根据自己在各个不同时期的亲身观察，也确信这一点。尽管如此，并且即使撇开初生婴儿的惊人的死亡率不说，袼林豪医生的正式报告还是表明，同“具有正常健康状况的农业区”相比，工厂区的健康状况是不良的，我引用他1861年报告中的下列统计表作为证明：",
+              "在工业中做工的成年男子的百分比每10万个男子中死于肺病的人数地区名称每10万个妇女中死于肺病的人数在工业中做工的成年妇女的百分比妇女职业类别",
+              "14.9598威根64418.0棉业",
+              "42.6708布莱克本73434.9同上",
+              "37.3547哈里法克斯56420.4毛业",
+              "41.9611布莱得弗德60330.0同上",
+              "31.0691麦克尔士菲尔德80426.0丝业",
+              "14.9588利克70517.2同上",
+              "36.6721特伦特河畔的斯托克66519.3瓦器业",
+              "30.4726沃尔斯坦登72713.9同上",
+              "―3058个健康的农业区340―"
+            ],
+            "references": [
+              {
+                "paragraphIndex": 196,
+                "start": 42,
+                "end": 47
+              }
+            ]
+          },
+          "resolution": "原表3标识及表格空白排版差异；去除离线表格标识及空白后文字一致，原注编号及引用位置一致，不改正文。"
+        }
+      ],
+      "findings": [
+        {
+          "text": "第八章工作日",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第八章　工作日</p>",
+          "localChapterTitle": "工作日",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+            "parentId": "toc-capital-v1-zh-part-3",
+            "title": "工作日",
+            "type": "CHAPTER",
+            "order": 8,
+            "chapterId": "chapter-009-8d1c274824",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-9"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-014-cae77f7ce7",
+      "title": "资本论·第一卷",
+      "chapterTitle": "机器和大工业",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+      "sourceRawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:19.155960+00:00",
+        "rawSha256": "93366c6bbc6475f96408cf7f2c3f1f468e409e6bd90adecfa93daf6dcd97e9e6",
+        "bytes": 158390
+      },
+      "localBodySha256": "00e5ff837a66b689d1951ce94ad0b6259a125ac2778c396eec9f7d6fe3deb354",
+      "nativeNoteCount": 1,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第十三章机器和大工业",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第十三章 机器和大工业</p>",
+          "localChapterTitle": "机器和大工业",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-014-cae77f7ce7",
+            "parentId": "toc-capital-v1-zh-part-4",
+            "title": "机器和大工业",
+            "type": "CHAPTER",
+            "order": 13,
+            "chapterId": "chapter-014-cae77f7ce7",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-14"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-024-d82b3e60f9",
+      "title": "资本论·第一卷",
+      "chapterTitle": "资本主义积累的一般规律",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+      "sourceRawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/23.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/23.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:20.869066+00:00",
+        "rawSha256": "c76609877680c9fc8bab25391bf696cebab0728be7556ccf82c22feef59e2dd7",
+        "bytes": 132149
+      },
+      "localBodySha256": "0fea05fa755d6bfdaeb93e407914efd70f7d548cecbff8e62a1594e45f2150d8",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第二十三章资本主义积累的一般规律",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第二十三章 资本主义积累的一般规律</p>",
+          "localChapterTitle": "资本主义积累的一般规律",
+          "localToc": {
+            "id": "toc-capital-v1-zh-chapter-chapter-024-d82b3e60f9",
+            "parentId": "toc-capital-v1-zh-part-7",
+            "title": "资本主义积累的一般规律",
+            "type": "CHAPTER",
+            "order": 23,
+            "chapterId": "chapter-024-d82b3e60f9",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-24"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-003-5b25d39805",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第一章 货币资本的循环",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+      "sourceRawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/003.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:21.359773+00:00",
+        "rawSha256": "3623607e8ea50343b86c88b9bc712e4453b8f9233477f051b0da740ad199d7cc",
+        "bytes": 56145
+      },
+      "localBodySha256": "f73e476bb6e07ecc06e9e2b0336cf8d9c483888928e1425cdd7f5850b6a8588d",
+      "nativeNoteCount": 23,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第一篇资本形态变化及其循环",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title1\">第一篇　资本形态变化及其循环</p>",
+          "localToc": {
+            "id": "toc-capital-v2-zh-part-1",
+            "parentId": "toc-capital-v2-zh-root",
+            "title": "第一篇　资本形态变化及其循环",
+            "type": "PART",
+            "order": 2,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-1"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-022-57cd2a5633",
+      "title": "资本论·第二卷",
+      "chapterTitle": "第二十章 简单再生产",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+      "sourceRawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/022.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:22.219240+00:00",
+        "rawSha256": "57f398911cb178c2a2463aebedaa152d0ade494fff1641e1c31b241cbf5e348b",
+        "bytes": 156229
+      },
+      "localBodySha256": "0d063f0ead56b673d00acd4b4a1c9f6348908915936a8a3455924ef5e9c6f3d6",
+      "nativeNoteCount": 4,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "Ⅰ．问题的提出",
+          "sourceLineIndex": 2,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1\">Ⅰ．问题的提出</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">I、问题的提出</h3>",
+          "localSection": {
+            "id": "section-002-30c7ce37",
+            "title": "I、问题的提出",
+            "level": 2,
+            "paragraphIndex": 0
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-002-30c7ce37",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "I、问题的提出",
+            "type": "SECTION",
+            "order": 0,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-22-section-1",
+            "level": 2
+          },
+          "localParagraph": "I、问题的提出"
+        },
+        {
+          "text": "Ⅱ．社会生产的两个部类",
+          "sourceLineIndex": 3,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#2\">Ⅱ．社会生产的两个部类</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">II、社会生产的两个部类</h3>",
+          "localSection": {
+            "id": "section-003-2d3fa920",
+            "title": "II、社会生产的两个部类",
+            "level": 2,
+            "paragraphIndex": 7
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-003-2d3fa920",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "II、社会生产的两个部类",
+            "type": "SECTION",
+            "order": 1,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 7,
+            "counterpartKey": "chapter-22-section-2",
+            "level": 2
+          },
+          "localParagraph": "II、社会生产的两个部类"
+        },
+        {
+          "text": "Ⅲ．两个部类之间的交换：Ⅰ（ｖ＋ｍ）和Ⅱｃ的交换",
+          "sourceLineIndex": 4,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#3\">Ⅲ．两个部类之间的交换：Ⅰ（ｖ＋ｍ）和Ⅱｃ的交换</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">III、两个部类之间的交换：I（v＋m）和IIc的交换</h3>",
+          "localSection": {
+            "id": "section-004-c0f17640",
+            "title": "III、两个部类之间的交换：I（v＋m）和IIc的交换",
+            "level": 2,
+            "paragraphIndex": 36
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-004-c0f17640",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "III、两个部类之间的交换：I（v＋m）和IIc的交换",
+            "type": "SECTION",
+            "order": 2,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 36,
+            "counterpartKey": "chapter-22-section-3",
+            "level": 2
+          },
+          "localParagraph": "III、两个部类之间的交换：I（v＋m）和IIc的交换"
+        },
+        {
+          "text": "Ⅳ．第Ⅱ部类内部的交换。必要生活资料和奢侈品",
+          "sourceLineIndex": 5,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#4\">Ⅳ．第Ⅱ部类内部的交换。必要生活资料和奢侈品</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">IV、第II部类内部的交换。必要生活资料和奢侈品</h3>",
+          "localSection": {
+            "id": "section-005-9c29a163",
+            "title": "IV、第II部类内部的交换。必要生活资料和奢侈品",
+            "level": 2,
+            "paragraphIndex": 45
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-005-9c29a163",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "IV、第II部类内部的交换。必要生活资料和奢侈品",
+            "type": "SECTION",
+            "order": 3,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 45,
+            "counterpartKey": "chapter-22-section-4",
+            "level": 2
+          },
+          "localParagraph": "IV、第II部类内部的交换。必要生活资料和奢侈品"
+        },
+        {
+          "text": "Ⅴ．货币流通在交换中的媒介作用",
+          "sourceLineIndex": 6,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#5\">Ⅴ．货币流通在交换中的媒介作用</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">V、货币流通在交换中的媒介作用</h3>",
+          "localSection": {
+            "id": "section-006-b1b5bdcf",
+            "title": "V、货币流通在交换中的媒介作用",
+            "level": 2,
+            "paragraphIndex": 91
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-006-b1b5bdcf",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "V、货币流通在交换中的媒介作用",
+            "type": "SECTION",
+            "order": 4,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 91,
+            "counterpartKey": "chapter-22-section-5",
+            "level": 2
+          },
+          "localParagraph": "V、货币流通在交换中的媒介作用"
+        },
+        {
+          "text": "Ⅵ．第Ⅰ部类的不变资本",
+          "sourceLineIndex": 7,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#6\">Ⅵ．第Ⅰ部类的不变资本</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">VI、第I部类的不变资本</h3>",
+          "localSection": {
+            "id": "section-009-26fbb1bd",
+            "title": "VI、第I部类的不变资本",
+            "level": 2,
+            "paragraphIndex": 144
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-009-26fbb1bd",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "VI、第I部类的不变资本",
+            "type": "SECTION",
+            "order": 7,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 144,
+            "counterpartKey": "chapter-22-section-8",
+            "level": 2
+          },
+          "localParagraph": "VI、第I部类的不变资本"
+        },
+        {
+          "text": "Ⅶ．两个部类的可变资本和剩余价值",
+          "sourceLineIndex": 8,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#7\">Ⅶ．两个部类的可变资本和剩余价值</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">VII、两个部类的可变资本和剩余价值</h3>",
+          "localSection": {
+            "id": "section-010-22e3ca3d",
+            "title": "VII、两个部类的可变资本和剩余价值",
+            "level": 2,
+            "paragraphIndex": 153
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-010-22e3ca3d",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "VII、两个部类的可变资本和剩余价值",
+            "type": "SECTION",
+            "order": 8,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 153,
+            "counterpartKey": "chapter-22-section-9",
+            "level": 2
+          },
+          "localParagraph": "VII、两个部类的可变资本和剩余价值"
+        },
+        {
+          "text": "Ⅷ．两个部类的不变资本",
+          "sourceLineIndex": 9,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#8\">Ⅷ．两个部类的不变资本</a>",
+          "sourceTargetHtml": "<a name=\"8\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">VIII、两个部类的不变资本</h3>",
+          "localSection": {
+            "id": "section-011-9ac9ffb3",
+            "title": "VIII、两个部类的不变资本",
+            "level": 2,
+            "paragraphIndex": 165
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-011-9ac9ffb3",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "VIII、两个部类的不变资本",
+            "type": "SECTION",
+            "order": 9,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 165,
+            "counterpartKey": "chapter-22-section-10",
+            "level": 2
+          },
+          "localParagraph": "VIII、两个部类的不变资本"
+        },
+        {
+          "text": "Ⅺ．固定资本的补偿",
+          "sourceLineIndex": 12,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#11\">Ⅺ．固定资本的补偿</a>",
+          "sourceTargetHtml": "<a name=\"11\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">XI、固定资本的补偿</h3>",
+          "localSection": {
+            "id": "section-014-5dff59ff",
+            "title": "XI、固定资本的补偿",
+            "level": 2,
+            "paragraphIndex": 241
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-014-5dff59ff",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "XI、固定资本的补偿",
+            "type": "SECTION",
+            "order": 12,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 241,
+            "counterpartKey": "chapter-22-section-13",
+            "level": 2
+          },
+          "localParagraph": "XI、固定资本的补偿"
+        },
+        {
+          "text": "1．损耗的价值部分在货币形式上的补偿",
+          "sourceLineIndex": 13,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1101\">1．损耗的价值部分在货币形式上的补偿</a>",
+          "sourceTargetHtml": "<a name=\"1101\"></a>",
+          "sourceBodyHeadingHtml": "<h4 style=\"text-align: center\">1、损耗的价值部分在货币形式上的补偿</h4>",
+          "localSection": {
+            "id": "section-015-ff42695a",
+            "title": "1、损耗的价值部分在货币形式上的补偿",
+            "level": 3,
+            "paragraphIndex": 261
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-015-ff42695a",
+            "parentId": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-014-5dff59ff",
+            "title": "1、损耗的价值部分在货币形式上的补偿",
+            "type": "SECTION",
+            "order": 13,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 261,
+            "counterpartKey": "chapter-22-section-14",
+            "level": 3
+          },
+          "localParagraph": "1、损耗的价值部分在货币形式上的补偿"
+        },
+        {
+          "text": "3．结论",
+          "sourceLineIndex": 15,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1103\">3．结论</a>",
+          "sourceTargetHtml": "<a name=\"1103\"></a>",
+          "sourceBodyHeadingHtml": "<h4 style=\"text-align: center\">3、结论</h4>",
+          "localSection": {
+            "id": "section-017-b312ae51",
+            "title": "3、结论",
+            "level": 3,
+            "paragraphIndex": 343
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-017-b312ae51",
+            "parentId": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-014-5dff59ff",
+            "title": "3、结论",
+            "type": "SECTION",
+            "order": 15,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 343,
+            "counterpartKey": "chapter-22-section-16",
+            "level": 3
+          },
+          "localParagraph": "3、结论"
+        },
+        {
+          "text": "Ⅻ．货币材料的再生产",
+          "sourceLineIndex": 16,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#12\">Ⅻ．货币材料的再生产</a>",
+          "sourceTargetHtml": "<a name=\"12\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">XII、货币材料的再生产</h3>",
+          "localSection": {
+            "id": "section-018-4715b8da",
+            "title": "XII、货币材料的再生产",
+            "level": 2,
+            "paragraphIndex": 355
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-018-4715b8da",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "XII、货币材料的再生产",
+            "type": "SECTION",
+            "order": 16,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 355,
+            "counterpartKey": "chapter-22-section-17",
+            "level": 2
+          },
+          "localParagraph": "XII、货币材料的再生产"
+        },
+        {
+          "text": "ⅩⅢ．德斯杜特・德・特拉西的再生产理论",
+          "sourceLineIndex": 17,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#13\">ⅩⅢ．德斯杜特・德・特拉西的再生产理论</a>",
+          "sourceTargetHtml": "<a name=\"13\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">XIII、德斯杜特・德・特拉西的再生产理论</h3>",
+          "localSection": {
+            "id": "section-019-5abad438",
+            "title": "XIII、德斯杜特・德・特拉西的再生产理论",
+            "level": 2,
+            "paragraphIndex": 395
+          },
+          "localToc": {
+            "id": "toc-capital-v2-zh-chapter-022-57cd2a5633-section-019-5abad438",
+            "parentId": "toc-capital-v2-zh-chapter-chapter-022-57cd2a5633",
+            "title": "XIII、德斯杜特・德・特拉西的再生产理论",
+            "type": "SECTION",
+            "order": 17,
+            "chapterId": "chapter-022-57cd2a5633",
+            "paragraphIndex": 395,
+            "counterpartKey": "chapter-22-section-18",
+            "level": 2
+          },
+          "localParagraph": "XIII、德斯杜特・德・特拉西的再生产理论"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-030-587bf0c778",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十九章 银行资本的组成部分",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+      "sourceRawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:22.736272+00:00",
+        "rawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+        "bytes": 22385
+      },
+      "localBodySha256": "0badac9f14e56778f81065e49e0f9a14f672e9116e5af992af3b269375d65a0c",
+      "nativeNoteCount": 1,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第五篇利润分为利息和企业主收入。生息资本（续）",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第五篇 利润分为利息和企业主收入。生息资本（续）</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-5",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第五篇　利润分为利息和企业主收入。生息资本",
+            "type": "PART",
+            "order": 5,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-5"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:23.055302+00:00",
+        "rawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+        "bytes": 45842
+      },
+      "localBodySha256": "94c8591dd382350a1d2916b85fd6dca5a4b9ffd0d5bdb0836f6f32115add6cd1",
+      "nativeNoteCount": 7,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第三十九章级差地租的第一形式（级差地租I）",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第三十九章 级差地租的第一形式（级差地租I）</p>",
+          "localChapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-chapter-040-ebaa639173",
+            "parentId": "toc-capital-v3-zh-part-6",
+            "title": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+            "type": "CHAPTER",
+            "order": 39,
+            "chapterId": "chapter-040-ebaa639173",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-40"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-042-41c2ead987",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "sourceRawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:23.610193+00:00",
+        "rawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+        "bytes": 18350
+      },
+      "localBodySha256": "ab433d45ef429731b429329e6053c013c6ac206fb87dbc8d42d95bbceb4cef79",
+      "nativeNoteCount": 3,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第四十一章级差地租II――第一种情况：生产价格不变",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第四十一章 级差地租II――第一种情况：生产价格不变</p>",
+          "localChapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-chapter-042-41c2ead987",
+            "parentId": "toc-capital-v3-zh-part-6",
+            "title": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+            "type": "CHAPTER",
+            "order": 41,
+            "chapterId": "chapter-042-41c2ead987",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-42"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-043-8e88226134",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:24.086186+00:00",
+        "rawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+        "bytes": 42008
+      },
+      "localBodySha256": "308cc6cd8a69b949a426c50d480642755e8615eed5f686336c936f9ca8ab382d",
+      "nativeNoteCount": 10,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第四十二章级差地租II——第二种情况：生产价格下降",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第四十二章 级差地租II——第二种情况：生产价格下降</p>",
+          "localChapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-chapter-043-8e88226134",
+            "parentId": "toc-capital-v3-zh-part-6",
+            "title": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+            "type": "CHAPTER",
+            "order": 42,
+            "chapterId": "chapter-043-8e88226134",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-43"
+          }
+        },
+        {
+          "text": "Ⅰ．追加投资的生产率不变",
+          "sourceLineIndex": 2,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1\">Ⅰ．追加投资的生产率不变</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">I．追加投资的生产率不变</h3>",
+          "localSection": {
+            "id": "section-002-bdf70925",
+            "title": "I．追加投资的生产率不变",
+            "level": 2,
+            "paragraphIndex": 1
+          },
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-043-8e88226134-section-002-bdf70925",
+            "parentId": "toc-capital-v3-zh-chapter-chapter-043-8e88226134",
+            "title": "I．追加投资的生产率不变",
+            "type": "SECTION",
+            "order": 0,
+            "chapterId": "chapter-043-8e88226134",
+            "paragraphIndex": 1,
+            "counterpartKey": "chapter-43-section-1",
+            "level": 2
+          },
+          "localParagraph": "I．追加投资的生产率不变"
+        },
+        {
+          "text": "Ⅱ．追加资本的生产率降低",
+          "sourceLineIndex": 3,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#2\">Ⅱ．追加资本的生产率降低</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">II．追加资本的生产率降低</h3>",
+          "localSection": {
+            "id": "section-003-70b981cf",
+            "title": "II．追加资本的生产率降低",
+            "level": 2,
+            "paragraphIndex": 62
+          },
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-043-8e88226134-section-003-70b981cf",
+            "parentId": "toc-capital-v3-zh-chapter-chapter-043-8e88226134",
+            "title": "II．追加资本的生产率降低",
+            "type": "SECTION",
+            "order": 1,
+            "chapterId": "chapter-043-8e88226134",
+            "paragraphIndex": 62,
+            "counterpartKey": "chapter-43-section-2",
+            "level": 2
+          },
+          "localParagraph": "II．追加资本的生产率降低"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-044-054339ee3a",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:24.910950+00:00",
+        "rawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+        "bytes": 80924
+      },
+      "localBodySha256": "a60a48ce82db5a814fd256c63920a0b32ffcdc019486a44b8bca38a251e64510",
+      "nativeNoteCount": 23,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第四十三章级差地租II——第三种情况：生产价格上涨。结论",
+          "sourceLineIndex": 1,
+          "status": "reviewed_root_chapter_title",
+          "sourceNodeHtml": "<p class=\"title1\">第四十三章 级差地租II——第三种情况：生产价格上涨。结论</p>",
+          "localChapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-chapter-044-054339ee3a",
+            "parentId": "toc-capital-v3-zh-part-6",
+            "title": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+            "type": "CHAPTER",
+            "order": 43,
+            "chapterId": "chapter-044-054339ee3a",
+            "paragraphIndex": 0,
+            "counterpartKey": "chapter-44"
+          }
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-049-154926d8e7",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十八章 三位一体的公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+      "sourceRawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:16:26.175351+00:00",
+        "rawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+        "bytes": 31163
+      },
+      "localBodySha256": "9163405fef40743be7f5f7e3d390d39964d1a60206929512a99adf4eea146c31",
+      "nativeNoteCount": 0,
+      "noteDifferences": [],
+      "findings": [
+        {
+          "text": "第七篇各种收入及其源泉",
+          "sourceLineIndex": 1,
+          "status": "reviewed_existing_part_toc",
+          "sourceNodeHtml": "<p class=\"title0\">第七篇 各种收入及其源泉</p>",
+          "localToc": {
+            "id": "toc-capital-v3-zh-part-7",
+            "parentId": "toc-capital-v3-zh-root",
+            "title": "第七篇　各种收入及其源泉",
+            "type": "PART",
+            "order": 7,
+            "chapterId": null,
+            "paragraphIndex": 0,
+            "counterpartKey": "part-7"
+          }
+        },
+        {
+          "text": "↘Ⅰ",
+          "sourceLineIndex": 3,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#1\">Ⅰ </a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">Ⅰ </h3>",
+          "localSection": {
+            "id": "section-002-b3b26652",
+            "title": "Ⅰ",
+            "level": 2,
+            "paragraphIndex": 1
+          },
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-049-154926d8e7-section-002-b3b26652",
+            "parentId": "toc-capital-v3-zh-chapter-chapter-049-154926d8e7",
+            "title": "Ⅰ",
+            "type": "SECTION",
+            "order": 0,
+            "chapterId": "chapter-049-154926d8e7",
+            "paragraphIndex": 1,
+            "counterpartKey": "chapter-49-section-1",
+            "level": 2
+          },
+          "localParagraph": "Ⅰ"
+        },
+        {
+          "text": "↘Ⅱ",
+          "sourceLineIndex": 4,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#2\">Ⅱ </a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">Ⅱ </h3>",
+          "localSection": {
+            "id": "section-003-41bb493f",
+            "title": "Ⅱ",
+            "level": 2,
+            "paragraphIndex": 12
+          },
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-049-154926d8e7-section-003-41bb493f",
+            "parentId": "toc-capital-v3-zh-chapter-chapter-049-154926d8e7",
+            "title": "Ⅱ",
+            "type": "SECTION",
+            "order": 1,
+            "chapterId": "chapter-049-154926d8e7",
+            "paragraphIndex": 12,
+            "counterpartKey": "chapter-49-section-2",
+            "level": 2
+          },
+          "localParagraph": "Ⅱ"
+        },
+        {
+          "text": "↘Ⅲ",
+          "sourceLineIndex": 5,
+          "status": "reviewed_navigation_target_preserved",
+          "sourceNavigationHtml": "<a href=\"#3\">Ⅲ </a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceBodyHeadingHtml": "<h3 style=\"text-align: center\">Ⅲ </h3>",
+          "localSection": {
+            "id": "section-004-449c5076",
+            "title": "Ⅲ",
+            "level": 2,
+            "paragraphIndex": 16
+          },
+          "localToc": {
+            "id": "toc-capital-v3-zh-chapter-049-154926d8e7-section-004-449c5076",
+            "parentId": "toc-capital-v3-zh-chapter-chapter-049-154926d8e7",
+            "title": "Ⅲ",
+            "type": "SECTION",
+            "order": 2,
+            "chapterId": "chapter-049-154926d8e7",
+            "paragraphIndex": 16,
+            "counterpartKey": "chapter-49-section-3",
+            "level": 2
+          },
+          "localParagraph": "Ⅲ"
+        }
+      ],
+      "scope": "逐项源页DOM导航目标／章根／篇标题及本地正文、目录定位核验；导入后正文比较和网页原注复核。仅结论覆盖所列短行，不宣称逐句版本校勘。"
+    }
+  ]
+}

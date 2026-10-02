@@ -1,0 +1,4199 @@
+{
+  "date": "2026-10-02",
+  "scope": "资本论第三卷55个新鲜源页及155个独立短行候选，文档TITLE、章根BR拆行及独立文库路径；正文对照只应用既有字节校补，交易所同名根标题例外明确登记。",
+  "reviews": [
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-055-c14669f5f8",
+      "title": "资本论·第三卷",
+      "chapterTitle": "Ⅱ．交易所",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/055.htm",
+      "sourceRawSha256": "9bbb5608c79145227fdd34054d364c7fca929afa99e969bb2b2af7da689b69a6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/055.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/055.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:19:59.121828+00:00",
+        "rawSha256": "9bbb5608c79145227fdd34054d364c7fca929afa99e969bb2b2af7da689b69a6",
+        "bytes": 6034
+      },
+      "localBodySha256": "6b0d562481893c84dcbed0a4e2c21ddccb0d5943be4a58618889dbb671202d07",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-055-c14669f5f8",
+          "parentId": "toc-capital-v3-zh-root",
+          "title": "Ⅱ．交易所",
+          "type": "APPENDIX",
+          "order": 54,
+          "chapterId": "chapter-055-c14669f5f8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-55"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗里德里希・恩格斯《资本论》第三卷增补[243]Ⅱ．交易所",
+        "1．从第三卷第五篇，特别是第［二十七］章可以看出，交易所在整个资本主义生产中占有怎样的地位。但是，自从1865年本书写成以来，情况已经发生了变化，这种变化使今天交易所的作用大大增加了，并且还在不断增加。这种变化在其进一步的发展中还有一种趋势，要把包括工业生产和农业生产在内的全部生产，包括交通工具和交换职能在内的全部流通，都集中在交易所经纪人手里，这样，交易所就成为资本主义生产本身的最突出的代表。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-055-c14669f5f8",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/055.htm",
+          "sourceRawSha256": "9bbb5608c79145227fdd34054d364c7fca929afa99e969bb2b2af7da689b69a6",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――弗里德里希・恩格斯。《资本论》第三卷增补[243]Ⅱ．交易所",
+          "compactLength": 36,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――弗里德里希・恩格斯。《资本论》第三卷增补[243]Ⅱ．交易所</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-055-c14669f5f8",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/055.htm",
+          "sourceRawSha256": "9bbb5608c79145227fdd34054d364c7fca929afa99e969bb2b2af7da689b69a6",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyComparisonException": {
+        "kind": "same_title_root_filtered_by_extractor",
+        "sourceNodeHtml": "<p class=\"title1\">Ⅱ．交易所</p>",
+        "localParagraphIndex": 0,
+        "localParagraph": "弗里德里希・恩格斯《资本论》第三卷增补[243]Ⅱ．交易所",
+        "reason": "源P与本章名同名，重抽取略去；本地旧首段末尾完整保留该根标题。其余正文一致，不删旧文字或移动批注。"
+      },
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-049-154926d8e7",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十八章 三位一体的公式",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+      "sourceRawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:00.266771+00:00",
+        "rawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+        "bytes": 31163
+      },
+      "localBodySha256": "9163405fef40743be7f5f7e3d390d39964d1a60206929512a99adf4eea146c31",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-049-154926d8e7",
+          "parentId": "toc-capital-v3-zh-part-7",
+          "title": "第四十八章 三位一体的公式",
+          "type": "CHAPTER",
+          "order": 48,
+          "chapterId": "chapter-049-154926d8e7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-49"
+        }
+      ],
+      "localFirstParagraphs": [
+        "第七篇。第四十八章 三位一体的公式",
+        "Ⅰ"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-049-154926d8e7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+          "sourceRawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第七篇。第四十八章 三位一体的公式",
+          "compactLength": 27,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第七篇。第四十八章 三位一体的公式</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-049-154926d8e7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/049.htm",
+          "sourceRawSha256": "da03bb672e65bfcdd857978cb433be5eaa4733d105db8a519008f688d8715a07",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-001-1baab7e712",
+      "title": "资本论·第三卷",
+      "chapterTitle": "弗里德里希・恩格斯 序言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/001.htm",
+      "sourceRawSha256": "ae6e57d962de5319e52dfad89d979d528c3f3d8fef2c03b3bca98a62df6e22d6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/001.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/001.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:01.045788+00:00",
+        "rawSha256": "ae6e57d962de5319e52dfad89d979d528c3f3d8fef2c03b3bca98a62df6e22d6",
+        "bytes": 36547
+      },
+      "localBodySha256": "deb1300fcca40abaefc73cc22cf11ca15d3a538430712fbe9d4fb31791413b28",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-001-1baab7e712",
+          "parentId": "toc-capital-v3-zh-root",
+          "title": "弗里德里希・恩格斯 序言",
+          "type": "PREFACE",
+          "order": 0,
+          "chapterId": "chapter-001-1baab7e712",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗里德里希・恩格斯序言",
+        "我终于把马克思的主要著作的第三卷，理论部分的终结，交给读者了。当1885年第二卷出版的时候，我曾以为，第三卷的困难大概只是技术性的，当然，某些极为重要的章节是例外。实际上情况也是这样；但我当时没有想到，正是全书这些最重要的章节会给我造成这么多的困难，同样也没有想到，还有其他一些障碍会如此严重地拖延本书的付排。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-001-1baab7e712",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/001.htm",
+          "sourceRawSha256": "ae6e57d962de5319e52dfad89d979d528c3f3d8fef2c03b3bca98a62df6e22d6",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――序言",
+          "compactLength": 13,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――序言</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-001-1baab7e712",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/001.htm",
+          "sourceRawSha256": "ae6e57d962de5319e52dfad89d979d528c3f3d8fef2c03b3bca98a62df6e22d6",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-002-12494db576",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第一章 成本价格和利润",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+      "sourceRawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:01.999693+00:00",
+        "rawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+        "bytes": 23965
+      },
+      "localBodySha256": "57f696dfcd9bdb63cd5e3f8b428c56e87bab334d7601db1c9d54b9ddcfa81afb",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-002-12494db576",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第一章 成本价格和利润",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-12494db576",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在第一卷中，我们研究的是资本主义生产过程本身作为直接生产过程考察时呈现的各种现象，而撇开了这个过程以外的各种情况引起的一切次要影响。但是，这个直接的生产过程并没有结束资本的生活过程。在现实世界里，它还要由流通过程来补充，而流通过程则是第二卷研究的对象。在第二卷中，特别是把流通过程作为社会再生产过程的媒介来考察的第三篇指出：资本主义生产过程，就整体来看，是生产过程和流通过程的统一。至于这个第三卷的内容，它不能是对于这个统一的一般的考察。相反地，这一卷要揭示和说明资本运动过程作为整体考察时所产生的各种具体形式。资本在自己的现实运动中就是以这些具体形式互相对立的，对这些具体形式来说，资本在直接生产过程中采取的形态和在流通过程中采取的形态，只是表现为特殊的要素。因此，我们在本卷中将要阐明的资本的各种形式，同资本在社会表面上，在各种资本的互相作用中，在竞争中，以及在生产当事人自己的通常意识中所表现出来的形式，是一步一步地接近了。",
+        "按照资本主义方式生产的每一个商品Ｗ的价值，用公式来表示是W＝c+v+m。如果我们从这个产品价值中减去剩余价值m，那末，在商品中剩下的，只是一个在生产要素上耗费的资本价值c+v的等价物或补偿价值。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-002-12494db576",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+          "sourceRawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第一篇。第一章 成本价格和利润",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第一篇。第一章 成本价格和利润</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-002-12494db576",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+          "sourceRawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-002-12494db576",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/002.htm",
+          "sourceRawSha256": "59cd225c85d973309b017e311438759f63cf52b6ae16e1cf4fa0988b8fd0a24a",
+          "lineIndex": 12,
+          "text": "第一章 成本价格和利润",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第一章 成本价格和利润</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-003-d26b8f9c36",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二章 利润率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+      "sourceRawSha256": "822a6bb6c556558b73966449f34bd5c9096c8e22841b454abcd95a57b135f48a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:02.628885+00:00",
+        "rawSha256": "822a6bb6c556558b73966449f34bd5c9096c8e22841b454abcd95a57b135f48a",
+        "bytes": 12780
+      },
+      "localBodySha256": "5489d4a723a41cf1e9a5841b33a66fd48343b3fb24b4fc0d0449b1400fa1ab4a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-003-d26b8f9c36",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第二章 利润率",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-d26b8f9c36",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "资本的总公式是G-W-G′；这就是说，一个价值额投入流通，是为了从流通中取出一个更大的价值额。这个更大价值额的产生过程，是资本主义的生产；这个更大价值额的实现过程，是资本的流通。资本家生产商品，不是为了商品本身，不是为了商品的使用价值或他的个人消费。资本家实际关心的产品，不是可以摸得着的产品本身，而是产品的价值超过在产品上消费的资本的价值的余额。资本家预付总资本时并没有考虑它的各个组成部分在剩余价值的生产上所起的不同作用。他把这一切组成部分同样地预付出去，不仅是为了再生产预付资本，而且是为了生产一个超过预付资本的价值余额。他只有使他所预付的可变资本的价值同活劳动相交换，即对活劳动进行剥削，才能把这个价值转化为一个更大的价值。但是，他只有同时预付实现这种劳动的条件，即劳动资料和劳动对象，机器和原料，也就是说，他只有把他所占有的一个价值额转化为生产条件的形式，才能对这种劳动进行剥削；他所以是一个资本家，能完成对劳动的剥削过程，也只是因为他作为劳动条件的所有者同只是作为劳动力的占有者的工人相对立。还在前面第一卷[21]就已经指出，正是非劳动者对这种生产资料的占有，使劳动者变成雇佣工人，使非劳动者变成资本家。",
+        "资本家究竟是为了从可变资本取得利润才预付不变资本，还是为了使不变资本增殖才预付可变资本；他究竟是为了使机器和原料有更大的价值才把货币用在工资上，还是为了对劳动进行剥削才把货币预付在机器和原料上；不管人们怎样看，对资本家来说，都是无关紧要的。虽然只有可变资本部分才能创造剩余价值，但它只有在另一些部分，即劳动的生产条件也被预付的情况下，才会创造出剩余价值。因为资本家只有预付不变资本才能对劳动进行剥削，因为他只有预付可变资本才能使不变资本增殖，所以在他的心目中，这两种资本就完全混同在一起了。而且，因为他实际获利的程度不是决定于利润和可变资本的比率，而是决定于利润和总资本的比率，即不是决定于剩余价值率，而是决定于利润率，所以情形就更是这样。我们将会看到，利润率可以不变，然而它可以表示不同的剩余价值率。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-003-d26b8f9c36",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+          "sourceRawSha256": "822a6bb6c556558b73966449f34bd5c9096c8e22841b454abcd95a57b135f48a",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二章 利润率",
+          "compactLength": 17,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二章 利润率</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-003-d26b8f9c36",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+          "sourceRawSha256": "822a6bb6c556558b73966449f34bd5c9096c8e22841b454abcd95a57b135f48a",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-003-d26b8f9c36",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/003.htm",
+          "sourceRawSha256": "822a6bb6c556558b73966449f34bd5c9096c8e22841b454abcd95a57b135f48a",
+          "lineIndex": 6,
+          "text": "第二章 利润率",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二章 利润率</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-004-e1de8c1518",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三章 利润率和剩余价值率的关系",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+      "sourceRawSha256": "ff164cc7701d18ee4fc6d687541127fd8ddad01e3b508db947ffc92de16eb450",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:03.558600+00:00",
+        "rawSha256": "ff164cc7701d18ee4fc6d687541127fd8ddad01e3b508db947ffc92de16eb450",
+        "bytes": 33299
+      },
+      "localBodySha256": "a948c2244743515ffc9d9f6c9212637bdcefebbcd70b1c4b66a778ec38fa1086",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-004-e1de8c1518",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第三章 利润率和剩余价值率的关系",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-e1de8c1518",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "正如在前一章的末尾指出的那样，我们在这里，和在这个第一篇全篇一样，假定一定量的资本所取得的利润额，和这个资本在一定流通期间产生的剩余价值总额相等。因此，我们暂时撇开以下的事实：这个剩余价值一方面分成各种派生形式，即资本利息、地租、赋税等等；另一方面，在多数场合，它和按照一般平均利润率占有的利润是不一致的。关于一般平均利润率，我们将在第二篇加以讨论。",
+        "当利润和剩余价值在数量上被看作相等时，利润的大小和利润率的大小，就由在每个场合已定或可定的单纯的数量关系来决定。因此，首先要在纯粹数学的范围内进行研究。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-004-e1de8c1518",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+          "sourceRawSha256": "ff164cc7701d18ee4fc6d687541127fd8ddad01e3b508db947ffc92de16eb450",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三章 利润率和剩余价值率的关系",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三章 利润率和剩余价值率的关系</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-004-e1de8c1518",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+          "sourceRawSha256": "ff164cc7701d18ee4fc6d687541127fd8ddad01e3b508db947ffc92de16eb450",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-004-e1de8c1518",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/004.htm",
+          "sourceRawSha256": "ff164cc7701d18ee4fc6d687541127fd8ddad01e3b508db947ffc92de16eb450",
+          "lineIndex": 6,
+          "text": "第三章 利润率和剩余价值率的关系",
+          "compactLength": 15,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三章 利润率和剩余价值率的关系</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-005-bcaa378067",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四章 周转对利润率的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+      "sourceRawSha256": "84124544a4a220a8a6c77302c98b9c09a5f1adb9364edff54b4b60ac81778a24",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:04.254302+00:00",
+        "rawSha256": "84124544a4a220a8a6c77302c98b9c09a5f1adb9364edff54b4b60ac81778a24",
+        "bytes": 11472
+      },
+      "localBodySha256": "74aac195dcef1bdacdf2d352d5c781461a5f6023123b54049f6bbe06fa9d25bb",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-005-bcaa378067",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第四章 周转对利润率的影响",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-bcaa378067",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "｛周转对剩余价值的生产，从而对利润的生产的影响，已经在第二卷作了说明。这种影响可以简述如下：因为周转需要持续一段时间，所以，在生产中不能同时使用全部资本；一部分资本总是以货币资本的形式，以储存的原料的形式，以已经制成但尚未售出的商品资本的形式，或者以尚未到期的债权的形式闲置起来；在实际生产剩余价值即创造和占有剩余价值中发生作用的资本，总是要减去这个部分，而所创造和占有的剩余价值，也总是要按相同的比例减少。所以，周转时间越短，同全部资本相比，这个闲置的资本部分就越小，因此，在其他条件相同时，所占有的剩余价值也就越大。",
+        "第二卷已经详细说明，周转时间或它的两个部分（生产时间和流通时间）中的任何一个部分的缩短，都会增加所生产的剩余价值量。[27]但是，因为利润率表示的，不过是所生产的剩余价值量和参加剩余价值量生产的总资本的比率，所以，很清楚，每一次这样的缩短，都会提高利润率。我们以前在第二卷第二篇对剩余价值的阐述，同样适用于利润和利润率，没有必要在这里重复。不过，我们要着重指出几个要点。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-005-bcaa378067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+          "sourceRawSha256": "84124544a4a220a8a6c77302c98b9c09a5f1adb9364edff54b4b60ac81778a24",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四章 周转对利润率的影响",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四章 周转对利润率的影响</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-005-bcaa378067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+          "sourceRawSha256": "84124544a4a220a8a6c77302c98b9c09a5f1adb9364edff54b4b60ac81778a24",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-005-bcaa378067",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/005.htm",
+          "sourceRawSha256": "84124544a4a220a8a6c77302c98b9c09a5f1adb9364edff54b4b60ac81778a24",
+          "lineIndex": 6,
+          "text": "第四章 周转对利润率的影响",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四章 周转对利润率的影响</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-007-8d29572e84",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第六章 价格变动的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+      "sourceRawSha256": "1d8687479e85808ea5b303b83efa1fd4a66340baf057af22af33e82aacef8ec3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:05.041827+00:00",
+        "rawSha256": "1d8687479e85808ea5b303b83efa1fd4a66340baf057af22af33e82aacef8ec3",
+        "bytes": 54743
+      },
+      "localBodySha256": "1f86e87b8292b7f87d850a73926f20a48e33b816858fe20a7d53b0b883636eb8",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-007-8d29572e84",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第六章 价格变动的影响",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-8d29572e84",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．原料价格的波动及其对利润率的直接影响",
+        "在这里，也同前面一样，假定剩余价值率没有发生任何变化。为了研究纯粹状态下的情况，这个假定是必要的。不过，在剩余价值率不变的情况下，资本仍然可能由于我们在这里要考察的原料价格的波动而收缩或膨胀，以致所雇用的工人人数可能增加或减少。在这种情况下，剩余价值率不变，剩余价值量也会发生变化。不过在这里也要把这个现象作为偶然情况排除在外。如果机器的改良和原料价格的变动同时影响到一定资本所雇用的工人人数，或影响到工资的水平，那末，只要把1．不变资本的变化对利润率的影响和2．工资的变化对利润率的影响综合在一起，结论就自然可以得出。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-007-8d29572e84",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+          "sourceRawSha256": "1d8687479e85808ea5b303b83efa1fd4a66340baf057af22af33e82aacef8ec3",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第六章 价格变动的影响",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第六章 价格变动的影响</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-007-8d29572e84",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+          "sourceRawSha256": "1d8687479e85808ea5b303b83efa1fd4a66340baf057af22af33e82aacef8ec3",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-007-8d29572e84",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/007.htm",
+          "sourceRawSha256": "1d8687479e85808ea5b303b83efa1fd4a66340baf057af22af33e82aacef8ec3",
+          "lineIndex": 6,
+          "text": "第六章 价格变动的影响",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第六章 价格变动的影响</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-008-b159061714",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第七章 补充说明",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+      "sourceRawSha256": "5ffb783a9da8c1bb950448be13916cd9299cfd243faf60dd0a9069f598e69138",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:05.506446+00:00",
+        "rawSha256": "5ffb783a9da8c1bb950448be13916cd9299cfd243faf60dd0a9069f598e69138",
+        "bytes": 6356
+      },
+      "localBodySha256": "a75714c13b8931fec80e434c4c96151f3e321809f6efa33e0803b8776b574539",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-008-b159061714",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第七章 补充说明",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-b159061714",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在这一篇中，我们假定每个特殊生产部门占有的利润量，和投入这个部门的总资本所产生的剩余价值的总和相等。即使如此，资产者也不会把利润和剩余价值即无酬的剩余劳动，看作是同一的东西，其原因如下：",
+        "1．他们在流通过程中忘记了生产过程。在他们看来，商品价值的实现，――包括商品中剩余价值的实现，――就是剩余价值的生产。｛手稿中留有一个空白，表示马克思打算对这一点作进一步的说明。――弗・恩・｝"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-008-b159061714",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+          "sourceRawSha256": "5ffb783a9da8c1bb950448be13916cd9299cfd243faf60dd0a9069f598e69138",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第七章 补充说明",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第七章 补充说明</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-008-b159061714",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+          "sourceRawSha256": "5ffb783a9da8c1bb950448be13916cd9299cfd243faf60dd0a9069f598e69138",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-008-b159061714",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/008.htm",
+          "sourceRawSha256": "5ffb783a9da8c1bb950448be13916cd9299cfd243faf60dd0a9069f598e69138",
+          "lineIndex": 6,
+          "text": "第七章 补充说明",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第七章 补充说明</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-009-88e16c3c04",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+      "sourceRawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:05.933056+00:00",
+        "rawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+        "bytes": 19459
+      },
+      "localBodySha256": "4d49bb8b234373892a1b2fa3194c2b2c98a1c2a8b3dc4b1860e98b25f6d808f4",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-009-88e16c3c04",
+          "parentId": "toc-capital-v3-zh-part-2",
+          "title": "第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-88e16c3c04",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在前一篇中，除了其他方面，还论证了，在剩余价值率不变的情况下，利润率可以怎样变化，可以怎样提高或降低。在这一章中，我们假定，劳动剥削程度，从而剩余价值率和工作日的长度，在一个国家的社会劳动所分成的一切生产部门都一样大，一样高。关于不同生产部门劳动剥削上的许多差别，亚当・斯密[55]已经作了详细的论证，说明它们会通过各种实际的或人们的偏见认可的补偿理由而得到平衡，因而，它们作为只是表面的暂时的差别，在研究一般关系时不应加以考虑。另一些差别，例如工资水平的差别，大部分是以第一卷开头（第19页[56]）就提到的简单劳动和复杂劳动的差别为基础的。这些差别虽然会使不同生产部门的工人的命运很不一样，但决不会影响这些不同部门的劳动剥削程度。例如，如果金匠的劳动报酬高于短工的劳动报酬，那末，金匠的剩余劳动所创造的剩余价值，也会按相同的比例大于短工的剩余劳动所创造的剩余价值。即使工资和工作日，从而剩余价值率在不同生产部门之间甚至在同一生产部门的不同投资之间的平均化，会因各种地区性障碍而受到阻挠，可是随着资本主义生产的进步，随着一切经济关系服从于这种生产方式，这种平均化会日益形成。不管关于这些阻力的研究对于专门研究工资的著作来说多么重要，但在对资本主义生产进行一般研究的时候，可以把这些阻力看作偶然的和非本质的东西而搁在一边。在进行这种一般研究的时候，我们总是假定，各种现实关系是同它们的概念相符合的，或者说，所描述的各种现实关系只是表现它们自身的一般类型的。",
+        "不同国家的剩余价值率的差别，也就是说，各国劳动剥削程度的差别，对于我们当前的研究是毫无意义的。我们在这一篇中要说明的恰恰是，一般利润率在一个国家内是通过什么方式形成的。但是很清楚，在比较不同国家的利润率时，我们只要把前面说明过的东西和这里要说明的东西加以对照就行了。首先我们应当考察各国剩余价值率的差别，然后在这些已知的剩余价值率的基础上，比较各国利润率的差别。如果各国利润率的差别不是由各国剩余价值率的差别引起的，那末，这种差别一定是由这样一些情况造成的，这些情况，就象在本章的研究中所作的那样，都是以剩余价值相等、不变为前提的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-009-88e16c3c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+          "sourceRawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二篇。第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别",
+          "compactLength": 44,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二篇。第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-009-88e16c3c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+          "sourceRawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-009-88e16c3c04",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/009.htm",
+          "sourceRawSha256": "ff31fa61ffb623829c1afb03b71c42e321222273e32f46709613ce3d18bc40d6",
+          "lineIndex": 12,
+          "text": "第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别",
+          "compactLength": 29,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第八章 不同生产部门的资本的不同构成和由此引起的利润率的差别</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-011-daa9cc80b0",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十章 一般利润率通过竞争而平均化。市场价格和市场价值。超额利润",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+      "sourceRawSha256": "645e1455c08aeb5b563f43efddb29742450c9a1c64e833b9103e9c74056c9c27",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:06.711424+00:00",
+        "rawSha256": "645e1455c08aeb5b563f43efddb29742450c9a1c64e833b9103e9c74056c9c27",
+        "bytes": 45019
+      },
+      "localBodySha256": "b4315fcda1d485f9b40fa1e61b9f37d100af1aa7054c579272db57c68470f181",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-011-daa9cc80b0",
+          "parentId": "toc-capital-v3-zh-part-2",
+          "title": "第十章 一般利润率通过竞争而平均化。市场价格和市场价值。超额利润",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-daa9cc80b0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "市场价格和市场价值。超额利润",
+        "一部分生产部门具有资本的中等构成或平均构成，也就是说，这部分生产部门的资本的构成完全是或接近于社会平均资本的构成。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-011-daa9cc80b0",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+          "sourceRawSha256": "645e1455c08aeb5b563f43efddb29742450c9a1c64e833b9103e9c74056c9c27",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十章 一般利润率通过竞争而平均化。市场价格和市场价值。超额利润",
+          "compactLength": 42,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十章 一般利润率通过竞争而平均化。市场价格和市场价值。超额利润</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-011-daa9cc80b0",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+          "sourceRawSha256": "645e1455c08aeb5b563f43efddb29742450c9a1c64e833b9103e9c74056c9c27",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-011-daa9cc80b0",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/011.htm",
+          "sourceRawSha256": "645e1455c08aeb5b563f43efddb29742450c9a1c64e833b9103e9c74056c9c27",
+          "lineIndex": 6,
+          "text": "第十章 一般利润率通过竞争而平均化。",
+          "compactLength": 17,
+          "status": "reviewed_root_title_br_split",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十章 一般利润率通过竞争而平均化。<br/>\r\n市场价格和市场价值。超额利润</p>"
+          ],
+          "reason": "完整章根P在BR处分行，候选是第一行；现有章节栏／章目录完整显示标题。第二行在旧首段仍保留，沿用旧段落，不重复插入第一行。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-012-7678d2dd8d",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十一章 工资的一般变动对生产价格的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+      "sourceRawSha256": "1863266e9f2ddfe2948d6d71a641287293ef505833dba745c0069e7e70f4c8a3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:07.355687+00:00",
+        "rawSha256": "1863266e9f2ddfe2948d6d71a641287293ef505833dba745c0069e7e70f4c8a3",
+        "bytes": 9283
+      },
+      "localBodySha256": "98696220ed58897284f02dd3011c68ebc7dbbe5c3ea83a1cd726c843de2ee9f0",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-012-7678d2dd8d",
+          "parentId": "toc-capital-v3-zh-part-2",
+          "title": "第十一章 工资的一般变动对生产价格的影响",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-7678d2dd8d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "假定社会资本的平均构成是80c＋20v，利润是20％。在这种情况下，剩余价值率就是100％。假定其他一切条件相同，工资的一般提高就是剩余价值率的降低。对平均资本来说，利润和剩余价值是一致的。假定工资提高25％。以前花费20来推动的劳动量，现在就要花费25。因此，一次周转的价值以前是80c＋20v＋20p，现在是80c＋25v＋15p。可变资本推动的劳动和以前一样，生产一个40的价值额。现在v由20增加到25，所以余额m或p只＝15。利润15，按105计算，等于14 2/7％，这是新的平均利润率。因为平均资本生产的商品的生产价格是和它们的价值一致的，所以这种商品的生产价格不变；因此，工资的提高，虽然引起利润的降低，但不会引起商品价值和价格的变动。",
+        "以前，当平均利润＝20％时，一个周转期间所生产的商品的生产价格，等于它们的成本价格加上按这个成本价格计算的20％的利润，也就是＝k＋kp′＝k＋20k/100。在这里，k是一个可变量，随着加入商品的生产资料的价值不同而不同，并且随着生产商品所使用的固定资本转移到产品中去的损耗量不同而不同。现在，生产价格是k＋[14 2/7k/100]。"
+      ],
+      "nativeNoteCount": 3,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-012-7678d2dd8d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+          "sourceRawSha256": "1863266e9f2ddfe2948d6d71a641287293ef505833dba745c0069e7e70f4c8a3",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十一章 工资的一般变动对生产价格的影响",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十一章 工资的一般变动对生产价格的影响</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-012-7678d2dd8d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+          "sourceRawSha256": "1863266e9f2ddfe2948d6d71a641287293ef505833dba745c0069e7e70f4c8a3",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-012-7678d2dd8d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/012.htm",
+          "sourceRawSha256": "1863266e9f2ddfe2948d6d71a641287293ef505833dba745c0069e7e70f4c8a3",
+          "lineIndex": 6,
+          "text": "第十一章 工资的一般变动对生产价格的影响",
+          "compactLength": 19,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十一章 工资的一般变动对生产价格的影响</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-013-5ea340b8b5",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十二章 补充说明",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+      "sourceRawSha256": "cff35695fd1fe550588e660de651f59b0b26b7a05d0b70b9bb07dde8aee9452f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:07.813475+00:00",
+        "rawSha256": "cff35695fd1fe550588e660de651f59b0b26b7a05d0b70b9bb07dde8aee9452f",
+        "bytes": 9807
+      },
+      "localBodySha256": "4ae10839debf594568c459ed90a67588638bb9febd4ff13b24f6054de306df8b",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-013-5ea340b8b5",
+          "parentId": "toc-capital-v3-zh-part-2",
+          "title": "第十二章 补充说明",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-5ea340b8b5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．引起生产价格变化的原因",
+        "一个商品的生产价格发生变化，只能由于两个原因："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-013-5ea340b8b5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+          "sourceRawSha256": "cff35695fd1fe550588e660de651f59b0b26b7a05d0b70b9bb07dde8aee9452f",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十二章 补充说明",
+          "compactLength": 19,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十二章 补充说明</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-013-5ea340b8b5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+          "sourceRawSha256": "cff35695fd1fe550588e660de651f59b0b26b7a05d0b70b9bb07dde8aee9452f",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-013-5ea340b8b5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/013.htm",
+          "sourceRawSha256": "cff35695fd1fe550588e660de651f59b0b26b7a05d0b70b9bb07dde8aee9452f",
+          "lineIndex": 6,
+          "text": "第十二章 补充说明",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十二章 补充说明</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-014-970c655271",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十三章 规律本身",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+      "sourceRawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:08.252247+00:00",
+        "rawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+        "bytes": 33606
+      },
+      "localBodySha256": "e64471233d85798007fc01453f903bcabaa9275b76255e9c207ae3daf02ef052",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-014-970c655271",
+          "parentId": "toc-capital-v3-zh-part-3",
+          "title": "第十三章 规律本身",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-970c655271",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在工资和工作日已定时，一个可变资本，例如100，代表着一定数目的被推动的工人；它就是这个人数的指数。例如，假定100镑是100个工人一周的工资。如果这100个工人所完成的必要劳动和剩余劳动一样多，也就是说，如果他们每天为自己劳动的时间，即再生产他们的工资的时间，和他们为资本家劳动的时间，即生产剩余价值的时间一样多，那末，他们的总价值产品就＝200镑，他们生产的剩余价值则是100镑。剩余价值率m/v就＝100％。但是我们已经知道，这个剩余价值率由于不变资本c的大小不等，从而由于总资本C的大小不等，会表现为极不相同的利润率，因为利润率＝m/C。假定剩余价值率为100％：",
+        "如果c＝50，v＝100，那末p′＝100/150＝[66+（2/3）］％；"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-014-970c655271",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+          "sourceRawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三篇 利润率趋向下降的规律。第十三章 规律本身",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三篇 利润率趋向下降的规律。第十三章 规律本身</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-014-970c655271",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+          "sourceRawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-014-970c655271",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/014.htm",
+          "sourceRawSha256": "b629496fa91a774242b6a2e4e86a123909f0363f77506bb940e334da6a126979",
+          "lineIndex": 11,
+          "text": "第十三章 规律本身",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十三章 规律本身</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-015-54243a7b09",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十四章 起反作用的各种原因",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+      "sourceRawSha256": "67fbbc031f953247f3b5fc4a469ff592b44c26df1c802a70aeef90c08e692bff",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:08.728691+00:00",
+        "rawSha256": "67fbbc031f953247f3b5fc4a469ff592b44c26df1c802a70aeef90c08e692bff",
+        "bytes": 14525
+      },
+      "localBodySha256": "0fdd724341a5ee2022cdc5223afd41aea697adad580263d89aa1e10f22cef9f1",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-015-54243a7b09",
+          "parentId": "toc-capital-v3-zh-part-3",
+          "title": "第十四章 起反作用的各种原因",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-54243a7b09",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "如果我们考虑到，同以往的一切时期相比，仅仅最近三十年间社会劳动生产力有了巨大的发展；特别是，如果我们考虑到，除了真正的机器，又有大量的固定资本加入社会生产过程的总体，那末，一向使经济学家感到麻烦的困难，即说明利润率下降，就会让位给相反的困难，即说明这种下降为什么不更大、更快。必然有某些起反作用的影响在发生作用，来阻挠和抵销这个一般规律的作用，使它只有趋势的性质，因此，我们也就把一般利润率的下降叫作趋向下降。下面就是这些原因中最普遍的原因：",
+        "Ⅰ．劳动剥削程度的提高"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-015-54243a7b09",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+          "sourceRawSha256": "67fbbc031f953247f3b5fc4a469ff592b44c26df1c802a70aeef90c08e692bff",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十四章 起反作用的各种原因",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十四章 起反作用的各种原因</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-015-54243a7b09",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+          "sourceRawSha256": "67fbbc031f953247f3b5fc4a469ff592b44c26df1c802a70aeef90c08e692bff",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-015-54243a7b09",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/015.htm",
+          "sourceRawSha256": "67fbbc031f953247f3b5fc4a469ff592b44c26df1c802a70aeef90c08e692bff",
+          "lineIndex": 6,
+          "text": "第十四章 起反作用的各种原因",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十四章 起反作用的各种原因</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-016-566fac3c5b",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十五章 规律的内部矛盾的展开",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+      "sourceRawSha256": "3e2330f45dcbcb3a327fb492dbf2c92f25a68ba59d7d219a5d3fff9ccecf07a1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:09.679263+00:00",
+        "rawSha256": "3e2330f45dcbcb3a327fb492dbf2c92f25a68ba59d7d219a5d3fff9ccecf07a1",
+        "bytes": 45284
+      },
+      "localBodySha256": "a3ce2934434466605c8bbc4cac6f9b8ad327984bf2389cb36b2bc418d63ae079",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-016-566fac3c5b",
+          "parentId": "toc-capital-v3-zh-part-3",
+          "title": "第十五章 规律的内部矛盾的展开",
+          "type": "CHAPTER",
+          "order": 15,
+          "chapterId": "chapter-016-566fac3c5b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-16"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．概论",
+        "我们在本卷第一篇已经看到，用利润率来表现剩余价值率总是比剩余价值率本身低。现在我们看到，甚至提高的剩余价值率也具有表现为下降的利润率的趋势。只有c＝0，就是说，只有全部资本都投在工资上，利润率才等于剩余价值率。只有不变资本的价值和推动它的劳动力的量之间的比例保持不变，或者这种劳动力的量同不变资本的价值相比已经增加，下降的利润率才表现下降的剩余价值率。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-016-566fac3c5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+          "sourceRawSha256": "3e2330f45dcbcb3a327fb492dbf2c92f25a68ba59d7d219a5d3fff9ccecf07a1",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十五章 规律的内部矛盾的展开",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十五章 规律的内部矛盾的展开</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-016-566fac3c5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+          "sourceRawSha256": "3e2330f45dcbcb3a327fb492dbf2c92f25a68ba59d7d219a5d3fff9ccecf07a1",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-016-566fac3c5b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/016.htm",
+          "sourceRawSha256": "3e2330f45dcbcb3a327fb492dbf2c92f25a68ba59d7d219a5d3fff9ccecf07a1",
+          "lineIndex": 6,
+          "text": "第十五章 规律的内部矛盾的展开",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十五章 规律的内部矛盾的展开</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-017-a880711391",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十六章 商品经营资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+      "sourceRawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:10.313965+00:00",
+        "rawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+        "bytes": 21746
+      },
+      "localBodySha256": "50332813be859e9dfa797208902007e7602b2742391d4e3411a1c83bd481250f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-017-a880711391",
+          "parentId": "toc-capital-v3-zh-part-4",
+          "title": "第十六章 商品经营资本",
+          "type": "CHAPTER",
+          "order": 16,
+          "chapterId": "chapter-017-a880711391",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-17"
+        }
+      ],
+      "localFirstParagraphs": [
+        "商品经营资本和货币经营资本（商人资本）",
+        "第四篇。第十六章 商品经营资本"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-017-a880711391",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+          "sourceRawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四篇 商品资本和货币资本转化为商品经营资本和货币经营资本（商人资本）",
+          "compactLength": 45,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四篇 商品资本和货币资本转化为商品经营资本和货币经营资本（商人资本）</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-017-a880711391",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/017.htm",
+          "sourceRawSha256": "af3d97aee255ecfa0f48ae4d9a4addfffa6af3d43f7067507f6f6fe4567d94dd",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-018-82f2f7b940",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十七章 商业利润",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+      "sourceRawSha256": "b09786338f10b7ac0b0fef867471f6d44c242415324202abf9d3bb237f8eb897",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:11.093169+00:00",
+        "rawSha256": "b09786338f10b7ac0b0fef867471f6d44c242415324202abf9d3bb237f8eb897",
+        "bytes": 34498
+      },
+      "localBodySha256": "a10828d7222dcfac6bf62873e318d40a0b943ae995cf79838ce9d0cce3d3436a",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-018-82f2f7b940",
+          "parentId": "toc-capital-v3-zh-part-4",
+          "title": "第十七章 商业利润",
+          "type": "CHAPTER",
+          "order": 17,
+          "chapterId": "chapter-018-82f2f7b940",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-18"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经在第二卷[89]看到，资本在流通领域内的纯粹职能，――产业资本家首先为了实现他的商品的价值，其次为了把这个价值再转化为商品的生产要素所必须进行的活动，对商品资本的形态变化W′―G―W起中介作用的活动，也就是卖和买的行为，――既不生产价值，也不生产剩余价值。相反，那里已经说明，为此所需要的时间，客观上对商品来说，主观上对资本家来说，都对价值和剩余价值的生产形成界限。关于商品资本自身的形态变化所说的话，当然不会因为商品资本的一部分取得商品经营资本的形态而发生任何变化，也不会因为对商品资本的形态变化起中介作用的活动表现为特殊种类资本家的特殊业务，或表现为一部分货币资本的专门职能，而发生任何变化。如果商品的卖和买，――商品资本的形态变化W′―G―W总是归结为这种行为，――是由产业资本家自己进行的、不创造价值或剩余价值的活动，那末它们也不可能因为由别的人而不是由产业资本家来完成，就成为创造价值和剩余价值的活动。其次，如果社会总资本的一部分必须不断作为货币资本可供支配，以便再生产过程不致为流通过程所中断，能继续进行，而这部分货币资本既不创造价值，也不创造剩余价值，那末，即使它不是由产业资本家，而是由另一种资本家为完成同样的职能不断投入流通中去，它也不能由此获得这种属性。至于商人资本在多大程度上能够起间接生产的作用，这个问题我们在上面已经提到，以后还要作进一步的说明。",
+        "可见，商品经营资本，――撇开各种各样可能与此有关的职能，如保管、运送、运输、分类、散装等，只说它的真正的为卖而买的职能，――既不创造价值，也不创造剩余价值，它只是对它们的实现起中介作用，因而同时也对商品的实际交换，对商品从一个人手里到另一个人手里的转让，对社会的物质变换起中介作用。但是，因为产业资本的流通阶段，和生产一样，形成再生产过程的一个阶段，所以在流通过程中独立地执行职能的资本，也必须和在不同生产部门中执行职能的资本一样，提供年平均利润。如果商人资本比产业资本提供百分比更高的平均利润，那末，一部分产业资本就会转化为商人资本。如果商人资本提供更低的平均利润，那末就会发生相反的过程。一部分商人资本就会转化为产业资本。没有哪一种资本比商人资本更容易改变自己的用途，更容易改变自己的职能了。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-018-82f2f7b940",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+          "sourceRawSha256": "b09786338f10b7ac0b0fef867471f6d44c242415324202abf9d3bb237f8eb897",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十七章 商业利润",
+          "compactLength": 19,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十七章 商业利润</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-018-82f2f7b940",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+          "sourceRawSha256": "b09786338f10b7ac0b0fef867471f6d44c242415324202abf9d3bb237f8eb897",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-018-82f2f7b940",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/018.htm",
+          "sourceRawSha256": "b09786338f10b7ac0b0fef867471f6d44c242415324202abf9d3bb237f8eb897",
+          "lineIndex": 6,
+          "text": "第十七章 商业利润",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十七章 商业利润</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-019-4b9f0ecfee",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十八章 商人资本的周转。价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+      "sourceRawSha256": "1aeeffc5563f6107bb6f8374a56c2eb13c8d1d30361c1de1cfe598637e3e4143",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:11.367136+00:00",
+        "rawSha256": "1aeeffc5563f6107bb6f8374a56c2eb13c8d1d30361c1de1cfe598637e3e4143",
+        "bytes": 20485
+      },
+      "localBodySha256": "6aba4b35c4f032c0347e52f7226bce2f0da3cadfc9752d73a46d65f396f7735c",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-019-4b9f0ecfee",
+          "parentId": "toc-capital-v3-zh-part-4",
+          "title": "第十八章 商人资本的周转。价格",
+          "type": "CHAPTER",
+          "order": 18,
+          "chapterId": "chapter-019-4b9f0ecfee",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-19"
+        }
+      ],
+      "localFirstParagraphs": [
+        "产业资本的周转，是它的生产时间和流通时间的统一，因此包括整个生产过程。与此相反，商人资本的周转，因为事实上只是商品资本的独立化的运动，所以只是代表商品形态变化的第一阶段W―G，即一种特殊资本流回起点的运动；从商人的观点来看，G―W，W―G才是商人资本的周转。商人先是买，把他的货币转化为商品，然后是卖，把同一商品再转化为货币；并且这样反复不断地进行下去。在流通中，产业资本的形态变化总是表现为W1―G―W2；从出售所生产的商品W1得到的货币，用来购买新的生产资料W2；这实际上是W1和W2相交换，因此，同一货币两次转手。货币的运动对两种不同商品W1和W2的交换起中介作用。相反地，在商人那里，在G―W―G′中两次转手的，却是同一商品；它只是对货币流回到商人手中起中介作用。",
+        "例如，有一个商人资本100镑，商人用这100镑购买商品，然后按110镑把这个商品卖掉，他的这个资本100就完成了一次周转，而一年中周转的次数则取决于G―W―G′这个运动在一年中反复进行的次数。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-019-4b9f0ecfee",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+          "sourceRawSha256": "1aeeffc5563f6107bb6f8374a56c2eb13c8d1d30361c1de1cfe598637e3e4143",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十八章 商人资本的周转。价格",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十八章 商人资本的周转。价格</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-019-4b9f0ecfee",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+          "sourceRawSha256": "1aeeffc5563f6107bb6f8374a56c2eb13c8d1d30361c1de1cfe598637e3e4143",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-019-4b9f0ecfee",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/019.htm",
+          "sourceRawSha256": "1aeeffc5563f6107bb6f8374a56c2eb13c8d1d30361c1de1cfe598637e3e4143",
+          "lineIndex": 6,
+          "text": "第十八章 商人资本的周转。价格",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十八章 商人资本的周转。价格</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-020-3401d2c274",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第十九章 货币经营资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+      "sourceRawSha256": "45c88efbd690b9c19d35ca2b5c59b54cdc5a18f67af3a313e56964426b3edc23",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:11.708402+00:00",
+        "rawSha256": "45c88efbd690b9c19d35ca2b5c59b54cdc5a18f67af3a313e56964426b3edc23",
+        "bytes": 13665
+      },
+      "localBodySha256": "6fb629430d351271a067732e31a2e5b842738f7dfb7660524bd79d0c20be5014",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-020-3401d2c274",
+          "parentId": "toc-capital-v3-zh-part-4",
+          "title": "第十九章 货币经营资本",
+          "type": "CHAPTER",
+          "order": 19,
+          "chapterId": "chapter-020-3401d2c274",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-20"
+        }
+      ],
+      "localFirstParagraphs": [
+        "货币在产业资本和现在我们可以补充进来的商品经营资本的流通过程中（因为商品经营资本承担了产业资本的一部分流通运动，并把它当作自己的特有的运动）所完成的各种纯粹技术性的运动，当它们独立起来，成为一种特殊资本的职能，而这种资本把它们并且只把它们当作自己特有的活动来完成的时候，就把这种资本转化为货币经营资本了。产业资本的一部分，确切些说，还有商品经营资本的一部分，不仅要作为一般货币资本，而且要作为正在执行这些技术职能的货币资本，不断处于货币形式。现在，一定的部分从总资本中分离出来，并在这样一种货币资本的形式上独立起来，这种货币资本的资本主义职能，是专门替整个产业资本家和商业资本家阶级完成这些活动。就象在商品经营资本的场合一样，这里也是在流通过程中以货币资本形态存在的一部分产业资本分离出来，替其余的全部资本完成再生产过程中的这些活动。所以，这种货币资本的运动，仍然不过是处在自己的再生产过程中的产业资本的一个独立部分的运动。",
+        "只有而且只是在资本新投入的时候，――在积累的场合，情况也是这样，――货币形式的资本才表现为运动的起点和终点。但对每一个已经处在过程中的资本来说，起点和终点都只表现为经过点。既然产业资本从离开生产领域到再进入生产领域必须通过形态变化W′―G―W，那正象我们在考察简单商品流通时已经指出的那样，G实际上就是形态变化的一个阶段的最终结果，目的是为了成为一个相反的、作为前一阶段的补充的阶段的起点。虽然产业资本的W―G对商业资本来说总是表现为G―W―G，但是对一个已经发生作用的商业资本来说，现实的过程总是W―G―W。不过，商业资本要同时完成W―G和G―W这两种行为。也就是说，不仅一个资本处在W―G阶段，而另一个资本处在G―W阶段，而且同一资本由于生产过程的连续性，同时不断地买和不断地卖；它总是同时不断地处在这两个阶段上。当这个资本的一部分转化为货币，以便随后再转化为商品时，它的另一个部分同时转化为商品，以便再转化为货币。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-020-3401d2c274",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+          "sourceRawSha256": "45c88efbd690b9c19d35ca2b5c59b54cdc5a18f67af3a313e56964426b3edc23",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第十九章 货币经营资本",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第十九章 货币经营资本</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-020-3401d2c274",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+          "sourceRawSha256": "45c88efbd690b9c19d35ca2b5c59b54cdc5a18f67af3a313e56964426b3edc23",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-020-3401d2c274",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/020.htm",
+          "sourceRawSha256": "45c88efbd690b9c19d35ca2b5c59b54cdc5a18f67af3a313e56964426b3edc23",
+          "lineIndex": 6,
+          "text": "第十九章 货币经营资本",
+          "compactLength": 10,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第十九章 货币经营资本</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-021-01f95878d2",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十章 关于商人资本的历史考察",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+      "sourceRawSha256": "000df181bb6ed0eca6fc79eb29ddf1ea2131fb8434772a8b779dd441eb2c82b0",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:12.074854+00:00",
+        "rawSha256": "000df181bb6ed0eca6fc79eb29ddf1ea2131fb8434772a8b779dd441eb2c82b0",
+        "bytes": 27560
+      },
+      "localBodySha256": "7640a8397fb27bfb10512eee2d7a6dca56139a110e80cb58a3f01217f2c6ab76",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-021-01f95878d2",
+          "parentId": "toc-capital-v3-zh-part-4",
+          "title": "第二十章 关于商人资本的历史考察",
+          "type": "CHAPTER",
+          "order": 20,
+          "chapterId": "chapter-021-01f95878d2",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-21"
+        }
+      ],
+      "localFirstParagraphs": [
+        "商品经营资本和货币经营资本的货币积累的特殊形式，我们要在下一篇才考察。",
+        "从以上的说明自然可以得出结论说，最荒唐的看法莫过于把商人资本――不管它以商品"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-021-01f95878d2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+          "sourceRawSha256": "000df181bb6ed0eca6fc79eb29ddf1ea2131fb8434772a8b779dd441eb2c82b0",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十章 关于商人资本的历史考察",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十章 关于商人资本的历史考察</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-021-01f95878d2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+          "sourceRawSha256": "000df181bb6ed0eca6fc79eb29ddf1ea2131fb8434772a8b779dd441eb2c82b0",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-021-01f95878d2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/021.htm",
+          "sourceRawSha256": "000df181bb6ed0eca6fc79eb29ddf1ea2131fb8434772a8b779dd441eb2c82b0",
+          "lineIndex": 6,
+          "text": "第二十章 关于商人资本的历史考察",
+          "compactLength": 15,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十章 关于商人资本的历史考察</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-022-60692f75ac",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十一章 生息资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+      "sourceRawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:12.727389+00:00",
+        "rawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+        "bytes": 34145
+      },
+      "localBodySha256": "01e8f5e8f1919d69280b408b66bc34f510528092693b2c327949f4baf57f7888",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-022-60692f75ac",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十一章 生息资本",
+          "type": "CHAPTER",
+          "order": 21,
+          "chapterId": "chapter-022-60692f75ac",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-22"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在最初考察一般利润率或平均利润率时（本卷第2篇），这个利润率还不是在它的完成形态上出现在我们面前，因为平均化还只表现为投在不同部门的产业资本之间的平均化。这种情况已经在上一篇得到补充。在那里，我们说明了商业资本如何参加这个平均化，并且说明了商业利润。这样，一般利润率和平均利润就表现在比以前狭窄的范围内了。在阐述的过程中，以后凡是说到一般利润率或平均利润的地方，要注意我们总是就后一种意义而言，即只是就平均利润率的完成形态而言。因为这种利润率现在对产业资本和商业资本来说是相同的，所以，在只考察这个平均利润的时候，就不再需要区分产业利润和商业利润了。不管资本是作为产业资本投在生产领域内，还是作为商业资本投在流通领域内，它都会按照它的数量比例，提供相同的年平均利润。",
+        "货币――在这里它被看作一个价值额的独立表现，而不管这个价值额实际上以货币形式还是以商品形式存在――在资本主义生产的基础上能转化为资本，并通过这种转化，由一个一定的价值变为一个自行增殖、自行增加的价值。它会生产利润，也就是说，使资本家能够从工人那里榨出一定量的无酬劳动，剩余产品和剩余价值，并把它据为己有。这样，货币除了作为货币具有的使用价值以外，又取得了一种追加的使用价值，即作为资本来执行职能的使用价值。在这里，它的使用价值正在于它转化为资本而生产的利润。就它作为可能的资本，作为生产利润的手段的这种属性来说，它变成了商品，不过是一种特别的商品。或者换一种说法，资本作为资本，变成了商品。［注：在这里，可以引用几段话，来说明经济学家正是这样考虑问题的。――“您〈英格兰银行〉是经营资本商品的大商人吗？”这个问题是对该行的一位董事提出的，见《银行法报告》（下院1857年［第104页］）的证人质问。］"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-022-60692f75ac",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+          "sourceRawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第五篇。第二十一章 生息资本",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第五篇。第二十一章 生息资本</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-022-60692f75ac",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+          "sourceRawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-022-60692f75ac",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/022.htm",
+          "sourceRawSha256": "b62ae33235b4c5e2b6bbb00699e80480876c80487bd91a1ea0f24b9bf83a8dcf",
+          "lineIndex": 12,
+          "text": "第二十一章 生息资本",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十一章 生息资本</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-023-37540f299b",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十二章 利润的分割。利息率。“自然”利息率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+      "sourceRawSha256": "d952bcd03baecfc9b8832df6f204e596fdbb1c3780bfaf5b8af58a45a2379d53",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:12.991127+00:00",
+        "rawSha256": "d952bcd03baecfc9b8832df6f204e596fdbb1c3780bfaf5b8af58a45a2379d53",
+        "bytes": 21847
+      },
+      "localBodySha256": "c0663219c89349c933718d34893e5c7bd02a6ceafe857043f55a6f152eec971d",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-023-37540f299b",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十二章 利润的分割。利息率。“自然”利息率",
+          "type": "CHAPTER",
+          "order": 22,
+          "chapterId": "chapter-023-37540f299b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-23"
+        }
+      ],
+      "localFirstParagraphs": [
+        "这一章研究的对象，和所有要在以后说明的信用现象一样，不能在这里详细探讨。贷出者和借入者之间的竞争以及货币市场上由此造成的短暂变动，都不属于我们考察的范围。要说明利息率在产业周期中通过的循环，必须先说明产业周期本身，但这种说明同样不能在这里进行。世界市场上利息率或大或小的、近似的平均化，也不能在这里说明。我们要在这里研究的，只是生息资本的独立形态和利息从利润中独立出来的过程。",
+        "因为利息只是利润的一部分，按照我们以上的假定，这个部分要由产业资本家支付给货币资本家，所以，利润本身就成为利息的最高界限，达到这个最高界限，归执行职能的资本家的部分就会＝0。撇开利息事实上大于利润，因而不能用利润支付的个别情况不说，我们也许还可以把全部利润减去其中可以归结为监督工资的部分（这部分我们以后加以说明）的余额，看作是利息的最高界限。利息的最低界限则完全无法规定。它可以下降到任何程度。不过这时候，总会出现起反作用的情况，使它提高到这个相对的最低限度以上。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-023-37540f299b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+          "sourceRawSha256": "d952bcd03baecfc9b8832df6f204e596fdbb1c3780bfaf5b8af58a45a2379d53",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十二章 利润的分割。利息率。“自然”利息率",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十二章 利润的分割。利息率。“自然”利息率</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-023-37540f299b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+          "sourceRawSha256": "d952bcd03baecfc9b8832df6f204e596fdbb1c3780bfaf5b8af58a45a2379d53",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-023-37540f299b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/023.htm",
+          "sourceRawSha256": "d952bcd03baecfc9b8832df6f204e596fdbb1c3780bfaf5b8af58a45a2379d53",
+          "lineIndex": 6,
+          "text": "第二十二章 利润的分割。利息率。“自然”利息率",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十二章 利润的分割。利息率。“自然”利息率</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-024-bb7e608f92",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十三章 利息和企业主收入",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+      "sourceRawSha256": "5978bbf201630fd2ef40ac2e082cb06d6aef66db4951e9511bd6cc2fa110e12f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:13.684973+00:00",
+        "rawSha256": "5978bbf201630fd2ef40ac2e082cb06d6aef66db4951e9511bd6cc2fa110e12f",
+        "bytes": 36585
+      },
+      "localBodySha256": "490d53b28bd34e7ebe7c5c48b2f51f799dea81aa113da41e9ad06e2bb7f898d7",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-024-bb7e608f92",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十三章 利息和企业主收入",
+          "type": "CHAPTER",
+          "order": 23,
+          "chapterId": "chapter-024-bb7e608f92",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-24"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在上两章已经看到，利息最初表现为、最初是、并且实际上始终不外是利润即剩余价值的一部分，这部分是执行职能的资本家，即产业家或商人，在他不是使用自有的资本而是使用借入的资本时，必须支付给这个资本的所有者和贷出者的。如果他只使用自有的资本，利润的这种分割就不会发生；利润就会全部归他所有。事实上，如果资本的所有者亲自把资本用于再生产过程，他们也就不会参与决定利息率的竞争。这一点已经可以说明，利息的范畴（没有利息率的决定，就不可能有这个范畴）同产业资本本身的运动无关。",
+        "“利息率的定义可以表述为：它是贷出者同意接受的、并且是借入者为在一年内或任何一个或长或短的期间内使用一定数额货币资本而支付的比例金额……如果资本的所有者亲自把资本用于再生产，他就不能算在这样一种资本家里面，这种资本家和借入者人数之间的比例决定利息率。”（托・图克《价格和流通状况的历史》1838年伦敦版第2卷第355、356页）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-024-bb7e608f92",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+          "sourceRawSha256": "5978bbf201630fd2ef40ac2e082cb06d6aef66db4951e9511bd6cc2fa110e12f",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十三章 利息和企业主收入",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十三章 利息和企业主收入</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-024-bb7e608f92",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+          "sourceRawSha256": "5978bbf201630fd2ef40ac2e082cb06d6aef66db4951e9511bd6cc2fa110e12f",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-024-bb7e608f92",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/024.htm",
+          "sourceRawSha256": "5978bbf201630fd2ef40ac2e082cb06d6aef66db4951e9511bd6cc2fa110e12f",
+          "lineIndex": 6,
+          "text": "第二十三章 利息和企业主收入",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十三章 利息和企业主收入</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-025-d8120af4f4",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十四章 资本关系在生息资本形式上的外表化",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+      "sourceRawSha256": "99a52cb1f75e93a12c4084ba2fcb079d04364fffade7e647085c118a089e2d4b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:14.145130+00:00",
+        "rawSha256": "99a52cb1f75e93a12c4084ba2fcb079d04364fffade7e647085c118a089e2d4b",
+        "bytes": 16665
+      },
+      "localBodySha256": "2502b76036aae1abcabaeb24cfaed5dc896b6bec9fdfdce398f187bedaeb08bf",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-025-d8120af4f4",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十四章 资本关系在生息资本形式上的外表化",
+          "type": "CHAPTER",
+          "order": 24,
+          "chapterId": "chapter-025-d8120af4f4",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-25"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在生息资本上，资本关系取得了最表面、最富有拜物教性质的形式。在这里，我们看到的是G―G′，是生产更多货币的货币，是没有在两极间起中介作用的过程而自行增殖的价值。在商人资本G―W―G′上，至少还存在着资本主义运动的一般形式，虽然这种运动只处在流通领域内，因而利润只表现为让渡利润；但不管怎样，利润仍然表现为一种社会关系的产物，而不是表现为单纯的物的产物。商人资本的形式，仍然表现一个过程，表现两个相反阶段的统一，表现一种分为两个相反行为即商品的买和卖的运动。在G―G′这个生息资本的形式上，这种运动就消失不见了。例如，资本家贷出1000镑，利息率为5％，作为资本的这1000镑的价值在一年内＝C十Cz′；在这里，C代表资本，z′代表利息率，因而这5％＝5/100＝1/20，1000＋1000×1/20＝1050镑。作为资本的1000镑的价值＝1050镑，就是说，资本不是一个简单的量。它是一个数量关系，是作为一定价值的本金同作为自行增殖的价值的自身，同作为已经生产剩余价值的本金的关系。我们已经说过，对一切能动资本家来说，不管他们是用自有的资本还是用借入的资本执行职能，资本本身总是表现为这种会直接自行增殖的价值。",
+        "G―G′。在这里，我们看到资本的最初起点，G―W―G′公式中的货币，这个公式已归结为两极G―G′（G′＝G十△G），即创造更多货币的货币。这是被缩简成了没有意义的简化式的资本最初的一般公式。这是一个已经完成的资本，是生产过程和流通过程的统一，因而是一个在一定期间内提供一定剩余价值的资本。但在生息资本的形式上，这种性质是直接地表现出来的，没有任何生产过程或流通过程作媒介。资本表现为利息的即资本自身增殖的神秘的、自行创造的源泉。现在，物（货币、商品、价值）作为单纯的物已经是资本，资本也表现为单纯的物；总再生产过程的结果表现为物自身具有的属性；究竟是把货币作为货币支出，还是把货币作为资本贷出，取决于货币所有者，即处在随时可以进行交换的形式上的商品的所有者。因此，在生息资本上，这个自动的拜物教，即自行增殖的价值，会生出货币的货币，就纯粹地表现出来了，并且在这个形式上再也看不到它的起源的任何痕迹了。社会关系最终成为一种物即货币同它自身的关系。这里显示的，不是货币实际转化为资本，而只是这种转化的没有内容的形式。象在劳动力的场合一样，在这里，货币的使用价值是创造价值，创造一个比它本身所包含的价值更大的价值。货币本身在可能性上已经是会自行增殖的价值，并且作为这样的价值被贷放，而贷放就是这种独特商品的出售形式。创造价值，提供利息，成了货币的属性，就象梨树的属性是结梨一样。贷款人也是把他的货币作为这种可以生息的东西来出售的。但这还不是事情的全部。我们说过，甚至实际执行职能的资本也会这样表现，好象它并不是作为执行职能的资本，而是作为资本自身，作为货币资本而提供利息。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-025-d8120af4f4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+          "sourceRawSha256": "99a52cb1f75e93a12c4084ba2fcb079d04364fffade7e647085c118a089e2d4b",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十四章 资本关系在生息资本形式上的外表化",
+          "compactLength": 32,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十四章 资本关系在生息资本形式上的外表化</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-025-d8120af4f4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+          "sourceRawSha256": "99a52cb1f75e93a12c4084ba2fcb079d04364fffade7e647085c118a089e2d4b",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-025-d8120af4f4",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/025.htm",
+          "sourceRawSha256": "99a52cb1f75e93a12c4084ba2fcb079d04364fffade7e647085c118a089e2d4b",
+          "lineIndex": 6,
+          "text": "第二十四章 资本关系在生息资本形式上的外表化",
+          "compactLength": 21,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十四章 资本关系在生息资本形式上的外表化</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-026-84a8866f87",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十五章 信用和虚拟资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+      "sourceRawSha256": "c71f834d3d3e0ac51077c74a8a4745cc70edae1708ffd1118df3cd31006c0c07",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:14.587446+00:00",
+        "rawSha256": "c71f834d3d3e0ac51077c74a8a4745cc70edae1708ffd1118df3cd31006c0c07",
+        "bytes": 29547
+      },
+      "localBodySha256": "134f63d4f02e0d3e9c816626ffd871c102eb7948fcf23eae41176933e2934b32",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-026-84a8866f87",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十五章 信用和虚拟资本",
+          "type": "CHAPTER",
+          "order": 25,
+          "chapterId": "chapter-026-84a8866f87",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-26"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们不打算详细分析信用制度和它为自己所创造的工具（信用货币等等）。我们在这里只着重指出为说明资本主义生产方式的特征所必要的少数几点。因此，在这里，我们只研究商业信用和银行信用。这种信用的发展和公共信用的发展之间的联系，不属于我们考察的范围。",
+        "我以前已经指出（第1卷第3章第3节ｂ），货币充当支付手段的职能，从而商品生产者和商品经营者之间债权人和债务人的关系，是怎样由简单商品流通而形成的。随着商业和只是着眼于流通而进行生产的资本主义生产方式的发展，信用制度的这个自然基础也在扩大、普遍化和发展。大体说来，货币在这里只是充当支付手段，也就是说，商品不是为取得货币而卖，而是为取得定期支付的凭据而卖。为了简便起见，我们可以把这种支付凭据概括为汇票这个总的范畴。这种汇票直到它们期满，支付日到来之前，本身又会作为支付手段来流通；它们形成真正的商业货币。就这种汇票由于债权和债务的平衡而最后互相抵销来说，它们是绝对地作为货币来执行职能的，因为在这种情况下，它们已无须最后转化为货币了。就象生产者和商人的这种互相预付形成信用的真正基础一样，这种预付所用的流通工具，汇票，也形成真正的信用货币如银行券等等的基础。真正的信用货币不是以货币流通（不管是金属货币还是国家纸币）为基础，而是以汇票流通为基础。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-026-84a8866f87",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+          "sourceRawSha256": "c71f834d3d3e0ac51077c74a8a4745cc70edae1708ffd1118df3cd31006c0c07",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十五章 信用和虚拟资本",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十五章 信用和虚拟资本</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-026-84a8866f87",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+          "sourceRawSha256": "c71f834d3d3e0ac51077c74a8a4745cc70edae1708ffd1118df3cd31006c0c07",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-026-84a8866f87",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/026.htm",
+          "sourceRawSha256": "c71f834d3d3e0ac51077c74a8a4745cc70edae1708ffd1118df3cd31006c0c07",
+          "lineIndex": 6,
+          "text": "第二十五章 信用和虚拟资本",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十五章 信用和虚拟资本</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-027-9d3822ef03",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十六章 货币资本的积累，它对利息率的影响",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+      "sourceRawSha256": "3c466119cdfefe2e18b6f1cf03d4a3184e67b30237a24d10d144baaf9cb8090b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:15.037132+00:00",
+        "rawSha256": "3c466119cdfefe2e18b6f1cf03d4a3184e67b30237a24d10d144baaf9cb8090b",
+        "bytes": 38013
+      },
+      "localBodySha256": "354601a631f75aa4fa4099e49d775f0bfb366c438e1bbbec142d96dff4d72c6d",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-027-9d3822ef03",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十六章 货币资本的积累，它对利息率的影响",
+          "type": "CHAPTER",
+          "order": 26,
+          "chapterId": "chapter-027-9d3822ef03",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-27"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“在英国，正在发生追加财富的不断积累，其趋势是最终采取货币形式。但是，在获得货币的愿望之后，最迫切的愿望是，按照某种会带来利息或利润的投资方法，再把货币投放出去；因为，作为货币的货币是什么也生不出来的。因此，如果在过剩资本不断涌来的同时，投资范围得不到逐渐的充分的扩大，那末，寻找用途的货币就必然会周期地，在不同情况下多少不等地积累起来。多年来，国债一直是英国过剩财富的一个大吸收器。自从国债在1816年达到最高限度，不再起吸收器的作用以来，每年至少有2700万在寻找别的投资场所。此外，还有各种的资本偿还……在经营上需要巨额资本并不时地吸引多余的闲置资本的各种企业……至少在我国是绝对必要的，以便为在普通投资部门找不到地盘的社会过剩财富的周期积累开辟出路。”（《通货论》1845年伦敦版第32―34页）",
+        "关于1845年，该书说："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-027-9d3822ef03",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+          "sourceRawSha256": "3c466119cdfefe2e18b6f1cf03d4a3184e67b30237a24d10d144baaf9cb8090b",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十六章 货币资本的积累，它对利息率的影响",
+          "compactLength": 32,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十六章 货币资本的积累，它对利息率的影响</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-027-9d3822ef03",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+          "sourceRawSha256": "3c466119cdfefe2e18b6f1cf03d4a3184e67b30237a24d10d144baaf9cb8090b",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-027-9d3822ef03",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/027.htm",
+          "sourceRawSha256": "3c466119cdfefe2e18b6f1cf03d4a3184e67b30237a24d10d144baaf9cb8090b",
+          "lineIndex": 6,
+          "text": "第二十六章 货币资本的积累，它对利息率的影响",
+          "compactLength": 21,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十六章 货币资本的积累，它对利息率的影响</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-028-e98cc430c1",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十七章 信用在资本主义生产中的作用",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+      "sourceRawSha256": "fe0e3b75baf812328ad4a46f40529fb33fd7f57c1c46d25bb5f7f0af705cc8ae",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:15.356989+00:00",
+        "rawSha256": "fe0e3b75baf812328ad4a46f40529fb33fd7f57c1c46d25bb5f7f0af705cc8ae",
+        "bytes": 12159
+      },
+      "localBodySha256": "35f325506d545042b1a60b3e1c74d6effac171d6471c0cb9a9b5d32761d9ad27",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-028-e98cc430c1",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十七章 信用在资本主义生产中的作用",
+          "type": "CHAPTER",
+          "order": 27,
+          "chapterId": "chapter-028-e98cc430c1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-28"
+        }
+      ],
+      "localFirstParagraphs": [
+        "到现在为止，我们关于信用制度所作的一般评述，可归结为以下几点：",
+        "Ⅰ．信用制度的必然形成，以便对利润率的平均化或这个平均化运动起中介作用，整个资本主义生产就是建立在这个运动的基础上的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-028-e98cc430c1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+          "sourceRawSha256": "fe0e3b75baf812328ad4a46f40529fb33fd7f57c1c46d25bb5f7f0af705cc8ae",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十七章 信用在资本主义生产中的作用",
+          "compactLength": 29,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十七章 信用在资本主义生产中的作用</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-028-e98cc430c1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+          "sourceRawSha256": "fe0e3b75baf812328ad4a46f40529fb33fd7f57c1c46d25bb5f7f0af705cc8ae",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-028-e98cc430c1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/028.htm",
+          "sourceRawSha256": "fe0e3b75baf812328ad4a46f40529fb33fd7f57c1c46d25bb5f7f0af705cc8ae",
+          "lineIndex": 6,
+          "text": "第二十七章 信用在资本主义生产中的作用",
+          "compactLength": 18,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十七章 信用在资本主义生产中的作用</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-029-5cd4af476b",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十八章 流通手段和资本。图克和富拉顿的见解",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+      "sourceRawSha256": "0ca15e138d50b7df0a18f4ecd5aab0cc98da9266b15eaf635c28d13560b0aadf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:15.860268+00:00",
+        "rawSha256": "0ca15e138d50b7df0a18f4ecd5aab0cc98da9266b15eaf635c28d13560b0aadf",
+        "bytes": 34441
+      },
+      "localBodySha256": "812ef55e2ebf487b2f779d9417aa4c19836b468db59c3273fa7b3c6736b9c0b3",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-029-5cd4af476b",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十八章 流通手段和资本。图克和富拉顿的见解",
+          "type": "CHAPTER",
+          "order": 28,
+          "chapterId": "chapter-029-5cd4af476b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-29"
+        }
+      ],
+      "localFirstParagraphs": [
+        "图克［注：这里，我们把第390［注：见本卷第455页。――编者注］页上曾经用德文摘引过的图克的话的原文抄录如下：“The business of bankers，setting aside the issue of promissory notes payable on demand，may be divided into two branches，corresponding with the distinction pointed out by Dr．（Adam）Smith of the transactions between dealers and dealers，and between dealers and consumers．One branch of the bankers’ business is to collect capital from those who have not immediate employment for it，and to distribute or transfer it to those who have．The other branch is to receive deposits of the incomes of their customers，and to pay out the amount，as it is wanted for expenditure by the latter in the objects of their consumption…the former being a circulation of capital，the latter of currency．”〔“银行家的业务，除了发行凭票即付的银行券以外，可以分成两部分，这同（亚当・）斯密博士指出的商人与商人之间的交易和商人与消费者之间的交易二者的区别是一致的。银行家的业务，一部分是从那些不能直接运用资本的人那里收集资本，把它分配给或转移给能够运用它的人。另一部分是从顾客的收入接受存款，并在顾客需要把它用于消费的时候，如数付给他们……前者是资本的流通，后者是货币的流通。”〕（图克《对货币流通规律的研究》第36页）前者是“一方面集中资本，另一方面分配资本”，后者是“为周围地区的地方需要而调节流通”（同上，第37页）。――金尼尔的下面这段话，更接近于正确的理解：“货币是用来完成两种本质上不同的行为的。作为商人和商人之间的交换手段，它是使资本转移的工具；也就是使一定量的货币形式的资本同等量的商品形式的资本相交换。但是，为支付工资而支出的货币和商人与消费者之间买卖上支出的货币，不是资本，而是收入；这是社会收入中用于日常开支的部分。这种货币在经常的日常开支上流通；只有这种货币可以在严格的意义上叫作流通手段（currency）。资本的贷放，完全取决于银行或其他资本所有者的意志，――因为借款人随时可以找到；但流通手段的总量，取决于社会需要。货币就是在社会需要的范围内为日常开支的目的而流通”。（约・金尼尔《危机和通货》1847年伦敦版［第3、4页］）］、威尔逊等人指出的通货和资本之间的区别，――他们在指出这种区别时，把作为货币的流通手段，作为一般货币资本的流通手段和作为生息资本（英语是moneyed capital）的流通手段之间的区别，杂乱无章地混淆在一起，――可以归结为如下两点。",
+        "一方面，流通手段，在它对收入的花费，对个人消费者和零售商人之间的交易起中介作用时，是作为铸币（货币）流通的。零售商人这个范畴，包括一切向消费者――与生产消费者或生产者相区别的个人消费者――出售商品的商人。在这里，货币是以铸币的职能进行流通的，虽然它不断地补偿资本。一个国家的货币的一定部分会不断执行这种职能，虽然这个部分是由不断变换的一枚一枚的铸币构成的。另一方面，在货币对资本的转移起中介作用时，不管它是充当购买手段（流通手段）还是充当支付手段，它都是资本。所以，使它和铸币区别开来的，既不是它作为购买手段的职能，也不是它作为支付手段的职能，因为即使在商人和商人之间，它也可以作为购买手段执行职能，只要他们彼此用现金进行购买；同时它也可以在商人和消费者之间执行支付手段的职能，只要提供信贷，从而收入可以先被消费，后被支付。因此，区别在于：在第二个场合，这个货币不仅为一方即卖者补偿资本，而且被另一方即买者作为资本来支出，来预付。因此，区别事实上是收入的货币形式和资本的货币形式之间的区别，而不是通货和资本之间的区别，因为货币的一定量部分，会作为媒介在商人之间流通，同样也会作为媒介在消费者和商人之间流通，所以在两种职能上，它都同样是通货。但是，在图克的见解中，产生了各式各样的混乱，这是由于："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-029-5cd4af476b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+          "sourceRawSha256": "0ca15e138d50b7df0a18f4ecd5aab0cc98da9266b15eaf635c28d13560b0aadf",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十八章 流通手段和资本。图克和富拉顿的见解",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十八章 流通手段和资本。图克和富拉顿的见解</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-029-5cd4af476b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+          "sourceRawSha256": "0ca15e138d50b7df0a18f4ecd5aab0cc98da9266b15eaf635c28d13560b0aadf",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-029-5cd4af476b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/029.htm",
+          "sourceRawSha256": "0ca15e138d50b7df0a18f4ecd5aab0cc98da9266b15eaf635c28d13560b0aadf",
+          "lineIndex": 6,
+          "text": "第二十八章 流通手段和资本。图克和富拉顿的见解",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十八章 流通手段和资本。图克和富拉顿的见解</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-031-1e6f40a934",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十章 货币资本和现实资本。Ⅰ",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+      "sourceRawSha256": "c972a53f85c8c0e954470fa05a65db6ddc536cdc9eac4f0d639b49d2c23eccb5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:16.348493+00:00",
+        "rawSha256": "c972a53f85c8c0e954470fa05a65db6ddc536cdc9eac4f0d639b49d2c23eccb5",
+        "bytes": 29329
+      },
+      "localBodySha256": "c62c337dd861971599ab95bfd776d686424aca443c6141a7fae2f115a712fa57",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-031-1e6f40a934",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十章 货币资本和现实资本。Ⅰ",
+          "type": "CHAPTER",
+          "order": 30,
+          "chapterId": "chapter-031-1e6f40a934",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-31"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们现在在考察信用制度时要遇到的仅有的几个困难问题是：",
+        "第一，真正货币资本的积累。它在什么程度上是资本的现实积累的标志，即规模扩大的再生产的标志，又在什么程度上不是这种标志呢?资本的所谓过剩[plethora]，一个始终只用于生息资本即货币资本的用语，仅仅是表现产业生产过剩的一个特殊方式呢，还是除此以外形成一种特殊的现象呢?这种过剩即货币资本的供给过剩，是否与停滞的货币总量(金银条块、金币和银行券)的存在相一致，从而现实货币的过剩，是否就是借贷资本的上述过剩的反映和表现形式呢?"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-031-1e6f40a934",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+          "sourceRawSha256": "c972a53f85c8c0e954470fa05a65db6ddc536cdc9eac4f0d639b49d2c23eccb5",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十章 货币资本和现实资本。Ⅰ",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十章 货币资本和现实资本。Ⅰ</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-031-1e6f40a934",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+          "sourceRawSha256": "c972a53f85c8c0e954470fa05a65db6ddc536cdc9eac4f0d639b49d2c23eccb5",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-031-1e6f40a934",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/031.htm",
+          "sourceRawSha256": "c972a53f85c8c0e954470fa05a65db6ddc536cdc9eac4f0d639b49d2c23eccb5",
+          "lineIndex": 6,
+          "text": "第三十章 货币资本和现实资本。Ⅰ",
+          "compactLength": 15,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十章 货币资本和现实资本。Ⅰ</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-032-5abb25427f",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十一章 货币资本和现实资本。Ⅱ（续）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+      "sourceRawSha256": "5bd52d077a1d5017cfb66ab3e1ab6a11a99455db5dce85fbef153880f33c3319",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:16.651961+00:00",
+        "rawSha256": "5bd52d077a1d5017cfb66ab3e1ab6a11a99455db5dce85fbef153880f33c3319",
+        "bytes": 16893
+      },
+      "localBodySha256": "6003a0b3ef6bdbfa043882ede55a906d72d4bf052d0d84e6149154943fb28030",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-032-5abb25427f",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十一章 货币资本和现实资本。Ⅱ（续）",
+          "type": "CHAPTER",
+          "order": 31,
+          "chapterId": "chapter-032-5abb25427f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-32"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1．货币转化为借贷资本",
+        "2．资本或收入转化为货币，这种货币再转化为借贷资本"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-032-5abb25427f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+          "sourceRawSha256": "5bd52d077a1d5017cfb66ab3e1ab6a11a99455db5dce85fbef153880f33c3319",
+          "lineIndex": 2,
+          "text": "马恩全集第二十五卷――第三十一章 货币资本和现实资本。Ⅱ（续）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十一章 货币资本和现实资本。Ⅱ（续）</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-032-5abb25427f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+          "sourceRawSha256": "5bd52d077a1d5017cfb66ab3e1ab6a11a99455db5dce85fbef153880f33c3319",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-032-5abb25427f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/032.htm",
+          "sourceRawSha256": "5bd52d077a1d5017cfb66ab3e1ab6a11a99455db5dce85fbef153880f33c3319",
+          "lineIndex": 7,
+          "text": "第三十一章 货币资本和现实资本。Ⅱ（续）",
+          "compactLength": 19,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十一章 货币资本和现实资本。Ⅱ（续）</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-033-8f31483e9c",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十二章 货币资本和现实资本。Ⅲ（续完）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+      "sourceRawSha256": "c0bae1c31ebfe371d14dcbc42b95a53853ec87f3ca94ca343c79bddc13580e48",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:17.148991+00:00",
+        "rawSha256": "c0bae1c31ebfe371d14dcbc42b95a53853ec87f3ca94ca343c79bddc13580e48",
+        "bytes": 26050
+      },
+      "localBodySha256": "06f99a1c4d29948ac2dcd8b644da0997cae6069c2609f1d359924090b716464e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-033-8f31483e9c",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十二章 货币资本和现实资本。Ⅲ（续完）",
+          "type": "CHAPTER",
+          "order": 32,
+          "chapterId": "chapter-033-8f31483e9c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-33"
+        }
+      ],
+      "localFirstParagraphs": [
+        "这样再转化为资本的大量货币，是大量再生产过程的结果，但就这些货币本身来看，作为借贷货币资本，它们并不是再生产资本的量。",
+        "在以上的说明中，最重要的一点是，用于消费的收入部分(这里撇开工人不说，因为他的收入＝可变资本)的扩大，首先表现为货币资本的积累。因此，在货币资本的积累中，加入了一个本质上和产业资本的现实积累不同的要素，因为年产品中用于消费的部分，并不是资本。年产品的另一部分是补偿资本的，即补偿消费资料生产者的不变资本的，但只要它实际转化为资本，它就会处于这个不变资本生产者的收入的实物形式。代表收入、仅仅充当消费媒介的同一货币，通常会暂时转化为借贷货币资本。只要这个货币表现工资，它同时就是可变资本的货币形式；只要这个货币用来补偿消费资料生产者的不变资本，它就是他们的不变资本所暂时采取的货币形式，被用来购买他们所要补偿的不变资本的各种实物要素。虽然它的数量和再生产过程的规模一同增长，它本身无论在这个形式上或在那个形式上都不表示积累。但它暂时执行借贷货币的职能，即货币资本的职能。因此，从这方面看，货币资本的积累所反映的资本积累，必然总是比现实存在的资本积累更大。这是由于以下的事实：个人消费的扩大，因为以货币为媒介而表现为货币资本的积累，因为个人消费的扩大，为现实的积累，为开辟新的投资场所的货币，提供了货币形式。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-033-8f31483e9c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+          "sourceRawSha256": "c0bae1c31ebfe371d14dcbc42b95a53853ec87f3ca94ca343c79bddc13580e48",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十二章 货币资本和现实资本。Ⅲ（续完）",
+          "compactLength": 31,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十二章 货币资本和现实资本。Ⅲ（续完）</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-033-8f31483e9c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+          "sourceRawSha256": "c0bae1c31ebfe371d14dcbc42b95a53853ec87f3ca94ca343c79bddc13580e48",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-033-8f31483e9c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/033.htm",
+          "sourceRawSha256": "c0bae1c31ebfe371d14dcbc42b95a53853ec87f3ca94ca343c79bddc13580e48",
+          "lineIndex": 6,
+          "text": "第三十二章 货币资本和现实资本。Ⅲ（续完）",
+          "compactLength": 20,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十二章 货币资本和现实资本。Ⅲ（续完）</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-037-1b85c43ee1",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十六章 资本主义以前的状态",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+      "sourceRawSha256": "1346d28638c07011d14db7d8d655b1ceff792e85baa76f6489fb8b43ea8f0955",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:17.435470+00:00",
+        "rawSha256": "1346d28638c07011d14db7d8d655b1ceff792e85baa76f6489fb8b43ea8f0955",
+        "bytes": 37149
+      },
+      "localBodySha256": "a34dadaab3b9abb07e9f3c2a4c0556597d55b14c558dc84d535265debef7cc0f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-037-1b85c43ee1",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十六章 资本主义以前的状态",
+          "type": "CHAPTER",
+          "order": 36,
+          "chapterId": "chapter-037-1b85c43ee1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-37"
+        }
+      ],
+      "localFirstParagraphs": [
+        "生息资本或高利贷资本（我们可以把古老形式的生息资本叫作高利贷资本），和它的孪生兄弟商人资本一样，是洪水期前的资本形式，它在资本主义生产方式以前很早已经产生，并且出现在极不相同的社会经济形态中。",
+        "高利贷资本的存在所需要的只是，至少已经有一部分产品转化为商品，同时随着商品买卖的发展，货币已经在它的各种不同的职能上得到发展。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-037-1b85c43ee1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+          "sourceRawSha256": "1346d28638c07011d14db7d8d655b1ceff792e85baa76f6489fb8b43ea8f0955",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十六章　资本主义以前的状态",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十六章　资本主义以前的状态</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-037-1b85c43ee1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+          "sourceRawSha256": "1346d28638c07011d14db7d8d655b1ceff792e85baa76f6489fb8b43ea8f0955",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-037-1b85c43ee1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/037.htm",
+          "sourceRawSha256": "1346d28638c07011d14db7d8d655b1ceff792e85baa76f6489fb8b43ea8f0955",
+          "lineIndex": 6,
+          "text": "第三十六章　资本主义以前的状态",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十六章　资本主义以前的状态</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-038-54ebea608d",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十七章 导论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+      "sourceRawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:17.783894+00:00",
+        "rawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+        "bytes": 47430
+      },
+      "localBodySha256": "eabfde2cca990051118b0cb59adb3af05ec7cc65590908c8b4c81f46ee418221",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-038-54ebea608d",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第三十七章 导论",
+          "type": "CHAPTER",
+          "order": 37,
+          "chapterId": "chapter-038-54ebea608d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-38"
+        }
+      ],
+      "localFirstParagraphs": [
+        "对土地所有权的各种历史形式的分析，不属于本书的范围。我们只是在资本所产生的剩余价值的一部分归土地所有者所有的范围内，研究土地所有权的问题。因此，我们假定，农业和工业完全一样受资本主义生产方式的统治，也就是说，农业是由资本家经营；这种资本家和其他资本家的区别，首先只在于他们的资本和这种资本推动的雇佣劳动所投入的部门不同。对我们来说，租地农场主生产小麦等等，和工厂主生产棉纱或机器是一样的。资本主义生产方式已经支配农业这样一个假定，包含着这样的意思：资本主义生产方式已经统治生产的和资产阶级社会的一切部门，因此它的下列条件，如资本的自由竞争、资本由一个生产部门转入另一个生产部门的可能性、同等水平的平均利润等等，都已经十分成熟。我们所考察的土地所有权形式，是土地所有权的一个独特的历史形式，是封建的土地所有权或小农维持生计的农业（在后一场合，土地的占有是直接生产者的生产条件之一，而他对土地的所有权是他的生产方式的最有利的条件，即他的生产方式得以繁荣的条件）受资本和资本主义生产方式的影响而转化成的形式。如果说资本主义生产方式是以工人的劳动条件被剥夺为前提，那末，在农业中，它是以农业劳动者的土地被剥夺，以及农业劳动者从属于一个为利润而经营农业的资本家为前提。因此，如果有人提醒我们说，曾经有过，或者说，现在还有其他的土地所有权形式和农业形式，那末，这对我们的阐述来说，只是一种完全开关的指责。只有对那些把农业中的资本主义生产方式及与之相适应的土地所有权形式不是看作历史的范畴，而是看作永恒的范畴的经济学家来说，这种指责才会有意义。",
+        "考察一下现代的土地所有权形式，对我们来说是必要的，因为这里的任务总的来说是考察资本投入农业而产生的一定的生产关系和交换关系。不考察这一点，对资本的分析就是不完全的。因此，我们的研究，仅限于真正的农业上的投资，即人们赖以生活的主要植物性产品的生产上的投资。我们可以只说小麦，因为小麦是现代资本主义发达的各国人民的主要食物（或者，不说农业，而说采矿业，因为规律是一样的）。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-038-54ebea608d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+          "sourceRawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第六篇　超额利润转化为地租。第三十七章　导　论",
+          "compactLength": 31,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第六篇　超额利润转化为地租。第三十七章　导　论</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-038-54ebea608d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+          "sourceRawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-038-54ebea608d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/038.htm",
+          "sourceRawSha256": "153d681ae5531e829319396ed0d4050433afc05a98a0229f73b7ff75b6ba49db",
+          "lineIndex": 11,
+          "text": "第三十七章　导　论",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十七章　导　论</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-039-53763bf63e",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十八章 级差地租：概论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+      "sourceRawSha256": "baf2d98e155f143530029d0561e14267eff04a11b1994e3a0c9195f44265e460",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:18.298299+00:00",
+        "rawSha256": "baf2d98e155f143530029d0561e14267eff04a11b1994e3a0c9195f44265e460",
+        "bytes": 14014
+      },
+      "localBodySha256": "ad4d24bf9c9d05a96d879edd2125e0fe9f5838b8dd26676612d0eb4772699623",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-039-53763bf63e",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第三十八章 级差地租：概论",
+          "type": "CHAPTER",
+          "order": 38,
+          "chapterId": "chapter-039-53763bf63e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-39"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在分析地租时，我们首先要从下面这个前提出发：支付这种地租的产品，也就是有一部分剩余价值、因而有一部分总价格转化为地租的产品，――对于我们的目的来说，提到农产品或者还提到矿产品也就够了，――也就是，土地和矿山的产品，象一切其他商品一样，是按照它们的生产价格出售的。就是说，它们的出售价格，等于它们的成本要素（已耗费的不变资本和可变资本的价值）加上一个由一般利润率决定，并按全部预付资本（包括已经消耗的和没有消耗的）计算的利润。因此，我们假定，这些产品的平均出售价格，等于它们的生产价格。现在要问，在这个前提下，地租怎么能够发展起来，就是说，利润的一部分怎么能够转化为地租，因而商品价格的一部分怎么能够落到土地所有者手中。",
+        "为了表明地租这个形式的一般性质，我们假定，一个国家的工厂绝大多数是用蒸汽机推动的，少数是用自然瀑布推动的。我们假定，在这些工业部门，一个耗费资本100的商品量的生产价格是115。15％的利润，不是仅仅按已经耗费的资本100计算的，而是按这个商品价值生产上曾经使用的总资本计算的。前面已经指出［注：见本卷第193―222页。――编者注］，这个生产价格不是由每个从事生产的工业家的个别成本价格决定的，而是由整个生产部门在资本平均条件下生产这种商品平均耗费的成本价格决定的。这实际上是市场生产价格，是那种和它的各种变动相区别的平均市场价格。商品价值的性质，――即价值不是由某个生产者个人生产一定量商品或某个商品所必要的劳动时间决定，而是由社会必要的劳动时间，由当时社会平均生产条件下生产市场上这种商品的社会必需总量所必要的劳动时间决定，――一般说来是在市场价格的形式上，进一步说，就是在起调节作用的市场价格或市场生产价格的形式上表现出来的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-039-53763bf63e",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+          "sourceRawSha256": "baf2d98e155f143530029d0561e14267eff04a11b1994e3a0c9195f44265e460",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十八章 级差地租：概论",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十八章 级差地租：概论</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-039-53763bf63e",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+          "sourceRawSha256": "baf2d98e155f143530029d0561e14267eff04a11b1994e3a0c9195f44265e460",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-039-53763bf63e",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/039.htm",
+          "sourceRawSha256": "baf2d98e155f143530029d0561e14267eff04a11b1994e3a0c9195f44265e460",
+          "lineIndex": 6,
+          "text": "第三十八章 级差地租：概论",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十八章 级差地租：概论</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-041-4110648a0b",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十章 级差地租的第二形式（级差地租Ⅱ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+      "sourceRawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:18.572692+00:00",
+        "rawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+        "bytes": 18988
+      },
+      "localBodySha256": "5165a23951c9613f6c77781977032baec5ba409a978a3a47fcc7f97109871cbf",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-041-4110648a0b",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十章 级差地租的第二形式（级差地租Ⅱ）",
+          "type": "CHAPTER",
+          "order": 40,
+          "chapterId": "chapter-041-4110648a0b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-41"
+        }
+      ],
+      "localFirstParagraphs": [
+        "以上我们只是把级差地租看作是投在面积相等而肥力不同的土地上的等量资本所具有的不同生产率的结果，所以，级差地租是由投在最坏的无租土地上的资本的收益和投在较好土地上的资本的收益之间的差额决定的。在那里，我们假定若于资本同时投在不同的地块上，所以，每投入一笔新的资本，土地的耕作范围就会相应扩展，也就是耕地面积扩大。但是，级差地租实质上终究只是投在土地上的等量资本所具有的不同生产率的结果。生产率不同的各个资本连续投在同一地块上和同时投在不同地块上，假定结果相同，是否会有什么差别呢?",
+        "首先，不能否认，就超额利润的形成来说，这两种场合是毫无差别的：一种是投在A级一英亩土地上的3镑生产费用生产1夸特，从而3镑成为1夸特的生产价格和起调节作用的市场价格，投在B级一英亩土地上的3镑生产费用生产2夸特，并提供一个3镑的超额利润，而投在C级一英亩土地上的3镑生产费用生产3夸特，并提供6镑的超额利润，最后，投在D级一英亩土地上的3镑生产费用生产4夸特，并提供9镑的超额利润；另一种是这12镑生产费用或10镑资本，按相同的顺序，投在同一英亩上，取得同样的效果。在这两种场合，都是一个10镑的资本，它的价值分成四部分，依次投入，每部分2 1/2镑，而不管它们是同时投在肥力不同的四英亩上，还是相继投在同一英亩上。由于它们的产量不同，其中一部分不会提供超额利润，而其他各部分却会按照它们的收益和不提供地租的投资的收益之间的差额提供超额利润。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-041-4110648a0b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+          "sourceRawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十章 级差地租的第二形式（级差地租II）",
+          "compactLength": 32,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十章 级差地租的第二形式（级差地租II）</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-041-4110648a0b",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/041.htm",
+          "sourceRawSha256": "ca250142548237ab90d713d55470c04bf0370ace3d7778bbf8071ab42cf4051f",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-046-98072933e2",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十五章 绝对地租",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+      "sourceRawSha256": "5e8d4b6c4ac6c5aab9a959aafc2e3a009aac536dfdcdf8b6bb8f713de342cf41",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:19.263973+00:00",
+        "rawSha256": "5e8d4b6c4ac6c5aab9a959aafc2e3a009aac536dfdcdf8b6bb8f713de342cf41",
+        "bytes": 40976
+      },
+      "localBodySha256": "7ace9dd2a60b67fa0f0447c21033cee64b803624b8c1c0f21008039ad4a2b1e8",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-046-98072933e2",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十五章 绝对地租",
+          "type": "CHAPTER",
+          "order": 45,
+          "chapterId": "chapter-046-98072933e2",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-46"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在分析级差地租时，我们是从最坏的土地不支付地租这一前提出发的；或者用更一般的说法就是：只有这样一种土地才支付地租，这种土地的产品的个别生产价格低于调节市场的生产价格，因此，就产生了超额利润，超额利润就转化为地租。首先必须指出，级差地租本身的规律和这个前提的正确与否完全无关。",
+        "如果我们把一般的调节市场的生产价格叫作P，那末，P是和最坏土地A的产品的个别生产价格相一致的，也就是说，这种价格将补偿生产中消耗的不变资本和可变资本加上平均利润（＝企业主收入加上利息）。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-046-98072933e2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+          "sourceRawSha256": "5e8d4b6c4ac6c5aab9a959aafc2e3a009aac536dfdcdf8b6bb8f713de342cf41",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十五章 绝对地租",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十五章 绝对地租</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-046-98072933e2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+          "sourceRawSha256": "5e8d4b6c4ac6c5aab9a959aafc2e3a009aac536dfdcdf8b6bb8f713de342cf41",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-046-98072933e2",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/046.htm",
+          "sourceRawSha256": "5e8d4b6c4ac6c5aab9a959aafc2e3a009aac536dfdcdf8b6bb8f713de342cf41",
+          "lineIndex": 6,
+          "text": "第四十五章 绝对地租",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四十五章 绝对地租</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-047-72d3f79b12",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十六章 建筑地段的地租。矿山地租。土地价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+      "sourceRawSha256": "12ca8d4005294603ac2e62034c044c7b5be5e8fb9df50ff15f5a3ef4015f4004",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:19.766429+00:00",
+        "rawSha256": "12ca8d4005294603ac2e62034c044c7b5be5e8fb9df50ff15f5a3ef4015f4004",
+        "bytes": 15942
+      },
+      "localBodySha256": "968a13c4d2cff432ab31f33627e77cfbc0ff41487a9a7edce6cd7dabc445de68",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-047-72d3f79b12",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十六章 建筑地段的地租。矿山地租。土地价格",
+          "type": "CHAPTER",
+          "order": 46,
+          "chapterId": "chapter-047-72d3f79b12",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-47"
+        }
+      ],
+      "localFirstParagraphs": [
+        "凡是有地租存在的地方，都有级差地租，而且这种级差地租都遵循着和农业级差地租相同的规律。凡是自然力能被垄断并保证使用它的产业家得到超额利润的地方（不论是瀑布，是富饶的矿山，是盛产鱼类的水域，还是位置有利的建筑地段），那些因对一部分土地享有权利而成为这种自然物所有者的人，就会以地租形式，从执行职能的资本那里把这种超额利润夺走。至于建筑上使用的土地，亚·斯密已经说明，它的地租的基础，和一切非农业土地的地租的基础一样，是由真正的农业地租调节的（《国民财富的性质和原因的研究》第1卷第1篇第11章第2、3节）。这种地租的特征，首先是位置在这里对级差地租具有决定性的影响（例如，这对葡萄种植业和大城市的建筑地段来说，是十分重要的）；其次是所有者的明显的完全的被动性，他的主动性（特别是在采矿业）只在于利用社会发展的进步，而对于这种进步，他并不象产业资本家那样有过什么贡献，冒过什么风险；最后，是垄断价格在许多情况下的优势，特别是对贫民进行最无耻的剥削方面的优势（因为贫民对于房租，是一个比波托西银矿[203]对于西班牙，更为富饶的源泉［注：兰格；纽曼。[204]］），以及这种土地所有权所产生的巨大权力，这种土地所有权，在和产业资本结合在一个人手里时，实际上可以使产业资本从地球上取消为工资而进行斗争的工人的容身之所［注：克劳林顿的罢工。恩格斯《英国工人阶级状况》第307页[205]。］。在这里，社会上一部分人向另一部分人要求一种贡赋，作为后者在地球上居住的权利的代价，因为土地所有权本来就包含土地所有者剥削土地，剥削地下资源，剥削空气，从而剥削生命的维持和发展的权利。不仅人口的增加，以及随之而来的住宅需要的增大，而且固定资本的发展（这种固定资本或者合并在土地中，或者扎根在土地中，建立在土地上，如所有工业建筑物、铁路、货栈、工厂建筑物、船坞等等），都必然会提高建筑地段的地租。在这里，即使有凯里那样的善良愿望，也不可能把作为投在房屋上的资本的利息和折旧的房租，同单纯土地的地租混为一谈，特别在土地所有者和建筑投机家是完全不同的人的时候（例如在英国）。在这里，我们要考察两个要素：一方面，土地为了再生产或采掘的目的而被利用；另一方面，空间是一切生产和一切人类活动所需要的要素。从这两个方面，土地所有权都要求得到它的贡赋。对建筑地段的需求，会提高土地作为空间和地基的价值，而对土地的各种可用作建筑材料的要素的需求，同时也会因此增加［注：“伦敦街道铺砌石头路面，使苏格兰海滨一些不毛岩石的所有者，可以从一向没有用的石头地得到地租。”（亚·斯密，第1篇第11章第2节）］。",
+        "在迅速发展的城市内，特别是在象伦敦那样按工厂方式从事建筑的地方，建筑投机的真正主要对象是地租，而不是房屋。关于这一点，我们已在第二卷第十二章第215、216页，用1857年伦敦一个大建筑投机家爱德华·卡普斯向银行法委员会所提出的证词，作为例子加以说明了。[206]他在那里说（第5435号）："
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-047-72d3f79b12",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+          "sourceRawSha256": "12ca8d4005294603ac2e62034c044c7b5be5e8fb9df50ff15f5a3ef4015f4004",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第四十六章 建筑地段的地租。矿山地租。土地价格",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第四十六章 建筑地段的地租。矿山地租。土地价格</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-047-72d3f79b12",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+          "sourceRawSha256": "12ca8d4005294603ac2e62034c044c7b5be5e8fb9df50ff15f5a3ef4015f4004",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-047-72d3f79b12",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/047.htm",
+          "sourceRawSha256": "12ca8d4005294603ac2e62034c044c7b5be5e8fb9df50ff15f5a3ef4015f4004",
+          "lineIndex": 6,
+          "text": "第四十六章 建筑地段的地租。矿山地租。土地价格",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四十六章 建筑地段的地租。矿山地租。土地价格</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-048-a4eeadf3ef",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十七章 资本主义地租的产生",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+      "sourceRawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:20.397380+00:00",
+        "rawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+        "bytes": 56094
+      },
+      "localBodySha256": "8a3f8b225324b2896b5f30bf3262d5fad48cf7b253d81193871f08a298c810ca",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-048-a4eeadf3ef",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十七章 资本主义地租的产生",
+          "type": "CHAPTER",
+          "order": 47,
+          "chapterId": "chapter-048-a4eeadf3ef",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-48"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．导论",
+        "我们必须弄明白，从作为资本主义生产方式理论表现的现代经济学的观点来看，地租研究上的困难究竟在哪里。这一点甚至许多较近的著作家也还没有理解，他们一再试图对地租作“新”的说明，就是证明。在这里，所谓新，几乎总是倒退到早已被驳倒的观点。困难不在于一般地说明农业资本所生产的剩余产品和与之相适应的剩余价值。这个问题不如说已经在对一切生产资本――不管它是投在什么部门――所生产的剩余价值的分析中得到解决了。困难在于证明，在剩余价值已经在各个资本之间平均化为平均利润之后，即各个资本在一切生产部门的全部社会资本所生产的总剩余价值中分到与它们的相对量相适应的比例部分之后，也就是说，在这种平均化之后，在待分配的全部剩余价值看来都已分配完毕之后，从哪里又会出现这种剩余价值的超额部分，由投在土地上的资本以地租形式支付给土地所有者。我们把促使现代经济学家作为产业资本反对土地所有权的代言人去研究这个问题的实际动机――在论述地租史的一章，我们将较详细地论述这些动机――完全撇开不说，这个问题对于他们作为理论家来说，具有决定性的意义。认为在投入农业的资本上地租的出现，是来自这个投资部门本身的一种特别的作用，是来自地壳本身具有的各种特性，这就是放弃价值概念本身，因而也就是放弃科学认识在这个领域内的一切可能性。甚至这种简单的观察，即地租是从土地产品的价格中支付的，――如果租地农场主必须取得自己的生产价格，这种情况甚至在地租是以实物形式支付的地方也会发生，――就已经表明，用农业的自然生产率高于其他产业部门的生产率来解释为什么这个价格超过普通生产价格而产生一个余额，为什么农产品相对地说比较贵，是件多么荒唐的事情；因为，恰好相反，劳动的生产效率越高，它的产品的每一部分就越便宜，因为体现同量劳动从而体现同一价值的使用价值的量就越大。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-048-a4eeadf3ef",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+          "sourceRawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十七章 资本主义地租的产生",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十七章 资本主义地租的产生</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-048-a4eeadf3ef",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+          "sourceRawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-048-a4eeadf3ef",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+          "sourceRawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+          "lineIndex": 6,
+          "text": "第四十七章 资本主义地租的产生",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四十七章 资本主义地租的产生</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-052-c737cecc31",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第五十一章 分配关系和生产关系",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+      "sourceRawSha256": "d8010bcbe4b2ecccf4dba17fc92f720c3b8f27393670b07f24a67bb4a69c7fdc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:20.703388+00:00",
+        "rawSha256": "d8010bcbe4b2ecccf4dba17fc92f720c3b8f27393670b07f24a67bb4a69c7fdc",
+        "bytes": 11494
+      },
+      "localBodySha256": "86d0601c0c9477ebefe79e6e2510e62533063ab7ecf5cccfad371c7c06f4270e",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-052-c737cecc31",
+          "parentId": "toc-capital-v3-zh-part-7",
+          "title": "第五十一章 分配关系和生产关系",
+          "type": "CHAPTER",
+          "order": 51,
+          "chapterId": "chapter-052-c737cecc31",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-52"
+        }
+      ],
+      "localFirstParagraphs": [
+        "可见，由每年新追加的劳动新加进的价值，――从而，年产品中体现这个价值并且能够从总产品价值中取出和分离出来的部分，――分成三部分，它们采取三种不同的收入形式，这些形式表明，这个价值的一部分属于或归于劳动力的所有者，另一部分属于或归于资本的所有者，第三部分属于或归于土地所有权的占有者。因此，这就是分配的关系或形式，因为它们表示出新生产的总价值在不同生产要素的所有者中间进行分配的关系。",
+        "按照通常的看法，这些分配关系被认为是自然的关系，是从一切社会生产的性质，从人类生产本身的各种规律产生出来的关系。诚然，不能否认，资本主义以前的社会出现过其他的分配方式，但是，人们把那些方式说成是这种自然分配关系的未发展的、未完成的、伪装了的、没有取得最纯粹表现和最高形式的、具有不同色彩的方式。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-052-c737cecc31",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+          "sourceRawSha256": "d8010bcbe4b2ecccf4dba17fc92f720c3b8f27393670b07f24a67bb4a69c7fdc",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第五十一章 分配关系和生产关系",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第五十一章 分配关系和生产关系</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-052-c737cecc31",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+          "sourceRawSha256": "d8010bcbe4b2ecccf4dba17fc92f720c3b8f27393670b07f24a67bb4a69c7fdc",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-052-c737cecc31",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/052.htm",
+          "sourceRawSha256": "d8010bcbe4b2ecccf4dba17fc92f720c3b8f27393670b07f24a67bb4a69c7fdc",
+          "lineIndex": 6,
+          "text": "第五十一章 分配关系和生产关系",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第五十一章 分配关系和生产关系</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-053-33989a2306",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第五十二章 阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+      "sourceRawSha256": "8bed5a6776d11d3eecd490ebaac715bf9a04ff04c66f4aab5ba5f94d1eb341c5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:21.071970+00:00",
+        "rawSha256": "8bed5a6776d11d3eecd490ebaac715bf9a04ff04c66f4aab5ba5f94d1eb341c5",
+        "bytes": 2574
+      },
+      "localBodySha256": "b1ccd3e95fc13225aeb1b8fe119439b69079992212e22aae3caf163c5c896743",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-053-33989a2306",
+          "parentId": "toc-capital-v3-zh-part-7",
+          "title": "第五十二章 阶级",
+          "type": "CHAPTER",
+          "order": 52,
+          "chapterId": "chapter-053-33989a2306",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-53"
+        }
+      ],
+      "localFirstParagraphs": [
+        "单纯劳动力的所有者、资本的所有者和土地的所有者，――他们各自的收入源泉是工资、利润和地租，――也就是说，雇佣工人、资本家和土地所有者，形成建立在资本主义生产方式基础上的现代社会的三大阶级。",
+        "在英国，现代社会的经济结构无疑已经有了最高度的、最典型的发展。但甚至在这里，这种阶级结构也还没有以纯粹的形式表现出来。在这里，也还有若干中间的和过渡的阶段到处使界限规定模糊起来（虽然这种情况在农村比在城市少得多）。不过，这种情况对我们的研究来说是无关紧要的。我们已经看到，资本主义生产方式的经常趋势和发展规律，是使生产资料越来越同劳动分离，分散的生产资料越来越大量集中成群，因此，劳动转化为雇佣劳动，生产资料转化为资本。另一方面，适应于这种趋势，土地所有权同资本和劳动相分离而独立［注：弗・李斯特说得对：“大领地上盛行的自给自足的经济，不过证明还缺少文明、交通工具、国内工业和富裕城市。因此，我们在俄罗斯、波兰、匈牙利、梅克伦堡到处都看见这种自给自足的经济。以前在英国，这种经济也很盛行；但是，随着商业和工业的勃兴，它们就分成一些中型农场，被租佃制代替了。”（《农业制度、小农经济和国外移民》1842年版第10页）］，换句话说，一切土地所有权都转化为适应于资本主义生产方式的土地所有权形式。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-053-33989a2306",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+          "sourceRawSha256": "8bed5a6776d11d3eecd490ebaac715bf9a04ff04c66f4aab5ba5f94d1eb341c5",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第五十二章 阶 级",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第五十二章 阶 级</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-053-33989a2306",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+          "sourceRawSha256": "8bed5a6776d11d3eecd490ebaac715bf9a04ff04c66f4aab5ba5f94d1eb341c5",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-053-33989a2306",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/053.htm",
+          "sourceRawSha256": "8bed5a6776d11d3eecd490ebaac715bf9a04ff04c66f4aab5ba5f94d1eb341c5",
+          "lineIndex": 6,
+          "text": "第五十二章 阶 级",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第五十二章 阶 级</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-054-fe92748986",
+      "title": "资本论·第三卷",
+      "chapterTitle": "弗・恩格斯《资本论》第三卷增补",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/054.htm",
+      "sourceRawSha256": "f4ede6a3b1f78d0da4951db59b808fe5c2ec4d068938e5c8b6efbe08d996d6ec",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/054.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/054.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:21.589046+00:00",
+        "rawSha256": "f4ede6a3b1f78d0da4951db59b808fe5c2ec4d068938e5c8b6efbe08d996d6ec",
+        "bytes": 30925
+      },
+      "localBodySha256": "429fbbd30d7b530310c410a8e983f8ccaf1f96b146b6fb8836da23b5c909bb04",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-054-fe92748986",
+          "parentId": "toc-capital-v3-zh-root",
+          "title": "弗・恩格斯《资本论》第三卷增补",
+          "type": "APPENDIX",
+          "order": 53,
+          "chapterId": "chapter-054-fe92748986",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-54"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗里德里希・恩格斯《资本论》第三卷增补[243]",
+        "《资本论》第三卷自从交给公众评判以来，已经遇到许多不同的解释。这并没有出乎意料。在编辑出版时，我最关心的是要编成一个尽可能真实的版本，即尽可能用马克思自己的话来表述马克思得出的各种新成果。只是在绝对不可避免的地方，并且在读者一点也不会怀疑是谁在向他说话的地方，我才加进自己的话。这样做曾经遭到指责。人们认为，我应该把摆在我面前的材料变成一本系统地整理好的书，象法国人所说的，en faire un livre，换句话说就是：为了读者的方便而牺牲原文的真实性。但是，我不是这样来理解我的任务的。我没有任何权利作这样的改写。象马克思这样的人有权要求人们听到他的原话，让他的科学发现完完全全按照他自己的叙述传给后世。其次，我也丝毫不愿意擅自侵犯这样一位卓越的人的遗著；那样做对我来说就是失信。第三，那样做也根本没有用处。对于那些不能读或不愿意读的人来说，对于那些在读第一卷时就已经不是花费必要的力气去正确理解它，而是花费更多的力气去曲解它的人来说，无论你下多少功夫都是徒劳无益的。而对于那些希望真正理解它的人来说，最重要的却正好是原著本身；对于这些人来说，我的改写顶多只有解说的价值，而且是对一部没有出版和没有机会得到的著作进行的解说。但是，在第一次争论时，就必然要查对原著；在第二次和第三次争论时，全部出版原著就是不可避免的了。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-054-fe92748986",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/054.htm",
+          "sourceRawSha256": "f4ede6a3b1f78d0da4951db59b808fe5c2ec4d068938e5c8b6efbe08d996d6ec",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――弗里德里希・恩格斯。《资本论》第三卷增补[243]Ⅰ．价值规律和利润率",
+          "compactLength": 41,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――弗里德里希・恩格斯。《资本论》第三卷增补[243]Ⅰ．价值规律和利润率</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-054-fe92748986",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/054.htm",
+          "sourceRawSha256": "f4ede6a3b1f78d0da4951db59b808fe5c2ec4d068938e5c8b6efbe08d996d6ec",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-006-82161dea0f",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第五章 不变资本使用上的节约",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+      "sourceRawSha256": "10345a5aed48012eb2be54dfd0dba92636317c9bd9a55ce784db0912e3cc63b7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:21.887882+00:00",
+        "rawSha256": "10345a5aed48012eb2be54dfd0dba92636317c9bd9a55ce784db0912e3cc63b7",
+        "bytes": 46341
+      },
+      "localBodySha256": "5259114cfee646b7a94365881d6978c955175fc78140a2224b0079bb8b444bb6",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-006-82161dea0f",
+          "parentId": "toc-capital-v3-zh-part-1",
+          "title": "第五章 不变资本使用上的节约",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-82161dea0f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．概论",
+        "在可变资本不变，因而按相同的名义工资使用的工人人数不变的条件下，绝对剩余价值的增加，或剩余劳动从而工作日的延长，——不管额外时间有没有报酬都一样，——会相对地降低不变资本同总资本、同可变资本相比的价值，并由此提高利润率（这里也是把剩余价值量的增加和剩余价值率的可能的提高撇开不说）。不变资本的固定部分即工厂建筑物、机器等等的量，不管用来工作16小时，还是12小时，都会仍旧不变。工作日的延长并不要求在不变资本的这个最花钱的部分上有新的支出。此外，固定资本的价值，由此会在一个较短的周转期间系列中再生产出来，因而，这种资本为获得一定利润所必须预付的时间缩短了。因此，甚至在额外时间支付报酬，而且在一定限度内甚至比正常劳动时间支付较高报酬的情况下，工作日的延长都会提高利润。因此，现代工业制度下不断增长的增加固定资本的必要性，也就成了唯利是图的资本家延长工作日的一个主要动力。［注：“因为一切工厂都有极大量的固定资本投在建筑物和机器上，所以，这些机器能够工作的时数越多，利润就越大。”（《工厂视察员报告。1858年10月31日》第8页）］"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-006-82161dea0f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+          "sourceRawSha256": "10345a5aed48012eb2be54dfd0dba92636317c9bd9a55ce784db0912e3cc63b7",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第五章 不变资本使用上的节约",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第五章 不变资本使用上的节约</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-006-82161dea0f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+          "sourceRawSha256": "10345a5aed48012eb2be54dfd0dba92636317c9bd9a55ce784db0912e3cc63b7",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-006-82161dea0f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/006.htm",
+          "sourceRawSha256": "10345a5aed48012eb2be54dfd0dba92636317c9bd9a55ce784db0912e3cc63b7",
+          "lineIndex": 6,
+          "text": "第五章 不变资本使用上的节约",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第五章 不变资本使用上的节约</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:22.214608+00:00",
+        "rawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+        "bytes": 45413
+      },
+      "localBodySha256": "e378a84277228dd9d33a15ac6cba05eff6141b8414c8bb8f097833f7d60d65bf",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-010-220b6efe49",
+          "parentId": "toc-capital-v3-zh-part-2",
+          "title": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-220b6efe49",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "资本的有机构成，在任何时候都取决于两种情况：第一，所使用的劳动力和所使用的生产资料量的技术比率；第二，这些生产资料的价格。我们以前讲过，资本的有机构成，必须按它的百分比来考察。一个资本的4/5为不变资本，1/5为可变资本，它的有机构成，我们用80c＋20v这个公式来表示。其次，在比较时，假定剩余价值率不变，并且可以任意假定这个比率，例如100％。因此，80c＋20v的资本产生20m的剩余价值，按总资本计算，利润率为20％。它的产品的实际价值有多大，现在要看不变资本的固定部分有多大，并且要看固定部分中作为损耗加入产品的部分有多大。但是，因为这种情况对于利润率，从而对于我们现在的研究毫无意义，所以，为了简便起见，假定不变资本到处都是同样地全部加入所考察的资本的年产品。其次还假定，不同生产部门的资本，会和它们的可变部分的量成比例地每年实现同样多的剩余价值，就是说，把周转时间的差别能在这方面引起的差别暂时撇开不说。这一点以后再研究。",
+        "让我们拿五个不同的生产部门来说。投在这五个生产部门的资本的有机构成各不相同，例如："
+      ],
+      "nativeNoteCount": 3,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-010-220b6efe49",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+          "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+          "compactLength": 41,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-010-220b6efe49",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+          "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-010-220b6efe49",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+          "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+          "lineIndex": 6,
+          "text": "第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格",
+          "compactLength": 30,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第九章 一般利润率（平均利润率）的形成和商品价值转化为生产价格</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-030-587bf0c778",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第二十九章 银行资本的组成部分",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+      "sourceRawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:22.732287+00:00",
+        "rawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+        "bytes": 22385
+      },
+      "localBodySha256": "0badac9f14e56778f81065e49e0f9a14f672e9116e5af992af3b269375d65a0c",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-030-587bf0c778",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第二十九章 银行资本的组成部分",
+          "type": "CHAPTER",
+          "order": 29,
+          "chapterId": "chapter-030-587bf0c778",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-30"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在，我们必须更仔细地考察一下银行资本是由什么组成的。",
+        "我们刚才已经看到，富拉顿等人把作为流通手段的货币和作为支付手段（如果考虑到金的流出，也是作为世界货币）的货币的区别，转化为通货和资本的区别。"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-030-587bf0c778",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+          "sourceRawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第二十九章 银行资本的组成部分",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第二十九章 银行资本的组成部分</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-030-587bf0c778",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+          "sourceRawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 31,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-030-587bf0c778",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/030.htm",
+          "sourceRawSha256": "83516331531e168012b07d39da9c5255c68e01e773db699bedb084814c70f2cf",
+          "lineIndex": 12,
+          "text": "第二十九章 银行资本的组成部分",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第二十九章 银行资本的组成部分</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-034-b9534f14da",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十三章 信用制度下的流通手段",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+      "sourceRawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:23.197031+00:00",
+        "rawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+        "bytes": 50292
+      },
+      "localBodySha256": "7847eebf45c13ba44ec14d27067131f62e801376c148e8cc3ba9458e90f61401",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-034-b9534f14da",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十三章 信用制度下的流通手段",
+          "type": "CHAPTER",
+          "order": 33,
+          "chapterId": "chapter-034-b9534f14da",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-34"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“通货速度的大调节器是信用。由此可以说明，为什么货币市场上尖锐的紧迫状态，通常是和通货充足的现象同时发生的”（《通货论》第65页）。",
+        "这一点应该从两方面去理解。一方面，一切节省流通手段的方法都以信用为基础。而另一方面，以一张500镑的银行券为例。A今天在兑付汇票时把这张银行券交给B；B在同一天把它存到他的银行家那里；这个银行家在同一天用它来为C的汇票贴现；C把它支付给他的银行，这个银行再把它贷给汇票经纪人等等。银行券在这里为购买或支付而流通的速度，是由它不断以存款的形式流回到某人手里，并以贷款的形式再转移到别人手里的速度所决定的。流通手段的单纯节约，在票据交换所里，在到期汇票的单纯交换上发展到了极点，这时货币作为支付手段的主要职能只是结清余额。但这种汇票的存在本身又是以工商业者互相提供的信用为基础的。如果这种信用减少了，汇票，特别是长期汇票的数目就会减少，因而这种结算方法的效力也会减小。这种节约（即在交易上排除货币，完全以货币的支付手段职能为基础，这种职能又以信用为基础）只能有两种（撇开已或多或少发展的集中支付的技术不说）：汇票或支票所代表的互相的债权，或是由同一个银行家结算，他只是把债权从一个户头划到另一个户头；或是由不同的银行家互相之间进行结算。［注：一张银行券停留在流通中的平均天数："
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-034-b9534f14da",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+          "sourceRawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十三章 信用制度下的流通手段",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十三章 信用制度下的流通手段</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-034-b9534f14da",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+          "sourceRawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-034-b9534f14da",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/034.htm",
+          "sourceRawSha256": "054b6a577c9b2889857ab7a3dd6d888a9f6750c932a251f243711a933524fdf8",
+          "lineIndex": 6,
+          "text": "第三十三章 信用制度下的流通手段",
+          "compactLength": 15,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十三章 信用制度下的流通手段</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-035-4f0a07c579",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十四章 通货原理和1844年英国的银行立法",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+      "sourceRawSha256": "c1c92a1c62860fdcd036997bac323b1fb20f3a8a3cf66310a7e426f2d2a8c35c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:23.717710+00:00",
+        "rawSha256": "c1c92a1c62860fdcd036997bac323b1fb20f3a8a3cf66310a7e426f2d2a8c35c",
+        "bytes": 35194
+      },
+      "localBodySha256": "b127407201d6f2a75db9960813c8ed2026e70483d3d797f483ff5c6ac5f83014",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-035-4f0a07c579",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十四章 通货原理和1844年英国的银行立法",
+          "type": "CHAPTER",
+          "order": 34,
+          "chapterId": "chapter-035-4f0a07c579",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-35"
+        }
+      ],
+      "localFirstParagraphs": [
+        "｛李嘉图从货币价值对商品价格的关系上所提出的货币价值的理论，已经在以前的一部著作中［注：马克思《政治经济学批判》1859年柏林版第150页及以下各页[142]。］研究过了；所以在这里，我们可以只是就最必要的地方说一下。按照李嘉图的说法，货币――金属货币――的价值是由物化在其中的劳动时间决定的，但只有在货币的数量同要交换的商品的数量和价格保持适当比例的时候才是这样。在其他条件不变的情况下，如果货币量超过这个比例，货币价值就会降低，商品价格就会提高；如果货币量降到这个适当比例以下，货币价值就会提高，商品价格就会降低。在第一个场合，金过剩的国家，会把跌到价值以下的金输出，并把商品输入；在第二个场合，金就会流往金的估价高于其价值的国家，而估价低的商品就会从那里输往它能获得正常价格的其他市场去。既然依照这些假定，“金本身不论是铸币或是条块，都能变成大于或小于它自己金属价值的一个金属价值的价值符号，那末显而易见，流通中的可兑银行券也有同样的命运。虽然银行券可以兑换，也就是它的实在价值符合于名义价值，但是由金和银行券构成的流通中的货币总量可以升值或贬值，这要看这一总量由于上述原因，升到由流通中商品交换价值和金的金属价值所决定的水平之上或降到这一水平之下而定……这种贬值不是纸币对于金的贬值，而是纸币和金共同的贬值，或一国流通手段总量的贬值，这是李嘉图的主要发现之一；奥维尔斯顿勋爵之流利用了这一发现，把它用作1844年和1845年罗伯特・皮尔爵士银行立法的基本原理。”（《政治经济学批判》第155页[143]）",
+        "前书对李嘉图这个学说的错误已经作了论证，这些论证用不着在这里重复。使我们感到兴趣的只是，把上述皮尔银行法强加于人的这一派银行理论家，是用什么方法对李嘉图的这些教条进行加工的。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-035-4f0a07c579",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+          "sourceRawSha256": "c1c92a1c62860fdcd036997bac323b1fb20f3a8a3cf66310a7e426f2d2a8c35c",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十四章　通货原理和1844年英国的银行立法",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十四章　通货原理和1844年英国的银行立法</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-035-4f0a07c579",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+          "sourceRawSha256": "c1c92a1c62860fdcd036997bac323b1fb20f3a8a3cf66310a7e426f2d2a8c35c",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-035-4f0a07c579",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/035.htm",
+          "sourceRawSha256": "c1c92a1c62860fdcd036997bac323b1fb20f3a8a3cf66310a7e426f2d2a8c35c",
+          "lineIndex": 6,
+          "text": "第三十四章　通货原理和1844年英国的银行立法",
+          "compactLength": 22,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十四章　通货原理和1844年英国的银行立法</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-036-8491d12676",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十五章 贵金属和汇兑率",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+      "sourceRawSha256": "5f4aaadcaf81fe254efe744ef4ab45b24d43d050334158324a2ca4628e3614b9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:24.220243+00:00",
+        "rawSha256": "5f4aaadcaf81fe254efe744ef4ab45b24d43d050334158324a2ca4628e3614b9",
+        "bytes": 46947
+      },
+      "localBodySha256": "d0e196ae07e8d5b7d6d66ea6aea6f96948bbe75b442dbc06a6da3711f106eb85",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-036-8491d12676",
+          "parentId": "toc-capital-v3-zh-part-5",
+          "title": "第三十五章 贵金属和汇兑率",
+          "type": "CHAPTER",
+          "order": 35,
+          "chapterId": "chapter-036-8491d12676",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-36"
+        }
+      ],
+      "localFirstParagraphs": [
+        "Ⅰ．金贮藏的变动Ⅱ．汇兑率",
+        "Ⅰ．金贮藏的变动"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-036-8491d12676",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+          "sourceRawSha256": "5f4aaadcaf81fe254efe744ef4ab45b24d43d050334158324a2ca4628e3614b9",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十五章　贵金属和汇兑率",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十五章　贵金属和汇兑率</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-036-8491d12676",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+          "sourceRawSha256": "5f4aaadcaf81fe254efe744ef4ab45b24d43d050334158324a2ca4628e3614b9",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-036-8491d12676",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/036.htm",
+          "sourceRawSha256": "5f4aaadcaf81fe254efe744ef4ab45b24d43d050334158324a2ca4628e3614b9",
+          "lineIndex": 6,
+          "text": "第三十五章　贵金属和汇兑率",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第三十五章　贵金属和汇兑率</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:24.885161+00:00",
+        "rawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+        "bytes": 45842
+      },
+      "localBodySha256": "94c8591dd382350a1d2916b85fd6dca5a4b9ffd0d5bdb0836f6f32115add6cd1",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-040-ebaa639173",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第三十九章 级差地租的第一形式（级差地租Ⅰ）",
+          "type": "CHAPTER",
+          "order": 39,
+          "chapterId": "chapter-040-ebaa639173",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-40"
+        }
+      ],
+      "localFirstParagraphs": [
+        "李嘉图在谈到下述论点时是完全正确的：",
+        "“地租＜即级差地租；他认为，除了级差地租，根本不存在什么别的地租＞总是使用两个等量的资本和劳动所取得的产品量之间的差额。”（《政治经济学和赋税原理》1821年伦敦版第59页）"
+      ],
+      "nativeNoteCount": 7,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-040-ebaa639173",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+          "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第三十九章 级差地租的第一形式（级差地租I）",
+          "compactLength": 32,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第三十九章 级差地租的第一形式（级差地租I）</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-040-ebaa639173",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+          "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-042-41c2ead987",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+      "sourceRawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:25.283860+00:00",
+        "rawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+        "bytes": 18350
+      },
+      "localBodySha256": "ab433d45ef429731b429329e6053c013c6ac206fb87dbc8d42d95bbceb4cef79",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-042-41c2ead987",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十一章 级差地租Ⅱ――第一种情况：生产价格不变",
+          "type": "CHAPTER",
+          "order": 41,
+          "chapterId": "chapter-042-41c2ead987",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-42"
+        }
+      ],
+      "localFirstParagraphs": [
+        "这里的前提是：市场价格仍由投在最坏土地A上的资本调节。",
+        "I．如果投在任何一级提供地租的土地B、C、D上的追加资本，只和投在A级土地上的同量资本生产一样多的东西，也就是说，如果这个追加资本只按起调节作用的生产价格来提供平均利润，不提供任何超额利润，那末，它对地租的影响就等于零。一切都照旧。这就等于，有任意英亩数的A级土地即最坏土地加入耕地面积。"
+      ],
+      "nativeNoteCount": 3,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-042-41c2ead987",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+          "sourceRawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十一章 级差地租II――第一种情况：生产价格不变",
+          "compactLength": 36,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十一章 级差地租II――第一种情况：生产价格不变</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-042-41c2ead987",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/042.htm",
+          "sourceRawSha256": "cc543bd2a5f03114f070586870a49087fe024f22e331b006d93491200e7ef576",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-043-8e88226134",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:25.633185+00:00",
+        "rawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+        "bytes": 42008
+      },
+      "localBodySha256": "308cc6cd8a69b949a426c50d480642755e8615eed5f686336c936f9ca8ab382d",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-043-8e88226134",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十二章 级差地租Ⅱ――第二种情况：生产价格下降",
+          "type": "CHAPTER",
+          "order": 42,
+          "chapterId": "chapter-043-8e88226134",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-43"
+        }
+      ],
+      "localFirstParagraphs": [
+        "当追加投资的生产率不变、降低或提高时，生产价格都可能下降。",
+        "I．追加投资的生产率不变"
+      ],
+      "nativeNoteCount": 10,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-043-8e88226134",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+          "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第四十二章 级差地租II——第二种情况：生产价格下降",
+          "compactLength": 36,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第四十二章 级差地租II——第二种情况：生产价格下降</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-043-8e88226134",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+          "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "existingSourceByteCorrections": [
+        {
+          "damaged": "30夸?亍；醣业刈馊粗挥幸话耄?18镑",
+          "restored": "30夸特。货币地租却只有一半，是18镑",
+          "existingEvidence": "043.htm@19185 丢「特」(CC D8)、@19210 丢「是」(CA C7)；英文版：\"increased from 20 to 30 qrs. The money-rent would be only half as large\""
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-044-054339ee3a",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:26.653548+00:00",
+        "rawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+        "bytes": 80924
+      },
+      "localBodySha256": "a60a48ce82db5a814fd256c63920a0b32ffcdc019486a44b8bca38a251e64510",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-044-054339ee3a",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十三章 级差地租Ⅱ――第三种情况：生产价格上涨。结论",
+          "type": "CHAPTER",
+          "order": 43,
+          "chapterId": "chapter-044-054339ee3a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-44"
+        }
+      ],
+      "localFirstParagraphs": [
+        "{生产价格的上涨是以不支付地租的最坏土地的生产率的降低为前提的。只有当投在A上面的2 1/2镑所生产的不到1夸特，5镑所生产的不到2夸特时，或者必须耕种比A更坏的土地时，起调节作用的生产价格才会高于每夸特3镑。",
+        "在第二次投资的生产率不变或提高时，上述情况只有在第一次2 1/2镑投资的生产率已降低的场合，才是可能的。这样的情况是经常会发生的。例如，因浅耕而枯竭的表土，用旧的耕作方法，只会提供日益减少的收获，以后，用深耕方法犁起的深土，通过比较合理的耕作，就会提供比以前多的收获。但确切说来，这种特殊情况不属于这里研究的范围。对较好土地来说，甚至在那里假定发生类似情况时，第一次2 1/2镑投资的生产率的下降，也会引起级差地租I的下降；但在这里，我们只考察级差地租II。但是，因为如不假定级差地租II的存在，以上这种特殊情况就不可能发生，并且这种情况事实上表现为级差地租I的一种变形对级差地租II的反作用，所以我们要举例说明。"
+      ],
+      "nativeNoteCount": 23,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-044-054339ee3a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+          "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷——第四十三章 级差地租II——第三种情况：生产价格上涨。结论",
+          "compactLength": 39,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷——第四十三章 级差地租II——第三种情况：生产价格上涨。结论</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-044-054339ee3a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+          "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "existingSourceByteCorrections": [
+        {
+          "damaged": "这样一?矗腔岚淹恋毓笞灞湮枰燃玫钠睹瘛５导什皇钦庋恋毓笞宸炊纫郧叭魏问焙蚨几挥辛恕Ｕ馐窃趺椿厥履??",
+          "restored": "这样一来，他们会把土地贵族变为需要救济的贫民。但实际不是这样，土地贵族反而比以前任何时候都更富有了。这是怎么回事呢？",
+          "existingEvidence": "044.htm@57147 丢「来」(C0 B4)、@57254 丢「呢」(C4 D8)；英文版：\"…believed that they had thereby turned the land-owning aristocracy into paupers. Instead, they became richer than ever. How did this occur? Very simply.\""
+        },
+        {
+          "damaged": "而?胗葾调节的一般的生产价格",
+          "restored": "而与由A调节的一般的生产价格",
+          "existingEvidence": "044.htm@72241 丢「与」(D3 EB)；英文版：\"…agree with the general price of production regulated by A\""
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-045-c39223de01",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十四章 最坏耕地也有级差地租",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+      "sourceRawSha256": "6d100e0b461b3806c08c65e3135a7781a36add7d88f4a6f2c29b880b3bcdb700",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:27.769921+00:00",
+        "rawSha256": "6d100e0b461b3806c08c65e3135a7781a36add7d88f4a6f2c29b880b3bcdb700",
+        "bytes": 18418
+      },
+      "localBodySha256": "e83e5a76d8f68576f68efcc859ba527a4e05edd05fce508513e7d45a7580d48f",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-045-c39223de01",
+          "parentId": "toc-capital-v3-zh-part-6",
+          "title": "第四十四章 最坏耕地也有级差地租",
+          "type": "CHAPTER",
+          "order": 44,
+          "chapterId": "chapter-045-c39223de01",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-45"
+        }
+      ],
+      "localFirstParagraphs": [
+        "假定对谷物的需求不断增加，并且供给只能通过提供地租的土地上生产率不足的连续投资，或者通过A级土地上生产率也不断降低的追加投资，或者通过比A更坏的新地上的投资来满足。",
+        "让我们把B级土地，作为提供地租的土地的代表。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-045-c39223de01",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+          "sourceRawSha256": "6d100e0b461b3806c08c65e3135a7781a36add7d88f4a6f2c29b880b3bcdb700",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十四章 最坏耕地也有级差地租",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十四章 最坏耕地也有级差地租</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-045-c39223de01",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+          "sourceRawSha256": "6d100e0b461b3806c08c65e3135a7781a36add7d88f4a6f2c29b880b3bcdb700",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-045-c39223de01",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/045.htm",
+          "sourceRawSha256": "6d100e0b461b3806c08c65e3135a7781a36add7d88f4a6f2c29b880b3bcdb700",
+          "lineIndex": 6,
+          "text": "第四十四章 最坏耕地也有级差地租",
+          "compactLength": 15,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四十四章 最坏耕地也有级差地租</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-050-6263205336",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第四十九章 关于生产过程的分析",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+      "sourceRawSha256": "b6c737f03a6816d1185c66b26db175aa094264f038503a4e9deb95f605e37c6a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:28.123718+00:00",
+        "rawSha256": "b6c737f03a6816d1185c66b26db175aa094264f038503a4e9deb95f605e37c6a",
+        "bytes": 34389
+      },
+      "localBodySha256": "a5e1a13adf26168938e8d647d45819f1fcd942b7f7a7c4ef45cca55a211e34db",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-050-6263205336",
+          "parentId": "toc-capital-v3-zh-part-7",
+          "title": "第四十九章 关于生产过程的分析",
+          "type": "CHAPTER",
+          "order": 49,
+          "chapterId": "chapter-050-6263205336",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-50"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在以下的研究中可以把生产价格和价值的区别撇开不说，因为象在这里所作的那样，当我们考察劳动的全部年产品的价值，也就是考察社会总资本的产品的价值时，这种区别就不存在了。",
+        "利润（企业主收入加上利息）和地租，不外是商品剩余价值的各个特殊部分所采取的独特形式。剩余价值的大小，是剩余价值可以分割成的各个部分的总和的界限。因此，平均利润加上地租就等于剩余价值。商品中包含的一部分剩余劳动，从而一部分剩余价值，有可能不直接加入平均利润的平均化过程；这时，商品价值的一部分就根本不会在商品的价格中表现出来。不过，第一，这种情况将会由于下述事实得到补偿：或者是在低于价值出售的商品形成不变资本的要素时，利润率会提高，或者是在低于价值出售的商品作为个人消费品加入作为收入来消费的那部分价值时，利润和地租会表现为更多的产品。第二，这种情况在平均运动中会抵销。无论如何，即使商品价格中没有表现出来的一部分剩余价值在形成价格时消失了，平均利润加上地租的总和在其正常形式上决不会大于全部剩余价值，虽然会小于全部剩余价值。它的正常形式是以与劳动力的价值相适应的工资为前提的。甚至垄断地租，只要它不是对工资的扣除，因而不形成任何特殊的范畴，它就必然间接地总是剩余价值的一部分；虽然它不象级差地租那样，是包含地租的那种商品本身的价格超过商品本身的生产费用的余额；也不象绝对地租那样，是包含地租的那种商品本身的剩余价值超过商品本身的按平均利润计算的剩余价值部分的余额，但毕竟是同这种具有垄断价格的商品进行交换的其他商品的剩余价值的一部分。――平均利润加上地租的总和，决不会大于分成这两部分而在这种分割以前就已存在的量。因此，不管商品的全部剩余价值，即商品中包含的全部剩余劳动，是否都在商品的价格中得到实现，这对我们的研究来说是没有关系的。由于劳动生产力的不断变动，生产某个商品的社会必要劳动的量也会不断变动，在这种情况下，有一部分商品总是要在不正常的条件下生产出来，总是要低于自己的个别价值出售，单是由于这一原因，剩余劳动就已经不会全部实现。但无论如何，利润加上地租等于全部已实现的剩余价值（剩余劳动），而对我们这里的研究来说，已实现的剩余价值可以看作同全部剩余价值相等；因为利润和地租就是已实现的剩余价值，总的说来，也就是加入商品价格的剩余价值，因而实际上也就是形成这个价格的一个组成部分的全部剩余价值。"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-050-6263205336",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+          "sourceRawSha256": "b6c737f03a6816d1185c66b26db175aa094264f038503a4e9deb95f605e37c6a",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第四十九章 关于生产过程的分析",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第四十九章 关于生产过程的分析</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-050-6263205336",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+          "sourceRawSha256": "b6c737f03a6816d1185c66b26db175aa094264f038503a4e9deb95f605e37c6a",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-050-6263205336",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/050.htm",
+          "sourceRawSha256": "b6c737f03a6816d1185c66b26db175aa094264f038503a4e9deb95f605e37c6a",
+          "lineIndex": 6,
+          "text": "第四十九章 关于生产过程的分析",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第四十九章 关于生产过程的分析</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-051-b2e1b30b29",
+      "title": "资本论·第三卷",
+      "chapterTitle": "第五十章 竞争的假象",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+      "sourceRawSha256": "6d7f5b24c1b1dba1c9b7e2e7ed78b786bff732dd6ef2817182a213166f721ad4",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:20:28.816547+00:00",
+        "rawSha256": "6d7f5b24c1b1dba1c9b7e2e7ed78b786bff732dd6ef2817182a213166f721ad4",
+        "bytes": 39241
+      },
+      "localBodySha256": "a7f1a2d0ab3b71452d7c4dad3c959859cb3990dfd6f1d74e1bb90694e6d774a7",
+      "localChapterToc": [
+        {
+          "id": "toc-capital-v3-zh-chapter-chapter-051-b2e1b30b29",
+          "parentId": "toc-capital-v3-zh-part-7",
+          "title": "第五十章 竞争的假象",
+          "type": "CHAPTER",
+          "order": 50,
+          "chapterId": "chapter-051-b2e1b30b29",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-51"
+        }
+      ],
+      "localFirstParagraphs": [
+        "以上已经指出，商品的价值或由商品总价值调节的生产价格，分解为如下几个部分：",
+        "1．补偿不变资本的价值部分，也就是代表生产商品时以生产资料的形式用掉的过去劳动的价值部分；一句话，就是加入商品生产过程的生产资料的价值或价格。在这里，我们从来不是说单个商品，而是说商品资本，即资本产品在一定期间例如一年内借以表现的形式，单个商品只是商品资本的要素，单个商品的价值也同样分割为这些组成部分。"
+      ],
+      "nativeNoteCount": 1,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-051-b2e1b30b29",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+          "sourceRawSha256": "6d7f5b24c1b1dba1c9b7e2e7ed78b786bff732dd6ef2817182a213166f721ad4",
+          "lineIndex": 1,
+          "text": "马恩全集第二十五卷――第五十章 竞争的假象",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马恩全集第二十五卷――第五十章 竞争的假象</title>"
+          ]
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-051-b2e1b30b29",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+          "sourceRawSha256": "6d7f5b24c1b1dba1c9b7e2e7ed78b786bff732dd6ef2817182a213166f721ad4",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 马克思 - 恩格斯 -> 《马克思恩格斯全集》第二十五卷",
+          "compactLength": 35,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "capital-v3-zh",
+          "chapterId": "chapter-051-b2e1b30b29",
+          "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/051.htm",
+          "sourceRawSha256": "6d7f5b24c1b1dba1c9b7e2e7ed78b786bff732dd6ef2817182a213166f721ad4",
+          "lineIndex": 6,
+          "text": "第五十章 竞争的假象",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">第五十章 竞争的假象</p>"
+          ]
+        }
+      ],
+      "sourceBodyVerifiedWithExplicitRootException": true,
+      "nativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 55,
+    "candidatesReviewed": 155,
+    "newRepairs": 0,
+    "paragraphsNotesTocAndAnnotationsUnchanged": true
+  }
+}

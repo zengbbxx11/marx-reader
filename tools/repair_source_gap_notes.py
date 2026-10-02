@@ -21,7 +21,7 @@ def repair(library, apply=False):
         ref = note['references'][0]; paragraph = chapter['content'][ref['paragraphIndex']]
         assert note['marker'] == record['marker'] == paragraph[ref['start']:ref['end']]
         assert hashlib.sha256(paragraph.encode()).hexdigest() == record['paragraphSha256']
-        expected_status = 'SOURCE_MISSING' if record['status'] == 'version_conflict_pending' else None
+        expected_status = 'SOURCE_MISSING' if record['status'] in ('version_conflict_pending', 'verified_source_gap') else None
         assert note.get('status') in ('SOURCE_MISSING', expected_status)
         if expected_status: note['status'] = expected_status
         else: note.pop('status', None)
@@ -47,6 +47,7 @@ def repair(library, apply=False):
             supplement_path.write_text(json.dumps(supplements, ensure_ascii=False, indent=2) + '\n')
     return {'changedBooks': [p.stem for p in changes], 'supplementsChanged': supplements != before_supplements,
             'verifiedNotes': sum(r['status'] == 'fixed_verified' for r in reviews),
+            'verifiedSourceGaps': sum(r['status'] == 'verified_source_gap' for r in reviews),
             'versionConflictsPending': sum(r['status'] == 'version_conflict_pending' for r in reviews), 'applied': apply}
 
 

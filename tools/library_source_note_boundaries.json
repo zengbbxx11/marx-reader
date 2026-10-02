@@ -1,0 +1,965 @@
+{
+  "https://www.marxists.org/chinese/engels/1850/02.htm": {
+    "htmlSha256": "ebe464c85ced558cdcfef03f7e454a19f2c7c8f551d28fa5d8403d3f61a8e06c",
+    "ends": [
+      {
+        "noteId": "_ftn230",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/03.htm": {
+    "htmlSha256": "3cbf83705d6fa499d842733030f299306b1949947e0dd53c8ee796b807a82bb1",
+    "ends": [
+      {
+        "noteId": "_ftn235",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/04.htm": {
+    "htmlSha256": "7bf0e8e2016520e21ee1ef19f1042848e2ddf1a7e401fd2d3df4246568e539a2",
+    "ends": [
+      {
+        "noteId": "_ftn238",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/05.htm": {
+    "htmlSha256": "eb634d0d27a4adbfde4a1db4df569ec606b936ddef52decaabdc7d6db49f4803",
+    "ends": [
+      {
+        "noteId": "_ftn250",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/06.htm": {
+    "htmlSha256": "0a0afe6dcdcd42f9bf7449c961b60e20306400fe0b4bdd5667e5c62335f44a8a",
+    "ends": [
+      {
+        "noteId": "_ftn256",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/01.htm": {
+    "htmlSha256": "0b4f91f808e81473ab0da7634a2c9bf854c65b2e01d77e3fb19d36482f181dfe",
+    "ends": [
+      {
+        "noteId": "_ftn135",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/02.htm": {
+    "htmlSha256": "aff32cc6390326c2b01960542fb50e4031c72ce3fba615a18e8c20113e99d5f7",
+    "ends": [
+      {
+        "noteId": "_ftn139",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/03.htm": {
+    "htmlSha256": "34b16f4752542ac1261bdf569c7099f011b429d2e802e2672619dce275638ad7",
+    "ends": [
+      {
+        "noteId": "_ftn149",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/01.htm": {
+    "htmlSha256": "f951481512ef908cda24f939963e48609e958c37c40243bade405f38d4134362",
+    "ends": [
+      {
+        "noteId": "_ftn53",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/02.htm": {
+    "htmlSha256": "be86c18d9e81a92576a04afc83e74d39cadfc13f721e14b0d30d692d92f03035",
+    "ends": [
+      {
+        "noteId": "_ftn64",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/03.htm": {
+    "htmlSha256": "fa938fabc308d4e8db8caab5a1bdda9c0f836ef782cb3fd6b96db4a0ddc3a9d7",
+    "ends": [
+      {
+        "noteId": "_ftn68",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/04.htm": {
+    "htmlSha256": "10aa44e8f4c862e9f2e2c7bb0f1fc52eb478e9ac121bbf93b1e652f1c5af929e",
+    "ends": [
+      {
+        "noteId": "_ftn72",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/05.htm": {
+    "htmlSha256": "a2f99c1f1ac11178f16c4bd3a79bf2339330ec886604a3296ac7979a93f615bf",
+    "ends": [
+      {
+        "noteId": "_ftn81",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/06.htm": {
+    "htmlSha256": "3618015d81976daff748d4e91f69c6451fbeecc23bf5dc6c394f2f3de8a81765",
+    "ends": [
+      {
+        "noteId": "_ftn86",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/07.htm": {
+    "htmlSha256": "3ba8bfc82f49bd7d74ccab935c8b2449e3a0dbdf05ded3261c7f899353722716",
+    "ends": [
+      {
+        "noteId": "_ftn93",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/184908-185002/01.htm": {
+    "htmlSha256": "024b525a8c9d0bdbf8a0335ccfbaf7b29033a0ac2f37f1274e0215807e4193a3",
+    "ends": [
+      {
+        "noteId": "_ftn73",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/184908-185002/02.htm": {
+    "htmlSha256": "a9e76939660fb45d234738f294a547be807ba83e64f54385d6283c751078e273",
+    "ends": [
+      {
+        "noteId": "_ftn80",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/184908-185002/03.htm": {
+    "htmlSha256": "3382360c88f7c2c8b2f5565cc35d6ffa57f89a1cc06f74dbd785601a23be3d89",
+    "ends": [
+      {
+        "noteId": "_ftn88",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/184908-185002/04.htm": {
+    "htmlSha256": "c7f2f058890d4014a816ce1c8f4afc13acd4a7197116516203831f5861f67417",
+    "ends": [
+      {
+        "noteId": "_ftn99",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/184908-185002/05.htm": {
+    "htmlSha256": "9214929a91afc2ebddafaa88a1c5078dd46de9dcd9252db87e0880cc0a74f1e1",
+    "ends": [
+      {
+        "noteId": "_ftn111",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/00.htm": {
+    "htmlSha256": "4abac5511c7759edbf2beed4e03cbb4fdfb0959c781f14d23bfb564a388f3229",
+    "ends": [
+      {
+        "noteId": "_ftn7",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/01.htm": {
+    "htmlSha256": "e22ea518da2202a20fd4cf7b3597082b4a60962a5af5aa95dd4d46aca37f7ab9",
+    "ends": [
+      {
+        "noteId": "_ftn52",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/02.htm": {
+    "htmlSha256": "5f5d3574c2563e2b59592b8875d2c39825619a35057afda56e9d1e073c6ebd7c",
+    "ends": [
+      {
+        "noteId": "_ftn83",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/03.htm": {
+    "htmlSha256": "5ca43d6a67653e2984dfe30473652495c3ed76cb627fb31e0422bd4bef4a8c16",
+    "ends": [
+      {
+        "noteId": "_ftn111",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/04.htm": {
+    "htmlSha256": "add1b480c61617be4d926ad792011207cc4318068b779e72639c7c834d1c67de",
+    "ends": [
+      {
+        "noteId": "_ftn133",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/1901-1902/05.htm": {
+    "htmlSha256": "966639275d07f7dab7c1972d6ce8a368c73ed32a7c49f5afbe24a7c23094b474",
+    "ends": [
+      {
+        "noteId": "_ftn146",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/00.htm": {
+    "htmlSha256": "7598831fdaf317d05490f3431416c15b90a1a932b2d22e0200f8cc77b2b06e46",
+    "ends": [
+      {
+        "noteId": "_ftn8",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/01.htm": {
+    "htmlSha256": "4a49bc89144d860ada287174fafc76f79e0ca6f72d34195cbb20c6eec4898d85",
+    "ends": [
+      {
+        "noteId": "_ftn11",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/02.htm": {
+    "htmlSha256": "91a788ff3e37729279127ef126a8097d2ff307f42ae54425c65d97295a7ec8df",
+    "ends": [
+      {
+        "noteId": "_ftn12",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/03.htm": {
+    "htmlSha256": "adeec22a9b91ac8b63f3de6e0b189aed19406c4b1cc7c920ad192a8be5fad772",
+    "ends": [
+      {
+        "noteId": "_ftn19",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/04.htm": {
+    "htmlSha256": "31777cfccd89e78537b1cfab3e655d3d2a8242ed70769a407c5c9f5e3ce20d56",
+    "ends": [
+      {
+        "noteId": "_ftn21",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/06.htm": {
+    "htmlSha256": "39cf1d042c3330766d46ca9dbf727d9650e07509581f22274853c299c7094ba2",
+    "ends": [
+      {
+        "noteId": "_ftn26",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/07.htm": {
+    "htmlSha256": "05babe89537d082ce8f2540d5da40d08b2597bbdc4cb3887fab9a3d7cdd5162e",
+    "ends": [
+      {
+        "noteId": "_ftn30",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/08.htm": {
+    "htmlSha256": "ad0d8d20e466cf3d7b22afca137c71876051404c3edf8f9a76d8d825cac52d51",
+    "ends": [
+      {
+        "noteId": "_ftn34",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/09.htm": {
+    "htmlSha256": "6b4166d24bdec883b0e90b7d773c99fe6557489cff57d29403978f7ce244cbec",
+    "ends": [
+      {
+        "noteId": "_ftn36",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/10.htm": {
+    "htmlSha256": "0e7d24c00e82ea6a57e73f7662420374c6a414a5f158702708e6a74398d06c01",
+    "ends": [
+      {
+        "noteId": "_ftn41",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/12.htm": {
+    "htmlSha256": "630b76d585aeadb50a1324b26340951399741cd596e92db6a253c37c9fda4c31",
+    "ends": [
+      {
+        "noteId": "_ftn45",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/13.htm": {
+    "htmlSha256": "8b15ea416fa11062a168a9469d8c0adf953f9f845ad4358d20a20beab25f50fe",
+    "ends": [
+      {
+        "noteId": "_ftn49",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/190506-07/14.htm": {
+    "htmlSha256": "a7b5863bd5d5e1e6c2a3513e4015100ac1f49d492fe3dd109725f62e66f6e8d2",
+    "ends": [
+      {
+        "noteId": "_ftn64",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19440412.htm": {
+    "htmlSha256": "8cc9e31896c4e47bc763c42e3b1b228b44de80ce3ad70e7c080db24e0e48086e",
+    "ends": [
+      {
+        "noteId": "_ftn22",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-192404.htm": {
+    "htmlSha256": "b8d507a68af0dfd2f8f20dc63ab92e2ed2b4f2ac855b2e87b1af35754d27de09",
+    "ends": [
+      {
+        "noteId": "_ftn19",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1899C.htm": {
+    "htmlSha256": "b82522a8b4756c132d59880e59a7405bb121e5fcf60cd14497d9b94fac11bac7",
+    "ends": [
+      {
+        "noteId": "_ftn75",
+        "tag": "p"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/01.htm": {
+    "htmlSha256": "217eed36edf46ef54b76390c0a61edf02483736f76be90f1c2098f8a2db8e75f",
+    "ends": [
+      {
+        "noteId": "_ftn7",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/02.htm": {
+    "htmlSha256": "d1e3244a0d8c1aa0c508b2e5e85e05fb0613252ddadd147ed5f4a9fc18c8f67a",
+    "ends": [
+      {
+        "noteId": "_ftn15",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/03.htm": {
+    "htmlSha256": "8a69d3f3112f47b42b6dac535eb1a08d57495a71a0b4e13cc1fa3f97d3e4e0e0",
+    "ends": [
+      {
+        "noteId": "_ftn19",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/04.htm": {
+    "htmlSha256": "12b5bc0b7b3cb30b0b342a9c7dad6fd26af8ec4d80a0d92ff6460ca6793e06bb",
+    "ends": [
+      {
+        "noteId": "_ftn21",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/05.htm": {
+    "htmlSha256": "b5017cc2847d567b04063b03ba4a868b7dda5d531d85c55efe1e5cbbaba631b9",
+    "ends": [
+      {
+        "noteId": "_ftn22",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/07.htm": {
+    "htmlSha256": "ecdd8a964f0c22c82b91023d270019bd0825626bbf031adea8c2eb37f34284e4",
+    "ends": [
+      {
+        "noteId": "_ftn24",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/08.htm": {
+    "htmlSha256": "7c1db2982bc0eb51db8be06dc2309156920fcb6cfd5b606d4c1a2e8249f077e6",
+    "ends": [
+      {
+        "noteId": "_ftn26",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/09.htm": {
+    "htmlSha256": "16e0281fbe48d4620151b90344cd66ba6254adbcd6d168de21aa1757560cc59a",
+    "ends": [
+      {
+        "noteId": "_ftn28",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/10.htm": {
+    "htmlSha256": "42dee7222dc63328640725d54911693df3a667682b867f1733f2a313b632b3d1",
+    "ends": [
+      {
+        "noteId": "_ftn31",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/11.htm": {
+    "htmlSha256": "bed0b9caf7038b5adb5296f9572287984762a95f095bc4a3df2fce5771b2353e",
+    "ends": [
+      {
+        "noteId": "_ftn32",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/12.htm": {
+    "htmlSha256": "c48cf90df7ea9d32e55d89a0edfbdc23dcdd034b56dc6d5ae0a6a6d26bd47407",
+    "ends": [
+      {
+        "noteId": "_ftn35",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/13.htm": {
+    "htmlSha256": "2e646c9d07f08069cc534ff9661e45c241cb92fd017e8b732524621487fb7125",
+    "ends": [
+      {
+        "noteId": "_ftn36",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/15.htm": {
+    "htmlSha256": "c271b16b5de4037027862892c7cec135472108e8df529cb8b26eb83550de1b14",
+    "ends": [
+      {
+        "noteId": "_ftn37",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/16.htm": {
+    "htmlSha256": "cf3e988dd0c960ac9cd655184a0d0fc36b5bbbeb029e20fac363e004215d815e",
+    "ends": [
+      {
+        "noteId": "_ftn38",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1851-1852/19.htm": {
+    "htmlSha256": "477c406ccf7dc4c3a05f8027bf23c4cd073f98e1f450db441003be2b983ba1d0",
+    "ends": [
+      {
+        "noteId": "_ftn40",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/maozedong/1937/01.htm": {
+    "htmlSha256": "c13e2255a50e6144f01c843a6dc4f6ba722ebfd2c2c54427b7b8c9b5f2bc01f1",
+    "ends": [
+      {
+        "noteId": "_ftn2",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/maozedong/1937/02.htm": {
+    "htmlSha256": "e364944862ce6a675e950e7071cb5811f68564ab883ecb9141e77ed471e9e856",
+    "ends": [
+      {
+        "noteId": "_ftn24",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/maozedong/1937/03.htm": {
+    "htmlSha256": "1d4ce93d58c1bb7947ebf8953e6ff7fc58ef28bb00f300bd8aac56584451070f",
+    "ends": [
+      {
+        "noteId": "_ftn15",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1850/05.htm": {
+    "htmlSha256": "47e7311adc912fea66f82d9e157a470e395e11e7521629e44ca20b44a44a77b2",
+    "ends": [
+      {
+        "noteId": "_ftn523",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/01.htm": {
+    "htmlSha256": "86ff6a3df7347bdab586700d4fcf59d27231d21c2e918392a685d3abf7d3ffe2",
+    "ends": [
+      {
+        "noteId": "_ftn2",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/02.htm": {
+    "htmlSha256": "790af653a2bb9e022f93417a90fcdb51d58d1bf90a34bde0435d860b461dca82",
+    "ends": [
+      {
+        "noteId": "_ftn7",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/03.htm": {
+    "htmlSha256": "476d4580cef36a4675a4dd42cca7664d4ba45bbd81350953900238ac1503f72d",
+    "ends": [
+      {
+        "noteId": "_ftn15",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/04.htm": {
+    "htmlSha256": "844be06e3da3086489f18efdb932fec71f2247b281afbc5830c2c2b82e0960ad",
+    "ends": [
+      {
+        "noteId": "_ftn21",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/05.htm": {
+    "htmlSha256": "8da1e5ba1ed828513cbab946129924f0cbb1781e78e8f64d706cc4ce438bb041",
+    "ends": [
+      {
+        "noteId": "_ftn33",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/06.htm": {
+    "htmlSha256": "be6497896876301b1022b89f600d95c4c3e65f47c5222b389ed12e81ca687c25",
+    "ends": [
+      {
+        "noteId": "_ftn34",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/191708-09/07.htm": {
+    "htmlSha256": "73825d6434ed350be98c7dd0ba66ed58ea26d2cd4e266dcbbabf470b1a43e6a8",
+    "ends": [
+      {
+        "noteId": "_ftn45",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/mia-chinese-engels-18880130.htm": {
+    "htmlSha256": "b4b51d644be3a808d2b8e0b1b3e794d9d58474afb51121fcdafd23337df08c36",
+    "ends": [
+      {
+        "noteId": "_ftn27",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1856-4-16.htm": {
+    "htmlSha256": "2c3dfa12489bba7c63adf8e114df45f0ec92f25349dd96dde85565904312f3dd",
+    "ends": [
+      {
+        "noteId": "_ftn4",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-19080323.htm": {
+    "htmlSha256": "354534c2d6de2c6f535ffaa6756d46bfd93c59f56e6c8a94a642d783bce7a3c6",
+    "ends": [
+      {
+        "noteId": "_ftn3",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19170329.htm": {
+    "htmlSha256": "34b0f6b343fc59c10caf0f5dded458257428bb93e629352109171a34fc4bc08f",
+    "ends": [
+      {
+        "noteId": "_ftn5",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/00.htm": {
+    "htmlSha256": "a5c080562aff4cf7f3388d8dd420264b39611ee55ff913c6fada5cafdc2fc44b",
+    "ends": [
+      {
+        "noteId": "_ftn33",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/01.htm": {
+    "htmlSha256": "65e4b101f0309be3132b0cb3193fb8811749b420d6354223edf7004a8b5ac672",
+    "ends": [
+      {
+        "noteId": "_ftn36",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/02.htm": {
+    "htmlSha256": "23540f04185832abe688fd2b500f477d45e439fc0a648b75eaa3043fb3c02113",
+    "ends": [
+      {
+        "noteId": "_ftn49",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/03.htm": {
+    "htmlSha256": "f759b1c0c3b1a1d643711d010c19428c1855977dbb384087d1e8b0cf522c0f68",
+    "ends": [
+      {
+        "noteId": "_ftn114",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/04.htm": {
+    "htmlSha256": "70a4524f9133feec5ed2453e4d05a08c2af05db0c2f6c193ccadc3162c80d6a1",
+    "ends": [
+      {
+        "noteId": "_ftn51",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/05.htm": {
+    "htmlSha256": "47d51e1ca92fcaface26d4547dddf75c5df3cfad5285bfad10b933b402db600a",
+    "ends": [
+      {
+        "noteId": "_ftn19",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/06.htm": {
+    "htmlSha256": "eaa71f551b5151f961e92c9eb00c771784438d394f8755b4e262eedc7d878ba1",
+    "ends": [
+      {
+        "noteId": "_ftn26",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/07.htm": {
+    "htmlSha256": "19d32ecd4daaf7933c920355b87ab9e07e3a47de86147ffcf758952eccaea215",
+    "ends": [
+      {
+        "noteId": "_ftn34",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/09.htm": {
+    "htmlSha256": "ac5f0babf3ba22064bd9d801ff58a653c77da2945dfc292b27209809662eff5b",
+    "ends": [
+      {
+        "noteId": "_ftn208",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/17.htm": {
+    "htmlSha256": "31e06528b928a294aac65607e4bfa1897d6d38991e8cd88a53165ca2645e4bd4",
+    "ends": [
+      {
+        "noteId": "_ftn9",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/18.htm": {
+    "htmlSha256": "2fb7ae1bfe8d7758acc796b383ad772130fb7f87fa625263d3bfd8718a53b7f5",
+    "ends": [
+      {
+        "noteId": "_ftn15",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/20.htm": {
+    "htmlSha256": "a2db3fccaa49c4b20e97a1641f5cb8a4418b4a875cfc4ecc1ba77872e3b5376b",
+    "ends": [
+      {
+        "noteId": "_ftn4",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/0a.htm": {
+    "htmlSha256": "305610496bd41fe6d0c2948e01421aff9e758550c8d459463b5ac5258ac143bc",
+    "ends": [
+      {
+        "noteId": "_ftn352",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/0b.htm": {
+    "htmlSha256": "41d61ad3ef0636da99cb183b5ba9627441df84483df05dc6c244941702fb388a",
+    "ends": [
+      {
+        "noteId": "_ftn424",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1850/01.htm": {
+    "htmlSha256": "96dec2ba6783c409401f4c32f156a06181e39bce24d51489c69fd673f467e63f",
+    "ends": [
+      {
+        "noteId": "_ftn210",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/04.htm": {
+    "htmlSha256": "db3b32b03b539e04d82ca4d4019f067a1e80a168cc620e07a71c0e3884a064bc",
+    "ends": [
+      {
+        "noteId": "_ftn159",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/05.htm": {
+    "htmlSha256": "ef3e6bedc77c683dce24309c0a99c77023fdf92ffd8c270c0ebd834d0222d8f3",
+    "ends": [
+      {
+        "noteId": "_ftn209",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/06.htm": {
+    "htmlSha256": "ed1bfd9cda0bd34cd39b90e70f92b17bd8aac725c5d5760212cccd4fe1549e93",
+    "ends": [
+      {
+        "noteId": "_ftn212",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/07.htm": {
+    "htmlSha256": "0ee95dec9efb59ebad976e0e245c79ab702cd85ca3ff2161ccd70ccaaed48147",
+    "ends": [
+      {
+        "noteId": "_ftn320",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/engels/1880/08.htm": {
+    "htmlSha256": "1a7d8329ab4c1e4798724dbc1b955c5903d6b8c7159ac708ef539e4918788d2a",
+    "ends": [
+      {
+        "noteId": "_ftn540",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/00a.htm": {
+    "htmlSha256": "159fec8ecefc1338c15acaa7e527b4d7937019f207f34b89f1d1adf3604ac1ac",
+    "ends": [
+      {
+        "noteId": "_ftn291",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/1851-1852/00b.htm": {
+    "htmlSha256": "7513ce688885514757dec97bc07378261ead165cb0e8b558f4eccd4e30acee25",
+    "ends": [
+      {
+        "noteId": "_ftn300",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/006.htm": {
+    "htmlSha256": "4e2ecc6909ce08f045387c2255602e8cc333f9b3fb32c1c24d3399f508f0b40a",
+    "ends": [
+      {
+        "noteId": "_ftn192",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/008.htm": {
+    "htmlSha256": "1bf92147b21dca1953175375dd32f35e5896d190a8e3fde2399f07871666ac6c",
+    "ends": [
+      {
+        "noteId": "_ftn187",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/014.htm": {
+    "htmlSha256": "462d40e3fbbeb5748be49317b3df64495ac44c9799d1c84344d5fcf93615e191",
+    "ends": [
+      {
+        "noteId": "_ftn150",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/015.htm": {
+    "htmlSha256": "dc594383223a8374d74664cf7c3aca4e032edb333a6e2481182bb3bea884a1a1",
+    "ends": [
+      {
+        "noteId": "_ftn558",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm": {
+    "htmlSha256": "4b87e7ad847911da2071c022f1f06311af650cbee0c3ca552888274f1e8b6b38",
+    "ends": [
+      {
+        "noteId": "_ftn311",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/capital/08.htm": {
+    "htmlSha256": "3da1c2ae91ec659bd4e7823539ab410fcd991664c57c52c3720499d75892267c",
+    "ends": [
+      {
+        "noteId": "_ftn1139",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm": {
+    "htmlSha256": "a63ecd708619bae8b4edbd38c36d648da3bd23c75b298e213727df73dc63efff",
+    "ends": [
+      {
+        "noteId": "_ftn134",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm": {
+    "htmlSha256": "1b5d9e045c18f5ef8005886e5503a9ba02a80c6f2f548cf4acc1ca0e25ae7526",
+    "ends": [
+      {
+        "noteId": "_ftn167",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm": {
+    "htmlSha256": "f4760592fa20a933b3a6dafbb59478b226a2e0968c487f249e055a7fe685f23d",
+    "ends": [
+      {
+        "noteId": "_ftn232",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm": {
+    "htmlSha256": "f72b807d274900741ffe23a731a7de15383de9e74aac03c759a190dd61f577e1",
+    "ends": [
+      {
+        "noteId": "_ftn190",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm": {
+    "htmlSha256": "344ae0bf45ae3f3f1fcfb2d6f73daa94bf61ed7125f586ba550e4ba1413581ce",
+    "ends": [
+      {
+        "noteId": "_ftn212",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm": {
+    "htmlSha256": "bcdecd4c23fd162481038856c76b43af19a54c6a7fbecfe828ab0fe4332d183e",
+    "ends": [
+      {
+        "noteId": "_ftn215",
+        "tag": "span"
+      }
+    ]
+  },
+  "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1871-4-17.htm": {
+    "htmlSha256": "ac5ee3a001fde5c602a3da25de7bb50d014687e4a051e6d5b8ef37f41f669e0b",
+    "ends": [
+      {
+        "noteId": "_ftn1",
+        "tag": "span"
+      }
+    ]
+  }
+}

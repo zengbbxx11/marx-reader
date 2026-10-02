@@ -1,0 +1,690 @@
+{
+  "date": "2026-10-02",
+  "scope": "独立短行候选14页：雾月十八日7章及工联、实践论、论政策、三篇未删节本和论十大关系的文档标题／来源行；无新增缺文。其他短行未批量定案。",
+  "reviews": [
+    {
+      "bookId": "engels-work-0018674e8276",
+      "chapterId": "chapter-001-0018674e82",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+      "sourceRawSha256": "9ec49edb4c086c22ab574b069d574c2b0a143fc8dbf3c04bf2474cc6ca504302",
+      "lineIndex": 2,
+      "text": "工联（1881年5月20日左右）",
+      "compactLength": 16,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-marx-18810520.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:10.964371+00:00",
+        "rawSha256": "9ec49edb4c086c22ab574b069d574c2b0a143fc8dbf3c04bf2474cc6ca504302",
+        "bytes": 11398
+      },
+      "sourceNodesHtml": [
+        "<title>工联（1881年5月20日左右）</title>"
+      ],
+      "localChapterTitle": "工联",
+      "localBookTitle": "工联",
+      "localFirstParagraphs": [
+        "弗・恩格斯（1881年5月20日左右）",
+        "一"
+      ],
+      "localLastParagraphs": [
+        "[175] 包括了宪章派的各项要求的人民宪章，1838年5月8日作为准备提交议会的一项法律草案公布。宪章包括六点：普选权（年满21岁的男子），议会每年改选一次，秘密投票，各选区一律平等，取消议会议员候选人的财产资格限制，发给议员薪金。1839、1842的1849年宪章派要求通过人民宪章的请愿书都被议会否决了。――第284页。",
+        "[176] 这里指的是1867年英国保守党人在人民群众的压力下实行的选举改革。国际总委员会积极参加了选举改革运动。根据新的法律，降低了选民的财产资格限制，在郡里，租佃者的财产资格限制降低到每年缴纳12英镑以上的租金，而在城市里，所有的房主和房屋租赁者，以及在该地居住满一年并缴纳房租10英镑以上的住户，都有选举权。1867年改革的结果，英国的选民人数增加了一倍多，相当一部分熟练工人也取得了选举权。――第285页。"
+      ],
+      "localBodySha256": "676b7ddd3e95535ea3f5a9cc0960945db53252c4783509ca2c60f69b9f040487",
+      "nativeNoteCount": 3,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-0018674e8276-chapter-chapter-001-0018674e82",
+          "parentId": "toc-engels-work-0018674e8276-root",
+          "title": "工联",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-0018674e82",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-003-1f1b053bf5",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+      "sourceRawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+      "lineIndex": 2,
+      "text": "第一章 1848年2月至1851年12月",
+      "compactLength": 19,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:12.667096+00:00",
+        "rawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+        "bytes": 20438
+      },
+      "sourceNodesHtml": [
+        "<title>第一章 1848年2月至1851年12月</title>"
+      ],
+      "localChapterTitle": "一 1848年2月至1851年12月",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "路易・波拿巴的雾月十八日[43]马克思",
+        "黑格尔在某个地方说过，一切伟大的世界历史事变和人物，可以说都出现两次。他忘记补充一点：第一次是作为悲剧出现，第二次是作为笑剧出现。科西迪耶尔代替丹东，路易・勃朗代替罗伯斯比尔，1848―1851年的山岳党代替1793―1795年的山岳党，侄儿代替伯父。在雾月十八日[44]事变再版的那些情况中，也可以看出一幅同样的漫画！"
+      ],
+      "localLastParagraphs": [
+        "[53] 克拉普林斯基是海涅的“两个骑士”一诗中的主人公，一个破落的贵族；克拉普林斯基这个姓是由法文字crapule（贪食、饕餮、酗酒以及懒汉、败类的意思）形成的。",
+        "马克思用克拉普林斯基来暗指路易・波拿巴。――第131页。"
+      ],
+      "localBodySha256": "0a3aef88ba3fbf1bad2d5076afb87f76bbf5a757b8ae4136e66a5bbdcf0b79b1",
+      "nativeNoteCount": 11,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-003-1f1b053bf5",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "一 1848年2月至1851年12月",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-1f1b053bf5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-004-23967e8bc3",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+      "sourceRawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+      "lineIndex": 2,
+      "text": "第二章 共和党的倒台",
+      "compactLength": 9,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:13.918549+00:00",
+        "rawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+        "bytes": 22367
+      },
+      "sourceNodesHtml": [
+        "<title>第二章 共和党的倒台</title>"
+      ],
+      "localChapterTitle": "二 共和党的倒台",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "现在让我们重新回到被打断的话题上来。",
+        "六月事变以后的制宪国民议会的历史，是资产阶级中的共和派统治和瓦解的历史，这个派别是以三色旗的共和党人、纯粹的共和党人、政治的共和党人、形式的共和党人等等称呼闻名的。"
+      ],
+      "localLastParagraphs": [
+        "[63] 1849年4月法国政府在援助皮蒙特抗击奥地利和保卫罗马共和国的借口下，从制宪议会那里得到一笔装备去意大利的远征军的拨款。而远征的真正目的却是干涉罗马共和国和恢复教皇的世俗权力。――第143页。",
+        "[64] 指1851年11月6日保皇党人勒夫洛、巴兹和帕纳及立法议会的议会总务官（议会负责经济、财政及安全保卫事务的特派员）提出的法案，法案经过激烈的辩论之后，在11月17日被否决。在表决时山岳党人将保皇党人看成是主要危险而支持波拿巴主义者。――第144页。"
+      ],
+      "localBodySha256": "42deea77d0fd62bc315e1c73353ee088c13ce9cc507e719052f53962826e8ea3",
+      "nativeNoteCount": 11,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-004-23967e8bc3",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "二 共和党的倒台",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-23967e8bc3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-005-6e8d972984",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+      "sourceRawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+      "lineIndex": 2,
+      "text": "第三章 路易・波拿巴的崛起",
+      "compactLength": 12,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:15.227841+00:00",
+        "rawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+        "bytes": 24814
+      },
+      "sourceNodesHtml": [
+        "<title>第三章 路易・波拿巴的崛起</title>"
+      ],
+      "localChapterTitle": "三 路易・波拿巴的崛起",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "立法国民议会于1849年5月28日开会，到1851年12月2日被解散。这一期间是立宪共和国或议会制共和国的存在时期。",
+        "在第一次法国革命中，立宪派统治以后是吉伦特派的统治；吉伦特派统治以后是雅各宾派的统治。这些党派中的每一个党派，都是以更先进的党派为依靠。每当某一个党派把革命推进得很远，以致它既不能跟上，更不能领导的时候，这个党派就要被站在它后面的更勇敢的同盟者推开并且送上断头台。革命就这样沿着上升的路线行进。"
+      ],
+      "localLastParagraphs": [
+        "[67] 第Ⅴ条属于1848年法国宪法的序言部分；宪法正文的条文是以阿拉伯数字编号的。――第153页。",
+        "[68] 暗指路易・波拿巴想从罗马教皇庇护九世手中接受法国王位的阴谋。据圣经故事，古犹太皇帝大卫是由先知撒母耳主持涂油仪式而登极的。――第158页。"
+      ],
+      "localBodySha256": "746c8ebfcf1f5c9ceb77699fbef52867b3fa0d239add3bba662907f2f0fbdf39",
+      "nativeNoteCount": 4,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-005-6e8d972984",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "三 路易・波拿巴的崛起",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-6e8d972984",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-006-1861b155a5",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+      "sourceRawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+      "lineIndex": 2,
+      "text": "第四章 小资产阶级民主派的失败",
+      "compactLength": 14,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:15.672833+00:00",
+        "rawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+        "bytes": 17382
+      },
+      "sourceNodesHtml": [
+        "<title>第四章 小资产阶级民主派的失败</title>"
+      ],
+      "localChapterTitle": "四 小资产阶级民主派的失败",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "1849年10月中旬，国民议会复会。11月1日，波拿巴送给议会一个咨文，说巴罗―法卢内阁已经免职，新内阁已经组成，这使议会大为震惊。就是驱逐一个仆人也不会比波拿巴驱逐自己的内阁阁员那样更加蛮横无礼。预定要向国民议会踢去的一脚，先踢到巴罗和他的同僚身上了。",
+        "我们已经说过，巴罗内阁是由正统派和奥尔良派组成的。这是秩序党的内阁。波拿巴需要这个内阁，是为了要解散共和派的制宪议会，实现对罗马的远征，并摧毁民主派的力量。那时他好像躲到这个内阁背后，把政府权力让给了秩序党，戴上了路易-菲力浦时期报纸的责任发行人常戴的朴质的假面具，即homme de paille〔冒名顶替者〕通常戴的假面具。现在他把假面具丢掉了，因为这个面具已不是一个使他能够隐藏自己的面容的薄纱，而是已变成一个妨碍他显示出自己的本来面目的铁制面具了。他任命巴罗内阁，是要借秩序党的名义驱散共和派的国民议会；他解散这个内阁，是宣布他自己的名字和这个秩序党的国民议会无关。"
+      ],
+      "localLastParagraphs": [
+        "[71] 按照1850年7月立法议会通过的出版法的规定，报纸出版者应当交付的保证金数额大大增加，并且开始征收印花税，小册子也在征收范围之内。这个新的法律是在法国实际上取缔出版自由的一些反动措施的继续。――第170页。",
+        "[72] “新闻报”（《La Presse》）是从1836年起在巴黎出版的资产阶级日报；在1848―1849年，它是资产阶级共和派的机关报，后来又是波拿巴主义者的机关报。――第170页。"
+      ],
+      "localBodySha256": "9340172659355ea4c3a6df9eb8a2aca41608ac7144e3a06896d1563e4163a000",
+      "nativeNoteCount": 4,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-006-1861b155a5",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "四 小资产阶级民主派的失败",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-1861b155a5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-007-1604d7f197",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+      "sourceRawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+      "lineIndex": 2,
+      "text": "第五章 制宪国民议会和波拿巴",
+      "compactLength": 13,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:16.808866+00:00",
+        "rawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+        "bytes": 30536
+      },
+      "sourceNodesHtml": [
+        "<title>第五章 制宪国民议会和波拿巴</title>"
+      ],
+      "localChapterTitle": "五 制宪国民议会和波拿巴",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "革命危机刚一过去，普选权刚一废止，国民议会和波拿巴之间的斗争就重新爆发了。",
+        "宪法规定发给波拿巴的薪俸是每年六十万法郎。他就任总统后不到半年功夫，就把这个数额增加了一倍。奥迪隆・巴罗要制宪议会每年补发六十万法郎作为所谓交际费。在6月13日以后，波拿巴也曾提出过同样的要求，可是巴罗这次并没有听从。现在，在5月31日以后，波拿巴立即利用有利的时机，通过他的内阁阁员们向国民议会要求每年发给三百万法郎的文官费。长期的流浪生活使这个冒险家极为敏感，他能探知可能向资产者勒索金钱的时机。他采取了十足的欺诈手段。国民议会在他的协助和同意下污辱了人民的主权。他威胁说，如果国民议会不松开钱袋，不以每年三百万法郎来买他的沉默，他就要把国民议会的犯罪行为报告给人民。国民议会剥夺了三百万法国人的选举权，他要求把每一个在政治上被弄得毫无价值的法国人换成一个实价的法郎，总额是三百万法郎。他是由六百万人选出来的，他要求赔偿他在事后被剥夺掉的票数。国民议会的委员会拒绝了他这种厚颜无耻的要求。于是波拿巴派的报纸就来进行威胁。国民议会能不能在它根本彻底和国民群众决裂的时候又同共和国总统决裂呢？国民议会虽然否决了每年的文官费，同时却通过了一次增发二百一十六万法郎的决定。国民议会既已答应给钱，同时又以自己的烦恼表明自己的让步是出于不得已，因而就暴露了加倍的软弱。波拿巴为什么需要这笔款子，我们往后就可以看到。在废除普选权后紧接着发生的令人丧气的尾声中，波拿巴对于篡夺权力的议会的口吻已经从3月和4月危机时期的恭顺平和变成了挑战式的骄横，而国民议会在这次事件后却休会三个月，从8月11日到11月11日。它在休会期间留下了一个由二十八个人组成的常任委员会，其中没有一个波拿巴分子，但是有几个温和的共和派。1849年的常任委员会完全是由秩序党和波拿巴分子组成的。但是，那时是秩序党以革命的经常反对者自命，现在则是议会制共和国以总统的经常反对者自命了。5月31日的法律通过后，秩序党所必须考虑的只是这个敌手了。"
+      ],
+      "localLastParagraphs": [
+        "[80] 贝耳岛是比斯开湾的一个岛。1849―1857年是监禁政治犯的地方；参加1848年巴黎六月起义的工人也被囚禁在这里。――第188页。",
+        "[81] 马克思在这里运用了古希腊作家阿泰纳奥斯（二至三世纪）的著作“学者们之宴会”（《Deipnosophistae》）中的一个情节。他转述得不完全确切。埃及法老泰俄斯以隐喻的方式讥笑带兵前去帮助他的斯巴达皇帝阿革西拉乌斯的矮小身材说：“山怀孕了，宙斯很吃惊，但山生了个老鼠”。阿革西拉乌斯回答说：“你把我看作老鼠，但总有一天，你会把我看成狮子的”。――第190页。"
+      ],
+      "localBodySha256": "c0498aa96331926cd28f82658c0e689ee2c0055aa8935e4aa0a0a6de6bd1056c",
+      "nativeNoteCount": 9,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-007-1604d7f197",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "五 制宪国民议会和波拿巴",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-1604d7f197",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-008-b27d9cd47e",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+      "sourceRawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+      "lineIndex": 2,
+      "text": "第六章 波拿巴的胜利",
+      "compactLength": 9,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:17.455451+00:00",
+        "rawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+        "bytes": 31004
+      },
+      "sourceNodesHtml": [
+        "<title>第六章 波拿巴的胜利</title>"
+      ],
+      "localChapterTitle": "六 波拿巴的胜利",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "秩序党在徒劳无益地力图保持军权和夺回已经丧失的对于行政权力的最高领导权时，不得不去跟山岳党和纯粹共和党人进行联合，这就确凿地证明，秩序党已经失去了独立的议会多数。仅仅是日历的力量、时钟的指针，在5月28日发出了秩序党彻底瓦解的信号。5月28日是国民议会生命的最后一个年头的开始。国民议会现在必须解决一个问题：原封不动地保存宪法呢，还是把它加以修改。但是，修改宪法就不只是要在资产阶级统治和小资产阶级民主派统治之间，在民主主义和无产阶级无政府状态之间，在议会制共和国和波拿巴之间进行选择，而且是要在奥尔良王朝和波旁王朝之间进行选择！这样，在议会内部就出现了一个引起争吵的原因，秩序党内利益彼此矛盾的各个敌对派别将围绕着它展开公开的斗争。秩序党是各种不同社会成分的结合体。修改宪法的问题造成了一种政治热度，它使这个结合体重又分解为它原来的各个构成部分。",
+        "波拿巴派关心修改宪法的原因很简单。他们首先想废除禁止再度选举波拿巴和延长他的权力期限的第45条。共和派的立场也很简单。他们无条件地反对任何修改，认为修改宪法是反对共和国的周密的阴谋。既然他们在国民议会中拥有四分之一以上的票数，而依照宪法又必须要有四分之三的票数赞成才能合法地决定修改宪法和召集修改宪法的专门会议，所以他们只要计算一下自己的票数，就可相信自己必获胜利了。他们当时确实是相信自己一定要胜利的。"
+      ],
+      "localLastParagraphs": [
+        "[85] 伦敦工业展览会是第一次全世界工商业展览会，于1851年5―10月展出。――第203页。",
+        "[86] “国民议会通报”（《Le Messager de l’Assemblée》）是法国反波拿巴派的日报，于1851年2月16日至12月2日在巴黎出版。――第205员。"
+      ],
+      "localBodySha256": "2f3c7971c29f9d7799292f9bc4d408884986e54befea21d309e1f380a25cb287",
+      "nativeNoteCount": 5,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-008-b27d9cd47e",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "六 波拿巴的胜利",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-b27d9cd47e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-009-c567f68dc0",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+      "sourceRawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+      "lineIndex": 2,
+      "text": "第七章 总结",
+      "compactLength": 5,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:18.242719+00:00",
+        "rawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+        "bytes": 25574
+      },
+      "sourceNodesHtml": [
+        "<title>第七章 总结</title>"
+      ],
+      "localChapterTitle": "七 总结",
+      "localBookTitle": "路易・波拿巴的雾月十八日",
+      "localFirstParagraphs": [
+        "社会共和国在二月革命开始的时候是作为一个词句、作为一个预言出现的。1848年六月事变时，它被窒死于巴黎无产阶级的血泊中，但是在戏剧的下几幕中，它又常常像幽灵似地出现。民主共和国登上了舞台。它在1849年6月13日和它那四散奔逃的小资产者一同消失了，但是它在逃走时却随身散发了自吹自擂的广告。议会制共和国同资产阶级一起占据了全部舞台，尽量扩展，但是1851年12月2日事件在联合起来的保皇党人的“共和国万岁！”的惊慌叫喊声中把它埋葬了。",
+        "法国资产阶级反对劳动无产阶级的统治，结果是把政权送给了以十二月十日会的头目为首的流氓无产阶级。资产阶级没有让法国从害怕红色无政府状态的未来灾祸中苏醒过来，12月4日，当那些为烧酒所鼓舞的秩序军队根据波拿巴的命令对蒙马特尔林荫道上和意大利林荫道上的凭窗眺望的显贵资产者射击的时候，波拿巴就把这一未来灾祸给资产阶级兑现了。资产阶级曾把马刀奉为神，结果是受到马刀的统治。资产阶级消灭了革命的报刊，结果是它自己的报刊被消灭了。它把人民的集会置于警察监视之下，结果是它自己的沙龙遭到了警察的监视。它解散了民主派的国民自卫军，结果是它自己的国民自卫军也被解散了。它实行了戒严，结果是戒严实行起来对付它了。它用军事委员会代替了陪审法庭，结果是它自己的陪审法庭被军事委员会所代替。它把国民学校置于教士的支配之下，结果是教士支配起它自己的学校来了。它不进行审判就流放囚犯，结果是它自己未经审判就被流放了。它以国家权力镇压社会的任何运动，结果是国家权力镇压起它自己的社会的任何运动来了。它因偏爱自己的钱袋而反对自己的政治家和作家，结果是它的政治家和作家被排除了，但是它的钱袋也在它的口被封死和笔被折断后被抢劫了。资产阶级曾不倦地像圣阿尔谢尼对基督徒那样向革命叫喊说：“Fuge，tace，quiesce！――快跑，住嘴，安静！”，结果是波拿巴也向资产阶级叫喊道：“Fuge，tace，quiesce！――快跑，住嘴，安静！”"
+      ],
+      "localLastParagraphs": [
+        "[92] 是指1715―1723年法国奥尔良王室的菲力浦摄政时期，当时路易十五还处于童年。――第227页。",
+        "[93] 特利尔教堂中的圣衣是保存在特利尔教堂里的天主教圣物，据说是耶稣在受刑时脱下的圣衣。特利尔教堂中的圣衣是朝圣者的崇拜物。――第227页。"
+      ],
+      "localBodySha256": "d6d1180cc4195920d4f485bb1974cb1bd3bfb5ce2b3c0389e5eb076dffd303a6",
+      "nativeNoteCount": 7,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-009-c567f68dc0",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "七 总结",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-c567f68dc0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "mao-work-6b45cb15167c",
+      "chapterId": "chapter-001-6b45cb1516",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19560425.htm",
+      "sourceRawSha256": "6f6d3b8f61230852605efdf37d6c58194538ef9babac91d20be93b3ddd54882e",
+      "lineIndex": 233,
+      "text": "（《毛泽东选集》第五卷，人民出版社1977年4月第1版，第267--288页） \u001a",
+      "compactLength": 40,
+      "status": "reviewed_source_control_character_difference",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19560425.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19560425.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:18.515037+00:00",
+        "rawSha256": "6f6d3b8f61230852605efdf37d6c58194538ef9babac91d20be93b3ddd54882e",
+        "bytes": 27893
+      },
+      "sourceNodesHtml": [
+        "<p align=\"right\">（《毛泽东选集》第五卷，人民出版社1977年4月第1版，第267--288页） \u001a</p>"
+      ],
+      "localChapterTitle": "论十大关系",
+      "localBookTitle": "论十大关系",
+      "localFirstParagraphs": [
+        "（一九五六年四月二十五日）",
+        "* 这是毛泽东在中共中央政治局扩大会议上的讲话。毛泽东同志在这篇讲话中，以苏联的经验为鉴戒，总结了我国的经验，论述了社会主义革命和社会主义建设中的十大关系，提出了适合我国情况的多快好省地建设社会主义总路线的基本思想。"
+      ],
+      "localLastParagraphs": [
+        "[1] 义务交售制，是苏联一九三三年至一九五七年实行的国家收购农产品的一项主要办法。集体农庄和个体农户每年必须按照国家规定的义务交售的数量和价格向国家提供农产品。",
+        "[2] 贾桂是京剧《法门寺》里明朝宦官刘瑾的亲信奴才。"
+      ],
+      "localBodySha256": "095be6a0cb03a716dee73825d7c30e3adc935a120a1c632700f44780235e83f1",
+      "nativeNoteCount": 2,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-6b45cb15167c-chapter-chapter-001-6b45cb1516",
+          "parentId": "toc-mao-work-6b45cb15167c-root",
+          "title": "论十大关系",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-6b45cb1516",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "sourceRepresentation": [
+        {
+          "paragraphIndex": 91,
+          "text": "（《毛泽东选集》第五卷，人民出版社1977年4月第1版，第267--288页）"
+        }
+      ],
+      "reason": "原页右对齐版本来源P的尾部SUB控制字符没有可见文义，本地完整保留来源正文，源页未丢整段。"
+    },
+    {
+      "bookId": "on-practice-zh",
+      "chapterId": "chapter-001-be385b71e5",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+      "sourceRawSha256": "3dd26c15b434b5c3b9bdda28ca3834a07565729e139f2f0e2a3a6280a5d68276",
+      "lineIndex": 2,
+      "text": "实践论：论认识和实践的关系――知和行的关系（一九三七年七月）",
+      "compactLength": 30,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193707.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:19.191196+00:00",
+        "rawSha256": "3dd26c15b434b5c3b9bdda28ca3834a07565729e139f2f0e2a3a6280a5d68276",
+        "bytes": 24219
+      },
+      "sourceNodesHtml": [
+        "<title>实践论：论认识和实践的关系――知和行的关系（一九三七年七月）</title>"
+      ],
+      "localChapterTitle": "实践论",
+      "localBookTitle": "实践论",
+      "localFirstParagraphs": [
+        "论认识和实践的关系――知和行的关系（一九三七年七月）",
+        "* 在中国共产党内，曾经有一部分教条主义的同志长期拒绝中国革命的经验，否认“马克思主义不是教条而是行动的指南”这个真理，而只生吞活剥马克思主义书籍中的只言片语，去吓唬人们。还有另一部分经验主义的同志长期拘守于自身的片断经验，不了解理论对于革命实践的重要性，看不见革命的全局，虽然也是辛苦地――但却是盲目地在工作。这两类同志的错误思想，特别是教条主义思想，曾经在一九三一年至一九三四年使得中国革命受了极大的损失，而教条主义者却是披着马克思主义的外衣迷惑了广大的同志。毛泽东的《实践论》，是为着用马克思主义的认识论观点去揭露党内的教条主义和经验主义――特别是教条主义这些主观主义的错误而写的。因为重点是揭露看轻实践的教条主义这种主观主义，故题为《实践论》。毛泽东曾以这篇论文的观点在延安的抗日军事政治大学作过讲演。"
+      ],
+      "localLastParagraphs": [
+        "[10] 见斯大林《论列宁主义基础》第三部分《理论》。新的译文是：“离开革命实践的理论是空洞的理论，而不以革命理论为指南的实践是盲目的实践。”（《斯大林选集》上卷，人民出版社1979年版，第199―200页）",
+        "[11] 参见列宁《唯物主义和经验批判主义》第二章第五节。原文是：“人类思维按其本性是能够给我们提供并且正在提供由相对真理的总和所构成的绝对真理的。”（《列宁全集》第18卷，人民出版社1988年版，第135页）"
+      ],
+      "localBodySha256": "dbcc64eac15f05a444d7c8b253c7af044578f9c6f8851cf179a323f8aabf4abd",
+      "nativeNoteCount": 11,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-on-practice-zh-chapter-chapter-001-be385b71e5",
+          "parentId": "toc-on-practice-zh-root",
+          "title": "实践论",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-be385b71e5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "mao-work-58340116f040",
+      "chapterId": "chapter-001-58340116f0",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19300105.htm",
+      "sourceRawSha256": "a51894d86103fd11d6ef14f360d687d18e49673c02e468199294594ef08f31cc",
+      "lineIndex": 2,
+      "text": "时局估量和红军行动问题（毛泽东，1930年1月5日）（《星星之火，可以燎原》之未删减版）",
+      "compactLength": 44,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19300105.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19300105.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:19.632063+00:00",
+        "rawSha256": "a51894d86103fd11d6ef14f360d687d18e49673c02e468199294594ef08f31cc",
+        "bytes": 16238
+      },
+      "sourceNodesHtml": [
+        "<title>时局估量和红军行动问题（毛泽东，1930年1月5日）（《星星之火，可以燎原》之未删减版）</title>"
+      ],
+      "localChapterTitle": "时局估量和红军行动问题（1930年1月5日）",
+      "localBookTitle": "时局估量和红军行动问题（1930年1月5日）",
+      "localFirstParagraphs": [
+        "时局估量和红军行动问题毛泽东1930年1月5日",
+        "〔说明〕此文为《星星之火，可以燎原》的未删减版。原载《抗战以前选集》，1944年由中共中央北方局选编出版，韶山毛泽东图书馆。"
+      ],
+      "localLastParagraphs": [
+        "我的不对的地方，请你指正。",
+        "毛泽东于上杭古田感谢 先知在1917 录入及校对"
+      ],
+      "localBodySha256": "4455bdaffdb1849ef26a8cd1612f6b1f71d721ddf377848b39200dc91a037098",
+      "nativeNoteCount": 0,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-58340116f040-chapter-chapter-001-58340116f0",
+          "parentId": "toc-mao-work-58340116f040-root",
+          "title": "时局估量和红军行动问题（1930年1月5日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-58340116f0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "mao-work-9e521ab12b3c",
+      "chapterId": "chapter-001-9e521ab12b",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+      "sourceRawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+      "lineIndex": 2,
+      "text": "论政策（一九四○年十二月二十五日）",
+      "compactLength": 17,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:20.041559+00:00",
+        "rawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+        "bytes": 12331
+      },
+      "sourceNodesHtml": [
+        "<title>论政策（一九四○年十二月二十五日）</title>"
+      ],
+      "localChapterTitle": "论政策",
+      "localBookTitle": "论政策",
+      "localFirstParagraphs": [
+        "（一九四○年十二月二十五日）",
+        "* 这是毛泽东为中共中央起草的对党内的指示。"
+      ],
+      "localLastParagraphs": [
+        "[6] 见本卷《反对投降活动》注〔5〕。",
+        "[7] “三三制”是中国共产党在抗日战争时期的统一战线的政权政策。根据这一政策，抗日民主政权中人员的分配，共产党员大体占三分之一，左派进步分子大体占三分之一，中间分子和其它分子大体占三分之一。"
+      ],
+      "localBodySha256": "9c09c10235e0b4c3541ce2e9506e2b34c36893d732b06d8d6b79c98e8f630f81",
+      "nativeNoteCount": 7,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-9e521ab12b3c-chapter-chapter-001-9e521ab12b",
+          "parentId": "toc-mao-work-9e521ab12b3c-root",
+          "title": "论政策",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-9e521ab12b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "mao-work-fc5409c01669",
+      "chapterId": "chapter-001-fc5409c016",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19390801.htm",
+      "sourceRawSha256": "0371fec690312da2cb66e0937e8db5e5b671e9c778f679608dcda86480dab24a",
+      "lineIndex": 2,
+      "text": "用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演（毛泽东，1939年8月1日）",
+      "compactLength": 42,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19390801.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19390801.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:20.298605+00:00",
+        "rawSha256": "0371fec690312da2cb66e0937e8db5e5b671e9c778f679608dcda86480dab24a",
+        "bytes": 7694
+      },
+      "sourceNodesHtml": [
+        "<title>用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演（毛泽东，1939年8月1日）</title>"
+      ],
+      "localChapterTitle": "〔未删节本〕用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演（1939年8月1日）",
+      "localBookTitle": "〔未删节本〕用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演（1939年8月1日）",
+      "localFirstParagraphs": [
+        "用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演毛泽东（1939年8月1日）",
+        "〔《毛选》删节本〕必须制裁反动派录入者注：本文刊载于《解放》第5卷第81期第9页，收入《毛选》后改名为《必须制裁反动派》。《毛选》编者声称该文“所抨击的反动派，就是指……蒋介石和他的党徒”，但从这一原始文本看，并非如此，而是“请求”国民政府、蒋委员长以中华“民”国的“国法”制裁反动份子。《毛选》版完全删去了“国法”之类的语句。"
+      ],
+      "localLastParagraphs": [
+        "现在国内流行一种秘密办法，叫做什么“防制异党办法”，其内容全部是反动的，是帮助日本帝国主义的，是不利于抗战，不利于团结，不利于进步的。什么是“异党”？日本法西斯党是异党，汪精卫党是异党，汉奸是异党。共产党，国民党，一切抗日的党派，一致团结抗日，这是“异党”么？现在偏偏有那些投降派，反动派，顽固派，在抗战的大团结中闹磨擦，闹分裂，这种行为对不对呢？完全不对的。（全场鼓掌）“防制”，现在要防制什么人？要防制日本帝国主义，要防制汪精卫，要防制反动派，要防制投降份子。（全场鼓掌）为什么要防制最抗日最革命最进步的共产党？这是完全不对的。我们延安的各界表示坚决的反对，坚决的抗议。（全场鼓掌）我们要反对所谓“防制异党办法”，一定要反对，这种办法就是捣乱一切，目无法纪，破坏团结的种种罪恶行为的根源。我们今天开这个大会，就是为了这些意思，不是简单的为了几个同志的追悼，而且是为了继续抗战，继续团结，继续进步。为了这个，就要取消“防制异党办法”，就要制裁那些投降派，反动派，捣乱派，就要保护一切革命的同志，抗日的同志，抗日的人民。（热烈鼓掌，高呼口号）",
+        "感谢 KMTの凯子 录入"
+      ],
+      "localBodySha256": "731914275656819c8f2edcdd59fb34dcc90b7dcc931b6187ddb7680f2057a1d9",
+      "nativeNoteCount": 0,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-fc5409c01669-chapter-chapter-001-fc5409c016",
+          "parentId": "toc-mao-work-fc5409c01669-root",
+          "title": "〔未删节本〕用国法制裁反动份子――在平江惨案诸烈士追悼大会上的讲演（1939年8月1日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-fc5409c016",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    },
+    {
+      "bookId": "mao-work-6b2a56a79594",
+      "chapterId": "chapter-001-6b2a56a795",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19391221.htm",
+      "sourceRawSha256": "53cb39e7d64b6cc599828af34e68b2bbca118d8dbda057b80a7139c1626c5b55",
+      "lineIndex": 2,
+      "text": "学习白求恩（毛泽东，1939年12月21日）",
+      "compactLength": 22,
+      "status": "reviewed_html_document_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19391221.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19391221.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:13:20.812672+00:00",
+        "rawSha256": "53cb39e7d64b6cc599828af34e68b2bbca118d8dbda057b80a7139c1626c5b55",
+        "bytes": 3283
+      },
+      "sourceNodesHtml": [
+        "<title>学习白求恩（毛泽东，1939年12月21日）</title>"
+      ],
+      "localChapterTitle": "〔未删节本〕学习白求恩（1939年12月21日）",
+      "localBookTitle": "〔未删节本〕学习白求恩（1939年12月21日）",
+      "localFirstParagraphs": [
+        "学习白求恩毛泽东（1939年12月21日）",
+        "〔《毛选》删节本〕纪念白求恩录入者注：本文首次发表于《诺尔曼・白求恩纪念册》，录入自《学习白求恩》，新华书店 1950年1月出版。"
+      ],
+      "localLastParagraphs": [
+        "（四）我对白求恩同志只见过一面，后来他给我来过许多的信，可是我因为忙，仅回过他一封信，还不知他收到没有？至于他的死我是很歉疚的，现在大家纪念他，可见他的精神感人之深，我们大家要学习他毫无自私自利之心的精神，从这点出发，就可变为大有利于人民的人，一个人能力有大小，但只要有这种精神，就是一个高尚的人，一个纯粹的人，一个有道德的人，一个脱离低级趣味的人，一个有益于人民的人。",
+        "一九三九年十二月二十一日感谢 KMTの凯子 录入"
+      ],
+      "localBodySha256": "55d1a79aef117129068d1274496726669c6cbc7c78b011ad2c2153daf35d3cd2",
+      "nativeNoteCount": 0,
+      "sourceBodyAndNativeNotesMatch": true,
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-6b2a56a79594-chapter-chapter-001-6b2a56a795",
+          "parentId": "toc-mao-work-6b2a56a79594-root",
+          "title": "〔未删节本〕学习白求恩（1939年12月21日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-6b2a56a795",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "reason": "该候选仅在HEAD/TITLE中出现，不是被删的正文；本地章目录保留正文标题，作者／日期／版本说明在正文另行呈现。"
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 14,
+    "newRepairs": 0,
+    "sourceBodyAndNativeNotesMatch": true,
+    "paragraphsNotesAndAnnotationsUnchanged": true
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-02",
+  "build": "testDebugUnitTest assembleDebug --offline",
+  "result": "BUILD SUCCESSFUL",
+  "variant": "debug",
+  "versionName": "0.4.9-preview.1",
+  "versionCode": 16,
+  "apkSha256": "ecc03323e883cd7bf70a32590b31dcc752359fc7468b1812d8c08a1330a45c45",
+  "apkBytes": 44161257,
+  "pythonRelatedTests": 62,
+  "androidTests": 65,
+  "androidFailures": 0,
+  "androidErrors": 0,
+  "libraryAssetsComparedByteForByte": 785,
+  "books": 659,
+  "chapters": 893,
+  "imageReferences": 162,
+  "INTERNET": false,
+  "signatureVerified": true
+}

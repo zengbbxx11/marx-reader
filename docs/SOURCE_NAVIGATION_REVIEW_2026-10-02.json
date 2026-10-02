@@ -1,0 +1,2436 @@
+{
+  "date": "2026-10-02",
+  "scope": "重新访问非资本论页面未判定短行；逐项核对导航锚点、目标正文标题与本地位置。未匹配项保留待核，不自动修正文。",
+  "reviews": [
+    {
+      "bookId": "lenin-work-91c896241c25",
+      "title": "立宪民主党人的胜利和工人政党的任务",
+      "chapterId": "chapter-001-91c896241c",
+      "chapterTitle": "立宪民主党人的胜利和工人政党的任务",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19060324-28.htm",
+      "sourceRawSha256": "70be2c802c887664b4b1443ea8e0e68ea80daf8bf5ae6031907ccc4d7302f23c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19060324-28.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19060324-28.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:56:45.814900+00:00",
+        "rawSha256": "70be2c802c887664b4b1443ea8e0e68ea80daf8bf5ae6031907ccc4d7302f23c",
+        "bytes": 126888
+      },
+      "localBodySha256": "23298f632f5a4ce6389ea15d0a60da1256ba85c1a896535c0c196256bb40ced0",
+      "nativeNotes": 30,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "・一我们参加杜马选举有什么客观意义？",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">一　我们参加杜马选举有什么客观意义？</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">一　我们参加杜马选举有什么客观意义？</h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-5a53ee04",
+                "title": "一 我们参加杜马选举有什么客观意义？",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "一 我们参加杜马选举有什么客观意义？"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・二初次选举的社会政治意义",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">二　初次选举的社会政治意义</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">二　初次选举的社会政治意义</h3>",
+              "localParagraphIndex": 28,
+              "localHeading": {
+                "id": "section-002-8f57c79b",
+                "title": "二 初次选举的社会政治意义",
+                "level": 2,
+                "paragraphIndex": 28
+              },
+              "localParagraph": "二 初次选举的社会政治意义"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・三什么是人民自由党",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">三　什么是人民自由党</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">三　什么是人民自由党</h3>",
+              "localParagraphIndex": 46,
+              "localHeading": {
+                "id": "section-003-3aca223a",
+                "title": "三 什么是人民自由党",
+                "level": 2,
+                "paragraphIndex": 46
+              },
+              "localParagraph": "三 什么是人民自由党"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・四立宪民主党杜马的作用和意义",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">四　立宪民主党杜马的作用和意义</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">四　立宪民主党杜马的作用和意义</h3>",
+              "localParagraphIndex": 62,
+              "localHeading": {
+                "id": "section-004-f8364057",
+                "title": "四 立宪民主党杜马的作用和意义",
+                "level": 2,
+                "paragraphIndex": 62
+              },
+              "localParagraph": "四 立宪民主党杜马的作用和意义"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・五立宪民主党的自负的典型",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">五　立宪民主党的自负的典型</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">五　立宪民主党的自负的典型</h3>",
+              "localParagraphIndex": 108,
+              "localHeading": {
+                "id": "section-005-961c9eed",
+                "title": "五 立宪民主党的自负的典型",
+                "level": 2,
+                "paragraphIndex": 108
+              },
+              "localParagraph": "五 立宪民主党的自负的典型"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・题外话同立宪民主党的政论家和博学的教授们的通俗谈话",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">题外话　同立宪民主党的政论家和博学的教授们的通俗谈话</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">题外话　<br/>\n同立宪民主党的政论家和博学的教授们的通俗谈话</h3>",
+              "localParagraphIndex": 123,
+              "localHeading": {
+                "id": "section-006-4b3b5fb8",
+                "title": "题外话 同立宪民主党的政论家和博学的教授们的通俗谈话",
+                "level": 2,
+                "paragraphIndex": 123
+              },
+              "localParagraph": "题外话 同立宪民主党的政论家和博学的教授们的通俗谈话"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・六结论",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">六　结　论</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">六　结　论</h3>",
+              "localParagraphIndex": 180,
+              "localHeading": {
+                "id": "section-007-ac62186a",
+                "title": "六结论",
+                "level": 2,
+                "paragraphIndex": 180
+              },
+              "localParagraph": "六 结 论"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-17eba40eed8d",
+      "title": "哥达纲领批判",
+      "chapterId": "chapter-001-17eba40eed",
+      "chapterTitle": "哥达纲领批判",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+      "sourceRawSha256": "6eeff34e4bfb58d551c650eb30f1b12456900a00ce358891dc54fcc693b39873",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:56:47.659151+00:00",
+        "rawSha256": "6eeff34e4bfb58d551c650eb30f1b12456900a00ce358891dc54fcc693b39873",
+        "bytes": 42372
+      },
+      "localBodySha256": "192159aba3212a46cff756f86c48a846882c0a2d0d77921702cca2a6e1589be0",
+      "nativeNotes": 13,
+      "findings": [
+        {
+          "sourceLineIndex": 7,
+          "text": "・卡・马克思“哥达纲领批判”序言（恩格斯，1891年1月6日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">卡・马克思“哥达纲领批判”序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">卡・马克思“哥达纲领批判”序言<a href=\"#_ftn131\" name=\"_ftnref131\" title=\"\"><sup><font size=\"3\">[131]</font></sup></a></h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-b14527ca",
+                "title": "卡・马克思“哥达纲领批判”序言 [131]",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "卡・马克思“哥达纲领批判”序言 [131]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・给威・白拉克的信（马克思，1875年5月5日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">给威・白拉克的信</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">给威・白拉克的信</h3>",
+              "localParagraphIndex": 8,
+              "localHeading": {
+                "id": "section-002-fa0a5bcc",
+                "title": "给威・白拉克的信",
+                "level": 2,
+                "paragraphIndex": 8
+              },
+              "localParagraph": "给威・白拉克的信"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・对德国工人党纲领的几点意见",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">对德国工人党纲领的几点意见</a>",
+              "targetHeadingHtml": "<p class=\"title1\">对德国工人党纲领的几点意见</p>",
+              "localParagraphIndex": 19,
+              "localHeading": {
+                "id": "source-location-d1c5d426484f",
+                "title": "对德国工人党纲领的几点意见",
+                "level": 2,
+                "paragraphIndex": 19
+              },
+              "localParagraph": "您的 卡尔・马克思对德国工人党纲领的几点意见"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "Ø一Ø二Ø三Ø四",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\"><font face=\"Wingdings\">Ø</font> 一</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">一</h3>",
+              "localParagraphIndex": 20,
+              "localHeading": {
+                "id": "section-003-47df06cf",
+                "title": "一",
+                "level": 2,
+                "paragraphIndex": 20
+              },
+              "localParagraph": "一"
+            },
+            {
+              "navigationHtml": "<a href=\"#5\"><font face=\"Wingdings\">Ø</font> 二</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">二</h3>",
+              "localParagraphIndex": 98,
+              "localHeading": {
+                "id": "section-007-7c2bfa26",
+                "title": "二",
+                "level": 2,
+                "paragraphIndex": 98
+              },
+              "localParagraph": "二"
+            },
+            {
+              "navigationHtml": "<a href=\"#6\"><font face=\"Wingdings\">Ø</font> 三</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">三</h3>",
+              "localParagraphIndex": 108,
+              "localHeading": {
+                "id": "section-008-3de6ce2f",
+                "title": "三",
+                "level": 2,
+                "paragraphIndex": 108
+              },
+              "localParagraph": "三"
+            },
+            {
+              "navigationHtml": "<a href=\"#7\"><font face=\"Wingdings\">Ø</font> 四</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">四</h3>",
+              "localParagraphIndex": 116,
+              "localHeading": {
+                "id": "section-009-59293806",
+                "title": "四",
+                "level": 2,
+                "paragraphIndex": 116
+              },
+              "localParagraph": "四"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-73ca266ea64a",
+      "title": "远方来信",
+      "chapterId": "chapter-001-73ca266ea6",
+      "chapterTitle": "远方来信",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170307.htm",
+      "sourceRawSha256": "d81efd2d81f032be862f91f6ef79a802077fa36164af0323062922c7cfa566b8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170307.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170307.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:56:49.113758+00:00",
+        "rawSha256": "d81efd2d81f032be862f91f6ef79a802077fa36164af0323062922c7cfa566b8",
+        "bytes": 92215
+      },
+      "localBodySha256": "e875f72211ea0cca391fca730362ee981211ffea741e8c9230ad05f267ef05e3",
+      "nativeNotes": 36,
+      "findings": [
+        {
+          "sourceLineIndex": 2,
+          "text": "・第一封信第一次革命的第一阶段（1917年3月7日〔20日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">第一封信 第一次革命的第一阶段（1917年3月7日〔20日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第一封信<br/>第一次革命的第一阶段<a href=\"#_ftn6\" name=\"_ftnref6\" title=\"\"><sup><font size=\"3\">[6]</font></sup></a></h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-2bcfa2a0",
+                "title": "第一封信 第一次革命的第一阶段 [6]",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "第一封信 第一次革命的第一阶段 [6]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 3,
+          "text": "・第二封信新政府和无产阶级（1917年3月9日〔22日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">第二封信 新政府和无产阶级（1917年3月9日〔22日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第二封信<br/>新政府和无产阶级</h3>",
+              "localParagraphIndex": 56,
+              "localHeading": {
+                "id": "section-002-fc2466cf",
+                "title": "第二封信 新政府和无产阶级",
+                "level": 2,
+                "paragraphIndex": 56
+              },
+              "localParagraph": "第二封信 新政府和无产阶级"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・第三封信论无产阶级民兵（1917年3月11日〔24日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">第三封信 论无产阶级民兵（1917年3月11日〔24日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第三封信<br/>论无产阶级民兵</h3>",
+              "localParagraphIndex": 108,
+              "localHeading": {
+                "id": "section-003-3d134def",
+                "title": "第三封信 论无产阶级民兵",
+                "level": 2,
+                "paragraphIndex": 108
+              },
+              "localParagraph": "第三封信 论无产阶级民兵"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・第四封信如何实现和平？（1917年3月12日〔25日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">第四封信 如何实现和平？（1917年3月12日〔25日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第四封信<br/>如何实现和平？</h3>",
+              "localParagraphIndex": 162,
+              "localHeading": {
+                "id": "section-004-37c91176",
+                "title": "第四封信 如何实现和平？",
+                "level": 2,
+                "paragraphIndex": 162
+              },
+              "localParagraph": "第四封信 如何实现和平？"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・第五封信革命的无产阶级国家制度的任务（1917年3月26日〔4月8日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">第五封信 革命的无产阶级国家制度的任务（1917年3月26日〔4月8日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第五封信<br/>革命的无产阶级国家制度的任务</h3>",
+              "localParagraphIndex": 210,
+              "localHeading": {
+                "id": "section-006-9650d293",
+                "title": "第五封信 革命的无产阶级国家制度的任务",
+                "level": 2,
+                "paragraphIndex": 210
+              },
+              "localParagraph": "第五封信 革命的无产阶级国家制度的任务"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・第五封《远方来信》的要点（1917年3月26日〔4月8日〕以前）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">第五封《远方来信》的要点（1917年3月26日〔4月8日〕以前）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">第五封《远方来信》的要点<a href=\"#_ftn39\" name=\"_ftnref39\" title=\"\"><sup><font size=\"3\">[39]</font></sup></a></h3>",
+              "localParagraphIndex": 219,
+              "localHeading": {
+                "id": "section-007-3e9462e3",
+                "title": "第五封《远方来信》的要点 [39]",
+                "level": 2,
+                "paragraphIndex": 219
+              },
+              "localParagraph": "第五封《远方来信》的要点 [39]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-9826e21013be",
+      "title": "无产阶级在我国革命中的任务（无产阶级政党的行动纲领草案）",
+      "chapterId": "chapter-001-9826e21013",
+      "chapterTitle": "无产阶级在我国革命中的任务（无产阶级政党的行动纲领草案）",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170410.htm",
+      "sourceRawSha256": "4cce4bc7a6e369fe35cf95e5d6a243d64ef4c00786d03d270f7272be7d7d8fb6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170410.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170410.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:07.671824+00:00",
+        "rawSha256": "4cce4bc7a6e369fe35cf95e5d6a243d64ef4c00786d03d270f7272be7d7d8fb6",
+        "bytes": 67515
+      },
+      "localBodySha256": "da50bd2fc298edb2cd52d6f9eb70319730bf94d54e22394261fd16999a792bb6",
+      "nativeNotes": 28,
+      "findings": [
+        {
+          "sourceLineIndex": 4,
+          "text": "・这次革命的阶级性",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">这次革命的阶级性</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">这次革命的阶级性</h3>",
+              "localParagraphIndex": 2,
+              "localHeading": {
+                "id": "section-001-caeec976",
+                "title": "这次革命的阶级性",
+                "level": 2,
+                "paragraphIndex": 2
+              },
+              "localParagraph": "这次革命的阶级性"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・新政府的对外政策",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">新政府的对外政策</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">新政府的对外政策</h3>",
+              "localParagraphIndex": 9,
+              "localHeading": {
+                "id": "section-002-dbe17640",
+                "title": "新政府的对外政策",
+                "level": 2,
+                "paragraphIndex": 9
+              },
+              "localParagraph": "新政府的对外政策"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・两个政权并存的特殊局面和它的阶级意义",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">两个政权并存的特殊局面和它的阶级意义</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">两个政权并存的特殊局面和它的阶级意义</h3>",
+              "localParagraphIndex": 14,
+              "localHeading": {
+                "id": "section-003-9366d2f5",
+                "title": "两个政权并存的特殊局面和它的阶级意义",
+                "level": 2,
+                "paragraphIndex": 14
+              },
+              "localParagraph": "两个政权并存的特殊局面和它的阶级意义"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・从上述情况中产生的策略特点",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">从上述情况中产生的策略特点</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">从上述情况中产生的策略特点</h3>",
+              "localParagraphIndex": 30,
+              "localHeading": {
+                "id": "section-004-28144c3a",
+                "title": "从上述情况中产生的策略特点",
+                "level": 2,
+                "paragraphIndex": 30
+              },
+              "localParagraph": "从上述情况中产生的策略特点"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・革命护国主义和它的阶级意义",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">革命护国主义和它的阶级意义</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">革命护国主义和它的阶级意义</h3>",
+              "localParagraphIndex": 39,
+              "localHeading": {
+                "id": "section-005-a49d6aea",
+                "title": "革命护国主义和它的阶级意义",
+                "level": 2,
+                "paragraphIndex": 39
+              },
+              "localParagraph": "革命护国主义和它的阶级意义"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・怎样才能结束战争？",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">怎样才能结束战争？</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">怎样才能结束战争？</h3>",
+              "localParagraphIndex": 48,
+              "localHeading": {
+                "id": "section-006-4051aa4e",
+                "title": "怎样才能结束战争？",
+                "level": 2,
+                "paragraphIndex": 48
+              },
+              "localParagraph": "怎样才能结束战争？"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "・在我国革命中兴起的一种新的国家类型",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">在我国革命中兴起的一种新的国家类型</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">在我国革命中兴起的一种新的国家类型</h3>",
+              "localParagraphIndex": 54,
+              "localHeading": {
+                "id": "section-007-37e0174e",
+                "title": "在我国革命中兴起的一种新的国家类型",
+                "level": 2,
+                "paragraphIndex": 54
+              },
+              "localParagraph": "在我国革命中兴起的一种新的国家类型"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 11,
+          "text": "・土地纲领和民族纲领",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#8\">土地纲领和民族纲领</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">土地纲领和民族纲领</h3>",
+              "localParagraphIndex": 71,
+              "localHeading": {
+                "id": "section-008-41b001c0",
+                "title": "土地纲领和民族纲领",
+                "level": 2,
+                "paragraphIndex": 71
+              },
+              "localParagraph": "土地纲领和民族纲领"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 12,
+          "text": "・银行和资本家的辛迪加的国有化",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#9\">银行和资本家的辛迪加的国有化</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">银行和资本家的辛迪加的国有化</h3>",
+              "localParagraphIndex": 85,
+              "localHeading": {
+                "id": "section-009-6c11a5b3",
+                "title": "银行和资本家的辛迪加的国有化",
+                "level": 2,
+                "paragraphIndex": 85
+              },
+              "localParagraph": "银行和资本家的辛迪加的国有化"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 13,
+          "text": "・社会党国际的状况",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#10\">社会党国际的状况</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">社会党国际的状况</h3>",
+              "localParagraphIndex": 89,
+              "localHeading": {
+                "id": "section-010-6641d894",
+                "title": "社会党国际的状况",
+                "level": 2,
+                "paragraphIndex": 89
+              },
+              "localParagraph": "社会党国际的状况"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 14,
+          "text": "・齐美尔瓦尔德国际的破产――必须建立第三国际",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#11\">齐美尔瓦尔德国际的破产――必须建立第三国际</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">齐美尔瓦尔德国际的破产――必须建立第三国际</h3>",
+              "localParagraphIndex": 122,
+              "localHeading": {
+                "id": "section-011-9199cd9a",
+                "title": "齐美尔瓦尔德国际的破产――必须建立第三国际",
+                "level": 2,
+                "paragraphIndex": 122
+              },
+              "localParagraph": "齐美尔瓦尔德国际的破产――必须建立第三国际"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 15,
+          "text": "・我们党应当用什么名称，在科学上才是正确的，",
+          "status": "reviewed_wrapped_navigation_label",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#12\">我们党应当用什么名称，在科学上才是正确的，<br/>　　在政治上才是有助于启发无产阶级意识的？</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">我们党应当用什么名称，在科学上才是正确的，<br/>\n在政治上才是有助于启发无产阶级意识的？</h3>",
+              "localParagraphIndex": 145,
+              "localHeading": {
+                "id": "section-012-6d977e50",
+                "title": "我们党应当用什么名称，在科学上才是正确的， 在政治上才是有助于启发无产阶级意识的？",
+                "level": 2,
+                "paragraphIndex": 145
+              },
+              "localParagraph": "我们党应当用什么名称，在科学上才是正确的， 在政治上才是有助于启发无产阶级意识的？"
+            }
+          ],
+          "reason": "原始导航A内BR导致短行只捕获标题前半句；完整A、目标H3与本地标题一致。"
+        },
+        {
+          "sourceLineIndex": 17,
+          "text": "・后记",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#13\">后记</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">后记</h3>",
+              "localParagraphIndex": 181,
+              "localHeading": {
+                "id": "section-013-699337af",
+                "title": "后记",
+                "level": 2,
+                "paragraphIndex": 181
+              },
+              "localParagraph": "后记"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-f3f8eb6da6ea",
+      "title": "大难临头，出路何在？",
+      "chapterId": "chapter-001-f3f8eb6da6",
+      "chapterTitle": "大难临头，出路何在？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-19170910-14.htm",
+      "sourceRawSha256": "06b37c1a30300daeb398639e0d9028ac02747621e87e492550beac16ac400ba6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-19170910-14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-19170910-14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:09.546069+00:00",
+        "rawSha256": "06b37c1a30300daeb398639e0d9028ac02747621e87e492550beac16ac400ba6",
+        "bytes": 63968
+      },
+      "localBodySha256": "dce77a853b84dc9f40d3c22a997e5626c80cf7f7897fe55e2ac770980ecdd84c",
+      "nativeNotes": 7,
+      "findings": [
+        {
+          "sourceLineIndex": 4,
+          "text": "・饥荒逼近",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">饥荒逼近</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">饥荒逼近</h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-19019ca6",
+                "title": "饥荒逼近",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "饥荒逼近"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・政府不起任何作用",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">政府不起任何作用</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">政府不起任何作用</h3>",
+              "localParagraphIndex": 10,
+              "localHeading": {
+                "id": "section-002-0d9cdf4a",
+                "title": "政府不起任何作用",
+                "level": 2,
+                "paragraphIndex": 10
+              },
+              "localParagraph": "政府不起任何作用"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・监督办法是众所周知和轻而易举的",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">监督办法是众所周知和轻而易举的</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">监督办法是众所周知和轻而易举的</h3>",
+              "localParagraphIndex": 20,
+              "localHeading": {
+                "id": "section-003-7211ef5b",
+                "title": "监督办法是众所周知和轻而易举的",
+                "level": 2,
+                "paragraphIndex": 20
+              },
+              "localParagraph": "监督办法是众所周知和轻而易举的"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・银行国有化",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">银行国有化</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">银行国有化</h3>",
+              "localParagraphIndex": 34,
+              "localHeading": {
+                "id": "section-004-21f99fdd",
+                "title": "银行国有化",
+                "level": 2,
+                "paragraphIndex": 34
+              },
+              "localParagraph": "银行国有化"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・辛迪加国有化",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">辛迪加国有化</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">辛迪加国有化</h3>",
+              "localParagraphIndex": 55,
+              "localHeading": {
+                "id": "section-005-73129493",
+                "title": "辛迪加国有化",
+                "level": 2,
+                "paragraphIndex": 55
+              },
+              "localParagraph": "辛迪加国有化"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・取消商业秘密",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">取消商业秘密</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">取消商业秘密</h3>",
+              "localParagraphIndex": 63,
+              "localHeading": {
+                "id": "section-006-e762d11e",
+                "title": "取消商业秘密",
+                "level": 2,
+                "paragraphIndex": 63
+              },
+              "localParagraph": "取消商业秘密"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "・强迫参加联合组织",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">强迫参加联合组织</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">强迫参加联合组织</h3>",
+              "localParagraphIndex": 79,
+              "localHeading": {
+                "id": "section-007-bace0c47",
+                "title": "强迫参加联合组织",
+                "level": 2,
+                "paragraphIndex": 79
+              },
+              "localParagraph": "强迫参加联合组织"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 11,
+          "text": "・调节消费",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#8\">调节消费</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">调节消费</h3>",
+              "localParagraphIndex": 89,
+              "localHeading": {
+                "id": "section-008-1f87c9a5",
+                "title": "调节消费",
+                "level": 2,
+                "paragraphIndex": 89
+              },
+              "localParagraph": "调节消费"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 12,
+          "text": "・政府破坏民主组织的工作",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#9\">政府破坏民主组织的工作</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">政府破坏民主组织的工作</h3>",
+              "localParagraphIndex": 100,
+              "localHeading": {
+                "id": "section-009-61030efa",
+                "title": "政府破坏民主组织的工作",
+                "level": 2,
+                "paragraphIndex": 100
+              },
+              "localParagraph": "政府破坏民主组织的工作"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 13,
+          "text": "・财政破产和挽救的办法",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#10\">财政破产和挽救的办法</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">财政破产和挽救的办法</h3>",
+              "localParagraphIndex": 124,
+              "localHeading": {
+                "id": "section-010-adf2f170",
+                "title": "财政破产和挽救的办法",
+                "level": 2,
+                "paragraphIndex": 124
+              },
+              "localParagraph": "财政破产和挽救的办法"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 14,
+          "text": "・害怕走向社会主义能不能前进？",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#11\">害怕走向社会主义能不能前进？</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">害怕走向社会主义能不能前进？</h3>",
+              "localParagraphIndex": 142,
+              "localHeading": {
+                "id": "section-011-adbd1c29",
+                "title": "害怕走向社会主义能不能前进？",
+                "level": 2,
+                "paragraphIndex": 142
+              },
+              "localParagraph": "害怕走向社会主义能不能前进？"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 15,
+          "text": "・消除经济破坏和战争问题",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#12\">消除经济破坏和战争问题</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">消除经济破坏和战争问题</h3>",
+              "localParagraphIndex": 170,
+              "localHeading": {
+                "id": "section-012-6002bc31",
+                "title": "消除经济破坏和战争问题",
+                "level": 2,
+                "paragraphIndex": 170
+              },
+              "localParagraph": "消除经济破坏和战争问题"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 16,
+          "text": "・革命民主派和革命无产阶级",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#13\">革命民主派和革命无产阶级</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">革命民主派和革命无产阶级</h3>",
+              "localParagraphIndex": 185,
+              "localHeading": {
+                "id": "section-013-27b0a202",
+                "title": "革命民主派和革命无产阶级",
+                "level": 2,
+                "paragraphIndex": 185
+              },
+              "localParagraph": "革命民主派和革命无产阶级"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-9dcc8ea81d1d",
+      "title": "苏维埃政权的当前任务",
+      "chapterId": "chapter-001-9dcc8ea81d",
+      "chapterTitle": "苏维埃政权的当前任务",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191804.htm",
+      "sourceRawSha256": "58dcb0fdf54d0859af32cc28ac94618baa8489c379a9f4bc699810944bc84211",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191804.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191804.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:10.849795+00:00",
+        "rawSha256": "58dcb0fdf54d0859af32cc28ac94618baa8489c379a9f4bc699810944bc84211",
+        "bytes": 59348
+      },
+      "localBodySha256": "72b54678d15ccad75cc07b7407b55a8e10d44f99eabc1312fd9cc24016bf01f3",
+      "nativeNotes": 13,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "・俄罗斯苏维埃共和国的国际环境和社会主义革命的基本任务",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">俄罗斯苏维埃共和国的国际环境和社会主义革命的基本任务</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">俄罗斯苏维埃共和国的国际环境和社会主义革命的基本任务</h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-a735296f",
+                "title": "俄罗斯苏维埃共和国的国际环境和社会主义革命的基本任务",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "俄罗斯苏维埃共和国的国际环境和社会主义革命的基本任务"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・当前的总口号",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">当前的总口号</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">当前的总口号</h3>",
+              "localParagraphIndex": 17,
+              "localHeading": {
+                "id": "section-002-b0a173d7",
+                "title": "当前的总口号",
+                "level": 2,
+                "paragraphIndex": 17
+              },
+              "localParagraph": "当前的总口号"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・同资产阶级斗争的新阶段",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">同资产阶级斗争的新阶段</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">同资产阶级斗争的新阶段</h3>",
+              "localParagraphIndex": 20,
+              "localHeading": {
+                "id": "section-003-f6b72e18",
+                "title": "同资产阶级斗争的新阶段",
+                "level": 2,
+                "paragraphIndex": 20
+              },
+              "localParagraph": "同资产阶级斗争的新阶段"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・为全民计算和监督而斗争的意义",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">为全民计算和监督而斗争的意义</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">为全民计算和监督而斗争的意义</h3>",
+              "localParagraphIndex": 45,
+              "localHeading": {
+                "id": "section-004-2ad8bbb2",
+                "title": "为全民计算和监督而斗争的意义",
+                "level": 2,
+                "paragraphIndex": 45
+              },
+              "localParagraph": "为全民计算和监督而斗争的意义"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・提高劳动生产率",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">提高劳动生产率</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">提高劳动生产率</h3>",
+              "localParagraphIndex": 53,
+              "localHeading": {
+                "id": "section-005-4fa798d3",
+                "title": "提高劳动生产率",
+                "level": 2,
+                "paragraphIndex": 53
+              },
+              "localParagraph": "提高劳动生产率"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・组织竞赛",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">组织竞赛</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">组织竞赛</h3>",
+              "localParagraphIndex": 61,
+              "localHeading": {
+                "id": "section-006-4ebb76cf",
+                "title": "组织竞赛",
+                "level": 2,
+                "paragraphIndex": 61
+              },
+              "localParagraph": "组织竞赛"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・“协调的组织”和专政",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">“协调的组织”和专政</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">“协调的组织”和专政</h3>",
+              "localParagraphIndex": 68,
+              "localHeading": {
+                "id": "section-007-99dfa697",
+                "title": "“协调的组织”和专政",
+                "level": 2,
+                "paragraphIndex": 68
+              },
+              "localParagraph": "“协调的组织”和专政"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "・苏维埃组织的发展",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#8\">苏维埃组织的发展</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">苏维埃组织的发展</h3>",
+              "localParagraphIndex": 90,
+              "localHeading": {
+                "id": "section-008-3c7341fb",
+                "title": "苏维埃组织的发展",
+                "level": 2,
+                "paragraphIndex": 90
+              },
+              "localParagraph": "苏维埃组织的发展"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 11,
+          "text": "・结论",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#9\">结论</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">结论</h3>",
+              "localParagraphIndex": 99,
+              "localHeading": {
+                "id": "section-009-3e03c839",
+                "title": "结论",
+                "level": 2,
+                "paragraphIndex": 99
+              },
+              "localParagraph": "结论"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-aba7e1ce3744",
+      "title": "修改工人政党的土地纲领",
+      "chapterId": "chapter-001-aba7e1ce37",
+      "chapterTitle": "修改工人政党的土地纲领",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-190603.htm",
+      "sourceRawSha256": "840154d1f68beabfeaf0b298ae616d0cf0bacd890b4eb41936e77102fafc749f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-190603.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-190603.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:12.364178+00:00",
+        "rawSha256": "840154d1f68beabfeaf0b298ae616d0cf0bacd890b4eb41936e77102fafc749f",
+        "bytes": 47971
+      },
+      "localBodySha256": "e02ba33aa65419ca55a0db810f6f02e5d55bd716b3ddf6e74b344f9a98baf9ba",
+      "nativeNotes": 18,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "・一俄国社会民主党对土地问题的观点的历史发展的简述",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">一　俄国社会民主党对土地问题的观点的历史发展的简述</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">一　俄国社会民主党对土地问题的观点的历史发展的简述</h3>",
+              "localParagraphIndex": 3,
+              "localHeading": {
+                "id": "section-001-68a01876",
+                "title": "一 俄国社会民主党对土地问题的观点的历史发展的简述",
+                "level": 2,
+                "paragraphIndex": 3
+              },
+              "localParagraph": "一 俄国社会民主党对土地问题的观点的历史发展的简述"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・二社会民主党内部在土地纲领问题上的四种派别",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">二　社会民主党内部在土地纲领问题上的四种派别</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">二　社会民主党内部在土地纲领问题上的四种派别</h3>",
+              "localParagraphIndex": 26,
+              "localHeading": {
+                "id": "section-002-0bdd55c6",
+                "title": "二 社会民主党内部在土地纲领问题上的四种派别",
+                "level": 2,
+                "paragraphIndex": 26
+              },
+              "localParagraph": "二 社会民主党内部在土地纲领问题上的四种派别"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "・三马斯洛夫同志的主要错误",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">三　马斯洛夫同志的主要错误</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">三　马斯洛夫同志的主要错误</h3>",
+              "localParagraphIndex": 64,
+              "localHeading": {
+                "id": "section-003-a8cd2584",
+                "title": "三 马斯洛夫同志的主要错误",
+                "level": 2,
+                "paragraphIndex": 64
+              },
+              "localParagraph": "三 马斯洛夫同志的主要错误"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・四我们的土地纲领的任务",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">四　我们的土地纲领的任务</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">四　我们的土地纲领的任务</h3>",
+              "localParagraphIndex": 72,
+              "localHeading": {
+                "id": "section-004-1a489488",
+                "title": "四 我们的土地纲领的任务",
+                "level": 2,
+                "paragraphIndex": 72
+              },
+              "localParagraph": "四 我们的土地纲领的任务"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・五土地纲领草案",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">五　土地纲领草案</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">五　土地纲领草案</h3>",
+              "localParagraphIndex": 86,
+              "localHeading": {
+                "id": "section-005-84e73cf7",
+                "title": "五 土地纲领草案",
+                "level": 2,
+                "paragraphIndex": 86
+              },
+              "localParagraph": "五 土地纲领草案"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-91d92c260e99",
+      "title": "流亡者文献",
+      "chapterId": "chapter-001-91d92c260e",
+      "chapterTitle": "流亡者文献",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+      "sourceRawSha256": "4735f6139fab53a911e64d852b2d874935f4892803a6c26b0a7e512ed2527122",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-187405-187504.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:13.370438+00:00",
+        "rawSha256": "4735f6139fab53a911e64d852b2d874935f4892803a6c26b0a7e512ed2527122",
+        "bytes": 85961
+      },
+      "localBodySha256": "2d008fc6a8972009c10b0254899200f244f93bdd81e80619f9fae140f3c6c74f",
+      "nativeNotes": 31,
+      "findings": [
+        {
+          "sourceLineIndex": 4,
+          "text": "Ø一波兰宣言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">一 波兰宣言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">一<br/>波兰宣言<font size=\"3\"><a href=\"#_ftn426\" name=\"_ftnref426\" title=\"\"><sup>[426]</sup></a></font></h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-73f0d6ee",
+                "title": "一 波兰宣言 [426]",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "一 波兰宣言 [426]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "Ø二公社的布朗基派流亡者的纲领",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">二 公社的布朗基派流亡者的纲领</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">二<br/>公社的布朗基派流亡者的纲领<font size=\"3\"><a href=\"#_ftn434\" name=\"_ftnref434\" title=\"\"><sup>[434]</sup></a></font></h3>",
+              "localParagraphIndex": 23,
+              "localHeading": {
+                "id": "section-002-8bda0197",
+                "title": "二 公社的布朗基派流亡者的纲领 [434]",
+                "level": 2,
+                "paragraphIndex": 23
+              },
+              "localParagraph": "二 公社的布朗基派流亡者的纲领 [434]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "Ø三",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">三</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">三</h3>",
+              "localParagraphIndex": 57,
+              "localHeading": {
+                "id": "section-003-9802aac1",
+                "title": "三",
+                "level": 2,
+                "paragraphIndex": 57
+              },
+              "localParagraph": "三"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "Ø四",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">四</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">四<font size=\"3\"><a href=\"#_ftn444\" name=\"_ftnref444\" title=\"\"><sup>[444]</sup></a></font></h3>",
+              "localParagraphIndex": 91,
+              "localHeading": {
+                "id": "section-004-6c0ea17e",
+                "title": "四 [444]",
+                "level": 2,
+                "paragraphIndex": 91
+              },
+              "localParagraph": "四 [444]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "Ø五论俄国的社会问题",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">五 论俄国的社会问题</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">五<br/>论俄国的社会问题<font size=\"3\"><a href=\"#_ftn451\" name=\"_ftnref451\" title=\"\"><sup>[451]</sup></a></font></h3>",
+              "localParagraphIndex": 130,
+              "localHeading": {
+                "id": "section-005-f037d976",
+                "title": "五 论俄国的社会问题 [451]",
+                "level": 2,
+                "paragraphIndex": 130
+              },
+              "localParagraph": "五 论俄国的社会问题 [451]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-154a7e910b61",
+      "title": "全俄苏维埃第四次（非常）代表大会文献",
+      "chapterId": "chapter-001-154a7e910b",
+      "chapterTitle": "全俄苏维埃第四次（非常）代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+      "sourceRawSha256": "180a76d5730bfa5c258fa13bd649bc6e964f1457a9dae5e28710d78391730096",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:14.415425+00:00",
+        "rawSha256": "180a76d5730bfa5c258fa13bd649bc6e964f1457a9dae5e28710d78391730096",
+        "bytes": 47523
+      },
+      "localBodySha256": "cee886048efaadabb66aebe299a0b8ae37098103baa0bffeb668cb5c97ef3fc2",
+      "nativeNotes": 11,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "1关于威尔逊的声明的决议草案（3月14日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">1 关于威尔逊的声明的决议草案（3月14日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1<br/>\n关于威尔逊的声明的决议草案<font size=\"3\"><a href=\"#_ftn46\" name=\"_ftnref46\" title=\"\"><sup>[46]</sup></a></font><br/>\n（3月14日）</h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-cfb1a8b8",
+                "title": "1 关于威尔逊的声明的决议草案 [46] （3月14日）",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "1 关于威尔逊的声明的决议草案 [46] （3月14日）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "title": "帝国主义是资本主义的最高阶段",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:15.363174+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "localBodySha256": "9aada0987c5682898f624444ff5b4072de8a7ad798c444f2559c58abfe9cc13f",
+      "nativeNotes": 2,
+      "findings": [
+        {
+          "sourceLineIndex": 5,
+          "text": "・序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#a\">序言</a>",
+              "targetHeadingHtml": "<p align=\"center\" style=\"text-align: center\">序言</p>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "source-location-32b03209fd77",
+                "title": "序言",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "1916年1-6月序言"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・法文版和德文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#a\">序言</a>",
+              "targetHeadingHtml": "<p align=\"center\" style=\"text-align: center\">序言</p>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "source-location-32b03209fd77",
+                "title": "序言",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "1916年1-6月序言"
+            },
+            {
+              "navigationHtml": "<a href=\"#0\">法文版和德文版序言</a>",
+              "targetHeadingHtml": "<p align=\"center\" style=\"text-align: center\">法文版和德文版序言</p>",
+              "localParagraphIndex": 5,
+              "localHeading": {
+                "id": "source-location-835dd441e538",
+                "title": "法文版和德文版序言",
+                "level": 2,
+                "paragraphIndex": 5
+              },
+              "localParagraph": "作 者1917年4月26日于彼得格勒法文版和德文版序言"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・一生产集中和垄断",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">一 生产集中和垄断</a>",
+              "targetHeadingHtml": "<h3>一 生产集中和垄断</h3>",
+              "localParagraphIndex": 31,
+              "localHeading": {
+                "id": "section-001-53dd0d52",
+                "title": "一 生产集中和垄断",
+                "level": 2,
+                "paragraphIndex": 31
+              },
+              "localParagraph": "一 生产集中和垄断"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "・二银行和银行的新作用",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">二 银行和银行的新作用</a>",
+              "targetHeadingHtml": "<h3>二 银行和银行的新作用</h3>",
+              "localParagraphIndex": 73,
+              "localHeading": {
+                "id": "section-002-6f61787b",
+                "title": "二 银行和银行的新作用",
+                "level": 2,
+                "paragraphIndex": 73
+              },
+              "localParagraph": "二 银行和银行的新作用"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・三金融资本和金融寡头",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">三 金融资本和金融寡头</a>",
+              "targetHeadingHtml": "<h3>三 金融资本和金融寡头</h3>",
+              "localParagraphIndex": 164,
+              "localHeading": {
+                "id": "section-003-eb2218dd",
+                "title": "三 金融资本和金融寡头",
+                "level": 2,
+                "paragraphIndex": 164
+              },
+              "localParagraph": "三 金融资本和金融寡头"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "・四资本输出",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">四　资本输出</a>",
+              "targetHeadingHtml": "<h3>四　资本输出</h3>",
+              "localParagraphIndex": 248,
+              "localHeading": {
+                "id": "section-004-e97bc68b",
+                "title": "四 资本输出",
+                "level": 2,
+                "paragraphIndex": 248
+              },
+              "localParagraph": "四 资本输出"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 11,
+          "text": "・五资本家瓜分世界",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">五 资本家瓜分世界</a>",
+              "targetHeadingHtml": "<h3>五 资本家瓜分世界</h3>",
+              "localParagraphIndex": 279,
+              "localHeading": {
+                "id": "section-005-28fb159b",
+                "title": "五 资本家瓜分世界",
+                "level": 2,
+                "paragraphIndex": 279
+              },
+              "localParagraph": "五 资本家瓜分世界"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 12,
+          "text": "・六大国瓜分世界",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">六 大国瓜分世界</a>",
+              "targetHeadingHtml": "<h3>六 大国瓜分世界</h3>",
+              "localParagraphIndex": 320,
+              "localHeading": {
+                "id": "section-006-640bb1d5",
+                "title": "六 大国瓜分世界",
+                "level": 2,
+                "paragraphIndex": 320
+              },
+              "localParagraph": "六 大国瓜分世界"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 13,
+          "text": "・七帝国主义是资本主义的特殊阶段",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">七 帝国主义是资本主义的特殊阶段</a>",
+              "targetHeadingHtml": "<h3>七 帝国主义是资本主义的特殊阶段</h3>",
+              "localParagraphIndex": 435,
+              "localHeading": {
+                "id": "section-007-d6ddd45b",
+                "title": "七 帝国主义是资本主义的特殊阶段",
+                "level": 2,
+                "paragraphIndex": 435
+              },
+              "localParagraph": "七 帝国主义是资本主义的特殊阶段"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 14,
+          "text": "・八资本主义的寄生性和腐朽性",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#8\">八 资本主义的寄生性和腐朽性</a>",
+              "targetHeadingHtml": "<h3>八 资本主义的寄生性和腐朽性</h3>",
+              "localParagraphIndex": 484,
+              "localHeading": {
+                "id": "section-013-fe11bf89",
+                "title": "八 资本主义的寄生性和腐朽性",
+                "level": 2,
+                "paragraphIndex": 484
+              },
+              "localParagraph": "八 资本主义的寄生性和腐朽性"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 15,
+          "text": "・九对帝国主义的批评",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#9\">九 对帝国主义的批评</a>",
+              "targetHeadingHtml": "<h3>九 对帝国主义的批评</h3>",
+              "localParagraphIndex": 510,
+              "localHeading": {
+                "id": "section-014-c5f73178",
+                "title": "九 对帝国主义的批评",
+                "level": 2,
+                "paragraphIndex": 510
+              },
+              "localParagraph": "九 对帝国主义的批评"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 16,
+          "text": "・十帝国主义的历史地位",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#10\">十 帝国主义的历史地位</a>",
+              "targetHeadingHtml": "<h3>十 帝国主义的历史地位</h3>",
+              "localParagraphIndex": 591,
+              "localHeading": {
+                "id": "section-015-6f1e337c",
+                "title": "十 帝国主义的历史地位",
+                "level": 2,
+                "paragraphIndex": 591
+              },
+              "localParagraph": "十 帝国主义的历史地位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-6f25afd43df4",
+      "title": "俄共（布）第七次（紧急）代表大会文献",
+      "chapterId": "chapter-001-6f25afd43d",
+      "chapterTitle": "俄共（布）第七次（紧急）代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+      "sourceRawSha256": "ee2113a7814fed657e9abfe6b9e7790773304b0f3cc0264ae5b5511330f60d3e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-191803.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:17.704603+00:00",
+        "rawSha256": "ee2113a7814fed657e9abfe6b9e7790773304b0f3cc0264ae5b5511330f60d3e",
+        "bytes": 114353
+      },
+      "localBodySha256": "b8322705bd1139cb1d83905aaf209835c860f50e68f8eb21588916f2715fe1bd",
+      "nativeNotes": 42,
+      "findings": [
+        {
+          "sourceLineIndex": 5,
+          "text": "3关于战争与和平的决议（不晚于3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">3 关于战争与和平的决议（不晚于3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">3<br/>\n关于战争与和平的决议<a href=\"#_ftn24\" name=\"_ftnref24\" title=\"\"><sup><font size=\"3\">[24]</font></sup></a><br/>\n（不晚于3月8日）</h3>",
+              "localParagraphIndex": 46,
+              "localHeading": {
+                "id": "section-003-7cf39864",
+                "title": "3 关于战争与和平的决议 [24] （不晚于3月8日）",
+                "level": 2,
+                "paragraphIndex": 46
+              },
+              "localParagraph": "3 关于战争与和平的决议 [24] （不晚于3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "4就托洛茨基对关于战争与和平的决议的修正所作的发言（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">4 就托洛茨基对关于战争与和平的决议的修正所作的发言（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">4<br/>\n就托洛茨基对关于战争与和平的决议的修正所作的发言<a href=\"#_ftn25\" name=\"_ftnref25\" title=\"\"><sup><font size=\"3\">[25]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 54,
+              "localHeading": {
+                "id": "section-004-178366ce",
+                "title": "4 就托洛茨基对关于战争与和平的决议的修正所作的发言 [25] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 54
+              },
+              "localParagraph": "4 就托洛茨基对关于战争与和平的决议的修正所作的发言 [25] （3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "5就“左派共产主义者”集团关于支持托洛茨基的修正的声明所作的发言（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">5 就“左派共产主义者”集团关于支持托洛茨基的修正的声明所作的发言（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">5<br/>\n就“左派共产主义者”集团关于支持托洛茨基的修正的声明所作的发言<a href=\"#_ftn26\" name=\"_ftnref26\" title=\"\"><sup><font size=\"3\">[26]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 66,
+              "localHeading": {
+                "id": "section-007-b9fc7a71",
+                "title": "5 就“左派共产主义者”集团关于支持托洛茨基的修正的声明所作的发言 [26] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 66
+              },
+              "localParagraph": "5 就“左派共产主义者”集团关于支持托洛茨基的修正的声明所作的发言 [26] （3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 11,
+          "text": "9关于修改党纲和更改党的名称的报告（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#9\">9 关于修改党纲和更改党的名称的报告（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">9<br/>\n关于修改党纲和更改党的名称的报告<a href=\"#_ftn28\" name=\"_ftnref28\" title=\"\"><sup><font size=\"3\">[28]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 84,
+              "localHeading": {
+                "id": "section-013-cba4a7c6",
+                "title": "9 关于修改党纲和更改党的名称的报告 [28] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 84
+              },
+              "localParagraph": "9 关于修改党纲和更改党的名称的报告 [28] （3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 15,
+          "text": "13就拉林对党的名称的修正所作的发言（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#13\">13 就拉林对党的名称的修正所作的发言（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">13<br/>\n就拉林对党的名称的修正所作的发言<a href=\"#_ftn39\" name=\"_ftnref39\" title=\"\"><sup><font size=\"3\">[39]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 117,
+              "localHeading": {
+                "id": "section-017-acde2875",
+                "title": "13 就拉林对党的名称的修正所作的发言 [39] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 117
+              },
+              "localParagraph": "13 就拉林对党的名称的修正所作的发言 [39] （3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 17,
+          "text": "15就布哈林对关于党纲的决议的修正所作的发言（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#15\">15 就布哈林对关于党纲的决议的修正所作的发言（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">15<br/>\n就布哈林对关于党纲的决议的修正所作的发言<a href=\"#_ftn41\" name=\"_ftnref41\" title=\"\"><sup><font size=\"3\">[41]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 123,
+              "localHeading": {
+                "id": "section-019-e3a899bd",
+                "title": "15 就布哈林对关于党纲的决议的修正所作的发言 [41] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 123
+              },
+              "localParagraph": "15 就布哈林对关于党纲的决议的修正所作的发言 [41] （3月8日）"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 18,
+          "text": "16关于选举中央委员会问题的发言（3月8日）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#16\">16 关于选举中央委员会问题的发言（3月8日）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">16<br/>\n关于选举中央委员会问题的发言<a href=\"#_ftn42\" name=\"_ftnref42\" title=\"\"><sup><font size=\"3\">[42]</font></sup></a><br/>\n（3月8日）</h3>",
+              "localParagraphIndex": 129,
+              "localHeading": {
+                "id": "section-022-319fedcd",
+                "title": "16 关于选举中央委员会问题的发言 [42] （3月8日）",
+                "level": 2,
+                "paragraphIndex": 129
+              },
+              "localParagraph": "16 关于选举中央委员会问题的发言 [42] （3月8日）"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-aa5d8f8b4bc3",
+      "title": "全俄工兵农代表苏维埃第三次代表大会文献",
+      "chapterId": "chapter-001-aa5d8f8b4b",
+      "chapterTitle": "全俄工兵农代表苏维埃第三次代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+      "sourceRawSha256": "5d38a1d5ea6c4f2f0b531bb06ec45355d930bd0cd3c9168c53d11cf8fce49dcd",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19180111-18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:18.593187+00:00",
+        "rawSha256": "5d38a1d5ea6c4f2f0b531bb06ec45355d930bd0cd3c9168c53d11cf8fce49dcd",
+        "bytes": 41121
+      },
+      "localBodySha256": "7a6bd931b2affc1f0c473e0a06ad43d4173b69d885f58a69c778335710e76dd6",
+      "nativeNotes": 6,
+      "findings": [
+        {
+          "sourceLineIndex": 5,
+          "text": "3关于取消苏维埃法律中所有涉及立宪会议的内容的法令草案（1月18日〔31日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">3 关于取消苏维埃法律中所有涉及立宪会议的内容的法令草案（1月18日〔31日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">3<br/>\n关于取消苏维埃法律中所有涉及立宪会议的内容的法令草案<font size=\"3\"><a href=\"#_ftn121\" name=\"_ftnref121\" title=\"\"><sup>[121]</sup></a></font></h3>",
+              "localParagraphIndex": 74,
+              "localHeading": {
+                "id": "section-003-aa4dc741",
+                "title": "3 关于取消苏维埃法律中所有涉及立宪会议的内容的法令草案 [121]",
+                "level": 2,
+                "paragraphIndex": 74
+              },
+              "localParagraph": "3 关于取消苏维埃法律中所有涉及立宪会议的内容的法令草案 [121]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-b6c9b759b0d5",
+      "title": "全俄工兵代表苏维埃第二次代表大会文献",
+      "chapterId": "chapter-001-b6c9b759b0",
+      "chapterTitle": "全俄工兵代表苏维埃第二次代表大会文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+      "sourceRawSha256": "879b13f701a44eec9a1fc0431bebdeeb052b2a8169a7bb4ac66bb705a6ca4350",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19171025-26.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:19.244776+00:00",
+        "rawSha256": "879b13f701a44eec9a1fc0431bebdeeb052b2a8169a7bb4ac66bb705a6ca4350",
+        "bytes": 28565
+      },
+      "localBodySha256": "2021fbd88b54cd1f1b5fed53f41e4361b17d9b08f9fc3523ebdca0fd73b03d3b",
+      "nativeNotes": 8,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "・1告工人、士兵和农民书（10月25日〔11月7日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">1 告工人、士兵和农民书（10月25日〔11月7日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1<br/>\n告工人、士兵和农民书</h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-b16f76ff",
+                "title": "1 告工人、士兵和农民书",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "1 告工人、士兵和农民书"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・2关于和平问题的报告（10月26日〔11月8日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">2 关于和平问题的报告（10月26日〔11月8日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">2<br/>\n关于和平问题的报告</h3>",
+              "localParagraphIndex": 16,
+              "localHeading": {
+                "id": "section-002-094f4531",
+                "title": "2 关于和平问题的报告",
+                "level": 2,
+                "paragraphIndex": 16
+              },
+              "localParagraph": "2 关于和平问题的报告"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "・3关于和平问题的报告的总结发言（10月26日〔11月8日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">3 关于和平问题的报告的总结发言（10月26日〔11月8日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">3<br/>\n关于和平问题的报告的总结发言</h3>",
+              "localParagraphIndex": 37,
+              "localHeading": {
+                "id": "section-004-62c23ad4",
+                "title": "3 关于和平问题的报告的总结发言",
+                "level": 2,
+                "paragraphIndex": 37
+              },
+              "localParagraph": "3 关于和平问题的报告的总结发言"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "・4关于土地问题的报告（10月26日〔11月8日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">4 关于土地问题的报告（10月26日〔11月8日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">4<br/>\n关于土地问题的报告</h3>",
+              "localParagraphIndex": 49,
+              "localHeading": {
+                "id": "section-005-8ae94d45",
+                "title": "4 关于土地问题的报告",
+                "level": 2,
+                "paragraphIndex": 49
+              },
+              "localParagraph": "4 关于土地问题的报告"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "・5关于成立工农政府的决定（10月26日〔11月8日〕）",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">5 关于成立工农政府的决定（10月26日〔11月8日〕）</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">5<br/>\n关于成立工农政府的决定</h3>",
+              "localParagraphIndex": 88,
+              "localHeading": {
+                "id": "section-008-c0ed7eca",
+                "title": "5 关于成立工农政府的决定",
+                "level": 2,
+                "paragraphIndex": 88
+              },
+              "localParagraph": "5 关于成立工农政府的决定"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-6523f0586337",
+      "title": "共产党宣言",
+      "chapterId": "chapter-001-6523f05863",
+      "chapterTitle": "共产党宣言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "sourceRawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:20.264920+00:00",
+        "rawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+        "bytes": 138477
+      },
+      "localBodySha256": "6dcb0b2554b44368ceb8ff5014d1cf0e63d19dbabd040126e10563387ed2e715",
+      "nativeNotes": 47,
+      "findings": [
+        {
+          "sourceLineIndex": 4,
+          "text": "·1872年德文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">1872年德文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1872年德文版序言<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\"><sup>[1]</sup></a></h3>",
+              "localParagraphIndex": 2,
+              "localHeading": {
+                "id": "section-001-5252e98f",
+                "title": "1872年德文版序言 [1]",
+                "level": 2,
+                "paragraphIndex": 2
+              },
+              "localParagraph": "1872年德文版序言 [1]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "·1882年俄文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\">1882年俄文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1882年俄文版序言<a href=\"#_ftn8\" name=\"_ftnref8\" title=\"\"><sup>[8]</sup></a></h3>",
+              "localParagraphIndex": 9,
+              "localHeading": {
+                "id": "section-002-640e587f",
+                "title": "1882年俄文版序言 [8]",
+                "level": 2,
+                "paragraphIndex": 9
+              },
+              "localParagraph": "1882年俄文版序言 [8]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "·1883年德文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\">1883年德文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1883年德文版序言<a href=\"#_ftn11\" name=\"_ftnref11\" title=\"\"><sup>[11]</sup></a></h3>",
+              "localParagraphIndex": 19,
+              "localHeading": {
+                "id": "section-003-035fcf79",
+                "title": "1883年德文版序言 [11]",
+                "level": 2,
+                "paragraphIndex": 19
+              },
+              "localParagraph": "1883年德文版序言 [11]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "·1888年英文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\">1888年英文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1888年英文版序言<a href=\"#_ftn12\" name=\"_ftnref12\" title=\"\"><sup>[12]</sup></a></h3>",
+              "localParagraphIndex": 26,
+              "localHeading": {
+                "id": "section-004-6972bc56",
+                "title": "1888年英文版序言 [12]",
+                "level": 2,
+                "paragraphIndex": 26
+              },
+              "localParagraph": "1888年英文版序言 [12]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "·1890年德文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\">1890年德文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1890年德文版序言<a href=\"#_ftn29\" name=\"_ftnref29\" title=\"\"><sup>[29]</sup></a></h3>",
+              "localParagraphIndex": 41,
+              "localHeading": {
+                "id": "section-005-80345247",
+                "title": "1890年德文版序言 [29]",
+                "level": 2,
+                "paragraphIndex": 41
+              },
+              "localParagraph": "1890年德文版序言 [29]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "·1892年波兰文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#6\">1892年波兰文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1892年波兰文版序言<a href=\"#_ftn32\" name=\"_ftnref32\" title=\"\"><sup>[32]</sup></a></h3>",
+              "localParagraphIndex": 66,
+              "localHeading": {
+                "id": "section-006-eb364908",
+                "title": "1892年波兰文版序言 [32]",
+                "level": 2,
+                "paragraphIndex": 66
+              },
+              "localParagraph": "1892年波兰文版序言 [32]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 10,
+          "text": "·1893年意大利文版序言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#7\">1893年意大利文版序言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">1893年意大利文版序言<a href=\"#_ftn35\" name=\"_ftnref35\" title=\"\"><sup>[35]</sup></a></h3>",
+              "localParagraphIndex": 74,
+              "localHeading": {
+                "id": "section-007-365ed334",
+                "title": "1893年意大利文版序言 [35]",
+                "level": 2,
+                "paragraphIndex": 74
+              },
+              "localParagraph": "1893年意大利文版序言 [35]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "title": "雇佣劳动与资本",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "chapterTitle": "雇佣劳动与资本",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "sourceRawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:20.877514+00:00",
+        "rawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+        "bytes": 56961
+      },
+      "localBodySha256": "d22fa066eb818b0015c3ccc4af7ebbfb172c13d7038f3e02251b36c8dfad3305",
+      "nativeNotes": 0,
+      "findings": [
+        {
+          "sourceLineIndex": 3,
+          "text": "・恩格斯写的1891年单行本导言",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#0\">恩格斯写的1891年单行本导言</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">恩格斯写的1891年单行本导言<font size=\"3\">[163]</font></h3>",
+              "localParagraphIndex": 1,
+              "localHeading": {
+                "id": "section-001-1f34892a",
+                "title": "恩格斯写的1891年单行本导言 [163]",
+                "level": 2,
+                "paragraphIndex": 1
+              },
+              "localParagraph": "恩格斯写的1891年单行本导言 [163]"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 4,
+          "text": "・雇佣劳动与资本",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\">雇佣劳动与资本</a>",
+              "targetHeadingHtml": "<p class=\"title1\">雇佣劳动与资本</p>",
+              "localParagraphIndex": 29,
+              "localHeading": {
+                "id": "source-internal-65eb8a276866",
+                "title": "雇佣劳动与资本",
+                "level": 2,
+                "paragraphIndex": 29
+              },
+              "localParagraph": "雇佣劳动与资本\n一"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 5,
+          "text": "Ø一",
+          "status": "reviewed_source_anchor_alias",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#1\"><font face=\"Wingdings\">Ø</font> 一</a>",
+              "targetHeadingHtml": "<p class=\"title1\">雇佣劳动与资本</p>",
+              "localParagraphIndex": 29,
+              "localHeading": {
+                "id": "source-internal-65eb8a276866",
+                "title": "雇佣劳动与资本",
+                "level": 2,
+                "paragraphIndex": 29
+              },
+              "localParagraph": "雇佣劳动与资本\n一"
+            }
+          ],
+          "reason": "源导航的正文标题与“一”复用#1；#1先指向正文标题，一紧随其后。本地两条目录入口均定位原段落29。"
+        },
+        {
+          "sourceLineIndex": 6,
+          "text": "Ø二",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#2\"><font face=\"Wingdings\">Ø</font> 二</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">二</h3>",
+              "localParagraphIndex": 52,
+              "localHeading": {
+                "id": "section-003-40cd787d",
+                "title": "二",
+                "level": 2,
+                "paragraphIndex": 52
+              },
+              "localParagraph": "二"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 7,
+          "text": "Ø三",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#3\"><font face=\"Wingdings\">Ø</font> 三</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">三</h3>",
+              "localParagraphIndex": 82,
+              "localHeading": {
+                "id": "section-004-2df86cbb",
+                "title": "三",
+                "level": 2,
+                "paragraphIndex": 82
+              },
+              "localParagraph": "三"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 8,
+          "text": "Ø四",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#4\"><font face=\"Wingdings\">Ø</font> 四</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">四</h3>",
+              "localParagraphIndex": 109,
+              "localHeading": {
+                "id": "section-005-06376572",
+                "title": "四",
+                "level": 2,
+                "paragraphIndex": 109
+              },
+              "localParagraph": "四"
+            }
+          ]
+        },
+        {
+          "sourceLineIndex": 9,
+          "text": "Ø五",
+          "status": "reviewed_navigation_targets_present",
+          "unmatchedText": "",
+          "targets": [
+            {
+              "navigationHtml": "<a href=\"#5\"><font face=\"Wingdings\">Ø</font> 五</a>",
+              "targetHeadingHtml": "<h3 style=\"text-align: center\">五</h3>",
+              "localParagraphIndex": 142,
+              "localHeading": {
+                "id": "section-006-8bf471ff",
+                "title": "五",
+                "level": 2,
+                "paragraphIndex": 142
+              },
+              "localParagraph": "五"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "publicationRepair": {
+    "bookId": "lenin-work-81b8941e4843",
+    "chapterId": "chapter-007-e9396b46bf",
+    "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+    "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+    "freshEvidence": {
+      "url": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+      "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+      "status": 200,
+      "charset": null,
+      "retrievedAt": "2026-10-02T06:59:27.742719+00:00",
+      "rawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+      "bytes": 5146
+    },
+    "localBodySha256": "facf95e935249feb862982755721087ac5e3730e6c980647b633cdf4ff22c60b",
+    "sourcePublicationHtml": "<p style=\"line-height: 200%\">载于1902年4月1日《火星报》第19号<br/>\r\n选自《列宁全集》第2版第6卷第1-173页　</p>"
+  },
+  "validation": {
+    "relatedTests": 33,
+    "pages": 16,
+    "navigationCandidates": 102,
+    "pendingNavigationCandidates": 0,
+    "nativeNotesVerified": 292,
+    "bodyAndNotesAligned": true
+  }
+}

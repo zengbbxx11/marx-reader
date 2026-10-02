@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-02",
+  "scope": "三篇未判定标题候选核查；同名内部标题不作为根标题重复处理。",
+  "reviews": [
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "title": "列宁选集（网页版节选）",
+      "chapterId": "chapter-009-9b3046161f",
+      "chapterTitle": "俄国资本主义的发展(节选)",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+      "sourceRawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:35:08.841029+00:00",
+        "rawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+        "bytes": 148447
+      },
+      "localBodySha256": "5eb349bac5e6a83fe28c9a96e545ef31327224463d528fdbdd3fc83cb0b43c40",
+      "scope": "新鲜原页DOM核实内文章标题及同名内部标题，源文及网页原注核验；保留全部既有修复。",
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 17,
+          "text": "第一章民粹派经济学家的理论错误[91]",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 80,
+          "text": "第八章国内市场的形成",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-1000cd9282bf",
+      "title": "家庭、私有制和国家的起源",
+      "chapterId": "chapter-001-1000cd9282",
+      "chapterTitle": "家庭、私有制和国家的起源",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm",
+      "sourceRawSha256": "00a784a206d226561e483dceb512145032321cc32faa3f83beff2cc22f40ffd6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:35:11.010163+00:00",
+        "rawSha256": "00a784a206d226561e483dceb512145032321cc32faa3f83beff2cc22f40ffd6",
+        "bytes": 265056
+      },
+      "localBodySha256": "3e2f13116e4ace707ed5784147048dbf76228f47bcd0f850803fe63a65821461",
+      "scope": "新鲜原页DOM核实内文章标题及同名内部标题，源文及网页原注核验；保留全部既有修复。",
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 47,
+          "text": "家庭、私有制和国家的起源",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    },
+    {
+      "bookId": "mao-work-3d23a7e8feea",
+      "title": "为争取千百万群众进入抗日民族统一战线而斗争",
+      "chapterId": "chapter-001-3d23a7e8fe",
+      "chapterTitle": "为争取千百万群众进入抗日民族统一战线而斗争",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+      "sourceRawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:35:12.137010+00:00",
+        "rawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+        "bytes": 16043
+      },
+      "localBodySha256": "ce6dcd992561813ed6fa3ec2d993f091043090cbdc04fd408edb950c8e362622",
+      "scope": "新鲜原页DOM核实内文章标题及同名内部标题，源文及网页原注核验；保留全部既有修复。",
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 32,
+          "text": "为争取千百万群众进入抗日民族统一战线而斗争",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 30,
+    "idempotent": true
+  }
+}

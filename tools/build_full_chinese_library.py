@@ -63,7 +63,6 @@ EXCLUDE_TITLE_PARTS = (
     "生活记述",
     "编译马克思",
     "繁体版",
-    "讲话稿 按此",
     "毛泽东思想万岁",
 )
 
@@ -317,12 +316,21 @@ def split_long(value: str, target: int = 1400) -> list[str]:
 
 
 def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | None:
-    soup = BeautifulSoup(html, "lxml")
+    from library_source_reviewed_blocks import repair_document_boundaries
+    soup = BeautifulSoup(repair_document_boundaries(url, html), "lxml")
     for table in soup.find_all("table"):
         table._original_source_sha256 = hashlib.sha256(str(table).encode()).hexdigest()
     short_tokens = preserve_short_lines(soup, url, html)
-    from library_source_reviewed_blocks import restore_blocks
+    from library_source_reviewed_blocks import restore_blocks, preserved_repeated_paragraphs, reviewed_plain_lines
+    repeated_paragraphs = preserved_repeated_paragraphs(url, html)
+    plain_lines = reviewed_plain_lines(url, html)
     restore_blocks(soup, url, html)
+    source_boundaries = set()
+    for index, node in enumerate(soup.select('[data-source-reviewed-boundary]')):
+        token = f'@@MIA_SOURCE_BOUNDARY_{index:05d}@@'
+        source_boundaries.add(token)
+        node.insert_before(NavigableString('\n' + token + '\n'))
+        node.insert_after(NavigableString('\n' + token + '\n'))
     for selector in NOISE_SELECTORS:
         for node in soup.select(selector):
             node.decompose()
@@ -342,6 +350,11 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             value.startswith(("〔来源〕", "[来源]", "来源："))
             and len(value) < 600
             and not re.search(r"(?:说明|编者注|译者注)[:：]", value)
+            and not any(
+                parent.name in {'span', 'font'}
+                and any(FOOTNOTE_DEF_RE.match(anchor_key(a)) for a in parent.find_all('a'))
+                for parent in node.parents
+            )
         ):
             node.decompose()
 
@@ -350,6 +363,27 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
     source_images = table_tokens(root, url, reference_tokens)
     source_images.update(image_tokens(root, url, reference_tokens))
     note_tokens(root, url, reference_tokens, definition_tokens, short_tokens)
+    # Preserve page credits in the body, but do not let the final note absorb
+    # a separate credit block outside its original SPAN/FONT container.
+    note_containers = []
+    for anchor in root.find_all('a'):
+        if FOOTNOTE_DEF_RE.match(anchor_key(anchor)):
+            note_containers.extend(p for p in anchor.parents if p.name in {'span', 'font'})
+    note_end_tokens = set()
+    from library_source_note_boundaries import reviewed_note_end_nodes
+    for node in reviewed_note_end_nodes(root, url, html):
+        token = f'@@MIA_NOTE_END_{len(note_end_tokens):05d}@@'
+        note_end_tokens.add(token)
+        node.insert_after(NavigableString('\n' + token + '\n'))
+    for node in root.find_all(['p', 'div']):
+        value = clean_space(node.get_text(' ', strip=True))
+        if not re.match(r'^(?:感谢.+(?:录入|校对)|来源\s*[:：])', value):
+            continue
+        if any(p is container for p in node.parents for container in note_containers):
+            continue
+        token = f'@@MIA_NOTE_END_{len(note_end_tokens):05d}@@'
+        note_end_tokens.add(token)
+        node.insert_before(NavigableString('\n' + token + '\n'))
     for anchor in list(root.select("a[href]")):
         key = anchor_key(anchor)
         href = str(anchor.get("href", "")).strip()
@@ -381,10 +415,10 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
         value = clean_space(value)
         if (
             not value
-            or value == title
+            or (value == title and not node.get('data-source-reviewed-heading'))
             or is_navigation(value)
             or (len(value) == 1 and value.isascii())
-            or not is_credible_inferred_heading(value)
+            or (not node.get('data-source-reviewed-heading') and not is_credible_inferred_heading(value))
         ):
             node.decompose()
             continue
@@ -406,9 +440,18 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
     sections: list[dict] = []
     footnote_references: list[dict] = []
     footnote_definitions: list[dict] = []
+    note_end_positions: list[int] = []
     for raw_line in root.get_text("", strip=False).splitlines():
         line = clean_space(raw_line)
+        if line in source_boundaries:
+            if paragraph_boundaries: paragraph_boundaries[-1] = True
+            continue
         if not line:
+            continue
+        if line in note_end_tokens:
+            note_end_positions.append(len(paragraphs))
+            if paragraph_boundaries:
+                paragraph_boundaries[-1] = True
             continue
         if line in markers:
             section_title, level, source_value = markers[line]
@@ -443,6 +486,8 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
             footnote_references.extend({**reference, "paragraphIndex": paragraph_index} for reference in references)
             footnote_definitions.extend({**definition, "paragraphIndex": paragraph_index} for definition in definitions)
             inferred_level = reviewed_heading["level"] if reviewed_heading and reviewed_heading["heading"] else inferred_heading_level(value)
+            if value in plain_lines:
+                inferred_level = None
             if inferred_level is not None and not any(section["paragraphIndex"] == len(paragraphs) for section in sections):
                 sections.append({
                     "id": f"section-{len(sections) + 1:03d}-{hashlib.sha1((url + value).encode()).hexdigest()[:8]}",
@@ -502,10 +547,13 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
     deduped: list[str] = []
     paragraph_index_map: list[int] = []
     for value in paragraphs:
-        if not deduped or value != deduped[-1]:
+        if not deduped or value != deduped[-1] or value in repeated_paragraphs:
             deduped.append(value)
         paragraph_index_map.append(len(deduped) - 1)
-    if len("".join(deduped)) < 200:
+    # Primary texts also include short inscriptions, instructions and letters.
+    # The author inventory and navigation cleanup determine scope; length is
+    # only a guard against an empty extracted page.
+    if len("".join(deduped)) < 40:
         return None
 
     mapped_references = [
@@ -522,14 +570,12 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
     for definition in mapped_definitions:
         definition_by_id.setdefault(definition["id"], definition)
     ordered_definitions = sorted(definition_by_id.values(), key=lambda item: item["paragraphIndex"])
-    definition_end_by_id = {
-        definition["id"]: (
-            ordered_definitions[index + 1]["paragraphIndex"]
-            if index + 1 < len(ordered_definitions)
-            else len(deduped)
-        )
-        for index, definition in enumerate(ordered_definitions)
+    definition_starts = sorted({d["paragraphIndex"] for d in ordered_definitions})
+    next_definition_start = {
+        start: definition_starts[index + 1] if index + 1 < len(definition_starts) else len(deduped)
+        for index, start in enumerate(definition_starts)
     }
+    definition_end_by_id = {d["id"]: next_definition_start[d["paragraphIndex"]] for d in ordered_definitions}
     references_by_id: dict[str, list[dict]] = {}
     for reference in mapped_references:
         references_by_id.setdefault(reference["id"], []).append(reference)
@@ -555,9 +601,22 @@ def extract_chapter(url: str, label: str, html: str, ordinal: int) -> dict | Non
         ]
         if index_boundaries:
             end_index = min(index_boundaries)
+        credit_boundaries = [
+            paragraph_index_map[repair_map[index][0]]
+            for index in note_end_positions
+            if index < len(repair_map)
+            and start_index < paragraph_index_map[repair_map[index][0]] < end_index
+        ]
+        if credit_boundaries:
+            end_index = min(credit_boundaries)
         first = deduped[start_index]
+        # Adjacent labels can share one definition, e.g. [43] [43a]. Remove
+        # every defining label from the payload, while retaining both IDs.
+        for label in sorted((d for d in ordered_definitions if d['paragraphIndex'] == start_index),
+                            key=lambda d: d['start'], reverse=True):
+            first = first[:label['start']] + first[label['end']:]
         content = [
-            (first[:definition["start"]] + first[definition["end"]:]).strip(),
+            first.strip(),
             *deduped[start_index + 1:end_index],
         ]
         content = [value for value in content if value]
@@ -608,6 +667,22 @@ def chapter_links(url: str, html: str, prefixes: tuple[str, ...]) -> list[tuple[
             seen.add(child)
             result.append((child, label))
     return result[:120] if len(result) >= 2 else []
+
+
+def deduplicate_books(books: list[dict]) -> list[dict]:
+    """Deduplicate equal texts, preserving distinct works with the same title."""
+    found = {}
+    for book in books:
+        compact = lambda text: re.sub(r"\s+", "", text)
+        text = compact("".join(p for c in book["chapters"] for p in c["content"]))
+        notes = sorted((n["marker"], compact("".join(n["content"])))
+                       for c in book["chapters"] for n in c.get("footnotes", []))
+        identity = hashlib.sha256(json.dumps([text, notes], ensure_ascii=False).encode()).hexdigest()
+        key = (tuple(sorted(book["authorIds"])), clean_space(book["titleZh"]).lower(), identity)
+        previous = found.get(key)
+        if previous is None or len(book["chapters"]) > len(previous["chapters"]):
+            found[key] = book
+    return list(found.values())
 
 
 def build_work(item: dict, cache: Path) -> dict | None:
@@ -691,21 +766,7 @@ def main() -> None:
                 built.append(work)
                 print(f"[{index}/{len(items)}] {work['titleZh']}: {len(work['chapters'])} chapter(s)", flush=True)
 
-    # Exact duplicate editions occur on some author indexes. Prefer the entry
-    # with more extracted chapters, then more text, while preserving distinct URLs
-    # when their displayed titles differ.
-    deduped: dict[tuple[tuple[str, ...], str], dict] = {}
-    for book in built:
-        key = (tuple(book["authorIds"]), clean_space(book["titleZh"]).lower())
-        score = (len(book["chapters"]), sum(len(text) for chapter in book["chapters"] for text in chapter["content"]))
-        current = deduped.get(key)
-        current_score = (-1, -1) if current is None else (
-            len(current["chapters"]),
-            sum(len(text) for chapter in current["chapters"] for text in chapter["content"]),
-        )
-        if score > current_score:
-            deduped[key] = book
-    built = sorted(deduped.values(), key=lambda book: (book["authorIds"], book["year"], book["titleZh"]))
+    built = sorted(deduplicate_books(built), key=lambda book: (book["authorIds"], book["year"], book["titleZh"]))
 
     # Refresh the original core titles too. Preserve stable book/chapter ids so
     # existing progress, bookmarks and notes keep working after fuller bodies

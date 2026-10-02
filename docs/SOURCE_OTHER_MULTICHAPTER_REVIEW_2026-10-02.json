@@ -1,0 +1,2241 @@
+{
+  "date": "2026-10-02",
+  "scope": "列宁选集网页版节选、法兰西阶级斗争、新莱茵报中译版、雾月十八日37个新鲜源页的63个尚未判定短行：文档TITLE、章根、独立文库路径及原注边界。只覆盖本批候选，源页原注与版本校补区别保留。",
+  "reviews": [
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-003-1f1b053bf5",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "一 1848年2月至1851年12月",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+      "sourceRawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:03.347634+00:00",
+        "rawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+        "bytes": 20438
+      },
+      "localBodySha256": "0a3aef88ba3fbf1bad2d5076afb87f76bbf5a757b8ae4136e66a5bbdcf0b79b1",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-003-1f1b053bf5",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "一 1848年2月至1851年12月",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-1f1b053bf5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "路易・波拿巴的雾月十八日[43]马克思",
+        "黑格尔在某个地方说过，一切伟大的世界历史事变和人物，可以说都出现两次。他忘记补充一点：第一次是作为悲剧出现，第二次是作为笑剧出现。科西迪耶尔代替丹东，路易・勃朗代替罗伯斯比尔，1848―1851年的山岳党代替1793―1795年的山岳党，侄儿代替伯父。在雾月十八日[44]事变再版的那些情况中，也可以看出一幅同样的漫画！"
+      ],
+      "nativeNoteCount": 11,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-003-1f1b053bf5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/01.htm",
+          "sourceRawSha256": "f1bc12aa1086fdf130033d86934b9a9d3e34f41eaaf7887523b5675afb1bd6c9",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-004-23967e8bc3",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "二 共和党的倒台",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+      "sourceRawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:04.320311+00:00",
+        "rawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+        "bytes": 22367
+      },
+      "localBodySha256": "42deea77d0fd62bc315e1c73353ee088c13ce9cc507e719052f53962826e8ea3",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-004-23967e8bc3",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "二 共和党的倒台",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-23967e8bc3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在让我们重新回到被打断的话题上来。",
+        "六月事变以后的制宪国民议会的历史，是资产阶级中的共和派统治和瓦解的历史，这个派别是以三色旗的共和党人、纯粹的共和党人、政治的共和党人、形式的共和党人等等称呼闻名的。"
+      ],
+      "nativeNoteCount": 11,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-004-23967e8bc3",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/02.htm",
+          "sourceRawSha256": "bbffd095878c6b3c4e9831939da6e38e76be55d7311d5f6de7b9286a70622d19",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-005-6e8d972984",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "三 路易・波拿巴的崛起",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+      "sourceRawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:05.350711+00:00",
+        "rawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+        "bytes": 24814
+      },
+      "localBodySha256": "746c8ebfcf1f5c9ceb77699fbef52867b3fa0d239add3bba662907f2f0fbdf39",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-005-6e8d972984",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "三 路易・波拿巴的崛起",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-6e8d972984",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "立法国民议会于1849年5月28日开会，到1851年12月2日被解散。这一期间是立宪共和国或议会制共和国的存在时期。",
+        "在第一次法国革命中，立宪派统治以后是吉伦特派的统治；吉伦特派统治以后是雅各宾派的统治。这些党派中的每一个党派，都是以更先进的党派为依靠。每当某一个党派把革命推进得很远，以致它既不能跟上，更不能领导的时候，这个党派就要被站在它后面的更勇敢的同盟者推开并且送上断头台。革命就这样沿着上升的路线行进。"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-005-6e8d972984",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/03.htm",
+          "sourceRawSha256": "e365ff3fb2660af13e0f3cc1cf5522e260ca8e0455d31ec3953fcfb8769adc1f",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-006-1861b155a5",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "四 小资产阶级民主派的失败",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+      "sourceRawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:06.111882+00:00",
+        "rawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+        "bytes": 17382
+      },
+      "localBodySha256": "9340172659355ea4c3a6df9eb8a2aca41608ac7144e3a06896d1563e4163a000",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-006-1861b155a5",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "四 小资产阶级民主派的失败",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-1861b155a5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1849年10月中旬，国民议会复会。11月1日，波拿巴送给议会一个咨文，说巴罗―法卢内阁已经免职，新内阁已经组成，这使议会大为震惊。就是驱逐一个仆人也不会比波拿巴驱逐自己的内阁阁员那样更加蛮横无礼。预定要向国民议会踢去的一脚，先踢到巴罗和他的同僚身上了。",
+        "我们已经说过，巴罗内阁是由正统派和奥尔良派组成的。这是秩序党的内阁。波拿巴需要这个内阁，是为了要解散共和派的制宪议会，实现对罗马的远征，并摧毁民主派的力量。那时他好像躲到这个内阁背后，把政府权力让给了秩序党，戴上了路易-菲力浦时期报纸的责任发行人常戴的朴质的假面具，即homme de paille〔冒名顶替者〕通常戴的假面具。现在他把假面具丢掉了，因为这个面具已不是一个使他能够隐藏自己的面容的薄纱，而是已变成一个妨碍他显示出自己的本来面目的铁制面具了。他任命巴罗内阁，是要借秩序党的名义驱散共和派的国民议会；他解散这个内阁，是宣布他自己的名字和这个秩序党的国民议会无关。"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-006-1861b155a5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/04.htm",
+          "sourceRawSha256": "5d3f023493eb8cefd5af30ece39d0a29e0f268ec158ded35d501164d8445ed0a",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-007-1604d7f197",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "五 制宪国民议会和波拿巴",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+      "sourceRawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:06.879240+00:00",
+        "rawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+        "bytes": 30536
+      },
+      "localBodySha256": "c0498aa96331926cd28f82658c0e689ee2c0055aa8935e4aa0a0a6de6bd1056c",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-007-1604d7f197",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "五 制宪国民议会和波拿巴",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-1604d7f197",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "革命危机刚一过去，普选权刚一废止，国民议会和波拿巴之间的斗争就重新爆发了。",
+        "宪法规定发给波拿巴的薪俸是每年六十万法郎。他就任总统后不到半年功夫，就把这个数额增加了一倍。奥迪隆・巴罗要制宪议会每年补发六十万法郎作为所谓交际费。在6月13日以后，波拿巴也曾提出过同样的要求，可是巴罗这次并没有听从。现在，在5月31日以后，波拿巴立即利用有利的时机，通过他的内阁阁员们向国民议会要求每年发给三百万法郎的文官费。长期的流浪生活使这个冒险家极为敏感，他能探知可能向资产者勒索金钱的时机。他采取了十足的欺诈手段。国民议会在他的协助和同意下污辱了人民的主权。他威胁说，如果国民议会不松开钱袋，不以每年三百万法郎来买他的沉默，他就要把国民议会的犯罪行为报告给人民。国民议会剥夺了三百万法国人的选举权，他要求把每一个在政治上被弄得毫无价值的法国人换成一个实价的法郎，总额是三百万法郎。他是由六百万人选出来的，他要求赔偿他在事后被剥夺掉的票数。国民议会的委员会拒绝了他这种厚颜无耻的要求。于是波拿巴派的报纸就来进行威胁。国民议会能不能在它根本彻底和国民群众决裂的时候又同共和国总统决裂呢？国民议会虽然否决了每年的文官费，同时却通过了一次增发二百一十六万法郎的决定。国民议会既已答应给钱，同时又以自己的烦恼表明自己的让步是出于不得已，因而就暴露了加倍的软弱。波拿巴为什么需要这笔款子，我们往后就可以看到。在废除普选权后紧接着发生的令人丧气的尾声中，波拿巴对于篡夺权力的议会的口吻已经从3月和4月危机时期的恭顺平和变成了挑战式的骄横，而国民议会在这次事件后却休会三个月，从8月11日到11月11日。它在休会期间留下了一个由二十八个人组成的常任委员会，其中没有一个波拿巴分子，但是有几个温和的共和派。1849年的常任委员会完全是由秩序党和波拿巴分子组成的。但是，那时是秩序党以革命的经常反对者自命，现在则是议会制共和国以总统的经常反对者自命了。5月31日的法律通过后，秩序党所必须考虑的只是这个敌手了。"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-007-1604d7f197",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/05.htm",
+          "sourceRawSha256": "32141028cf440876bd7fa59667d8b28cbcfbdac5de4fef53ab1274ecbc55b2d8",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-008-b27d9cd47e",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "六 波拿巴的胜利",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+      "sourceRawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:07.702248+00:00",
+        "rawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+        "bytes": 31004
+      },
+      "localBodySha256": "2f3c7971c29f9d7799292f9bc4d408884986e54befea21d309e1f380a25cb287",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-008-b27d9cd47e",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "六 波拿巴的胜利",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-b27d9cd47e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "秩序党在徒劳无益地力图保持军权和夺回已经丧失的对于行政权力的最高领导权时，不得不去跟山岳党和纯粹共和党人进行联合，这就确凿地证明，秩序党已经失去了独立的议会多数。仅仅是日历的力量、时钟的指针，在5月28日发出了秩序党彻底瓦解的信号。5月28日是国民议会生命的最后一个年头的开始。国民议会现在必须解决一个问题：原封不动地保存宪法呢，还是把它加以修改。但是，修改宪法就不只是要在资产阶级统治和小资产阶级民主派统治之间，在民主主义和无产阶级无政府状态之间，在议会制共和国和波拿巴之间进行选择，而且是要在奥尔良王朝和波旁王朝之间进行选择！这样，在议会内部就出现了一个引起争吵的原因，秩序党内利益彼此矛盾的各个敌对派别将围绕着它展开公开的斗争。秩序党是各种不同社会成分的结合体。修改宪法的问题造成了一种政治热度，它使这个结合体重又分解为它原来的各个构成部分。",
+        "波拿巴派关心修改宪法的原因很简单。他们首先想废除禁止再度选举波拿巴和延长他的权力期限的第45条。共和派的立场也很简单。他们无条件地反对任何修改，认为修改宪法是反对共和国的周密的阴谋。既然他们在国民议会中拥有四分之一以上的票数，而依照宪法又必须要有四分之三的票数赞成才能合法地决定修改宪法和召集修改宪法的专门会议，所以他们只要计算一下自己的票数，就可相信自己必获胜利了。他们当时确实是相信自己一定要胜利的。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-008-b27d9cd47e",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/06.htm",
+          "sourceRawSha256": "51eedac2bdef8b0dcd2607520393ad2f5d9ae514b1888dd25cab0dcd73b9a874",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-009-c567f68dc0",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "七 总结",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+      "sourceRawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:08.877912+00:00",
+        "rawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+        "bytes": 25574
+      },
+      "localBodySha256": "d6d1180cc4195920d4f485bb1974cb1bd3bfb5ce2b3c0389e5eb076dffd303a6",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-009-c567f68dc0",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "七 总结",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-c567f68dc0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "社会共和国在二月革命开始的时候是作为一个词句、作为一个预言出现的。1848年六月事变时，它被窒死于巴黎无产阶级的血泊中，但是在戏剧的下几幕中，它又常常像幽灵似地出现。民主共和国登上了舞台。它在1849年6月13日和它那四散奔逃的小资产者一同消失了，但是它在逃走时却随身散发了自吹自擂的广告。议会制共和国同资产阶级一起占据了全部舞台，尽量扩展，但是1851年12月2日事件在联合起来的保皇党人的“共和国万岁！”的惊慌叫喊声中把它埋葬了。",
+        "法国资产阶级反对劳动无产阶级的统治，结果是把政权送给了以十二月十日会的头目为首的流氓无产阶级。资产阶级没有让法国从害怕红色无政府状态的未来灾祸中苏醒过来，12月4日，当那些为烧酒所鼓舞的秩序军队根据波拿巴的命令对蒙马特尔林荫道上和意大利林荫道上的凭窗眺望的显贵资产者射击的时候，波拿巴就把这一未来灾祸给资产阶级兑现了。资产阶级曾把马刀奉为神，结果是受到马刀的统治。资产阶级消灭了革命的报刊，结果是它自己的报刊被消灭了。它把人民的集会置于警察监视之下，结果是它自己的沙龙遭到了警察的监视。它解散了民主派的国民自卫军，结果是它自己的国民自卫军也被解散了。它实行了戒严，结果是戒严实行起来对付它了。它用军事委员会代替了陪审法庭，结果是它自己的陪审法庭被军事委员会所代替。它把国民学校置于教士的支配之下，结果是教士支配起它自己的学校来了。它不进行审判就流放囚犯，结果是它自己未经审判就被流放了。它以国家权力镇压社会的任何运动，结果是国家权力镇压起它自己的社会的任何运动来了。它因偏爱自己的钱袋而反对自己的政治家和作家，结果是它的政治家和作家被排除了，但是它的钱袋也在它的口被封死和笔被折断后被抢劫了。资产阶级曾不倦地像圣阿尔谢尼对基督徒那样向革命叫喊说：“Fuge，tace，quiesce！――快跑，住嘴，安静！”，结果是波拿巴也向资产阶级叫喊道：“Fuge，tace，quiesce！――快跑，住嘴，安静！”"
+      ],
+      "nativeNoteCount": 7,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-009-c567f68dc0",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/07.htm",
+          "sourceRawSha256": "9c1e5ae3d081d3394b712e3f8f6e1e9998dacc3282ea3c0476c39ffd9d3e2f38",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-c2084d86d09d",
+      "chapterId": "chapter-001-09245ca02a",
+      "title": "1848年至1850年的法兰西阶级斗争",
+      "chapterTitle": "一 1848年的六月失败",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1850/01.htm",
+      "sourceRawSha256": "5bf26a410f43d939b2570d808919a9bc1d2b70178be8f7ebd753be465adc1ef8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1850/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1850/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:09.520108+00:00",
+        "rawSha256": "5bf26a410f43d939b2570d808919a9bc1d2b70178be8f7ebd753be465adc1ef8",
+        "bytes": 43969
+      },
+      "localBodySha256": "bef0b76e97e1d561fb27dce6981601cccbdeb1796e3ccdd6c81bb365bfdc3bc5",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-c2084d86d09d-chapter-chapter-001-09245ca02a",
+          "parentId": "toc-marx-work-c2084d86d09d-root",
+          "title": "一 1848年的六月失败",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-09245ca02a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "七月革命之后，自由派的银行家拉菲特陪他的compère〔教父〕［注：双关语：《compère》――“教父”，也有“同谋者”的意思。――编者注］奥尔良公爵向市政厅凯旋行进时，失口说出了一句话：“从今以后，银行家要统治国家了”。拉菲特道出了这次革命的秘密。",
+        "在路易－菲力浦时代掌握统治权的不是法国资产阶级，而只是这个资产阶级中的一个集团：银行家、交易所大王和铁路大王、煤铁矿和森林的所有者以及与他们相勾结的那部分大土地所有者，即所谓金融贵族。他们盘踞王位，他们在议会中强订法律，他们分配各种俸禄优厚的官职，从内阁大臣起至官立烟草店止。"
+      ],
+      "nativeNoteCount": 15,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-001-09245ca02a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/01.htm",
+          "sourceRawSha256": "5bf26a410f43d939b2570d808919a9bc1d2b70178be8f7ebd753be465adc1ef8",
+          "lineIndex": 2,
+          "text": "一 1848年的六月失败",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一 1848年的六月失败</title>",
+            "<p class=\"title1\">一 1848年的六月失败</p>"
+          ]
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-001-09245ca02a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/01.htm",
+          "sourceRawSha256": "5bf26a410f43d939b2570d808919a9bc1d2b70178be8f7ebd753be465adc1ef8",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《1848年至1850年的法兰西阶级斗争》",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-001-09245ca02a",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/01.htm",
+          "sourceRawSha256": "5bf26a410f43d939b2570d808919a9bc1d2b70178be8f7ebd753be465adc1ef8",
+          "lineIndex": 7,
+          "text": "一 1848年的六月失败",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一 1848年的六月失败</title>",
+            "<p class=\"title1\">一 1848年的六月失败</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-c2084d86d09d",
+      "chapterId": "chapter-002-c133e78a90",
+      "title": "1848年至1850年的法兰西阶级斗争",
+      "chapterTitle": "二 1849年6月13日",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1850/02.htm",
+      "sourceRawSha256": "e993d8fc7dda21595765d87d0192ce98db9a0ed9a886dd00a5fd42afbe0cbbf3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1850/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1850/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:10.197455+00:00",
+        "rawSha256": "e993d8fc7dda21595765d87d0192ce98db9a0ed9a886dd00a5fd42afbe0cbbf3",
+        "bytes": 52458
+      },
+      "localBodySha256": "070532d84782af55c6829d05a9c9b47bfcc8cf844dacdef7a911ae6773f00dec",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-c2084d86d09d-chapter-chapter-002-c133e78a90",
+          "parentId": "toc-marx-work-c2084d86d09d-root",
+          "title": "二 1849年6月13日",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-c133e78a90",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1848年2月25日使法国获得了共和制，6月25日则强使法国接受了革命。在6月以后，革命意味着推翻资产阶级社会，而在2月以前，它却意味着推翻一种国家形式。",
+        "6月的斗争是由资产阶级中的共和派所领导的，胜利自然是把政权变归了他们掌握。戒严状态把手足被缚而无力抵抗的巴黎压倒在他们脚下了，而在外省则到处笼罩着戒严状态的精神气氛、胜利了的资产阶级那种耀武扬威、扬眉吐气的骄横以及农民肆无忌惮的私有狂。这样，在下层方面就没有任何威胁了！"
+      ],
+      "nativeNoteCount": 11,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-002-c133e78a90",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/02.htm",
+          "sourceRawSha256": "e993d8fc7dda21595765d87d0192ce98db9a0ed9a886dd00a5fd42afbe0cbbf3",
+          "lineIndex": 2,
+          "text": "二 1849年6月13日",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二 1849年6月13日</title>",
+            "<p class=\"title1\">二 1849年6月13日</p>"
+          ]
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-002-c133e78a90",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/02.htm",
+          "sourceRawSha256": "e993d8fc7dda21595765d87d0192ce98db9a0ed9a886dd00a5fd42afbe0cbbf3",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《1848年至1850年的法兰西阶级斗争》",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-002-c133e78a90",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/02.htm",
+          "sourceRawSha256": "e993d8fc7dda21595765d87d0192ce98db9a0ed9a886dd00a5fd42afbe0cbbf3",
+          "lineIndex": 7,
+          "text": "二 1849年6月13日",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二 1849年6月13日</title>",
+            "<p class=\"title1\">二 1849年6月13日</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-c2084d86d09d",
+      "chapterId": "chapter-003-0579773b8f",
+      "title": "1848年至1850年的法兰西阶级斗争",
+      "chapterTitle": "三 1849年6月13日事件的后果",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1850/03.htm",
+      "sourceRawSha256": "af791a3115f82ebcabb16c90290b56ffefe41f752b0e791d95bcd64eac0644f4",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1850/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1850/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:11.191685+00:00",
+        "rawSha256": "af791a3115f82ebcabb16c90290b56ffefe41f752b0e791d95bcd64eac0644f4",
+        "bytes": 59499
+      },
+      "localBodySha256": "db26f54945b1979a6be5664bc99e4579da4e44e84b6b25a6cdf1cfd3b5c052a8",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-c2084d86d09d-chapter-chapter-003-0579773b8f",
+          "parentId": "toc-marx-work-c2084d86d09d-root",
+          "title": "三 1849年6月13日事件的后果",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-0579773b8f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "12月20日，立宪共和国的雅努斯［注：雅努斯是古代罗马的门神，它有前后两副面孔。因此，人们总以他来比喻两面派的人物。――译者注］式的头还只显示出它的一副面孔，即行政权力的一面，带有路易・波拿巴的模糊的平淡线条。1849年5月28日，它已显示出它的另一面，即立法权力的一面，盖满了由复辟时期和七月王朝的狂欢酒宴所留下的许多伤痕。立法国民议会的诞生完成了立宪共和国的建立，即建成了一个共和制的国家形式，在这个国家形式中确立了资产阶级的统治，亦即确立了构成法国资产阶级的两大保皇主义集团的统治，联合起来的正统主义者和奥尔良党人的共同统治，秩序党的统治。这样，法兰西共和国就成了保皇党同盟所有的财产，同时欧洲反革命列强同盟又向三月革命的最后避难所举行了全面的十字军讨伐。俄国侵入了匈牙利，普鲁士军队向维护帝国宪法的军队进攻，而乌迪诺则炮轰罗马。欧洲危机显然已在接近决定性的转折点，全欧洲的目光都注向巴黎，而全巴黎的目光则都注向立法议会。",
+        "6月11日，赖德律－洛兰登上立法议会的讲坛。他没有发表演说，他只提出了弹劾内阁部长们的控诉书，赤裸裸的、毫无掩饰的、完全基于事实的、扼要的、沉重的控诉书。"
+      ],
+      "nativeNoteCount": 22,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-003-0579773b8f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/03.htm",
+          "sourceRawSha256": "af791a3115f82ebcabb16c90290b56ffefe41f752b0e791d95bcd64eac0644f4",
+          "lineIndex": 2,
+          "text": "三 1849年6月13日事件的后果",
+          "compactLength": 16,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三 1849年6月13日事件的后果</title>",
+            "<p class=\"title1\">三 1849年6月13日事件的后果</p>"
+          ]
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-003-0579773b8f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/03.htm",
+          "sourceRawSha256": "af791a3115f82ebcabb16c90290b56ffefe41f752b0e791d95bcd64eac0644f4",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《1848年至1850年的法兰西阶级斗争》",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-003-0579773b8f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/03.htm",
+          "sourceRawSha256": "af791a3115f82ebcabb16c90290b56ffefe41f752b0e791d95bcd64eac0644f4",
+          "lineIndex": 7,
+          "text": "三 1849年6月13日事件的后果",
+          "compactLength": 16,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三 1849年6月13日事件的后果</title>",
+            "<p class=\"title1\">三 1849年6月13日事件的后果</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-c2084d86d09d",
+      "chapterId": "chapter-004-8cb07fd124",
+      "title": "1848年至1850年的法兰西阶级斗争",
+      "chapterTitle": "四 1850年普选权的废除",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1850/04.htm",
+      "sourceRawSha256": "975eca1eeb23b0823feb733bcb88ec0f4bdef2b45aec3e199bf574af09affbdf",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1850/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1850/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:11.704402+00:00",
+        "rawSha256": "975eca1eeb23b0823feb733bcb88ec0f4bdef2b45aec3e199bf574af09affbdf",
+        "bytes": 25800
+      },
+      "localBodySha256": "cf5769c82dcd3a44331de1951374b0ece0b54d9606bcc6a69082998964ee9a37",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-c2084d86d09d-chapter-chapter-004-8cb07fd124",
+          "parentId": "toc-marx-work-c2084d86d09d-root",
+          "title": "四 1850年普选权的废除",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-8cb07fd124",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（这是前3章的续文，是从“新莱茵报。政治经济评论”杂志最后两期即第五第六两期合刊所载“述评”中摘出来的。那里首先叙述了1847年爆发于英国的商业大危机，说明欧洲大陆政治纠纷因受这次危机影响而尖锐化并转变为1848年2月和3月的革命，随后又指出，早在1848年即已开始而于1849年又更其加强的工商业的繁荣，如何打消了革命高潮，并使反动派胜利成为可能。然后专门讲到法国时就作了如下的论述：）［注：这段引言是恩格斯为1895年版所写的。――编者注］",
+        "从1849年，特别是1850年初起，法国也出现了这样的征兆。巴黎的工业都开足马力进行生产，卢昂和缪尔豪森的棉纺织厂的生产情况也相当好，虽然在这些地区也象在英国一样，原料价格昂贵是个障碍。同时，西班牙的广泛进行关税改革和墨西哥降低各种奢侈品的关税，也大大促进了法国的繁荣。法国商品对这两个市场的输出大大增加。由于资本的增加在法国产生许多投机企业，名义上这些企业是为了大规模开采加利福尼亚金矿。大批的公司相继成立，它们以小额股票和高唱社会主义的广告直接面向小资产者和工人的腰包，但是这完全是一种法国人和中国人所独有的纯粹的欺骗。其中有一家公司甚至直接受到政府的庇护。法国进口税，1848年的前9个月为6300万法郎，1849年的前9个月为9500万法郎，1850年的前9个月为9300万法郎。而1850年9月份，进口税比1849年同月又增加了100余万法郎。1849年出口也有所增加，而1850年增加得更多。"
+      ],
+      "nativeNoteCount": 12,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-004-8cb07fd124",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/04.htm",
+          "sourceRawSha256": "975eca1eeb23b0823feb733bcb88ec0f4bdef2b45aec3e199bf574af09affbdf",
+          "lineIndex": 2,
+          "text": "四 1850年普选权的废除",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四 1850年普选权的废除</title>",
+            "<p class=\"title1\">四 1850年普选权的废除</p>"
+          ]
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-004-8cb07fd124",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/04.htm",
+          "sourceRawSha256": "975eca1eeb23b0823feb733bcb88ec0f4bdef2b45aec3e199bf574af09affbdf",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《1848年至1850年的法兰西阶级斗争》",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-004-8cb07fd124",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/04.htm",
+          "sourceRawSha256": "975eca1eeb23b0823feb733bcb88ec0f4bdef2b45aec3e199bf574af09affbdf",
+          "lineIndex": 7,
+          "text": "四 1850年普选权的废除",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四 1850年普选权的废除</title>",
+            "<p class=\"title1\">四 1850年普选权的废除</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-c2084d86d09d",
+      "chapterId": "chapter-005-5fc6aee064",
+      "title": "1848年至1850年的法兰西阶级斗争",
+      "chapterTitle": "卡・马克思“1848年至1850年的法兰西阶级斗争”一书导言",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1850/05.htm",
+      "sourceRawSha256": "9dd93803402f0b53378dd58619f35da85f822474276c397ab884c886d14719f6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1850/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1850/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:12.527726+00:00",
+        "rawSha256": "9dd93803402f0b53378dd58619f35da85f822474276c397ab884c886d14719f6",
+        "bytes": 40154
+      },
+      "localBodySha256": "c904ebedabe2f74dd823ad440ffc85144eb3f478929ebb6f7f77bcfaf545e283",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-c2084d86d09d-chapter-chapter-005-5fc6aee064",
+          "parentId": "toc-marx-work-c2084d86d09d-root",
+          "title": "卡・马克思“1848年至1850年的法兰西阶级斗争”一书导言",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-5fc6aee064",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "卡・马克思“1848年至1850年的法兰西阶级斗争”一书导言[508]",
+        "目前再版的这部著作，是马克思用他的唯物主义观点从一定经济状况出发来说明一段现代历史的初次尝试。在“共产党宣言”中，这个理论曾被大体地应用于全部近代历史；在马克思和我在“新莱茵报”上发表的文章中，这个理论曾被经常用来解释当时发生的政治事件。可是，这里的问题是要把一个对全欧洲都很紧要同时又很典型的多年历史发展时期中的内在因果联系揭示出来，从而按照作者的观点，把政治事件归结于终究是经济原因的作用。"
+      ],
+      "nativeNoteCount": 16,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-c2084d86d09d",
+          "chapterId": "chapter-005-5fc6aee064",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1850/05.htm",
+          "sourceRawSha256": "9dd93803402f0b53378dd58619f35da85f822474276c397ab884c886d14719f6",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《1848年至1850年的法兰西阶级斗争》",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-001-7b4235da45",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "凡例",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+      "sourceRawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:12.846383+00:00",
+        "rawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+        "bytes": 1670
+      },
+      "localBodySha256": "0c103035adac76a514197b7f25e30296aeb6d54d813473db3a4b287ad807b260",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-001-7b4235da45",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "凡例",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-7b4235da45",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1.每篇文献标题下括号内的写作或发表日期是编者加的。1918年2月14日以前俄国通用俄历，此后改用公历。两种历法所标日期，在1900年2月以前相差12天(如俄历为1日，公历为13日)，从1900年3月起相差13天。编者加的日期，公历和俄历并用时，俄历在前，公历在后。在国外写的书信的日期均为公历。",
+        "2.在引文中尖括号〈〉内的文字和标点符号是列宁加的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-001-7b4235da45",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+          "sourceRawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+          "lineIndex": 6,
+          "text": "凡例",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>凡例</title>",
+            "<h1>凡例</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-001-7b4235da45",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+          "sourceRawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-001-7b4235da45",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+          "sourceRawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+          "lineIndex": 13,
+          "text": "凡例",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>凡例</title>",
+            "<h1>凡例</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-001-7b4235da45",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-a.htm",
+          "sourceRawSha256": "42e9ff68e347b70f52032962d4b7a2f927d361d8bc08de88277c9792dd55d107",
+          "lineIndex": 31,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-002-dc20a02202",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "编者的话",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+      "sourceRawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:13.185583+00:00",
+        "rawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+        "bytes": 2478
+      },
+      "localBodySha256": "fb47e1d1ecd402e3ed8b78f9b71ee91ae6f839f01d37c84934fb11467048415c",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-002-dc20a02202",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "编者的话",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-dc20a02202",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1960年，《列宁选集》第1版编辑出版。1972年，又在这一版的基础上对所选文章作了部分调整，重新校订了译文，编辑出版了这部选集的第2版。在20年后的今天，《列宁全集》中文第2版60卷已经出齐，现在有必要也有可能重新编辑一部译文更准确、选材更合理、更符合新时期广大读者需要的《列宁选集》。",
+        "收入这一版的列宁著作，和前两个版本的《列宁选集》一样，大部分是全文，小部分是节选。这一版在选材上作了适当调整，力求全面准确地反映列宁的思想理论遗产的精华以及他对马克思主义所作的理论贡献，同时又尽可能照顾社会各界广大读者的需要。为了帮助读者掌握马克思主义的精髓，提高实际运用马克思主义的能力，本版选集酌量增收了列宁有关马克思主义方法论的著述。从探索和研究有中国特色的社会主义的需要出发，还较多地增收了反映列宁建设社会主义的理论和实践的文献。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-002-dc20a02202",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+          "sourceRawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-002-dc20a02202",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+          "sourceRawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+          "lineIndex": 38,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-003-d876026e98",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "说明",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-intro1.htm",
+      "sourceRawSha256": "6bfe64f60d3cac8067dd16348d512783c41d03f8e5747113944c1c34ae999381",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-intro1.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-intro1.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:13.855845+00:00",
+        "rawSha256": "6bfe64f60d3cac8067dd16348d512783c41d03f8e5747113944c1c34ae999381",
+        "bytes": 28827
+      },
+      "localBodySha256": "a84ce3b8b4ee6ec78802a4208d96efdfe10c7679375e645a01e024442d960601",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-003-d876026e98",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "说明",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-d876026e98",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "第一卷说明本卷选载列宁1894年至1907年即投身革命初期、建党时期和俄国第一次民主革命时期的著作，共27篇。",
+        "列宁开始革命活动是在19世纪80年代末。当时的俄国已经是一个资本主义国家。1861年改革废除了农奴制，推动了俄国资本主义的发展。但由于沙皇专制制度未被触动，农奴制经济关系的残余依然大量存在，俄国的经济发展和社会进步遭到严重的阻碍，它的经济发展水平远远落后于欧洲其他许多国家。随着大工业的发展，工人阶级登上历史舞台。工人与资本家的阶级对抗日趋激烈，工人罢工的规模越来越大。但这时的工人运动还缺乏组织，缺乏科学社会主义思想的指导，基本上是自发的。由于村社解体后农村阶级分化严重，广大农民身受资本主义和农奴制残余的双重剥削。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-003-d876026e98",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-intro1.htm",
+          "sourceRawSha256": "6bfe64f60d3cac8067dd16348d512783c41d03f8e5747113944c1c34ae999381",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-003-d876026e98",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-intro1.htm",
+          "sourceRawSha256": "6bfe64f60d3cac8067dd16348d512783c41d03f8e5747113944c1c34ae999381",
+          "lineIndex": 103,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-004-30a2bd0bac",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "什么是“人民之友”以及他们如何攻击社会民主党人？(之一)",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+      "sourceRawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:14.670546+00:00",
+        "rawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+        "bytes": 117859
+      },
+      "localBodySha256": "83e2ab3956292e6cd28124f50aa3e948fdcd81f1476e55862c776f899c0f614d",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-004-30a2bd0bac",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "什么是“人民之友”以及他们如何攻击社会民主党人？(之一)",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-30a2bd0bac",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "(答《俄国财富》杂志反对马克思主义者的几篇文章)[1] (1894年春夏)",
+        "第一编《俄国财富》[2]对社会民主党人发动进攻了。这个杂志的头目之一尼·米海洛夫斯基先生，还在去年第10期上就宣布要对“我国所谓的马克思主义者或社会民主党人”进行一场“论战”。随后出现了谢·克里文柯先生的《论文化孤士》一文(第12期)和尼·米海洛夫斯基先生的《文学和生活》一文(1894年《俄国财富》第1期和第2期)。至于杂志本身对我国经济现实的看法，谢·尤沙柯夫先生在《俄国经济发展问题》一文(第11期和第12期)中已作了最充分的叙述。这些先生在他们的杂志上总是以真正“人民之友”的思想和策略的表达者自居，其实他们是社会民主党最凶恶的敌人。现在我们就把这些“人民之友”，把他们对马克思主义的批判、他们的思想、他们的策略仔细考察一下。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-004-30a2bd0bac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+          "sourceRawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+          "lineIndex": 6,
+          "text": "什么是“人民之友”以及他们如何攻击社会民主党人？(之一)",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>什么是“人民之友”以及他们如何攻击社会民主党人？(之一)</title>",
+            "<h1>什么是“人民之友”以及他们如何攻击社会民主党人？(之一)</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-004-30a2bd0bac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+          "sourceRawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-004-30a2bd0bac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+          "sourceRawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+          "lineIndex": 13,
+          "text": "什么是“人民之友”以及他们如何攻击社会民主党人？(之一)",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>什么是“人民之友”以及他们如何攻击社会民主党人？(之一)</title>",
+            "<h1>什么是“人民之友”以及他们如何攻击社会民主党人？(之一)</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-004-30a2bd0bac",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404a.htm",
+          "sourceRawSha256": "edecb4758ca715575a386c575fecd424191b6a7709846c136f22c5929629153d",
+          "lineIndex": 322,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-006-df481a8747",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "弗里德里希·恩格斯",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-18950917.htm",
+      "sourceRawSha256": "1ecba8a271d36b79870e229fd9c64fdcf97b1693e5bec32bbf1ba442f94457ef",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-18950917.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-18950917.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:15.024253+00:00",
+        "rawSha256": "1ecba8a271d36b79870e229fd9c64fdcf97b1693e5bec32bbf1ba442f94457ef",
+        "bytes": 21612
+      },
+      "localBodySha256": "71ca9f9bab330e50f74b84be0cad38938598eab1d28c9f37289e6fe76f022785",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-006-df481a8747",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "弗里德里希·恩格斯",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-df481a8747",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "(1895年9月7日〔19日〕以后)",
+        "一盏多么明亮的智慧之灯熄灭了，一颗多么伟大的心停止跳动了！①(①注：见尼·阿·涅克拉索夫的诗《纪念杜勃罗留波夫》。--编者注)"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-006-df481a8747",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-18950917.htm",
+          "sourceRawSha256": "1ecba8a271d36b79870e229fd9c64fdcf97b1693e5bec32bbf1ba442f94457ef",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-006-df481a8747",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-18950917.htm",
+          "sourceRawSha256": "1ecba8a271d36b79870e229fd9c64fdcf97b1693e5bec32bbf1ba442f94457ef",
+          "lineIndex": 64,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-007-71127983a7",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "我们拒绝什么遗产？",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+      "sourceRawSha256": "41f93dace021f1e1f332c915f526cb96500cb0456f27c294a8dcda6026a889f7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:15.717299+00:00",
+        "rawSha256": "41f93dace021f1e1f332c915f526cb96500cb0456f27c294a8dcda6026a889f7",
+        "bytes": 89428
+      },
+      "localBodySha256": "39fa728441fe7e2e0950d682d08c1beb70e73667a5bc1dd49f598ff949953071",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-007-71127983a7",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "我们拒绝什么遗产？",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-71127983a7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "(1897年底)",
+        "在1897年《俄国财富》[2]第10期上，米海洛夫斯基先生在转述明斯基先生对“辩证唯物论者”的批判时写道：“他〈明斯基先生〉一定知道，这些人根本不愿意与过去有任何继承性的联系，并且坚决拒绝遗产”(第179页)，也就是说，拒绝瓦·罗扎诺夫先生1891年在《莫斯科新闻》[54]上郑重拒绝了的“60-70年代的遗产”(第178页)。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-007-71127983a7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+          "sourceRawSha256": "41f93dace021f1e1f332c915f526cb96500cb0456f27c294a8dcda6026a889f7",
+          "lineIndex": 6,
+          "text": "我们拒绝什么遗产？(1897年底)",
+          "compactLength": 17,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>我们拒绝什么遗产？(1897年底)</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-007-71127983a7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+          "sourceRawSha256": "41f93dace021f1e1f332c915f526cb96500cb0456f27c294a8dcda6026a889f7",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-007-71127983a7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712.htm",
+          "sourceRawSha256": "41f93dace021f1e1f332c915f526cb96500cb0456f27c294a8dcda6026a889f7",
+          "lineIndex": 181,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-008-a6824b4fa7",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "俄国社会民主党人的任务",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712b.htm",
+      "sourceRawSha256": "66617a50e4a81142d57478c9f85933e721780c9a1c34df2f22ff192f833755f2",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:16.386239+00:00",
+        "rawSha256": "66617a50e4a81142d57478c9f85933e721780c9a1c34df2f22ff192f833755f2",
+        "bytes": 45920
+      },
+      "localBodySha256": "ebafd1904709b5db23ae25fba263e31fad84004d2f205a3346c6c5f0c5b7539b",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-008-a6824b4fa7",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "俄国社会民主党人的任务",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-a6824b4fa7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "(1897年底)[72] 90年代后半期的特点，是在提出和解决俄国革命问题方面呈现异常活跃的气象。新的革命党民权党[39]的出现，社会民主党人的影响和成绩的增长，民意党[31]内部的发展，所有这一切，都在社会主义的知识分子和工人小组中以及秘密宣传中，引起了对纲领问题的热烈讨论。在秘密宣传中值得指出的有：“民权党”的《迫切的问题》和《宣言》(1894年)，《“民意社”快报》[73]，“俄国社会民主党人联合会”[74]在国外出版的《工作者》[42]，在俄国国内出版主要供工人阅读的革命小册子的紧张活动，圣彼得堡社会民主党人的“工人阶级解放斗争协会”[75]在1896年著名的彼得堡罢工[76]时所进行的鼓动工作等等。",
+        "在我们看来，现在(1897年底)最迫切的问题，是社会民主党人的实践活动问题。我们着重指出社会民主党的实践方面，是因为它的理论方面，看来已经渡过了最紧张的时期；当时，它根本不为对手们所了解，又有种种势力力图在新派别一出现时就把它压下去，这是一方面；另一方面，社会民主党则热烈捍卫自己的基本原则。现在，社会民主党人的理论观点，在其主要的与基本的方面，已经充分阐明了。而关于社会民主党的实践方面，关于它的政治纲领，关于它的活动方法，它的策略，却还不能这样说。我们觉得，正是在这些方面，存在着很多误会和隔阂，妨碍着某些革命者与社会◎第139页◎民主党充分接近，这些革命者在理论上已经完全离开民意主义，而在实践上，或是由于客观力量所迫，到工人中间进行宣传鼓动，甚至把自己在工人中间的活动放到阶级斗争的基础上，或者力图把民主主义任务当作全部纲领和全部革命活动的基础。如果我们没有弄错的话，后一评语是适用于目前在俄国与社会民主党人同时活动的两个革命团体，即民意党和民权党的。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-008-a6824b4fa7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712b.htm",
+          "sourceRawSha256": "66617a50e4a81142d57478c9f85933e721780c9a1c34df2f22ff192f833755f2",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-008-a6824b4fa7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189712b.htm",
+          "sourceRawSha256": "66617a50e4a81142d57478c9f85933e721780c9a1c34df2f22ff192f833755f2",
+          "lineIndex": 115,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-010-babba7200f",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "第一卷注释",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+      "sourceRawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:16.872042+00:00",
+        "rawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+        "bytes": 62850
+      },
+      "localBodySha256": "b2275716ac120fd62bce08513a4eb961e8e27d0eb416a9c837068d24122cc233",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-010-babba7200f",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "第一卷注释",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-babba7200f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "列宁选集第一卷注释[1]《什么是“人民之友”以及他们如何攻击社会民主党人？(答《俄国财富》杂志反对马克思主义者的几篇文章)》一书于1894年写成(第1编于4月完稿，第2、3编于夏天完稿)。1892-1893年列宁在萨马拉开始为写作此书作准备，他当时曾在萨马拉一个马克思主义小组中作过一些报告，批评自由主义民粹派分子瓦·沃·(瓦·巴·沃龙佐夫)、尼·康·米海洛夫斯基、谢·尼·尤沙柯夫和谢·尼·克里文柯等人。这些报告是《什么是“人民之友”》一书的准备材料。",
+        "这部书于1894年在彼得堡、莫斯科、哥尔克等地分编胶印出版，在俄国其他一些城市也传抄和翻印过。在国外，劳动解放社和其他俄国社会民主党人组织也看到过这部著作。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-010-babba7200f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+          "sourceRawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-010-babba7200f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+          "sourceRawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+          "lineIndex": 399,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-001-d4909a165d",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "序言：马克思，1869年",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/00a.htm",
+      "sourceRawSha256": "765ac4a8c97b4e2f7b33b899b87bf322d47ac88113f45d03593663b6acc448be",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/00a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/00a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:17.198174+00:00",
+        "rawSha256": "765ac4a8c97b4e2f7b33b899b87bf322d47ac88113f45d03593663b6acc448be",
+        "bytes": 7333
+      },
+      "localBodySha256": "707fea383a1bb37267d26866354b7466f8d61271d72bf94f0fb241c8c4a0589e",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-001-d4909a165d",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "序言：马克思，1869年",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-d4909a165d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“路易・波拿巴的雾月十八日”第二版序言[286]马克思",
+        "我的不幸早逝的朋友约瑟夫・魏德迈［注：魏德迈在美国内战时期担任过圣路易斯区军事长官职务。］，曾打算从1852年1月1日起在纽约出版一个政治周刊。他曾请求我给这个刊物写一篇coup d’état〔政变〕史。根据这个请求，我直到2月中为止每周都为他撰写论文，总标题是“路易・波拿巴的雾月十八日”。这时，魏德迈原来的计划遭到了失败。但他在1852年春季却开始出版名为“革命”的月刊，月刊第一期的内容就是我的“雾月十八日”。[287]这一著作有数百份那时已深入德国境内，不过没有在真正的书籍市场上出售过。当我向一个自命极端激进的德国书商建议销售我这本书的时候，他带着真正的道义上的恐惧拒绝了这种“不合时宜的企图”。"
+      ],
+      "nativeNoteCount": 6,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-001-d4909a165d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/00a.htm",
+          "sourceRawSha256": "765ac4a8c97b4e2f7b33b899b87bf322d47ac88113f45d03593663b6acc448be",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1c6baae31bf3",
+      "chapterId": "chapter-002-6b15e8322c",
+      "title": "路易・波拿巴的雾月十八日",
+      "chapterTitle": "序言：恩格斯，1885年",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/00b.htm",
+      "sourceRawSha256": "8b5a16d9fd650c3ffba664ac377c6c1d44b332f8deab9f11e32156926edfd7fa",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/1851-1852/00b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/1851-1852/00b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:17.550166+00:00",
+        "rawSha256": "8b5a16d9fd650c3ffba664ac377c6c1d44b332f8deab9f11e32156926edfd7fa",
+        "bytes": 4457
+      },
+      "localBodySha256": "7c8e162a8a363f75a59e650fd3299d966956981fb7433bf775b0b024464a78c8",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1c6baae31bf3-chapter-chapter-002-6b15e8322c",
+          "parentId": "toc-marx-work-1c6baae31bf3-root",
+          "title": "序言：恩格斯，1885年",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-6b15e8322c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "卡・马克思“路易・波拿巴的雾月十八日”[299]一书德文第三版序言恩格斯",
+        "“雾月十八日”在初版问世三十三年后还需要印行新版，证明这个篇幅不大的著作就是在今天还丝毫没有失去自己的价值。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1c6baae31bf3",
+          "chapterId": "chapter-002-6b15e8322c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/1851-1852/00b.htm",
+          "sourceRawSha256": "8b5a16d9fd650c3ffba664ac377c6c1d44b332f8deab9f11e32156926edfd7fa",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思 -> 《路易・波拿巴的雾月十八日》",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-006-558bff82b7",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第6号（1848年6月6日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/006.htm",
+      "sourceRawSha256": "01ca0ed22df40b0293020afa2abcdde77083abfeee3147141b4b1a992a6be907",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/006.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/006.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:18.445208+00:00",
+        "rawSha256": "01ca0ed22df40b0293020afa2abcdde77083abfeee3147141b4b1a992a6be907",
+        "bytes": 110338
+      },
+      "localBodySha256": "ac49cb11b72dd3cb279493d81f153074e1a0e19851c851e69900daee582a6d53",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-006-558bff82b7",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第6号（1848年6月6日）",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-006-558bff82b7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第6号（1848年6月6日）",
+        "新莱茵报民主派机关报第6号科隆，星期二 6月6日1848年〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 192,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-006-558bff82b7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/006.htm",
+          "sourceRawSha256": "01ca0ed22df40b0293020afa2abcdde77083abfeee3147141b4b1a992a6be907",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-007-7fb035e3b5",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第8号（1848年6月8日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/008.htm",
+      "sourceRawSha256": "69fb3071e625db5565a0462c6caa574601d3ea130cfd40dffb10eb99a06c258e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/008.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/008.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:19.594314+00:00",
+        "rawSha256": "69fb3071e625db5565a0462c6caa574601d3ea130cfd40dffb10eb99a06c258e",
+        "bytes": 112237
+      },
+      "localBodySha256": "34b91d2db3fbdad1ae88fb7d2be6b718ca78d6870f3ab79132e9873a3e6893e1",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-007-7fb035e3b5",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第8号（1848年6月8日）",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-007-7fb035e3b5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第8号（1848年6月8日）",
+        "新莱茵报民主派机关报第8号科隆，星期四，6月8日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 187,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-007-7fb035e3b5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/008.htm",
+          "sourceRawSha256": "69fb3071e625db5565a0462c6caa574601d3ea130cfd40dffb10eb99a06c258e",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-009-6aee00a31d",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第14号（1848年6月14日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/014.htm",
+      "sourceRawSha256": "e701e20fe3096f9ebc1c75fd94b5f7332b848283947aad62c05ee909de646d06",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/014.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/014.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:20.370065+00:00",
+        "rawSha256": "e701e20fe3096f9ebc1c75fd94b5f7332b848283947aad62c05ee909de646d06",
+        "bytes": 102378
+      },
+      "localBodySha256": "eb5242749d426729e23e07ca9b22bce08c125b3ec0278a0c97b3156e34435f0d",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-009-6aee00a31d",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第14号（1848年6月14日）",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-009-6aee00a31d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第14号（1848年6月14日）",
+        "新莱茵报民主派机关报第14号科隆，星期三，6月14日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 150,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-009-6aee00a31d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/014.htm",
+          "sourceRawSha256": "e701e20fe3096f9ebc1c75fd94b5f7332b848283947aad62c05ee909de646d06",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-010-ad5c65a8cf",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第15号（1848年6月15日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/015.htm",
+      "sourceRawSha256": "fc4c3c093ff9f25c6419ca416ec4d8b5a4bcc29aa7e3e659c8d47742ea8b11f3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/015.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/015.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:21.726995+00:00",
+        "rawSha256": "fc4c3c093ff9f25c6419ca416ec4d8b5a4bcc29aa7e3e659c8d47742ea8b11f3",
+        "bytes": 205941
+      },
+      "localBodySha256": "ffdee960c82297203bee09da0579ce1f3fa1e5227e441c2d9e2f3b44e31874c2",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-010-ad5c65a8cf",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第15号（1848年6月15日）",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-010-ad5c65a8cf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第15号（1848年6月15日）",
+        "新莱茵报民主派机关报第15号科隆，星期四 6月15日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 558,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-010-ad5c65a8cf",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/015.htm",
+          "sourceRawSha256": "fc4c3c093ff9f25c6419ca416ec4d8b5a4bcc29aa7e3e659c8d47742ea8b11f3",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-011-162ccf643c",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第19号（1848年6月19日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm",
+      "sourceRawSha256": "2a4166642d37f6ea6afaa85338afa298d495eee2c2e828b260ae0f27f389383c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:22.888949+00:00",
+        "rawSha256": "2a4166642d37f6ea6afaa85338afa298d495eee2c2e828b260ae0f27f389383c",
+        "bytes": 151017
+      },
+      "localBodySha256": "08d4499d247b3399bcbad2a6a2445fa62280d76de745e1e3e938ebd1554e7576",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-011-162ccf643c",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第19号（1848年6月19日）",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-011-162ccf643c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第19号（1848年6月19日）",
+        "新莱茵报民主派机关报第19号科隆，星期一 6月19日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 311,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-011-162ccf643c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/019.htm",
+          "sourceRawSha256": "2a4166642d37f6ea6afaa85338afa298d495eee2c2e828b260ae0f27f389383c",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-005-cb19bf90bb",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "什么是“人民之友”以及他们如何攻击社会民主党人？(之二)",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+      "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:23.991614+00:00",
+        "rawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+        "bytes": 75889
+      },
+      "localBodySha256": "7121d20c2a9a535bf04fb3182ecf370684614e67a8a866e8bd824e3d5eb65ce2",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-005-cb19bf90bb",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "什么是“人民之友”以及他们如何攻击社会民主党人？(之二)",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-cb19bf90bb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "米海洛夫斯基先生的“批评”的第二部分，已经不是反对马克思的理论，而是专门反对俄国社会民主党人。在谈这一部分以前，我们必须稍微离开一下本题。原来，米海洛夫斯基先生，正如他在批评马克思时不但没有打算确切地叙述马克思的理论，反而完全歪曲了这个理论一样，他对俄国社会民主党人的思想也是肆无忌惮地加以歪曲。必须恢复真相。要做到这一点，最方便的办法是把俄国从前的社会主义者的思想同社会民主党人的思想对照一下。讲到前一种思想时，我且借用一下米海洛夫斯基先生在1892年《俄国思想》[29]第6期上发表的文章，他在这篇文章里也谈到马克思主义(并且--说来会使他惭愧--是以庄重口气谈到的，没有涉及那些只有按布勒宁方式才能在受检查的刊物上谈论的问题，也没有污蔑马克思主义者)，并且是同马克思主义对立地--如果不是对立地，至少也是同它平行地--叙述了自己的观点。我当然丝毫不想侮辱米海洛夫斯基先生，就是说，不想把他算作社会主义者，也丝毫不想侮辱俄国社会主义者，把他们和米海洛夫斯基先生同等看待：我只是认为他们和他的论证程序实质上是一样的，差别◎第53页◎只在于信念的坚定、率直和一贯的程度有所不同而已。",
+        "米海洛夫斯基先生在叙述《祖国纪事》的思想时写道：“我们向来把土地属于耕作者和劳动工具属于生产者作为道德的政治的理想。”出发点看来是极其善意的，充满了极其善良的愿望…… “我国还存在着的中世纪劳动形式①( ①注：作者在另一地方解释道：”所谓中世纪劳动形式，指的不仅是村社土地占有制、手工业和劳动组合组织。所有这些无疑都是中世纪形式，但土地或生产工具属于劳动者的种种形式也应当算作中世纪形式。“)已大大动摇了，但我们看不出有什么理由来完全取消这些形式，以迎合任何一种学说，不管是自由派的还是非自由派的。”"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-005-cb19bf90bb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+          "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+          "lineIndex": 6,
+          "text": "什么是“人民之友”以及他们如何攻击社会民主党人？(之二)",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>什么是“人民之友”以及他们如何攻击社会民主党人？(之二)</title>",
+            "<h1>什么是“人民之友”以及他们如何攻击社会民主党人？(之二)</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-005-cb19bf90bb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+          "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-005-cb19bf90bb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+          "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+          "lineIndex": 13,
+          "text": "什么是“人民之友”以及他们如何攻击社会民主党人？(之二)",
+          "compactLength": 28,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>什么是“人民之友”以及他们如何攻击社会民主党人？(之二)</title>",
+            "<h1>什么是“人民之友”以及他们如何攻击社会民主党人？(之二)</h1>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-005-cb19bf90bb",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-189404b.htm",
+          "sourceRawSha256": "b1b37a769631e20d2abab9271c490322d59520ed57249f7e49eb7bb3620b4ac6",
+          "lineIndex": 331,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-009-9b3046161f",
+      "title": "列宁选集（网页版节选）",
+      "chapterTitle": "俄国资本主义的发展(节选)",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+      "sourceRawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:24.709211+00:00",
+        "rawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+        "bytes": 148447
+      },
+      "localBodySha256": "5eb349bac5e6a83fe28c9a96e545ef31327224463d528fdbdd3fc83cb0b43c40",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-009-9b3046161f",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "俄国资本主义的发展(节选)",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-9b3046161f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "俄国资本主义的发展——大工业国内市场形成的过程[80] (节选)",
+        "(1895年底--1899年1月)"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-009-9b3046161f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "sourceRawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+          "lineIndex": 6,
+          "text": "俄国资本主义的发展(节选)----列宁选集",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>俄国资本主义的发展(节选)----列宁选集</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-009-9b3046161f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "sourceRawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "lenin-work-1d0fc116fd84",
+          "chapterId": "chapter-009-9b3046161f",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-1895_1899.htm",
+          "sourceRawSha256": "9b78d3646937bfd708a0fb48e01250cf9faf21e67b3631610e56fb88db826bab",
+          "lineIndex": 538,
+          "text": "中文马克思主义文库 >> 列宁 >> 列宁选集",
+          "compactLength": 19,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-001-51f00ebeb7",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第1号（1848年6月1日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm",
+      "sourceRawSha256": "4475be97c31ea2b1c0b2f17f99b8992e0d3ab1d49b04d837e21ccafdb648009c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:25.085347+00:00",
+        "rawSha256": "4475be97c31ea2b1c0b2f17f99b8992e0d3ab1d49b04d837e21ccafdb648009c",
+        "bytes": 96692
+      },
+      "localBodySha256": "838d290e18a57f3fb6228c174e8a71440bd8da970697f7f407cc685027fee785",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-001-51f00ebeb7",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第1号（1848年6月1日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-51f00ebeb7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第1号（1848年6月1日）",
+        "新莱茵报民主派机关报第1号科隆，星期四，6月1日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 134,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-001-51f00ebeb7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/001.htm",
+          "sourceRawSha256": "4475be97c31ea2b1c0b2f17f99b8992e0d3ab1d49b04d837e21ccafdb648009c",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-002-3ead29be2f",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第2号（1848年6月2日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+      "sourceRawSha256": "930343ed9cc0348695b5289649b671860107554da40ec1c307e21e87ee5beafe",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:26.272458+00:00",
+        "rawSha256": "930343ed9cc0348695b5289649b671860107554da40ec1c307e21e87ee5beafe",
+        "bytes": 112883
+      },
+      "localBodySha256": "dbd6ff64e3a2a5095308d948e9f3de485a7451b439a9b839283438bf4accd8c3",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-002-3ead29be2f",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第2号（1848年6月2日）",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-3ead29be2f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第2号（1848年6月2日）",
+        "新莱茵报民主派机关报第2号科隆，星期五，6月2日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 174,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-002-3ead29be2f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/002.htm",
+          "sourceRawSha256": "930343ed9cc0348695b5289649b671860107554da40ec1c307e21e87ee5beafe",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-004-35a27b0a79",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第4号（1848年6月4日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+      "sourceRawSha256": "13cd2c508c33bf33931d60a4ab603918e0d81b4d7e896a1d1b8c94c0d978ec98",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:27.459398+00:00",
+        "rawSha256": "13cd2c508c33bf33931d60a4ab603918e0d81b4d7e896a1d1b8c94c0d978ec98",
+        "bytes": 104867
+      },
+      "localBodySha256": "8884d68144ee7e23a6d28d58f45ff10dcb682405cf26dac745bcc5d2537912b5",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-004-35a27b0a79",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第4号（1848年6月4日）",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-004-35a27b0a79",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第4号（1848年6月4日）",
+        "新莱茵报民主派机关报第4号科隆，星期日，6月4日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 168,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-004-35a27b0a79",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/004.htm",
+          "sourceRawSha256": "13cd2c508c33bf33931d60a4ab603918e0d81b4d7e896a1d1b8c94c0d978ec98",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-005-2c573c8141",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第5号（1848年6月5日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/005.htm",
+      "sourceRawSha256": "e4d4f900deddf1c18e5a56cf7498f46296db6c69d513b34984f653a48d2af1fd",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:28.304284+00:00",
+        "rawSha256": "e4d4f900deddf1c18e5a56cf7498f46296db6c69d513b34984f653a48d2af1fd",
+        "bytes": 126121
+      },
+      "localBodySha256": "74be66062e67a0be2cae9f67b5f65b7218af6224e968d8f20bc09ccb489bd6e4",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-005-2c573c8141",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第5号（1848年6月5日）",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-005-2c573c8141",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第5号（1848年6月5日）",
+        "新莱茵报民主派机关报第5号科隆，星期一，6月5日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 242,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-005-2c573c8141",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/005.htm",
+          "sourceRawSha256": "e4d4f900deddf1c18e5a56cf7498f46296db6c69d513b34984f653a48d2af1fd",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-008-3f54a625bb",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第12-13号（1848年6月13日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm",
+      "sourceRawSha256": "ddedd1a348f8ec43764e9035628bd2683ad9eca9f0cede6b6a7e6a993f91cf96",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:29.523920+00:00",
+        "rawSha256": "ddedd1a348f8ec43764e9035628bd2683ad9eca9f0cede6b6a7e6a993f91cf96",
+        "bytes": 126477
+      },
+      "localBodySha256": "660221f5d943702cf55693d3f161ce5f034fbe0a011ccfdb6981f34fe2b7a46a",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-008-3f54a625bb",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第12-13号（1848年6月13日）",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-008-3f54a625bb",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第12-13号（1848年6月13日）",
+        "新莱茵报民主派机关报第12和13号科隆，星期二 6月13日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 232,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-008-3f54a625bb",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/012.htm",
+          "sourceRawSha256": "ddedd1a348f8ec43764e9035628bd2683ad9eca9f0cede6b6a7e6a993f91cf96",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-012-94c07c2da5",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第20号（1848年6月20日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+      "sourceRawSha256": "64cb710106c26965d1d54340b71314ff4a3f8c23dac82bc30fae8a100c885122",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:30.723543+00:00",
+        "rawSha256": "64cb710106c26965d1d54340b71314ff4a3f8c23dac82bc30fae8a100c885122",
+        "bytes": 112511
+      },
+      "localBodySha256": "dc2b38a58ebbd42fb931aa4475d59d896b5629a49bf1bf04445e966d6d562cdc",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-012-94c07c2da5",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第20号（1848年6月20日）",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-012-94c07c2da5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第20号（1848年6月20日）",
+        "新莱茵报民主派机关报第20号科隆，星期二，6月20日1848〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 193,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-012-94c07c2da5",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/020.htm",
+          "sourceRawSha256": "64cb710106c26965d1d54340b71314ff4a3f8c23dac82bc30fae8a100c885122",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-013-3776c72de1",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第23号（1848年6月28日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+      "sourceRawSha256": "a2fd8a0f6d60efe2725f43214e0a1103dcc052af8299c0566817c152238a4d8c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:31.881169+00:00",
+        "rawSha256": "a2fd8a0f6d60efe2725f43214e0a1103dcc052af8299c0566817c152238a4d8c",
+        "bytes": 150246
+      },
+      "localBodySha256": "7092ab0bc2b1f1b4ecf87413c7e0fcde492dbe6a5280b9df80e06b46e3c2cc4a",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-013-3776c72de1",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第23号（1848年6月28日）",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-013-3776c72de1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第23号（1848年6月23日）",
+        "新莱茵报民主派机关报第1号科隆，星期四，6月23日1848新莱茵报民主派机关报第23号. 科隆，星期五 6月23日. 1848.〔第一版头条通栏〕"
+      ],
+      "nativeNoteCount": 215,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-013-3776c72de1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/023.htm",
+          "sourceRawSha256": "a2fd8a0f6d60efe2725f43214e0a1103dcc052af8299c0566817c152238a4d8c",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-a100a1458ef3",
+      "chapterId": "chapter-014-be5b74606f",
+      "title": "马克思主编《新莱茵报》中译版 （文字版）",
+      "chapterTitle": "第301号（1849年5月19日）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+      "sourceRawSha256": "38a1326ab58b980aeca45a4f4274e33512aa4528b0d5cd90eb139b1123a2435c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:25:32.814193+00:00",
+        "rawSha256": "38a1326ab58b980aeca45a4f4274e33512aa4528b0d5cd90eb139b1123a2435c",
+        "bytes": 139005
+      },
+      "localBodySha256": "f5fd0049d9402fee9bfe68b6a735150f83e2825fec9d5eebf604c2a790954ed5",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-a100a1458ef3-chapter-chapter-014-be5b74606f",
+          "parentId": "toc-marx-work-a100a1458ef3-root",
+          "title": "第301号（1849年5月19日）",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-014-be5b74606f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《新莱茵报》第301号（1849年5月19日）",
+        "新莱茵报民主派机关报第301号科隆，5月19日 星期六1849〔第一版通栏〕"
+      ],
+      "nativeNoteCount": 217,
+      "nativeNoteLayoutDifferences": [],
+      "findings": [
+        {
+          "bookId": "marx-work-a100a1458ef3",
+          "chapterId": "chapter-014-be5b74606f",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/neuen-rhein-ischen-zeitung/301.htm",
+          "sourceRawSha256": "38a1326ab58b980aeca45a4f4274e33512aa4528b0d5cd90eb139b1123a2435c",
+          "lineIndex": 9,
+          "text": "中文马克思主义文库 -> 马克思 -> 马克思主编《新莱茵报》中译版",
+          "compactLength": 30,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 37,
+    "candidatesReviewed": 63,
+    "newRepairs": 0,
+    "paragraphsFootnotesTocAndAnnotationsUnchanged": true
+  }
+}

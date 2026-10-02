@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-02",
+  "scope": "三个未判定源页的独立短行核查和插入修复。两条重复句候选指向同一次删除，不重复登记。",
+  "reviews": [
+    {
+      "bookId": "engels-work-f6c74f777f9a",
+      "title": "共产主义者同盟章程",
+      "chapterId": "chapter-001-f6c74f777f",
+      "chapterTitle": "共产主义者同盟章程",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18471208.htm",
+      "sourceRawSha256": "77ae5b82808ce2baa93178250c3a7131f49727778c068b3d35d6ef0f5a0a8702",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18471208.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18471208.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:03:08.167451+00:00",
+        "rawSha256": "77ae5b82808ce2baa93178250c3a7131f49727778c068b3d35d6ef0f5a0a8702",
+        "bytes": 8023
+      },
+      "localBodySha256": "884ccde360e9de62d526d17fe985e6d8aa2bf10a7d40c84c3ffe22fd71bc4069",
+      "scope": "三篇独立DOM短行候选、源页全文及网页原注核验；标题、分项编号与重复强调句插入修复。",
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 17,
+          "text": "第二章支部",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 24,
+          "text": "第三章区部",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 29,
+          "text": "第四章总区部",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 35,
+          "text": "第五章中央委员会",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 39,
+          "text": "第六章一般规定",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 48,
+          "text": "第七章代表大会",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 57,
+          "text": "第八章反盟罪行",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 65,
+          "text": "第九章盟的经费",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 79,
+          "text": "第十章接收盟员",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 3,
+          "text": "第一章同盟",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-2d54f4a92025",
+      "title": "俄国社会民主工党（布）彼得格勒市代表会议文献",
+      "chapterId": "chapter-001-2d54f4a920",
+      "chapterTitle": "俄国社会民主工党（布）彼得格勒市代表会议文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170414.htm",
+      "sourceRawSha256": "8dd4a522a6b6a116883a54f1dc1eb944899e8783de6c66fea90d1e009c96559c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170414.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170414.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:03:10.204267+00:00",
+        "rawSha256": "8dd4a522a6b6a116883a54f1dc1eb944899e8783de6c66fea90d1e009c96559c",
+        "bytes": 33997
+      },
+      "localBodySha256": "ea0c6d8decaac871be8d2d62874192ab3147d7697213cfc6e5e12dc46fe8e46b",
+      "scope": "三篇独立DOM短行候选、源页全文及网页原注核验；标题、分项编号与重复强调句插入修复。",
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 51,
+          "text": "（1）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 53,
+          "text": "（2）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 77,
+          "text": "（1）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 81,
+          "text": "（2）",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    },
+    {
+      "bookId": "mao-work-a64eb0cfb09b",
+      "title": "反对本本主义",
+      "chapterId": "chapter-001-a64eb0cfb0",
+      "chapterTitle": "反对本本主义",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+      "sourceRawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:03:10.819708+00:00",
+        "rawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+        "bytes": 12503
+      },
+      "localBodySha256": "30f8a5fbef560c3ec1250d6513b07942aaa9fba691b3b8c27473de278c187f4e",
+      "scope": "三篇独立DOM短行候选、源页全文及网页原注核验；标题、分项编号与重复强调句插入修复。",
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 6,
+          "text": "要不得！",
+          "status": "fixed_repeated_emphasis"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 7,
+          "text": "要不得！",
+          "status": "fixed_repeated_emphasis"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 28,
+    "idempotent": true
+  }
+}

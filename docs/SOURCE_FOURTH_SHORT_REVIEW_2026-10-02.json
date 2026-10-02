@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-02",
+  "scope": "三篇源页未判定短行候选核查，2处插入修复、1处独立来源行过滤结论。重复句两个上下文候选只登记一次修复。",
+  "reviews": [
+    {
+      "bookId": "engels-work-7f8d39c6b622",
+      "title": "共产主义原理",
+      "chapterId": "chapter-001-7f8d39c6b6",
+      "chapterTitle": "共产主义原理",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1847a.htm",
+      "sourceRawSha256": "91238b459f7ed99391db826ca1da6f97a4f9eb1b62ecea936f7e324b151628df",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1847a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1847a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:27:48.152541+00:00",
+        "rawSha256": "91238b459f7ed99391db826ca1da6f97a4f9eb1b62ecea936f7e324b151628df",
+        "bytes": 26603
+      },
+      "localBodySha256": "db28650c873cbea708b32b2121c05ce1db98ec338d4b7bfe7ed8f3529ad003d8",
+      "scope": "源页正文、版本说明末行、连续重复句及独立来源行DOM核查；网页原注再次核验。",
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 92,
+          "text": "第一卷230-247页输入)",
+          "status": "fixed_plain_edition_line"
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-59a10ec6e66d",
+      "title": "给奥・倍倍尔的信",
+      "chapterId": "chapter-001-59a10ec6e6",
+      "chapterTitle": "给奥·倍倍尔的信",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18750318-28.htm",
+      "sourceRawSha256": "65fff5862c2d52fa37410c9bfa257505efe8a75d558fda2df901545832878cfc",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18750318-28.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18750318-28.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:27:49.499423+00:00",
+        "rawSha256": "65fff5862c2d52fa37410c9bfa257505efe8a75d558fda2df901545832878cfc",
+        "bytes": 17943
+      },
+      "localBodySha256": "89a736d92cc9a21abf20916b502205df100883403c74ba30d9119ff387aa5de9",
+      "scope": "源页正文、版本说明末行、连续重复句及独立来源行DOM核查；网页原注再次核验。",
+      "nativeNoteCount": 12,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 22,
+          "text": "希望您设法夏天到这里来，当然您将住在我这里，如果天气好，我们可以去洗几天海水浴，这对于过了很久牢狱生活的您一定会有很大的好处。",
+          "status": "fixed_repeated_source_paragraph"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 23,
+          "text": "希望您设法夏天到这里来，当然您将住在我这里，如果天气好，我们可以去洗几天海水浴，这对于过了很久牢狱生活的您一定会有很大的好处。",
+          "status": "fixed_repeated_source_paragraph"
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-8fab9f5331e5",
+      "title": "工人联合会",
+      "chapterId": "chapter-001-8fab9f5331",
+      "chapterTitle": "工人联合会",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-184712.htm",
+      "sourceRawSha256": "3324a44c8a3da9e36be7d83c6aefad4d2c85c0bb07d0bb9fc7ba92c83c86f2a7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-184712.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-184712.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:27:50.428286+00:00",
+        "rawSha256": "3324a44c8a3da9e36be7d83c6aefad4d2c85c0bb07d0bb9fc7ba92c83c86f2a7",
+        "bytes": 2811
+      },
+      "localBodySha256": "79b6ac1c261442a5e925dbb772b25681b55f5a178b343bf93e74826c10aea0e6",
+      "scope": "源页正文、版本说明末行、连续重复句及独立来源行DOM核查；网页原注再次核验。",
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 9,
+          "text": "来源：《马克思恩格斯全集》第六卷",
+          "status": "reviewed_standalone_source_credit_filtered",
+          "sourceNodeHtml": "<p align=\"right\">　　来源：《马克思恩格斯全集》第六卷</p>",
+          "reason": "独立来源P，属于既有 source metadata 过滤规则；不含正文或原注，正式正文无缺文。本轮不扩大来源行的导入范围。"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 29,
+    "idempotent": true
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "date": "2026-10-02",
+  "scope": "19条网站致谢／来源行脚注末尾候选，逐页检查原注容器边界；未重新修复已有正文项目。",
+  "repairs": [
+    {
+      "repairId": "source-note-footer:engels-work-39bce5700d8c:_ftn2",
+      "bookId": "engels-work-39bce5700d8c",
+      "chapterId": "chapter-001-39bce5700d",
+      "title": "恩格斯致保尔・恩斯特",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900605.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900605.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900605.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:18.489651+00:00",
+        "rawSha256": "e6a4e82381a977e08227b948240105d5d71939c1a594ac5878a05f96e6643bea",
+        "bytes": 6357
+      },
+      "sourceFooterHtml": "<p align=\"right\"><b>来源</b>：《马克思恩格斯全集》第三十七卷</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\">\n<b>注释：</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 鉴于1890年9月16日《人民呼声报》上发表了恩斯特的文章，他歪曲恩格斯的意见，企图把恩格斯说成和“青年派”（见注353）持有一致的观点，恩格斯写了《答保尔・恩斯特先生》一文（见《马克思恩格斯全集》中文版第22卷第93―99页），其中附了他1890年6月5日给恩斯特的信的一部分。――第409、491页。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 保・恩斯特在1890年5月31日的信中请恩格斯在他同海・巴尔的争论中予以援助，因为海・巴尔在1890年5月28日《现代生活自由论坛》（《Freie　Bühne　fürmodernes　Leben》杂志第17期上发表了一篇针对恩斯特《妇女问题和社会问题》一文（载于1890年5月14日《自由论坛》第15期）的文章《妇女问题。马克思主义的模仿者》。――第409页。<br/>\n</span>",
+      "previousNoteContent": [
+        "保・恩斯特在1890年5月31日的信中请恩格斯在他同海・巴尔的争论中予以援助，因为海・巴尔在1890年5月28日《现代生活自由论坛》（《Freie Bühne fürmodernes Leben》杂志第17期上发表了一篇针对恩斯特《妇女问题和社会问题》一文（载于1890年5月14日《自由论坛》第15期）的文章《妇女问题。马克思主义的模仿者》。――第409页。",
+        "来源：《马克思恩格斯全集》第三十七卷"
+      ],
+      "sourceNoteContent": [
+        "保・恩斯特在1890年5月31日的信中请恩格斯在他同海・巴尔的争论中予以援助，因为海・巴尔在1890年5月28日《现代生活自由论坛》（《Freie Bühne fürmodernes Leben》杂志第17期上发表了一篇针对恩斯特《妇女问题和社会问题》一文（载于1890年5月14日《自由论坛》第15期）的文章《妇女问题。马克思主义的模仿者》。――第409页。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 1,
+          "start": 33,
+          "end": 36
+        }
+      ],
+      "localBodySha256": "60cfc0bc09daa0ecb8314ab7f6e95435444cb944a4132e077ad7b89d7490f52a",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:engels-work-56d180ead4e8:_ftn12",
+      "bookId": "engels-work-56d180ead4e8",
+      "chapterId": "chapter-001-56d180ead4",
+      "title": "法学家的社会主义（弗里德里希・恩格斯、卡尔・考茨基，1886年11月22日前后）",
+      "noteId": "_ftn12",
+      "marker": "[12]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18861122.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18861122.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18861122.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:18.692839+00:00",
+        "rawSha256": "27784313ccad911651b6185ce4b8df07a2101af8a6e1abefe351c1a5e5ff9b68",
+        "bytes": 38880
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 迫敛 录入，佐仓绫奈、闲汉 校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>注释</b>（本文的注释来自《马克思恩格斯全集》中文第2版第28卷）<br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 关于这一点参看<b>弗・恩格斯</b>论《路德维希・费尔巴哈》的文章，载于《新时代》杂志第4年卷第206页：“在职业政治家那里，在公法理论家和私法法学家那里，同经济事实的联系就完全消失了，因为经济事实要以法律的形式获得确认，必须在每一个别场合都采取法律动机的形式，而且，因为在这里，不言而喻地要考虑到现行的整个法的体系，所以，现在法律形式就是一切，而经济内容则什么也不是。公法和私法看做两个独立的领域，它们各有自己的独立的历史发展，它们本身都可以系统地加以说明，并需要通过彻底根除一切内部矛盾来作出这种说明，并要求通过彻底根除一切内部矛盾而达到这种系统化。”――引自恩格斯《路德维希・费尔巴哈和德国古典哲学的终结》<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> <b>安东・门格尔</b>博士《十足劳动收入权的历史探讨》1886年斯图加特科塔出版社版，X.171页。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 神圣罗马帝国皇帝斐迪南一世的格言，原文是“Fiat justitia, pereat mundus”。――编者注<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 马克思《1848年至1850年的法兰西阶级斗争》。参看（马克思恩格斯全集）中文第2版第10卷第165页，――编者注<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 这句话是根据席勒的《信仰的金言》一诗中的诗句改写而成的。――编者注<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 巴・普・安凡丹的这篇文章1831年3月7日匿名发表在《地球报》（巴黎）第66号――编者注<br/>\n<br/><a href=\"#_ftnref7\" name=\"_ftn7\" title=\"\"><sup>[7]</sup></a> 皮・约・蒲鲁东《经济矛盾的体系，或贫困的哲学》1846年巴黎版第1――2卷――编者注<br/>\n<br/><a href=\"#_ftnref8\" name=\"_ftn8\" title=\"\"><sup>[8]</sup></a> 指蒲鲁东于1849年1月31日尝试成立的人民银行。他打算借助这个银行通过和平的途径实现他的“社会主义”，即消灭信贷利息，在生产者获得自己劳动收入的全部等价物的基础上进行没有货币的交换。这个银行在开始正常业务活动之前就于4月初宣告关闭。<br/>　　马克思早在《哲学的贫困》1847年巴黎―布鲁塞尔版第62页脚注中就以约・弗・布雷类似的失败例子警告过蒲鲁东。恩格斯在该书1885年斯图加特德文版中把蒲鲁东1849年交换银行的失败补充进了这一脚注中。<br/>\n<br/><a href=\"#_ftnref9\" name=\"_ftn9\" title=\"\"><sup>[9]</sup></a> 大・李嘉图《政治经济学和赋税原理》1821年伦敦第3版第5章――编者注<br/>\n<br/><a href=\"#_ftnref10\" name=\"_ftn10\" title=\"\"><sup>[10]</sup></a> 指德国资产阶级经济学家路・布伦坦诺指责马克思捏造引文一事。1864年马克思在《国际工人协会成立宣言》中引用了英国财政大臣格莱斯顿1863年4月16日关于预算的演说中的一句话.即英国财富和实力的令人陶醉的增长\"完全限于有产阶级\"（见《马克思恩格斯全集》中文第2版第21卷第8页）。伦敦各家报纸（《泰晤士报》、《晨星报》、《每日电讯》等）在1863年4月17日关于议会会议的报道中差不多全都刊登了格莱斯顿的这句话，而在经过格莱斯顿后来亲自修改过的半官方出版物《汉萨德议会辩论录》中却省略了这句话，布伦坦诺便以此为借口，指责马克思在科学上不诚实，给格莱斯顿增添了这句话。马克思在1872年5月23日和7月28日给《人民国家报》编辑部的两封信中对这种诽谤进行了反驳。<br/>　　马克思去世后，英国资产阶级经济学家塞・泰勒于1883年11月又提出同样的指责。爱琳娜・马克思1884年2月和3月在给《今日》杂志的两封信中，恩格斯189年6月在《资本论》第一卷德文第四版的序言（见《马克思恩格斯全集》中文第2版第4卷）以及1891年在《布伦坦诺反对马克思》一文中，都彻底地揭露了所谓伪造引文的诽谤性言论。<br/>\n<br/><a href=\"#_ftnref11\" name=\"_ftn11\" title=\"\"><sup>[11]</sup></a> 恩格斯在《哲学的贫困》德文第二版（1892年斯图加特版）前言中更正了马克思原书中关于威・汤普森一书出版时间和霍吉斯金名字的错误写法。恩格斯为该书德文第一版所写序言中相应的错误写法在收入德文第二版时也作了订正（见《马克思恩格斯全集》中文第2版第28卷第212页）。<br/>\n<br/><a href=\"#_ftnref12\" name=\"_ftn12\" title=\"\"><sup>[12]</sup></a> 参看恩格斯1886年11月2日和24日给劳拉・拉法格的信，在后一封信中恩格斯将安・门格尔斥为“一心想钻进司法部的庸俗的钻营之徒”。</span>",
+      "previousNoteContent": [
+        "参看恩格斯1886年11月2日和24日给劳拉・拉法格的信，在后一封信中恩格斯将安・门格尔斥为“一心想钻进司法部的庸俗的钻营之徒”。",
+        "感谢 迫敛 录入，佐仓绫奈、闲汉 校对"
+      ],
+      "sourceNoteContent": [
+        "参看恩格斯1886年11月2日和24日给劳拉・拉法格的信，在后一封信中恩格斯将安・门格尔斥为“一心想钻进司法部的庸俗的钻营之徒”。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 97,
+          "start": 146,
+          "end": 150
+        }
+      ],
+      "localBodySha256": "c0d87bdfc75e43cc1a83922f53b402b560a7f071ba5c7952e09fecb73e00480e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:engels-work-6d702f95f801:_ftn8",
+      "bookId": "engels-work-6d702f95f801",
+      "chapterId": "chapter-001-6d702f95f8",
+      "title": "恩格斯致康・施米特",
+      "noteId": "_ftn8",
+      "marker": "[8]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:18.930560+00:00",
+        "rawSha256": "fe2684a552092c94f4564ea9f756b0ee751356d1d043f7917d4b73af783a45d1",
+        "bytes": 15504
+      },
+      "sourceFooterHtml": "<p align=\"right\"><b>来源</b>：《马克思恩格斯全集》第三十七卷</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\">\n<b>注释：</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 恩格斯指1842―1844年自己在曼彻斯特的“欧门―恩格斯”公司所属的纺纱厂实习经商。这几年在恩格斯世界观的形成以及他从唯心主义向唯物主义、从革命民主主义向共产主义的转变方面起了重要的作用。――第286、484页。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 拿破仑法典――这里指资产阶级法体系，即在拿破仑第一统治下于1804―1810年通过的五种法典（民法典、民事诉讼法典、商业法典、刑法典和刑事诉讼法典）。――第383、488页。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 鉴于1890年9月16日《人民呼声报》上发表了恩斯特的文章，他歪曲恩格斯的意见，企图把恩格斯说成和“青年派”（见注353）持有一致的观点，恩格斯写了《答保尔・恩斯特先生》一文（见《马克思恩格斯全集》中文版第22卷第93―99页），其中附了他1890年6月5日给恩斯特的信的一部分。――第409、491页。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 指1688年政变。政变的结果，在英国推翻了斯图亚特王朝并确立了以土地贵族和大资产阶级的妥协为基础的、以奥伦治的威廉为首的君主立宪制（从1689年起）。英国资产阶级历史著作把这次政变称之为“光荣革命”。――第489页。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 自然神论者是一种宗教哲学学说的拥护者。这种学说承认神是世界的无个性的理性的始因，但否认神对自然界和社会生活的干预。在封建教会世界观统治的条件下，自然神论不止一次地从唯理论立场出发，批判中世纪的神学世界观，揭露僧侣的寄生生活和招摇撞骗行为。但是，自然神论者同时又与宗教妥协，主张为人民群众保留具有合理形式的宗教。――第489页。<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 关于工作日那章，见《资本论》第1卷第8章；第24章标题为《所谓原始积累》。――第490页。<br/>\n<br/><a href=\"#_ftnref7\" name=\"_ftn7\" title=\"\"><sup>[7]</sup></a> 大概是指1890年10月10日《工人报》第41期“在国外。德国”栏内的通讯，注明“10月7日于柏林”。――第492页。<br/>\n<br/><a href=\"#_ftnref8\" name=\"_ftn8\" title=\"\"><sup>[8]</sup></a> 指1890年9月27日《柏林人民论坛》第39期发表了恩格斯1890年8月5日给施米特的信的一部分（见本卷第432页）。――第492页。<br/>\n</span>",
+      "previousNoteContent": [
+        "指1890年9月27日《柏林人民论坛》第39期发表了恩格斯1890年8月5日给施米特的信的一部分（见本卷第432页）。――第492页。",
+        "来源：《马克思恩格斯全集》第三十七卷"
+      ],
+      "sourceNoteContent": [
+        "指1890年9月27日《柏林人民论坛》第39期发表了恩格斯1890年8月5日给施米特的信的一部分（见本卷第432页）。――第492页。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 16,
+          "start": 13,
+          "end": 16
+        }
+      ],
+      "localBodySha256": "c45ee72683fec56dfc76a8183a9aa8f234adee3137540066dd7f5f8a201896d0",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:engels-work-8aca82dd32d4:_ftn3",
+      "bookId": "engels-work-8aca82dd32d4",
+      "chapterId": "chapter-001-8aca82dd32",
+      "title": "恩格斯致玛格丽特・哈克奈斯",
+      "noteId": "_ftn3",
+      "marker": "[3]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-188804.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-188804.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-188804.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:18.662355+00:00",
+        "rawSha256": "2ac468a34e258e8afcc62e22dcbc65aaade918cafd419ef786e42b6c20ce4db7",
+        "bytes": 6234
+      },
+      "sourceFooterHtml": "<p align=\"right\"><b>来源</b>：《马克思恩格斯全集》第三十七卷</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\">\n<b>注释：</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 救世军是反动的宗教慈善组织，1865年由传教士威・布斯在英国创立，后来它的活动又扩展到其他国家（1880年按军队编制改组后才采用这个名称）。该组织利用资产阶级的大力支持，进行广泛的宗教宣传，建立了一整套慈善机构，其目的是使劳动群众离开反对剥削者的斗争。救世军的传教士进行社会性的蛊惑宣传，表面上谴责富人的利己主义。――第40页。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 正统派是法国于1792年被推翻的、代表世袭大地主利益的波旁王朝长系的拥护者。在1830年，该王朝第二次被颠覆以后，正统派就结成了政党。――第42、278页。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 恩格斯这里指的是1832年6月5―6日的巴黎起义，参加起义准备工作的有共和党左翼和一些秘密革命团体；反对路易-菲力浦政府的拉马克将军的出殡是起义的导火线。参加起义的工人构筑了街垒，异常英勇顽强地进行了保卫战。有一个街垒构筑在圣玛丽修道院原来所在的圣马丁街。这个街垒是最后陷落的街垒之一。巴尔扎克在长篇小说《失去的幻想》和中篇小说《卡金尼扬公爵夫人的秘密》中描绘了“在圣玛丽修道院墙下阵亡”的共和党人米歇尔・克雷田。巴尔扎克称他为“能够改变社会面貌的伟大的政治家”。――第42、262页。<br/>\n</span>",
+      "previousNoteContent": [
+        "恩格斯这里指的是1832年6月5―6日的巴黎起义，参加起义准备工作的有共和党左翼和一些秘密革命团体；反对路易-菲力浦政府的拉马克将军的出殡是起义的导火线。参加起义的工人构筑了街垒，异常英勇顽强地进行了保卫战。有一个街垒构筑在圣玛丽修道院原来所在的圣马丁街。这个街垒是最后陷落的街垒之一。巴尔扎克在长篇小说《失去的幻想》和中篇小说《卡金尼扬公爵夫人的秘密》中描绘了“在圣玛丽修道院墙下阵亡”的共和党人米歇尔・克雷田。巴尔扎克称他为“能够改变社会面貌的伟大的政治家”。――第42、262页。",
+        "来源：《马克思恩格斯全集》第三十七卷"
+      ],
+      "sourceNoteContent": [
+        "恩格斯这里指的是1832年6月5―6日的巴黎起义，参加起义准备工作的有共和党左翼和一些秘密革命团体；反对路易-菲力浦政府的拉马克将军的出殡是起义的导火线。参加起义的工人构筑了街垒，异常英勇顽强地进行了保卫战。有一个街垒构筑在圣玛丽修道院原来所在的圣马丁街。这个街垒是最后陷落的街垒之一。巴尔扎克在长篇小说《失去的幻想》和中篇小说《卡金尼扬公爵夫人的秘密》中描绘了“在圣玛丽修道院墙下阵亡”的共和党人米歇尔・克雷田。巴尔扎克称他为“能够改变社会面貌的伟大的政治家”。――第42、262页。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 5,
+          "start": 698,
+          "end": 701
+        }
+      ],
+      "localBodySha256": "ddebc32f68b5c6b1f04fdb625afd3234f28e56cdaa108831b57f02ca3b88823e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:engels-work-e0f12c6be464:_ftn2",
+      "bookId": "engels-work-e0f12c6be464",
+      "chapterId": "chapter-001-e0f12c6be4",
+      "title": "恩格斯致约・布洛赫",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-9-21.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:19.206893+00:00",
+        "rawSha256": "b8da2c2a85f2cfec0a2141c3d9e478f96023c187ed09272b9f985272bfeef4e9",
+        "bytes": 7615
+      },
+      "sourceFooterHtml": "<p align=\"right\"><b>来源</b>：《马克思恩格斯全集》第三十七卷</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\">\n<b>注释：</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 约瑟夫·布洛赫在1890年9月3日的信中向恩格斯提出如下两个问题：1.为什么甚至在血缘家庭绝迹之后，在希腊人那里兄弟姐妹之间的婚姻并没有成为非法的；2.根据唯物史观，经济关系是唯一的决定性因素呢，还是只在一定程度上是其他所有关系的坚实基础，而其他关系本身也还是能发生作用的。——第459页。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 见《马克思恩格斯全集》中文版第21卷第49—50页。——第459页。<br/>\n</span>",
+      "previousNoteContent": [
+        "见《马克思恩格斯全集》中文版第21卷第49—50页。——第459页。",
+        "来源：《马克思恩格斯全集》第三十七卷"
+      ],
+      "sourceNoteContent": [
+        "见《马克思恩格斯全集》中文版第21卷第49—50页。——第459页。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 2,
+          "start": 21,
+          "end": 24
+        }
+      ],
+      "localBodySha256": "8f8370df824ef4bbcff827f2e6dea9229dc609eb73a957d3fac77cb1f952ae1c",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:mao-work-4c3a641bbbf3:_ftn13",
+      "bookId": "mao-work-4c3a641bbbf3",
+      "chapterId": "chapter-001-4c3a641bbb",
+      "title": "在武昌会议上的讲话（1958年11月于洪山）",
+      "noteId": "_ftn13",
+      "marker": "[13]",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-195811.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-195811.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-195811.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:19.781037+00:00",
+        "rawSha256": "9e723a817b7a0625d8e6be902c05624b2e59eef3d308ec2ecbd69dbb5e4136b9",
+        "bytes": 37309
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 骨质增生的GM 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>注释</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 刘少奇，时任中共中央副主席、全国人大常委会委员长。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 彭真，当时任中共中央政治局委员、中央书记处书记、北京市委第一书记兼北京市市长。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> “章罗同盟”即“以章伯钧、罗隆基为主要代表的中国民主同盟”的简称。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 见本卷《在北戴河政治局扩大会议上的讲话》注释[5]。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 见本卷《在北戴河政治局扩大会议上的讲话》注释[6]。<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 张霖之（1908—1967），原名张朝明，河北南宫人。时任煤炭工业部部长和党组书记。<br/>\n<br/><a href=\"#_ftnref7\" name=\"_ftn7\" title=\"\"><sup>[7]</sup></a> 李葆华（1909—2005），时任水利电力部副部长。<br/>\n<br/><a href=\"#_ftnref8\" name=\"_ftn8\" title=\"\"><sup>[8]</sup></a> 陈漫远（1911-1986），又名陈万源，广西蒙山人。1956.06～1957.06任广西省委书记，时在中央高级党校学习。<br/>\n<br/><a href=\"#_ftnref9\" name=\"_ftn9\" title=\"\"><sup>[9]</sup></a> 刘澜涛（1910年11月—1997年12月31日），陕西米脂人。时任中共中央书记处候补书记、中共中央监察委员会常委。<br/>\n<br/><a href=\"#_ftnref10\" name=\"_ftn10\" title=\"\"><sup>[10]</sup></a> 吕正操（1904年1月4日—2009年10月13日），原名吕正超，字必之。奉天省（今辽宁省）海城县（今海城市）人。时任铁道部代部长。<br/>\n<br/><a href=\"#_ftnref11\" name=\"_ftn11\" title=\"\"><sup>[11]</sup></a> 江渭清（1910—2000），湖南省平江县人，1929年加入中国共产党，1954年任江苏省委书记、中共中央上海局委员。1956年起，任江苏省委第一书记兼江苏军区第一政委，南京军区第三政委、代理第一政委，中共中央上海局书记。1959年任江苏省政协主席。1961年任中共中央华东局书记处书记。<br/>\n<br/><a href=\"#_ftnref12\" name=\"_ftn12\" title=\"\"><sup>[12]</sup></a> 王任重，时任中共湖北省委第一书记。<br/>\n<br/><a href=\"#_ftnref13\" name=\"_ftn13\" title=\"\"><sup>[13]</sup></a> 曾希圣，时任中共安徽省委第一书记。</span>",
+      "previousNoteContent": [
+        "曾希圣，时任中共安徽省委第一书记。",
+        "感谢 骨质增生的GM 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "曾希圣，时任中共安徽省委第一书记。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 36,
+          "start": 139,
+          "end": 143
+        }
+      ],
+      "localBodySha256": "ea1502e2d64de1a3f042530dc26b0e13b12c24d7e5a50317f54b577a03102311",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:marx-work-295f93ee8d22:_ftn4",
+      "bookId": "marx-work-295f93ee8d22",
+      "chapterId": "chapter-001-295f93ee8d",
+      "title": "马克思致莫里斯・拉沙特尔（1872年1月30日）",
+      "noteId": "_ftn4",
+      "marker": "[4]",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18720130.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18720130.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18720130.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:19.579927+00:00",
+        "rawSha256": "681f64857d0d8d8a954b628243aaebd2b0d084b9628fc8980c9678d99d9bfc2e",
+        "bytes": 3664
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 先知在1917 收集、录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>译者注</b>：<br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 莫里斯・拉沙特尔（Maurice Lachatre，1814-1900），法国进步的新闻记者，巴黎公社的参加者，马克思《资本论》第一卷法文版的出版者。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 保尔・拉法格（Paul Lafargue，1842-1911），法国工人运动和国际工人运动的著名活动家，杰出的马克思主义宣传家和政论家，国际总委员会委员；法国工人党的创始人之一；马克思和恩格斯的学生和战友；马克思的女儿劳拉的丈夫。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 约瑟夫・鲁瓦（Joseph Roy，1830-1916），马克思《资本论》第一卷的法文译者。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 马克思1872年3月18日给拉沙特尔写了这封信。他在信中还写道：“在科学上没有平坦的大道，只有不畏劳苦沿着陡峭山路攀登的人，才有希望达到光辉的顶点。”（见《马克思恩格斯全集》中文第2版第43卷第13页）</span>",
+      "previousNoteContent": [
+        "马克思1872年3月18日给拉沙特尔写了这封信。他在信中还写道：“在科学上没有平坦的大道，只有不畏劳苦沿着陡峭山路攀登的人，才有希望达到光辉的顶点。”（见《马克思恩格斯全集》中文第2版第43卷第13页）",
+        "感谢 先知在1917 收集、录入及校对"
+      ],
+      "sourceNoteContent": [
+        "马克思1872年3月18日给拉沙特尔写了这封信。他在信中还写道：“在科学上没有平坦的大道，只有不畏劳苦沿着陡峭山路攀登的人，才有希望达到光辉的顶点。”（见《马克思恩格斯全集》中文第2版第43卷第13页）"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 9,
+          "start": 86,
+          "end": 89
+        }
+      ],
+      "localBodySha256": "691b2398f257914039e4f9db938a3d9801f1ee587d16888cde4190c0813ae3b3",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:marx-work-55f8a9696af7:_ftn6",
+      "bookId": "marx-work-55f8a9696af7",
+      "chapterId": "chapter-001-55f8a9696a",
+      "title": "1844年经济学哲学手稿 （1844年5―8月）",
+      "noteId": "_ftn6",
+      "marker": "[6]",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:20.379295+00:00",
+        "rawSha256": "5745fa3b4a7ada20685f2197add8145af5fa71f2ec5de445005a164193431984",
+        "bytes": 186154
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 金希灵  录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>附注</b><br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 见爱好夸张的老年黑格尔派神学家丰克的著作，他满眼含泪，按照莱奥先生的说法讲述了在废除农奴制时一个奴隶如何不肯不再充当贵族的财产。并见尤斯图斯·莫泽尔的《爱国主义的幻想》，这些幻想的特色是它们一刻也没有超出循规蹈矩的庸人的那种小市民的、“家传的”、平庸的狭隘眼界；虽然如此，它们仍不失为纯粹的幻想。这个矛盾也使这些幻想如此投合德国人的口味。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 卖淫不过是工人普遍卖的一个特殊表现而已，因为这种卖淫是一种不仅包括卖淫者，而且包括逼人卖淫的关系，而且后者的下流无耻远为严重，所以，资本家等等，也包括到卖淫这一范畴中。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 因此，正像人的本质规定和活动是多种多样的一样，人的现实也是多种多样的。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 只有当物按人的方式同人发生关系时，我才能在实践上按人的方式同物发生关系。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 马克思在这里加了一句话：“费尔巴哈把否定的否定、具体概念看做在思维中超越自身的和作为思维而想直接成为直观、自然界、现实的思维。”——编者注<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 这就是说，黑格尔用那在自身内部绕圈的抽象行动来代替这些僵化的抽象概念；于是，他就有了这样的贡献：他指明了原来属于各个哲学家的一切不适当的概念的诞生地，把他们综合起来，并且创造出一个在自己整个范围内穷尽一切的抽象作为批判的对象，以代替某种特定的抽象。（我们在下面将会看到，黑格尔为什么把思维同主体分隔开来；但就是现在也已经很清楚：如果没有人，那末人的本质表现也不可能是人的，因此思维也不能被看作是人的本质表现，即在社会、世界和自然界生活的有眼睛、耳朵等等的人和自然的主体的本质表现。）</span>",
+      "previousNoteContent": [
+        "这就是说，黑格尔用那在自身内部绕圈的抽象行动来代替这些僵化的抽象概念；于是，他就有了这样的贡献：他指明了原来属于各个哲学家的一切不适当的概念的诞生地，把他们综合起来，并且创造出一个在自己整个范围内穷尽一切的抽象作为批判的对象，以代替某种特定的抽象。（我们在下面将会看到，黑格尔为什么把思维同主体分隔开来；但就是现在也已经很清楚：如果没有人，那末人的本质表现也不可能是人的，因此思维也不能被看作是人的本质表现，即在社会、世界和自然界生活的有眼睛、耳朵等等的人和自然的主体的本质表现。）",
+        "感谢 金希灵 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "这就是说，黑格尔用那在自身内部绕圈的抽象行动来代替这些僵化的抽象概念；于是，他就有了这样的贡献：他指明了原来属于各个哲学家的一切不适当的概念的诞生地，把他们综合起来，并且创造出一个在自己整个范围内穷尽一切的抽象作为批判的对象，以代替某种特定的抽象。（我们在下面将会看到，黑格尔为什么把思维同主体分隔开来；但就是现在也已经很清楚：如果没有人，那末人的本质表现也不可能是人的，因此思维也不能被看作是人的本质表现，即在社会、世界和自然界生活的有眼睛、耳朵等等的人和自然的主体的本质表现。）"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 603,
+          "start": 246,
+          "end": 249
+        }
+      ],
+      "localBodySha256": "ad642351be6a7aeec600e438f2e3ab04903dba63b452267e7eed04644f1fd9d4",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:marx-work-e697f05cdfe4:_ftn2",
+      "bookId": "marx-work-e697f05cdfe4",
+      "chapterId": "chapter-001-e697f05cdf",
+      "title": "马克思致昂利・奥里奥尔（1876年5月4日）",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18760504.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18760504.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18760504.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:20.455895+00:00",
+        "rawSha256": "c362fd9dd0c9b1be8f32db5238ed62c8dd46fc8cde01872294b0bbc9aa567c2f",
+        "bytes": 1867
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 先知在1917 收集、录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>译者注</b>：<br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 昂利・奥里奥尔（Henri Oriol），巴黎莫里斯・拉沙特尔图书出版社的职员，八十年代初为出版社所有者。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 卡尔・希尔施（Karl Hirsch，1841-1900），德国新闻工作者，全德工人联合会会员和国际会员，社会民主工党创始人之一。</span>",
+      "previousNoteContent": [
+        "卡尔・希尔施（Karl Hirsch，1841-1900），德国新闻工作者，全德工人联合会会员和国际会员，社会民主工党创始人之一。",
+        "感谢 先知在1917 收集、录入及校对"
+      ],
+      "sourceNoteContent": [
+        "卡尔・希尔施（Karl Hirsch，1841-1900），德国新闻工作者，全德工人联合会会员和国际会员，社会民主工党创始人之一。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 4,
+          "start": 24,
+          "end": 27
+        }
+      ],
+      "localBodySha256": "13ca3da77d0a5560a125bd346b297343fec75816e9466129605551ebc639141d",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:marx-work-f1ad8c166622:_ftn3",
+      "bookId": "marx-work-f1ad8c166622",
+      "chapterId": "chapter-001-f1ad8c1666",
+      "title": "马克思致莫里斯・拉沙特尔（1875年9月27日）",
+      "noteId": "_ftn3",
+      "marker": "[3]",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18750927.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18750927.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18750927.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:20.805757+00:00",
+        "rawSha256": "e8ca656838d7ae0e440efa427c043371f3c78f8de4415cdb924a205b7a10aedb",
+        "bytes": 3114
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 先知在1917 收集、录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>译者注</b>：<br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 阿道夫・凯（Adolphe Quêst），巴黎莫里斯・拉沙特尔图书出版社的法定管理人，曾阻挠《资本论》在法国出版。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 信中提及的1872年10月4日的《公报》为《法兰西共和国公报》，摘引自该《公报》一段话中的着重号是马克思自己加的。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 莫里斯・布洛克（Maurice Block, 1816-1900），法国统计学家和经济学家。</span>",
+      "previousNoteContent": [
+        "莫里斯・布洛克（Maurice Block, 1816-1900），法国统计学家和经济学家。",
+        "感谢 先知在1917 收集、录入及校对"
+      ],
+      "sourceNoteContent": [
+        "莫里斯・布洛克（Maurice Block, 1816-1900），法国统计学家和经济学家。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 5,
+          "start": 22,
+          "end": 25
+        }
+      ],
+      "localBodySha256": "f651f0dbbab581419f824898770b8df422cc4564524e7edad92a1754cf89e64e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:marx-work-f214bdfe3e5c:_ftn5",
+      "bookId": "marx-work-f214bdfe3e5c",
+      "chapterId": "chapter-001-f214bdfe3e",
+      "title": "马克思致莫里斯・拉沙特尔（1872年11月14日）",
+      "noteId": "_ftn5",
+      "marker": "[5]",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18721114.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18721114.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-letter-18721114.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:20.818361+00:00",
+        "rawSha256": "30cae2fe1503679a23cad9ac788779c04cbc495c768e56b72cbe6b4f0c64acfc",
+        "bytes": 3450
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 先知在1917 收集、录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><b>译者注</b>：<br/>\n<br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 路易・拉羽尔（Louis Lahure, 约1850-1878），印刷《资本论》第一卷法文版的巴黎印刷厂主。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 拿破仑涅・拉塞西利亚（Napoleone La Cécilla，1835-1878），法国革命家（意大利人）；国际巴黎组织的成员，巴黎公社的将军，公社被镇压后流亡英国；曾同马克思和恩格斯保持联系。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 沙尔・龙格（Charles Longuet，1839-1903），法国工人运动活动家，职业是新闻工作者；蒲鲁东主义者，后为可能派，国际总委员会委员和巴黎公社委员；马克思的女儿燕妮的丈夫。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 勒谢瓦利埃（André-Louis-Jules Lechevalier，1800-1871），法国经济学家与新闻工作者，傅立叶的追随者。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 劳拉・拉法格（Laura Lafargue，父姓马克思Marx，1845-1911），法国工人运动的代表；曾把马克思和恩格斯的许多著作译成法文；马克思的第二个女儿，保尔・拉法格的妻子。</span>",
+      "previousNoteContent": [
+        "劳拉・拉法格（Laura Lafargue，父姓马克思Marx，1845-1911），法国工人运动的代表；曾把马克思和恩格斯的许多著作译成法文；马克思的第二个女儿，保尔・拉法格的妻子。",
+        "感谢 先知在1917 收集、录入及校对"
+      ],
+      "sourceNoteContent": [
+        "劳拉・拉法格（Laura Lafargue，父姓马克思Marx，1845-1911），法国工人运动的代表；曾把马克思和恩格斯的许多著作译成法文；马克思的第二个女儿，保尔・拉法格的妻子。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 8,
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "localBodySha256": "f42fe21a1d884e42fed612461a39e3aeda8839a0cc76bea85982a27848d6f7f1",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-28286a3a613e:_ftn4",
+      "bookId": "stalin-work-28286a3a613e",
+      "chapterId": "chapter-001-28286a3a61",
+      "title": "社会民主党怎样理解民族问题？（1904年9月1日）",
+      "noteId": "_ftn4",
+      "marker": "[4]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19040901.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19040901.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19040901.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:21.349600+00:00",
+        "rawSha256": "1997173c8d6d21ac82de9be74e4d97a085cf291d671bddee43cbd91001c73b22",
+        "bytes": 28336
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 《格鲁吉亚报》是侨居外国的一批格鲁吉亚民族主义者办的报纸，这批人成了资产阶级民族主义的社会联邦主义党的核心，该报于1903年至1905年在巴黎用格鲁吉亚文和法文印行。<br/>\r\n　　格鲁吉亚联邦主义党于1904年4月在日内瓦成立，参加该党的，除“格鲁吉亚报派”外，还有无政府主义者、社会革命党人、民族民主主义者。联邦主义者的基本要求是格鲁吉亚在俄国地主资产阶级国家的版图内实行民族自治。在反动时期他们变成革命的公开敌人。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 《阿尔明尼亚社会民主工人组织》是阿尔明尼亚民族联邦主义分子在俄国社会民主工党第二次代表大会以后不久建立的。列宁指出，这个组织和崩得有密切关系。列宁在1906年9月7日（新历）致中央委员会委员的信中写道：“这无非是专为滋养高加索崩得主义而制造出来的崩得的走狗……高加索的同志们都反对这伙捣乱的文人。”（见《列宁文集》第5卷第493页）<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 崩得见列宁《关于民族问题的批评意见》一文注释6。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 这里所指的党委员会，于1903年3月在梯弗里斯举行的高加索社会民主工人组织第一次代表大会上统一成为俄国社会民主工党高加索联盟。出席这次代表大会的有梯弗里斯、巴库、巴土姆、库素依斯、吉里亚及其他地方组织的代表。代表大会赞同列宁《火星报》的政治路线，接受《火星报》和《曙光》杂志的纲领草案为指南，制定并批准了联盟的专门章程。高加索联盟第一次代表大会为高加索社会民主主义组织的国际性结构奠定了基础。代表大会建立了党的领导机关，即俄国社会民主工党高加索联盟委员会，当时被监禁在巴土姆监狱中的斯大林缺席当选为该委员会的委员。1904年初，斯大林逃出流放地回到梯弗里斯后，即行领导俄国社会民主工党高加索联盟委员会。</span>",
+      "previousNoteContent": [
+        "这里所指的党委员会，于1903年3月在梯弗里斯举行的高加索社会民主工人组织第一次代表大会上统一成为俄国社会民主工党高加索联盟。出席这次代表大会的有梯弗里斯、巴库、巴土姆、库素依斯、吉里亚及其他地方组织的代表。代表大会赞同列宁《火星报》的政治路线，接受《火星报》和《曙光》杂志的纲领草案为指南，制定并批准了联盟的专门章程。高加索联盟第一次代表大会为高加索社会民主主义组织的国际性结构奠定了基础。代表大会建立了党的领导机关，即俄国社会民主工党高加索联盟委员会，当时被监禁在巴土姆监狱中的斯大林缺席当选为该委员会的委员。1904年初，斯大林逃出流放地回到梯弗里斯后，即行领导俄国社会民主工党高加索联盟委员会。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "这里所指的党委员会，于1903年3月在梯弗里斯举行的高加索社会民主工人组织第一次代表大会上统一成为俄国社会民主工党高加索联盟。出席这次代表大会的有梯弗里斯、巴库、巴土姆、库素依斯、吉里亚及其他地方组织的代表。代表大会赞同列宁《火星报》的政治路线，接受《火星报》和《曙光》杂志的纲领草案为指南，制定并批准了联盟的专门章程。高加索联盟第一次代表大会为高加索社会民主主义组织的国际性结构奠定了基础。代表大会建立了党的领导机关，即俄国社会民主工党高加索联盟委员会，当时被监禁在巴土姆监狱中的斯大林缺席当选为该委员会的委员。1904年初，斯大林逃出流放地回到梯弗里斯后，即行领导俄国社会民主工党高加索联盟委员会。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 30,
+          "start": 1116,
+          "end": 1119
+        }
+      ],
+      "localBodySha256": "d63e237276a44d549786d4524a4bd912dca1282fb1b443ed83e5ca277d1197da",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-333028d926fa:_ftn2",
+      "bookId": "stalin-work-333028d926fa",
+      "chapterId": "chapter-001-333028d926",
+      "title": "不要忘记东方（1918年11月24日）",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19181124.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19181124.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19181124.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:21.843851+00:00",
+        "rawSha256": "d6cd98f833b7a7027e37be3d1a02606b61e5959495b56a195f71c266f8f62cbf",
+        "bytes": 3884
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 注：“纠纷的苹果”是希腊神话中的故事。赫拉、阿芙罗狄蒂、雅典娜三个女神拿了一个金苹果，请牧童帕里斯评判：她们中间谁最美丽，就把苹果给谁。牧童把苹果给了阿芙罗狄蒂。结果纠纷迭起，特洛伊战争亦由此发生。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 注：指1918年11月在莫斯科举行的穆斯林共产党员第一次代表大会。代表大会选出了俄共（布）穆斯林民族共产党组织中央常务局。</span>",
+      "previousNoteContent": [
+        "注：指1918年11月在莫斯科举行的穆斯林共产党员第一次代表大会。代表大会选出了俄共（布）穆斯林民族共产党组织中央常务局。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "注：指1918年11月在莫斯科举行的穆斯林共产党员第一次代表大会。代表大会选出了俄共（布）穆斯林民族共产党组织中央常务局。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 12,
+          "start": 25,
+          "end": 28
+        }
+      ],
+      "localBodySha256": "d26de9475de72808c7a89c7b17a44cc233faa3db5110a716f574c4a0b302def7",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-336c3f8c18c4:_ftn1",
+      "bookId": "stalin-work-336c3f8c18c4",
+      "chapterId": "chapter-001-336c3f8c18",
+      "title": "无产阶级和无产阶级政党（论党章第一条）（1905年1月1日）",
+      "noteId": "_ftn1",
+      "marker": "[1]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050101.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050101.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050101.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:21.878400+00:00",
+        "rawSha256": "913d2890b0b845f91b1bb77b04ce7571d6052e34fc76bfe32eaa4d31c1094eba",
+        "bytes": 12413
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 注：教权主义是一种反动的政治思潮，主张以宗教神学理论为基础，由教会统治社会的政治和文化生活。</span>",
+      "previousNoteContent": [
+        "注：教权主义是一种反动的政治思潮，主张以宗教神学理论为基础，由教会统治社会的政治和文化生活。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "注：教权主义是一种反动的政治思潮，主张以宗教神学理论为基础，由教会统治社会的政治和文化生活。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 22,
+          "start": 123,
+          "end": 126
+        }
+      ],
+      "localBodySha256": "59da3d891520edabd70654f3113073a76faada354ca0ba56ab59554b7d7e9812",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-6297de2a83e4:_ftn13",
+      "bookId": "stalin-work-6297de2a83e4",
+      "chapterId": "chapter-001-6297de2a83",
+      "title": "略论党内意见分歧（1905年5月）",
+      "noteId": "_ftn13",
+      "marker": "[13]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190505.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190505.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190505.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:22.718214+00:00",
+        "rawSha256": "528372613294fc2ae655c957405dc60dd0f735c243ab064c12d3fdbc45ce1141",
+        "bytes": 54241
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 《略论党内意见分歧》这本小册子是斯大林于1905年4月底写成的。它是对格鲁吉亚孟什维克领袖诺・尼・饶尔丹尼亚的几篇论文（在《社会民主党人报》上发表的《多数派还是少数派？》和在《旅行家》杂志上发表的《什么是党？》等等）的答复。布尔什维克中央国外局很快就知道了《略论党内意见分歧》出版的消息，1905年7月18日，国外局秘书娜・康・克鲁普斯卡娅写信给俄国社会民主工党高加索联合会委员会索取这本小册子。这本小册子在南高加索各布尔什维克组织中传播得很广泛，先进工人们根据这本小册子认识了党内的意见分歧，认识了列宁和布尔什维克的立场。这本小册子是在俄国社会民主工党高加索联合会秘密印刷所（阿弗拉巴尔印刷所）用几种文字（1905年5月用格鲁吉亚文，同年6月用俄文和亚美尼亚文）印刷的，每种文字印了一千五百册至二千册。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 注：俄国社会民主工党第二次代表大会　于1903年7月17日―8月10日（公历7月30日―8月23日）先后在布鲁塞尔和伦敦举行。大会的主要任务是根据《火星报》提出的思想原则和组织原则建立真正的政党。列宁在大会上为在俄国建立革命的无产阶级政党进行了斗争，并取得了胜利。在讨论党纲时，列宁坚决主张在党纲中肯定马克思主义关于无产阶级专政的根本原则，着重指出农民的革命斗争的重大意义，并坚持把民族自决权列入党纲，维护了无产阶级国际主义的原则。大会通过了《火星报》提出的工人阶级政党的革命纲领。在讨论党章，特别是关于党员资格的第一条条文时，列宁及其拥护者同尔・马尔托夫等人展开了激烈的斗争。大会通过了列宁拟订的党章，但关于党章第一条，却以一票弃权，二十八票对二十二票的多数通过了马尔托夫的条文。在选举中央机关时，拥护列宁的人获得多数票，反对列宁的人获得少数票。从这时起，前者被称为布尔什维克，后者被称为孟什维克。关于俄国社会民主工党第二次代表大会。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 注：俄国社会民主工党第一次代表大会于1898年3月1―3日（公历13―15日）在明斯克秘密举行。出席大会的有六个组织的九名代表：彼得堡、莫斯科、基辅和叶卡特林诺斯拉夫的工人阶级解放斗争协会的代表各一名，基辅《工人报》小组的代表两名和崩得的代表三名。列宁因被流放西伯利亚未能出席。大会选举了中央委员会，批准了《工人报》为党的正式机关报。中央委员会以大会名义发表了《俄国社会民主工党宣言》，宣告俄国社会民主工党的成立。但实际上俄国马克思主义的社会民主党并没有建立起来，因为这次大会既没有制定出党纲和党章，也没有形成中央的统一领导，各个马克思主义小组和团体之间几乎没有任何联系。大会闭幕后不久，中央委员们就被捕了，因此中央委员会也没能开展工作。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 注：《火星报》（《Искр》）是第一个全俄马克思主义的秘密报纸，由列宁创办。创刊号于1900年12月在莱比锡出版，以后在慕尼黑、伦敦出版，自1903年春起在日内瓦出版。参加《火星报》编辑部的有：列宁、格・瓦・普列汉诺夫、尔・马尔托夫、亚・尼・波特列索夫、巴・波・阿克雪里罗得和维・伊・查苏利奇。自1901年4月起，娜・康・克鲁普斯卡娅任编辑部的秘书。列宁实际上是《火星报》的主编和领导者。1900―1903年列宁在《火星报》上发表了五十多篇论文，阐述了有关党的建设和俄国无产阶级的阶级斗争的基本问题，并对国际生活中的重大事件作了评论。《火星报》从国外秘密运进俄国散发，其中一部分曾由国内秘密印刷所翻印。《火星报》在俄国国内有代办员网，代办员在俄国传播《火星报》思想和建立火星派组织。《火星报》在建立俄国工人阶级革命的马克思主义政党方面起了重大作用，俄国社会民主工党第二次代表大会承认它为党的中央机关报。《火星报》在1903年10月出版第五十一号后，被普列汉诺夫支持下的一些孟什维克分子所篡夺。列宁于1903年11月1日退出了编辑部。从第五十二号起，《火星报》成了孟什维克的机关报。因此，人们把五十一号以前的《火星报》称作旧《火星报》，以后的称作新《火星报》。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 作者注：我们的《社会民主党人报》*燃起了“批评”的热情（见创刊号《多数派还是少数派？》一文），不过我应该指出，它对“经济派”和“工人事业派”（他们彼此的区别不大）估计得不正确。问题并不在于他们“蔑视政治问题”，而在于他们做运动的尾巴和只是重复运动所提示给他们的东西。过去有一个时期仅仅举行罢工。那时他们宣传的是经济斗争。到了游行示威的时期（1901年），发生了流血事件，产生了失望情绪，于是工人就采用恐怖手段，以为这能拯救他们，使他们不受暴君的统治。这时“经济派―工人事业派”也加入总的合唱队并且神气十足地宣称：现在应该采取恐怖手段，袭击监狱，释放狱中同志等等了（见《工人事业》杂志*《历史性的转变》一文）。可见这决不能说他们是“蔑视政治问题”的。该文作者是借用马尔丁诺夫的话来进行“批评”的，但如果他去了解一下历史事实，那就比较有益了。）<br/>\r\n　　*《社会民主党人报》是高加索孟什维克的秘密报纸，由格鲁吉亚孟什维克领袖诺・尼・饶尔丹尼亚领导，于1905年4月20日―11月26日在梯弗利斯用格鲁吉亚文出版，共出了六号。《社会民主党人报》创刊号是作为“俄国社会民主工党梯弗利斯委员会机关报”出版的，后来该报自称“高加索社会民主工人组织机关报”。<br/>\r\n　　*《工人事业》（《Рaбочее　Дело》）是俄国社会民主党人国外联合会的不定期机关刊物。主要编辑是经济派著名领袖弗・巴・伊万申、波・纳・克里切夫斯基、亚・萨・马尔丁诺夫等人。1899年4月―1902年2月在日内瓦出版，共出了十二期（九册）。<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 注：指列宁所写的《我们运动的迫切任务》一文。<br/>\n<br/><a href=\"#_ftnref7\" name=\"_ftn7\" title=\"\"><sup>[7]</sup></a> 作者注：当时《火星报》编辑部由普列汉诺夫、阿克雪里罗得、查苏利奇、马尔托夫、斯塔罗维尔*和列宁六人组成。<br/>\r\n　　*斯塔罗维尔是坡特列索夫的笔名。<br/>\n<br/><a href=\"#_ftnref8\" name=\"_ftn8\" title=\"\"><sup>[8]</sup></a> 注：《新时代》（《DieNeueZeit》）是德国社会民主党的理论杂志。1883―1923年在斯图加特出版。1890年10月前为月刊，后改为周刊。1917年10月以前编辑为卡・考茨基，以后为亨・库诺。1885―1894年该杂志发表了马克思的《哥达纲领批判》和恩格斯的许多文章。恩格斯经常关心和帮助杂志编辑部的工作，并且不时地对它背离马克思主义的观点提出批评。1895年恩格斯逝世后，《新时代》开始系统地刊登修正主义者的文章。第一次世界大战期间，该杂志采取中派主义立场，实际上支持社会沙文主义者。<br/>\n<br/><a href=\"#_ftnref9\" name=\"_ftn9\" title=\"\"><sup>[9]</sup></a> 注：《旅行家》是一种格鲁吉亚文的历史－考古学和地理－民族学杂志，于1901―1905年11月在梯弗利斯出版。从1905年1月起，《旅行家》成了格鲁吉亚社会民主党人的文艺政治周刊，由菲・马哈拉泽主编。它除刊登布尔什维克的文章外，还刊登孟什维克的文章。<br/>\n<br/><a href=\"#_ftnref10\" name=\"_ftn10\" title=\"\"><sup>[10]</sup></a> 注：海因菲尔德纲领是1888年奥地利社会民主党在海因菲尔德召开的建党大会上通过的纲领。这个纲领的原则部分包含一些正确阐明社会发展进程和无产阶级及其政党的任务的论点。后来，在1901年维也纳代表大会上，它被含有修正主义原则的新纲领取代。<br/>\n<br/><a href=\"#_ftnref11\" name=\"_ftn11\" title=\"\"><sup>[11]</sup></a> 注：《曙光》（《Зaря》）是列宁创办的俄国马克思主义的科学政治杂志，和《火星报》由同一个编辑部编辑，1901―1902年在斯图加特公开出版，共出了四期（第2、3期为合刊）。<br/>\n<br/><a href=\"#_ftnref12\" name=\"_ftn12\" title=\"\"><sup>[12]</sup></a> 注：见圣经《新约全书・马太福音》第6章第9―13节。――编者注<br/>\n<br/><a href=\"#_ftnref13\" name=\"_ftn13\" title=\"\"><sup>[13]</sup></a> 作者注：也许读者要问：这位热烈拥护过“多数派”的普列汉诺夫怎么会转到“少数派”方面去了呢？原来是他和列宁之间发生了意见分歧。当“少数派”暴怒起来并宣布抵制的时候，普列汉诺夫就认为必须完全让步。列宁不同意他的意见。普列汉诺夫就渐渐倾向“少数派”了。他们之间的意见分歧更加扩大了，普列汉诺夫终于变成了列宁和“多数派”的反对者。关于这一点列宁写道：<br/>\r\n　　“……过了几天，我真的同一位总委员会委员一起去见普列汉诺夫，当时，我们和普列汉诺夫的谈话是这样进行的：<br/>\r\n　　――要知道，世界上有一种爱吵闹的老婆〈即指‘少数派’〉，对这样的老婆必须让步，免得她疯疯癫癫、当众大吵大闹起来。――普列汉诺夫这样说道。<br/>\r\n　　――也许是这样，但即使是让步，自己也要保持力量，使更大的‘吵闹’不致发生。――我回答说。”（见《对同盟代表大会记录的述评》第三十七页，那里引证了列宁的信）<br/>\r\n　　列宁和普列汉诺夫没有达成协议。从这时起，普列汉诺夫就开始转到“少数派”方面去了。<br/>\r\n　　我们根据可靠的消息得知，普列汉诺夫又在离开“少数派”，并已创办了自己的机关刊物《社会民主党人日志》*。<br/>\r\n　　*《社会民主党人日志》（《ДневнuкСоuuaл-Демокрama》）是格・瓦・普列汉诺夫主办的不定期杂志，1905年3月―1912年4月在日内瓦出版，共出了十六期。1916年《日志》曾在彼得格勒复刊，但只出了一期。</span>",
+      "previousNoteContent": [
+        "作者注：也许读者要问：这位热烈拥护过“多数派”的普列汉诺夫怎么会转到“少数派”方面去了呢？原来是他和列宁之间发生了意见分歧。当“少数派”暴怒起来并宣布抵制的时候，普列汉诺夫就认为必须完全让步。列宁不同意他的意见。普列汉诺夫就渐渐倾向“少数派”了。他们之间的意见分歧更加扩大了，普列汉诺夫终于变成了列宁和“多数派”的反对者。关于这一点列宁写道：",
+        "“……过了几天，我真的同一位总委员会委员一起去见普列汉诺夫，当时，我们和普列汉诺夫的谈话是这样进行的：",
+        "――要知道，世界上有一种爱吵闹的老婆〈即指‘少数派’〉，对这样的老婆必须让步，免得她疯疯癫癫、当众大吵大闹起来。――普列汉诺夫这样说道。",
+        "――也许是这样，但即使是让步，自己也要保持力量，使更大的‘吵闹’不致发生。――我回答说。”（见《对同盟代表大会记录的述评》第三十七页，那里引证了列宁的信）",
+        "列宁和普列汉诺夫没有达成协议。从这时起，普列汉诺夫就开始转到“少数派”方面去了。",
+        "我们根据可靠的消息得知，普列汉诺夫又在离开“少数派”，并已创办了自己的机关刊物《社会民主党人日志》*。",
+        "*《社会民主党人日志》（《ДневнuкСоuuaл-Демокрama》）是格・瓦・普列汉诺夫主办的不定期杂志，1905年3月―1912年4月在日内瓦出版，共出了十六期。1916年《日志》曾在彼得格勒复刊，但只出了一期。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "作者注：也许读者要问：这位热烈拥护过“多数派”的普列汉诺夫怎么会转到“少数派”方面去了呢？原来是他和列宁之间发生了意见分歧。当“少数派”暴怒起来并宣布抵制的时候，普列汉诺夫就认为必须完全让步。列宁不同意他的意见。普列汉诺夫就渐渐倾向“少数派”了。他们之间的意见分歧更加扩大了，普列汉诺夫终于变成了列宁和“多数派”的反对者。关于这一点列宁写道：",
+        "“……过了几天，我真的同一位总委员会委员一起去见普列汉诺夫，当时，我们和普列汉诺夫的谈话是这样进行的：",
+        "――要知道，世界上有一种爱吵闹的老婆〈即指‘少数派’〉，对这样的老婆必须让步，免得她疯疯癫癫、当众大吵大闹起来。――普列汉诺夫这样说道。",
+        "――也许是这样，但即使是让步，自己也要保持力量，使更大的‘吵闹’不致发生。――我回答说。”（见《对同盟代表大会记录的述评》第三十七页，那里引证了列宁的信）",
+        "列宁和普列汉诺夫没有达成协议。从这时起，普列汉诺夫就开始转到“少数派”方面去了。",
+        "我们根据可靠的消息得知，普列汉诺夫又在离开“少数派”，并已创办了自己的机关刊物《社会民主党人日志》*。",
+        "*《社会民主党人日志》（《ДневнuкСоuuaл-Демокрama》）是格・瓦・普列汉诺夫主办的不定期杂志，1905年3月―1912年4月在日内瓦出版，共出了十六期。1916年《日志》曾在彼得格勒复刊，但只出了一期。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 152,
+          "start": 50,
+          "end": 54
+        }
+      ],
+      "localBodySha256": "cc0673028c831012140d56f22a93471bf0ca59e9803b9b75e7233d039a2eeb2e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-69ee7267def1:_ftn6",
+      "bookId": "stalin-work-69ee7267def1",
+      "chapterId": "chapter-001-69ee7267de",
+      "title": "俄国社会民主党及其当前任务（1901年11―12月）",
+      "noteId": "_ftn6",
+      "marker": "[6]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190111-12.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190111-12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190111-12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:22.779355+00:00",
+        "rawSha256": "891de58fc39a3232d5fd009f8ecec38654e8432e32ef1efd14acc06dbce87468",
+        "bytes": 24686
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 注：土地和自由社，是秘密的民粹派组织，1876年在彼得堡建立，最初称为北方革命民粹主义社，1878年改用此名，主要成员有亚・德・米哈伊洛夫、格・瓦・普列汉诺夫、谢・米・克拉夫钦斯基、奥・瓦・阿普捷克曼等。土地和自由社有严密的组织和严格的纪律，主张通过暴力推翻沙皇政府，取得土地和自由。但它错误地认为：俄国能够走非资本主义的特殊发展道路，农民村社是这条道路的基础；俄国主要革命力量不是工人阶级而是农民，只靠农民就可以推翻沙皇政府。由于农民不了解他们的宣传，没有跟他们走，同时政府又对革命者加紧迫害，该社一部分成员主张采取暗杀手段进行反对沙皇政府的斗争。土地和自由社因此发生了分歧，形成了两派，一派（安・伊・热里雅鲍夫等人）主张采取恐怖手段，另一派（以普列汉诺夫为首）主张继续采取原来的策略。两派于1879年分裂为民意党和土地平分社。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 注：民意党是十九世纪八十年代初俄国革命民粹派的组织，在土地和自由社分裂后于1879年8月建立，主要领导人是安・伊・热里雅鲍夫、亚・德・米哈伊洛夫、亚・亚・克维亚特科夫斯基、索・李・彼罗夫斯卡娅等。民意党人主张同专制制度进行政治斗争，他们的纲领包括有广泛的民主改革的要求，如召开立宪会议，实现普选权，设置常设人民代表机关，实行言论、信仰、出版和集会自由，实行广泛的村社自治，给人民以土地，给被压迫民族以自决权，用人民武装代替常备军等。但他们仍然是空想的社会主义者，没有摆脱民粹派的基本思想，相信俄国可以越过资本主义，通过农民革命而走向社会主义。民意党人从“英雄”和“群氓”的错误理论出发，把暗杀沙皇政府的个别代表人物作为推翻沙皇专制制度的主要手段。他们在1881年3月1日刺杀了沙皇亚历山大二世。此后不久，民意党在沙皇政府打击下趋于瓦解。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 注：《工人思想报》（《РaбочяМъlслъ》）是俄国经济派的机关报，由弗・巴・伊万申、康・米・塔赫塔廖夫等编辑。1897年10月―1902年12月先后在彼得堡、柏林、华沙和日内瓦等地出版，共出了十六号。列宁在《怎么办？》等著作中批判了《工人思想报》，指出它的观点是国际机会主义的俄国变种。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 注：指1897年6月2日（公历14日）俄国沙皇政府颁布的关于缩短工厂工作日的法令。这个法令是在1895―1896年彼得堡工人群众罢工的压力下通过的。它规定工业企业和铁路工厂的工作日日班为十一个半小时，夜班为十小时（在这以前，工作日没有限制，甚至达到十四五个小时），但同时规定节假日一年为六十六天（比习惯上的节假日约减少了四分之一）。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 注：指1899年7月29日（公历8月10日）俄国沙皇政府批准的《因聚众滋事而被开除的高等学校学生服兵役的暂行条例》。这个条例规定，凡参加集体行动反对高等学校的警察制度的学生，一律开除学籍并罚当兵一至三年。<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 注：皮洛士――古希腊伊庇鲁斯国王，公元前280年入意大利同罗马作战，两次获捷，但损失惨重。他曾说：“如果再取得这样一次胜利，谁也不能跟我回到伊庇鲁斯去了。”“皮洛士式的胜利”表示代价特大、得不偿失的意思。</span>",
+      "previousNoteContent": [
+        "注：皮洛士――古希腊伊庇鲁斯国王，公元前280年入意大利同罗马作战，两次获捷，但损失惨重。他曾说：“如果再取得这样一次胜利，谁也不能跟我回到伊庇鲁斯去了。”“皮洛士式的胜利”表示代价特大、得不偿失的意思。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "注：皮洛士――古希腊伊庇鲁斯国王，公元前280年入意大利同罗马作战，两次获捷，但损失惨重。他曾说：“如果再取得这样一次胜利，谁也不能跟我回到伊庇鲁斯去了。”“皮洛士式的胜利”表示代价特大、得不偿失的意思。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 29,
+          "start": 176,
+          "end": 179
+        }
+      ],
+      "localBodySha256": "67d7881a700eeaf804a913753e8a9e7077a7f8cb5248dcc48316bf9922171182",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-a5395dce6a2b:_ftn2",
+      "bookId": "stalin-work-a5395dce6a2b",
+      "chapterId": "chapter-001-a5395dce6a",
+      "title": "高加索的工人们，是复仇的时候了！（1905年1月8日）",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050108.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050108.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19050108.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:22.911155+00:00",
+        "rawSha256": "e4ec50240a79404272f120cd5ded524403720718f19b109507179e5c91179c62",
+        "bytes": 7650
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 一九〇四年十二月十二日沙皇尼古拉第二所下的“圣旨”连同政府特别通告，于一九〇四年十二月十四日在报上公布。这道“圣旨”在允许实行某些不关重要的“改革”的同时，宣布专制政权的不可摇撼性，并包含许多不仅是对革命工农群众，而且也是对那些敢于向政府提出怯懦的宪制要求的自由派分子的威吓。照列宁的说法，尼古拉第二的“圣旨”是“直接赏给自由派的一个耳光”。——（正文第55页）。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> “宪法草案”是自由派“解放同盟”中一批盟员于一九〇四年十月间所拟定的，并于同年在莫斯科出版单行本。题为“俄罗斯帝国根本法。俄国宪法草案”。——（正文第56页）。</span>",
+      "previousNoteContent": [
+        "“宪法草案”是自由派“解放同盟”中一批盟员于一九〇四年十月间所拟定的，并于同年在莫斯科出版单行本。题为“俄罗斯帝国根本法。俄国宪法草案”。——（正文第56页）。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "“宪法草案”是自由派“解放同盟”中一批盟员于一九〇四年十月间所拟定的，并于同年在莫斯科出版单行本。题为“俄罗斯帝国根本法。俄国宪法草案”。——（正文第56页）。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 19,
+          "start": 80,
+          "end": 83
+        }
+      ],
+      "localBodySha256": "fe7273e01daa1f6d8e6adbe9fd8d18deadc4acb8f08e49fcae9fe71d085ee81e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-bd64515d3ba4:_ftn14",
+      "bookId": "stalin-work-bd64515d3ba4",
+      "chapterId": "chapter-001-bd64515d3b",
+      "title": "无政府主义还是社会主义？（于1906年6―7月）",
+      "noteId": "_ftn14",
+      "marker": "[14]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190606-07.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190606-07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190606-07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:23.591518+00:00",
+        "rawSha256": "fe0c82df30d1feb818894b288f0f15753042b1b4b5082943b40022262fb44e0e",
+        "bytes": 85251
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 一九〇五年末和一九〇六年初，在格鲁吉亚一带，由克鲁泡特金思想的崇拜者、有名的无政府主义者车尔凯兹施维里及其信徒米哈柯·策烈铁里（巴顿）、沙尔瓦，哥格利亚（沙·哥·）等人所领导的无政府主义者集团，展开了猛烈攻击社会民主党人的运动。这个集团在梯弗里斯出版了“号召报”“工人报”等等。无政府主义者在无产阶级中间没有得到任何支持，但他们在游民无产者和小资产阶级分子中间获得了某些成就。斯大林发表了总标题为“无政府主义还是社会主义？”的几篇论文来反对无政府主义者。前四篇论文是于一九〇六年六、七两月在“新生活报”上发表的。以后几篇论文，因该报被当局封闭，没有登出来。一九〇六年十二月和一九〇七年一月一日，曾刊载于“新生活报”的论文又转载在“新时代报”上，不过略有修改。该报编辑部对这些论文加了以下的按语：“不久前职员工会写信给我们，要我们登一些关于无政府主义、社会主义及诸如此类问题的文章（见“新时代报”第三期）。另一些同志也表示了这种愿望。我们很愿意满足这种愿望，就登了这样的文章至于这些文章的本身，我们认为必须指出其中有一部分从前已在格鲁吉亚报刊上发表过（由于和作者无关的原因，这些文章没有登完）。虽然如此，但我们认为必须把这些文章完全登出来，并请作者把文章修改得通俗一些，作者已经乐意地这样做了。”这样，“无政府主义还是社会主义？”这部著作的前四部分就有了两种原稿。这部著作的续文是在一九〇七年二月“我们的生活报”和一九〇七年四月“时报”上发表的。在“新生活报”上发表过的“无政府主义还是社会主义？”的第一种原稿，作为附录收入《斯大林全集》第一卷。<br/>\r\n　　“我们的生活报”是布尔什维克的格鲁吉亚文日报，自一九〇七年二月十八日起在梯弗里斯公开出版，由斯大林主持。共出十三期。该报于一九〇七年三月六日“因持极端主张”被封闭。<br/>\r\n　　“时报”是布尔什维克的格鲁吉亚文日报，“我们的生活报”被封闭后，于一九〇七年三月十一日至四月十五日在梯弗里斯出版。由斯大林主持。参加该报编辑部的还有齐哈卡雅和达维塔施维里。共出三十一期。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> “号召报”是格鲁吉亚无政府主义者的周刊，于一九〇六年用格鲁吉亚文在梯弗里斯出版。<br/>\n<br/><a href=\"#_ftnref3\" name=\"_ftn3\" title=\"\"><sup>[3]</sup></a> 见“马克思选集”两卷本一九四一年俄文版卷上第三八七页。<br/>\n<br/><a href=\"#_ftnref4\" name=\"_ftn4\" title=\"\"><sup>[4]</sup></a> 见“马克思选集”两卷本一九四一年俄文版卷上第三二七页至第三二八页。<br/>\n<br/><a href=\"#_ftnref5\" name=\"_ftn5\" title=\"\"><sup>[5]</sup></a> 见马克思和恩格斯的“神圣的家族”中“对法国唯物主义进行的批评战”一篇（见“马克思恩格斯全集”一九三〇年俄文版第三卷第一六〇页）<br/>\n<br/><a href=\"#_ftnref6\" name=\"_ftn6\" title=\"\"><sup>[6]</sup></a> 见马克思“哲学的贫困”一九四一年俄文版第一四八页。<br/>\n<br/><a href=\"#_ftnref7\" name=\"_ftn7\" title=\"\"><sup>[7]</sup></a> 见“马克思恩格斯全集”一九三七年俄文版第十六卷上册第一四九页。<br/>\n<br/><a href=\"#_ftnref8\" name=\"_ftn8\" title=\"\"><sup>[8]</sup></a> 见“马克思选集”两卷本一九四一年俄文版卷下第四五三页。<br/>\n<br/><a href=\"#_ftnref9\" name=\"_ftn9\" title=\"\"><sup>[9]</sup></a> 见恩格斯“反杜林论”一九三八年俄文版第一二八~一二九页。<br/>\n<br/><a href=\"#_ftnref10\" name=\"_ftn10\" title=\"\"><sup>[10]</sup></a> “工人报”是格鲁吉亚无政府主义者的日报，于一九〇六年用格鲁吉亚文在梯弗里斯出版。<br/>\n<br/><a href=\"#_ftnref11\" name=\"_ftn11\" title=\"\"><sup>[11]</sup></a> “呼声报”是格鲁吉亚无政府主义者的日报，于一九〇六年用格鲁吉亚文在梯弗里斯出版。<br/>\n<br/><a href=\"#_ftnref12\" name=\"_ftn12\" title=\"\"><sup>[12]</sup></a> 见马克思“科伦共产主义者审判案真相记”一九〇六年圣彼得堡“铁锤”出版社版第一一三页（第九节“附录”：一八五〇年三月“中央委员会告同盟书”）（见“马克思选集”两卷本一九四一年俄文版卷下第一三三、一三四页）。<br/>\n<br/><a href=\"#_ftnref13\" name=\"_ftn13\" title=\"\"><sup>[13]</sup></a> 见“马克思选集”两卷本一九四一年俄文版卷下第四二七页。<br/>\n<br/><a href=\"#_ftnref14\" name=\"_ftn14\" title=\"\"><sup>[14]</sup></a> 引自马克思“法兰西内战”，该书附有恩格斯的“序言”。一九〇五年版，从德文译出的俄文本经列宁校审过（见“马克思选集”两卷本一九四一年俄文版卷下第三六八页）。</span>",
+      "previousNoteContent": [
+        "引自马克思“法兰西内战”，该书附有恩格斯的“序言”。一九〇五年版，从德文译出的俄文本经列宁校审过（见“马克思选集”两卷本一九四一年俄文版卷下第三六八页）。",
+        "感谢 闲汉 录入校对"
+      ],
+      "sourceNoteContent": [
+        "引自马克思“法兰西内战”，该书附有恩格斯的“序言”。一九〇五年版，从德文译出的俄文本经列宁校审过（见“马克思选集”两卷本一九四一年俄文版卷下第三六八页）。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 389,
+          "start": 81,
+          "end": 85
+        }
+      ],
+      "localBodySha256": "b442f2a072908ad8ad633bd7e7b6ad9f09b9e8799f172c18ba82b77b9488695e",
+      "status": "confirmed_footer_outside_note_container"
+    },
+    {
+      "repairId": "source-note-footer:stalin-work-f684655bdf6a:_ftn2",
+      "bookId": "stalin-work-f684655bdf6a",
+      "chapterId": "chapter-001-f684655bdf",
+      "title": "编辑部的话（1901年9月）",
+      "noteId": "_ftn2",
+      "marker": "[2]",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190109.htm",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190109.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-190109.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T04:51:23.785210+00:00",
+        "rawSha256": "c676dea12a7ecdbc2df8661382514d592d2914fe7f593f26bf81885b8331d69c",
+        "bytes": 9770
+      },
+      "sourceFooterHtml": "<p align=\"center\">感谢 闲汉 录入及校对</p>",
+      "sourceNoteContainerHtml": "<span style=\"font-size: 10.5pt\"><br/><a href=\"#_ftnref1\" name=\"_ftn1\" title=\"\"><sup>[1]</sup></a> 社会民主党的秘密报纸《斗争报》社论。<br/>\n<br/><a href=\"#_ftnref2\" name=\"_ftn2\" title=\"\"><sup>[2]</sup></a> 《斗争报》是梯弗里斯社会民主党组织的列宁火星派用格鲁吉亚文秘 密出版的第一个报纸。《斗争报》的发起人是斯大林。关于创办革命的马克思主义秘密刊物的问题，格鲁吉亚第一个社会民主主义组织“麦撒墨达西社”中革命的少数（斯大林、克泽霍越里、楚鲁启则）从一八九八年起就进行斗争，反对该社机会主义的多数（饶尔丹尼亚等人），而《斗争报》的出版就是这一斗争的结果。《斗争报》在巴库秘密印刷所排印，这个印刷所是梯弗里斯社会民主党组织中的革命派责成斯大林最亲近的战友克泽霍越里设立的。该报出版方面的实际工作也由克泽霍越里负责。《斗争报》上关于革命的马克思主义政党的纲领和策略问题的指导性论文都是斯大林写的。《斗争报》出了四期：创刊号于一九〇一年九月出版；第二、三两期的合刊于一九〇一年十一月、十二月间出版；第四期于一九〇二年十二月出版。除《火星报》之外，《斗争报》是俄国最好的马克思主义报纸，它坚决主张南高加索无产阶级革命斗争必须和全俄工人阶级革命斗争紧密联系。《斗争报》也像列宁的《火星报》一样，捍 卫了革命的马克思主义的理论基础，宣传了社会民主党组织必须转而进行群众政治鼓动工作和进行反对专制制度的政治斗争，坚持了应在资产阶级民主革命中实现无产阶级领导权的列宁思想。《斗争报》在反“经济派”的斗争中，论证了建立工人阶级统一的革命政党的必要，并揭露了自由资产阶级、民族主义者和各种各样的机会主义者。列宁的《火星报》曾指出，《斗争报》创刊号的出版是一个极重大的事件。</span>",
+      "previousNoteContent": [
+        "《斗争报》是梯弗里斯社会民主党组织的列宁火星派用格鲁吉亚文秘 密出版的第一个报纸。《斗争报》的发起人是斯大林。关于创办革命的马克思主义秘密刊物的问题，格鲁吉亚第一个社会民主主义组织“麦撒墨达西社”中革命的少数（斯大林、克泽霍越里、楚鲁启则）从一八九八年起就进行斗争，反对该社机会主义的多数（饶尔丹尼亚等人），而《斗争报》的出版就是这一斗争的结果。《斗争报》在巴库秘密印刷所排印，这个印刷所是梯弗里斯社会民主党组织中的革命派责成斯大林最亲近的战友克泽霍越里设立的。该报出版方面的实际工作也由克泽霍越里负责。《斗争报》上关于革命的马克思主义政党的纲领和策略问题的指导性论文都是斯大林写的。《斗争报》出了四期：创刊号于一九〇一年九月出版；第二、三两期的合刊于一九〇一年十一月、十二月间出版；第四期于一九〇二年十二月出版。除《火星报》之外，《斗争报》是俄国最好的马克思主义报纸，它坚决主张南高加索无产阶级革命斗争必须和全俄工人阶级革命斗争紧密联系。《斗争报》也像列宁的《火星报》一样，捍 卫了革命的马克思主义的理论基础，宣传了社会民主党组织必须转而进行群众政治鼓动工作和进行反对专制制度的政治斗争，坚持了应在资产阶级民主革命中实现无产阶级领导权的列宁思想。《斗争报》在反“经济派”的斗争中，论证了建立工人阶级统一的革命政党的必要，并揭露了自由资产阶级、民族主义者和各种各样的机会主义者。列宁的《火星报》曾指出，《斗争报》创刊号的出版是一个极重大的事件。",
+        "感谢 闲汉 录入及校对"
+      ],
+      "sourceNoteContent": [
+        "《斗争报》是梯弗里斯社会民主党组织的列宁火星派用格鲁吉亚文秘 密出版的第一个报纸。《斗争报》的发起人是斯大林。关于创办革命的马克思主义秘密刊物的问题，格鲁吉亚第一个社会民主主义组织“麦撒墨达西社”中革命的少数（斯大林、克泽霍越里、楚鲁启则）从一八九八年起就进行斗争，反对该社机会主义的多数（饶尔丹尼亚等人），而《斗争报》的出版就是这一斗争的结果。《斗争报》在巴库秘密印刷所排印，这个印刷所是梯弗里斯社会民主党组织中的革命派责成斯大林最亲近的战友克泽霍越里设立的。该报出版方面的实际工作也由克泽霍越里负责。《斗争报》上关于革命的马克思主义政党的纲领和策略问题的指导性论文都是斯大林写的。《斗争报》出了四期：创刊号于一九〇一年九月出版；第二、三两期的合刊于一九〇一年十一月、十二月间出版；第四期于一九〇二年十二月出版。除《火星报》之外，《斗争报》是俄国最好的马克思主义报纸，它坚决主张南高加索无产阶级革命斗争必须和全俄工人阶级革命斗争紧密联系。《斗争报》也像列宁的《火星报》一样，捍 卫了革命的马克思主义的理论基础，宣传了社会民主党组织必须转而进行群众政治鼓动工作和进行反对专制制度的政治斗争，坚持了应在资产阶级民主革命中实现无产阶级领导权的列宁思想。《斗争报》在反“经济派”的斗争中，论证了建立工人阶级统一的革命政党的必要，并揭露了自由资产阶级、民族主义者和各种各样的机会主义者。列宁的《火星报》曾指出，《斗争报》创刊号的出版是一个极重大的事件。"
+      ],
+      "references": [
+        {
+          "paragraphIndex": 4,
+          "start": 169,
+          "end": 172
+        }
+      ],
+      "localBodySha256": "0be7370656c79c429dcb22c5bde66d0805435540a34ed6775f5e9ce040e8e623",
+      "status": "confirmed_footer_outside_note_container"
+    }
+  ],
+  "summary": {
+    "books": 19,
+    "chapters": 19,
+    "notesFixed": 19,
+    "nativeSourceNotesMatched": 111,
+    "referenceOffsetsChecked": 111,
+    "pythonTests": 24,
+    "rerunChanges": 0
+  },
+  "insideNoteSourceScan": {
+    "chapters": 884,
+    "candidates": []
+  },
+  "scopeLimitation": "当前脚注显示内容中的网站致谢／来源尾段专项；候选源页均重新访问，其他源页仅使用已校验缓存检查容器内来源段。不表示原注位置冲突或全库版本校勘已解决。"
+}

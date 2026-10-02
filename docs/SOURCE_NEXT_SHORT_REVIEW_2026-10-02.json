@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-02",
+  "scope": "三篇新鲜源页短行候选核查，未复修既有账本项目。",
+  "reviews": [
+    {
+      "bookId": "marx-work-3b86616edb1b",
+      "title": "1848年11月4日通过的法兰西共和国宪法",
+      "chapterId": "chapter-001-3b86616edb",
+      "chapterTitle": "1848年11月4日通过的法兰西共和国宪法",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-185106.htm",
+      "sourceRawSha256": "fdd91fc1663908856d6a33ea5f3c5d790e076df053a55987bbc53736491ddb23",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-185106.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-185106.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T05:32:52.140836+00:00",
+        "rawSha256": "fdd91fc1663908856d6a33ea5f3c5d790e076df053a55987bbc53736491ddb23",
+        "bytes": 20833
+      },
+      "localBodySha256": "fda3633f1895e6a75522a1c4698b5100e0cfa4030061b5b95656221c8a0de31f",
+      "paragraphCount": 105,
+      "nativeNoteCount": 0,
+      "scope": "独立原始DOM短行候选逐项核查，源页全文及网页原注再次核验。",
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 40,
+          "text": "第三章国家权力",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 45,
+          "text": "第四章立法权",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 64,
+          "text": "第五章行政权",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 70,
+          "text": "第六章国务委员会",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 72,
+          "text": "第七章国内行政机关",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 75,
+          "text": "第八章司法权",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 82,
+          "text": "第九章武装力量",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 87,
+          "text": "第十章特别法律",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 89,
+          "text": "第十一章宪法之修改",
+          "status": "fixed_internal_headings"
+        }
+      ]
+    },
+    {
+      "bookId": "marx-work-55f8a9696af7",
+      "title": "1844年经济学哲学手稿 （1844年5―8月）",
+      "chapterId": "chapter-001-55f8a9696a",
+      "chapterTitle": "1844年经济学哲学手稿 （1844年5—8月）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+      "sourceRawSha256": "5745fa3b4a7ada20685f2197add8145af5fa71f2ec5de445005a164193431984",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1844.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T05:32:53.618088+00:00",
+        "rawSha256": "5745fa3b4a7ada20685f2197add8145af5fa71f2ec5de445005a164193431984",
+        "bytes": 186154
+      },
+      "localBodySha256": "ad642351be6a7aeec600e438f2e3ab04903dba63b452267e7eed04644f1fd9d4",
+      "paragraphCount": 620,
+      "nativeNoteCount": 6,
+      "scope": "独立原始DOM短行候选逐项核查，源页全文及网页原注再次核验。",
+      "findings": [
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 5,
+          "text": "［第一手稿］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#2\">［第一手稿］</a>",
+          "targetHeadingHtml": "<p class=\"title1\">第一手稿</p>",
+          "localSection": null,
+          "localParagraphIndex": 8,
+          "localParagraph": "第一手稿"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 8,
+          "text": "一资本",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#5\">　　　　一　资本</a>",
+          "targetHeadingHtml": "<h4 style=\"text-align: center\">一．资本</h4>",
+          "localSection": {
+            "id": "section-003-1108913e",
+            "title": "一．资本",
+            "level": 3,
+            "paragraphIndex": 87
+          },
+          "localParagraphIndex": 87,
+          "localParagraph": "一．资本"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 9,
+          "text": "二资本的利润",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#6\">　　　　二　资本的利润</a>",
+          "targetHeadingHtml": "<h4 style=\"text-align: center\">二．资本的利润</h4>",
+          "localSection": {
+            "id": "section-005-e6584658",
+            "title": "二．资本的利润",
+            "level": 3,
+            "paragraphIndex": 100
+          },
+          "localParagraphIndex": 100,
+          "localParagraph": "二．资本的利润"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 10,
+          "text": "三资本对劳动的统治和资本家的动机",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#7\">　　　　三　资本对劳动的统治和资本家的动机</a>",
+          "targetHeadingHtml": "<h4 style=\"text-align: center\">三．资本对劳动的统治和资本家的动机</h4>",
+          "localSection": {
+            "id": "section-006-f030eb39",
+            "title": "三．资本对劳动的统治和资本家的动机",
+            "level": 3,
+            "paragraphIndex": 121
+          },
+          "localParagraphIndex": 121,
+          "localParagraph": "三．资本对劳动的统治和资本家的动机"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 11,
+          "text": "四资本的积累和资本家之间的竞争",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#8\">　　　　四　资本的积累和资本家之间的竞争</a>",
+          "targetHeadingHtml": "<h4 style=\"text-align: center\">四．资本的积累和资本家之间的竞争</h4>",
+          "localSection": {
+            "id": "section-007-3fa9c306",
+            "title": "四．资本的积累和资本家之间的竞争",
+            "level": 3,
+            "paragraphIndex": 125
+          },
+          "localParagraphIndex": 125,
+          "localParagraph": "四．资本的积累和资本家之间的竞争"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 13,
+          "text": "［异化劳动和私有财产］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#10\">　　［异化劳动和私有财产］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔异化劳动和私有财产〕</h3>",
+          "localSection": {
+            "id": "section-011-007fa12a",
+            "title": "〔异化劳动和私有财产〕",
+            "level": 2,
+            "paragraphIndex": 239
+          },
+          "localParagraphIndex": 239,
+          "localParagraph": "〔异化劳动和私有财产〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 14,
+          "text": "［第二手稿］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#11\">［第二手稿］</a>",
+          "targetHeadingHtml": "<p class=\"title1\">第二手稿</p>",
+          "localSection": null,
+          "localParagraphIndex": 316,
+          "localParagraph": "第二手稿（本手稿的前三十九页没有保存下来）"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 15,
+          "text": "［私有财产的关系］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#12\">　　［私有财产的关系］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔私有财产的关系〕</h3>",
+          "localSection": {
+            "id": "section-012-c49f6552",
+            "title": "〔私有财产的关系〕",
+            "level": 2,
+            "paragraphIndex": 317
+          },
+          "localParagraphIndex": 317,
+          "localParagraph": "〔私有财产的关系〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 16,
+          "text": "［第三手稿］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#13\">［第三手稿］</a>",
+          "targetHeadingHtml": "<p class=\"title1\">第三手稿</p>",
+          "localSection": null,
+          "localParagraphIndex": 336,
+          "localParagraph": "第三手稿"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 17,
+          "text": "［国民经济学中反映的私有财产的本质］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#14\">　　［国民经济学中反映的私有财产的本质］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔国民经济学中反映的私有财产的本质〕</h3>",
+          "localSection": {
+            "id": "section-013-cb46964a",
+            "title": "〔国民经济学中反映的私有财产的本质〕",
+            "level": 2,
+            "paragraphIndex": 337
+          },
+          "localParagraphIndex": 337,
+          "localParagraph": "〔国民经济学中反映的私有财产的本质〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 18,
+          "text": "［共产主义］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#15\">　　［共产主义］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔共产主义〕</h3>",
+          "localSection": {
+            "id": "section-014-f55c469b",
+            "title": "〔共产主义〕",
+            "level": 2,
+            "paragraphIndex": 345
+          },
+          "localParagraphIndex": 345,
+          "localParagraph": "〔共产主义〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 19,
+          "text": "［需要、生产和分工］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#16\">　　［需要、生产和分工］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔需要、生产和分工〕</h3>",
+          "localSection": {
+            "id": "section-015-6907ee00",
+            "title": "〔需要、生产和分工〕",
+            "level": 2,
+            "paragraphIndex": 389
+          },
+          "localParagraphIndex": 389,
+          "localParagraph": "〔需要、生产和分工〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 20,
+          "text": "［货币］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#17\">　　［货币］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔货币〕</h3>",
+          "localSection": {
+            "id": "section-016-d2d0ad4d",
+            "title": "〔货币〕",
+            "level": 2,
+            "paragraphIndex": 441
+          },
+          "localParagraphIndex": 441,
+          "localParagraph": "〔货币〕"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 21,
+          "text": "［对黑格尔的辩证法和整个哲学的批判］",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#18\">　　［对黑格尔的辩证法和整个哲学的批判］</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">〔对黑格尔的辩证法和整个哲学的批判〕</h3>",
+          "localSection": {
+            "id": "section-017-3a052603",
+            "title": "〔对黑格尔的辩证法和整个哲学的批判〕",
+            "level": 2,
+            "paragraphIndex": 505
+          },
+          "localParagraphIndex": 505,
+          "localParagraph": "〔对黑格尔的辩证法和整个哲学的批判〕"
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-2d5cdc60a74b",
+      "title": "俄国社会民主工党（布）第七次全国代表会议（四月代表会议）文献",
+      "chapterId": "chapter-001-2d5cdc60a7",
+      "chapterTitle": "俄国社会民主工党（布）第七次全国代表会议（四月代表会议）文献",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+      "sourceRawSha256": "056ca6e389334738e40cc8fdb5b43aa25a4db3cccf3537d9429fad50d3ae7e34",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170424-29.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T05:32:56.201739+00:00",
+        "rawSha256": "056ca6e389334738e40cc8fdb5b43aa25a4db3cccf3537d9429fad50d3ae7e34",
+        "bytes": 134566
+      },
+      "localBodySha256": "f55ef0edf668ddf8548f58269e21cb9f17730086966f23f2d61d1bb7ea203a7f",
+      "paragraphCount": 472,
+      "nativeNoteCount": 12,
+      "scope": "独立原始DOM短行候选逐项核查，源页全文及网页原注再次核验。",
+      "findings": [
+        {
+          "group": "candidates",
+          "sourceLineIndex": 298,
+          "text": "（1）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 301,
+          "text": "（2）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 306,
+          "text": "（3）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 424,
+          "text": "（1）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 428,
+          "text": "（2）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 555,
+          "text": "（1）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "candidates",
+          "sourceLineIndex": 558,
+          "text": "（2）",
+          "status": "fixed_internal_headings"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 6,
+          "text": "4关于召开国际社会党代表会议的方案的讲话（4月25日〔5月8日〕）",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#4\">4 关于召开国际社会党代表会议的方案的讲话（4月25日〔5月8日〕）</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">4<br/>\n关于召开国际社会党代表会议的方案的讲话<a href=\"#_ftn152\" name=\"_ftnref152\" title=\"\"><sup><font size=\"3\">[152]</font></sup></a><br/>\n（4月25日〔5月8日〕）</h3>",
+          "localSection": {
+            "id": "section-007-a2366ff7",
+            "title": "4 关于召开国际社会党代表会议的方案的讲话 [152] （4月25日〔5月8日〕）",
+            "level": 2,
+            "paragraphIndex": 91
+          },
+          "localParagraphIndex": 91,
+          "localParagraph": "4 关于召开国际社会党代表会议的方案的讲话 [152] （4月25日〔5月8日〕）"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 13,
+          "text": "11关于战争的决议（4月27日〔5月10日〕）",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#11\">11 关于战争的决议（4月27日〔5月10日〕）</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">11<br/>\n关于战争的决议<a href=\"#_ftn155\" name=\"_ftnref155\" title=\"\"><sup>[155]</sup></a><br/>\n（4月27日〔5月10日〕）</h3>",
+          "localSection": {
+            "id": "section-021-4f28f43a",
+            "title": "11 关于战争的决议 [155] （4月27日〔5月10日〕）",
+            "level": 2,
+            "paragraphIndex": 236
+          },
+          "localParagraphIndex": 236,
+          "localParagraph": "11 关于战争的决议 [155] （4月27日〔5月10日〕）"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 14,
+          "text": "12关于对临时政府的态度的决议（4月27日〔5月10日〕）",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#12\">12 关于对临时政府的态度的决议（4月27日〔5月10日〕）</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">12<br/>\n关于对临时政府的态度的决议<a href=\"#_ftn156\" name=\"_ftnref156\" title=\"\"><sup><font size=\"3\">[156]</font></sup></a><br/>\n（4月27日〔5月10日〕）</h3>",
+          "localSection": {
+            "id": "section-025-ae8823d1",
+            "title": "12 关于对临时政府的态度的决议 [156] （4月27日〔5月10日〕）",
+            "level": 2,
+            "paragraphIndex": 254
+          },
+          "localParagraphIndex": 254,
+          "localParagraph": "12 关于对临时政府的态度的决议 [156] （4月27日〔5月10日〕）"
+        },
+        {
+          "group": "unresolved",
+          "sourceLineIndex": 15,
+          "text": "13关于修改党纲问题的报告（4月28日〔5月11日〕）",
+          "status": "reviewed_navigation_label_body_heading_present",
+          "navigationHtml": "<a href=\"#13\">13 关于修改党纲问题的报告（4月28日〔5月11日〕）</a>",
+          "targetHeadingHtml": "<h3 style=\"text-align: center\">13<br/>\n关于修改党纲问题的报告<a href=\"#_ftn157\" name=\"_ftnref157\" title=\"\"><sup><font size=\"3\">[157]</font></sup></a><br/>\n（4月28日〔5月11日〕）</h3>",
+          "localSection": {
+            "id": "section-026-712d4d91",
+            "title": "13 关于修改党纲问题的报告 [157] （4月28日〔5月11日〕）",
+            "level": 2,
+            "paragraphIndex": 269
+          },
+          "localParagraphIndex": 269,
+          "localParagraph": "13 关于修改党纲问题的报告 [157] （4月28日〔5月11日〕）"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 27,
+    "idempotent": true
+  }
+}

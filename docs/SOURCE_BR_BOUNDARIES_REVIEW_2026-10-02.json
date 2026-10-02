@@ -1,0 +1,160 @@
+{
+  "scope": "884章缓存，独立html.parser和原始BR/块边界，不复用导入正文解析器；长行至少75非空白字符。仅应用已证实PUA映射和去除原注/图片标记。",
+  "cacheOnly": true,
+  "chaptersChecked": 884,
+  "longLinesChecked": 30243,
+  "candidates": [
+    {
+      "bookId": "engels-work-22d33d8a40e1",
+      "chapterId": "chapter-001-22d33d8a40",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1876a.htm",
+      "sourceRawSha256": "c1552459620845983d9948d723a4b2e85927af4bcf73bf213f6517f23cc6b027",
+      "lineIndex": 40,
+      "text": "第二，熟知人的思维的历史发展过程，熟知各个不同的时代所出现的关于外在世界的普遍联系的见解，这对理论自然科学来说是必要的，因为这为理论自然科学本身所建立起来的理论提供了一个准则。但是在这里常常很明显地表现出对哲学史的不熟悉。在哲学中几百年前就已经提出了的、早以在哲学上被废弃了的命题，常常在研究理论的自然科学家那里作为全新的智慧出现，而且在一个时候甚至成为时髦的东西。热之唯动说曾经以新的例证支持能量守恒原理，并把这一原理重新置于最前列，这肯定是它的巨大成果；但是，如果物理学家先生们记得笛卡儿早就提出了这一原理，那末它还能作为某种绝对新的东西出现吗？自从物理学和化学又几乎专门从事于分子和原子的研究以来，古希腊的原子论哲学必然地重新出现在最前列。但是它甚至被最优秀的自然科学家处理得何等肤浅呵！例如，凯库勒（《化学的目的和成就》）说，原子论哲学的创始者不是留基伯而是德漠克利特，并且断定，道尔顿最先承认在质上不同的元素原子的存在，并最先认为这些元素原子具有不同的、为不同的元素所持有的重量。273可是我们在第欧根尼 拉尔修（第10卷第43\u000044和61节）那里就可以读到：伊壁鸠鲁已经认为各种原子不仅在大小上和形态上各不相同，而且在重量上也各不相同à ,就是说，他已经按照自己的方式知道原子量和原子体积了。",
+      "compactLength": 550,
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1876a.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1876a.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:36:27.039345+00:00",
+        "rawSha256": "c1552459620845983d9948d723a4b2e85927af4bcf73bf213f6517f23cc6b027",
+        "bytes": 12633
+      },
+      "localMatch": {
+        "paragraphIndex": 7,
+        "text": "第二，熟知人的思维的历史发展过程，熟知各个不同的时代所出现的关于外在世界的普遍联系的见解，这对理论自然科学来说是必要的，因为这为理论自然科学本身所建立起来的理论提供了一个准则。但是在这里常常很明显地表现出对哲学史的不熟悉。在哲学中几百年前就已经提出了的、早以在哲学上被废弃了的命题，常常在研究理论的自然科学家那里作为全新的智慧出现，而且在一个时候甚至成为时髦的东西。热之唯动说曾经以新的例证支持能量守恒原理，并把这一原理重新置于最前列，这肯定是它的巨大成果；但是，如果物理学家先生们记得笛卡儿早就提出了这一原理，那末它还能作为某种绝对新的东西出现吗？自从物理学和化学又几乎专门从事于分子和原子的研究以来，古希腊的原子论哲学必然地重新出现在最前列。但是它甚至被最优秀的自然科学家处理得何等肤浅呵！例如，凯库勒（《化学的目的和成就》）说，原子论哲学的创始者不是留基伯而是德漠克利特，并且断定，道尔顿最先承认在质上不同的元素原子的存在，并最先认为这些元素原子具有不同的、为不同的元素所持有的重量。273可是我们在第欧根尼 拉尔修（第10卷第4344和61节）那里就可以读到：伊壁鸠鲁已经认为各种原子不仅在大小上和形态上各不相同，而且在重量上也各不相同à ,就是说，他已经按照自己的方式知道原子量和原子体积了。"
+      },
+      "localBodySha256": "233efc8b286d624d2aba482e636bd95693b87f819d1fce389edb273fe888496a",
+      "status": "reviewed_nul_control_byte_difference",
+      "reason": "源HTML包含43与44间零值实体&#0;（独立解析器转为NUL），lxml删除控制字节，正文其余逐字相同；无凭据将它猜改为连接号。",
+      "rawHtmlContext": "原子的存在，并最先认为这些元素原子具有不同的、为不同的元素所持有的重量。273可是我们在第欧根尼 拉尔修（第10卷第43&#0;44和61节）那里就可以读到：伊壁鸠鲁已经认为各种原子不仅在大小上和形态上各不相同，而且在重量上也各不相同à ,"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-048-a4eeadf3ef",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+      "sourceRawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+      "lineIndex": 187,
+      "text": "[219]卡・阿伦德《与垄断精神及共产主义相对立的合乎自然的国民经济学，附与本书有关的资料的评述》1845年哈瑙版第461―462页（K．Arnd．《Die　naturgemä&sse  Volkswirthschaft，gegenüber  dem  Monopoliengeiste  und  dem  Communismus，mit  einem  Rückblicke  auf  die  einschlagende  Literatur》．Hanau，1845，S．461―462）。――第889页。",
+      "compactLength": 227,
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/048.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:36:56.120886+00:00",
+        "rawSha256": "eb916bbc39e055e25c3b8cfa428564c4fc212a4fe790d867c11b286b6bbdbcf7",
+        "bytes": 56094
+      },
+      "localMatch": {
+        "paragraphIndex": 68,
+        "text": "[219]卡・阿伦德《与垄断精神及共产主义相对立的合乎自然的国民经济学，附与本书有关的资料的评述》1845年哈瑙版第461―462页（K．Arnd．《Die naturgem&auml&sse Volkswirthschaft，gegenüber dem Monopoliengeiste und dem Communismus，mit einem Rückblicke auf die einschlagende Literatur》．Hanau，1845，S．461―462）。――第889页。"
+      },
+      "localBodySha256": "8a3f8b225324b2896b5f30bf3262d5fad48cf7b253d81193871f08a298c810ca",
+      "rawHtmlContext": "8页。<br>\r\n　　[219]卡・阿伦德《与垄断精神及共产主义相对立的合乎自然的国民经济学，附与本书有关的资料的评述》1845年哈瑙版第461―462页（K．Arnd．《Die　naturgem&auml&sse  Volkswirthschaft，gegenüber  dem  Monopoliengeiste  und  dem  Communismus，mit  einem  Rückblicke  auf  die  einschlagende  Literatur》．Hanau，1845，S．461―462）。――第889",
+      "status": "reviewed_malformed_entity_parser_difference",
+      "reason": "原始HTML字面为naturgem&auml&sse（缺实体分号且多出&sse）；html.parser将&auml部分解为ä，lxml按字面保留。本地原注忠实保留原字面，不依据解析器差异擅自猜改外文书名。原注内容与lxml源页解析一致。"
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-043-8e88226134",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+      "sourceRawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+      "lineIndex": 377,
+      "text": "如果从A级土地拍出的资本＝5镑，那末要在这里加以比较的两个表就是表II和表IVd。总产量已经由20夸特增加到30夸?亍；醣业刈馊粗挥幸话耄?18镑而不是36镑；谷物地租仍旧不变＝12夸特。",
+      "compactLength": 95,
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/043.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:36:59.421878+00:00",
+        "rawSha256": "b3c4e5074c66deaff5d7a74cf5703205d47dd1bc5d94f844ab7312edd7b6aa9e",
+        "bytes": 42008
+      },
+      "localMatch": {
+        "paragraphIndex": 52,
+        "text": "如果从A级土地拍出的资本＝5镑，那末要在这里加以比较的两个表就是表II和表IVd。总产量已经由20夸特增加到30夸特。货币地租却只有一半，是18镑而不是36镑；谷物地租仍旧不变＝12夸特。"
+      },
+      "localBodySha256": "308cc6cd8a69b949a426c50d480642755e8615eed5f686336c936f9ca8ab382d",
+      "status": "reviewed_existing_source_byte_repair",
+      "existingCorrections": [
+        {
+          "damaged": "30夸?亍；醣业刈馊粗挥幸话耄?18镑",
+          "restored": "30夸特。货币地租却只有一半，是18镑",
+          "existingEvidence": "043.htm@19185 丢「特」(CC D8)、@19210 丢「是」(CA C7)；英文版：\"increased from 20 to 30 qrs. The money-rent would be only half as large\""
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-044-054339ee3a",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+      "lineIndex": 1375,
+      "text": "当英国谷物关税在1846年废除时，英国的工厂主们都以为，这样一?矗腔岚淹恋毓笞灞湮枰燃玫钠睹瘛５导什皇钦庋恋毓笞宸炊纫郧叭魏问焙蚨几挥辛恕Ｕ馐窃趺椿厥履??非常简单。第一，从那以后，租地农场主必须按照契约每年对每英亩投资12镑，而不是8镑。第二，在下院也有很多代表的地主们，批给自己一笔巨大的国家补助金，用于土地的排水及其他永久性的改良。因为最坏土地没有完全被排挤掉，至多不过(并且在大多数情况下只是暂时的)改为别的用途，所以，地租就与投资的增加成比例地增加了，土地贵族也比以前任何时候都更富有了。",
+      "compactLength": 258,
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:37:00.449048+00:00",
+        "rawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+        "bytes": 80924
+      },
+      "localMatch": {
+        "paragraphIndex": 161,
+        "text": "当英国谷物关税在1846年废除时，英国的工厂主们都以为，这样一来，他们会把土地贵族变为需要救济的贫民。但实际不是这样，土地贵族反而比以前任何时候都更富有了。这是怎么回事呢？非常简单。第一，从那以后，租地农场主必须按照契约每年对每英亩投资12镑，而不是8镑。第二，在下院也有很多代表的地主们，批给自己一笔巨大的国家补助金，用于土地的排水及其他永久性的改良。因为最坏土地没有完全被排挤掉，至多不过(并且在大多数情况下只是暂时的)改为别的用途，所以，地租就与投资的增加成比例地增加了，土地贵族也比以前任何时候都更富有了。"
+      },
+      "localBodySha256": "a60a48ce82db5a814fd256c63920a0b32ffcdc019486a44b8bca38a251e64510",
+      "status": "reviewed_existing_source_byte_repair",
+      "existingCorrections": [
+        {
+          "damaged": "这样一?矗腔岚淹恋毓笞灞湮枰燃玫钠睹瘛５导什皇钦庋恋毓笞宸炊纫郧叭魏问焙蚨几挥辛恕Ｕ馐窃趺椿厥履??",
+          "restored": "这样一来，他们会把土地贵族变为需要救济的贫民。但实际不是这样，土地贵族反而比以前任何时候都更富有了。这是怎么回事呢？",
+          "existingEvidence": "044.htm@57147 丢「来」(C0 B4)、@57254 丢「呢」(C4 D8)；英文版：\"…believed that they had thereby turned the land-owning aristocracy into paupers. Instead, they became richer than ever. How did this occur? Very simply.\""
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-044-054339ee3a",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+      "sourceRawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+      "lineIndex": 1527,
+      "text": "只要总资本中生产1 1/2夸特余额的部分，为总资本中生产1 1/2夸特负额的部分所抵销，B级土地1夸特的平均价格就会互相平衡，而?胗葾调节的一般的生产价格每夸特3镑相一致。至于这个平衡究竟什么时候可以达到，或者说，为了这个目的必须有多少资本以不足的生产力投在B级土地上，那末，在前几次投资的超额生产率已定的情况下，这取决于以后几次投资和最坏的起调节作用的土地A上的等量投资相比所具有的相对不足的生产率，或者说，取决于以后几次投资的产品的、和起调节作用的价格相比所具有的个别生产价格。",
+      "compactLength": 239,
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/044.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:37:00.449048+00:00",
+        "rawSha256": "90679249cf8642017f115c5accfdf2d335c0f6f9b2e7b59ba2b44d937d725c97",
+        "bytes": 80924
+      },
+      "localMatch": {
+        "paragraphIndex": 218,
+        "text": "只要总资本中生产1 1/2夸特余额的部分，为总资本中生产1 1/2夸特负额的部分所抵销，B级土地1夸特的平均价格就会互相平衡，而与由A调节的一般的生产价格每夸特3镑相一致。至于这个平衡究竟什么时候可以达到，或者说，为了这个目的必须有多少资本以不足的生产力投在B级土地上，那末，在前几次投资的超额生产率已定的情况下，这取决于以后几次投资和最坏的起调节作用的土地A上的等量投资相比所具有的相对不足的生产率，或者说，取决于以后几次投资的产品的、和起调节作用的价格相比所具有的个别生产价格。"
+      },
+      "localBodySha256": "a60a48ce82db5a814fd256c63920a0b32ffcdc019486a44b8bca38a251e64510",
+      "status": "reviewed_existing_source_byte_repair",
+      "existingCorrections": [
+        {
+          "damaged": "而?胗葾调节的一般的生产价格",
+          "restored": "而与由A调节的一般的生产价格",
+          "existingEvidence": "044.htm@72241 丢「与」(D3 EB)；英文版：\"…agree with the general price of production regulated by A\""
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 4,
+    "candidateLinesReviewed": 5,
+    "newRepairs": 0,
+    "bodyAfterExistingCorrectionsMatches": true,
+    "originalParagraphIndicesAndFootnotesUnchanged": true
+  }
+}

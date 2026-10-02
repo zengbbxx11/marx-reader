@@ -1,0 +1,1117 @@
+{
+  "date": "2026-10-02",
+  "scope": "连续重复文本独立初筛，原始884章缓存，不把表格连续同值误判为重复正文。已修两项按账本跳过。",
+  "cacheOnlyScan": {
+    "chapters": 884,
+    "groups": 20
+  },
+  "skippedExistingRepairs": [
+    {
+      "bookId": "engels-work-59a10ec6e66d",
+      "chapterId": "chapter-001-59a10ec6e6",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18750318-28.htm",
+      "sourceRawSha256": "65fff5862c2d52fa37410c9bfa257505efe8a75d558fda2df901545832878cfc",
+      "text": "希望您设法夏天到这里来，当然您将住在我这里，如果天气好，我们可以去洗几天海水浴，这对于过了很久牢狱生活的您一定会有很大的好处。",
+      "sourceCount": 2,
+      "before": [
+        "同时我深信，在这种基础上的合并连一年也保持不了。难道我们党的优秀分子会愿意不断地重复拉萨尔关于铁的工资规律和国家帮助那一套背熟了的词句吗？我想看看譬如您在这种情况下的态度！而如果他们这样做，他们的听众就会向他们喝倒采。而且我相信，拉萨尔派会死抱住纲领的这些条文不放，就像犹太人夏洛克非要他那一磅肉［注：莎士比亚“威尼斯商人”第一幕第三场。――编者注］不可一样。分裂是一定会发生的；但是到那时我们已经恢复哈赛尔曼、哈森克莱维尔和特耳克及其同伙的“诚实的”名声；分裂以后，我们将被削弱，而拉萨尔派将会增强；我们的党将丧失它的政治纯洁性，并且再也不可能奋不顾身地起来反对它自己在一个时期内写在自己旗帜上的拉萨尔词句；如果拉萨尔派以后又说：他们是真正的和唯一的工人党，我们的人是资产者，那末，他们是可以拿这个纲领来证明的。纲领中的一切社会主义措施都是他们的，而我们的党除了小资产阶级民主派的一些要求就什么东西也没有添进去，这个党在同一个纲领中又把小资产阶级民主派说成“反动的一帮”中的一部分！",
+        "我把这封信搁下来，是因为您在4月1日庆祝俾斯麦生辰那一天才会被释放，而我是不愿意让这封信去冒以走私方式传送时被搜去的危险的。刚刚接到了白拉克的信，他对这个纲领也有很大的疑虑，他想了解一下我们的意见。因此，为了迅速起见我把这封信寄给了他，让他看一下，而我也就用不着把这个麻烦东西再全部重写一遍。此外，我同样也把事情的真相告诉了朗姆，我给李卜克内西只是简单地写了几句。我不能原谅他，因为关于全部事件直到可以说太迟的时候他还连一个字也没有告诉我们（而朗姆和其他人却以为他已经详细地通知我们了）。他从来就是这样做的――因此，我们，马克思和我，同他进行了许多次不愉快的通信――，但是，这一次做得实在太可恶了，我们坚决不和他一起走。"
+      ],
+      "after": [
+        "您的友好的弗・恩・",
+        "马克思刚刚搬了家，他的住址是：伦敦西北区克雷森特街梅特兰公园路41号。"
+      ],
+      "status": "previously_fixed_skipped",
+      "evidence": "docs/SOURCE_INTERNAL_HEADINGS_REVIEW_2026-10-02.json"
+    },
+    {
+      "bookId": "mao-work-a64eb0cfb09b",
+      "chapterId": "chapter-001-a64eb0cfb0",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+      "sourceRawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+      "text": "要不得！",
+      "sourceCount": 2,
+      "before": [
+        "一没有调查，没有发言权[1]",
+        "你对于某个问题没有调查，就停止你对于某个问题的发言权。这不太野蛮了吗？一点也不野蛮。你对那个问题的现实情况和历史情况既然没有调查，不知底里，对于那个问题的发言便一定是瞎说一顿。瞎说一顿之不能解决问题是大家明了的，那末，停止你的发言权有什么不公道呢？许多的同志都成天地闭着眼睛在那里瞎说，这是共产党员的耻辱，岂有共产党员而可以闭着眼睛瞎说一顿的吗？"
+      ],
+      "after": [
+        "注重调查！",
+        "反对瞎说！"
+      ],
+      "status": "previously_fixed_skipped",
+      "evidence": "docs/SOURCE_INTERNAL_HEADINGS_REVIEW_2026-10-02.json"
+    }
+  ],
+  "reviews": [
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "text": "500",
+      "sourceCount": 5,
+      "before": [
+        "16―20",
+        "21―25"
+      ],
+      "after": [
+        "第10周末",
+        "第15周末"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:10.243070+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "matchingSourceCellOrRowCount": 3,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 59.4pt; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"79\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">1 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">2 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">3 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">4 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">5</span></p></td>\n<td style=\"width: 54.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"72\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">5 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">6</span>―<span lang=\"EN-US\">10 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">11</span>―<span lang=\"EN-US\">15 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">16</span>―<span lang=\"EN-US\">20</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\"> 21</span>―<span lang=\"EN-US\">25</span></p></td>\n<td style=\"width: 63.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"84\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">500 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">500 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">500 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">500 </span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">500</span></p></td>\n<td style=\"width: 72.0pt; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"96\">\n<p align=\"center\" style=\"text-align:center\">第<span lang=\"EN-US\">10</span>周末</p>\n<p align=\"center\" style=\"text-align:center\">第<span lang=\"EN-US\">15</span>周末</p>\n<p align=\"center\" style=\"text-align:center\">第<span lang=\"EN-US\">20</span>周末</p>\n<p align=\"center\" style=\"text-align:center\">第<span lang=\"EN-US\">25</span>周末</p>\n<p align=\"center\" style=\"text-align:center\">第<span lang=\"EN-US\">30</span>周末</p>\n<p align=\"center\" style=\"text-align:center\">\r\n\t\t\t依此类推</p></td>\n</tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　　　资本的周转额是　　5+（2/3）×600＝3400镑<br/>\r\n　　　　资本的周转额是　　5　　　×300＝1500镑<br/>\r\n　　───────────────────<br/>\r\n因此，总资本的周转额是5+（4/9）×900＝4900镑。<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ300镑×5+（2/3）＝1700镑<br/>\r\n　　资本Ⅱ300镑×5+（1/3）＝1600镑<br/>\r\n　　资本Ⅲ300镑×5＝1500镑<br/>\r\n　　──────────────<br/>\r\n　　总资本900镑×5+（1/3）＝4800镑<br/>\n</td></tr>"
+      ],
+      "localTextOccurrenceCount": 45,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "12345",
+            "1―56―1011―1516―2021―25",
+            "500500500500500",
+            "第10周末第15周末第20周末第25周末第30周末依此类推"
+          ],
+          "compactText": "123451―56―1011―1516―2021―25500500500500500第10周末第15周末第20周末第25周末第30周末依此类推",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。"
+          ],
+          "compactText": "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑"
+          ],
+          "compactText": "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "text": "450",
+      "sourceCount": 6,
+      "before": [
+        "37―40+（1/2）",
+        "46―49+（1/2）"
+      ],
+      "after": [
+        "4+（1/2）―9",
+        "13+（1/2）―18"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:10.243070+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "matchingSourceCellOrRowCount": 4,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 86.4pt; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"115\">\n<p align=\"center\" style=\"text-align:center\">Ⅰ．<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅱ．<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅲ．<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅳ．<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅴ．<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅵ．<span lang=\"EN-US\">46</span>―（<span lang=\"EN-US\">54</span>）</p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p></td>\n<td style=\"width: 81.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"108\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p></td>\n<td style=\"width: 99.0pt; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"132\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">54</span>）<font color=\"#003E00\"><span style=\"font-size: 10.5pt\">［注：属于第二周转年度的各周，都放在括号里面］</span></font></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 211px; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">Ⅰ．<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅱ．<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅲ．<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅳ．<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅴ．<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅵ．<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">58+</span>（<span lang=\"EN-US\">1/2</span>））</p></td>\n<td style=\"width: 130px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">54</span>）</p></td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p></td>\n<td style=\"width: 118px; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">55</span>―<span lang=\"EN-US\">58+</span>（<span lang=\"EN-US\">1/2</span>）</p></td>\n</tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ生产6×450＝2700镑<br/>\r\n　　资本Ⅱ生产5+（1/3）×450＝2400镑<br/>\r\n　　────────────────<br/>\r\n　　合计5+（2/3）×900＝5100镑<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ的周转额是5+（2/3）×450＝2550镑<br/>\r\n　　资本Ⅱ的周转额是5+（1/6）×450＝2325镑<br/>\r\n　　────────────────────<br/>\r\n　　因此，总资本的周转额是5+（5/12）×900＝4875镑<br/>\n</td></tr>"
+      ],
+      "localTextOccurrenceCount": 32,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）",
+            "1―4+（1/2）10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）",
+            "450450450450450450",
+            "4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）［注：属于第二周转年度的各周，都放在括号里面］"
+          ],
+          "compactText": "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）1―4+（1/2）10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）4504504504504504504+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）［注：属于第二周转年度的各周，都放在括号里面］",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ．4+（1/2）―13+（1/2）Ⅱ．13+（1/2）―22+（1/2）Ⅲ．22+（1/2）―31+（1/2）Ⅳ．31+（1/2）―40+（1/2）Ⅴ．40+（1/2）―49+（1/2）Ⅵ．49+（1/2）―（58+（1/2））",
+            "4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）",
+            "450450450450450450",
+            "10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）55―58+（1/2）"
+          ],
+          "compactText": "Ⅰ．4+（1/2）―13+（1/2）Ⅱ．13+（1/2）―22+（1/2）Ⅲ．22+（1/2）―31+（1/2）Ⅳ．31+（1/2）―40+（1/2）Ⅴ．40+（1/2）―49+（1/2）Ⅵ．49+（1/2）―（58+（1/2））4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）45045045045045045010―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）55―58+（1/2）",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ生产6×450＝2700镑资本Ⅱ生产5+（1/3）×450＝2400镑────────────────合计5+（2/3）×900＝5100镑"
+          ],
+          "compactText": "资本Ⅰ生产6×450＝2700镑资本Ⅱ生产5+（1/3）×450＝2400镑────────────────合计5+（2/3）×900＝5100镑",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ的周转额是5+（2/3）×450＝2550镑资本Ⅱ的周转额是5+（1/6）×450＝2325镑────────────────────因此，总资本的周转额是5+（5/12）×900＝4875镑"
+          ],
+          "compactText": "资本Ⅰ的周转额是5+（2/3）×450＝2550镑资本Ⅱ的周转额是5+（1/6）×450＝2325镑────────────────────因此，总资本的周转额是5+（5/12）×900＝4875镑",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "text": "450",
+      "sourceCount": 6,
+      "before": [
+        "40+（1/2）―45",
+        "49+（1/2）―（54）"
+      ],
+      "after": [
+        "10―13+（1/2）",
+        "19―22+（1/2）"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:10.243070+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "matchingSourceCellOrRowCount": 4,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 86.4pt; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"115\">\n<p align=\"center\" style=\"text-align:center\">Ⅰ．<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅱ．<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅲ．<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅳ．<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅴ．<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">Ⅵ．<span lang=\"EN-US\">46</span>―（<span lang=\"EN-US\">54</span>）</p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p></td>\n<td style=\"width: 81.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"108\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p></td>\n<td style=\"width: 99.0pt; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"132\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">54</span>）<font color=\"#003E00\"><span style=\"font-size: 10.5pt\">［注：属于第二周转年度的各周，都放在括号里面］</span></font></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 211px; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">Ⅰ．<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅱ．<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅲ．<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅳ．<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅴ．<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">Ⅵ．<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">58+</span>（<span lang=\"EN-US\">1/2</span>））</p></td>\n<td style=\"width: 130px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">4+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">9</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">18</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">27</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">36</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）―<span lang=\"EN-US\">45</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）―（<span lang=\"EN-US\">54</span>）</p></td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">450</span></p></td>\n<td style=\"width: 118px; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\">\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">13+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">22+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">31+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">40+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">49+</span>（<span lang=\"EN-US\">1/2</span>）</p>\n<p align=\"center\" style=\"text-align:center\">\n<span lang=\"EN-US\">55</span>―<span lang=\"EN-US\">58+</span>（<span lang=\"EN-US\">1/2</span>）</p></td>\n</tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ生产6×450＝2700镑<br/>\r\n　　资本Ⅱ生产5+（1/3）×450＝2400镑<br/>\r\n　　────────────────<br/>\r\n　　合计5+（2/3）×900＝5100镑<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ的周转额是5+（2/3）×450＝2550镑<br/>\r\n　　资本Ⅱ的周转额是5+（1/6）×450＝2325镑<br/>\r\n　　────────────────────<br/>\r\n　　因此，总资本的周转额是5+（5/12）×900＝4875镑<br/>\n</td></tr>"
+      ],
+      "localTextOccurrenceCount": 32,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）",
+            "1―4+（1/2）10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）",
+            "450450450450450450",
+            "4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）［注：属于第二周转年度的各周，都放在括号里面］"
+          ],
+          "compactText": "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）1―4+（1/2）10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）4504504504504504504+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）［注：属于第二周转年度的各周，都放在括号里面］",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ．4+（1/2）―13+（1/2）Ⅱ．13+（1/2）―22+（1/2）Ⅲ．22+（1/2）―31+（1/2）Ⅳ．31+（1/2）―40+（1/2）Ⅴ．40+（1/2）―49+（1/2）Ⅵ．49+（1/2）―（58+（1/2））",
+            "4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）",
+            "450450450450450450",
+            "10―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）55―58+（1/2）"
+          ],
+          "compactText": "Ⅰ．4+（1/2）―13+（1/2）Ⅱ．13+（1/2）―22+（1/2）Ⅲ．22+（1/2）―31+（1/2）Ⅳ．31+（1/2）―40+（1/2）Ⅴ．40+（1/2）―49+（1/2）Ⅵ．49+（1/2）―（58+（1/2））4+（1/2）―913+（1/2）―1822+（1/2）―2731+（1/2）―3640+（1/2）―4549+（1/2）―（54）45045045045045045010―13+（1/2）19―22+（1/2）28―31+（1/2）37―40+（1/2）46―49+（1/2）55―58+（1/2）",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ生产6×450＝2700镑资本Ⅱ生产5+（1/3）×450＝2400镑────────────────合计5+（2/3）×900＝5100镑"
+          ],
+          "compactText": "资本Ⅰ生产6×450＝2700镑资本Ⅱ生产5+（1/3）×450＝2400镑────────────────合计5+（2/3）×900＝5100镑",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ的周转额是5+（2/3）×450＝2550镑资本Ⅱ的周转额是5+（1/6）×450＝2325镑────────────────────因此，总资本的周转额是5+（5/12）×900＝4875镑"
+          ],
+          "compactText": "资本Ⅰ的周转额是5+（2/3）×450＝2550镑资本Ⅱ的周转额是5+（1/6）×450＝2325镑────────────────────因此，总资本的周转额是5+（5/12）×900＝4875镑",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "text": "600",
+      "sourceCount": 6,
+      "before": [
+        "37―42",
+        "46―51"
+      ],
+      "after": [
+        "7―9",
+        "16―18"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:10.243070+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "matchingSourceCellOrRowCount": 5,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 95.4pt; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"127\">\n<p>Ⅰ．<span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">9 </span></p>\n<p>Ⅱ．<span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">18 </span></p>\n<p>Ⅲ．<span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">27 </span></p>\n<p>Ⅳ．<span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">36 </span></p>\n<p>Ⅴ．<span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">45 </span></p>\n<p>Ⅵ．<span lang=\"EN-US\">46</span>―（<span lang=\"EN-US\">54</span>）</p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p><span lang=\"EN-US\">1</span>―<span lang=\"EN-US\">6 </span></p>\n<p><span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">15 </span></p>\n<p><span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">24 </span></p>\n<p><span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">33 </span></p>\n<p><span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">42 </span></p>\n<p><span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">51</span></p></td>\n<td style=\"width: 81.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"108\">\n<p><span lang=\"EN-US\">600 </span></p>\n<p><span lang=\"EN-US\">600 </span></p>\n<p><span lang=\"EN-US\">600 </span></p>\n<p><span lang=\"EN-US\">600 </span></p>\n<p><span lang=\"EN-US\">600 </span></p>\n<p><span lang=\"EN-US\">600</span></p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p><span lang=\"EN-US\">7</span>―<span lang=\"EN-US\">9</span></p>\n<p><span lang=\"EN-US\">16</span>―<span lang=\"EN-US\">18</span></p>\n<p><span lang=\"EN-US\">25</span>―<span lang=\"EN-US\">27</span></p>\n<p><span lang=\"EN-US\">34</span>―<span lang=\"EN-US\">36</span></p>\n<p><span lang=\"EN-US\">43</span>―<span lang=\"EN-US\">45 </span></p>\n<p>（<span lang=\"EN-US\">52</span>―<span lang=\"EN-US\">54</span>）</p></td>\n</tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　　　资本的周转额是　　5+（2/3）×600＝3400镑<br/>\r\n　　　　资本的周转额是　　5　　　×300＝1500镑<br/>\r\n　　───────────────────<br/>\r\n因此，总资本的周转额是5+（4/9）×900＝4900镑。<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ300镑×5+（2/3）＝1700镑<br/>\r\n　　资本Ⅱ300镑×5+（1/3）＝1600镑<br/>\r\n　　资本Ⅲ300镑×5＝1500镑<br/>\r\n　　──────────────<br/>\r\n　　总资本900镑×5+（1/3）＝4800镑<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　1月1日出售300包，库存900包<br/>\r\n　　4月1日出售300包，库存600包<br/>\r\n　　7月1日出售300包，库存300包<br/>\r\n　　10月1日出售300包，库存0包<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　1月1日出售200包，库存1000包<br/>\r\n　　3月1日出售200包，库存800包<br/>\r\n　　5月1日出售200包，库存600包<br/>\r\n　　7月1日出售200包，库存400包<br/>\r\n　　9月1日出售200包，库存200包<br/>\r\n　　11月1日出售200包，库存0包<br/>\n</td></tr>"
+      ],
+      "localTextOccurrenceCount": 60,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）",
+            "1―610―1519―2428―3337―4246―51",
+            "600600600600600600",
+            "7―916―1825―2734―3643―45（52―54）"
+          ],
+          "compactText": "Ⅰ．1―9Ⅱ．10―18Ⅲ．19―27Ⅳ．28―36Ⅴ．37―45Ⅵ．46―（54）1―610―1519―2428―3337―4246―516006006006006006007―916―1825―2734―3643―45（52―54）",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。"
+          ],
+          "compactText": "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑"
+          ],
+          "compactText": "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "1月1日出售300包，库存900包4月1日出售300包，库存600包7月1日出售300包，库存300包10月1日出售300包，库存0包"
+          ],
+          "compactText": "1月1日出售300包，库存900包4月1日出售300包，库存600包7月1日出售300包，库存300包10月1日出售300包，库存0包",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "1月1日出售200包，库存1000包3月1日出售200包，库存800包5月1日出售200包，库存600包7月1日出售200包，库存400包9月1日出售200包，库存200包11月1日出售200包，库存0包"
+          ],
+          "compactText": "1月1日出售200包，库存1000包3月1日出售200包，库存800包5月1日出售200包，库存600包7月1日出售200包，库存400包9月1日出售200包，库存200包11月1日出售200包，库存0包",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "text": "300",
+      "sourceCount": 5,
+      "before": [
+        "34―36",
+        "43―45"
+      ],
+      "after": [
+        "10―15",
+        "19―24"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:10.243070+00:00",
+        "rawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+        "bytes": 96417
+      },
+      "matchingSourceCellOrRowCount": 4,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 86.4pt; border-left: 4.5pt double windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"115\">\n<p>Ⅰ．<span lang=\"EN-US\">7</span>―<span lang=\"EN-US\">15</span></p>\n<p>Ⅱ．<span lang=\"EN-US\">16</span>―<span lang=\"EN-US\">24</span></p>\n<p>Ⅲ．<span lang=\"EN-US\">25</span>―<span lang=\"EN-US\">33</span></p>\n<p>Ⅳ．<span lang=\"EN-US\">34</span>―<span lang=\"EN-US\">42</span></p>\n<p>Ⅴ．<span lang=\"EN-US\">43</span>―<span lang=\"EN-US\">51</span></p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p><span lang=\"EN-US\">7</span>―<span lang=\"EN-US\">9</span></p>\n<p><span lang=\"EN-US\">16</span>―<span lang=\"EN-US\">18</span></p>\n<p><span lang=\"EN-US\">25</span>―<span lang=\"EN-US\">27</span></p>\n<p><span lang=\"EN-US\">34</span>―<span lang=\"EN-US\">36</span></p>\n<p><span lang=\"EN-US\">43</span>―<span lang=\"EN-US\">45</span></p></td>\n<td style=\"width: 81.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"108\">\n<p><span lang=\"EN-US\">300</span></p>\n<p><span lang=\"EN-US\">300</span></p>\n<p><span lang=\"EN-US\">300</span></p>\n<p><span lang=\"EN-US\">300</span></p>\n<p><span lang=\"EN-US\">300</span></p></td>\n<td style=\"width: 90.0pt; border-left: medium none; border-right: 4.5pt double windowtext; border-top: medium none; border-bottom: medium none; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"120\">\n<p><span lang=\"EN-US\">10</span>―<span lang=\"EN-US\">15</span></p>\n<p><span lang=\"EN-US\">19</span>―<span lang=\"EN-US\">24</span></p>\n<p><span lang=\"EN-US\">28</span>―<span lang=\"EN-US\">33</span></p>\n<p><span lang=\"EN-US\">37</span>―<span lang=\"EN-US\">42</span></p>\n<p><span lang=\"EN-US\">46</span>―<span lang=\"EN-US\">51</span></p></td>\n</tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　　　资本的周转额是　　5+（2/3）×600＝3400镑<br/>\r\n　　　　资本的周转额是　　5　　　×300＝1500镑<br/>\r\n　　───────────────────<br/>\r\n因此，总资本的周转额是5+（4/9）×900＝4900镑。<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　资本Ⅰ300镑×5+（2/3）＝1700镑<br/>\r\n　　资本Ⅱ300镑×5+（1/3）＝1600镑<br/>\r\n　　资本Ⅲ300镑×5＝1500镑<br/>\r\n　　──────────────<br/>\r\n　　总资本900镑×5+（1/3）＝4800镑<br/>\n</td></tr>",
+        "<tr><td style=\"line-height: 200%\">\r\n　　1月1日出售300包，库存900包<br/>\r\n　　4月1日出售300包，库存600包<br/>\r\n　　7月1日出售300包，库存300包<br/>\r\n　　10月1日出售300包，库存0包<br/>\n</td></tr>"
+      ],
+      "localTextOccurrenceCount": 74,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ．7―15Ⅱ．16―24Ⅲ．25―33Ⅳ．34―42Ⅴ．43―51",
+            "7―916―1825―2734―3643―45",
+            "300300300300300",
+            "10―1519―2428―3337―4246―51"
+          ],
+          "compactText": "Ⅰ．7―15Ⅱ．16―24Ⅲ．25―33Ⅳ．34―42Ⅴ．43―517―916―1825―2734―3643―4530030030030030010―1519―2428―3337―4246―51",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。"
+          ],
+          "compactText": "资本的周转额是5+（2/3）×600＝3400镑资本的周转额是5×300＝1500镑───────────────────因此，总资本的周转额是5+（4/9）×900＝4900镑。",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑"
+          ],
+          "compactText": "资本Ⅰ300镑×5+（2/3）＝1700镑资本Ⅱ300镑×5+（1/3）＝1600镑资本Ⅲ300镑×5＝1500镑──────────────总资本900镑×5+（1/3）＝4800镑",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "1月1日出售300包，库存900包4月1日出售300包，库存600包7月1日出售300包，库存300包10月1日出售300包，库存0包"
+          ],
+          "compactText": "1月1日出售300包，库存900包4月1日出售300包，库存600包7月1日出售300包，库存300包10月1日出售300包，库存0包",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "text": "100%",
+      "sourceCount": 5,
+      "before": [
+        "Ⅳ85c+15v",
+        "Ⅴ95c+5v"
+      ],
+      "after": [
+        "20",
+        "30"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:40.797327+00:00",
+        "rawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+        "bytes": 45413
+      },
+      "matchingSourceCellOrRowCount": 2,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 77.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"103\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 70px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20</span></p>\n<p><span lang=\"en-us\">30</span></p>\n<p><span lang=\"en-us\">40</span></p>\n<p><span lang=\"en-us\">15</span></p>\n<p><span lang=\"en-us\">5</span></p></td>\n<td style=\"width: 74px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">120</span></p>\n<p><span lang=\"en-us\">130</span></p>\n<p><span lang=\"en-us\">140</span></p>\n<p><span lang=\"en-us\">115</span></p>\n<p><span lang=\"en-us\">105</span></p></td>\n<td style=\"width: 46px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20%</span></p>\n<p><span lang=\"en-us\">30%</span></p>\n<p><span lang=\"en-us\">40%</span></p>\n<p><span lang=\"en-us\">15%</span></p>\n<p><span lang=\"en-us\">5%</span></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 88px; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 66px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20</p>\n<p>30</p>\n<p>40</p>\n<p>15</p>\n<p>5</p></td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20%</p>\n<p>30%</p>\n<p>40%</p>\n<p>15%</p>\n<p>5%</p></td>\n<td style=\"width: 80px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>50</p>\n<p>51</p>\n<p>51</p>\n<p>40</p>\n<p>10</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">90</span></p>\n<p><span lang=\"EN-US\">111</span></p>\n<p><span lang=\"EN-US\">131</span></p>\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">20</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">81</span></p>\n<p><span lang=\"EN-US\">91</span></p>\n<p><span lang=\"EN-US\">55</span></p>\n<p><span lang=\"EN-US\">15</span></p></td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 10,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "120130140115105",
+            "20%30%40%15%5%"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015512013014011510520%30%40%15%5%",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "20%30%40%15%5%",
+            "5051514010",
+            "901111317020",
+            "7081915515"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015520%30%40%15%5%50515140109011113170207081915515",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "text": "100%",
+      "sourceCount": 5,
+      "before": [
+        "Ⅳ85c+15v",
+        "Ⅴ95c+5v"
+      ],
+      "after": [
+        "20",
+        "30"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:40.797327+00:00",
+        "rawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+        "bytes": 45413
+      },
+      "matchingSourceCellOrRowCount": 2,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 77.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"103\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 70px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20</span></p>\n<p><span lang=\"en-us\">30</span></p>\n<p><span lang=\"en-us\">40</span></p>\n<p><span lang=\"en-us\">15</span></p>\n<p><span lang=\"en-us\">5</span></p></td>\n<td style=\"width: 74px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">120</span></p>\n<p><span lang=\"en-us\">130</span></p>\n<p><span lang=\"en-us\">140</span></p>\n<p><span lang=\"en-us\">115</span></p>\n<p><span lang=\"en-us\">105</span></p></td>\n<td style=\"width: 46px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20%</span></p>\n<p><span lang=\"en-us\">30%</span></p>\n<p><span lang=\"en-us\">40%</span></p>\n<p><span lang=\"en-us\">15%</span></p>\n<p><span lang=\"en-us\">5%</span></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 88px; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 66px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20</p>\n<p>30</p>\n<p>40</p>\n<p>15</p>\n<p>5</p></td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20%</p>\n<p>30%</p>\n<p>40%</p>\n<p>15%</p>\n<p>5%</p></td>\n<td style=\"width: 80px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>50</p>\n<p>51</p>\n<p>51</p>\n<p>40</p>\n<p>10</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">90</span></p>\n<p><span lang=\"EN-US\">111</span></p>\n<p><span lang=\"EN-US\">131</span></p>\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">20</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">81</span></p>\n<p><span lang=\"EN-US\">91</span></p>\n<p><span lang=\"EN-US\">55</span></p>\n<p><span lang=\"EN-US\">15</span></p></td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 10,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "120130140115105",
+            "20%30%40%15%5%"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015512013014011510520%30%40%15%5%",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "20%30%40%15%5%",
+            "5051514010",
+            "901111317020",
+            "7081915515"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015520%30%40%15%5%50515140109011113170207081915515",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "text": "51",
+      "sourceCount": 2,
+      "before": [
+        "5%",
+        "50"
+      ],
+      "after": [
+        "40",
+        "10"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:40.797327+00:00",
+        "rawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+        "bytes": 45413
+      },
+      "matchingSourceCellOrRowCount": 3,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 77.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"103\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 70px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p>\n<p><span lang=\"en-us\">100%</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20</span></p>\n<p><span lang=\"en-us\">30</span></p>\n<p><span lang=\"en-us\">40</span></p>\n<p><span lang=\"en-us\">15</span></p>\n<p><span lang=\"en-us\">5</span></p></td>\n<td style=\"width: 74px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">120</span></p>\n<p><span lang=\"en-us\">130</span></p>\n<p><span lang=\"en-us\">140</span></p>\n<p><span lang=\"en-us\">115</span></p>\n<p><span lang=\"en-us\">105</span></p></td>\n<td style=\"width: 46px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"en-us\">20%</span></p>\n<p><span lang=\"en-us\">30%</span></p>\n<p><span lang=\"en-us\">40%</span></p>\n<p><span lang=\"en-us\">15%</span></p>\n<p><span lang=\"en-us\">5%</span></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 88px; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 66px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p>\n<p>100%</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20</p>\n<p>30</p>\n<p>40</p>\n<p>15</p>\n<p>5</p></td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>20%</p>\n<p>30%</p>\n<p>40%</p>\n<p>15%</p>\n<p>5%</p></td>\n<td style=\"width: 80px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p>50</p>\n<p>51</p>\n<p>51</p>\n<p>40</p>\n<p>10</p></td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">90</span></p>\n<p><span lang=\"EN-US\">111</span></p>\n<p><span lang=\"EN-US\">131</span></p>\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">20</span></p></td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">81</span></p>\n<p><span lang=\"EN-US\">91</span></p>\n<p><span lang=\"EN-US\">55</span></p>\n<p><span lang=\"EN-US\">15</span></p></td>\n</tr>",
+        "<tr>\n<td style=\"width: 77.4pt; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"103\">\n<p>Ⅰ<span lang=\"EN-US\">80c+20v</span></p>\n<p>Ⅱ<span lang=\"EN-US\">70c+30v</span></p>\n<p>Ⅲ<span lang=\"EN-US\">60c+40v</span></p>\n<p>Ⅳ<span lang=\"EN-US\">85c+15v</span></p>\n<p>Ⅴ<span lang=\"EN-US\">95c+5v</span></p></td>\n<td style=\"width: 36.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"48\">\n<p><span lang=\"EN-US\">20</span></p>\n<p><span lang=\"EN-US\">30</span></p>\n<p><span lang=\"EN-US\">40</span></p>\n<p><span lang=\"EN-US\">15</span></p>\n<p><span lang=\"EN-US\">5</span></p></td>\n<td style=\"width: 36.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"48\">\n<p><span lang=\"EN-US\">90</span></p>\n<p><span lang=\"EN-US\">111</span></p>\n<p><span lang=\"EN-US\">131</span></p>\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">20</span></p></td>\n<td style=\"width: 45.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"60\">\n<p><span lang=\"EN-US\">70</span></p>\n<p><span lang=\"EN-US\">81</span></p>\n<p><span lang=\"EN-US\">91</span></p>\n<p><span lang=\"EN-US\">55</span></p>\n<p><span lang=\"EN-US\">15</span></p></td>\n<td style=\"width: 36.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"48\">\n<p><span lang=\"EN-US\">92</span></p>\n<p><span lang=\"EN-US\">103</span></p>\n<p><span lang=\"EN-US\">113</span></p>\n<p><span lang=\"EN-US\">77</span></p>\n<p><span lang=\"EN-US\">37</span></p></td>\n<td style=\"width: 36.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"48\">\n<p><span lang=\"EN-US\">22</span></p>\n<p><span lang=\"EN-US\">22</span></p>\n<p><span lang=\"EN-US\">22</span></p>\n<p><span lang=\"EN-US\">22</span></p>\n<p><span lang=\"EN-US\">22</span></p></td>\n<td style=\"width: 54.0pt; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\" width=\"72\">\n<p><span lang=\"EN-US\">+2</span></p>\n<p><span lang=\"EN-US\">-8</span></p>\n<p><span lang=\"EN-US\">-18</span></p>\n<p><span lang=\"EN-US\">+7</span></p>\n<p><span lang=\"EN-US\">+17</span></p></td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 6,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "120130140115105",
+            "20%30%40%15%5%"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015512013014011510520%30%40%15%5%",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "100%100%100%100%100%",
+            "203040155",
+            "20%30%40%15%5%",
+            "5051514010",
+            "901111317020",
+            "7081915515"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v100%100%100%100%100%20304015520%30%40%15%5%50515140109011113170207081915515",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v",
+            "203040155",
+            "901111317020",
+            "7081915515",
+            "921031137737",
+            "2222222222",
+            "+2-8-18+7+17"
+          ],
+          "compactText": "Ⅰ80c+20vⅡ70c+30vⅢ60c+40vⅣ85c+15vⅤ95c+5v20304015590111131702070819155159210311377372222222222+2-8-18+7+17",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "text": "22",
+      "sourceCount": 5,
+      "before": [
+        "77",
+        "37"
+      ],
+      "after": [
+        "+2",
+        "-8"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:40.797327+00:00",
+        "rawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+        "bytes": 45413
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"width: 88px; border-left: 1.0pt solid windowtext; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\n<span lang=\"EN-US\">平均 78c+22v</span></td>\n<td style=\"width: 66px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t―</td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t22</td>\n<td style=\"width: 44px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t22%</td>\n<td style=\"width: 80px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t―</td>\n<td style=\"width: 61px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t―</td>\n<td style=\"width: 58px; border-left: medium none; border-right: 1.0pt solid windowtext; border-top: medium none; border-bottom: 1.0pt solid windowtext; padding-left: 5.4pt; padding-right: 5.4pt; padding-top: 0cm; padding-bottom: 0cm\" valign=\"top\">\r\n\t\t―</td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 19,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "平均78c+22v",
+            "―",
+            "22",
+            "22%",
+            "―",
+            "―",
+            "―"
+          ],
+          "compactText": "平均78c+22v―2222%―――",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+      "text": "夸特先令",
+      "sourceCount": 2,
+      "before": [
+        "投资利润",
+        "地租每夸特的生产价格"
+      ],
+      "after": [
+        "夸特先令先令",
+        "A11/360"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:41:42.612016+00:00",
+        "rawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+        "bytes": 45842
+      },
+      "matchingSourceCellOrRowCount": 3,
+      "sourceRowsHtml": [
+        "<tr><td align=\"center\">夸特</td><td align=\"center\">先令</td><td align=\"center\">夸　特</td>\n<td align=\"center\">先令</td><td align=\"center\">夸特</td><td align=\"center\">先令</td></tr>",
+        "<tr><td align=\"center\">夸　特</td><td align=\"center\">先令</td>\n<td align=\"center\">夸　特</td><td align=\"center\">先令</td>\n<td align=\"center\">夸　特</td><td align=\"center\">先令</td><td align=\"center\">先令</td></tr>"
+      ],
+      "localTextOccurrenceCount": 9,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "夸特",
+            "先令",
+            "夸特",
+            "先令",
+            "夸特",
+            "先令"
+          ],
+          "compactText": "夸特先令夸特先令夸特先令",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "夸特",
+            "先令",
+            "夸特",
+            "先令",
+            "夸特",
+            "先令",
+            "先令"
+          ],
+          "compactText": "夸特先令夸特先令夸特先令先令",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "夸特",
+            "先令",
+            "夸特",
+            "先令",
+            "夸特",
+            "先令"
+          ],
+          "compactText": "夸特先令夸特先令夸特先令",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-008-c9517b7869",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+      "text": "1114",
+      "sourceCount": 2,
+      "before": [
+        "4974",
+        "1136"
+      ],
+      "after": [
+        "553",
+        "532"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:12.100978+00:00",
+        "rawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+        "bytes": 88094
+      },
+      "matchingSourceCellOrRowCount": 2,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 2.25pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 180pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 2.25pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"240\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">工厂出现以后的卡赖尔市</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54.75pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"73\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">4974</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 36pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"48\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">1136</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">1114</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">1114</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">553</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 44.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"59\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">532</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">298</span></p></td>\n<td style=\"BORDER-BOTTOM: 1pt solid windowtext; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 44px; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid windowtext; PADDING-TOP: 0cm\" valign=\"top\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">38</span></p></td>\n<td align=\"center\" style=\"BORDER-BOTTOM: 1pt solid windowtext; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 92px; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: 2.25pt solid windowtext; PADDING-TOP: 0cm\" valign=\"top\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">3</span></p></td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 2,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "工厂出现以后的卡赖尔市",
+            "4974",
+            "1136",
+            "1114",
+            "1114",
+            "553",
+            "532",
+            "298",
+            "38",
+            "3"
+          ],
+          "compactText": "工厂出现以后的卡赖尔市4974113611141114553532298383",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "工厂出现以后的卡赖尔市",
+            "4974",
+            "1136",
+            "1114",
+            "1114",
+            "553",
+            "532",
+            "298",
+            "38",
+            "3"
+          ],
+          "compactText": "工厂出现以后的卡赖尔市4974113611141114553532298383",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-008-c9517b7869",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+      "text": "1198",
+      "sourceCount": 2,
+      "before": [
+        "5286",
+        "927"
+      ],
+      "after": [
+        "593",
+        "512"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:12.100978+00:00",
+        "rawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+        "bytes": 88094
+      },
+      "matchingSourceCellOrRowCount": 2,
+      "sourceRowsHtml": [
+        "<tr>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: windowtext 2.25pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 180pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 2.25pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"240\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">工厂城市里子</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 54.75pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"73\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">5286</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 36pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"48\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">927</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">1198</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">1198</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">593</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 44.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"59\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">512</span></p></td>\n<td style=\"BORDER-BOTTOM: windowtext 1pt solid; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 37.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: windowtext 1pt solid; PADDING-TOP: 0cm\" valign=\"top\" width=\"49\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">225</span></p></td>\n<td style=\"BORDER-BOTTOM: 1pt solid windowtext; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 44px; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: 1pt solid windowtext; PADDING-TOP: 0cm\" valign=\"top\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">29</span></p></td>\n<td align=\"center\" style=\"BORDER-BOTTOM: 1pt solid windowtext; BORDER-LEFT: medium none; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 92px; PADDING-RIGHT: 5.4pt; BORDER-TOP: medium none; BORDER-RIGHT: 2.25pt solid windowtext; PADDING-TOP: 0cm\" valign=\"top\">\n<p align=\"left\" class=\"MsoNormal\" style=\"TEXT-ALIGN: left\">\n<span lang=\"ZH-CN\">2</span></p></td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 2,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "工厂城市里子",
+            "5286",
+            "927",
+            "1198",
+            "1198",
+            "593",
+            "512",
+            "225",
+            "29",
+            "2"
+          ],
+          "compactText": "工厂城市里子528692711981198593512225292",
+          "localPresent": true
+        },
+        {
+          "cells": [
+            "工厂城市里子",
+            "5286",
+            "927",
+            "1198",
+            "1198",
+            "593",
+            "512",
+            "225",
+            "29",
+            "2"
+          ],
+          "compactText": "工厂城市里子528692711981198593512225292",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-012-0b59796b85",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+      "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+      "text": "20岁以上20岁以下",
+      "sourceCount": 2,
+      "before": [
+        "男人",
+        "女人总数"
+      ],
+      "after": [
+        "煤矿…………8340832475",
+        "11851165118233"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:13.953698+00:00",
+        "rawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+        "bytes": 30217
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<tr><td>　</td><td align=\"center\">20岁以上</td><td align=\"center\">20岁以下</td>\n<td align=\"center\">20岁以上</td><td align=\"center\">20岁以下</td>\n<td align=\"center\">　</td>\n</tr>"
+      ],
+      "localTextOccurrenceCount": 2,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [
+            "",
+            "20岁以上",
+            "20岁以下",
+            "20岁以上",
+            "20岁以下",
+            ""
+          ],
+          "compactText": "20岁以上20岁以下20岁以上20岁以下",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "35",
+      "sourceCount": 2,
+      "before": [
+        "总计",
+        "70"
+      ],
+      "after": [
+        "140",
+        "在英国，占第一位的是它的殖民地，它在美洲也有广大的殖民地(例如加拿大），在亚洲等地就更不必说了。英国资本的大量输出，同大量的殖民地有最密切的联系。关于殖民地对帝国主义的意义，我们以后还要讲到。法国的情况不同。它的国外投资主要是在欧洲，首先是在俄国（不下100亿法郎），并且多半是借贷资本即公债，而不是对工业企业的投资。法国帝国主义与英国殖民帝国主义不同，可以叫作高利贷帝国主义。德国又是另一种情况，它的殖民地不多，它的国外投资在欧美两洲之间分布得最平均。"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:15.259490+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<span lang=\"ZH-CN\" style=\"font-size: 11pt\">总计\n\n　　　　　　　　 70　　\n35　　\n35　\n140</span>"
+      ],
+      "localTextOccurrenceCount": 12,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [],
+          "compactText": "总计703535140",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "100.0%",
+      "sourceCount": 2,
+      "before": [
+        "+5.1%",
+        "在澳洲"
+      ],
+      "after": [
+        "-",
+        "在美洲"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:15.259490+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<span lang=\"ZH-CN\" style=\"font-size: 11pt\">在澳洲\n\n　　　　　　　　　　　　　　　　 \n100.0%　\n100.0% \n　　 \n-　</span>"
+      ],
+      "localTextOccurrenceCount": 2,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [],
+          "compactText": "在澳洲100.0%100.0%-",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "面积人口",
+      "sourceCount": 2,
+      "before": [
+        "法国",
+        "德国"
+      ],
+      "after": [
+        "□面积人口",
+        "年份"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:15.259490+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<span lang=\"ZH-CN\" style=\"font-size: 11pt\">　　　\n\n　　　　　　　　　\n　　\n面积　　人口\n　　 \n面积　　人口　\n \n□面积　　人口</span>"
+      ],
+      "localTextOccurrenceCount": 8,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [],
+          "compactText": "面积人口面积人口□面积人口",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "1914年",
+      "sourceCount": 3,
+      "before": [
+        "共计",
+        "1876年"
+      ],
+      "after": [
+        "面积",
+        "人口□面积"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:15.259490+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<span lang=\"ZH-CN\" style=\"font-size: 11pt\">\n　　　　 \n1876年　　\n1914年\n　　 \n1914年　　 \n1914年</span>"
+      ],
+      "localTextOccurrenceCount": 15,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [],
+          "compactText": "1876年1914年1914年1914年",
+          "localPresent": true
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "人口□面积",
+      "sourceCount": 2,
+      "before": [
+        "1914年",
+        "面积"
+      ],
+      "after": [
+        "人口",
+        "面积"
+      ],
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:42:15.259490+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "matchingSourceCellOrRowCount": 1,
+      "sourceRowsHtml": [
+        "<span lang=\"ZH-CN\" style=\"font-size: 11pt\">\n　　　\n面积\n人口□面积\n人口□面积\n人口\n \n面积\n人口</span>"
+      ],
+      "localTextOccurrenceCount": 3,
+      "status": "reviewed_repeated_table_cells_preserved",
+      "sourceRows": [
+        {
+          "cells": [],
+          "compactText": "面积人口□面积人口□面积人口面积人口",
+          "localPresent": true
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 6,
+    "repeatedGroupsReviewed": 18,
+    "existingRepairsSkipped": 2,
+    "newRepairs": 0,
+    "sourceRowsOrPlainStatisticalContainersPreserved": true,
+    "articleAssetsUnchanged": true
+  },
+  "pageReviews": [
+    {
+      "bookId": "capital-v2-zh",
+      "chapterId": "chapter-017-2e2b9aa7fb",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/24/017.htm",
+      "sourceRawSha256": "81cd9c6ff3272cfac9258e62c94a1e1bda3e8ac57f25983fb84eade2a4af9b11",
+      "localBodySha256": "eecadaf00d0d1322c779fc4682cbba8bea45000e6fc2040d9d6aaf63401c010f",
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-010-220b6efe49",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/010.htm",
+      "sourceRawSha256": "9a5a80667dc1904a99b7682d0a4986bd97563a250684e16103bcfc05097ce699",
+      "localBodySha256": "e378a84277228dd9d33a15ac6cba05eff6141b8414c8bb8f097833f7d60d65bf",
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "capital-v3-zh",
+      "chapterId": "chapter-040-ebaa639173",
+      "sourceUrl": "https://www.marxists.org/chinese/marx-engels/25/040.htm",
+      "sourceRawSha256": "69bbcfccd0b06a7a3ba56e6e63836364b54538b0c75ed94ebf83de08a0364077",
+      "localBodySha256": "94c8591dd382350a1d2916b85fd6dca5a4b9ffd0d5bdb0836f6f32115add6cd1",
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-008-c9517b7869",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+      "localBodySha256": "224ed59b43260b098675a4f68a0fa227d74ce5d6628f20119d38bd00c25c89e0",
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-012-0b59796b85",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+      "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+      "localBodySha256": "ece7c65e91ce6e0b167562afb0aa1959e8e1cdffd09ac3da128f04b2f61ed0c1",
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "localBodySha256": "9aada0987c5682898f624444ff5b4072de8a7ad798c444f2559c58abfe9cc13f",
+      "sourceBodyAndNativeNotesMatch": true
+    }
+  ]
+}

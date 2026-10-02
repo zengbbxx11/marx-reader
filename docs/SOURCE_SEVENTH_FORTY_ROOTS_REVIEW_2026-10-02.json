@@ -1,0 +1,2773 @@
+{
+  "date": "2026-10-02",
+  "scope": "接续核查40篇单篇作品的40个新鲜源页及80个未判定短行，文档TITLE、章根和独立文库路径；正文与网页原注对照，不将初筛未分类项认定为缺文。",
+  "reviews": [
+    {
+      "bookId": "marx-work-3d1896ac8885",
+      "chapterId": "chapter-001-3d1896ac88",
+      "title": "马克思致路德维希・库格曼",
+      "chapterTitle": "马克思致路德维希·库格曼",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18650223.htm",
+      "sourceRawSha256": "343dfc1dccdd88a0113a5432487c0a085bb14f6071618a892f8be31e6734feb7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18650223.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18650223.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:38.925638+00:00",
+        "rawSha256": "343dfc1dccdd88a0113a5432487c0a085bb14f6071618a892f8be31e6734feb7",
+        "bytes": 17223
+      },
+      "localBodySha256": "2ce5639c883b578797ee60f33446c660467405e23068971dff283261dc9742b0",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-3d1896ac8885-chapter-chapter-001-3d1896ac88",
+          "parentId": "toc-marx-work-3d1896ac8885-root",
+          "title": "马克思致路德维希·库格曼",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-3d1896ac88",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "马克思致路德维希・库格曼汉诺威1865年2月23日于伦敦哈佛斯托克小山梅特兰公园路莫丹那别墅1号敬爱的朋友：",
+        "昨天我接到您的一封使我很感兴趣的信，现在就来逐项回答。"
+      ],
+      "nativeNoteCount": 12,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-3d1896ac8885",
+          "chapterId": "chapter-001-3d1896ac88",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18650223.htm",
+          "sourceRawSha256": "343dfc1dccdd88a0113a5432487c0a085bb14f6071618a892f8be31e6734feb7",
+          "lineIndex": 2,
+          "text": "马克思致路德维希・库格曼（1865年2月23日）",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马克思致路德维希・库格曼（1865年2月23日）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-3d1896ac8885",
+          "chapterId": "chapter-001-3d1896ac88",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18650223.htm",
+          "sourceRawSha256": "343dfc1dccdd88a0113a5432487c0a085bb14f6071618a892f8be31e6734feb7",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-76de55b6e7ed",
+      "chapterId": "chapter-001-76de55b6e7",
+      "title": "我们的任务和工人代表苏维埃",
+      "chapterTitle": "我们的任务和工人代表苏维埃",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19051102-04.htm",
+      "sourceRawSha256": "181dca7e17a404b14a3bc5291e6ac076707ea726d1db74ce7de4d0a214b01062",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19051102-04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19051102-04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:40.129195+00:00",
+        "rawSha256": "181dca7e17a404b14a3bc5291e6ac076707ea726d1db74ce7de4d0a214b01062",
+        "bytes": 15771
+      },
+      "localBodySha256": "1b46cf6a0c8bf84924bb473bfb92c1fbb79ba838138eda3e9e85ad1b48ac4a85",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-76de55b6e7ed-chapter-chapter-001-76de55b6e7",
+          "parentId": "toc-lenin-work-76de55b6e7ed-root",
+          "title": "我们的任务和工人代表苏维埃",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-76de55b6e7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们的任务和工人代表苏维埃[51]（给编辑部的信）",
+        "（1905年11月2―4日〔15―17日〕）"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-76de55b6e7ed",
+          "chapterId": "chapter-001-76de55b6e7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19051102-04.htm",
+          "sourceRawSha256": "181dca7e17a404b14a3bc5291e6ac076707ea726d1db74ce7de4d0a214b01062",
+          "lineIndex": 6,
+          "text": "我们的任务和工人代表苏维埃（1905年11月2―4日〔15―17日〕）",
+          "compactLength": 35,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>我们的任务和工人代表苏维埃（1905年11月2―4日〔15―17日〕）</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-76de55b6e7ed",
+          "chapterId": "chapter-001-76de55b6e7",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19051102-04.htm",
+          "sourceRawSha256": "181dca7e17a404b14a3bc5291e6ac076707ea726d1db74ce7de4d0a214b01062",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁",
+          "compactLength": 13,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-c74c8338fd97",
+      "chapterId": "chapter-001-c74c8338fd",
+      "title": "向全国进军的命令",
+      "chapterTitle": "向全国进军的命令",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490421.htm",
+      "sourceRawSha256": "3169033c2143d8d442c367b2226e1a8f2a92975a991d5801acc0aad134b836ff",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490421.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490421.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:40.962971+00:00",
+        "rawSha256": "3169033c2143d8d442c367b2226e1a8f2a92975a991d5801acc0aad134b836ff",
+        "bytes": 14832
+      },
+      "localBodySha256": "c28d83eb05c24368fb41ea708395a8aff471cc375a247c30a1dae93e5adbb5eb",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-c74c8338fd97-chapter-chapter-001-c74c8338fd",
+          "parentId": "toc-mao-work-c74c8338fd97-root",
+          "title": "向全国进军的命令",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-c74c8338fd",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "向全国进军的命令*（一九四九年四月二十一日）",
+        "各野战军全体指挥员战斗员同志们，南方各游击区人民解放军同志们："
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-c74c8338fd97",
+          "chapterId": "chapter-001-c74c8338fd",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490421.htm",
+          "sourceRawSha256": "3169033c2143d8d442c367b2226e1a8f2a92975a991d5801acc0aad134b836ff",
+          "lineIndex": 2,
+          "text": "向全国进军的命令（一九四九年四月二十一日）",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>向全国进军的命令（一九四九年四月二十一日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-c74c8338fd97",
+          "chapterId": "chapter-001-c74c8338fd",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490421.htm",
+          "sourceRawSha256": "3169033c2143d8d442c367b2226e1a8f2a92975a991d5801acc0aad134b836ff",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-6d702f95f801",
+      "chapterId": "chapter-001-6d702f95f8",
+      "title": "恩格斯致康・施米特",
+      "chapterTitle": "恩格斯致康·施米特",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+      "sourceRawSha256": "fe2684a552092c94f4564ea9f756b0ee751356d1d043f7917d4b73af783a45d1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:42.074266+00:00",
+        "rawSha256": "fe2684a552092c94f4564ea9f756b0ee751356d1d043f7917d4b73af783a45d1",
+        "bytes": 15504
+      },
+      "localBodySha256": "c45ee72683fec56dfc76a8183a9aa8f234adee3137540066dd7f5f8a201896d0",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-6d702f95f801-chapter-chapter-001-6d702f95f8",
+          "parentId": "toc-engels-work-6d702f95f801-root",
+          "title": "恩格斯致康·施米特",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-6d702f95f8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯致康拉德・施米特柏林1890年10月27日于伦敦亲爱的施米特：",
+        "我现在刚刚抽出空来给您写回信。我认为，如果您接受《苏黎世邮报》的聘请，那将是做得很对的。在那里，您总可以在经济方面学到许多东西，特别是如果您随时注意，苏黎世毕竟只是第三等的金融和投机市场，因而在那里得到的印象都是由于双重的和三重的反映而被削弱、或者被故意歪曲了的。但是您在实践中会熟悉全部机构，并且会不得不注意从伦敦、纽约、巴黎、柏林、维也纳收到的第一手的交易所行情报告，这样，您就会看到反映为金融和证券市场的世界市场。经济的、政治的和其他的反映同人眼睛中的反映是完全一样的，它们都通过聚光镜，因而都表现为倒立的影像――头足倒置。这里只缺少一个使它们在我们的观念中又正立起来的神经器官。金融市场上的人所看到的工业和世界市场的运动，恰好只是金融和证券市场的倒置的反映，所以在他们看来结果就变成[1]了原因。这种情况我早在四十年代就在曼彻斯特看到过：伦敦的交易所行情报告对于认识工业的发展进程以及周期性的最高限度和最低限度是绝对无用的，因为这些先生们想用金融市场的危机来解释一切，而这些危机本身多半只是一种征候而已。当时问题是在于要否认工业危机来源于暂时的生产过剩，所以问题同时还有促使进行歪曲的倾向性的方面。现在，这一点至少对我们来说已经永远消失，而且下述情况的的确确是事实：金融市场也会有自己的危机，工业中的直接的紊乱对这种危机只起从属的作用，或者甚至根本不起作用。在这里，还需要确定和研究一些东西，特别是要根据近二十年的历史来加以确定和研究。"
+      ],
+      "nativeNoteCount": 8,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-6d702f95f801",
+          "chapterId": "chapter-001-6d702f95f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+          "sourceRawSha256": "fe2684a552092c94f4564ea9f756b0ee751356d1d043f7917d4b73af783a45d1",
+          "lineIndex": 2,
+          "text": "恩格斯致康・施米特（1890年10月27日于伦敦）",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>恩格斯致康・施米特（1890年10月27日于伦敦）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-6d702f95f801",
+          "chapterId": "chapter-001-6d702f95f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1890-10-27.htm",
+          "sourceRawSha256": "fe2684a552092c94f4564ea9f756b0ee751356d1d043f7917d4b73af783a45d1",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-5395a4f3d12f",
+      "chapterId": "chapter-001-5395a4f3d1",
+      "title": "埃斯帕特罗",
+      "chapterTitle": "埃斯帕特罗",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18540804.htm",
+      "sourceRawSha256": "680cd5f8f81bb4fd651f5957289c2626628de736e4ee7bc76fcbbf71d0815ffb",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18540804.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18540804.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:42.333453+00:00",
+        "rawSha256": "680cd5f8f81bb4fd651f5957289c2626628de736e4ee7bc76fcbbf71d0815ffb",
+        "bytes": 15293
+      },
+      "localBodySha256": "282b77b329ee33607056ff00703468c02ab680f8ef84664786f4e037154c5398",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-5395a4f3d12f-chapter-chapter-001-5395a4f3d1",
+          "parentId": "toc-marx-work-5395a4f3d12f-root",
+          "title": "埃斯帕特罗",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-5395a4f3d1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "卡·马克思",
+        "一切革命都有一个显著的特点，这就是：正当人民似乎临近一个伟大的开端、一个新时代展现在他们面前的时候，他们却让自己沉湎于过去的幻想，自动地把自己好容易才争得的权力、一切影响让给过去时代人民运动的真正的或者冒牌的代表。历史上有这样一些人，人民惯于在社会危机时刻把他们背在自己的背上，而以后就很难摆脱掉他们，就像航海家辛伯达［注：“辛伯达航海旅行的故事”的主人公，见“一千零一夜”人民文学出版社版第2卷第301页。——编者注］很难摆脱掉用两腿夹着他的脖子的凶恶的老头子一样。埃斯帕特罗便是这样一类人。你要是问一个属于所谓进步派的西班牙人，埃斯帕特罗有什么政治作用，那末他会毫不犹豫地回答说："
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-5395a4f3d12f",
+          "chapterId": "chapter-001-5395a4f3d1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18540804.htm",
+          "sourceRawSha256": "680cd5f8f81bb4fd651f5957289c2626628de736e4ee7bc76fcbbf71d0815ffb",
+          "lineIndex": 2,
+          "text": "马克思：埃斯帕特罗（1854年8月4日）",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马克思：埃斯帕特罗（1854年8月4日）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-5395a4f3d12f",
+          "chapterId": "chapter-001-5395a4f3d1",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18540804.htm",
+          "sourceRawSha256": "680cd5f8f81bb4fd651f5957289c2626628de736e4ee7bc76fcbbf71d0815ffb",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-3d23a7e8feea",
+      "chapterId": "chapter-001-3d23a7e8fe",
+      "title": "为争取千百万群众进入抗日民族统一战线而斗争",
+      "chapterTitle": "为争取千百万群众进入抗日民族统一战线而斗争",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+      "sourceRawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:44.087584+00:00",
+        "rawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+        "bytes": 16043
+      },
+      "localBodySha256": "ce6dcd992561813ed6fa3ec2d993f091043090cbdc04fd408edb950c8e362622",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-3d23a7e8feea-chapter-chapter-001-3d23a7e8fe",
+          "parentId": "toc-mao-work-3d23a7e8feea-root",
+          "title": "为争取千百万群众进入抗日民族统一战线而斗争",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-3d23a7e8fe",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（1937.5.8）",
+        "同志们！对于我的报告――《中国共产党在抗日时期的任务》，经这几天的讨论，除了个别同志提出了不同意见之外，大家都已表示同意。他们这些不同的意见，颇带重要性，因此我的结论，首先就来讨论这些意见，然后再说到一些其它的问题。"
+      ],
+      "nativeNoteCount": 14,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-3d23a7e8feea",
+          "chapterId": "chapter-001-3d23a7e8fe",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+          "sourceRawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+          "lineIndex": 2,
+          "text": "为争取千百万群众进入抗日民族统一战线而斗争（1937.5.8）",
+          "compactLength": 31,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>为争取千百万群众进入抗日民族统一战线而斗争（1937.5.8）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-3d23a7e8feea",
+          "chapterId": "chapter-001-3d23a7e8fe",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19370508.htm",
+          "sourceRawSha256": "c72898abe2270ac5d956328ef471cba5aa10c7339a5e49d164d598f98886000f",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东 　　　　相关链接：[删节本]中国共产党在抗日时期的任务",
+          "compactLength": 37,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a> 　　　　<font style=\"font-size: 10.5pt\">相关链接：</font><a href=\"marxist.org-chinese-mao-19370503.htm\" style=\"text-decoration: none\">[删节本]中国共产党在抗日时期的任务</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-43d14d272bde",
+      "chapterId": "chapter-001-43d14d272b",
+      "title": "我们纲领中的民族问题",
+      "chapterTitle": "我们纲领中的民族问题",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-190307.htm",
+      "sourceRawSha256": "bf5649652b06afd923b28fdc8bfb92e432e3c92ac9b06d048b240783f53297ae",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-190307.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-190307.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:44.372198+00:00",
+        "rawSha256": "bf5649652b06afd923b28fdc8bfb92e432e3c92ac9b06d048b240783f53297ae",
+        "bytes": 14157
+      },
+      "localBodySha256": "417db06626d796828e1b58fd41076ea2769b1ad4f87f65e0fdf67c6966e6c574",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-43d14d272bde-chapter-chapter-001-43d14d272b",
+          "parentId": "toc-lenin-work-43d14d272bde-root",
+          "title": "我们纲领中的民族问题",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-43d14d272b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（1903年7月）",
+        "在党纲草案中，我们提出了建立有民主宪法的共和国的要求，民主宪法应当保证“承认国内各民族有自决权”。这样的纲领性要求，有许多人还以为不够明确，所以在本报第33号上谈到阿尔明尼亚社会民主党人的宣言时，我们对这一条的意义作了如下的说明。社会民主党将始终反对一切想用暴力或其他任何非正义手段从外部影响民族自决的企图。我们无条件地承认争取民族自决自由的斗争，但是并不一定要支持任何的民族自决的要求。社会民主党作为无产阶级的政党，其积极的和主要的任务不是促进各民族的自决，而是促进各民族的无产阶级的自决。我们应当经常地、无条件地力求各民族的无产阶级最紧密地联合起来。只有在各别的、特殊的情况下，我们才能提出并积极支持建立新的阶级国家的要求，或者用比较涣散的联邦统一代替一个国家政治上完全的统一等等要求（见《列宁全集》第6卷第293－296页。――编者注）。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-43d14d272bde",
+          "chapterId": "chapter-001-43d14d272b",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-190307.htm",
+          "sourceRawSha256": "bf5649652b06afd923b28fdc8bfb92e432e3c92ac9b06d048b240783f53297ae",
+          "lineIndex": 3,
+          "text": "列宁：我们纲领中的民族问题（1903年7月）",
+          "compactLength": 22,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>列宁：我们纲领中的民族问题（1903年7月）</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-43d14d272bde",
+          "chapterId": "chapter-001-43d14d272b",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-190307.htm",
+          "sourceRawSha256": "bf5649652b06afd923b28fdc8bfb92e432e3c92ac9b06d048b240783f53297ae",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁",
+          "compactLength": 13,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-b53a727e896d",
+      "chapterId": "chapter-001-b53a727e89",
+      "title": "新民主主义的宪政",
+      "chapterTitle": "新民主主义的宪政",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19400220.htm",
+      "sourceRawSha256": "9f2484ef1e582b15b15e3e772ca426a4dc681487ff4181fc5bacfc6b501eca62",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19400220.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19400220.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:45.551427+00:00",
+        "rawSha256": "9f2484ef1e582b15b15e3e772ca426a4dc681487ff4181fc5bacfc6b501eca62",
+        "bytes": 14875
+      },
+      "localBodySha256": "9eda13954b41bb4c7eb97f01b7e646a82639a4a1f999e746fa87eb8d6d08266c",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-b53a727e896d-chapter-chapter-001-b53a727e89",
+          "parentId": "toc-mao-work-b53a727e896d-root",
+          "title": "新民主主义的宪政",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-b53a727e89",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九四○年二月二十日）",
+        "〔未删节本〕新民主主义的宪政（1940年2月20日）"
+      ],
+      "nativeNoteCount": 11,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-b53a727e896d",
+          "chapterId": "chapter-001-b53a727e89",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19400220.htm",
+          "sourceRawSha256": "9f2484ef1e582b15b15e3e772ca426a4dc681487ff4181fc5bacfc6b501eca62",
+          "lineIndex": 2,
+          "text": "新民主主义的宪政（一九四○年二月二十日）",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>新民主主义的宪政（一九四○年二月二十日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-b53a727e896d",
+          "chapterId": "chapter-001-b53a727e89",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19400220.htm",
+          "sourceRawSha256": "9f2484ef1e582b15b15e3e772ca426a4dc681487ff4181fc5bacfc6b501eca62",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-84298ba8c632",
+      "chapterId": "chapter-001-84298ba8c6",
+      "title": "“傅立叶论商业的片断”的前言和结束语",
+      "chapterTitle": "“傅立叶论商业的片断”的前言和结束语",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-1845.htm",
+      "sourceRawSha256": "3bcbf8699ebedc627895ed31c626388009ab0aa126e404112d6061a6096b8fb7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-1845.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-1845.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:46.674301+00:00",
+        "rawSha256": "3bcbf8699ebedc627895ed31c626388009ab0aa126e404112d6061a6096b8fb7",
+        "bytes": 13930
+      },
+      "localBodySha256": "8c2e122cee7b5a9abea8601f8050b3ea2bbbd8f609f8fd8d55efb4902e990236",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-84298ba8c632-chapter-chapter-001-84298ba8c6",
+          "parentId": "toc-engels-work-84298ba8c632-root",
+          "title": "“傅立叶论商业的片断”的前言和结束语",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-84298ba8c6",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗·恩格斯“傅立叶论商业的片断”的前言和结束语[159]↘ 全文参见《弗·恩格斯。傅立叶论商业的片断》",
+        "德国人逐渐把共产主义运动也弄得庸俗起来了。在这里，那些后生之辈和庸庸碌碌的人总认为自己能够用轻视前辈和空谈哲理的办法来掩饰自己的落后。共产主义刚在德国出现，它就被一批投机分子用来作为资本。这些人把在法英两国已经陈腐了的论点翻译成黑格尔逻辑的语言，就以为自己创造了奇迹；而现在他们就把这种新的智慧当做某种前所未有的东西，当做“真正的德国的理论”献之于世，以便将来可以尽情地诬蔑目光短浅的法国人和英国人的“拙劣的实践”和“可笑的”社会体系。这种永远完备的德国理论极其幸运地稍许嗅到了一点黑格尔的历史哲学的气息，被柏林的某一个干瘪的教授列入了永恒的范畴，后来也许还参考过费尔巴哈的著作和几篇关于德国共产主义的文章以及施泰因先生的关于法国社会主义的大作[160]。这种劣等的德国理论，按照施泰因先生的观点，毫无困难地给法国的社会主义和共产主义做了适当的解释，使它处于从属的地位，“制服了”它，把它“提高”到永远完备的“德国理论”的“更高的发展阶段”。当然，这种理论不会想到去稍许熟悉一下要提高到更高阶段的对象，去看一下傅立叶、圣西门、欧文以及法国共产主义者的著作；对这种理论来说，要宣告德国的理论光辉地战胜了外国人的可怜的挣扎，有了施泰因先生的贫乏的摘录就足够了。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-84298ba8c632",
+          "chapterId": "chapter-001-84298ba8c6",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-1845.htm",
+          "sourceRawSha256": "3bcbf8699ebedc627895ed31c626388009ab0aa126e404112d6061a6096b8fb7",
+          "lineIndex": 2,
+          "text": "“傅立叶论商业的片断”的前言和结束语（恩格斯，1845年）",
+          "compactLength": 29,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>“傅立叶论商业的片断”的前言和结束语（恩格斯，1845年）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-84298ba8c632",
+          "chapterId": "chapter-001-84298ba8c6",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-1845.htm",
+          "sourceRawSha256": "3bcbf8699ebedc627895ed31c626388009ab0aa126e404112d6061a6096b8fb7",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-791dc2f4adfc",
+      "chapterId": "chapter-001-791dc2f4ad",
+      "title": "英国的选举。――托利党和辉格党",
+      "chapterTitle": "英国的选举。——托利党和辉格党",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18520802.htm",
+      "sourceRawSha256": "95223a9945ca6ed342ed173c05962bcd849fba5e1357bf35d53720c059e16f78",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18520802.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18520802.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:47.624802+00:00",
+        "rawSha256": "95223a9945ca6ed342ed173c05962bcd849fba5e1357bf35d53720c059e16f78",
+        "bytes": 14191
+      },
+      "localBodySha256": "5c44e38a84a83b167c53a5714665041e06372030b86c0710e8f1eddb91481769",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-791dc2f4adfc-chapter-chapter-001-791dc2f4ad",
+          "parentId": "toc-marx-work-791dc2f4adfc-root",
+          "title": "英国的选举。——托利党和辉格党",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-791dc2f4ad",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "英国的选举。――托利党和辉格党[244] 1852年8月6日星期五于伦敦",
+        "不列颠议会大选的结果已经揭晓了。关于这个结果，我将在下一篇文章［注：见本卷第405―411页。――编者注］中更详细地加以分析。"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-791dc2f4adfc",
+          "chapterId": "chapter-001-791dc2f4ad",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18520802.htm",
+          "sourceRawSha256": "95223a9945ca6ed342ed173c05962bcd849fba5e1357bf35d53720c059e16f78",
+          "lineIndex": 2,
+          "text": "英国的选举。――托利党和辉格党（马克思，1852年8月2日）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>英国的选举。――托利党和辉格党（马克思，1852年8月2日）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-791dc2f4adfc",
+          "chapterId": "chapter-001-791dc2f4ad",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18520802.htm",
+          "sourceRawSha256": "95223a9945ca6ed342ed173c05962bcd849fba5e1357bf35d53720c059e16f78",
+          "lineIndex": 8,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-157b8a5dcf67",
+      "chapterId": "chapter-001-157b8a5dcf",
+      "title": "青年运动的方向",
+      "chapterTitle": "青年运动的方向",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390504.htm",
+      "sourceRawSha256": "8cc4024e01a373925244c22ecf3d5c9cb201f9cd92d897cf02fbc7acadf37bbd",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390504.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390504.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:48.212490+00:00",
+        "rawSha256": "8cc4024e01a373925244c22ecf3d5c9cb201f9cd92d897cf02fbc7acadf37bbd",
+        "bytes": 14082
+      },
+      "localBodySha256": "530dcaa06d647b07f51edb790ef7fcc70a44a45818946a74a4ba76888d993e68",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-157b8a5dcf67-chapter-chapter-001-157b8a5dcf",
+          "parentId": "toc-mao-work-157b8a5dcf67-root",
+          "title": "青年运动的方向",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-157b8a5dcf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九三九年五月四日）",
+        "* 这是毛泽东在延安青年群众举行的五四运动二十周年纪念会上的讲演。毛泽东在这个讲演中发展了关于中国革命问题的思想。"
+      ],
+      "nativeNoteCount": 12,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-157b8a5dcf67",
+          "chapterId": "chapter-001-157b8a5dcf",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390504.htm",
+          "sourceRawSha256": "8cc4024e01a373925244c22ecf3d5c9cb201f9cd92d897cf02fbc7acadf37bbd",
+          "lineIndex": 2,
+          "text": "青年运动的方向（一九三九年五月四日）",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>青年运动的方向（一九三九年五月四日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-157b8a5dcf67",
+          "chapterId": "chapter-001-157b8a5dcf",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19390504.htm",
+          "sourceRawSha256": "8cc4024e01a373925244c22ecf3d5c9cb201f9cd92d897cf02fbc7acadf37bbd",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-1cd0d3906cf1",
+      "chapterId": "chapter-001-1cd0d3906c",
+      "title": "不列颠在印度的统治",
+      "chapterTitle": "不列颠在印度的统治",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18530610.htm",
+      "sourceRawSha256": "4d797080bc857094ced06b3ba6f514271c4902969913a72643973c875e67cd64",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18530610.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18530610.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:49.438336+00:00",
+        "rawSha256": "4d797080bc857094ced06b3ba6f514271c4902969913a72643973c875e67cd64",
+        "bytes": 13734
+      },
+      "localBodySha256": "ce02ad2d84a5b3a91751cf91f7e732b51aa6e5472ad0deff1b83d414c001dc94",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-1cd0d3906cf1-chapter-chapter-001-1cd0d3906c",
+          "parentId": "toc-marx-work-1cd0d3906cf1-root",
+          "title": "不列颠在印度的统治",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-1cd0d3906c",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "不列颠在印度的统治[117]卡・马克思1853年6月10日星期五于伦敦",
+        "据维也纳电讯报道，那里对于土耳其问题、撒丁问题和瑞士问题的和平解决都很有信心。"
+      ],
+      "nativeNoteCount": 6,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-1cd0d3906cf1",
+          "chapterId": "chapter-001-1cd0d3906c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18530610.htm",
+          "sourceRawSha256": "4d797080bc857094ced06b3ba6f514271c4902969913a72643973c875e67cd64",
+          "lineIndex": 2,
+          "text": "不列颠在印度的统治（马克思，1853年6月10日）",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>不列颠在印度的统治（马克思，1853年6月10日）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-1cd0d3906cf1",
+          "chapterId": "chapter-001-1cd0d3906c",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18530610.htm",
+          "sourceRawSha256": "4d797080bc857094ced06b3ba6f514271c4902969913a72643973c875e67cd64",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-65d3478f43f3",
+      "chapterId": "chapter-001-65d3478f43",
+      "title": "将革命进行到底",
+      "chapterTitle": "将革命进行到底",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19481230.htm",
+      "sourceRawSha256": "55a48d1570322a6cb3041a5754bcabf9c6e6f1061319be5f6837ab72c8fcd616",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19481230.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19481230.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:50.172138+00:00",
+        "rawSha256": "55a48d1570322a6cb3041a5754bcabf9c6e6f1061319be5f6837ab72c8fcd616",
+        "bytes": 13344
+      },
+      "localBodySha256": "1a7dccf55ad78ac110360589a939bb8ab4b18f02a7154d8191476acbae3bcb0f",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-65d3478f43f3-chapter-chapter-001-65d3478f43",
+          "parentId": "toc-mao-work-65d3478f43f3-root",
+          "title": "将革命进行到底",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-65d3478f43",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九四八年十二月三十日）",
+        "* 这是毛泽东为新华社写的一九四九年新年献词。"
+      ],
+      "nativeNoteCount": 6,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-65d3478f43f3",
+          "chapterId": "chapter-001-65d3478f43",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19481230.htm",
+          "sourceRawSha256": "55a48d1570322a6cb3041a5754bcabf9c6e6f1061319be5f6837ab72c8fcd616",
+          "lineIndex": 2,
+          "text": "将革命进行到底（一九四八年十二月三十日）",
+          "compactLength": 20,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>将革命进行到底（一九四八年十二月三十日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-65d3478f43f3",
+          "chapterId": "chapter-001-65d3478f43",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19481230.htm",
+          "sourceRawSha256": "55a48d1570322a6cb3041a5754bcabf9c6e6f1061319be5f6837ab72c8fcd616",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-1d6ff90a6b44",
+      "chapterId": "chapter-001-1d6ff90a6b",
+      "title": "10小时工作制问题",
+      "chapterTitle": "10小时工作制问题",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185002.htm",
+      "sourceRawSha256": "3bfb7684b371a5f5df047f274744534d88460e10a814e399cb2d100598d7ca5b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185002.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185002.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:50.427836+00:00",
+        "rawSha256": "3bfb7684b371a5f5df047f274744534d88460e10a814e399cb2d100598d7ca5b",
+        "bytes": 13045
+      },
+      "localBodySha256": "45493c5e3203cd9857599648278d4c3224a39f617577f74d7d9a6c040bdada64",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-1d6ff90a6b44-chapter-chapter-001-1d6ff90a6b",
+          "parentId": "toc-engels-work-1d6ff90a6b44-root",
+          "title": "10小时工作制问题",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-1d6ff90a6b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯10小时工作制问题[147]",
+        "为工人阶级的利益而斗争的战士在答复主张自由贸易的资产阶级，即所谓“曼彻斯特学派”[148]的论据时，往往仅限于愤慨地揭露他们学说的不道德和卑鄙自私的性质。如果每当有人冷酷地对工人说，他们永世注定充当机器，充当主人可以随便用来争取资本的更大光荣和资本的更快积累的物品，每当有人对他们说，只有在这种情况下，才能保证“他们国家的强盛”和工人阶级本身的继续存在，而身受傲慢的爱金如命的厂主老爷阶级的凌辱、压抑、肉体摧残和精神折磨的工人对此却毫不气愤，那末，这些工人就完全命该如此了。没有这种革命的义愤填膺的感情，无产阶级的解放就没有希望。但是，支持工人的英勇反抗精神是一回事，在公开的争论中对付他们的敌人是另外一回事。在这方面，单凭愤慨，单凭怒气迸发，不管多么正义都毫无用处，这里需要的是论据。毫无疑问，自由贸易派即使在心平气和的充分争论中，即使在自鸣得意的方面，即在政治经济学方面，也会很容易被无产阶级利益的捍卫者驳得体无完肤。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-1d6ff90a6b44",
+          "chapterId": "chapter-001-1d6ff90a6b",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185002.htm",
+          "sourceRawSha256": "3bfb7684b371a5f5df047f274744534d88460e10a814e399cb2d100598d7ca5b",
+          "lineIndex": 2,
+          "text": "10小时工作制问题（恩格斯，1850年2月）",
+          "compactLength": 22,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>10小时工作制问题（恩格斯，1850年2月）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-1d6ff90a6b44",
+          "chapterId": "chapter-001-1d6ff90a6b",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-185002.htm",
+          "sourceRawSha256": "3bfb7684b371a5f5df047f274744534d88460e10a814e399cb2d100598d7ca5b",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-9d476fe294d7",
+      "chapterId": "chapter-001-9d476fe294",
+      "title": "毛主席会见澳共（马列）希尔谈话记录（1968年11月28日）",
+      "chapterTitle": "毛主席会见澳共（马列）希尔谈话记录（1968年11月28日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681128.htm",
+      "sourceRawSha256": "6f7a06c828a22f6d8a3ac0445b29d1bc908f260f912d37632d676814f672df92",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681128.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681128.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:51.686724+00:00",
+        "rawSha256": "6f7a06c828a22f6d8a3ac0445b29d1bc908f260f912d37632d676814f672df92",
+        "bytes": 14450
+      },
+      "localBodySha256": "387916500fd539a11b973f3a2b90324b8b18cb31f0e1069b8d209c9bd9954881",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-9d476fe294d7-chapter-chapter-001-9d476fe294",
+          "parentId": "toc-mao-work-9d476fe294d7-root",
+          "title": "毛主席会见澳共（马列）希尔谈话记录（1968年11月28日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-9d476fe294",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛主席会见澳共（马列）希尔谈话记录（未经本人审阅）",
+        "(1968年11月28日)"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-9d476fe294d7",
+          "chapterId": "chapter-001-9d476fe294",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681128.htm",
+          "sourceRawSha256": "6f7a06c828a22f6d8a3ac0445b29d1bc908f260f912d37632d676814f672df92",
+          "lineIndex": 2,
+          "text": "毛主席会见澳共（马列）希尔谈话记录（1968年11月28日）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛主席会见澳共（马列）希尔谈话记录（1968年11月28日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-9d476fe294d7",
+          "chapterId": "chapter-001-9d476fe294",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681128.htm",
+          "sourceRawSha256": "6f7a06c828a22f6d8a3ac0445b29d1bc908f260f912d37632d676814f672df92",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-9dd7b2373b0b",
+      "chapterId": "chapter-001-9dd7b2373b",
+      "title": "小资产阶级社会主义和无产阶级社会主义",
+      "chapterTitle": "小资产阶级社会主义和无产阶级社会主义",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/05.htm",
+      "sourceRawSha256": "ff7cdd9f63fb271f215913a2a89178e4b1481721bc787e0c950a8f73308397a1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:52.298282+00:00",
+        "rawSha256": "ff7cdd9f63fb271f215913a2a89178e4b1481721bc787e0c950a8f73308397a1",
+        "bytes": 12002
+      },
+      "localBodySha256": "ddfe2a185e16b7ee7c11c9a4aaa3e22e65bb1be86ee03754e2020631320d8472",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-9dd7b2373b0b-chapter-chapter-001-9dd7b2373b",
+          "parentId": "toc-lenin-work-9dd7b2373b0b-root",
+          "title": "小资产阶级社会主义和无产阶级社会主义",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-9dd7b2373b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "列宁(1905年10月25日〔11月7日〕)",
+        "在欧洲，在各种社会主义学说中间，马克思主义现在已经取得了完全的统治，而争取实现社会主义制度的斗争，几乎完全是各国社会民主党领导的工人阶级的斗争。但是以马克思主义学说为基础的无产阶级社会主义的这个完全的统治，并不是一下子就巩固起来的，而只是在同各种落后的学说如小资产阶级社会主义、无政府主义等等作了长期斗争以后，才巩固起来的。大约30年以前，马克思主义就是在德国也还没有取得统治地位，当时在德国占优势的，老实说，是介于小资产阶级社会主义和无产阶级社会主义之间的过渡的、混合的、折中的见解。而在罗马语国家，如法国、西班牙、比利时，在先进工人中最流行的学说是蒲鲁东主义、布朗基主义、无政府主义，这些学说所反映的显然是小资产者的观点而不是无产者的观点。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-9dd7b2373b0b",
+          "chapterId": "chapter-001-9dd7b2373b",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/05.htm",
+          "sourceRawSha256": "ff7cdd9f63fb271f215913a2a89178e4b1481721bc787e0c950a8f73308397a1",
+          "lineIndex": 3,
+          "text": "列宁：小资产阶级社会主义和无产阶级社会主义(1905年10月25日〔11月7日〕)",
+          "compactLength": 41,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>列宁：小资产阶级社会主义和无产阶级社会主义(1905年10月25日〔11月7日〕)</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-9dd7b2373b0b",
+          "chapterId": "chapter-001-9dd7b2373b",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/05.htm",
+          "sourceRawSha256": "ff7cdd9f63fb271f215913a2a89178e4b1481721bc787e0c950a8f73308397a1",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁",
+          "compactLength": 13,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-293ed5fd4be9",
+      "chapterId": "chapter-001-293ed5fd4b",
+      "title": "毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（1968年8月5日）",
+      "chapterTitle": "毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（1968年8月5日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680805.htm",
+      "sourceRawSha256": "66aba26626d8c4b30846baf226a89b06dda2a9429191e2efecc181fc0c1ffa98",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680805.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680805.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:52.887211+00:00",
+        "rawSha256": "66aba26626d8c4b30846baf226a89b06dda2a9429191e2efecc181fc0c1ffa98",
+        "bytes": 13871
+      },
+      "localBodySha256": "bf6eea57157ad87fc7fd85ff352fda448996fa26c8b5170d69641017fb815c65",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-293ed5fd4be9-chapter-chapter-001-293ed5fd4b",
+          "parentId": "toc-mao-work-293ed5fd4be9-root",
+          "title": "毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（1968年8月5日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-293ed5fd4b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（未经毛主席审阅）",
+        "（1968年8月5日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-293ed5fd4be9",
+          "chapterId": "chapter-001-293ed5fd4b",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680805.htm",
+          "sourceRawSha256": "66aba26626d8c4b30846baf226a89b06dda2a9429191e2efecc181fc0c1ffa98",
+          "lineIndex": 2,
+          "text": "毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（1968年8月5日）",
+          "compactLength": 33,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛泽东主席会见巴基斯坦外交部长侯赛因谈话记录（1968年8月5日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-293ed5fd4be9",
+          "chapterId": "chapter-001-293ed5fd4b",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680805.htm",
+          "sourceRawSha256": "66aba26626d8c4b30846baf226a89b06dda2a9429191e2efecc181fc0c1ffa98",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-31658ea93a13",
+      "chapterId": "chapter-001-31658ea93a",
+      "title": "毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（1967年12月13日）",
+      "chapterTitle": "毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（1967年12月13日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671213.htm",
+      "sourceRawSha256": "c66a09b1e7eec1b7bb60f2327e8cd5af4444fbc50832e1c7b35eb4844ac7a754",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671213.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671213.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:53.212481+00:00",
+        "rawSha256": "c66a09b1e7eec1b7bb60f2327e8cd5af4444fbc50832e1c7b35eb4844ac7a754",
+        "bytes": 14684
+      },
+      "localBodySha256": "8a5d36ffbb2fb29395cd82e14f4e1a9a39ed0b215cfd24f0470bd0c865cd24c0",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-31658ea93a13-chapter-chapter-001-31658ea93a",
+          "parentId": "toc-mao-work-31658ea93a13-root",
+          "title": "毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（1967年12月13日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-31658ea93a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（未经本人审阅）",
+        "（1967年12月13日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-31658ea93a13",
+          "chapterId": "chapter-001-31658ea93a",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671213.htm",
+          "sourceRawSha256": "c66a09b1e7eec1b7bb60f2327e8cd5af4444fbc50832e1c7b35eb4844ac7a754",
+          "lineIndex": 2,
+          "text": "毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（1967年12月13日）",
+          "compactLength": 41,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛泽东主席接见印共左派大吉岭县委第二批学习代表团谈话记录（1967年12月13日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-31658ea93a13",
+          "chapterId": "chapter-001-31658ea93a",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671213.htm",
+          "sourceRawSha256": "c66a09b1e7eec1b7bb60f2327e8cd5af4444fbc50832e1c7b35eb4844ac7a754",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-134735fd542b",
+      "chapterId": "chapter-001-134735fd54",
+      "title": "罢工和工人同盟",
+      "chapterTitle": "罢工和工人同盟",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1847.htm",
+      "sourceRawSha256": "dc40f8d3689fd24b48bd0ba145fab91b1f87f13ba0cd443f0f6ddf8b6d95b80d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1847.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1847.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:53.859243+00:00",
+        "rawSha256": "dc40f8d3689fd24b48bd0ba145fab91b1f87f13ba0cd443f0f6ddf8b6d95b80d",
+        "bytes": 12746
+      },
+      "localBodySha256": "ec27f92040c66e111c6fb4dd197170e323a50d90fb43e87a04df63d633b5dc20",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-134735fd542b-chapter-chapter-001-134735fd54",
+          "parentId": "toc-marx-work-134735fd542b-root",
+          "title": "罢工和工人同盟",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-134735fd54",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "罢工和工人同盟[1]马克思（1847年上半年）",
+        "「任何旨在提高工资的运动除了使粮食、酒等等涨价即引起生活必需品的匮乏以外，不可能产生别的结果。要知道，什么是工资？工资就是粮食……的成本，就是一切物品的全部价格。再进一步说，工资就是组成财富和劳动群众每日为再生产而消费的各种要素的比例。因此，将工资提高一倍……就等于发给每一个生产者一份比他的产品更大的份额，这当然是矛盾的。如果只是在少数生产部门内提高，就会使交换普遍混乱，总之，会引起生活必需品的匮乏……我可以断言：导致提高工资的罢工不能不引起价格的普遍上涨，这同二加二等于四一样确实。」（蒲鲁东《贫困的哲学》第1卷第110页和111页）"
+      ],
+      "nativeNoteCount": 8,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-134735fd542b",
+          "chapterId": "chapter-001-134735fd54",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1847.htm",
+          "sourceRawSha256": "dc40f8d3689fd24b48bd0ba145fab91b1f87f13ba0cd443f0f6ddf8b6d95b80d",
+          "lineIndex": 2,
+          "text": "马克思：罢工和工人同盟（1847年上半年）",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马克思：罢工和工人同盟（1847年上半年）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-134735fd542b",
+          "chapterId": "chapter-001-134735fd54",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1847.htm",
+          "sourceRawSha256": "dc40f8d3689fd24b48bd0ba145fab91b1f87f13ba0cd443f0f6ddf8b6d95b80d",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-ebc09f5f79f7",
+      "chapterId": "chapter-001-ebc09f5f79",
+      "title": "组织起来",
+      "chapterTitle": "组织起来",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19431129.htm",
+      "sourceRawSha256": "dd30907db2274654a594339268eb8f08afc36bd382acb26d8be7ba931b9fa63b",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19431129.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19431129.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:54.398862+00:00",
+        "rawSha256": "dd30907db2274654a594339268eb8f08afc36bd382acb26d8be7ba931b9fa63b",
+        "bytes": 12325
+      },
+      "localBodySha256": "4b21bb3fe7f43db6349ee64811aac9b41c6cfd8e7633c8064a442d5bc94f67a9",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-ebc09f5f79f7-chapter-chapter-001-ebc09f5f79",
+          "parentId": "toc-mao-work-ebc09f5f79f7-root",
+          "title": "组织起来",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-ebc09f5f79",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九四三年十一月二十九日）",
+        "* 这是毛泽东在中共中央招待陕甘宁边区劳动英雄大会上的讲话。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-ebc09f5f79f7",
+          "chapterId": "chapter-001-ebc09f5f79",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19431129.htm",
+          "sourceRawSha256": "dd30907db2274654a594339268eb8f08afc36bd382acb26d8be7ba931b9fa63b",
+          "lineIndex": 2,
+          "text": "组织起来（一九四三年十一月二十九日）",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>组织起来（一九四三年十一月二十九日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-ebc09f5f79f7",
+          "chapterId": "chapter-001-ebc09f5f79",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19431129.htm",
+          "sourceRawSha256": "dd30907db2274654a594339268eb8f08afc36bd382acb26d8be7ba931b9fa63b",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-a8be8a4e0781",
+      "chapterId": "chapter-001-a8be8a4e07",
+      "title": "〔未删节本〕新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲（1940年2月20日）",
+      "chapterTitle": "〔未删节本〕新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲（1940年2月20日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19400220.htm",
+      "sourceRawSha256": "0a2660d142025b7c8889600306ea7291e80f1804aa178e249679cf822b7c207f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19400220.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19400220.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:54.631113+00:00",
+        "rawSha256": "0a2660d142025b7c8889600306ea7291e80f1804aa178e249679cf822b7c207f",
+        "bytes": 12217
+      },
+      "localBodySha256": "4e710a852a70b5f8a1d9e7f4225885c38b1b994553bdba6800b7f6378a4cef67",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-a8be8a4e0781-chapter-chapter-001-a8be8a4e07",
+          "parentId": "toc-mao-work-a8be8a4e0781-root",
+          "title": "〔未删节本〕新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲（1940年2月20日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-a8be8a4e07",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲毛泽东（1940年2月20日）",
+        "〔《毛选》删节本〕新民主主义的宪政录入者注：本文初刊载于《解放》刊物第101期第7-10页，后收入到《毛选》之中，删除、修正了大量讲话中所用的俗词俗句（鲜花插牛粪、狗屎堆）与错误的数据。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-a8be8a4e0781",
+          "chapterId": "chapter-001-a8be8a4e07",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19400220.htm",
+          "sourceRawSha256": "0a2660d142025b7c8889600306ea7291e80f1804aa178e249679cf822b7c207f",
+          "lineIndex": 2,
+          "text": "新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲（毛泽东，1940年2月20日）",
+          "compactLength": 48,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>新民主主义的宪政――二月二十日在延安各界宪政促进会成立大会的演讲（毛泽东，1940年2月20日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-a8be8a4e0781",
+          "chapterId": "chapter-001-a8be8a4e07",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19400220.htm",
+          "sourceRawSha256": "0a2660d142025b7c8889600306ea7291e80f1804aa178e249679cf822b7c207f",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-e127e4d626fb",
+      "chapterId": "chapter-001-e127e4d626",
+      "title": "毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（1968年6月21日）",
+      "chapterTitle": "毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（1968年6月21日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680621.htm",
+      "sourceRawSha256": "220f42522156cb48e62ff8ca7e71f8309dbbd5eebb2fc6b3d680bfed8302f5df",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680621.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680621.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:55.314713+00:00",
+        "rawSha256": "220f42522156cb48e62ff8ca7e71f8309dbbd5eebb2fc6b3d680bfed8302f5df",
+        "bytes": 13593
+      },
+      "localBodySha256": "41f6d06e57adadff5e8bb23b259d5be6be6017f36b2ae7f60586bc6b76ecc11e",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-e127e4d626fb-chapter-chapter-001-e127e4d626",
+          "parentId": "toc-mao-work-e127e4d626fb-root",
+          "title": "毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（1968年6月21日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-e127e4d626",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（未经毛主席审阅）",
+        "（1968年6月21日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-e127e4d626fb",
+          "chapterId": "chapter-001-e127e4d626",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680621.htm",
+          "sourceRawSha256": "220f42522156cb48e62ff8ca7e71f8309dbbd5eebb2fc6b3d680bfed8302f5df",
+          "lineIndex": 2,
+          "text": "毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（1968年6月21日）",
+          "compactLength": 32,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛泽东主席会见坦桑尼亚总统尼雷尔谈话记录（1968年6月21日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-e127e4d626fb",
+          "chapterId": "chapter-001-e127e4d626",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19680621.htm",
+          "sourceRawSha256": "220f42522156cb48e62ff8ca7e71f8309dbbd5eebb2fc6b3d680bfed8302f5df",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-32e001ce3ac3",
+      "chapterId": "chapter-001-32e001ce3a",
+      "title": "普鲁士宪法",
+      "chapterTitle": "普鲁士宪法",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184702.htm",
+      "sourceRawSha256": "4f52cc778cde88170103ddb04c2a76d8424d023596b411dfe4241abd67b693ea",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184702.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184702.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:55.613687+00:00",
+        "rawSha256": "4f52cc778cde88170103ddb04c2a76d8424d023596b411dfe4241abd67b693ea",
+        "bytes": 12205
+      },
+      "localBodySha256": "a53727ddd70c38f1794b14aaa98ec8e2ea4c514b3345e89349c69854c9847c72",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-32e001ce3ac3-chapter-chapter-001-32e001ce3a",
+          "parentId": "toc-engels-work-32e001ce3ac3-root",
+          "title": "普鲁士宪法",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-32e001ce3a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "这个期待已久的精心制作的手艺品[15]终于问世了！如果相信“泰晤士报”、“地球报”[16]和一些法国德国报纸的说法，普鲁士总算已加入立宪国家的行列了。但是，“北极星报”已经充分令人信服地证明，这个所谓宪法不过是给普鲁士人民设下的一个陷井而已，其目的是要剥夺已故的国王［注：弗里德里希―威廉三世。――编者注］在需要人民的支持时所许给人民的那些权利。事情正是这样，弗里德里希-威廉企图利用这个所谓宪法来搜刮金钱，同时又不必向社会舆论作什么让步，这是勿庸置疑的。各国的民主报纸，象法国的“国民报”和“改革报”，甚至政府的“辩论日报”[17]，都同意这种看法。从手足双缚的德国报刊吞吞吐吐的言论中，也只能得出一个结论，这就是：普鲁士的进步人士已识破了他们“坦率宽厚的”国王的狡猾意图。这样一来问题就可以归结为以下几点：国王能不能实现他的计划？中央等级会议会不会那样愚蠢或那样胆怯，以至它不给人民提供广泛的自由，反而保证给国王提供新的贷款，好让他有可能无限期地维持目前的统治制度？",
+        "我们的答复是：不，中央等级会议不会这样做，而且也不可能这样做。"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-32e001ce3ac3",
+          "chapterId": "chapter-001-32e001ce3a",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184702.htm",
+          "sourceRawSha256": "4f52cc778cde88170103ddb04c2a76d8424d023596b411dfe4241abd67b693ea",
+          "lineIndex": 2,
+          "text": "普鲁士宪法（恩格斯，1847年2月）",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>普鲁士宪法（恩格斯，1847年2月）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-32e001ce3ac3",
+          "chapterId": "chapter-001-32e001ce3a",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-184702.htm",
+          "sourceRawSha256": "4f52cc778cde88170103ddb04c2a76d8424d023596b411dfe4241abd67b693ea",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-c92a160fc6c3",
+      "chapterId": "chapter-001-c92a160fc6",
+      "title": "毛主席接见阿尔巴尼亚党政代表团谈话记录（1968年10月5日）",
+      "chapterTitle": "毛主席接见阿尔巴尼亚党政代表团谈话记录（1968年10月5日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681005.htm",
+      "sourceRawSha256": "e60dba1d51fb231f6ebff9d8c1641105dbf8df61caf3b8b6d4e6c7cf453976d1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:55.932694+00:00",
+        "rawSha256": "e60dba1d51fb231f6ebff9d8c1641105dbf8df61caf3b8b6d4e6c7cf453976d1",
+        "bytes": 13424
+      },
+      "localBodySha256": "fd815daa11d26dcad9c64a87f73e3ee8166e76f0f1dc80d1e3e9b0ca6dd0f8e7",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-c92a160fc6c3-chapter-chapter-001-c92a160fc6",
+          "parentId": "toc-mao-work-c92a160fc6c3-root",
+          "title": "毛主席接见阿尔巴尼亚党政代表团谈话记录（1968年10月5日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-c92a160fc6",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛主席接见阿尔巴尼亚党政代表团谈话记录（未经本人审阅）",
+        "（1968年10月5日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-c92a160fc6c3",
+          "chapterId": "chapter-001-c92a160fc6",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681005.htm",
+          "sourceRawSha256": "e60dba1d51fb231f6ebff9d8c1641105dbf8df61caf3b8b6d4e6c7cf453976d1",
+          "lineIndex": 2,
+          "text": "毛主席接见阿尔巴尼亚党政代表团谈话记录（1968年10月5日）",
+          "compactLength": 31,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛主席接见阿尔巴尼亚党政代表团谈话记录（1968年10月5日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-c92a160fc6c3",
+          "chapterId": "chapter-001-c92a160fc6",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19681005.htm",
+          "sourceRawSha256": "e60dba1d51fb231f6ebff9d8c1641105dbf8df61caf3b8b6d4e6c7cf453976d1",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-0fb529e712cd",
+      "chapterId": "chapter-001-0fb529e712",
+      "title": "关于萨克森煤矿工人行业协会的报告",
+      "chapterTitle": "关于萨克森煤矿工人行业协会的报告",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18690217-21.htm",
+      "sourceRawSha256": "de5f4ed6561de96576002a236a9215e7743f5399c98937ebc06860c6d56284a2",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18690217-21.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18690217-21.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:56.293025+00:00",
+        "rawSha256": "de5f4ed6561de96576002a236a9215e7743f5399c98937ebc06860c6d56284a2",
+        "bytes": 12799
+      },
+      "localBodySha256": "3092b6b2e717225ec13873aad21882287b8e5f7d794150608476ce9b93f0d3ec",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-0fb529e712cd-chapter-chapter-001-0fb529e712",
+          "parentId": "toc-engels-work-0fb529e712cd-root",
+          "title": "关于萨克森煤矿工人行业协会的报告",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-0fb529e712",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯关于萨克森煤矿工人行业协会的报告[270]",
+        "随便拿一份这里的工资条例，例如下维尔施尼茨公司的工资条例，它都可以向我们表明厄尔士山区煤矿工人的一般状况。成年矿工的每周工资，从2塔勒到3塔勒12银格罗申6分尼；少年矿工则从1塔勒10银格罗申到1塔勒20银格罗申。矿工平均每周工资约为2塔勒20银格罗申。遇有必要，工人必须从事计件劳动。而在制定工资条例时已注意到使计件工资不能显著地超过通常的日工资。每一个工人要放弃契约所规定的工作，必须在前一个月，并且要在每月1日预先报告。因此，他如果拒绝按照规定的条件从事计件劳动，他仍要被迫继续工作至少4星期至8星期。在这种情形下，空谈什么根据双方协议调整计件工资，空谈什么工人与资本家之间的自由契约，那实在令人可笑！"
+      ],
+      "nativeNoteCount": 3,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-0fb529e712cd",
+          "chapterId": "chapter-001-0fb529e712",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18690217-21.htm",
+          "sourceRawSha256": "de5f4ed6561de96576002a236a9215e7743f5399c98937ebc06860c6d56284a2",
+          "lineIndex": 2,
+          "text": "关于萨克森煤矿工人行业协会的报告（1869年2月17日和21日之间）",
+          "compactLength": 34,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>关于萨克森煤矿工人行业协会的报告（1869年2月17日和21日之间）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-0fb529e712cd",
+          "chapterId": "chapter-001-0fb529e712",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18690217-21.htm",
+          "sourceRawSha256": "de5f4ed6561de96576002a236a9215e7743f5399c98937ebc06860c6d56284a2",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-9e521ab12b3c",
+      "chapterId": "chapter-001-9e521ab12b",
+      "title": "论政策",
+      "chapterTitle": "论政策",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+      "sourceRawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:56.792657+00:00",
+        "rawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+        "bytes": 12331
+      },
+      "localBodySha256": "9c09c10235e0b4c3541ce2e9506e2b34c36893d732b06d8d6b79c98e8f630f81",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-9e521ab12b3c-chapter-chapter-001-9e521ab12b",
+          "parentId": "toc-mao-work-9e521ab12b3c-root",
+          "title": "论政策",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-9e521ab12b",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九四○年十二月二十五日）",
+        "* 这是毛泽东为中共中央起草的对党内的指示。"
+      ],
+      "nativeNoteCount": 7,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-9e521ab12b3c",
+          "chapterId": "chapter-001-9e521ab12b",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+          "sourceRawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        },
+        {
+          "bookId": "mao-work-9e521ab12b3c",
+          "chapterId": "chapter-001-9e521ab12b",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19401225.htm",
+          "sourceRawSha256": "28811ad9f4b1eb10aba10457c3f766b4ff9ba64409d41d60ce144f8d1c689477",
+          "lineIndex": 5,
+          "text": "论政策",
+          "compactLength": 3,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p class=\"title1\">论政策</p>"
+          ]
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-05fd49524748",
+      "chapterId": "chapter-001-05fd495247",
+      "title": "波斯和中国",
+      "chapterTitle": "波斯和中国",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18570522.htm",
+      "sourceRawSha256": "bf9e4d1bd460077d5edcd88d61e88a421922b5d4ee89ded7d29b73610e92c96e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18570522.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18570522.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:57.060304+00:00",
+        "rawSha256": "bf9e4d1bd460077d5edcd88d61e88a421922b5d4ee89ded7d29b73610e92c96e",
+        "bytes": 12404
+      },
+      "localBodySha256": "071d0d1b3452aa9c46ceb92df681a1e72532e505702663746a8691ce9278d161",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-05fd49524748-chapter-chapter-001-05fd495247",
+          "parentId": "toc-engels-work-05fd49524748-root",
+          "title": "波斯和中国",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-05fd495247",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯波斯和中国[183]",
+        "1857年5月22日于伦敦"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-05fd49524748",
+          "chapterId": "chapter-001-05fd495247",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18570522.htm",
+          "sourceRawSha256": "bf9e4d1bd460077d5edcd88d61e88a421922b5d4ee89ded7d29b73610e92c96e",
+          "lineIndex": 2,
+          "text": "波斯和中国（弗・恩格斯，1857年5月22日）",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>波斯和中国（弗・恩格斯，1857年5月22日）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-05fd49524748",
+          "chapterId": "chapter-001-05fd495247",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18570522.htm",
+          "sourceRawSha256": "bf9e4d1bd460077d5edcd88d61e88a421922b5d4ee89ded7d29b73610e92c96e",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-214746c946f1",
+      "chapterId": "chapter-001-214746c946",
+      "title": "毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（1967年11月26日）",
+      "chapterTitle": "毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（1967年11月26日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671126.htm",
+      "sourceRawSha256": "99fbad747653ec4cd3b453ce1ea97ea44e3f29730d75e1c52e1042d5df56522f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671126.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671126.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:57.573493+00:00",
+        "rawSha256": "99fbad747653ec4cd3b453ce1ea97ea44e3f29730d75e1c52e1042d5df56522f",
+        "bytes": 14406
+      },
+      "localBodySha256": "e08d19ecd152e280f257f596e0e0d4e6b1a77c0e048d0f25c21de284b490ff6e",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-214746c946f1-chapter-chapter-001-214746c946",
+          "parentId": "toc-mao-work-214746c946f1-root",
+          "title": "毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（1967年11月26日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-214746c946",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（未经本人审阅）",
+        "（1967年11月26日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-214746c946f1",
+          "chapterId": "chapter-001-214746c946",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671126.htm",
+          "sourceRawSha256": "99fbad747653ec4cd3b453ce1ea97ea44e3f29730d75e1c52e1042d5df56522f",
+          "lineIndex": 2,
+          "text": "毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（1967年11月26日）",
+          "compactLength": 36,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛泽东主席接见缅共柯生（德钦巴登顶）等谈话记录（1967年11月26日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-214746c946f1",
+          "chapterId": "chapter-001-214746c946",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19671126.htm",
+          "sourceRawSha256": "99fbad747653ec4cd3b453ce1ea97ea44e3f29730d75e1c52e1042d5df56522f",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-ec1dbb36d2f3",
+      "chapterId": "chapter-001-ec1dbb36d2",
+      "title": "莫斯科起义的教训",
+      "chapterTitle": "莫斯科起义的教训",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/07.htm",
+      "sourceRawSha256": "624bf2d5c808b4490ee926b03730cb7587cfb438c7f3481c06fb12e0131542b6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:57.870102+00:00",
+        "rawSha256": "624bf2d5c808b4490ee926b03730cb7587cfb438c7f3481c06fb12e0131542b6",
+        "bytes": 11067
+      },
+      "localBodySha256": "f19df36144c867363427aa1a55f7a9b2bbf81dc2eb94c8d9da5e0dad6b4e55f4",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-ec1dbb36d2f3-chapter-chapter-001-ec1dbb36d2",
+          "parentId": "toc-lenin-work-ec1dbb36d2f3-root",
+          "title": "莫斯科起义的教训",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-ec1dbb36d2",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "列宁（1906年8月29日[9月11日]）",
+        "《1905年12月的莫斯科》（1906年莫斯科版）一书的问世，是再及时不过了。吸取十二月起义的经验，是工人政党的迫切任务。可惜的是，就像一桶蜜里掺了一勺焦油，这本书材料十分令人感兴趣（尽管不完备），但是结论却作得非常草率，非常庸俗。关于这些结论，我们以后专门来讲，现在只谈一谈目前最迫切的政治问题，谈谈莫斯科起义的教训。"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-ec1dbb36d2f3",
+          "chapterId": "chapter-001-ec1dbb36d2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/07.htm",
+          "sourceRawSha256": "624bf2d5c808b4490ee926b03730cb7587cfb438c7f3481c06fb12e0131542b6",
+          "lineIndex": 3,
+          "text": "列宁：莫斯科起义的教训（1906年8月29日[9月11日]）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>列宁：莫斯科起义的教训（1906年8月29日[9月11日]）</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-ec1dbb36d2f3",
+          "chapterId": "chapter-001-ec1dbb36d2",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/07.htm",
+          "sourceRawSha256": "624bf2d5c808b4490ee926b03730cb7587cfb438c7f3481c06fb12e0131542b6",
+          "lineIndex": 4,
+          "text": "中文马克思主义文库 -> 列宁",
+          "compactLength": 13,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-c40b6c83d5c3",
+      "chapterId": "chapter-001-c40b6c83d5",
+      "title": "给“萨克森工人报”编辑部的答复",
+      "chapterTitle": "给“萨克森工人报”编辑部的答复",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900907.htm",
+      "sourceRawSha256": "c642709c0ad1c47a25fd14a60f1ece9b477639539c15b96f5c8e17ab0ce8ae62",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900907.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900907.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:58.404950+00:00",
+        "rawSha256": "c642709c0ad1c47a25fd14a60f1ece9b477639539c15b96f5c8e17ab0ce8ae62",
+        "bytes": 12190
+      },
+      "localBodySha256": "988fe7827672800590641e312ddcaf95cbdb3e7783e4923f37671f87ae181435",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-c40b6c83d5c3-chapter-chapter-001-c40b6c83d5",
+          "parentId": "toc-engels-work-c40b6c83d5c3-root",
+          "title": "给“萨克森工人报”编辑部的答复",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-c40b6c83d5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯致“社会民主党人报”编辑部（1890年9月7日）",
+        "附：给“萨克森工人报”编辑部的答复的草稿（1890年9月6日左右）"
+      ],
+      "nativeNoteCount": 5,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "engels-work-c40b6c83d5c3",
+          "chapterId": "chapter-001-c40b6c83d5",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900907.htm",
+          "sourceRawSha256": "c642709c0ad1c47a25fd14a60f1ece9b477639539c15b96f5c8e17ab0ce8ae62",
+          "lineIndex": 2,
+          "text": "给“萨克森工人报”编辑部的答复（1890年9月7日）",
+          "compactLength": 26,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>给“萨克森工人报”编辑部的答复（1890年9月7日）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-c40b6c83d5c3",
+          "chapterId": "chapter-001-c40b6c83d5",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/mia-chinese-engels-18900907.htm",
+          "sourceRawSha256": "c642709c0ad1c47a25fd14a60f1ece9b477639539c15b96f5c8e17ab0ce8ae62",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-a64eb0cfb09b",
+      "chapterId": "chapter-001-a64eb0cfb0",
+      "title": "反对本本主义",
+      "chapterTitle": "反对本本主义",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+      "sourceRawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:58.839684+00:00",
+        "rawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+        "bytes": 12503
+      },
+      "localBodySha256": "30f8a5fbef560c3ec1250d6513b07942aaa9fba691b3b8c27473de278c187f4e",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-a64eb0cfb09b-chapter-chapter-001-a64eb0cfb0",
+          "parentId": "toc-mao-work-a64eb0cfb09b-root",
+          "title": "反对本本主义",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-a64eb0cfb0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九三○年五月）",
+        "* 毛泽东的这篇文章是为了反对当时红军中的教条主义思想而写的。那时没有用“教条主义”这个名称，而叫它做“本本主义”。"
+      ],
+      "nativeNoteCount": 8,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-a64eb0cfb09b",
+          "chapterId": "chapter-001-a64eb0cfb0",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+          "sourceRawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+          "lineIndex": 2,
+          "text": "反对本本主义（一九三○年五月）",
+          "compactLength": 15,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>反对本本主义（一九三○年五月）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-a64eb0cfb09b",
+          "chapterId": "chapter-001-a64eb0cfb0",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-193005.htm",
+          "sourceRawSha256": "1f3e36c2916e84548e8f6d3d8661bad8efa088126c95717ad8c06e07519e4761",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-2e2dbb106758",
+      "chapterId": "chapter-001-2e2dbb1067",
+      "title": "毛泽东主席会见朝鲜党政代表团谈话记录（1964年10月7日）",
+      "chapterTitle": "毛泽东主席会见朝鲜党政代表团谈话记录（1964年10月7日）",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19641007.htm",
+      "sourceRawSha256": "573808d92babb44d5ee4ab48ba70e4d6f90a6e0c34b67284e4b0dcf3fe07c6e5",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19641007.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19641007.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:59.125877+00:00",
+        "rawSha256": "573808d92babb44d5ee4ab48ba70e4d6f90a6e0c34b67284e4b0dcf3fe07c6e5",
+        "bytes": 12006
+      },
+      "localBodySha256": "ab4fde85bc09dec825b1d3e56c91668dc9df15be457e9c9fd263a0a9284d71a5",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-2e2dbb106758-chapter-chapter-001-2e2dbb1067",
+          "parentId": "toc-mao-work-2e2dbb106758-root",
+          "title": "毛泽东主席会见朝鲜党政代表团谈话记录（1964年10月7日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-2e2dbb1067",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "毛泽东主席会见朝鲜党政代表团谈话记录（未经毛主席审阅）",
+        "（1964年10月7日）"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-2e2dbb106758",
+          "chapterId": "chapter-001-2e2dbb1067",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19641007.htm",
+          "sourceRawSha256": "573808d92babb44d5ee4ab48ba70e4d6f90a6e0c34b67284e4b0dcf3fe07c6e5",
+          "lineIndex": 2,
+          "text": "毛泽东主席会见朝鲜党政代表团谈话记录（1964年10月7日）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>毛泽东主席会见朝鲜党政代表团谈话记录（1964年10月7日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-2e2dbb106758",
+          "chapterId": "chapter-001-2e2dbb1067",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/mia-chinese-mao-19641007.htm",
+          "sourceRawSha256": "573808d92babb44d5ee4ab48ba70e4d6f90a6e0c34b67284e4b0dcf3fe07c6e5",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-70bf99918a54",
+      "chapterId": "chapter-001-70bf99918a",
+      "title": "反对党内的资产阶级思想",
+      "chapterTitle": "反对党内的资产阶级思想",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530812.htm",
+      "sourceRawSha256": "3622a680b3463331560a1898573bb67304993cf0f315be08a903d0ff5bf642ab",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530812.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530812.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:59.458264+00:00",
+        "rawSha256": "3622a680b3463331560a1898573bb67304993cf0f315be08a903d0ff5bf642ab",
+        "bytes": 11152
+      },
+      "localBodySha256": "82c4d0d083d0f3c2e8672ac1eadf1a63129ab9d05f91ad59f5f40a1b8eab69f2",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-70bf99918a54-chapter-chapter-001-70bf99918a",
+          "parentId": "toc-mao-work-70bf99918a54-root",
+          "title": "反对党内的资产阶级思想",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-70bf99918a",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九五三年八月十二日）",
+        "* 这是毛泽东同志在一九五三年夏季全国财经工作会议上的讲话。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-70bf99918a54",
+          "chapterId": "chapter-001-70bf99918a",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530812.htm",
+          "sourceRawSha256": "3622a680b3463331560a1898573bb67304993cf0f315be08a903d0ff5bf642ab",
+          "lineIndex": 2,
+          "text": "反对党内的资产阶级思想（一九五三年八月十二日）",
+          "compactLength": 23,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>反对党内的资产阶级思想（一九五三年八月十二日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-70bf99918a54",
+          "chapterId": "chapter-001-70bf99918a",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19530812.htm",
+          "sourceRawSha256": "3622a680b3463331560a1898573bb67304993cf0f315be08a903d0ff5bf642ab",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-86a491caadcb",
+      "chapterId": "chapter-001-86a491caad",
+      "title": "论俄国社会民主工党的民族纲领",
+      "chapterTitle": "论俄国社会民主工党的民族纲领",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191312.htm",
+      "sourceRawSha256": "3faf8512bc541cdcba299972edcf3ecf08fc47bdcec1fb6c677a0c3ed36c86db",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191312.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191312.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:12:59.824426+00:00",
+        "rawSha256": "3faf8512bc541cdcba299972edcf3ecf08fc47bdcec1fb6c677a0c3ed36c86db",
+        "bytes": 11123
+      },
+      "localBodySha256": "d952300fc85d66009aadce1e8f2072458784d20e293652387d19ea02f6f6bb28",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-86a491caadcb-chapter-chapter-001-86a491caad",
+          "parentId": "toc-lenin-work-86a491caadcb-root",
+          "title": "论俄国社会民主工党的民族纲领",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-86a491caad",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（1913年12月）",
+        "中央委员会会议通过了刊载在“通报”上的关于民族问题的决议(见《列宁全集》第19卷第426－428页――编者注)，并且把关于民族纲领的问题列入代表大会的议程。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-86a491caadcb",
+          "chapterId": "chapter-001-86a491caad",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191312.htm",
+          "sourceRawSha256": "3faf8512bc541cdcba299972edcf3ecf08fc47bdcec1fb6c677a0c3ed36c86db",
+          "lineIndex": 3,
+          "text": "列宁：论俄国社会民主工党的民族纲领（1913年12月）中文马克思主义文库 -> 列宁",
+          "compactLength": 40,
+          "status": "reviewed_html_title_and_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<title>列宁：论俄国社会民主工党的民族纲领（1913年12月）</title>",
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "扫描器未在TITLE结束与BODY开始处分行，拼接文档标题和独立导航；实际源节点分开，现有章目录呈现章根，正文及原注一致。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        },
+        {
+          "bookId": "lenin-work-86a491caadcb",
+          "chapterId": "chapter-001-86a491caad",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-191312.htm",
+          "sourceRawSha256": "3faf8512bc541cdcba299972edcf3ecf08fc47bdcec1fb6c677a0c3ed36c86db",
+          "lineIndex": 4,
+          "text": "论俄国社会民主工党的民族纲领",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<p style=\"text-align:center;line-height:180%; font-size:19pt;font-family:黑体; letter-spacing: 3px; margin-top:30\">论俄国社会民主工党的民族纲领</p>"
+          ]
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-6b533060e54a",
+      "chapterId": "chapter-001-6b533060e5",
+      "title": "丢掉幻想，准备斗争",
+      "chapterTitle": "丢掉幻想，准备斗争",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490814.htm",
+      "sourceRawSha256": "cbc650b31cad1234154a5bac80b31868ad65140a87aa4e9fb015a6af5f5787e3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490814.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490814.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:00.174401+00:00",
+        "rawSha256": "cbc650b31cad1234154a5bac80b31868ad65140a87aa4e9fb015a6af5f5787e3",
+        "bytes": 11351
+      },
+      "localBodySha256": "058240def2cb2e2fa95cae043a87d3fa0f9d976d06a091b4f6136d0cde8f0dec",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-6b533060e54a-chapter-chapter-001-6b533060e5",
+          "parentId": "toc-mao-work-6b533060e54a-root",
+          "title": "丢掉幻想，准备斗争",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-6b533060e5",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "丢掉幻想，准备斗争*（一九四九年八月十四日）",
+        "美国国务院关于中美关系的白皮书以及艾奇逊国务卿给杜鲁门总统的信[1]，在现在这个时候发表，不是偶然的。这些文件的发表，反映了中国人民的胜利和帝国主义的失败，反映了整个帝国主义世界制度的衰落。帝国主义制度内部的矛盾重重，无法克服，使帝国主义者陷入了极大的苦闷中。"
+      ],
+      "nativeNoteCount": 9,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-6b533060e54a",
+          "chapterId": "chapter-001-6b533060e5",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490814.htm",
+          "sourceRawSha256": "cbc650b31cad1234154a5bac80b31868ad65140a87aa4e9fb015a6af5f5787e3",
+          "lineIndex": 2,
+          "text": "丢掉幻想，准备斗争（一九四九年八月十四日）",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>丢掉幻想，准备斗争（一九四九年八月十四日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-6b533060e54a",
+          "chapterId": "chapter-001-6b533060e5",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19490814.htm",
+          "sourceRawSha256": "cbc650b31cad1234154a5bac80b31868ad65140a87aa4e9fb015a6af5f5787e3",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-09dde5cafc3d",
+      "chapterId": "chapter-001-09dde5cafc",
+      "title": "论波兰问题――1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说",
+      "chapterTitle": "论波兰问题——1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18480222.htm",
+      "sourceRawSha256": "a62d8872ea70668480847c5f1dc3dc9622d3d9a5f1430a74a675b829b5b487e9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18480222.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18480222.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:00.512772+00:00",
+        "rawSha256": "a62d8872ea70668480847c5f1dc3dc9622d3d9a5f1430a74a675b829b5b487e9",
+        "bytes": 11050
+      },
+      "localBodySha256": "29daca30a5e9bc7a7b24f466c12d7d208a406edfe59989b0e77ece84c443d984",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-09dde5cafc3d-chapter-chapter-001-09dde5cafc",
+          "parentId": "toc-marx-work-09dde5cafc3d-root",
+          "title": "论波兰问题——1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-09dde5cafc",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "论波兰问题[244] 1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说",
+        "马克思的演说"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-09dde5cafc3d",
+          "chapterId": "chapter-001-09dde5cafc",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18480222.htm",
+          "sourceRawSha256": "a62d8872ea70668480847c5f1dc3dc9622d3d9a5f1430a74a675b829b5b487e9",
+          "lineIndex": 2,
+          "text": "论波兰问题――1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说（卡・马克思和弗・恩格斯）",
+          "compactLength": 60,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>论波兰问题――1848年2月22日在布鲁塞尔举行的1846年克拉柯夫起义两周年纪念大会上的演说（卡・马克思和弗・恩格斯）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-09dde5cafc3d",
+          "chapterId": "chapter-001-09dde5cafc",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-18480222.htm",
+          "sourceRawSha256": "a62d8872ea70668480847c5f1dc3dc9622d3d9a5f1430a74a675b829b5b487e9",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思　恩格斯",
+          "compactLength": 17,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>　<a href=\"../engels/index.htm\" style=\"text-decoration: none\">恩格斯</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-608ca65a7dfa",
+      "chapterId": "chapter-001-608ca65a7d",
+      "title": "马克思致卢格（1843年5月于科隆）",
+      "chapterTitle": "马克思致卢格（1843年5月于科隆）",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184305.htm",
+      "sourceRawSha256": "63e59b35663c932eb8bb56a9bec8b7ec06ba35e1a434cec9865657f1e5ae61fb",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184305.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184305.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:00.908833+00:00",
+        "rawSha256": "63e59b35663c932eb8bb56a9bec8b7ec06ba35e1a434cec9865657f1e5ae61fb",
+        "bytes": 10214
+      },
+      "localBodySha256": "4f60ea3ae8f1346786a52c916c9fbd05266f4a08d35f5662a5af9593f8a2176f",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-608ca65a7dfa-chapter-chapter-001-608ca65a7d",
+          "parentId": "toc-marx-work-608ca65a7dfa-root",
+          "title": "马克思致卢格（1843年5月于科隆）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-608ca65a7d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "马克思致卢格1843年5月于科隆",
+        "〔来源〕 《马克思恩格斯全集》1956年版第1卷"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-608ca65a7dfa",
+          "chapterId": "chapter-001-608ca65a7d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184305.htm",
+          "sourceRawSha256": "63e59b35663c932eb8bb56a9bec8b7ec06ba35e1a434cec9865657f1e5ae61fb",
+          "lineIndex": 2,
+          "text": "马克思致卢格（1843年5月于科隆）",
+          "compactLength": 18,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马克思致卢格（1843年5月于科隆）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-608ca65a7dfa",
+          "chapterId": "chapter-001-608ca65a7d",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184305.htm",
+          "sourceRawSha256": "63e59b35663c932eb8bb56a9bec8b7ec06ba35e1a434cec9865657f1e5ae61fb",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "lenin-work-c2c3604c2d4f",
+      "chapterId": "chapter-001-c2c3604c2d",
+      "title": "政论家札记――我们党的错误",
+      "chapterTitle": "政论家札记——我们党的错误",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+      "sourceRawSha256": "51d3aa1cbaad9f5a8145e7ceadaa1829a594ad5861f88f5958cb029e997ea94d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:01.211010+00:00",
+        "rawSha256": "51d3aa1cbaad9f5a8145e7ceadaa1829a594ad5861f88f5958cb029e997ea94d",
+        "bytes": 10273
+      },
+      "localBodySha256": "d7408fa2d0e610e89b734dc9f5eb09ef96ff1989b4c907de6c2f1a22d6e8ecdb",
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-c2c3604c2d4f-chapter-chapter-001-c2c3604c2d",
+          "parentId": "toc-lenin-work-c2c3604c2d4f-root",
+          "title": "政论家札记——我们党的错误",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-c2c3604c2d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "政论家札记（1917年9月22—24日〔10月5—7日〕）",
+        "我们党的错误"
+      ],
+      "nativeNoteCount": 0,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "lenin-work-c2c3604c2d4f",
+          "chapterId": "chapter-001-c2c3604c2d",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+          "sourceRawSha256": "51d3aa1cbaad9f5a8145e7ceadaa1829a594ad5861f88f5958cb029e997ea94d",
+          "lineIndex": 6,
+          "text": "政论家札记——我们党的错误（1917年9月22—24日〔10月5—7日〕）",
+          "compactLength": 37,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>政论家札记——我们党的错误（1917年9月22—24日〔10月5—7日〕）</title>"
+          ]
+        },
+        {
+          "bookId": "lenin-work-c2c3604c2d4f",
+          "chapterId": "chapter-001-c2c3604c2d",
+          "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-19170922-24.htm",
+          "sourceRawSha256": "51d3aa1cbaad9f5a8145e7ceadaa1829a594ad5861f88f5958cb029e997ea94d",
+          "lineIndex": 10,
+          "text": "中文马克思主义文库 -> 列宁",
+          "compactLength": 13,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">列宁</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "mao-work-442c3c3ed89d",
+      "chapterId": "chapter-001-442c3c3ed8",
+      "title": "以自卫战争粉碎蒋介石的进攻",
+      "chapterTitle": "以自卫战争粉碎蒋介石的进攻",
+      "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460720.htm",
+      "sourceRawSha256": "d6825c60eaa6340010eeb4a361293406d9c313bc0b9fb0c6e92591d88b95e3ba",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460720.htm",
+        "finalUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460720.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:01.615023+00:00",
+        "rawSha256": "d6825c60eaa6340010eeb4a361293406d9c313bc0b9fb0c6e92591d88b95e3ba",
+        "bytes": 9800
+      },
+      "localBodySha256": "6593ea6c9dcd48dd7757e6d20b8df537b1aac667d5d12c5c1a2539e9bd71d7e4",
+      "localChapterToc": [
+        {
+          "id": "toc-mao-work-442c3c3ed89d-chapter-chapter-001-442c3c3ed8",
+          "parentId": "toc-mao-work-442c3c3ed89d-root",
+          "title": "以自卫战争粉碎蒋介石的进攻",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-442c3c3ed8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "（一九四六年七月二十日）",
+        "* 这是毛泽东为中共中央起草的对党内的指示。一九四五年《双十协定》签订后蒋介石就不断地破坏这个协定，但是当时他对全面内战还没有准备好，主要是大批国民党军队还没有运到内战前线。因此，在一九四六年一月，国民党政府在全国人民要求和平民主的压力下，仍然不能不召集有中国共产党和其它民主党派参加的政治协商会议，在这个会议上通过一系列有利于和平民主的决议，并且在一月十日发布停战令。蒋介石不愿意遵守政治协商会议的决议和停战令。在一九四六年上半年国民党军队继续在许多地方向解放区进攻，在东北进攻的规模更大，形成关内小打、关外大打的局面。同时美国用极大力量运输和装备国民党军队。到了一九四六年六月底，蒋介石和他的美国主子认为已经有了充分准备，认为可以在三个月至六个月的时间内消灭全部人民解放军，就以六月二十六日大举围攻中原解放区为起点，发动了对解放区的全面进攻。从七月起到九月止，国民党军队先后向苏皖解放区、山东解放区、晋冀鲁豫解放区、晋察冀解放区、晋绥解放区大举进攻。十月，对东北解放区再次发动了大规模的进攻。同时，继续以大军包围陕甘宁解放区。在全国规模内战爆发的时候，国民党用于进攻解放区的兵力，正规军共达一百九十三个旅（师），约一百六十万人，占其总兵力正规军二百四十八个旅（师）二百万人的百分之八十。各解放区军民，在中共中央和各中央局、分局的领导下，英勇地抗击了蒋介石军队的进攻。当时，解放区共有六个大的作战区域。这六个作战区域和在这些区域作战的人民解放军是：晋冀鲁豫解放区，在那里作战的是由刘伯承、邓小平等领导的人民解放军；华东解放区（包括山东解放区和苏皖解放区），在那里作战的是由陈毅、粟裕、谭震林等领导的人民解放军；东北解放区，在那里作战的是由林彪、罗荣桓等领导的人民解放军；晋察冀解放区，在那里作战的是由聂荣臻等领导的人民解放军；晋绥解放区，在那里作战的是由贺龙等领导的人民解放军；中原解放区，在那里作战的是由李先念、郑位三等领导的人民解放军。当时人民解放军的总兵力约为一百二十万人，较之敌人的兵力，在数量上居于劣势。人民解放军正确地执行了毛泽东所制定的作战方针，不断地给进犯的敌人以有力的打击。经过约八个月的时间，在消灭了敌人正规军六十六个旅，加上非正规军，共七十一万多人以后，便停止了敌人的全面进攻。接着，人民解放军又粉碎了敌人的重点进攻，逐步地展开了战略性的反攻。"
+      ],
+      "nativeNoteCount": 2,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "mao-work-442c3c3ed89d",
+          "chapterId": "chapter-001-442c3c3ed8",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460720.htm",
+          "sourceRawSha256": "d6825c60eaa6340010eeb4a361293406d9c313bc0b9fb0c6e92591d88b95e3ba",
+          "lineIndex": 2,
+          "text": "以自卫战争粉碎蒋介石的进攻（一九四六年七月二十日）",
+          "compactLength": 25,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>以自卫战争粉碎蒋介石的进攻（一九四六年七月二十日）</title>"
+          ]
+        },
+        {
+          "bookId": "mao-work-442c3c3ed89d",
+          "chapterId": "chapter-001-442c3c3ed8",
+          "sourceUrl": "https://www.marxists.org/chinese/maozedong/marxist.org-chinese-mao-19460720.htm",
+          "sourceRawSha256": "d6825c60eaa6340010eeb4a361293406d9c313bc0b9fb0c6e92591d88b95e3ba",
+          "lineIndex": 3,
+          "text": "中文马克思主义文库 -> 毛泽东",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">毛泽东</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "marx-work-87e11670d755",
+      "chapterId": "chapter-001-87e11670d7",
+      "title": "资本和劳动之间的斗争及其结果",
+      "chapterTitle": "资本和劳动之间的斗争及其结果",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1865.htm",
+      "sourceRawSha256": "a066813f93789a830ec018f2924a4d286d6d078d4a302fdf91c027c53f912402",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1865.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1865.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T13:13:01.915801+00:00",
+        "rawSha256": "a066813f93789a830ec018f2924a4d286d6d078d4a302fdf91c027c53f912402",
+        "bytes": 10150
+      },
+      "localBodySha256": "2e6a75af6c149aa4842ab509177c40bee592914c28c063e93ca3036dad1d8dc6",
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-87e11670d755-chapter-chapter-001-87e11670d7",
+          "parentId": "toc-marx-work-87e11670d755-root",
+          "title": "资本和劳动之间的斗争及其结果",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-87e11670d7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "资本和劳动之间的斗争及其结果[1]马克思（1865年5月底―6月27日）",
+        "（1）我已经指出，工人周期地反抗降低工资，周期地力图提高工资，这是同雇佣劳动制度密不可分的，因为劳动既然等同于商品，就要服从那些调节一般价格变动的规律；我还指出，工资的普遍提高会引起一般利润率的降低，但不会影响商品的平均价格或商品的价值。现在就有一个问题：在资本和劳动的这场不断的斗争中，后者能取得多大的成功？"
+      ],
+      "nativeNoteCount": 4,
+      "nativeNoteLayoutDifferences": [],
+      "nativeNoteAlignmentExceptions": [],
+      "findings": [
+        {
+          "bookId": "marx-work-87e11670d755",
+          "chapterId": "chapter-001-87e11670d7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1865.htm",
+          "sourceRawSha256": "a066813f93789a830ec018f2924a4d286d6d078d4a302fdf91c027c53f912402",
+          "lineIndex": 2,
+          "text": "马克思：资本和劳动之间的斗争及其结果（1865年5月底―6月27日）",
+          "compactLength": 34,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>马克思：资本和劳动之间的斗争及其结果（1865年5月底―6月27日）</title>"
+          ]
+        },
+        {
+          "bookId": "marx-work-87e11670d755",
+          "chapterId": "chapter-001-87e11670d7",
+          "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1865.htm",
+          "sourceRawSha256": "a066813f93789a830ec018f2924a4d286d6d078d4a302fdf91c027c53f912402",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 马克思",
+          "compactLength": 14,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [
+            "<a href=\"../index.html\" style=\"text-decoration: none\">中文马克思主义文库</a> -> <a href=\"index.htm\" style=\"text-decoration: none\">马克思</a>"
+          ],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。",
+          "sourceNodeScope": "文库锚点至首个HR之前的相邻导航节点；文档TITLE适用时单列。"
+        }
+      ],
+      "localNoteReferencesVerified": true,
+      "sourceBodyAndNativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 40,
+    "candidatesReviewed": 80,
+    "newRepairs": 0,
+    "paragraphsFootnotesTocAndAnnotationsUnchanged": true
+  }
+}

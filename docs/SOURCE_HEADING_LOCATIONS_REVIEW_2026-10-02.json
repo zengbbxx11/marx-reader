@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-02",
+  "scope": "已保留正文的原生标题缺失目录定位，补入口而不改动正文或脚注。",
+  "repairs": [
+    {
+      "bookId": "marx-work-17eba40eed8d",
+      "title": "哥达纲领批判",
+      "chapterId": "chapter-001-17eba40eed",
+      "chapterTitle": "哥达纲领批判",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+      "sourceRawSha256": "6eeff34e4bfb58d551c650eb30f1b12456900a00ce358891dc54fcc693b39873",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-1875-4.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:56:47.659151+00:00",
+        "rawSha256": "6eeff34e4bfb58d551c650eb30f1b12456900a00ce358891dc54fcc693b39873",
+        "bytes": 42372
+      },
+      "localBodySha256": "192159aba3212a46cff756f86c48a846882c0a2d0d77921702cca2a6e1589be0",
+      "sections": [
+        {
+          "id": "source-location-d1c5d426484f",
+          "title": "对德国工人党纲领的几点意见",
+          "level": 2,
+          "paragraphIndex": 19,
+          "sourceHeadingHtml": "<p class=\"title1\">对德国工人党纲领的几点意见</p>"
+        }
+      ]
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "title": "帝国主义是资本主义的最高阶段",
+      "chapterId": "chapter-001-5409317c98",
+      "chapterTitle": "帝国主义是资本主义的最高阶段",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T06:59:15.363174+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "localBodySha256": "9aada0987c5682898f624444ff5b4072de8a7ad798c444f2559c58abfe9cc13f",
+      "sections": [
+        {
+          "id": "source-location-32b03209fd77",
+          "title": "序言",
+          "level": 2,
+          "paragraphIndex": 1,
+          "sourceHeadingHtml": "<p align=\"center\" style=\"text-align: center\">序言</p>"
+        },
+        {
+          "id": "source-location-835dd441e538",
+          "title": "法文版和德文版序言",
+          "level": 2,
+          "paragraphIndex": 5,
+          "sourceHeadingHtml": "<p align=\"center\" style=\"text-align: center\">法文版和德文版序言</p>"
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "relatedTests": 33,
+    "idempotent": true,
+    "bodyFootnotesAndAnnotationsUnchanged": true
+  }
+}

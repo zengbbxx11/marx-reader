@@ -1,0 +1,3202 @@
+{
+  "date": "2026-10-02",
+  "scope": "德国的革命和反革命、英国工人阶级状况38个新鲜章页，章根／文档TITLE／路径导航及页尾带括注导航的独立DOM核验；正文及网页原注完整对照，无新增缺文。",
+  "reviews": [
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-001-6e1287f80e",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "一 革命前夕的德国",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+      "sourceRawSha256": "983835766c40773c98ae4384e1e302035a9f0818251fda867a9e1fc8ed383d87",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:42.188673+00:00",
+        "rawSha256": "983835766c40773c98ae4384e1e302035a9f0818251fda867a9e1fc8ed383d87",
+        "bytes": 17010
+      },
+      "localBodySha256": "c215fb786b51f015fc6d461624399fd37d52d53df0659f4d64c5174bba0ffdee",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-001-6e1287f80e",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "一 革命前夕的德国",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-6e1287f80e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "欧洲大陆革命剧的第一幕已经闭幕了。1848年大风暴以前的“过去的当权者”，又成为“现在的当权者”了。曾经一度多少受人欢迎的统治者，如临时执政者、三执政、独裁者以及尾随他们之后的成群的议员、民政委员、军事委员、地方长官、法官、将军、官佐、士兵等等，都被抛到异国，“赶到海外”，赶到英国或美国去了。他们在那里又组织起新的《in partibus infidelium》〔“非现实的，在异国的”〕［注：直译是：“不信教国家中的”。天主教主教被任命为非基督教国家的纯粹名义上的主教时，其头衔上添有这种字样。――编者注］政府、欧洲委员会、中央委员会、国民委员会，以堂哉皇哉的文告宣布它们的成立，那些文告的庄严堂皇，并不亚于真正当权者的文告。",
+        "很难想象出还有什么失败能比欧洲大陆的革命党（更确切些说是各革命党）在全战线各个据点所遭受的失败更为惨重的了。但这有什么关系呢？为了争取社会的和政治的统治，英国资产阶级不是经过了四十八年、而法国资产阶级不是经过了四十年空前的斗争吗？资产阶级不正是在复辟了的帝制以为自己的地位比任何时候都巩固的时刻才最接近自己的胜利的吗？把革命的发生归咎于少数煽动者的恶意的那种迷信时代，是早已过去了。现在每个人都知道，任何地方发生革命震动，总是有一种社会要求为其背景，而腐朽的制度阻碍这种要求得到满足。这种要求也许还未被人强烈地普遍地感觉到，因此还不能立即得到胜利；但是，如果企图用暴力来压制这种要求，那只能使它愈来愈强烈，直到最后把它的枷锁打碎。所以，如果我们被打败了，我们就只有再从头干起。值得庆幸的是，在运动的第一幕闭幕之后和第二幕开幕之前，有一个大约很短的休息使我们有时间来做一件很紧要的工作：研究决定这次革命必然爆发而又必然失败的原因。这些原因不应该从几个领袖的偶然的动机、优点、缺点、错误或变节中寻找，而应该从每个经历了震动的国家的总的社会状况和生活条件中寻找。1848年2月和3月突然爆发的运动，不是少数几个人活动的结果，而是人民的要求和需要的自发的不可遏止的表现，每个国家的各个阶级对这种要求和需要的认识程度虽然各不相同，但都已清楚地感觉到，――这已经是一件公认的事实。但当你问到反革命成功的原因时，你却到处听到一种现成的回答：因为某甲或某乙“出卖”了人民。从具体情况来看，这种回答也许正确，也许错误，但在任何情况下，它都不能解释半点东西，甚至不能说明，“人民”怎么会让别人出卖自己。而且，如果一个政党的全部本钱就只是知道某某人不可靠这一件事，它的前途就太可悲了。"
+      ],
+      "nativeNoteCount": 6,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-001-6e1287f80e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+          "sourceRawSha256": "983835766c40773c98ae4384e1e302035a9f0818251fda867a9e1fc8ed383d87",
+          "lineIndex": 2,
+          "text": "一 革命前夕的德国",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一 革命前夕的德国</title>",
+            "<p class=\"title1\">一 革命前夕的德国</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-001-6e1287f80e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+          "sourceRawSha256": "983835766c40773c98ae4384e1e302035a9f0818251fda867a9e1fc8ed383d87",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-001-6e1287f80e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/01.htm",
+          "sourceRawSha256": "983835766c40773c98ae4384e1e302035a9f0818251fda867a9e1fc8ed383d87",
+          "lineIndex": 7,
+          "text": "一 革命前夕的德国",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>一 革命前夕的德国</title>",
+            "<p class=\"title1\">一 革命前夕的德国</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-002-e9f59ca0ed",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "二 普鲁士邦",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+      "sourceRawSha256": "8f688c9f4bd2c238c7685bbb69901d3cae7b197d12cc3a888a84488708a12ca9",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:43.683799+00:00",
+        "rawSha256": "8f688c9f4bd2c238c7685bbb69901d3cae7b197d12cc3a888a84488708a12ca9",
+        "bytes": 17774
+      },
+      "localBodySha256": "0e82e6c4e9887443f8cdf053ca8c93c965b87ecb86e2073de78961039eb6dbda",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-002-e9f59ca0ed",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "二 普鲁士邦",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-e9f59ca0ed",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "德国中等阶级或资产阶级的政治运动，可以说是从1840年开始。在这以前，已经有许多征象表明，这个国家的拥有资本和工业的阶级已经成熟到这样一种程度，它再不能在半封建半官僚的君主专制的压迫下继续消极忍耐了。较小的德国封建君主们，都相继向自己的臣民恩赐了或多或少带有自由主义性质的宪法，这部分地是为了保证他们自己有更大的独立以对抗奥地利和普鲁士的霸权，或对抗他们自己邦内贵族的势力，部分地是为了把由于维也纳会议[8]而统一在他们治下的各个分散的地区团结成一个整体。这样做对他们自己是毫不危险的，因为，如果联邦议会――它只是奥地利和普鲁士的傀儡――要侵犯他们作为主权君主的独立性，他们知道，在反抗议会的命令时舆论和本邦议会会作他们的后盾；反之，如果这些邦议会的势力太大时，他们可以很容易地运用联邦议会的权力击败一切反对派。巴伐利亚、维尔腾堡、巴登或汉诺威的宪法制度，在这种情形下并不能推动争取政治权力的严重斗争；因此德国资产阶级的大多数对于各小邦立法议会中的琐碎的争端，一般是不加过问的，他们清楚地知道，如果德国两个大邦的政治和国家制度没有根本改变，任何次要的努力和胜利都是没有用处的。但同时，在这些小邦议会中却生长出一大群自由主义的律师和职业的反对派；罗泰克、韦尔凯尔、勒麦、约丹、施梯维、艾森曼等等这类大“名人”（Volksmänner），在做了二十年喧嚷的然而总是毫无成效的反对派之后，被1848年的革命浪潮推上了权力的顶峰，而后来，他们暴露了自己的极端无能和微不足道，顷刻之间又被推翻了。这是第一批德国土产的职业政客和反对派的标本；他们用演说和文章使德国人耳熟了立宪主义的词句，并用他们的存在本身预示着这样一个时刻即将到来，那时，资产阶级将利用这些夸夸其谈的律师和教授们所惯用然而却不大了解其真实含义的政治词句，并赋予它们以真正的意义。",
+        "1830年的事件[9]把整个欧洲投进了政治骚动中，德国文学也受到这种骚动的影响。当时几乎所有的作家都大谈其不成熟的立宪主义或更加不成熟的共和主义。在这批人中间，特别是在低等文人中间，逐渐形成了一种习惯，他们用一些能够引起公众注意的政治暗喻来弥补他们作品中才华的不足。在诗歌、小说、评论、戏剧中，在一切文学作品中，都充满所谓的“倾向”，即反政府情绪的畏首畏尾的流露。为了使1830年后在德国盛行的思想混乱达到顶点，这些政治上的反对派便同大学里没有经过很好的消化的对德国哲学的记忆以及被曲解了的法国社会主义、尤其是圣西门主义的只言片语掺混在一起；这一群散布这些杂乱思想的作家，傲慢不逊地自称为“青年德意志”或“现代派”[10]。后来他们曾追悔这种青年时代的罪过，但他们的文风却丝毫未见改善。"
+      ],
+      "nativeNoteCount": 8,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-002-e9f59ca0ed",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+          "sourceRawSha256": "8f688c9f4bd2c238c7685bbb69901d3cae7b197d12cc3a888a84488708a12ca9",
+          "lineIndex": 2,
+          "text": "二 普鲁士邦",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二 普鲁士邦</title>",
+            "<p class=\"title1\">二 普鲁士邦</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-002-e9f59ca0ed",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+          "sourceRawSha256": "8f688c9f4bd2c238c7685bbb69901d3cae7b197d12cc3a888a84488708a12ca9",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-002-e9f59ca0ed",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/02.htm",
+          "sourceRawSha256": "8f688c9f4bd2c238c7685bbb69901d3cae7b197d12cc3a888a84488708a12ca9",
+          "lineIndex": 7,
+          "text": "二 普鲁士邦",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>二 普鲁士邦</title>",
+            "<p class=\"title1\">二 普鲁士邦</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-003-df00df8c8d",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "三 德国其它各邦",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+      "sourceRawSha256": "028dc3912fcdfdf552743e7499199ccdc63bd48d1630b7b5e9f147abeb6f171f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:44.471288+00:00",
+        "rawSha256": "028dc3912fcdfdf552743e7499199ccdc63bd48d1630b7b5e9f147abeb6f171f",
+        "bytes": 9500
+      },
+      "localBodySha256": "2e721e37f4c6fc4dc84092285cd6ac80cb2d0682c57c6cdac367d96b7af9857f",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-003-df00df8c8d",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "三 德国其它各邦",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-df00df8c8d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在前一篇文章中，我们几乎仅仅限于谈到1840年至1848年间在德国的运动中起着最重要的作用的一邦，即普鲁士邦。现在我们则应该略微考察一下同一时期德国的其它各邦。",
+        "自从1830年革命运动以后，各小邦完全处于联邦议会的独裁之下，也就是外于奥地利和普鲁士的独裁之下。各邦的宪法一方面是用来抵御大邦的专横霸道，一方面是为创制宪法的君主们在群众中树立声望并把由维也纳会谈不依任何指导原则建立的各色各样的省议会统一起来。这些宪法虽然虚有其名，但在1830年和1831年的风暴时期，对各小邦君主的权力仍然是一种危险。所以它们几乎全部被废除，侥幸保存下来的则更加有名无实，只有像韦尔凯尔、罗泰克和达尔曼这帮絮絮不休的自我陶醉的人才会设想，他们在这些小邦的无力的议会里被允许表明的那种掺和着可耻的谄媚的、不值钱的反对立场，能够获得什么结果。"
+      ],
+      "nativeNoteCount": 4,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-003-df00df8c8d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+          "sourceRawSha256": "028dc3912fcdfdf552743e7499199ccdc63bd48d1630b7b5e9f147abeb6f171f",
+          "lineIndex": 2,
+          "text": "三 德国其它各邦",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三 德国其它各邦</title>",
+            "<p class=\"title1\">三 德国其它各邦</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-003-df00df8c8d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+          "sourceRawSha256": "028dc3912fcdfdf552743e7499199ccdc63bd48d1630b7b5e9f147abeb6f171f",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-003-df00df8c8d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/03.htm",
+          "sourceRawSha256": "028dc3912fcdfdf552743e7499199ccdc63bd48d1630b7b5e9f147abeb6f171f",
+          "lineIndex": 7,
+          "text": "三 德国其它各邦",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>三 德国其它各邦</title>",
+            "<p class=\"title1\">三 德国其它各邦</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-004-3746e38031",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "四 奥地利",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+      "sourceRawSha256": "4fafca83ef427ad219c1394efd22f21c8eb86e090dc73d67c8b5cb418a0aa5d6",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:45.408774+00:00",
+        "rawSha256": "4fafca83ef427ad219c1394efd22f21c8eb86e090dc73d67c8b5cb418a0aa5d6",
+        "bytes": 10590
+      },
+      "localBodySha256": "ca0df92cc2a279ce71328f86ec4c7564b8994530ce10609fcc29e74d2e907d30",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-004-3746e38031",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "四 奥地利",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-3746e38031",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们现在应该来看看奥地利，这个国家在1848年3月以前之不为外国人所了解，差不多正像最近同英国作战以前的中国[20]一样。",
+        "当然，我们这里只能研究奥地利的德意志部分。波兰、匈牙利和意大利的奥地利人，不属于本题范围；至于1848年后他们对奥地利德意志人的命运的影响，我们将在以后来谈。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-004-3746e38031",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+          "sourceRawSha256": "4fafca83ef427ad219c1394efd22f21c8eb86e090dc73d67c8b5cb418a0aa5d6",
+          "lineIndex": 2,
+          "text": "四 奥地利",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四 奥地利</title>",
+            "<p class=\"title1\">四 奥地利</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-004-3746e38031",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+          "sourceRawSha256": "4fafca83ef427ad219c1394efd22f21c8eb86e090dc73d67c8b5cb418a0aa5d6",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-004-3746e38031",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/04.htm",
+          "sourceRawSha256": "4fafca83ef427ad219c1394efd22f21c8eb86e090dc73d67c8b5cb418a0aa5d6",
+          "lineIndex": 7,
+          "text": "四 奥地利",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>四 奥地利</title>",
+            "<p class=\"title1\">四 奥地利</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-005-0852d443a0",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "五 维也纳起义",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+      "sourceRawSha256": "7509b890ef738368e13cd9461c9136887f018e5caab3c42aa1aa86ffe79de822",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:46.021897+00:00",
+        "rawSha256": "7509b890ef738368e13cd9461c9136887f018e5caab3c42aa1aa86ffe79de822",
+        "bytes": 5886
+      },
+      "localBodySha256": "2df457fa08b1a8a4e50afc1a02695dbfda2235fc79dfa67c590af7ec35b5f7ce",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-005-0852d443a0",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "五 维也纳起义",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-0852d443a0",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "1848年2月24日，路易-菲利普被赶出巴黎，法兰西共和国宣告成立。紧接着，在3月13日，维也纳人民摧毁了梅特涅公爵的政权，使他可耻地逃亡国外。3月18日，柏林人民举行武装起义，经过十八小时顽强的战斗之后，满意地看到国王向他们求饶乞降。同时，在德国各小邦的首都也都爆发了猛烈程度不同但全都得到同样的胜利的骚动。如果说德国人民没有能够完成他们的第一次革命，那末至少他们是真正地走上了革命的道路。",
+        "我们不能在这里详细考察这许多次起义都是怎样发生的；我们只想阐明这些起义的性质以及各个阶级对这些起义所采取的立场。"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-005-0852d443a0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+          "sourceRawSha256": "7509b890ef738368e13cd9461c9136887f018e5caab3c42aa1aa86ffe79de822",
+          "lineIndex": 2,
+          "text": "五 维也纳起义",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>五 维也纳起义</title>",
+            "<p class=\"title1\">五 维也纳起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-005-0852d443a0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+          "sourceRawSha256": "7509b890ef738368e13cd9461c9136887f018e5caab3c42aa1aa86ffe79de822",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-005-0852d443a0",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/05.htm",
+          "sourceRawSha256": "7509b890ef738368e13cd9461c9136887f018e5caab3c42aa1aa86ffe79de822",
+          "lineIndex": 7,
+          "text": "五 维也纳起义",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>五 维也纳起义</title>",
+            "<p class=\"title1\">五 维也纳起义</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-006-9164c9241e",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "六 柏林起义",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+      "sourceRawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:46.626646+00:00",
+        "rawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+        "bytes": 7007
+      },
+      "localBodySha256": "58faf60f5ae7a5abe24f2b4910eaf386256890667d31c537fbea7b8e1d6e9690",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-006-9164c9241e",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "六 柏林起义",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-9164c9241e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "革命运动的第二个中心是柏林。从前面几篇文章所叙述的情形不难了解，为什么柏林的革命行动远没有得到维也纳革命行动中的那种差不多是所有阶级的一致赞助。在普鲁士，资产阶级早已经卷入了反政府的实际斗争；“联合议会”开会的结果是造成了破裂；资产阶级革命日益迫近；如果不是由于巴黎二月革命，这个革命在爆发之初也许会像维也纳革命一样为各阶级所一致赞助。巴黎事变促进了一切，但它是在另一旗帜下进行的，这面旗帜与普鲁士资产阶级准备进攻自己的政府时所举起的旗帜完全不同。二月革命在法国所推翻的那种政府，正是普鲁士资产阶级在他们自己国内所要建立的。二月革命声称自己是工人阶级反对资产阶级的革命，它宣告推翻资产阶级政府，解放工人。而普鲁士资产阶级最近则受够了自己国内工人阶级的骚扰。在西里西亚起义所引起的最初恐怖过去以后，他们甚至想为自身利益来利用这些骚动。但他们对革命的社会主义和共产主义始终保持着足够的警觉。因此，当他们看到巴黎政府的首脑正是他们所认为的财产、秩序、宗教、家庭以及现代资产阶级的其它神圣东西的最危险的敌人的时候，他们就立刻感到自己的革命热忱大大地冷却了。他们知道必须抓紧时机，知道没有工人群众的帮助他们就要失败，可是他们的勇气失掉了。因此，在最初的一些地方性的革命发动时，他们便站在政府方面，努力使柏林的人民保持安静，因为五天以来人民一直聚集在皇宫前讨论各种新闻，要求改变政府。而当梅特涅被推翻的消息传来、国王终于作了一些小小的让步时，资产阶级便认为革命已经完成，忙于向皇帝陛下谢恩，说他已满足了他的人民的一切愿望。可是紧接着便是军队向群众的进攻，便是街垒、战斗以及王室的溃败。于是一切都改变了。资产阶级曾经尽力想把他们排挤到后面去的工人阶级，现在被推到斗争的前列，他们进行了战斗而且获得了胜利，他们突然意识到自己的力量。对于选举权、出版自由、陪审权、集会权的限制――这些限制是资产阶级所最欢迎的，因为受到限制的只是他们下面的阶级――现在已经不能继续下去了。重演巴黎的“无政府的”场面的危险迫于眉睫。在这种危险面前，一切过去的不和都消逝了。多年来的友人和敌人为了反对胜利的工人阶级而联合起来，虽然这一阶级还并没有提出它自己的特殊要求。资产阶级和被推翻的制度的拥护者在柏林的街垒上订立了联盟。他们彼此不得不作些必要的让步，但也只限于势在必行的让步；成立了一个由联合议会中各反对派的领袖组成的内阁，为了酬答这个内阁保全王位的功绩，旧政府的一切支柱――封建贵族、官僚、军队保证支持它。这就是康普豪森和汉泽曼先生组阁的条件。",
+        "新阁员们对于觉醒的群众非常恐惧，在他们眼里，任何能巩固已被动摇的政权的基础的手段都是好的。这些糊里糊涂的可怜虫以为旧制度复辟的一切危险都已经过去了，因此便利用整个旧的国家机器来恢复“秩序”。文武官员没有一个人被撤职，旧的管理国家的官僚制度丝毫没有变更。这些立宪的责任内阁的宝贝阁员们，甚至把那些由于他们过去的官僚暴行而被人民在最初的革命高潮中赶跑的官员也恢复了原职。除掉阁员更换而外，普鲁士没有任何变更，甚至各主管部门的人员也都一个未动；所有那些在新擢升的统治者周围组成一个合唱队并希望分得一份权位的猎取官职的立宪派，都得到了暗示：应该等到秩序恢复安定时再来更动官员，因为现在就这样作是有危险的。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-006-9164c9241e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+          "sourceRawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+          "lineIndex": 2,
+          "text": "六 柏林起义",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>六 柏林起义</title>",
+            "<p class=\"title1\">六 柏林起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-006-9164c9241e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+          "sourceRawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-006-9164c9241e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+          "sourceRawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+          "lineIndex": 7,
+          "text": "六 柏林起义",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>六 柏林起义</title>",
+            "<p class=\"title1\">六 柏林起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-006-9164c9241e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/06.htm",
+          "sourceRawSha256": "4523cc39064a98f9f75642861e39ee6812a45fe2de6b4c1960eed3387840b84e",
+          "lineIndex": 41,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"05.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"07.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/>\n<br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-007-eed92c6863",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "七 法兰克福国民议会",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+      "sourceRawSha256": "649b5ac97879ccff3656b7aa13057b244e367c52ff6d391df9f7a78631825126",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:47.262835+00:00",
+        "rawSha256": "649b5ac97879ccff3656b7aa13057b244e367c52ff6d391df9f7a78631825126",
+        "bytes": 8445
+      },
+      "localBodySha256": "d7d505d296d45d0462c2894c2c19cbcfa57197301ac7f6761e4d8858291d0a2f",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-007-eed92c6863",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "七 法兰克福国民议会",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-eed92c6863",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "读者大概还记得，我们在前六篇文章里叙述了德国的革命运动，叙述到了维也纳3月13日和柏林3月18日两次人民的伟大胜利。我们看到，在奥地利和普鲁士都建立了立宪政府，自由主义的原则，或资产阶级的原则被宣布为未来整个政策的指导方针；这两大运动中心之间唯一显著的区别是：普鲁士的自由派资产阶级以康普豪森先生和汉泽曼先生这两位富商作代表，直接攫取了权柄，而奥地利的资产阶级受政治训练较少，结果是自由派官僚们掌握了政权，他们宣称自己是受资产阶级的委托来执掌大权。我们又看到，原来团结一致反对旧政府的各党派和各社会阶级如何在胜利之后、甚至在斗争进行中四分五裂；而独享胜利果实的自由派资产阶级如何立即转而反对它昨天的同盟者，如何对一切较先进的阶级或党派采取敌对态度，并且同战败的封建分子和官僚分子结成同盟。事实上，早在革命剧开演时就可以看出，自由派资产阶级只有依靠较激进的人民党派的援助，才能守任自己的阵地，抵抗那已被击败但未被消灭的封建和官僚政党；另一方面，为了对付这些较激进的群众的冲击，自由派资产阶级又需要封建贵族和官僚的援助。所以，很明显，奥地利和普鲁士的资产阶级没有足够的力量把政权掌握在自己手里并使一切国家机构适应于他们自己的需要和理想。自由派资产阶级的内阁，不过是一个过渡阶梯，从这里，按照事态的发展情况，国家或者将走向更高的阶段，――达到统一的共和国，或者将重新堕入旧日封建教权主义的和官僚主义的制度中去。无论如何，真正的决战还在后面；三月事变只是战斗的开始。",
+        "奥地利和普鲁士在德国是居于支配地位的两邦，因此维也纳或柏林的每个决定性的革命胜利，对全德国都有决定的意义。这两个城市1848年三月的事变的发展，也确实决定了全德国事态的进程。所以，如果不是由于这些小邦的存在而产生了一个机构，这个机构的存在本身正是德国的不正常状态的最显著的证据，正是最近这次革命半途而废的证据，那末本来是无须再叙述各小邦所发生的运动，我们的确可以只来研究奥地利和普鲁士的情况了。这个机构如此离奇，它所处的地位如此滑稽可笑，而同时它又如此自命不凡，可以说，在历史上将找不到第二个这样的机构。这个机构就是所谓的美因河畔法兰克福的德国国民议会。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-007-eed92c6863",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+          "sourceRawSha256": "649b5ac97879ccff3656b7aa13057b244e367c52ff6d391df9f7a78631825126",
+          "lineIndex": 2,
+          "text": "七 法兰克福国民议会",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>七 法兰克福国民议会</title>",
+            "<p class=\"title1\">七 法兰克福国民议会</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-007-eed92c6863",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+          "sourceRawSha256": "649b5ac97879ccff3656b7aa13057b244e367c52ff6d391df9f7a78631825126",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-007-eed92c6863",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/07.htm",
+          "sourceRawSha256": "649b5ac97879ccff3656b7aa13057b244e367c52ff6d391df9f7a78631825126",
+          "lineIndex": 7,
+          "text": "七 法兰克福国民议会",
+          "compactLength": 9,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>七 法兰克福国民议会</title>",
+            "<p class=\"title1\">七 法兰克福国民议会</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-008-b3362e8f09",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "八 波兰人、捷克人和德意志人[25]",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/08.htm",
+      "sourceRawSha256": "12b5b20ce2da51f89a95d89bd549e1880d913d037b40e56005ae83ef4e7d3409",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:47.706977+00:00",
+        "rawSha256": "12b5b20ce2da51f89a95d89bd549e1880d913d037b40e56005ae83ef4e7d3409",
+        "bytes": 7792
+      },
+      "localBodySha256": "28e3eec8698e56a7af9b25623f08f801b80967e5335b6ef4dc399f13a8764246",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-008-b3362e8f09",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "八 波兰人、捷克人和德意志人[25]",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-b3362e8f09",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "八 波兰人、捷克人和德意志人[25]",
+        "从以上几篇文章中已经明显看出，除非1848年三月革命后紧接着再来一个新的革命，否则德国就不可避免地要恢复到这次事变以前的状态。但我们现在要略加阐述的历史课题，性质非常复杂，如果不考虑到可以称之为德国革命的国际关系的种种情况，便不能够充分了解后来的一些事件。而这些国际关系也像德国内部情形一样复杂。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-008-b3362e8f09",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/08.htm",
+          "sourceRawSha256": "12b5b20ce2da51f89a95d89bd549e1880d913d037b40e56005ae83ef4e7d3409",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-009-3bb437fbd7",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+      "sourceRawSha256": "d361fbce4d20e870b54acde3a2345298f880b4df055c7907db61405bc873d612",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:48.316909+00:00",
+        "rawSha256": "d361fbce4d20e870b54acde3a2345298f880b4df055c7907db61405bc873d612",
+        "bytes": 7649
+      },
+      "localBodySha256": "2795346455009c34c01f139d67f32ebb65a4b72ca92e77cea1d8d0cc1c6a8a1e",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-009-3bb437fbd7",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-3bb437fbd7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "波希米亚和克罗地亚（又一个斯拉夫族的分散的成员，他们受匈牙利人的影响，就像波希米亚人受德意志人的影响一样），是欧洲大陆上所谓“泛斯拉夫主义”的发源地。波希米亚和克罗地亚都没有强大到足以作为独立的民族而存在。这两个民族都因种种历史原因（这些原因必然使它们为更强大的民族所并吞）的作用而渐渐瓦解，它们要想恢复一定的独立性，只有和其它斯拉夫民族联合起来。波兰人有二千二百万，俄罗斯人有四千五百万，塞尔维亚和保加利亚人有八百万；为什么不把这八千万斯拉夫人组成一个强有力的联邦，把侵入神圣的斯拉夫族领土的不速之客，土耳其人、匈牙利人、尤其是那可恨而又不可缺少的Niemetz即德意志人驱逐出去或消灭掉呢？于是，就从几个斯拉夫族的历史科学的癖好者的书斋里发起了这样一个荒唐的、反历史的运动，公然想使文明的西方从属于野蛮的东方，城市从属于乡村，商业、工业和文化从属于斯拉夫农奴的原始农业。但在这种荒唐的理论之后，还站着俄罗斯帝国这一可怕的现实；这个帝国的一举一动都暴露出它那想把整个欧洲变成斯拉夫种族、尤其是这个种族的唯一强有力的部分即俄罗斯人的领土的野心；这个帝国虽有彼得堡和莫斯科两个首都，但在被俄国每个农民看做是他们的宗教和国家的真正京都的“沙皇之城”（君士坦丁堡，俄文为察尔格勒，即沙皇城）还没有成为俄国皇帝的真正的驻节地的时候，这个帝国就始终不能安定下来；过去一百五十年以来，这个帝国在它所进行的每次战争中不仅从未失掉领土，而且总是获得领土。俄罗斯的政策是用种种阴谋手段支持新发明的泛斯拉夫主义理论（这种理论的发明是最适合于俄罗斯政策的目的的），这在中欧已经是人所共知的了。因此捷克和克罗地亚的泛斯拉夫主义者都是自觉或不自觉地直接为俄国的利益服务；他们为了一个独立民族的幻影而出卖了革命事业，而这个独立民族的命运至多也不过同俄国统治下的波兰民族的命运一样。而在这方面，波兰人应该受到赞扬，因为波兰人从来没有真正陷入这个泛斯拉夫主义的圈套；至于少数贵族变成了狂热的泛斯拉夫主义者，那是由于他们知道，他们在俄国统治下所受的损失，要比他们在自己的农奴起义时所受的损失轻微一些。",
+        "后来捷克人和克罗地亚人在布拉格召开了一个斯拉夫人代表大会[27]，筹备成立一个斯拉夫人大同盟。即使没有奥地利军队的干涉，这个大会也一定要失败的。几种斯拉夫语言的不同，就像英语、德语和瑞典语的不同一样；因此在会议开始以后，竟没有一种共同的斯拉夫语言是所有参加讨论的人都懂得的。曾经试用法语，但大多数人也不懂法语，于是，这些可怜的热心于斯拉夫主义的人，这些唯一的共同感情就是对德意志人的共同仇恨的人，最后却不得不用与会人都懂得的唯一语言――可恨的德语来表达意见！但正在这个时候，在布拉格也召开了另外一个斯拉夫人代表大会，参加这个大会的是加里西亚人的枪骑兵、克罗地亚和斯洛伐克人的掷弹兵、捷克人的炮兵和重骑兵，而这个真正的武装的斯拉夫人大会在文迪施格雷茨的指挥之下，不到二十四小时就把假想的斯拉夫人霸权的奠基者们驱逐出城，并把他们赶得东逃西散了。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-009-3bb437fbd7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+          "sourceRawSha256": "d361fbce4d20e870b54acde3a2345298f880b4df055c7907db61405bc873d612",
+          "lineIndex": 2,
+          "text": "九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争",
+          "compactLength": 21,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争</title>",
+            "<p class=\"title1\">九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-009-3bb437fbd7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+          "sourceRawSha256": "d361fbce4d20e870b54acde3a2345298f880b4df055c7907db61405bc873d612",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-009-3bb437fbd7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/09.htm",
+          "sourceRawSha256": "d361fbce4d20e870b54acde3a2345298f880b4df055c7907db61405bc873d612",
+          "lineIndex": 7,
+          "text": "九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争",
+          "compactLength": 21,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争</title>",
+            "<p class=\"title1\">九 泛斯拉夫主义。什列斯维希-霍尔施坦的战争</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-010-08997a7afe",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十 巴黎起义。法兰克福议会",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+      "sourceRawSha256": "13c37728389581c762a76f9ea2955705c0641156fcb8894e53d758fc9f67644a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:48.730739+00:00",
+        "rawSha256": "13c37728389581c762a76f9ea2955705c0641156fcb8894e53d758fc9f67644a",
+        "bytes": 7660
+      },
+      "localBodySha256": "23f41aae5e928d7d3d89b5cd92ad112d0fb6fa08741e6222c807e53e3d51a430",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-010-08997a7afe",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十 巴黎起义。法兰克福议会",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-08997a7afe",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "早在1848年4月初，在整个欧洲大陆革命的浪潮已经被社会的那些从最初的胜利中获得利益的阶级同战胜者立即缔结的联盟所阻止了。在法国，小资产阶级和共和派资产阶级，同保皇派资产阶级联合起来反对无产阶级；在德国和意大利，胜利的资产阶级急忙乞求封建贵族、政府官僚和军队帮助他们对付人民群众和小资产阶级。联合起来的保守的和反革命的政党，很快又获得了优势。在英国，发动得不适时和准备得不充分的人民示威（4月10日），使从事运动的党派[29]遭到了彻底的决定性的失败。在法国，两次与此类似的运动（4月16日和5月15日）也同样被击败了[30]。在意大利，“炮弹国王”［注：即费迪南德二世。――编者注］在5月15日一举而恢复了政权[31]。在德国，各个新的资产阶级政府和它们的制宪议会都巩固了自己的地位，虽然在维也纳，多事的5月15日使人民获得了胜利，不过这毕竟是一个次要的事变，它可以说是人民的力量的最后一次胜利的闪耀。在匈牙利，运动看来是转入了完全合法的平静的轨道，至于波兰的运动，我们在前面一篇文章中已经提到，它刚刚萌芽就被普鲁士的刺刀镇压下去了。但是这一切并没有确定事态的最后结局，各革命政党在各国失去的每一寸土地，只是使他们更加团结自己的队伍，准备去进行决定性的斗争。",
+        "决定性的斗争已经临近了。它只能在法国爆发；因为在英国没有参加革命战斗而德国仍然四分五裂的时候，法国由于国家的独立、文明和中央集权，是唯一能够给周围各国以有力推动的国家。所以，当1848年6月23日巴黎的流血斗争开始的时候，接二连三的电报和信件使欧洲愈来愈清楚地看到这样一件事实：这次斗争是在工人群众和得到军队援助的巴黎居民的其它阶级之间进行的；战斗继续了好几天，其激烈程度是现代内战史上空前未有的，但双方都没有得到明显的胜利；这时候，每个人都清楚地看到，这是一次伟大的决战，如果起义胜利，整个欧洲大陆就要掀起新的革命浪潮；如果起义失败，反革命统治就会至少暂时恢复。"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-010-08997a7afe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+          "sourceRawSha256": "13c37728389581c762a76f9ea2955705c0641156fcb8894e53d758fc9f67644a",
+          "lineIndex": 2,
+          "text": "十 巴黎起义。法兰克福议会",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十 巴黎起义。法兰克福议会</title>",
+            "<p class=\"title1\">十 巴黎起义。法兰克福议会</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-010-08997a7afe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+          "sourceRawSha256": "13c37728389581c762a76f9ea2955705c0641156fcb8894e53d758fc9f67644a",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-010-08997a7afe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/10.htm",
+          "sourceRawSha256": "13c37728389581c762a76f9ea2955705c0641156fcb8894e53d758fc9f67644a",
+          "lineIndex": 7,
+          "text": "十 巴黎起义。法兰克福议会",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十 巴黎起义。法兰克福议会</title>",
+            "<p class=\"title1\">十 巴黎起义。法兰克福议会</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-011-66976edb17",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十一 维也纳起义",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+      "sourceRawSha256": "249b893de111bf400a2aab0e87de673f0bfa65ef42f5db391f07fff61c908ae8",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:49.019708+00:00",
+        "rawSha256": "249b893de111bf400a2aab0e87de673f0bfa65ef42f5db391f07fff61c908ae8",
+        "bytes": 9741
+      },
+      "localBodySha256": "0e790f08d4858ac3cda41e0323062e2c773282a502a25efd665dc7ccc88a3fc6",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-011-66976edb17",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十一 维也纳起义",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-66976edb17",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "现在我们来谈谈一个有决定意义的事变，这次事变对于德国的革命意义正像巴黎的六月起义一样，它使优势一下子转到了反革命政党方面去。这次事变就是1848年10月的维也纳起义。",
+        "3月13日革命胜利以后维也纳各阶级的地位如何，我们已经看到了。我们也看到，德意志的奥地利的运动如何同非德意志的奥地利各省的事变互相交错在一起，以及后者如何阻碍前者。所以，我们现在只要简短地叙述一下引起德意志奥地利的这次最后的、最勇猛的起义的原因就可以了。"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-011-66976edb17",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+          "sourceRawSha256": "249b893de111bf400a2aab0e87de673f0bfa65ef42f5db391f07fff61c908ae8",
+          "lineIndex": 2,
+          "text": "十一 维也纳起义",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十一 维也纳起义</title>",
+            "<p class=\"title1\">十一 维也纳起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-011-66976edb17",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+          "sourceRawSha256": "249b893de111bf400a2aab0e87de673f0bfa65ef42f5db391f07fff61c908ae8",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-011-66976edb17",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/11.htm",
+          "sourceRawSha256": "249b893de111bf400a2aab0e87de673f0bfa65ef42f5db391f07fff61c908ae8",
+          "lineIndex": 7,
+          "text": "十一 维也纳起义",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十一 维也纳起义</title>",
+            "<p class=\"title1\">十一 维也纳起义</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-012-817c8387f7",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十二 对维也纳的攻击。对维也纳的背叛",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+      "sourceRawSha256": "634215a42f479ea170f623c15bd8377e8d0524b415daff086e2d30b39fc80db7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:49.363034+00:00",
+        "rawSha256": "634215a42f479ea170f623c15bd8377e8d0524b415daff086e2d30b39fc80db7",
+        "bytes": 14322
+      },
+      "localBodySha256": "fcf3bfac8e4d3e7be1ac5cb646ec20064a8470d15c381efe14835815ab11bac3",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-012-817c8387f7",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十二 对维也纳的攻击。对维也纳的背叛",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-817c8387f7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "当最后文迪施格雷茨集中起来的军队开始攻击维也纳的时候，能够动员起来进行防御的力量是很不够的。国民自卫军只有一部分可以调到战壕中去。不错，无产阶级的自卫军最后终于仓促组成了，但由于决定这样来利用这一部分人数最多、最勇敢、最坚决的人民的时刻已经太迟，所以这支队伍未能充分学会掌握武器使用和得到最基本的训练，因而也就不能胜利地抗击敌人。因此，人数有三四千名、训练有素、纪律也相当好的勇敢热情的大学生军团，从军事观点来说便成为能够胜任自己职务的唯一的一支部队了。但他们（连少数可靠的国民自卫军和一群紊乱的武装起来的无产者也算在内）和文迪施格雷茨的人数众多的正规军比较起来又算得了什么呢？这里更不要说耶拉契奇的土匪队伍了，他们由于生活习惯，是十分擅长于那种为争夺一幢房屋一条胡同而进行的军事行动的。文迪施格雷茨肆无忌惮地动用了许许多多装备完善的大炮，而起义者除了几门陈旧不堪、装配不好、使用不灵的旧炮而外，还有什么呢？",
+        "危险越迫近，维也纳城内越混乱。直到最后一刻，议会还没有决定向驻扎在离首都几哩的、佩尔采尔的匈牙利军队求援。安全委员会通过了一些自相矛盾的决议，它也像武装的人民群众一样，随着各种互相矛盾的谣言的起伏而情绪时高时低。只有一件事是全体都同意的――尊重财产；而这种尊重在当时的情况下达到了可以说是十分滑稽可笑的程度。在确定防御计划方面却做得很少。如果说当时还有人能挽救维也纳的话，那末贝姆便是唯一的一个，他是一个本籍斯拉夫族的、几乎没有人知道的外国人；而由于大家对他不信任，他决定不再担负这个任务。如果他继续担负下去，他也许要被当作一个叛徒而遭到私刑拷打。起义者的指挥官梅森豪泽作为小说家的才能远远超过他作为军官（甚至是下级军官）的才能，因此他根本不适合担任这个工作；可是，在八个月的革命斗争之后，人民的政党并没有从自己的队伍中或别的地方培养出或发现一个比他更能干的军事人才。战斗就这样开始了。维也纳人既十分缺少防御手段，又非常缺乏军事训练和组织，但他们还是作了最英勇的抵抗。贝姆担任指挥官时所发布的命令――“坚守阵地到最后一人”，在很多地方都是不折不扣地执行了的。但是，毕竟还是实力占了上风。帝国炮兵在近郊的长而宽的大道上，在主要的交通线上把重重的街垒都扫除了；到战斗的第二天晚上，克罗地亚人便占领了旧城斜堤对面的一排房屋。匈牙利军队的无力而零乱的攻击完全被击退了；在停火的间歇时刻，旧城里的队伍有的投降了，有的踌躇动摇，陷于混乱，剩下来的大学生军团在构筑新的工事，而帝国军队就在这时攻入城内，趁着城内的一片混乱占领了旧城。"
+      ],
+      "nativeNoteCount": 3,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-012-817c8387f7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+          "sourceRawSha256": "634215a42f479ea170f623c15bd8377e8d0524b415daff086e2d30b39fc80db7",
+          "lineIndex": 2,
+          "text": "十二 对维也纳的攻击。对维也纳的背叛",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十二 对维也纳的攻击。对维也纳的背叛</title>",
+            "<p class=\"title1\">十二 对维也纳的攻击。对维也纳的背叛</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-012-817c8387f7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+          "sourceRawSha256": "634215a42f479ea170f623c15bd8377e8d0524b415daff086e2d30b39fc80db7",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-012-817c8387f7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/12.htm",
+          "sourceRawSha256": "634215a42f479ea170f623c15bd8377e8d0524b415daff086e2d30b39fc80db7",
+          "lineIndex": 7,
+          "text": "十二 对维也纳的攻击。对维也纳的背叛",
+          "compactLength": 17,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十二 对维也纳的攻击。对维也纳的背叛</title>",
+            "<p class=\"title1\">十二 对维也纳的攻击。对维也纳的背叛</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-013-981ac81769",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十三 普鲁士制宪议会。国民议会",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+      "sourceRawSha256": "1aed5e419db0120bf1fded7689c2ae84510865ffe3fa4fad4100d655ae98f75f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:49.892042+00:00",
+        "rawSha256": "1aed5e419db0120bf1fded7689c2ae84510865ffe3fa4fad4100d655ae98f75f",
+        "bytes": 7788
+      },
+      "localBodySha256": "c130f1b90f091d5a505b1532eea26d2aeb4d49273f8adac1c562924f6d0e119a",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-013-981ac81769",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十三 普鲁士制宪议会。国民议会",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-981ac81769",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "维也纳于11月1日陷落，同月9日柏林制宪议会被解散，这说明维也纳事变怎样立刻助长了全德国反革命党派的气焰和力量。",
+        "关于1848年夏季普鲁士的事变，不久之前我们已经叙述过了。制宪议会，或者更确切些说，“为了与国王商定宪法而选出的议会”，以及它的由资产阶级代表构成的多数，害怕人民中较积极的成分而同宫廷勾结起来进行种种阴谋，因此它早已失去众望了。他们承认了，或者毋宁说恢复了令人憎恨的各种封建特权，因而出卖了农民的自由和利益。他们既没有能够拟定宪法，也没有能够对总的立法作任何改进。他们差不多只是忙于琐碎的理论定义、纯粹的形式问题和宪法的仪式问题。事实上，这个议会与其说是一个能够代表人民的任何一点利益的机关，不如说是一个供议员们学习议会savoir vivre〔礼仪〕的学校。而且，议会中没有一个比较稳定的多数，优势差不多总是取决于动摇的“中间派”，这一派以它忽左忽右的摇摆，起初推翻了康普豪森内阁，后来又倾复了奥尔斯瓦特―汉泽曼内阁。但当自由派在这里也像在任何其它地方一样坐失时机的时候，宫廷却把它在贵族、最落后的农民以及在军队和官僚中的力量，重新组织起来。在汉泽曼倒台以后，建立了一个由官僚和军官、由一切顽固的反动派组成的内阁，而这个内阁却装出一副样子，好像它准备考虑议会的要求。议会所持的变通原则是“重要的是措施而不是人”，它使自己大受愚弄，竟对这个内阁鼓掌称赞；这样，它当然就看不到这个内阁几乎公开地在收集和组织反革命势力的事实。最后，维也纳的陷落发出了信号；国王把阁员都撤了职，用以现任的内阁首相曼托伊费尔为首的“办事人物”代替了他们。于是梦中的议会才突然惊醒，意识到大难临头。它通过了一个不信任内阁案，但是对此的回答是立刻来了一道命令，责令议会从柏林，从这个在发生冲突时议会在这里可以指望得到群众的支持的地方，迁到勃兰登堡――一个完全处在政府控制之下的小城镇。但议会宣称，除非它本身同意，它既不能推延会期，也不能迁移或解散。这时候，弗兰格尔将军统率近四万大军进入柏林。市政当局和国民自卫军军官会议决定不予抵抗。于是，制宪议会和它的后盾――自由派资产阶级听任联合起来的反动党派占据了一切重要阵地，并从他们手里夺去了几乎所有的防御手段，在这以后，就开始演出了一场“消极合法抵抗”的大喜剧，而他们本来是想把这次抵抗变成对汉普敦和美国人在独立战争期间最初行动[36]的光荣模仿的。柏林宣布了戒严，但仍然平静无事；政府解散了国民自卫军，它规规矩矩地缴了械。在两个星期中，议会被军队从一个开会地点赶到另一个地点，到处都被军队所驱散，而议员们却要求市民保持镇静。最后政府宣布把议会解散，它才通过一项决议，宣布征税是非法的，议员们奔走全国，组织抗税。但他们发现，他们选择这种手段是个大错误。在令人忐忑不安几个星期之后，以及政府对反对派采取了严厉手段之后，所有的人都不愿再拒绝纳税以取悦于一个甚至连自卫的勇气都没有的已死的议会了。"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-013-981ac81769",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+          "sourceRawSha256": "1aed5e419db0120bf1fded7689c2ae84510865ffe3fa4fad4100d655ae98f75f",
+          "lineIndex": 2,
+          "text": "十三 普鲁士制宪议会。国民议会",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十三 普鲁士制宪议会。国民议会</title>",
+            "<p class=\"title1\">十三 普鲁士制宪议会。国民议会</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-013-981ac81769",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+          "sourceRawSha256": "1aed5e419db0120bf1fded7689c2ae84510865ffe3fa4fad4100d655ae98f75f",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-013-981ac81769",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/13.htm",
+          "sourceRawSha256": "1aed5e419db0120bf1fded7689c2ae84510865ffe3fa4fad4100d655ae98f75f",
+          "lineIndex": 7,
+          "text": "十三 普鲁士制宪议会。国民议会",
+          "compactLength": 14,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十三 普鲁士制宪议会。国民议会</title>",
+            "<p class=\"title1\">十三 普鲁士制宪议会。国民议会</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-014-50a1599920",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十四 秩序的恢复。议会和议院",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+      "sourceRawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:50.340925+00:00",
+        "rawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+        "bytes": 8520
+      },
+      "localBodySha256": "083927c77a2141fae935be6e8ee4f7749dc279cb94b600adf5020b44f7ca56c9",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-014-50a1599920",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十四 秩序的恢复。议会和议院",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-50a1599920",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "奥地利和普鲁士政府利用1849年的最初几个月来扩大1848年10月和11月的战果。自从维也纳被占领以后，奥地利的议会就在莫拉维亚的一个叫做克累姆西尔［注：捷克称作：克罗梅尔日伊希。――编者注］的小镇上继续其有名无实的存在。斯拉夫族的议员和选派他们的人曾经充当奥地利政府用来摆脱完全无能为力的状态的主要工具，现在在这里，他们背叛欧洲革命的行为受到了应有的惩罚。政府一经恢复了力量，便用极端轻蔑的态度来对待议会和构成它的多数的斯拉夫族议员；当帝国军队的最初的胜利已经预示匈牙利战争将很快结束的时候，政府便在3月4日解散了议会，议员们也被武力驱散了。这时斯拉夫人才终于看到他们是受了愚弄，于是他们大声疾呼：“我们要到法兰克福去继续我们在这里已经不能进行的反对派活动！”但这时已经太迟了，而他们除了或者安分守己或者参加无能的法兰克福议会以外再没有别的出路，单是这个事实也足以表明他们是完全无可奈何了。",
+        "德国的斯拉夫人恢复独立的民族生存的尝试，现在而且多半是永远地就这样完结了。有许多民族的零星残余，它们的民族性和政治生命力早已熄灭，因此它们在近一千年来总是不得不尾随在一个更强大的民族即他们的征服者的后面，就像过去威尔士人在英国，巴斯克人在西班牙，下布列塔尼人在法国一样，也像今天西属或法属克里奥洛人在最近被英美族占领的北美洲那些地方一样。这些垂死的民族，如捷克人、克伦地亚人、达尔马戚亚人等等，都力图利用1848年的普遍混乱恢复他们在公元八百年时的政治status quo〔状况〕。过去一千年的历史应该已经告诉他们，这样开倒车是不行的；虽然易北河和萨利河以东的全部领土确曾一度被斯拉夫血统的民族所占据，但这个事实只能证明德意志族征服、并吞和同化它的古老的东方邻人的历史趋势以及它的肉体的和精神的能力；这个事实还证明，德意志人并吞其它民族的趋势过去一向是，现在也还是西欧文明传播到东欧的最有力的方法之一；只有当德意志化的过程进行到那些能够作为独立民族生存的团结一致的大民族（匈牙利人是这种民族，在某种程度上波兰人也是这种民族）的边界时，这种趋势才会停止；因此，这些垂死的民族的自然而不可避免的命运，就是让它们的强邻完成这种瓦解和并吞它们的过程。当然，这对曾经把一部分捷克人和南方斯拉夫人鼓动起来的泛斯拉夫主义梦想家的民族野心来说，并不是一种很惬意的前途；但是他们怎么能够希望历史为了让少数虚弱的人称心而倒退一千年呢？这些人在他们居住的所有地方到处都是和德意志人混居杂处并且为后者所包围，他们几乎从不能记忆的时候起除了德语以外就再没有别的语言以适应文化的需要，而且他们甚至缺乏民族生存的首要条件――众多的人数和整片的领土。因此，泛斯拉夫主义（在德国和匈牙利的斯拉夫人区域，它掩盖着所有的无数的小民族力求恢复独立的企图）的浪潮到处都与欧洲的革命运动相冲突，同时，斯拉夫人虽然很想扮演自由战士的角色，实际上却总是（除了波兰的一部分民主派之外）站在专制主义和反动势力的一边。在德国、匈牙利是这样，甚至在土耳其某些地方也是这样。他们是人民事业的叛徒，是奥地利政府的各种阴谋的赞助者和主要支持者，在所有革命的民族的心目中，他们是罪人。虽然仅仅由于过分无知，许多斯拉夫人都没有参加泛斯拉夫运动的领袖们所制造的关于民族问题的琐屑的纷争，但我们永远不应该忘记这样一个事实：在布拉格这个半德意志的城市里，成群的狂热的斯拉夫人曾经一再高呼：“宁受俄罗斯的鞭笞也不要德意志的自由！”在他们1848年的尝试初次遭到失败以后，在奥地利政府给了他们教训以后，下次遇有机会他们大概不会再这样做了。但如果他们再一次准备以类似的借口去和反革命势力联合起来，那末德国的职责就很明显了。没有一个处于革命状态并卷入了对外战争的国家，能够容忍一个万第［注：万第――法国西部省名。在十八世纪末法国资产阶级革命时期和十九世纪初，这里是贵族和僧侣在英国支持下所组织的富农和中农反动叛乱的场所。因此“万第”一词便成为表示富农反革命活动策源地的通称。――译者注］处在自己的心腹之中。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-014-50a1599920",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+          "sourceRawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+          "lineIndex": 2,
+          "text": "十四 秩序的恢复。议会和议院",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十四 秩序的恢复。议会和议院</title>",
+            "<p class=\"title1\">十四 秩序的恢复。议会和议院</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-014-50a1599920",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+          "sourceRawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-014-50a1599920",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+          "sourceRawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+          "lineIndex": 7,
+          "text": "十四 秩序的恢复。议会和议院",
+          "compactLength": 13,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十四 秩序的恢复。议会和议院</title>",
+            "<p class=\"title1\">十四 秩序的恢复。议会和议院</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-014-50a1599920",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/14.htm",
+          "sourceRawSha256": "8be9fc269c519105747cce0922f40e81815d067aedecd133328674c5d41b5f2c",
+          "lineIndex": 41,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"13.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"15.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/>\n<br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-015-574fa873fe",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十五 普鲁士的胜利",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+      "sourceRawSha256": "657bb6dd4385696c8dd0e294bc1ed8f92426d78ad61783f4854befd2529fb6df",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:50.613884+00:00",
+        "rawSha256": "657bb6dd4385696c8dd0e294bc1ed8f92426d78ad61783f4854befd2529fb6df",
+        "bytes": 7612
+      },
+      "localBodySha256": "85d150863460d547f466ee62bd6f009a08ccb3039fb9f2e9c0103e8b26327dfc",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-015-574fa873fe",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十五 普鲁士的胜利",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-574fa873fe",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们现在来讲德国革命史的最后一章：国民议会与各邦政府尤其是普鲁士政府的冲突，德国南部和西部的起义及其最后为普鲁士所镇压。",
+        "我们已经看到法兰克福国民议会的实际行动了。我们已经看到，奥地利如何践踏它，普鲁士如何侮辱它，各小邦如何不服从它，它自己的无能的中央“政府”又如何愚弄它，而这个中央政府本身又如何被全国各邦的每个君主所愚弄。到最后，这个软弱、动摇、渺小的立法机关终于感到事态的严重了。它被迫得出了这样一个结论：“统一德国这个崇高思想的实现受到了威胁。”而这也就恰恰等于说，法兰克福议会以及它做过的和要做的一切，看来很快都要成为泡影了。因此它以最认真的态度开始工作，以便尽快地完成它的杰作――“帝国宪法”。"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-015-574fa873fe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+          "sourceRawSha256": "657bb6dd4385696c8dd0e294bc1ed8f92426d78ad61783f4854befd2529fb6df",
+          "lineIndex": 2,
+          "text": "十五 普鲁士的胜利",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十五 普鲁士的胜利</title>",
+            "<p class=\"title1\">十五 普鲁士的胜利</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-015-574fa873fe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+          "sourceRawSha256": "657bb6dd4385696c8dd0e294bc1ed8f92426d78ad61783f4854befd2529fb6df",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-015-574fa873fe",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/15.htm",
+          "sourceRawSha256": "657bb6dd4385696c8dd0e294bc1ed8f92426d78ad61783f4854befd2529fb6df",
+          "lineIndex": 7,
+          "text": "十五 普鲁士的胜利",
+          "compactLength": 8,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十五 普鲁士的胜利</title>",
+            "<p class=\"title1\">十五 普鲁士的胜利</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-016-5b9be8b306",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十六 国民议会和各邦政府",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+      "sourceRawSha256": "c0f98a8c106e4d84bbf2c0af5d2bbe4f285dc0c6d0d2d8d77ab0743919fdbb10",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:50.982849+00:00",
+        "rawSha256": "c0f98a8c106e4d84bbf2c0af5d2bbe4f285dc0c6d0d2d8d77ab0743919fdbb10",
+        "bytes": 6739
+      },
+      "localBodySha256": "979fa66c5e155aa98ef456d1c2c8e71998929d531978fd0058d759fe93f17f5e",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-016-5b9be8b306",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十六 国民议会和各邦政府",
+          "type": "CHAPTER",
+          "order": 15,
+          "chapterId": "chapter-016-5b9be8b306",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-16"
+        }
+      ],
+      "localFirstParagraphs": [
+        "法兰克福国民议会把普鲁士国王选为德国（奥地利除外）皇帝以后，便派遣一个代表团到柏林去授予他皇冠，然后就宣告休会。4月3日弗里德里希-威廉接见了代表们。他告诉他们说，虽然他接受人民代表投票所赋予他的凌驾于德国其它各邦君主之上的权利，但在他还没有确信其余各邦君主承认他的统治权和承认赋予他这些权利的帝国宪法以前，他是不能接受皇冠的。他接着说，考虑这个宪法是否可以予以批准，这是德国各邦政府要做的事。最后他说，做皇帝也好，不做皇帝也好，他时刻都准备着以武力打击内部或外来的敌人。我们将会看到，他以使国民议会十分吃惊的方式履行了自己的诺言。",
+        "法兰克福的圣人们经过一番深刻的外交研究之后，终于得出结论说，作这种答复就等于拒绝皇冠。于是他们（在4月12日）作出一项决议：帝国宪法是国家的法律，必须加以遵守。但是，由于他们根本不知道他们下一步应该怎么走，他们就选举了一个三十人的委员会，要它就如何才能实施这个宪法提出建议。"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-016-5b9be8b306",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+          "sourceRawSha256": "c0f98a8c106e4d84bbf2c0af5d2bbe4f285dc0c6d0d2d8d77ab0743919fdbb10",
+          "lineIndex": 2,
+          "text": "十六 国民议会和各邦政府",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十六 国民议会和各邦政府</title>",
+            "<p class=\"title1\">十六 国民议会和各邦政府</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-016-5b9be8b306",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+          "sourceRawSha256": "c0f98a8c106e4d84bbf2c0af5d2bbe4f285dc0c6d0d2d8d77ab0743919fdbb10",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-016-5b9be8b306",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/16.htm",
+          "sourceRawSha256": "c0f98a8c106e4d84bbf2c0af5d2bbe4f285dc0c6d0d2d8d77ab0743919fdbb10",
+          "lineIndex": 7,
+          "text": "十六 国民议会和各邦政府",
+          "compactLength": 11,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十六 国民议会和各邦政府</title>",
+            "<p class=\"title1\">十六 国民议会和各邦政府</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-017-2d3ebdea89",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十七 起义",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+      "sourceRawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:51.317492+00:00",
+        "rawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+        "bytes": 6896
+      },
+      "localBodySha256": "d624e6dc11683ab381dd16bb19bf88cbe160a6d1ff655ab32ce7b4857b588c1d",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-017-2d3ebdea89",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十七 起义",
+          "type": "CHAPTER",
+          "order": 16,
+          "chapterId": "chapter-017-2d3ebdea89",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-17"
+        }
+      ],
+      "localFirstParagraphs": [
+        "法兰克福国民议会和德国各邦政府之间的不可避免的冲突，终于在1849年5月初爆发为公开的敌对行动。被奥地利政府召回的奥地利议员，除了其中的少数左派或民主派议员外，已经离开议会回去了。大多数保守派议员看到事态的动向，甚至不等他们各自的政府提出要求就退出了议会。因此，即令撇开前几篇文章中所指出的足以加强左派势力的种种原因不谈，仅只右派议员的离职，就足以使议会里以前的少数转变为多数了。以前从未梦想到会获得这种好运的新的多数派，过去曾经利用自己的反对派地位尽情揭发旧多数派及其帝国政府的软弱、犹豫和怠惰，现在他们自己突然来代替这个旧多数派的地位了。现在要他们表明他们能做出怎样的事业来了。他们的活动自然应该是有魄力、决心而充满生气的。他们，德国的精华，很快就能够推动老朽的帝国摄政和它的动摇的阁员们前进，如果做不到的话，他们就要（谁敢怀疑这一点！）以人民主权的力量废除这个无能的政府，用一个精干的、不屈不挠的执行机关代替它，这个机关一定能挽救德国。可怜的家伙们！他们的统治――如果没有一个人服从也能称为统治的话――和他们的前任的统治比较起来，是更加荒唐可笑的。",
+        "新的多数派宣称，不顾一切障碍，帝国宪法必须实行，并且必须立即实行；7月15日人民要选举新议院的议员，而这个议院8月22日就要在法兰克福开会。这是向未承认帝国宪法的各邦政府――首先是占德国总人口四分之三以上的普鲁士、奥地利、巴伐利亚――公开宣战；各邦立即接受了这种宣战。普鲁士和巴伐利亚也召回了由它们境内派往法兰克福的代表，并加紧它们反对国民议会的军事准备。另一方面，议会以外的民主派拥护帝国宪法和国民议会的示威，也一天比一天更加激烈，工人群众在激进党派领导之下，也决心拿起武器捍卫这个事业。这虽然不是他们自己的事业，但是使德国摆脱旧的君主制枷锁至少使他们有可能稍微接近于实现他们的目的。于是人民和政府到处为此而剑拔弩张；冲突是不可避免了；地雷已经装好，一点火星就可以使它爆炸。萨克森议院的解散、普鲁士后备军的召集、各邦政府对帝国宪法的公开反对就是这种火星。火星落下了，于是整个德国马上燃起了熊熊的大火。德勒斯顿的人民在5月4日胜利地占领了该城，驱逐了国王［注：即弗里德里希-奥古斯特二世。――编者注］；同时一切邻近的地区都派遣援军帮助起义者。在莱茵普鲁士和威斯特伐里亚，后备军拒绝开拔，占领了兵工厂，武装起来捍卫帝国宪法。在普法尔茨，人民逮捕了巴伐利亚的政府官吏，夺取了公款，组织了一个保卫委员会，委员会宣布该省受国民议会的保护。在维尔腾堡，人民强迫国王［注：即威廉一世。――编者注］承认了帝国宪法。在巴登，军队和人民联合起来逼使大公［注：即列奥波特。――编者注］逃亡，并建立了临时政府。在德国其它地方，只要国民议会发出决定信号，人民就武装起来听它指挥。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-017-2d3ebdea89",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+          "sourceRawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+          "lineIndex": 2,
+          "text": "十七 起义",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十七 起义</title>",
+            "<p class=\"title1\">十七 起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-017-2d3ebdea89",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+          "sourceRawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-017-2d3ebdea89",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+          "sourceRawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+          "lineIndex": 7,
+          "text": "十七 起义",
+          "compactLength": 4,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十七 起义</title>",
+            "<p class=\"title1\">十七 起义</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-017-2d3ebdea89",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/17.htm",
+          "sourceRawSha256": "a7997a8b270f40594581599937a04b9bdcb6e6c58e8086dd8b9ec22e06eac716",
+          "lineIndex": 37,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"16.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"18.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/>\n<br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-018-eff56c46e1",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十八 小资产阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+      "sourceRawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:51.654660+00:00",
+        "rawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+        "bytes": 7298
+      },
+      "localBodySha256": "ef55352ee8ef29c995a891010876ec8e344e8de85da4c9077e7ad88498598638",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-018-eff56c46e1",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十八 小资产阶级",
+          "type": "CHAPTER",
+          "order": 17,
+          "chapterId": "chapter-018-eff56c46e1",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-18"
+        }
+      ],
+      "localFirstParagraphs": [
+        "在前一篇文章中，我们指出了德国各邦政府和法兰克福议会之间的斗争，终于达到如此激烈的程度，在5月最初几天德国很大一部分地区都爆发了公开的起义：首先在德勒斯顿，接着在巴伐利亚的普法尔茨，在莱茵普鲁士的部分地区，最后在巴登。",
+        "在这一切场合，起义者真正的战斗的力量，是首先拿起武器与军队作战的城市工人。一部分最穷苦的农村居民，即雇农和小农，一般是在冲突爆发后参加了工人的队伍。资本家阶级以下的一切阶级的青年，大多数至少曾一度参加了起义的队伍，但这一群颇为混杂的青年人，一到事态的严重时刻，便很快减少了。例如大学生，这些“知识的代表者”（他们喜欢这样称呼自己）就首先丢掉他们的旗帜，除非他们由于被授予官衔而留下来，但是对于这种职务，他们当然很少具备必要的才能。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-018-eff56c46e1",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+          "sourceRawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+          "lineIndex": 2,
+          "text": "十八 小资产阶级",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十八 小资产阶级</title>",
+            "<p class=\"title1\">十八 小资产阶级</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-018-eff56c46e1",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+          "sourceRawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-018-eff56c46e1",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+          "sourceRawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+          "lineIndex": 7,
+          "text": "十八 小资产阶级",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十八 小资产阶级</title>",
+            "<p class=\"title1\">十八 小资产阶级</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-018-eff56c46e1",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/18.htm",
+          "sourceRawSha256": "0f5d3e8e85be7e49c6e24fc945407be7117e01d3ff15929d6a8de84fd7cab32d",
+          "lineIndex": 42,
+          "text": "上一篇　回目录　下一篇",
+          "compactLength": 9,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"17.htm\" style=\"text-decoration: none\">上一篇</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"19.htm\" style=\"text-decoration: none\">下一篇</a><br/><br/>\n<br/><br/></p>"
+          ],
+          "reason": "纯页尾导航P，与正文和原注独立。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-8ad44e0e2629",
+      "chapterId": "chapter-019-07a20a2bd3",
+      "title": "德国的革命和反革命",
+      "chapterTitle": "十九 起义的终结",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+      "sourceRawSha256": "a452ba1536f44532b5fb131044fcf5b92a580257dd5a19f515e37108628d12af",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:52.187836+00:00",
+        "rawSha256": "a452ba1536f44532b5fb131044fcf5b92a580257dd5a19f515e37108628d12af",
+        "bytes": 9123
+      },
+      "localBodySha256": "41dbade3ac4f12e48e0f0ac939b414b817c6ba7bdd8276fc9125457ea39d169d",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-8ad44e0e2629-chapter-chapter-019-07a20a2bd3",
+          "parentId": "toc-engels-work-8ad44e0e2629-root",
+          "title": "十九 起义的终结",
+          "type": "CHAPTER",
+          "order": 18,
+          "chapterId": "chapter-019-07a20a2bd3",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-19"
+        }
+      ],
+      "localFirstParagraphs": [
+        "当德国的南部和西部举行公开起义的时候，当各邦政府费了十多个星期的时间——从德勒斯顿的军事行动开始到拉施塔特投降——来扑灭第一次德国革命的这最后一团火焰的时候，国民议会从政治舞台上消失了，它的退场没有引起任何人的注意。",
+        "我们在前面已经谈到，法兰克福的这个高级机关，由于各邦政府对它的尊严进行放肆的攻击，由于它自己所创立的中央政权的软弱和背叛性的怠惰，由于拥护它的小资产阶级和追求更革命的最终目的的工人阶级的纷纷起义而陷于惊慌失措的状态。悲观和失望完全支配了它的议员们；事变立刻采取了如此明确而肯定的转变，几天之内，这些博学的立法者对他们的真正力量和势力所作的一场好梦就完全破灭了。保守派得到各自政府的示意，早已退出了这个除非向各个合法政权挑战今后便不能够再存在下去的议会。慌乱一团的自由派认为事情已无可挽救，他们也把议员的职务扔掉了。这些可敬的先生们成百地开了小差。议员最初有八九百人，但是这个数目急速地减少，以致法定人数只好规定为一百五十人，而几天之后又改为一百人。但是甚至这个法定人数也很难达到，虽然全体民主派都还留在议会里。"
+      ],
+      "nativeNoteCount": 2,
+      "findings": [
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-019-07a20a2bd3",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+          "sourceRawSha256": "a452ba1536f44532b5fb131044fcf5b92a580257dd5a19f515e37108628d12af",
+          "lineIndex": 2,
+          "text": "十九 起义的终结",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十九 起义的终结</title>",
+            "<p class=\"title1\">十九 起义的终结</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-019-07a20a2bd3",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+          "sourceRawSha256": "a452ba1536f44532b5fb131044fcf5b92a580257dd5a19f515e37108628d12af",
+          "lineIndex": 5,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《德国的革命和反革命》",
+          "compactLength": 27,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-8ad44e0e2629",
+          "chapterId": "chapter-019-07a20a2bd3",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1851-1852/19.htm",
+          "sourceRawSha256": "a452ba1536f44532b5fb131044fcf5b92a580257dd5a19f515e37108628d12af",
+          "lineIndex": 7,
+          "text": "十九 起义的终结",
+          "compactLength": 7,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>十九 起义的终结</title>",
+            "<p class=\"title1\">十九 起义的终结</p>"
+          ]
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-001-3586f328ae",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "致大不列颠工人阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/01.htm",
+      "sourceRawSha256": "45923f1c36a5e4f59e34a544b902c3619ab76767246fb20c1e70b8f77c280b2e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:52.617140+00:00",
+        "rawSha256": "45923f1c36a5e4f59e34a544b902c3619ab76767246fb20c1e70b8f77c280b2e",
+        "bytes": 4927
+      },
+      "localBodySha256": "e8fa82603474abd1212edd015b391b55f41a7b3808328165887f04678508f7f3",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-001-3586f328ae",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "致大不列颠工人阶级",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-3586f328ae",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localFirstParagraphs": [
+        "《英国工人阶级状况》（1844.9－1845.3）",
+        "弗・恩格斯致大不列颠工人阶级[92]"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-001-3586f328ae",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/01.htm",
+          "sourceRawSha256": "45923f1c36a5e4f59e34a544b902c3619ab76767246fb20c1e70b8f77c280b2e",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 ->",
+          "compactLength": 16,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-001-3586f328ae",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/01.htm",
+          "sourceRawSha256": "45923f1c36a5e4f59e34a544b902c3619ab76767246fb20c1e70b8f77c280b2e",
+          "lineIndex": 62,
+          "text": "回目录　下一篇（德文本第一版序言）",
+          "compactLength": 16,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\">\n<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"02.htm\" style=\"text-decoration: none\">下一篇（德文本第一版序言）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（德文本第一版序言）",
+              "href": "02.htm",
+              "html": "<a href=\"02.htm\" style=\"text-decoration: none\">下一篇（德文本第一版序言）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-002-7f2b1f073e",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "德文本第一版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/02.htm",
+      "sourceRawSha256": "b9878b35624f7ab6630fd7e30157185a6af01b4d503e002be76b949166d72e4e",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/02.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/02.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:52.890193+00:00",
+        "rawSha256": "b9878b35624f7ab6630fd7e30157185a6af01b4d503e002be76b949166d72e4e",
+        "bytes": 5113
+      },
+      "localBodySha256": "f0b9208c9684f1f6357df25735d8661457eaead4d325899fcb1d04d6e572df74",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-002-7f2b1f073e",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "德文本第一版序言",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-7f2b1f073e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localFirstParagraphs": [
+        "德文本第一版序言",
+        "本书中所考察的问题，最初我是打算仅仅作为一本内容比较广泛的关于英国社会史的著作中的一章来论述的，但这个问题的重要性很快就使我不得不对它进行单独的研究。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-002-7f2b1f073e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/02.htm",
+          "sourceRawSha256": "b9878b35624f7ab6630fd7e30157185a6af01b4d503e002be76b949166d72e4e",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-002-7f2b1f073e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/02.htm",
+          "sourceRawSha256": "b9878b35624f7ab6630fd7e30157185a6af01b4d503e002be76b949166d72e4e",
+          "lineIndex": 60,
+          "text": "上一篇（致大不列颠工人阶级）　回目录　下一篇（导言）",
+          "compactLength": 24,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"01.htm\" style=\"text-decoration: none\">上一篇（致大不列颠工人阶级）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"03.htm\" style=\"text-decoration: none\">下一篇（导言）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（致大不列颠工人阶级）",
+              "href": "01.htm",
+              "html": "<a href=\"01.htm\" style=\"text-decoration: none\">上一篇（致大不列颠工人阶级）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（导言）",
+              "href": "03.htm",
+              "html": "<a href=\"03.htm\" style=\"text-decoration: none\">下一篇（导言）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-003-103afc3f53",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "导言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+      "sourceRawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:53.444550+00:00",
+        "rawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+        "bytes": 27754
+      },
+      "localBodySha256": "97c8a1adba1de9f269ee8fdd2a3f969a491508b832e2d3de3cf93cafe5e6c7ad",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-003-103afc3f53",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "导言",
+          "type": "CHAPTER",
+          "order": 2,
+          "chapterId": "chapter-003-103afc3f53",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-3"
+        }
+      ],
+      "localFirstParagraphs": [
+        "英国工人阶级的历史是从18世纪后半期，从蒸汽机和棉花加工机的发明开始的。大家知道，这些发明推动了产业革命，产业革命同时又引起了市民社会中的全面变革，而它的世界历史意义只是在现在才开始被认识清楚。英国是发生这样一种变革（这种变革愈是无声无息地进行，就愈是强有力）的典型国家，因此，英国也是这种变革的主要结果（无产阶级）发展的典型国家。只有在英国，才能就无产阶级的一切相互关系来全面地研究这个阶级。",
+        "我们在这里不谈这个革命的历史，也不谈它对现在和将来的巨大意义。这是将来的一部内容更广的著作的题目。现在，我们只谈几点，这几点是弄清以后要讲到的事实和了解英国无产阶级的现状所必需的。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-003-103afc3f53",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+          "sourceRawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+          "lineIndex": 3,
+          "text": "导言",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>导言</title>",
+            "<p class=\"title1\">导言</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-003-103afc3f53",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+          "sourceRawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-003-103afc3f53",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+          "sourceRawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+          "lineIndex": 8,
+          "text": "导言",
+          "compactLength": 2,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>导言</title>",
+            "<p class=\"title1\">导言</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-003-103afc3f53",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/03.htm",
+          "sourceRawSha256": "0c4a179d2d81de7127079f972171a4bc8aacf6a56d4a54b5a3d11a19eccbefb3",
+          "lineIndex": 131,
+          "text": "上一篇（德文本第一版序言）　回目录　下一篇（工业无产阶级）",
+          "compactLength": 27,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"02.htm\" style=\"text-decoration: none\">上一篇（德文本第一版序言）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"04.htm\" style=\"text-decoration: none\">下一篇（工业无产阶级）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（德文本第一版序言）",
+              "href": "02.htm",
+              "html": "<a href=\"02.htm\" style=\"text-decoration: none\">上一篇（德文本第一版序言）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（工业无产阶级）",
+              "href": "04.htm",
+              "html": "<a href=\"04.htm\" style=\"text-decoration: none\">下一篇（工业无产阶级）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-004-dd85ba5f37",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "工业无产阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/04.htm",
+      "sourceRawSha256": "024193a16239a4d86773805ab7587d5371779251970b2ace53f2ca3d95c2df82",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:53.748675+00:00",
+        "rawSha256": "024193a16239a4d86773805ab7587d5371779251970b2ace53f2ca3d95c2df82",
+        "bytes": 5769
+      },
+      "localBodySha256": "b3a64a4eee4ecf8bbb2d0b0694f77ab799d1b3d733bbb8d3219fd67304c705ef",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-004-dd85ba5f37",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "工业无产阶级",
+          "type": "CHAPTER",
+          "order": 3,
+          "chapterId": "chapter-004-dd85ba5f37",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-4"
+        }
+      ],
+      "localFirstParagraphs": [
+        "研究无产阶级各个部分时所应当遵循的顺序，很自然地决定于上述的无产阶级产生的历史。第一批无产者是出现在工业里面而且是工业的直接产物，因此，我们首先要研究的是产业工人，即从事于原料加工的那些人。工业材料即原料和燃料的生产，只是由于产业革命才重要起来，也只是在这个时候，新型的无产阶级，即煤矿和金属矿的工人，才能够产生。第三是工业的发展影响了农业，第四是工业的发展影响了爱尔兰，这就决定了我们研究相应的各类无产阶级时所遵循的顺序。我们也会看到各种工人（也许爱尔兰人是例外）的发展水平是直接取决于他们和工业的联系的，所以最清楚地意识到自己的利益的是产业工人，矿工们已经差一些，而农业工人几乎还完全没有意识到。我们在工业无产阶级本身的队伍中也会发现这样的顺序：我们会看到，工厂工人，产业革命的这些初生子，始终是工人运动的核心，而其他工人的参加运动，却要看他们的手工业被产业革命侵害的程度如何而定。这样，以英国为例来观察工人运动和工业发展之间的这种一致的步调，我们就会更好地懂得工业的历史意义。",
+        "可是因为目前几乎整个工业无产阶级都已经卷入了运动，而且它的各个部分的状况，正由于他们都从事工业，就有许多共同的地方，所以我们先来考察这些共同点，然后再就各个部分的特点来更详细地研究这些部分。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-004-dd85ba5f37",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/04.htm",
+          "sourceRawSha256": "024193a16239a4d86773805ab7587d5371779251970b2ace53f2ca3d95c2df82",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-004-dd85ba5f37",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/04.htm",
+          "sourceRawSha256": "024193a16239a4d86773805ab7587d5371779251970b2ace53f2ca3d95c2df82",
+          "lineIndex": 46,
+          "text": "上一篇（导言）　回目录　下一篇（大城市）",
+          "compactLength": 18,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"03.htm\" style=\"text-decoration: none\">上一篇（导言）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"05.htm\" style=\"text-decoration: none\">下一篇（大城市）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（导言）",
+              "href": "03.htm",
+              "html": "<a href=\"03.htm\" style=\"text-decoration: none\">上一篇（导言）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（大城市）",
+              "href": "05.htm",
+              "html": "<a href=\"05.htm\" style=\"text-decoration: none\">下一篇（大城市）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-006-44ec761908",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "竞争",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/06.htm",
+      "sourceRawSha256": "9a5617281843530eedd1c6b469e7221f7360f981ccfb625452b31db196e9355c",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:54.294796+00:00",
+        "rawSha256": "9a5617281843530eedd1c6b469e7221f7360f981ccfb625452b31db196e9355c",
+        "bytes": 22601
+      },
+      "localBodySha256": "87516c8fe48423733e340feaee50e04a4dfb2faa5dcaa21fe5aa3e8df3b0d55a",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-006-44ec761908",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "竞争",
+          "type": "CHAPTER",
+          "order": 5,
+          "chapterId": "chapter-006-44ec761908",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-6"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在“导言”里已经看到，竞争怎样在工业发展一开始的时候就创造了无产阶级：由于布匹的需求增加，织工的工资提高了，兼做织工的农民抛弃了农业，以便在织机上赚到更多的钱。我们已经看到，竞争怎样以大规模经营方式挤掉了小农，把他们降到无产者的地位，然后把他们一批一批地赶到城市里面去。我们也看到，竞争怎样使相当大的一部分小资产阶级陷于破产，把他们也变为无产阶级；竞争怎样把资本集中在少数人手里，怎样把人口集中在大城市里面。在现代工业中获得充分发展并能使自己的一切后果无限加深的竞争，就是通过这些途径和方法创造了无产阶级并扩大了它的队伍。现在我们就来看看竞争对已经形成的无产阶级所发生的影响。在这里我们应当首先考察一下工人彼此间的竞争所产生的后果。",
+        "竞争最充分地反映了流行在现代市民社会中的一切人反对一切人的战争。这个战争，这个为了活命、为了生存、为了一切而进行的战争，因而必要时也是你死我活的战争，不仅在社会各个阶级之间进行，而且也在这些阶级的各个成员之间进行；一个人挡着另一个人的路，因而每一个人都力图挤掉其余的人并占有他们的位置。工人彼此竞争，资产者也彼此竞争。机器织工和手工织工竞争；失业的或工资低的手工织工和其他有工作的或工资高的织工竞争，并力图把他们挤掉。工人彼此间的这种竞争对于工人来说是现代各种关系中最坏的一面；这是资产阶级对付无产阶级的最有力的武器。因此，工人竭力利用工会来消灭这种竞争，而资产阶级则疯狂地向这些工会进攻，工会每受到一次打击他们都拍手称快。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-006-44ec761908",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/06.htm",
+          "sourceRawSha256": "9a5617281843530eedd1c6b469e7221f7360f981ccfb625452b31db196e9355c",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-006-44ec761908",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/06.htm",
+          "sourceRawSha256": "9a5617281843530eedd1c6b469e7221f7360f981ccfb625452b31db196e9355c",
+          "lineIndex": 72,
+          "text": "上一篇（大城市）　回目录　下一篇（爱尔兰移民）",
+          "compactLength": 21,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"05.htm\" style=\"text-decoration: none\">上一篇（大城市）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"07.htm\" style=\"text-decoration: none\">下一篇（爱尔兰移民）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（大城市）",
+              "href": "05.htm",
+              "html": "<a href=\"05.htm\" style=\"text-decoration: none\">上一篇（大城市）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（爱尔兰移民）",
+              "href": "07.htm",
+              "html": "<a href=\"07.htm\" style=\"text-decoration: none\">下一篇（爱尔兰移民）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-007-ccde54b3df",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "爱尔兰移民",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+      "sourceRawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:54.625569+00:00",
+        "rawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+        "bytes": 8125
+      },
+      "localBodySha256": "3f841efe9e409985cbd4cd048c6fa796fa8e24570679538485000c5fa32ee7e5",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-007-ccde54b3df",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "爱尔兰移民",
+          "type": "CHAPTER",
+          "order": 6,
+          "chapterId": "chapter-007-ccde54b3df",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-7"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经不止一次地顺便提到迁移到英格兰的爱尔兰人，在本章中就比较仔细地研究一下这种移民的原因和后果。",
+        "假若英国没有找到又多又穷的爱尔兰居民作为替工业服务的后备军，英国的工业就不可能发展得这样快。爱尔兰人在家乡没有什么可以丢掉的，而在英格兰却可以得到很多东西。自从爱尔兰人知道，在圣乔治海峡彼岸只要手上有劲就可以找到工资高的工作那时起，每年都有大批大批的爱尔兰人到英格兰来。据估计，到现在为止，这样迁移来的爱尔兰人已经在1000000以上，而且每年还有近5000人迁移过来，他们几乎全都奔向工业区，特别是大城市，并且在那里形成了居民中的最下层。例如伦敦有120000爱尔兰贫民，曼彻斯特有40000，利物浦有34000，布利斯托尔有21000，格拉斯哥有40000，爱丁堡有29000。［注：拉纳克郡郡长阿契波德艾利生“人口原理及其和人类幸福的关系”两卷本1840年版（Archibald Alison，High Sheriff of Lanarkshire．《The Prin-ciples of Population，and their connection with Human Happiness》．2 vols．1840）。作者是研究法国革命的历史学家，和他的哥哥威巴艾利生博士一样，是有宗教情绪的托利党人。――恩格斯原注］这些人是在几乎一点文明也谈不到的状况下成长起来的，从小就受惯了各种各样的艰难困苦，粗野，喜欢喝酒，过一天算一天，他们迁移到英格兰来，把自己的各种粗野的习惯带给英格兰居民中对教育和道德本来就不大感到兴趣的那个阶层。让我们听听托马斯卡莱尔是怎样说的吧。［注：“宪章运动”第28、31页及以下各页。――恩格斯原注］"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-007-ccde54b3df",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+          "sourceRawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+          "lineIndex": 3,
+          "text": "爱尔兰移民",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>爱尔兰移民</title>",
+            "<p class=\"title1\">爱尔兰移民</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-007-ccde54b3df",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+          "sourceRawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-007-ccde54b3df",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+          "sourceRawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+          "lineIndex": 8,
+          "text": "爱尔兰移民",
+          "compactLength": 5,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>爱尔兰移民</title>",
+            "<p class=\"title1\">爱尔兰移民</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-007-ccde54b3df",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/07.htm",
+          "sourceRawSha256": "1b4226629ff67ba14474a633cc3c9995877ae247ea20bc51b613b8214d141e5a",
+          "lineIndex": 31,
+          "text": "上一篇（竞争）　回目录　下一篇（结果）",
+          "compactLength": 17,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"06.htm\" style=\"text-decoration: none\">上一篇（竞争）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"08.htm\" style=\"text-decoration: none\">下一篇（结果）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（竞争）",
+              "href": "06.htm",
+              "html": "<a href=\"06.htm\" style=\"text-decoration: none\">上一篇（竞争）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（结果）",
+              "href": "08.htm",
+              "html": "<a href=\"08.htm\" style=\"text-decoration: none\">下一篇（结果）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-009-279752fbdf",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "各别的劳动部门 狭义的工厂工人",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/09.htm",
+      "sourceRawSha256": "51d08a140636efb2e0512068307d10664b70d6e4845d6dfea7b356d9c0c2bf90",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/09.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/09.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:55.314093+00:00",
+        "rawSha256": "51d08a140636efb2e0512068307d10664b70d6e4845d6dfea7b356d9c0c2bf90",
+        "bytes": 84483
+      },
+      "localBodySha256": "099dd9ffa1ac566633b68aade83ea678eac16ec2a613d6c79b2775e4c7a0cb86",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-009-279752fbdf",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "各别的劳动部门 狭义的工厂工人",
+          "type": "CHAPTER",
+          "order": 8,
+          "chapterId": "chapter-009-279752fbdf",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-9"
+        }
+      ],
+      "localFirstParagraphs": [
+        "各别的劳动部门",
+        "狭义的工厂工人"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-009-279752fbdf",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/09.htm",
+          "sourceRawSha256": "51d08a140636efb2e0512068307d10664b70d6e4845d6dfea7b356d9c0c2bf90",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-009-279752fbdf",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/09.htm",
+          "sourceRawSha256": "51d08a140636efb2e0512068307d10664b70d6e4845d6dfea7b356d9c0c2bf90",
+          "lineIndex": 339,
+          "text": "上一篇（结果）　回目录　下一篇（其他劳动部门）",
+          "compactLength": 21,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"08.htm\" style=\"text-decoration: none\">上一篇（结果）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"10.htm\" style=\"text-decoration: none\">下一篇（其他劳动部门）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（结果）",
+              "href": "08.htm",
+              "html": "<a href=\"08.htm\" style=\"text-decoration: none\">上一篇（结果）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（其他劳动部门）",
+              "href": "10.htm",
+              "html": "<a href=\"10.htm\" style=\"text-decoration: none\">下一篇（其他劳动部门）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-010-682d5cb87f",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "其他劳动部门",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/10.htm",
+      "sourceRawSha256": "7dbd4f4825a404596540b8e4a41d3bbf9c1bc044195c92f6acf77f26236aab45",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/10.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/10.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:55.815999+00:00",
+        "rawSha256": "7dbd4f4825a404596540b8e4a41d3bbf9c1bc044195c92f6acf77f26236aab45",
+        "bytes": 36766
+      },
+      "localBodySha256": "cba91f9ada8d1f06e3f76a759e9c4472f1423c9d3c5f4e248922e9c3643e7c60",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-010-682d5cb87f",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "其他劳动部门",
+          "type": "CHAPTER",
+          "order": 9,
+          "chapterId": "chapter-010-682d5cb87f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-10"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在工厂制度这方面谈得多一些，因为它是工业时代的一种全新的产物。而其余工业部门的工人状况我们谈的就少多了，因为一般的工业无产阶级的情况或特别是工厂制度的情况，全部或部分是和这些部门的情况相同的。因此，剩下的问题就只是考察工厂制度在各个劳动部门中已深入到什么程度，以及这些部门中每一个部门有什么特点。",
+        "适用工厂法的四个劳动部门都是生产衣料的。我们现在最好是从那些向这类工厂领取原料的工人谈起；先谈诺定昂、得比、莱斯特的针织工人。“童工调查委员会报告”中谈到这些工人时说，工作时间长（由于工资低，不得不这样），再加上整天坐着，眼睛因工作本身的性质经常保持紧张状态，这就使他们的整个身体都衰弱下去，特别是影响了视力。晚上没有很强的灯光就不能工作，因此，工人通常都利用玻璃球来聚光，这对眼睛的害处很大。几乎所有的工人到了四十岁就得戴上眼镜。在这种生产中从事缠线和缝纫（缝合）的儿童，通常都不健康而且发育得不好。他们从六七岁或七八岁起就在狭小得令人窒息的屋子里每天工作十小时到十二小时。许多儿童被工作弄得疲惫不堪，逐渐虚弱下去，连最普通的家务事都干不了，眼睛很早就近视了，因此不得不在童年就戴上眼镜。委员们发现许多儿童都患有瘰疬症，厂主们大都拒绝雇用做过这种工作的女孩子在自己的工厂里工作，说她们的身体太弱了。童工调查委员会报告把这些童工的状况叫做“基督教国家的耻辱”，希望他们的工作受到法律的保护（格棱吉。“报告”附录第1部分Ｆ15页第132—142节）。报告还说，莱斯特的针织工人的待遇在当地所有的工人中是最坏的；他们每天工作十六小时到十八小时，每星期挣6先令，要费很大力气才能挣7先令。过去他们挣过20—21先令，但是大型织机的使用降低了他们的工资；大多数工人还在旧的简单的织机上工作，和改良了的机器进行着筋疲力尽的竞争。可见技术的发展每前进一步，工人的状况就倒退一步！但是不管怎么样，鲍尔委员说，针织工人却以他们的自由、以他们吃饭、睡觉或工作都不受工厂钟声的支配而感到骄傲。在工资方面，这些工人现在的情况并不比1833年工厂委员会写报告的时候好些；这是由于过着半饥半饱生活的萨克森针织工人的竞争造成的。这种竞争不仅在所有国外市场上击败了英国人，而且（在劣等货物方面）在英国市场上也击败了他们。德国的爱国针织工人，由于自己的挨饿而剥夺了英国针织工人的面包，他们该多么心满意足呵！如果德国的荣誉要求他们的肚子老是空着一半，难道他们就不再为德国工业的光荣而骄傲地愉快地继续挨饿吗？呵，竞争和“国家竞赛”是多么了不起的东西！“晨报”（也是自由党的报纸，par ex－cellence〔道地的〕资产阶级报纸）在1843年12月发表了亨克莱的一个针织工人描写他的同伴的状况的几封信。他附带报道了50个家庭的情况，这些家庭共有321人，依靠109台织机为生；每台织机平均每星期收入5 1/6先令，每个家庭平均每星期挣11先令4辨士。在这里面，房钱、针织机租费、煤炭、灯火、肥皂和织针总共要用掉5先令10辨士，每人每天只剩下1 1/2辨士（15个普鲁士分尼）做伙食费，至于做衣服就一个钱也没有了。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-010-682d5cb87f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/10.htm",
+          "sourceRawSha256": "7dbd4f4825a404596540b8e4a41d3bbf9c1bc044195c92f6acf77f26236aab45",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-010-682d5cb87f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/10.htm",
+          "sourceRawSha256": "7dbd4f4825a404596540b8e4a41d3bbf9c1bc044195c92f6acf77f26236aab45",
+          "lineIndex": 117,
+          "text": "上一篇（各别的劳动部门 狭义的工厂工人）　回目录　下一篇（工人运动）",
+          "compactLength": 31,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"09.htm\" style=\"text-decoration: none\">上一篇（各别的劳动部门 狭义的工厂工人）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"11.htm\" style=\"text-decoration: none\">下一篇（工人运动）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（各别的劳动部门 狭义的工厂工人）",
+              "href": "09.htm",
+              "html": "<a href=\"09.htm\" style=\"text-decoration: none\">上一篇（各别的劳动部门 狭义的工厂工人）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（工人运动）",
+              "href": "11.htm",
+              "html": "<a href=\"11.htm\" style=\"text-decoration: none\">下一篇（工人运动）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-011-4a1a544c9e",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "工人运动",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/11.htm",
+      "sourceRawSha256": "d6acfa155da956886c5311f7ce3f517e59890bb7f0280fe600efb5488e64c80f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/11.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/11.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:56.505883+00:00",
+        "rawSha256": "d6acfa155da956886c5311f7ce3f517e59890bb7f0280fe600efb5488e64c80f",
+        "bytes": 45087
+      },
+      "localBodySha256": "d90521eacf57193b70687335aab61420680e4a10a7faf1ed81eb156387edefdb",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-011-4a1a544c9e",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "工人运动",
+          "type": "CHAPTER",
+          "order": 10,
+          "chapterId": "chapter-011-4a1a544c9e",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-11"
+        }
+      ],
+      "localFirstParagraphs": [
+        "即使我举的例子再少一些，大家还是会同意我的意见：英国工人在他们所处的那种状况下是不会感到幸福的；在这种状况下，无论是个人或是整个阶级都不可能像人一样地生活、感觉和思想。显然，工人应该设法摆脱这种非人的状况，应该争取良好的比较合乎人的身分的状况。如果他们不去和资产阶级的利益——剥削工人——作斗争，他们就不可能做到这一点。但是资产阶级却用他们的财产和他们掌握的国家政权所能提供的一切手段来维护自己的利益。工人一旦表明要摆脱现状，资产者就立刻成为他们的公开敌人。",
+        "此外，工人处处发觉资产阶级把他当做物件、当做自己的财产来看待，只凭这一点，工人也要成为资产阶级的敌人。我已经举了上百的例子，而且还能举出同样多的例子来说明：在目前情况下，工人只有仇恨资产阶级和反抗资产阶级，才能获得自己的人的尊严。而英国工人阶级之所以能够如此强烈地反抗有产者的暴政，应当归功于他们所受的教育，或者更确切地说，应当归功于他们没有受过教育，同样也应当归功于英国工人阶级的血液中掺有大量的爱尔兰人的热血。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-011-4a1a544c9e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/11.htm",
+          "sourceRawSha256": "d6acfa155da956886c5311f7ce3f517e59890bb7f0280fe600efb5488e64c80f",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-011-4a1a544c9e",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/11.htm",
+          "sourceRawSha256": "d6acfa155da956886c5311f7ce3f517e59890bb7f0280fe600efb5488e64c80f",
+          "lineIndex": 104,
+          "text": "上一篇（其他劳动部门）　回目录　下一篇（矿业无产阶级）",
+          "compactLength": 25,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"10.htm\" style=\"text-decoration: none\">上一篇（其他劳动部门）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"12.htm\" style=\"text-decoration: none\">下一篇（矿业无产阶级）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（其他劳动部门）",
+              "href": "10.htm",
+              "html": "<a href=\"10.htm\" style=\"text-decoration: none\">上一篇（其他劳动部门）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（矿业无产阶级）",
+              "href": "12.htm",
+              "html": "<a href=\"12.htm\" style=\"text-decoration: none\">下一篇（矿业无产阶级）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-013-d5b5fdb406",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "农业无产阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/13.htm",
+      "sourceRawSha256": "38f5491eb3aae42aa4800ba6f83e5e50949fffe35abb02e4add2b0166053a20d",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/13.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/13.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:57.019020+00:00",
+        "rawSha256": "38f5491eb3aae42aa4800ba6f83e5e50949fffe35abb02e4add2b0166053a20d",
+        "bytes": 23719
+      },
+      "localBodySha256": "bbfce6d2cad6fdd7fd4e2ff274737f8db3fa00d730d81931c476baa9271cf79f",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-013-d5b5fdb406",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "农业无产阶级",
+          "type": "CHAPTER",
+          "order": 12,
+          "chapterId": "chapter-013-d5b5fdb406",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-13"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们在“导言”里已经看到，由于以前存在过的工业劳动和农业劳动的结合已经解体，空出来的小块土地集中到大佃农手里，小农被占优势的大农的竞争所排挤，他们和小资产阶级及以前过着小康生活的工人一起破产了。小农不再像过去那样自己就是土地所有者或佃农，他们被迫抛弃了自己的耕作，到大佃农和大地主那里去当雇农。有一个时期，他们的新的状况虽然比过去坏，但是还算过得去。当时人口的增长和工业的发展是步调一致的，但后来工业发展有些缓慢了，机器的不断改进已经不容许工业全部吸收来自农业区的过剩的劳动人口。从这时起，从前只是在工厂区才看得到而且也只是偶尔才看得到的贫困现象，也在农业区出现了。此外，历时二十五年的对法战争差不多也是在这个时候结束了。在战争期间，战区生产缩减、输入停止以及必须用粮食供应在西班牙的不列颠军队，引起了英国农业的人为的繁荣，此外，大批劳动力还脱离了和平的劳动。而现在，输入的阻碍、输出的必要和工人的缺乏一下子都不存在了，其结果就是英国人所说的agricultural distress，即农业灾难。农场主不得不以很低廉的价格出售自己的粮食，因而他们也只能支付很低的工资。为了提高粮价，议会在1815年通过了谷物法，在小麦价格每夸特低于80先令时，禁止粮食输入。后来，这个自然是无济于事的法律经过了多次的改变，但是这并没有减轻农业区的贫困。唯一的结果就是，这个在外国的自由竞争存在时已经危在旦夕的急病现在变成了慢性病，它均衡地但更严重地危害着农业工人。",
+        "在农业无产阶级出现后的初期，在这里曾建立了类似工业中刚被摧毁了的宗法关系，即目前在德国几乎到处都存在着的雇主和雇农之间的关系。这种关系存在的时候，工人的贫困还不这么严重，也没有这样普遍；雇农和农场主共甘苦，雇主只是在万不得已的时候才解雇他们。但是现在完全变了。雇农几乎全成了短工，农场主只是在需要他们时才雇用他们，因此，他们整星期整星期地完全没有工作，特别是在冬天。在宗法关系下，雇农和他们的家属一起住在农场主的庄园里，他们的孩子在那里长大，农场主当然也竭力在自己的庄园里给这一代找点活干，当时打短工只是例外而不是常规，那时每一个农场里的工人，严格地说，都比所需要的多些。所以农场主也乐于摧毁这种宗法关系，把雇农从农场主的庄园里赶出去，使他们变成短工。在19世纪20年代末，这种情况几乎到处都有。结果，用物理学的术语说，从前处于潜伏状态的“过剩”人口，现在释放出来了，工资降低了，济贫捐也大大地增加了。从这时起，农业区成了慢性贫穷的发源地，而工厂区则成了周期贫穷的发源地，修改济贫法是政府对乡村日益贫困化所采取的第一个措施。此外，由于大农场制度的不断发展引起了脱谷机和其他机器的应用，由于田间工作中采用妇女和儿童的劳动（这种情形现在已经十分普遍，它的后果不久前甚至已成为官方一个特别委员会的调查对象），所以这个部门里也出现了大批的失业工人。这样，我们便看到，工业生产的制度也侵入到这里了：建立了大农场，摧毁了宗法关系（这种关系正是在这里才具有巨大的意义），采用了机器、蒸汽发动机以及妇女和儿童的劳动，把劳动人民中这个还没有被触动的最保守的部分也卷到革命运动中来了。但是农业中的停滞现象维持得愈长久，工人现在身受的打击就愈沉重，旧的社会结构的解体在这里也表现得愈明显。“过剩人口”是一下子出现的，而且不能像在工业区里面那样用扩大生产的办法来吸收他们。只要产品有人要，新的工厂随时都可以建立，但是新的土地是创造不出来的，而耕种公共的荒地又是冒险的投资，所以战后开垦荒地的投资很少。这些变化所引起的必然的结果，就是工人彼此间的竞争达到了最高峰，而工资则降到最低限度。当旧的济贫法存在的时候，工人们还可以从济贫金中得到一点救济；因此，工资就更加下降，因为农场主尽可能把更多的开支转移到济贫金上面去了。这使得随着过剩人口的出现本来已经大为增加的济贫捐更加增多，并促使新济贫法的出现，这点我们以后将要谈到。但是情况并没有因为有了新的济贫法而有所改善。工资没有提高，“多余的”人口没有消失，新法律的残酷只是激起了人民的极端愤怒。甚至最初已经缩减了的济贫捐几年后又回升到原来的水平。新法律的唯一结果就是：以前总共有300-400万半赤贫者，现在却有100万完全的赤贫者，其余的仍然是半赤贫者，但已经得不到任何救济了。农业区的贫困每年都在加剧。人们过着极端贫困的生活，整家整户的人每星期就靠六七个或七八个先令过活，有时候连这一点钱也没有。有一个自由党的议会议员在1830年已经描述了这部分居民的状况，我们听听他是怎么说的吧："
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-013-d5b5fdb406",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/13.htm",
+          "sourceRawSha256": "38f5491eb3aae42aa4800ba6f83e5e50949fffe35abb02e4add2b0166053a20d",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-013-d5b5fdb406",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/13.htm",
+          "sourceRawSha256": "38f5491eb3aae42aa4800ba6f83e5e50949fffe35abb02e4add2b0166053a20d",
+          "lineIndex": 82,
+          "text": "上一篇（矿业无产阶级）　回目录　下一篇（资产阶级对无产阶级的态度）",
+          "compactLength": 31,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"12.htm\" style=\"text-decoration: none\">上一篇（矿业无产阶级）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"14.htm\" style=\"text-decoration: none\">下一篇（资产阶级对无产阶级的态度）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（矿业无产阶级）",
+              "href": "12.htm",
+              "html": "<a href=\"12.htm\" style=\"text-decoration: none\">上一篇（矿业无产阶级）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（资产阶级对无产阶级的态度）",
+              "href": "14.htm",
+              "html": "<a href=\"14.htm\" style=\"text-decoration: none\">下一篇（资产阶级对无产阶级的态度）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-014-44a835c1f8",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "资产阶级对无产阶级的态度",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+      "sourceRawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:57.500518+00:00",
+        "rawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+        "bytes": 36007
+      },
+      "localBodySha256": "90e12f8c9951f26346319e7ae096b74db45b000645f8cdba040a51d263c49a48",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-014-44a835c1f8",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "资产阶级对无产阶级的态度",
+          "type": "CHAPTER",
+          "order": 13,
+          "chapterId": "chapter-014-44a835c1f8",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-14"
+        }
+      ],
+      "localFirstParagraphs": [
+        "弗・恩格斯",
+        "我在这一章里所谈的资产阶级，也包括所谓的贵族阶级在内，因为说它是贵族阶级，说它享有特权，这只是对资产阶级而言，并不是对无产阶级而言。无产者把它们二者都仅仅看做有产阶级，即资产者。在财产特权面前，其他一切特权都算不了什么。区别只在于狭义的资产者是和工厂无产者、部分地和矿业无产者打交道，作为农场主的资产者是和农业工人打交道，而所谓贵族只是和一部分矿业无产阶级以及农业无产阶级相接触。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-014-44a835c1f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+          "sourceRawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+          "lineIndex": 3,
+          "text": "资产阶级对无产阶级的态度",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>资产阶级对无产阶级的态度</title>",
+            "<p class=\"title1\">资产阶级对无产阶级的态度</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-014-44a835c1f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+          "sourceRawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-014-44a835c1f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+          "sourceRawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+          "lineIndex": 11,
+          "text": "资产阶级对无产阶级的态度",
+          "compactLength": 12,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>资产阶级对无产阶级的态度</title>",
+            "<p class=\"title1\">资产阶级对无产阶级的态度</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-014-44a835c1f8",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/14.htm",
+          "sourceRawSha256": "67ddd73d15cbb6ade19c7f4af715df055faab5de1b5116ba34191c8d6504a149",
+          "lineIndex": 124,
+          "text": "上一篇（农业无产阶级）　回目录　下一篇（对英国工人阶级状况的补充评述，1845年）",
+          "compactLength": 39,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"13.htm\" style=\"text-decoration: none\">上一篇（农业无产阶级）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"15.htm\" style=\"text-decoration: none\">下一篇（对英国工人阶级状况的补充评述，1845年）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（农业无产阶级）",
+              "href": "13.htm",
+              "html": "<a href=\"13.htm\" style=\"text-decoration: none\">上一篇（农业无产阶级）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（对英国工人阶级状况的补充评述，1845年）",
+              "href": "15.htm",
+              "html": "<a href=\"15.htm\" style=\"text-decoration: none\">下一篇（对英国工人阶级状况的补充评述，1845年）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-016-620b56cd6d",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "美国版附录",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+      "sourceRawSha256": "2bc5413de26f7a5f88ffd48a52db58c66fd7d3bbee9c1bd11df91e74aa1af510",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:57.814364+00:00",
+        "rawSha256": "2bc5413de26f7a5f88ffd48a52db58c66fd7d3bbee9c1bd11df91e74aa1af510",
+        "bytes": 12561
+      },
+      "localBodySha256": "1e710b100c771334aaf574b7e02c91e0641260771c588fa457fa6b028a2730e6",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-016-620b56cd6d",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "美国版附录",
+          "type": "CHAPTER",
+          "order": 15,
+          "chapterId": "chapter-016-620b56cd6d",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-16"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“英国工人阶级状况”美国版附录[301]",
+        "用讲英语的读者的本族语言呈献给他们的这本书，是四十多年以前写的。那时作者还年轻，只有二十四岁，所以这本书就带有作者青年时代的烙印，反映着他青年时代的优点和缺点；但是无论优点或缺点都没有什么使他脸红的地方。这本书译成英文，完全不是作者倡议的。不过他还是可以讲几句话，为他没有阻止出版这个译本“作个辩护”。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-016-620b56cd6d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+          "sourceRawSha256": "2bc5413de26f7a5f88ffd48a52db58c66fd7d3bbee9c1bd11df91e74aa1af510",
+          "lineIndex": 3,
+          "text": "“英国工人阶级状况”美国版附录（1886年2月）",
+          "compactLength": 24,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>“英国工人阶级状况”美国版附录（1886年2月）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-016-620b56cd6d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+          "sourceRawSha256": "2bc5413de26f7a5f88ffd48a52db58c66fd7d3bbee9c1bd11df91e74aa1af510",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-016-620b56cd6d",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/16.htm",
+          "sourceRawSha256": "2bc5413de26f7a5f88ffd48a52db58c66fd7d3bbee9c1bd11df91e74aa1af510",
+          "lineIndex": 87,
+          "text": "上一篇（对英国工人阶级状况的补充评述，1845年）　回目录　下一篇（美国工人运动――美国版序言，1887年）",
+          "compactLength": 52,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"15.htm\" style=\"text-decoration: none\">上一篇（对英国工人阶级状况的补充评述，1845年）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"17.htm\" style=\"text-decoration: none\">下一篇（美国工人运动――美国版序言，1887年）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（对英国工人阶级状况的补充评述，1845年）",
+              "href": "15.htm",
+              "html": "<a href=\"15.htm\" style=\"text-decoration: none\">上一篇（对英国工人阶级状况的补充评述，1845年）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（美国工人运动――美国版序言，1887年）",
+              "href": "17.htm",
+              "html": "<a href=\"17.htm\" style=\"text-decoration: none\">下一篇（美国工人运动――美国版序言，1887年）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-017-08a99795c7",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "美国工人运动――美国版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+      "sourceRawSha256": "a61daf4b3cffc27f1779c2288f28eb22b2129b4dc5f5be300f3a081621de79f7",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:58.157777+00:00",
+        "rawSha256": "a61daf4b3cffc27f1779c2288f28eb22b2129b4dc5f5be300f3a081621de79f7",
+        "bytes": 19386
+      },
+      "localBodySha256": "f90f4e9e7501b08b6d11cf84c14978c40db944d214deb7235c3fd5d5ca0b0e0c",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-017-08a99795c7",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "美国工人运动――美国版序言",
+          "type": "CHAPTER",
+          "order": 16,
+          "chapterId": "chapter-017-08a99795c7",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-17"
+        }
+      ],
+      "localFirstParagraphs": [
+        "美国工人运动“英国工人阶级状况”美国版序言[374]",
+        "自从我应译者［注：弗・凯利-威士涅威茨基夫人。――编者注］的希望写完本书的“附录”［注：见本卷第292―298页。――编者注］以来，已经过去十个月了。在这十个月中，美国社会发生了一次在其他任何国家中至少需要十年才能完成的变革。1886年2月，美国的社会舆论在一点上几乎是一致的，即认为：美国没有欧洲式的工人阶级［注：我在1844年写的那本书用英文出版是有道理的，这恰恰是因为，现代美国的工业所处的状况几乎正好相当于四十年代，也就是我所考察的时期的英国工业的状态。情况相似到何等程度，发表在伦敦“时代”月刊3、4、5和6月号上的爱德华・艾威林和爱琳娜・马克思-艾威林论“美国工人运动”的那些文章[375]已经证明。我之所以更乐意提到这些出色的文章，还因为这使我有可能同时批驳美国社会主义工人党执行委员会毫无顾忌地散布的对艾威林的可恶的诽谤。[376]（恩格斯在1887年的单行本上加的注。）］，因此，使欧洲社会四分五裂的工人和资本家之间的阶级斗争在美利坚共和国不可能发生，所以社会主义是一种从外国引入的植物，它决不能在美国的土壤上生根。然而正是在那个时候，越来越近的阶级斗争已经呈现出它的巨大阴影：宾夕法尼亚的煤矿工人[377]和其他许多工业部门的工人举行了罢工，特别是全国都在准备争取八小时工作日的广大运动，这个运动说在5月开始就在5月开始了。[378]我的“附录”表明，当时我已经正确地估计了这些征兆，预料到会有一个全国性的工人运动。但是，当时谁也不能料到，运动会在这样短促的时间内以这样不可遏制的力量爆发出来，会以燎原烈火的速度蔓延开来，会从根本上震撼［注：在德文版中不是“震撼”，而是“现在已经在震撼。――编者注］美国社会。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-017-08a99795c7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+          "sourceRawSha256": "a61daf4b3cffc27f1779c2288f28eb22b2129b4dc5f5be300f3a081621de79f7",
+          "lineIndex": 3,
+          "text": "美国工人运动――“英国工人阶级状况”美国版序言（1887年）",
+          "compactLength": 30,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>美国工人运动――“英国工人阶级状况”美国版序言（1887年）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-017-08a99795c7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+          "sourceRawSha256": "a61daf4b3cffc27f1779c2288f28eb22b2129b4dc5f5be300f3a081621de79f7",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-017-08a99795c7",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/17.htm",
+          "sourceRawSha256": "a61daf4b3cffc27f1779c2288f28eb22b2129b4dc5f5be300f3a081621de79f7",
+          "lineIndex": 119,
+          "text": "上一篇（美国版附录，1886年）　回目录　下一篇（1892年英国版序言）",
+          "compactLength": 34,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"16.htm\" style=\"text-decoration: none\">上一篇（美国版附录，1886年）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"18.htm\" style=\"text-decoration: none\">下一篇（1892年英国版序言）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（美国版附录，1886年）",
+              "href": "16.htm",
+              "html": "<a href=\"16.htm\" style=\"text-decoration: none\">上一篇（美国版附录，1886年）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（1892年英国版序言）",
+              "href": "18.htm",
+              "html": "<a href=\"18.htm\" style=\"text-decoration: none\">下一篇（1892年英国版序言）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-018-dfdeca587f",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "1892年英国版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/18.htm",
+      "sourceRawSha256": "8b16d6e8dcfab4057a1cb18f4bf4bb55ccd8616b5e57d5eae1aba09cab1dfa34",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/18.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/18.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:58.503762+00:00",
+        "rawSha256": "8b16d6e8dcfab4057a1cb18f4bf4bb55ccd8616b5e57d5eae1aba09cab1dfa34",
+        "bytes": 25999
+      },
+      "localBodySha256": "46d86776214e3ab7c7eb8ea62a473eda045f423670ab9ebb2496ef3b8792af18",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-018-dfdeca587f",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "1892年英国版序言",
+          "type": "CHAPTER",
+          "order": 17,
+          "chapterId": "chapter-018-dfdeca587f",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-18"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“英国工人阶级状况”1892年英国版序言[264]",
+        "本书是再版的英译本。原书最初于1845年在德国出版。那时作者还年轻，只有二十四岁，所以这本著作就带有作者青年时代的烙印，反映着他青年时代的优点和缺点；但是无论优点或缺点，现在都并不使他感到有什么羞愧。这本书于1886年由美国弗・凯利-威士涅威茨基夫人译成英文，次年在纽约出版。由于美国版已销售殆尽，而且从未在大西洋此岸广泛流传，现经有关各方一致同意，将英译本再版印行。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-018-dfdeca587f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/18.htm",
+          "sourceRawSha256": "8b16d6e8dcfab4057a1cb18f4bf4bb55ccd8616b5e57d5eae1aba09cab1dfa34",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-018-dfdeca587f",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/18.htm",
+          "sourceRawSha256": "8b16d6e8dcfab4057a1cb18f4bf4bb55ccd8616b5e57d5eae1aba09cab1dfa34",
+          "lineIndex": 161,
+          "text": "上一篇（美国工人运动――美国版序言，1887年）　回目录　下一篇（1892年德文第二版序言）",
+          "compactLength": 44,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"17.htm\" style=\"text-decoration: none\">上一篇（美国工人运动――美国版序言，1887年）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"19.htm\" style=\"text-decoration: none\">下一篇（1892年德文第二版序言）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（美国工人运动――美国版序言，1887年）",
+              "href": "17.htm",
+              "html": "<a href=\"17.htm\" style=\"text-decoration: none\">上一篇（美国工人运动――美国版序言，1887年）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（1892年德文第二版序言）",
+              "href": "19.htm",
+              "html": "<a href=\"19.htm\" style=\"text-decoration: none\">下一篇（1892年德文第二版序言）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-019-a08536f2cd",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "1892年德文第二版序言",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/19.htm",
+      "sourceRawSha256": "93e068712c12a49b0097d3c35664a67e6eb393b60007b326b233ef7cc2024e99",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/19.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/19.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:59.052600+00:00",
+        "rawSha256": "93e068712c12a49b0097d3c35664a67e6eb393b60007b326b233ef7cc2024e99",
+        "bytes": 25250
+      },
+      "localBodySha256": "fe8be4906d21a4cfc086c9abea6d53a82fa4ff9eb4fe639899102137e860fbb5",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-019-a08536f2cd",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "1892年德文第二版序言",
+          "type": "CHAPTER",
+          "order": 18,
+          "chapterId": "chapter-019-a08536f2cd",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-19"
+        }
+      ],
+      "localFirstParagraphs": [
+        "“英国工人阶级状况”1892年德文第二版序言[326]",
+        "现在重新呈献给德国读者的这本书，最初是在1845年夏天出版的。这本书无论在优点方面或缺点方面都带有作者青年时代的痕迹。那时我是二十四岁。现在我的年纪比那时大了两倍，但是当我重读这本青年时期的著作时，发现它并没有什么使我脸红的地方。因此，本书中的这种青年时期的痕迹我一点也不打算抹去。我现在原封不动地把它重新献给读者。我只是把若干不十分清楚的地方表述得更明确些，并在某些地方加了新的简短的脚注，这些脚注都标明了今年（1892）的年份。"
+      ],
+      "nativeNoteCount": 0,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-019-a08536f2cd",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/19.htm",
+          "sourceRawSha256": "93e068712c12a49b0097d3c35664a67e6eb393b60007b326b233ef7cc2024e99",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-019-a08536f2cd",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/19.htm",
+          "sourceRawSha256": "93e068712c12a49b0097d3c35664a67e6eb393b60007b326b233ef7cc2024e99",
+          "lineIndex": 131,
+          "text": "上一篇（1892年英国版序言）　回目录",
+          "compactLength": 18,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"18.htm\" style=\"text-decoration: none\">上一篇（1892年英国版序言）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（1892年英国版序言）",
+              "href": "18.htm",
+              "html": "<a href=\"18.htm\" style=\"text-decoration: none\">上一篇（1892年英国版序言）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-005-ff164a7409",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "大城市",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+      "sourceRawSha256": "7f20fd49166593f3fda69614803a5a0611d06617ada6917aaeb4dc4a25dbf068",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:05:59.738988+00:00",
+        "rawSha256": "7f20fd49166593f3fda69614803a5a0611d06617ada6917aaeb4dc4a25dbf068",
+        "bytes": 84363
+      },
+      "localBodySha256": "2d60ffa03a32771cb6ced918585718a8de6b24bf2abc13377657afcdb032114d",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-005-ff164a7409",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "大城市",
+          "type": "CHAPTER",
+          "order": 4,
+          "chapterId": "chapter-005-ff164a7409",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-5"
+        }
+      ],
+      "localFirstParagraphs": [
+        "像伦敦这样的城市，就是逛上几个钟头也看不到它的尽头，而且也遇不到表明快接近开阔的田野的些许征象，——这样的城市是一个非常特别的东西。这种大规模的集中，250万人这样聚集在一个地方：使这250万人的力量增加了100倍；他们把伦敦变成了全世界的商业首都，建造了巨大的船坞，并聚集了经常布满太晤士河的成千的船只。从海面向伦敦桥溯流而上时看到的太晤士河的景色，是再动人不过的了。在两边，特别是在乌里治以上的这许多房屋、造船厂，沿着两岸停泊的无数船只，这些船只愈来愈密集，最后只在河当中留下一条狭窄的空间，成百的轮船就在这条狭窄的空间中不断地来来去去，——这一切是这样雄伟，这样壮丽，简直令人陶醉，使人还在踏上英国的土地以前就不能不对英国的伟大感到惊奇［注：这是差不多五十年前，在美丽如画的帆船时代写的。现在，这样的船如果还出现在伦敦，那就只有停在船坞里面了，而布满太晤士河的已是熏得漆黑的丑陋的轮船。——恩格斯在1892年版上加的注］。",
+        "但是，为这一切付出了多大的代价，这只有在以后才看得清楚。只有在大街上挤了几天，费力地穿过人群，穿过没有尽头的络绎不绝的车辆，只有到过这个世界城市的“贫民窟”，才会开始觉察到，伦敦人为了创造充满他们的城市的一切文明奇迹，不得不牺牲他们的人类本性的优良品质；才会开始觉察到，潜伏在他们每一个人身上的几百种力量都没有使用出来，而且是被压制着，为的是让这些力量中的一小部分获得充分的发展，并能够和别人的力量相结合而加倍扩大起来。在这种街头的拥挤中已经包含着某种丑恶的违反人性的东西。难道这些群集在街头的、代表着各个阶级和各个等级的成千上万的人，不都是具有同样的属性和能力、同样渴求幸福的人吗？难道他们不应当通过同样的方法和途径去寻求自己的幸福吗？可是他们彼此从身旁匆匆地走过，好像他们之间没有任何共同的地方，好像他们彼此毫不相干，只在一点上建立了一种默契，就是行人必须在人行道上靠右边走，以免阻碍迎面走过来的人；同时，谁也没有想到要看谁一眼。所有这些人愈是聚集在一个小小的空间里，每一个人在追逐私人利益时的这种可怕的冷淡、这种不近人情的孤僻就愈是使人难堪，愈是可恨。虽然我们也知道，每一个人的这种孤僻、这种目光短浅的利己主义是我们现代社会的基本的和普通的原则，可是，这些特点在任何一个地方也不像在这里，在这个大城市的纷扰里表现得这样露骨，这样无耻，这样被人们有意识地运用着。人类分散成各个分子，每一个分子都有自己的特殊生活原则，都有自己的特殊目的，这种一盘散沙的世界在这里是发展到顶点了。"
+      ],
+      "nativeNoteCount": 5,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-005-ff164a7409",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "sourceRawSha256": "7f20fd49166593f3fda69614803a5a0611d06617ada6917aaeb4dc4a25dbf068",
+          "lineIndex": 7,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-005-ff164a7409",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/05.htm",
+          "sourceRawSha256": "7f20fd49166593f3fda69614803a5a0611d06617ada6917aaeb4dc4a25dbf068",
+          "lineIndex": 272,
+          "text": "上一篇（工业无产阶级）　回目录　下一篇（竞争）",
+          "compactLength": 21,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"04.htm\" style=\"text-decoration: none\">上一篇（工业无产阶级）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"06.htm\" style=\"text-decoration: none\">下一篇（竞争）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（工业无产阶级）",
+              "href": "04.htm",
+              "html": "<a href=\"04.htm\" style=\"text-decoration: none\">上一篇（工业无产阶级）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（竞争）",
+              "href": "06.htm",
+              "html": "<a href=\"06.htm\" style=\"text-decoration: none\">下一篇（竞争）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-008-c9517b7869",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "结果",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+      "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:06:00.453959+00:00",
+        "rawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+        "bytes": 88094
+      },
+      "localBodySha256": "224ed59b43260b098675a4f68a0fa227d74ce5d6628f20119d38bd00c25c89e0",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-008-c9517b7869",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "结果",
+          "type": "CHAPTER",
+          "order": 7,
+          "chapterId": "chapter-008-c9517b7869",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-8"
+        }
+      ],
+      "localFirstParagraphs": [
+        "我们已经相当详细地考察了英国城市工人的生活条件，现在我们可以从这些事实做出结论并且再用这些结论来和实际情况互相印证。我们来看一看，生活在这种条件下的工人本身变成了什么样子，这是些什么样的人，他们在体格方面、智力方面和道德方面的面貌是怎样的。",
+        "如果一个人伤害了另一个人的身体，而且这种伤害引起了被害人的死亡，我们就把这叫做杀人；如果杀人者事先知道这种伤害会送人的命，那末我们就把他的行动叫做谋杀。但是，如果社会［注：在这里，也和在其他地方一样，当我说到社会这样一个有自己的权利和义务的负有责任的整体的时候，我所指的当然是社会中拥有政权的那一部分，即这样一个阶级，这个阶级目前在政治方面和社会方面都握有统治权，因而应该对它不允许参加政权的那些人的状况负责。在英国，正像在其他文明国家一样，这个统治阶级就是资产阶级。但是社会（特指资产阶级）至少有责任保护每一个社会成员的生命，有责任注意，譬如说，不要饿死一个人，这一点是无须乎我来给我的德国读者证明的。如果我是写给英国资产阶级看的话，那当然又当别论了。——恩格斯原注"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-008-c9517b7869",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+          "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-008-c9517b7869",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/08.htm",
+          "sourceRawSha256": "b217f284d95fc069b9baff0aaec9ef3f309bd0b970c7404a1cf841592674451f",
+          "lineIndex": 602,
+          "text": "上一篇（爱尔兰移民）　回目录　下一篇（各别的劳动部门 狭义的工厂工人）",
+          "compactLength": 32,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"07.htm\" style=\"text-decoration: none\">上一篇（爱尔兰移民）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"09.htm\" style=\"text-decoration: none\">下一篇（各别的劳动部门 狭义的工厂工人）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（爱尔兰移民）",
+              "href": "07.htm",
+              "html": "<a href=\"07.htm\" style=\"text-decoration: none\">上一篇（爱尔兰移民）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（各别的劳动部门 狭义的工厂工人）",
+              "href": "09.htm",
+              "html": "<a href=\"09.htm\" style=\"text-decoration: none\">下一篇（各别的劳动部门 狭义的工厂工人）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-012-0b59796b85",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "矿业无产阶级",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+      "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:06:00.865562+00:00",
+        "rawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+        "bytes": 30217
+      },
+      "localBodySha256": "ece7c65e91ce6e0b167562afb0aa1959e8e1cdffd09ac3da128f04b2f61ed0c1",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-012-0b59796b85",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "矿业无产阶级",
+          "type": "CHAPTER",
+          "order": 11,
+          "chapterId": "chapter-012-0b59796b85",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-12"
+        }
+      ],
+      "localFirstParagraphs": [
+        "对于像英国的那样规模巨大的工业说来，开采原料和燃料同样需要数目很大的一批工人。但是在工业所必需的各种原料中，除农业区供给的羊毛外，英国本地只出产矿物，即金属和煤。康瓦尔有丰富的铜矿、锡矿、锌矿和铅矿，斯泰福郡、北威尔士及其他地区出产大量的铁，几乎整个英格兰北部和西部、苏格兰中部及爱尔兰某些地区都出产丰富的煤。",
+        "［注：据1841年调查，大不列颠（爱尔兰除外）在矿上工作的工人数目如下："
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-012-0b59796b85",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+          "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+          "lineIndex": 3,
+          "text": "矿业无产阶级",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>矿业无产阶级</title>",
+            "<p class=\"title1\">矿业无产阶级</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-012-0b59796b85",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+          "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-012-0b59796b85",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+          "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+          "lineIndex": 8,
+          "text": "矿业无产阶级",
+          "compactLength": 6,
+          "status": "reviewed_root_title_in_chapter_toc",
+          "sourceNodesHtml": [
+            "<title>矿业无产阶级</title>",
+            "<p class=\"title1\">矿业无产阶级</p>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-012-0b59796b85",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/12.htm",
+          "sourceRawSha256": "dfa2af3139d7bb8c99f030112e7b92437abc38ca38d57c761168c69b326e08a1",
+          "lineIndex": 142,
+          "text": "上一篇（工人运动）　回目录　下一篇（农业无产阶级）",
+          "compactLength": 23,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"11.htm\" style=\"text-decoration: none\">上一篇（工人运动）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"13.htm\" style=\"text-decoration: none\">下一篇（农业无产阶级）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（工人运动）",
+              "href": "11.htm",
+              "html": "<a href=\"11.htm\" style=\"text-decoration: none\">上一篇（工人运动）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（农业无产阶级）",
+              "href": "13.htm",
+              "html": "<a href=\"13.htm\" style=\"text-decoration: none\">下一篇（农业无产阶级）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    },
+    {
+      "bookId": "engels-work-12d43c9362e2",
+      "chapterId": "chapter-015-3db3230e22",
+      "title": "英国工人阶级状况",
+      "chapterTitle": "对英国工人阶级状况的补充评述",
+      "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+      "sourceRawSha256": "573ef96625a5b380631a9ab1cda74a348c2395bf30efc3678b49f73719528c33",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T10:06:01.209611+00:00",
+        "rawSha256": "573ef96625a5b380631a9ab1cda74a348c2395bf30efc3678b49f73719528c33",
+        "bytes": 23849
+      },
+      "localBodySha256": "4ff0ce1911b26c079fca834f83aafb6e3d2b40a21fc9544ad2ce41f9cdf613aa",
+      "localChapterToc": [
+        {
+          "id": "toc-engels-work-12d43c9362e2-chapter-chapter-015-3db3230e22",
+          "parentId": "toc-engels-work-12d43c9362e2-root",
+          "title": "对英国工人阶级状况的补充评述",
+          "type": "CHAPTER",
+          "order": 14,
+          "chapterId": "chapter-015-3db3230e22",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-15"
+        }
+      ],
+      "localFirstParagraphs": [
+        "对英国工人阶级状况的补充评述[147]〔附件1〕载有弗・恩格斯《对英国工人阶级状况的补充评述》",
+        "一文的《威斯特伐利亚汽船》杂志的封面"
+      ],
+      "nativeNoteCount": 1,
+      "findings": [
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-015-3db3230e22",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+          "sourceRawSha256": "573ef96625a5b380631a9ab1cda74a348c2395bf30efc3678b49f73719528c33",
+          "lineIndex": 3,
+          "text": "对英国工人阶级状况的补充评述（1845年）",
+          "compactLength": 21,
+          "status": "reviewed_html_document_title",
+          "sourceNodesHtml": [
+            "<title>对英国工人阶级状况的补充评述（1845年）</title>"
+          ]
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-015-3db3230e22",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+          "sourceRawSha256": "573ef96625a5b380631a9ab1cda74a348c2395bf30efc3678b49f73719528c33",
+          "lineIndex": 6,
+          "text": "中文马克思主义文库 -> 恩格斯 -> 《英国工人阶级状况》（1844.9－1845.3）",
+          "compactLength": 41,
+          "status": "reviewed_standalone_breadcrumb",
+          "sourceNodesHtml": [],
+          "reason": "独立站点导航行，仅含作者／作品层级；未混入正文或原注。"
+        },
+        {
+          "bookId": "engels-work-12d43c9362e2",
+          "chapterId": "chapter-015-3db3230e22",
+          "sourceUrl": "https://www.marxists.org/chinese/engels/1844-1845/15.htm",
+          "sourceRawSha256": "573ef96625a5b380631a9ab1cda74a348c2395bf30efc3678b49f73719528c33",
+          "lineIndex": 146,
+          "text": "上一篇（资产阶级对无产阶级的态度）　回目录　下一篇（美国版附录，1886年）",
+          "compactLength": 36,
+          "status": "reviewed_standalone_navigation",
+          "sourceNodesHtml": [
+            "<p style=\"text-align: center; font-size: 11pt; line-height:100%; margin-top:5pt\"><a href=\"14.htm\" style=\"text-decoration: none\">上一篇（资产阶级对无产阶级的态度）</a>　<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>　<a href=\"16.htm\" style=\"text-decoration: none\">下一篇（美国版附录，1886年）</a><br/><br/>\n</p>"
+          ],
+          "sourceNavigationAnchors": [
+            {
+              "text": "上一篇（资产阶级对无产阶级的态度）",
+              "href": "14.htm",
+              "html": "<a href=\"14.htm\" style=\"text-decoration: none\">上一篇（资产阶级对无产阶级的态度）</a>"
+            },
+            {
+              "text": "回目录",
+              "href": "index.htm",
+              "html": "<a href=\"index.htm\" style=\"text-decoration: none\">回目录</a>"
+            },
+            {
+              "text": "下一篇（美国版附录，1886年）",
+              "href": "16.htm",
+              "html": "<a href=\"16.htm\" style=\"text-decoration: none\">下一篇（美国版附录，1886年）</a>"
+            }
+          ],
+          "reason": "源页独立页尾P，仅含前后篇／目录锚点；括号题名是链接说明，非正文、署名或日期。"
+        }
+      ],
+      "sourceBodyAndNativeNotesMatch": true
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 38,
+    "candidatesReviewed": 108,
+    "newRepairs": 0,
+    "paragraphsFootnotesTocAndAnnotationsUnchanged": true
+  }
+}

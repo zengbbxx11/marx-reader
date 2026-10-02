@@ -1,0 +1,1988 @@
+{
+  "date": "2026-10-02",
+  "scope": "独立长DOM节点检查：884章已校验摘要缓存中，检查无嵌套p/div/blockquote/td且长度至少75字符的清理拒绝节点，候选0；另对无嵌套子段落的p/div/blockquote长节点做本地正文与原注包含比较，候选10。对这10页重新访问源站并核查。BR裸文本、嵌套段落及图片不是此轮检查对象。",
+  "cacheOnlyScan": {
+    "chapters": 884,
+    "keepTextRejectedLongLeafNodes": 0,
+    "unmatchedLongLeafNodes": 10
+  },
+  "reviews": [
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-004-d7dbba58ac",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+      "sourceRawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+      "text": "（一）政治鼓动和经济派缩小政治鼓动的范围 （二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的 （三）政治揭露和“培养革命积极性” （四）经济主义和恐怖主义有什么共同之点？ （五）工人阶级是争取民主制的先进战士 （六）又是“诽谤者”，又是“捏造者”",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n<a href=\"#1\">（一）政治鼓动和经济派缩小政治鼓动的范围</a><br/>\n<a href=\"#2\">（二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的</a><br/>\n<a href=\"#3\">（三）政治揭露和“培养革命积极性”</a><br/>\n<a href=\"#4\">（四）经济主义和恐怖主义有什么共同之点？</a><br/>\n<a href=\"#5\">（五）工人阶级是争取民主制的先进战士</a><br/>\n<a href=\"#6\">（六）又是“诽谤者”，又是“捏造者”</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:20.742755+00:00",
+        "rawSha256": "ce6341cb4365b8c9e53d6b39eba228ea0fead37a826a4f3be864c04685eeee62",
+        "bytes": 77588
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">（一）政治鼓动和经济派缩小政治鼓动的范围</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（一）政治鼓动和经济派缩小政治鼓动的范围</h3>",
+          "localSections": [
+            {
+              "id": "section-001-683e68f6",
+              "title": "（一）政治鼓动和经济派缩小政治鼓动的范围",
+              "level": 2,
+              "paragraphIndex": 1
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-001-683e68f6",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（一）政治鼓动和经济派缩小政治鼓动的范围",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 1,
+              "counterpartKey": "chapter-4-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">（二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的</h3>",
+          "localSections": [
+            {
+              "id": "section-002-accea6bb",
+              "title": "（二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的",
+              "level": 2,
+              "paragraphIndex": 22
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-002-accea6bb",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（二）谈谈马尔丁诺夫是怎样深化了普列汉诺夫的意见的",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 22,
+              "counterpartKey": "chapter-4-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">（三）政治揭露和“培养革命积极性”</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（三）政治揭露和“培养革命积极性”</h3>",
+          "localSections": [
+            {
+              "id": "section-003-8537625c",
+              "title": "（三）政治揭露和“培养革命积极性”",
+              "level": 2,
+              "paragraphIndex": 31
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-003-8537625c",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（三）政治揭露和“培养革命积极性”",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 31,
+              "counterpartKey": "chapter-4-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">（四）经济主义和恐怖主义有什么共同之点？</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（四）经济主义和恐怖主义有什么共同之点？</h3>",
+          "localSections": [
+            {
+              "id": "section-004-197d825f",
+              "title": "（四）经济主义和恐怖主义有什么共同之点？",
+              "level": 2,
+              "paragraphIndex": 39
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-004-197d825f",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（四）经济主义和恐怖主义有什么共同之点？",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 39,
+              "counterpartKey": "chapter-4-section-4",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">（五）工人阶级是争取民主制的先进战士</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（五）工人阶级是争取民主制的先进战士</h3>",
+          "localSections": [
+            {
+              "id": "section-005-f080a870",
+              "title": "（五）工人阶级是争取民主制的先进战士",
+              "level": 2,
+              "paragraphIndex": 45
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-005-f080a870",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（五）工人阶级是争取民主制的先进战士",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 45,
+              "counterpartKey": "chapter-4-section-5",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">（六）又是“诽谤者”，又是“捏造者”</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（六）又是“诽谤者”，又是“捏造者”</h3>",
+          "localSections": [
+            {
+              "id": "section-006-1650a749",
+              "title": "（六）又是“诽谤者”，又是“捏造者”",
+              "level": 2,
+              "paragraphIndex": 69
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-004-d7dbba58ac-section-006-1650a749",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-004-d7dbba58ac",
+              "title": "（六）又是“诽谤者”，又是“捏造者”",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-004-d7dbba58ac",
+              "paragraphIndex": 69,
+              "counterpartKey": "chapter-4-section-6",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "435a0ea16cbf243390daa6005b33e84f28e3498c7720ec59ed331375a33f4ef3",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-005-98b5d1c539",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+      "sourceRawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+      "text": "（一）什么是手工业方式？ （二）手工业方式和经济主义 （三）工人的组织和革命家的组织 （四）组织工作的规模 （五）“密谋”组织和“民主制” （六）地方工作和全俄工作",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n<a href=\"#1\">（一）什么是手工业方式？</a><br/>\n<a href=\"#2\">（二）手工业方式和经济主义</a><br/>\n<a href=\"#3\">（三）工人的组织和革命家的组织</a><br/>\n<a href=\"#4\">（四）组织工作的规模</a><br/>\n<a href=\"#5\">（五）“密谋”组织和“民主制”</a><br/>\n<a href=\"#6\">（六）地方工作和全俄工作</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/04.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:22.620691+00:00",
+        "rawSha256": "066a8358bbccf2a13e7f0931008a90389df44901d97244716ad867989f569246",
+        "bytes": 86507
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">（一）什么是手工业方式？</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（一）什么是手工业方式？</h3>",
+          "localSections": [
+            {
+              "id": "section-001-739a63da",
+              "title": "（一）什么是手工业方式？",
+              "level": 2,
+              "paragraphIndex": 1
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-001-739a63da",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（一）什么是手工业方式？",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 1,
+              "counterpartKey": "chapter-5-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">（二）手工业方式和经济主义</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（二）手工业方式和经济主义</h3>",
+          "localSections": [
+            {
+              "id": "section-002-a05944aa",
+              "title": "（二）手工业方式和经济主义",
+              "level": 2,
+              "paragraphIndex": 5
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-002-a05944aa",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（二）手工业方式和经济主义",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 5,
+              "counterpartKey": "chapter-5-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">（三）工人的组织和革命家的组织</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（三）工人的组织和革命家的组织</h3>",
+          "localSections": [
+            {
+              "id": "section-003-c9670e6f",
+              "title": "（三）工人的组织和革命家的组织",
+              "level": 2,
+              "paragraphIndex": 16
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-003-c9670e6f",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（三）工人的组织和革命家的组织",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 16,
+              "counterpartKey": "chapter-5-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">（四）组织工作的规模</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（四）组织工作的规模</h3>",
+          "localSections": [
+            {
+              "id": "section-004-224fbc15",
+              "title": "（四）组织工作的规模",
+              "level": 2,
+              "paragraphIndex": 41
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-004-224fbc15",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（四）组织工作的规模",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 41,
+              "counterpartKey": "chapter-5-section-4",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">（五）“密谋”组织和“民主制”</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（五）“密谋”组织和“民主制”</h3>",
+          "localSections": [
+            {
+              "id": "section-005-9a3cf601",
+              "title": "（五）“密谋”组织和“民主制”",
+              "level": 2,
+              "paragraphIndex": 51
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-005-9a3cf601",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（五）“密谋”组织和“民主制”",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 51,
+              "counterpartKey": "chapter-5-section-5",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">（六）地方工作和全俄工作</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">（六）地方工作和全俄工作</h3>",
+          "localSections": [
+            {
+              "id": "section-006-e2f3e31a",
+              "title": "（六）地方工作和全俄工作",
+              "level": 2,
+              "paragraphIndex": 68
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-81b8941e4843-chapter-005-98b5d1c539-section-006-e2f3e31a",
+              "parentId": "toc-lenin-work-81b8941e4843-chapter-chapter-005-98b5d1c539",
+              "title": "（六）地方工作和全俄工作",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-005-98b5d1c539",
+              "paragraphIndex": 68,
+              "counterpartKey": "chapter-5-section-6",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "911f977a602b61b167fbedbcea0fc67da0ee1cbbcd361e6df328defdfa5eb7db",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "lenin-work-81b8941e4843",
+      "chapterId": "chapter-007-e9396b46bf",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+      "sourceRawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+      "text": "［原注62］ 我还可用一句德国谚语来回答：Den Sack schlgt　m an, den Esel meint man（打的是麻袋，指的是驴子。——编者注），用俄国谚语说就是：打猫吓媳妇。不仅一个《工人事业》，而且 大批的 实际工作者和 理论家 都醉心于时髦的“批评”，在自发性问题上颠三倒四，在对于我们的政治任务和组织任务的理解上离开社会民主主义的观点而陷入工联主义的观点。",
+      "sourceNodeHtml": "<p class=\"intr\">［原注62］ 我还可用一句德国谚语来回答：Den Sack schlgt　m an, den Esel meint man（打的是麻袋，指的是驴子。——编者注），用俄国谚语说就是：打猫吓媳妇。不仅一个《工人事业》，而且<b>大批的</b>实际工作者和<b>理论家</b>都醉心于时髦的“批评”，在自发性问题上颠三倒四，在对于我们的政治任务和组织任务的理解上离开社会民主主义的观点而陷入工联主义的观点。</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/1901-1902/06.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:23.353789+00:00",
+        "rawSha256": "42e76d6727e69380b6cd88dfe4c1aba821057dd72f9bf7163219dc4125e38b63",
+        "bytes": 5146
+      },
+      "status": "reviewed_known_source_encoding_mapping",
+      "reason": "应用已证实的源站PUA字符映射后源文完整存在。",
+      "localBodySha256": "facf95e935249feb862982755721087ac5e3730e6c980647b633cdf4ff22c60b",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-001-ffa9f45ac8",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+      "sourceRawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+      "text": "· 第一版序言（卡尔·马克思，1867年7月25日） · 第二版跋　（卡尔·马克思，1873年1月24日） · 法文版序言（卡尔·马克思，1872年3月18日） · 法文版跋　（卡尔·马克思，1875年4月28日） · 第三版序言（弗里德思希·恩格斯，1883年11月7日） · 英文版序言（弗里德里希·恩格斯，1886年11月5日） · 第四版序言（弗里德里希·恩格斯，1890年6月25日）",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\r\n· <a href=\"#1\">第一版序言（卡尔·马克思，1867年7月25日）</a><br/>\r\n· <a href=\"#2\">第二版跋　（卡尔·马克思，1873年1月24日）</a><br/>\r\n· <a href=\"#3\">法文版序言（卡尔·马克思，1872年3月18日）</a><br/>\r\n· <a href=\"#4\">法文版跋　（卡尔·马克思，1875年4月28日）</a><br/>\r\n· <a href=\"#5\">第三版序言（弗里德思希·恩格斯，1883年11月7日）</a><br/>\r\n· <a href=\"#6\">英文版序言（弗里德里希·恩格斯，1886年11月5日）</a><br/>\r\n· <a href=\"#7\">第四版序言（弗里德里希·恩格斯，1890年6月25日）</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/00.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:25.638306+00:00",
+        "rawSha256": "f101266b4d71aef031339cd65b1bdbca50ae427f3eff933987fb9f65f28db158",
+        "bytes": 56250
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">第一版序言（卡尔·马克思，1867年7月25日）</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">第一版序言<a href=\"#_ftn1\" name=\"_ftnref1\" title=\"\"><sup><font size=\"3\">[1]</font></sup></a></h3>",
+          "localSections": [
+            {
+              "id": "section-001-2db0ad28",
+              "title": "第一版序言 [1]",
+              "level": 2,
+              "paragraphIndex": 1
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-001-2db0ad28",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "第一版序言 [1]",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 1,
+              "counterpartKey": "chapter-1-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">第二版跋　（卡尔·马克思，1873年1月24日）</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">第二版跋</h3>",
+          "localSections": [
+            {
+              "id": "section-002-90f4ec3b",
+              "title": "第二版跋",
+              "level": 2,
+              "paragraphIndex": 17
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-002-90f4ec3b",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "第二版跋",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 17,
+              "counterpartKey": "chapter-1-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">法文版序言（卡尔·马克思，1872年3月18日）</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">法文版序言</h3>",
+          "localSections": [
+            {
+              "id": "section-003-0ee37a4e",
+              "title": "法文版序言",
+              "level": 2,
+              "paragraphIndex": 50
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-003-0ee37a4e",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "法文版序言",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 50,
+              "counterpartKey": "chapter-1-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">法文版跋　（卡尔·马克思，1875年4月28日）</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">法文版跋</h3>",
+          "localSections": [
+            {
+              "id": "section-004-c149a9af",
+              "title": "法文版跋",
+              "level": 2,
+              "paragraphIndex": 58
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-004-c149a9af",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "法文版跋",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 58,
+              "counterpartKey": "chapter-1-section-4",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">第三版序言（弗里德思希·恩格斯，1883年11月7日）</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">第三版序言</h3>",
+          "localSections": [
+            {
+              "id": "section-005-0f564105",
+              "title": "第三版序言",
+              "level": 2,
+              "paragraphIndex": 63
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-005-0f564105",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "第三版序言",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 63,
+              "counterpartKey": "chapter-1-section-5",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">英文版序言（弗里德里希·恩格斯，1886年11月5日）</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">英文版序言</h3>",
+          "localSections": [
+            {
+              "id": "section-006-72a9b398",
+              "title": "英文版序言",
+              "level": 2,
+              "paragraphIndex": 74
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-006-72a9b398",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "英文版序言",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 74,
+              "counterpartKey": "chapter-1-section-6",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#7\">第四版序言（弗里德里希·恩格斯，1890年6月25日）</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">第四版序言</h3>",
+          "localSections": [
+            {
+              "id": "section-007-1cd0c354",
+              "title": "第四版序言",
+              "level": 2,
+              "paragraphIndex": 84
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-001-ffa9f45ac8-section-007-1cd0c354",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-001-ffa9f45ac8",
+              "title": "第四版序言",
+              "type": "SECTION",
+              "order": 6,
+              "chapterId": "chapter-001-ffa9f45ac8",
+              "paragraphIndex": 84,
+              "counterpartKey": "chapter-1-section-7",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "7002a17838ad180d26ceff3cee0f459a29fd8d0ac0b69ddca69185cabfe59c51",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-002-8356fef4c5",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+      "sourceRawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+      "text": "1、商品的两个因素：使用价值和价值(价值实体，价值量) 2、体现在商品中的劳动的二重性 3、价值形式或交换价值 A、简单的、个别的或偶然的价值形式 (1)价值表现的两极：相对价值形式和等价形式 (2)相对价值形式 (a)相对价值形式的内容 (b)相对价值形式的量的规定性 (3)等价形式 (4)简单价值形式的总体 B、总和的或扩大的价值形式 (1)扩大的相对价值形式 (2)特殊等价形式 (3)总和的或扩大的价值形式的缺点 C、一般价值形式 (1)价值形式的变化了的性质 (2)相对价值形式和等价形式的发展关系 (3)从一般价值形式到货币形式的过渡 D、货币形式 4、商品的拜物教性质及其秘密",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n<b>\n<a href=\"#1\">1、商品的两个因素：使用价值和价值(价值实体，价值量)</a><br/>\n<a href=\"#2\">2、体现在商品中的劳动的二重性</a><br/>\n<a href=\"#3\">3、价值形式或交换价值</a></b><br/>\r\n　 <a href=\"#4\">A、简单的、个别的或偶然的价值形式</a><br/>\r\n　　　<a href=\"#5\">(1)价值表现的两极：相对价值形式和等价形式</a><br/>\r\n　　　<a href=\"#6\">(2)相对价值形式</a><br/>\r\n　　　<a href=\"#7\">(a)相对价值形式的内容</a><br/>\r\n　　　<a href=\"#8\">(b)相对价值形式的量的规定性</a><br/>\r\n　　　<a href=\"#9\">(3)等价形式</a><br/>\r\n　　　<a href=\"#10\">(4)简单价值形式的总体</a><br/>\r\n　 <a href=\"#11\">B、总和的或扩大的价值形式</a><br/>\r\n　　　<a href=\"#12\">(1)扩大的相对价值形式</a><br/>\r\n　　　<a href=\"#13\">(2)特殊等价形式</a><br/>\r\n　　　<a href=\"#14\">(3)总和的或扩大的价值形式的缺点</a><br/>\r\n　 <a href=\"#15\">C、一般价值形式</a><br/>\r\n　　　<a href=\"#16\">(1)价值形式的变化了的性质</a><br/>\r\n　　　<a href=\"#17\">(2)相对价值形式和等价形式的发展关系</a><br/>\r\n　　　<a href=\"#18\">(3)从一般价值形式到货币形式的过渡</a><br/>\r\n　 <a href=\"#19\">D、货币形式</a><br/>\n<b>\n<a href=\"#20\">4、商品的拜物教性质及其秘密</a></b><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:26.773089+00:00",
+        "rawSha256": "88e348dfd0c829797aa706ee383039253747eb80c62a66e6aa845dd1e58a7b1a",
+        "bytes": 89797
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">1、商品的两个因素：使用价值和价值(价值实体，价值量)</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">1、商品的两个因素：使用价值<br/>\r\n和价值(价值实体，价值量)</h3>",
+          "localSections": [
+            {
+              "id": "section-004-7e8935fe",
+              "title": "1、商品的两个因素：使用价值 和价值(价值实体，价值量)",
+              "level": 2,
+              "paragraphIndex": 0
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-004-7e8935fe",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+              "title": "1、商品的两个因素：使用价值 和价值(价值实体，价值量)",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 0,
+              "counterpartKey": "chapter-2-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">2、体现在商品中的劳动的二重性</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">2、体现在商品中的劳动的二重性</h3>",
+          "localSections": [
+            {
+              "id": "section-005-9f49c96a",
+              "title": "2、体现在商品中的劳动的二重性",
+              "level": 2,
+              "paragraphIndex": 24
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-005-9f49c96a",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+              "title": "2、体现在商品中的劳动的二重性",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 24,
+              "counterpartKey": "chapter-2-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">3、价值形式或交换价值</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">3、价值形式或交换价值</h3>",
+          "localSections": [
+            {
+              "id": "section-006-9b8844f2",
+              "title": "3、价值形式或交换价值",
+              "level": 2,
+              "paragraphIndex": 41
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+              "title": "3、价值形式或交换价值",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 41,
+              "counterpartKey": "chapter-2-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">A、简单的、个别的或偶然的价值形式</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">A、简单的、个别的或偶然的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-007-32a59133",
+              "title": "A、简单的、个别的或偶然的价值形式",
+              "level": 3,
+              "paragraphIndex": 46
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-007-32a59133",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "A、简单的、个别的或偶然的价值形式",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 46,
+              "counterpartKey": "chapter-2-section-4",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">(1)价值表现的两极：相对价值形式和等价形式</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">(2)相对价值形式</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#7\">(a)相对价值形式的内容</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#8\">(b)相对价值形式的量的规定性</a>",
+          "sourceTargetHtml": "<a name=\"8\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#9\">(3)等价形式</a>",
+          "sourceTargetHtml": "<a name=\"9\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#10\">(4)简单价值形式的总体</a>",
+          "sourceTargetHtml": "<a name=\"10\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#11\">B、总和的或扩大的价值形式</a>",
+          "sourceTargetHtml": "<a name=\"11\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">B、总和的或扩大的价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-012-f6da3aa1",
+              "title": "B、总和的或扩大的价值形式",
+              "level": 3,
+              "paragraphIndex": 109
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-012-f6da3aa1",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "B、总和的或扩大的价值形式",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 109,
+              "counterpartKey": "chapter-2-section-9",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#12\">(1)扩大的相对价值形式</a>",
+          "sourceTargetHtml": "<a name=\"12\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">C、一般价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-016-28e88f94",
+              "title": "C、一般价值形式",
+              "level": 3,
+              "paragraphIndex": 123
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-016-28e88f94",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "C、一般价值形式",
+              "type": "SECTION",
+              "order": 12,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 123,
+              "counterpartKey": "chapter-2-section-13",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#13\">(2)特殊等价形式</a>",
+          "sourceTargetHtml": "<a name=\"13\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">C、一般价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-016-28e88f94",
+              "title": "C、一般价值形式",
+              "level": 3,
+              "paragraphIndex": 123
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-016-28e88f94",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "C、一般价值形式",
+              "type": "SECTION",
+              "order": 12,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 123,
+              "counterpartKey": "chapter-2-section-13",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#14\">(3)总和的或扩大的价值形式的缺点</a>",
+          "sourceTargetHtml": "<a name=\"14\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">C、一般价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-016-28e88f94",
+              "title": "C、一般价值形式",
+              "level": 3,
+              "paragraphIndex": 123
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-016-28e88f94",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "C、一般价值形式",
+              "type": "SECTION",
+              "order": 12,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 123,
+              "counterpartKey": "chapter-2-section-13",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#15\">C、一般价值形式</a>",
+          "sourceTargetHtml": "<a name=\"15\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">C、一般价值形式</h4>",
+          "localSections": [
+            {
+              "id": "section-016-28e88f94",
+              "title": "C、一般价值形式",
+              "level": 3,
+              "paragraphIndex": 123
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-016-28e88f94",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "C、一般价值形式",
+              "type": "SECTION",
+              "order": 12,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 123,
+              "counterpartKey": "chapter-2-section-13",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#16\">(1)价值形式的变化了的性质</a>",
+          "sourceTargetHtml": "<a name=\"16\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">D、货币形式</h4>",
+          "localSections": [
+            {
+              "id": "section-020-fb60cfc6",
+              "title": "D、货币形式",
+              "level": 3,
+              "paragraphIndex": 146
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-020-fb60cfc6",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "D、货币形式",
+              "type": "SECTION",
+              "order": 16,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 146,
+              "counterpartKey": "chapter-2-section-17",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#17\">(2)相对价值形式和等价形式的发展关系</a>",
+          "sourceTargetHtml": "<a name=\"17\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">D、货币形式</h4>",
+          "localSections": [
+            {
+              "id": "section-020-fb60cfc6",
+              "title": "D、货币形式",
+              "level": 3,
+              "paragraphIndex": 146
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-020-fb60cfc6",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "D、货币形式",
+              "type": "SECTION",
+              "order": 16,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 146,
+              "counterpartKey": "chapter-2-section-17",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#18\">(3)从一般价值形式到货币形式的过渡</a>",
+          "sourceTargetHtml": "<a name=\"18\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">D、货币形式</h4>",
+          "localSections": [
+            {
+              "id": "section-020-fb60cfc6",
+              "title": "D、货币形式",
+              "level": 3,
+              "paragraphIndex": 146
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-020-fb60cfc6",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "D、货币形式",
+              "type": "SECTION",
+              "order": 16,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 146,
+              "counterpartKey": "chapter-2-section-17",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#19\">D、货币形式</a>",
+          "sourceTargetHtml": "<a name=\"19\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">D、货币形式</h4>",
+          "localSections": [
+            {
+              "id": "section-020-fb60cfc6",
+              "title": "D、货币形式",
+              "level": 3,
+              "paragraphIndex": 146
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-020-fb60cfc6",
+              "parentId": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-006-9b8844f2",
+              "title": "D、货币形式",
+              "type": "SECTION",
+              "order": 16,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 146,
+              "counterpartKey": "chapter-2-section-17",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#20\">4、商品的拜物教性质及其秘密</a>",
+          "sourceTargetHtml": "<a name=\"20\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">4、商品的拜物教性质及其秘密</h3>",
+          "localSections": [
+            {
+              "id": "section-021-c9eb5e22",
+              "title": "4、商品的拜物教性质及其秘密",
+              "level": 2,
+              "paragraphIndex": 155
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-002-8356fef4c5-section-021-c9eb5e22",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-002-8356fef4c5",
+              "title": "4、商品的拜物教性质及其秘密",
+              "type": "SECTION",
+              "order": 17,
+              "chapterId": "chapter-002-8356fef4c5",
+              "paragraphIndex": 155,
+              "counterpartKey": "chapter-2-section-18",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "10b36cd1764292b6363de06a1bcb5e0576d98d0f44d89bc6f8dd814242abb443",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-004-01cb784f15",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+      "sourceRawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+      "text": "1、价值尺度 2、流通手段 (a)商品的形态变化 (b)货币的流通 (c) 铸币。价值符号 3、货　　币 (a)货币贮藏 (b)支付手段 (c)世界货币",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n<a href=\"#1\">1、价值尺度</a><br/>\n<a href=\"#2\">2、流通手段</a><br/>\n<a href=\"#3\">　 (a)商品的形态变化</a><br/>\n<a href=\"#4\">　 (b)货币的流通</a><br/>\n<a href=\"#5\">　 (c) 铸币。价值符号</a><br/>\n<a href=\"#6\">3、货　　币</a><br/>\n<a href=\"#7\">　 (a)货币贮藏</a><br/>\n<a href=\"#8\">　 (b)支付手段</a><br/>\n<a href=\"#9\">　 (c)世界货币</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/03.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:27.742147+00:00",
+        "rawSha256": "f65696a2907a87917524b17b94e567dd11b06980eee500f0c99e830d7731211d",
+        "bytes": 101585
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">1、价值尺度</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">1、价值尺度</h3>",
+          "localSections": [
+            {
+              "id": "section-002-cfdaf50b",
+              "title": "1、价值尺度",
+              "level": 2,
+              "paragraphIndex": 0
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-002-cfdaf50b",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-004-01cb784f15",
+              "title": "1、价值尺度",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 0,
+              "counterpartKey": "chapter-4-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">2、流通手段</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">2、流通手段</h3>",
+          "localSections": [
+            {
+              "id": "section-003-bf21f13c",
+              "title": "2、流通手段",
+              "level": 2,
+              "paragraphIndex": 23
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-003-bf21f13c",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-004-01cb784f15",
+              "title": "2、流通手段",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 23,
+              "counterpartKey": "chapter-4-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">　 (a)商品的形态变化</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(a)商品的形态变化</h4>",
+          "localSections": [
+            {
+              "id": "section-004-85d4d313",
+              "title": "(a)商品的形态变化",
+              "level": 3,
+              "paragraphIndex": 24
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-004-85d4d313",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-003-bf21f13c",
+              "title": "(a)商品的形态变化",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 24,
+              "counterpartKey": "chapter-4-section-3",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">　 (b)货币的流通</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(b)货币的流通</h4>",
+          "localSections": [
+            {
+              "id": "section-005-c7518c44",
+              "title": "(b)货币的流通",
+              "level": 3,
+              "paragraphIndex": 50
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-005-c7518c44",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-003-bf21f13c",
+              "title": "(b)货币的流通",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 50,
+              "counterpartKey": "chapter-4-section-4",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">　 (c) 铸币。价值符号</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(c) 铸币。价值符号</h4>",
+          "localSections": [
+            {
+              "id": "section-006-3f36b4ac",
+              "title": "(c) 铸币。价值符号",
+              "level": 3,
+              "paragraphIndex": 67
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-006-3f36b4ac",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-003-bf21f13c",
+              "title": "(c) 铸币。价值符号",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 67,
+              "counterpartKey": "chapter-4-section-5",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">3、货　　币</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">3、货　　币</h3>",
+          "localSections": [
+            {
+              "id": "section-007-e523b835",
+              "title": "3、货 币",
+              "level": 2,
+              "paragraphIndex": 76
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-007-e523b835",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-004-01cb784f15",
+              "title": "3、货 币",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 76,
+              "counterpartKey": "chapter-4-section-6",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#7\">　 (a)货币贮藏</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(a)货币贮藏</h4>",
+          "localSections": [
+            {
+              "id": "section-008-341e8e0a",
+              "title": "(a)货币贮藏",
+              "level": 3,
+              "paragraphIndex": 78
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-008-341e8e0a",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-007-e523b835",
+              "title": "(a)货币贮藏",
+              "type": "SECTION",
+              "order": 6,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 78,
+              "counterpartKey": "chapter-4-section-7",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#8\">　 (b)支付手段</a>",
+          "sourceTargetHtml": "<a name=\"8\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(b)支付手段</h4>",
+          "localSections": [
+            {
+              "id": "section-009-bc02d354",
+              "title": "(b)支付手段",
+              "level": 3,
+              "paragraphIndex": 89
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-009-bc02d354",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-007-e523b835",
+              "title": "(b)支付手段",
+              "type": "SECTION",
+              "order": 7,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 89,
+              "counterpartKey": "chapter-4-section-8",
+              "level": 3
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#9\">　 (c)世界货币</a>",
+          "sourceTargetHtml": "<a name=\"9\"></a>",
+          "sourceHeadingHtml": "<h4 style=\"text-align: center\">(c)世界货币</h4>",
+          "localSections": [
+            {
+              "id": "section-010-3c897111",
+              "title": "(c)世界货币",
+              "level": 3,
+              "paragraphIndex": 102
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-004-01cb784f15-section-010-3c897111",
+              "parentId": "toc-capital-v1-zh-chapter-004-01cb784f15-section-007-e523b835",
+              "title": "(c)世界货币",
+              "type": "SECTION",
+              "order": 8,
+              "chapterId": "chapter-004-01cb784f15",
+              "paragraphIndex": 102,
+              "counterpartKey": "chapter-4-section-9",
+              "level": 3
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "1b8fb634931feb2238357a27ab2acff727e3bf3bdae57e7219f2599026e72852",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-010-babba7200f",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+      "sourceRawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+      "text": "《德法年鉴》杂志(《Deutsch-Franzsische Jahrbücher》)是马克思和阿·卢格合编的德文刊物，1844年在巴黎出版。主要由于马克思和资产阶级激进派卢格之间有原则性的意见分歧，杂志只出了一期双刊号(第1-2期合刊)就停刊了。--29、93。",
+      "sourceNodeHtml": "<p>《德法年鉴》杂志(《Deutsch-Franzsische Jahrbücher》)是马克思和阿·卢格合编的德文刊物，1844年在巴黎出版。主要由于马克思和资产阶级激进派卢格之间有原则性的意见分歧，杂志只出了一期双刊号(第1-2期合刊)就停刊了。--29、93。</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-note1.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:28.530616+00:00",
+        "rawSha256": "4e60a90e461791a011803b9ac0dfc0580d95e8d632bf23017ea0caeb2b421cde",
+        "bytes": 62850
+      },
+      "status": "reviewed_known_source_encoding_mapping",
+      "reason": "应用已证实的源站PUA字符映射后源文完整存在。",
+      "localBodySha256": "b2275716ac120fd62bce08513a4eb961e8e27d0eb416a9c837068d24122cc233",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "capital-v1-zh",
+      "chapterId": "chapter-009-8d1c274824",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+      "sourceRawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+      "text": "1、工作日的界限 2、对剩余劳动的贪欲。工厂主和领主 3、在剥削上不受法律限制的英国工业部门 4、日工和夜工。换班制度 5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律 6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法 7、争取正常工作日的斗争。英国工厂立法对其他国家的影响",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n<a href=\"#1\">1、工作日的界限</a><br/>\n<a href=\"#2\">2、对剩余劳动的贪欲。工厂主和领主</a><br/>\n<a href=\"#3\">3、在剥削上不受法律限制的英国工业部门</a><br/>\n<a href=\"#4\">4、日工和夜工。换班制度</a><br/>\n<a href=\"#5\">5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律</a><br/>\n<a href=\"#6\">6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法</a><br/>\n<a href=\"#7\">7、争取正常工作日的斗争。英国工厂立法对其他国家的影响</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/capital/08.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:29.528695+00:00",
+        "rawSha256": "f3acfd61e0172f6a08b4c2c333a0e6b3a80a68a2ad42955fdb8ab6ac17d6c944",
+        "bytes": 162253
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">1、工作日的界限</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">1、工作日的界限</h3>",
+          "localSections": [
+            {
+              "id": "section-002-df86e274",
+              "title": "1、工作日的界限",
+              "level": 2,
+              "paragraphIndex": 0
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-002-df86e274",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "1、工作日的界限",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 0,
+              "counterpartKey": "chapter-9-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">2、对剩余劳动的贪欲。工厂主和领主</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">2、对剩余劳动的贪欲。工厂主和领主</h3>",
+          "localSections": [
+            {
+              "id": "section-003-9b904e2f",
+              "title": "2、对剩余劳动的贪欲。工厂主和领主",
+              "level": 2,
+              "paragraphIndex": 11
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-003-9b904e2f",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "2、对剩余劳动的贪欲。工厂主和领主",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 11,
+              "counterpartKey": "chapter-9-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">3、在剥削上不受法律限制的英国工业部门</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">3、在剥削上不受法律限制的英国工业部门</h3>",
+          "localSections": [
+            {
+              "id": "section-004-abc3681a",
+              "title": "3、在剥削上不受法律限制的英国工业部门",
+              "level": 2,
+              "paragraphIndex": 33
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-004-abc3681a",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "3、在剥削上不受法律限制的英国工业部门",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 33,
+              "counterpartKey": "chapter-9-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">4、日工和夜工。换班制度</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">4、日工和夜工。换班制度</h3>",
+          "localSections": [
+            {
+              "id": "section-005-7a01d6f6",
+              "title": "4、日工和夜工。换班制度",
+              "level": 2,
+              "paragraphIndex": 80
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-005-7a01d6f6",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "4、日工和夜工。换班制度",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 80,
+              "counterpartKey": "chapter-9-section-4",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律</h3>",
+          "localSections": [
+            {
+              "id": "section-006-c9e333d7",
+              "title": "5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律",
+              "level": 2,
+              "paragraphIndex": 102
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-006-c9e333d7",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "5、争取正常工作日的斗争。十四世纪中叶至十七世纪末叶关于延长工作日的强制性法律",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 102,
+              "counterpartKey": "chapter-9-section-5",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法</h3>",
+          "localSections": [
+            {
+              "id": "section-007-4bf689db",
+              "title": "6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法",
+              "level": 2,
+              "paragraphIndex": 129
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-007-4bf689db",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "6、争取正常工作日的斗争。对劳动时间的强制的法律限制。1833—1864年英国的工厂立法",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 129,
+              "counterpartKey": "chapter-9-section-6",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#7\">7、争取正常工作日的斗争。英国工厂立法对其他国家的影响</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceHeadingHtml": "<h3 style=\"text-align: center\">7、争取正常工作日的斗争。英国工厂立法对其他国家的影响</h3>",
+          "localSections": [
+            {
+              "id": "section-008-0f3fc527",
+              "title": "7、争取正常工作日的斗争。英国工厂立法对其他国家的影响",
+              "level": 2,
+              "paragraphIndex": 202
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-capital-v1-zh-chapter-009-8d1c274824-section-008-0f3fc527",
+              "parentId": "toc-capital-v1-zh-chapter-chapter-009-8d1c274824",
+              "title": "7、争取正常工作日的斗争。英国工厂立法对其他国家的影响",
+              "type": "SECTION",
+              "order": 6,
+              "chapterId": "chapter-009-8d1c274824",
+              "paragraphIndex": 202,
+              "counterpartKey": "chapter-9-section-7",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "d9c2c0234de3f5ee2540e5e1b7186b5a88ff8bcd3c67a6040eba9df5caa9b42e",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "lenin-work-5409317c986a",
+      "chapterId": "chapter-001-5409317c98",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+      "sourceRawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+      "text": "・ 序言 ・ 法文版和德文版序言 ・ 一 生产集中和垄断 ・ 二 银行和银行的新作用 ・ 三 金融资本和金融寡头 ・ 四　资本输出 ・ 五 资本家瓜分世界 ・ 六 大国瓜分世界 ・ 七 帝国主义是资本主义的特殊阶段 ・ 八 资本主义的寄生性和腐朽性 ・ 九 对帝国主义的批评 ・ 十 帝国主义的历史地位",
+      "sourceNodeHtml": "<p style=\"line-height: 200%\">\n\n・ <a href=\"#a\">序言</a><br/>\n・ <a href=\"#0\">法文版和德文版序言</a><br/>\n・ <a href=\"#1\">一 生产集中和垄断</a><br/>\n・ <a href=\"#2\">二 银行和银行的新作用</a><br/>\n・ <a href=\"#3\">三 金融资本和金融寡头</a><br/>\n・ <a href=\"#4\">四　资本输出</a><br/>\n・ <a href=\"#5\">五 资本家瓜分世界</a><br/>\n・ <a href=\"#6\">六 大国瓜分世界</a><br/>\n・ <a href=\"#7\">七 帝国主义是资本主义的特殊阶段</a><br/>\n・ <a href=\"#8\">八 资本主义的寄生性和腐朽性</a><br/>\n・ <a href=\"#9\">九 对帝国主义的批评</a><br/>\n・ <a href=\"#10\">十 帝国主义的历史地位</a><br/>\n</p>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/15.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/15.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:30.338804+00:00",
+        "rawSha256": "ed72047a26bd97551ddb70ad2ca5ea6931c00cbea1399b6ce27e43a387ac2fb0",
+        "bytes": 210764
+      },
+      "status": "reviewed_navigation_targets_preserved",
+      "navigationTargets": [
+        {
+          "sourceNavigationHtml": "<a href=\"#a\">序言</a>",
+          "sourceTargetHtml": "<a name=\"a\"></a>",
+          "sourceHeadingHtml": "<h3>一 生产集中和垄断</h3>",
+          "localSections": [
+            {
+              "id": "section-001-53dd0d52",
+              "title": "一 生产集中和垄断",
+              "level": 2,
+              "paragraphIndex": 31
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-001-53dd0d52",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "一 生产集中和垄断",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 31,
+              "counterpartKey": "chapter-1-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#0\">法文版和德文版序言</a>",
+          "sourceTargetHtml": "<a name=\"0\"></a>",
+          "sourceHeadingHtml": "<h3>一 生产集中和垄断</h3>",
+          "localSections": [
+            {
+              "id": "section-001-53dd0d52",
+              "title": "一 生产集中和垄断",
+              "level": 2,
+              "paragraphIndex": 31
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-001-53dd0d52",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "一 生产集中和垄断",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 31,
+              "counterpartKey": "chapter-1-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#1\">一 生产集中和垄断</a>",
+          "sourceTargetHtml": "<a name=\"1\"></a>",
+          "sourceHeadingHtml": "<h3>一 生产集中和垄断</h3>",
+          "localSections": [
+            {
+              "id": "section-001-53dd0d52",
+              "title": "一 生产集中和垄断",
+              "level": 2,
+              "paragraphIndex": 31
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-001-53dd0d52",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "一 生产集中和垄断",
+              "type": "SECTION",
+              "order": 0,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 31,
+              "counterpartKey": "chapter-1-section-1",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#2\">二 银行和银行的新作用</a>",
+          "sourceTargetHtml": "<a name=\"2\"></a>",
+          "sourceHeadingHtml": "<h3>二 银行和银行的新作用</h3>",
+          "localSections": [
+            {
+              "id": "section-002-6f61787b",
+              "title": "二 银行和银行的新作用",
+              "level": 2,
+              "paragraphIndex": 73
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-002-6f61787b",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "二 银行和银行的新作用",
+              "type": "SECTION",
+              "order": 1,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 73,
+              "counterpartKey": "chapter-1-section-2",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#3\">三 金融资本和金融寡头</a>",
+          "sourceTargetHtml": "<a name=\"3\"></a>",
+          "sourceHeadingHtml": "<h3>三 金融资本和金融寡头</h3>",
+          "localSections": [
+            {
+              "id": "section-003-eb2218dd",
+              "title": "三 金融资本和金融寡头",
+              "level": 2,
+              "paragraphIndex": 164
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-003-eb2218dd",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "三 金融资本和金融寡头",
+              "type": "SECTION",
+              "order": 2,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 164,
+              "counterpartKey": "chapter-1-section-3",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#4\">四　资本输出</a>",
+          "sourceTargetHtml": "<a name=\"4\"></a>",
+          "sourceHeadingHtml": "<h3>四　资本输出</h3>",
+          "localSections": [
+            {
+              "id": "section-004-e97bc68b",
+              "title": "四 资本输出",
+              "level": 2,
+              "paragraphIndex": 248
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-004-e97bc68b",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "四 资本输出",
+              "type": "SECTION",
+              "order": 3,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 248,
+              "counterpartKey": "chapter-1-section-4",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#5\">五 资本家瓜分世界</a>",
+          "sourceTargetHtml": "<a name=\"5\"></a>",
+          "sourceHeadingHtml": "<h3>五 资本家瓜分世界</h3>",
+          "localSections": [
+            {
+              "id": "section-005-28fb159b",
+              "title": "五 资本家瓜分世界",
+              "level": 2,
+              "paragraphIndex": 279
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-005-28fb159b",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "五 资本家瓜分世界",
+              "type": "SECTION",
+              "order": 4,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 279,
+              "counterpartKey": "chapter-1-section-5",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#6\">六 大国瓜分世界</a>",
+          "sourceTargetHtml": "<a name=\"6\"></a>",
+          "sourceHeadingHtml": "<h3>六 大国瓜分世界</h3>",
+          "localSections": [
+            {
+              "id": "section-006-640bb1d5",
+              "title": "六 大国瓜分世界",
+              "level": 2,
+              "paragraphIndex": 320
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-006-640bb1d5",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "六 大国瓜分世界",
+              "type": "SECTION",
+              "order": 5,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 320,
+              "counterpartKey": "chapter-1-section-6",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#7\">七 帝国主义是资本主义的特殊阶段</a>",
+          "sourceTargetHtml": "<a name=\"7\"></a>",
+          "sourceHeadingHtml": "<h3>七 帝国主义是资本主义的特殊阶段</h3>",
+          "localSections": [
+            {
+              "id": "section-007-d6ddd45b",
+              "title": "七 帝国主义是资本主义的特殊阶段",
+              "level": 2,
+              "paragraphIndex": 435
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-007-d6ddd45b",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "七 帝国主义是资本主义的特殊阶段",
+              "type": "SECTION",
+              "order": 6,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 435,
+              "counterpartKey": "chapter-1-section-7",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#8\">八 资本主义的寄生性和腐朽性</a>",
+          "sourceTargetHtml": "<a name=\"8\"></a>",
+          "sourceHeadingHtml": "<h3>八 资本主义的寄生性和腐朽性</h3>",
+          "localSections": [
+            {
+              "id": "section-013-fe11bf89",
+              "title": "八 资本主义的寄生性和腐朽性",
+              "level": 2,
+              "paragraphIndex": 484
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-013-fe11bf89",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "八 资本主义的寄生性和腐朽性",
+              "type": "SECTION",
+              "order": 12,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 484,
+              "counterpartKey": "chapter-1-section-13",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#9\">九 对帝国主义的批评</a>",
+          "sourceTargetHtml": "<a name=\"9\"></a>",
+          "sourceHeadingHtml": "<h3>九 对帝国主义的批评</h3>",
+          "localSections": [
+            {
+              "id": "section-014-c5f73178",
+              "title": "九 对帝国主义的批评",
+              "level": 2,
+              "paragraphIndex": 510
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-014-c5f73178",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "九 对帝国主义的批评",
+              "type": "SECTION",
+              "order": 13,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 510,
+              "counterpartKey": "chapter-1-section-14",
+              "level": 2
+            }
+          ]
+        },
+        {
+          "sourceNavigationHtml": "<a href=\"#10\">十 帝国主义的历史地位</a>",
+          "sourceTargetHtml": "<a name=\"10\"></a>",
+          "sourceHeadingHtml": "<h3>十 帝国主义的历史地位</h3>",
+          "localSections": [
+            {
+              "id": "section-015-6f1e337c",
+              "title": "十 帝国主义的历史地位",
+              "level": 2,
+              "paragraphIndex": 591
+            }
+          ],
+          "localToc": [
+            {
+              "id": "toc-lenin-work-5409317c986a-chapter-001-5409317c98-section-015-6f1e337c",
+              "parentId": "toc-lenin-work-5409317c986a-chapter-chapter-001-5409317c98",
+              "title": "十 帝国主义的历史地位",
+              "type": "SECTION",
+              "order": 14,
+              "chapterId": "chapter-001-5409317c98",
+              "paragraphIndex": 591,
+              "counterpartKey": "chapter-1-section-15",
+              "level": 2
+            }
+          ]
+        }
+      ],
+      "localBodySha256": "9aada0987c5682898f624444ff5b4072de8a7ad798c444f2559c58abfe9cc13f",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true
+    },
+    {
+      "bookId": "marx-work-6523f0586337",
+      "chapterId": "chapter-001-6523f05863",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/01.htm",
+      "sourceRawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+      "text": "〔 来源 〕原载中共中央马克思恩格斯列宁斯大林著作编译局《共产党宣言（纪念马克思诞辰200周年马克思恩格斯著作特辑》（人民出版社，2018-4-1） 中文马克思主义文库2022年11月更新。",
+      "sourceNodeHtml": "<div class=\"a1\">　　〔<b>来源</b>〕原载中共中央马克思恩格斯列宁斯大林著作编译局《共产党宣言（纪念马克思诞辰200周年马克思恩格斯著作特辑》（人民出版社，2018-4-1）<br/>\r\n　　中文马克思主义文库2022年11月更新。<br/></div>",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/01.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/01.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T08:21:31.022107+00:00",
+        "rawSha256": "d4f5a16f6cc7a07400ac74bc5b10fb49f00c5fd83e3c5b2036d855bc871d1c6b",
+        "bytes": 138477
+      },
+      "status": "reviewed_standalone_edition_credit",
+      "reason": "独立来源P仅含版本来源及文库更新日期；正文末段及原注另行核验，非被过滤的正文段落。",
+      "localBodySha256": "6dcb0b2554b44368ceb8ff5014d1cf0e63d19dbabd040126e10563387ed2e715",
+      "sourceBodyMatches": true,
+      "nativeNotesMatchIgnoringTableLayout": true,
+      "lastLocalParagraph": "感谢 聂孟、卫玄鹤 校对",
+      "nativeNoteCount": 47
+    }
+  ],
+  "validation": {
+    "sourcePagesFetched": 10,
+    "navigationTargetsChecked": 67,
+    "newRepairs": 0,
+    "articleAssetsUnchanged": true
+  }
+}

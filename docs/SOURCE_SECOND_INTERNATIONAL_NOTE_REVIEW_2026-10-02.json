@@ -1,0 +1,274 @@
+{
+  "date": "2026-10-02",
+  "scope": "最后一条作者注⑩不应包含15条已独立展示的编辑注；仅缩正脚注内容边界，保留正文、目录、全部ID与引用。",
+  "repairs": [
+    {
+      "bookId": "lenin-work-4c003207c69e",
+      "chapterId": "chapter-001-4c003207c6",
+      "title": "第二国际的破产",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/marxist.org-chinese-lenin-1915-5.htm",
+      "sourceRawSha256": "4f3eb4032299cc25e08154f7736c04ef091b4515baa02d3fb326dc1cfe8094ed",
+      "localBodySha256": "0e810af891dec0d51b1090d1dd57dad05ce16805fb6f5da6225a8fc30b475ee1",
+      "noteId": "_ftn10",
+      "marker": "[ ⑩ ]",
+      "references": [
+        {
+          "paragraphIndex": 110,
+          "start": 298,
+          "end": 303
+        }
+      ],
+      "previousNoteContent": [
+        "有历史意义的８月４日投票之前所发生的事件，是非常典型的。正式的党用官场式的谎言掩盖了这一事件，说多数作出了决定，说大家一致投了赞成票。但是施特勒贝尔在《国际》杂志上揭穿了这一谎言，道出了真情。当时社会民主党党团分裂为两派，他们都准备好了最后通牒，即派别性的、分裂性的决定。一派是机会主义者，约３０人，他们决定在任何情况下都要投赞成票，另一派是左派，约１５人，他们决定（不太坚决）投反对票。当没有任何坚定立场的“中派”即“泥潭派”同机会主义者一起投票时，左派遭到了彻底的失败，于是……就服从了！说德国社会民主党是“统一的”，这纯粹是谎话，它实际上掩盖了左派不得不服从机会主义者的最后通牒的真相。",
+        "[1]指德国社会民主党开姆尼茨代表大会于１９１２年９月２０日通过的关于帝国主义和社会党人对战争的态度的决议。该决议谴责帝国主义政策，强调争取和平的重要性。决议指出：“虽然只有通过铲除资本主义经济方式才能彻底消灭帝国主义这个资本主义经济方式的产物，但不能放弃任何旨在减少其一般性危险作用的工作。党代表大会决心尽一切可能促成各民族之间的谅解和保卫和平。党代表大会要求通过国际协定来结束军备竞赛，因为它威胁和平，给人类带来可怕的灾难。……党代表大会希望，党员同志要全力以赴、孜孜不倦地为扩大觉悟了的无产阶级的政治、工会和合作社组织而奋斗，以便更强有力地反对专横跋扈的帝国主义，直到它被打倒为止。无产阶级的任务就是使已经发展到最高阶段的资本主义过渡到社会主义社会，以保障各国人民的持久和平、独立和自由”。",
+        "[2]套中人是俄国作家安・巴・契诃夫的同名小说的主人公别利科夫的绰号。此人对一切变动担惊害怕，忧心忡忡，一天到晚总想用一个套子把自己严严实实地包起来。",
+        "[3]出自德国诗人约・沃・欧德格言诗集《酬唱集》中的《悭吝》一诗。在这首诗里，歌德劝诫年轻人不要犹豫不决，不要成为灵魂空虚的怯懦的庸人。",
+        "[4]布里根杜马 是俄国沙皇政府计划在１９０６年１月中旬前召开的咨议性国家杜马。召开国家杜马的法令和国家杜马选举条例由以内务大臣亚・格・布里根任主席的特别委员会拟定，于１９０５年８月６日（１９日）和沙皇的诏书一起公布。按照法令和条例，多数居民，包括工人、妇女、军人、学生等，没有选举权；杜马只能作为沙皇属下的咨议性机构讨论某些问题，无权通过任何法律。布尔什维克号召工人和农民积极抵制布里根杜马。１９０５年十月全俄政治罢工迫使沙皇颁布１０月１７日宣言，保证召开立法杜马。布里根杜马没有召开就被革命风暴扫除了。",
+        "[5]饶勒斯派是１９世纪末２０世纪初法国社会主义运动中以让・饶勒斯为首的右翼改良派。饶勒斯派对马克思主义基本原理持修正态度，认为社会主义的胜利不会通过无产阶级同资产阶级的阶级斗争而取得，这一胜利将是民主主义思想繁荣的结果。他们还赞同蒲鲁东主义关于合作社的主张 认为在资本主义条件下合作社的发展有助于逐渐向社会主义过渡。在米勒兰事件上，饶勒斯派竭力为亚・艾・米勒兰参加资产阶级内阁的背叛行为辩护。１９０２年，饶勒斯派成立了改良主义的法国社会党。１９０５年该党和盖得派的法兰西社会党合并成统一的法国社会党（工人国际法国支部）。第一次世界大战期间，在法国社会党领导中占优势的饶勒斯派采取了社会沙文主义立场，公开支持帝国主义战争。",
+        "[6]盖得派 是１９世纪８０年代至２０世纪初法国社会主义运动中以茹・盖得为首的一个派别，基本成员是１９世纪７０年代末期团结在盖得创办的《平等报》周围的进步青年知识分子和先进工人。１８７９年组成了法国工人党。１８８０年在勒阿弗尔代表大会上制定了马克思主义纲领。在米勒兰事件上持反对加入资产阶级内阁的立场。１９０１年与其它反入阁派一起组成法兰西社会党。１９０５年法兰西社会党与饶勒斯派的法国社会党合并为统一的法国社会党（工人国际法国支部）。第一次世界大战爆发后，盖得和相当大一部分盖得派分子转到了社会沙文主义方面，盖得、马・桑巴参加了法国政府。１９２０年，以马・加香为首的一部分左翼盖得派分子在建立法国共产党方面起了重要作用。",
+        "[7]《社会主义》杂志（《Le Socialisme》）是法国社会党人茹・盖得创办和主编的刊物，１９０７年至１９１４年６月在巴黎出版。",
+        "[8]《新时代》杂志（《НовоВреме》）是保加利亚社会民主党中的革命派――紧密派的科学理论刊物，１８９７年在普罗夫迪夫创刊，后来迁到索非亚出版。１９０３年起是保加利亚社会民主工党（紧密社会党人）的机关刊物。该杂志的创办人和编辑是季・布拉戈耶夫，撰稿人有加・格奥尔吉耶夫、格・约・基尔科夫、赫・斯・卡巴克奇耶夫、瓦・彼・科拉罗夫等。杂志曾于１９１６年２月停刊，１９１９年复刊。１９２３年被保加利亚政府查封。自１９４７年起，《新时代》杂志成为保加利亚共产党中央委员会的理论月刊。",
+        "[9]指卡・李卜克内西写的呼吁书《主要敌人在本国！》。该呼吁书刊登于１９１５年５月３１日《伯尔尼哨兵报》第１２３号，标题是《强有力的警告》。",
+        "[10]《普鲁士年鉴》（《Preuβische Jahrbücher》）是德国保守派的政治历史和文学月刊，１８５８―１９３５年在柏林出版。",
+        "[11]出典于圣经《旧约全书・创世记》第２５章。故事说，一天，雅各布熬红豆汤，其兄以扫打猎回来，累得昏了，求雅各布给他汤喝。雅各布说，须把你的长子名分让给我。以扫就起了誓，出卖了自己的长子权。这个典故常被用来比喻因小失大。",
+        "[12]经济主义是１９世纪末―２０世纪初俄国社会民主党内的机会主义思潮，是国际机会主义的俄国变种。经济派的代表人物是康・米・塔赫塔廖夫、谢・尼・普罗柯波维奇、叶・德・库斯柯娃、波・尼・克里切夫斯基、亚・萨・皮凯尔（亚・马尔丁诺夫）、弗・彼・马赫诺韦茨（阿基莫夫）等。经济派主张工人阶级只进行争取提高工资、改善劳动条件等等的经济斗争，认为政治斗争是自由派资产阶级的事情。他们否认工人阶级政党的领导作用，崇拜工人运动的自发性，否认向工人运动灌输社会主义意识的必要性，维护分散的和手工业的小组活动方式，反对建立集中的工人阶级政党。经济主义有诱使工人阶级离开革命道路而沦为资产阶级政治附庸的危险。列宁对经济派进行了始终不渝的斗争。他在《俄国社会民主党人抗议书》（见《列宁全集》第２版第４卷第１４４―１５６页）中尖锐地批判了经济派的纲领。列宁的《火星报》在同经济主义的斗争中发挥了重大作用。列宁的《怎么办？》（见《列宁全集》第２版第６卷第１―１８３页）一书，从思想上彻底地粉碎了经济主义。",
+        "[13]《工人思想报》（《РабочаяМысль》）是经济派的报纸，１８９７年１０月―１９０２年１２月先后在彼得堡、柏林、华沙和日内瓦等地出版，共出了１６号。头儿号由“独立工人小组”发行，从第５号起成为彼得堡工人阶级解放斗争协会的机关报。参加该报编辑部的有尼・尼・洛霍夫－奥尔欣、康・米・塔赫塔廖夫、弗・巴・伊万申、阿・亚・雅库波娃等人。该报号召工人阶级为争取狭隘经济利益而斗争。它把经济斗争同政治斗争对立起来，认为政治斗争不在无产阶级任务之内，反对建立马克思主义的无产阶级政党，主张成立工联主义的合法组织。",
+        "[14]《工人事业》杂志（《РабочееДело》）是俄国社会民主党内的机会主义派别经济派的不定期杂志，国外俄国社会民主党人联合会的机关刊物，１８９９年４月―１９０２年２月在日内瓦出版，共出了１２期（９册）。它的编辑部设在巴黎，担任编辑的有波・尼・克里切夫斯基、帕・费・捷普洛夫、弗・巴・伊万申和亚・马尔丁诺夫。该杂志支持所谓“批评自由”这一伯恩施坦主义口号，在俄国社会民主党的策略和组织问题上持机会主义立场。",
+        "[15]指爱・伯恩施坦、胡・哈阿兹和卡・考茨基的联名宣言《当务之急》。该宣言发表于１９１５年６月１９日《莱比锡人民报》第１３９号，俄译文发表于１９１５年６月２５日《我们的言论报》第１２３号。"
+      ],
+      "sourceNoteContent": [
+        "有历史意义的８月４日投票之前所发生的事件，是非常典型的。正式的党用官场式的谎言掩盖了这一事件，说多数作出了决定，说大家一致投了赞成票。但是施特勒贝尔在《国际》杂志上揭穿了这一谎言，道出了真情。当时社会民主党党团分裂为两派，他们都准备好了最后通牒，即派别性的、分裂性的决定。一派是机会主义者，约３０人，他们决定在任何情况下都要投赞成票，另一派是左派，约１５人，他们决定（不太坚决）投反对票。当没有任何坚定立场的“中派”即“泥潭派”同机会主义者一起投票时，左派遭到了彻底的失败，于是……就服从了！说德国社会民主党是“统一的”，这纯粹是谎话，它实际上掩盖了左派不得不服从机会主义者的最后通牒的真相。"
+      ],
+      "independentEditorNotes": [
+        {
+          "id": "printed-1e1da0327491fa23",
+          "marker": "[1]",
+          "content": [
+            "指德国社会民主党开姆尼茨代表大会于１９１２年９月２０日通过的关于帝国主义和社会党人对战争的态度的决议。该决议谴责帝国主义政策，强调争取和平的重要性。决议指出：“虽然只有通过铲除资本主义经济方式才能彻底消灭帝国主义这个资本主义经济方式的产物，但不能放弃任何旨在减少其一般性危险作用的工作。党代表大会决心尽一切可能促成各民族之间的谅解和保卫和平。党代表大会要求通过国际协定来结束军备竞赛，因为它威胁和平，给人类带来可怕的灾难。……党代表大会希望，党员同志要全力以赴、孜孜不倦地为扩大觉悟了的无产阶级的政治、工会和合作社组织而奋斗，以便更强有力地反对专横跋扈的帝国主义，直到它被打倒为止。无产阶级的任务就是使已经发展到最高阶段的资本主义过渡到社会主义社会，以保障各国人民的持久和平、独立和自由”。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 5,
+              "start": 104,
+              "end": 107
+            }
+          ]
+        },
+        {
+          "id": "printed-80a2e113b16f36d4",
+          "marker": "[2]",
+          "content": [
+            "套中人是俄国作家安・巴・契诃夫的同名小说的主人公别利科夫的绰号。此人对一切变动担惊害怕，忧心忡忡，一天到晚总想用一个套子把自己严严实实地包起来。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 52,
+              "start": 62,
+              "end": 65
+            }
+          ]
+        },
+        {
+          "id": "printed-ab9372ecc64fbda2",
+          "marker": "[3]",
+          "content": [
+            "出自德国诗人约・沃・欧德格言诗集《酬唱集》中的《悭吝》一诗。在这首诗里，歌德劝诫年轻人不要犹豫不决，不要成为灵魂空虚的怯懦的庸人。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 61,
+              "start": 71,
+              "end": 74
+            }
+          ]
+        },
+        {
+          "id": "printed-2389c90bf8d815b2",
+          "marker": "[4]",
+          "content": [
+            "布里根杜马 是俄国沙皇政府计划在１９０６年１月中旬前召开的咨议性国家杜马。召开国家杜马的法令和国家杜马选举条例由以内务大臣亚・格・布里根任主席的特别委员会拟定，于１９０５年８月６日（１９日）和沙皇的诏书一起公布。按照法令和条例，多数居民，包括工人、妇女、军人、学生等，没有选举权；杜马只能作为沙皇属下的咨议性机构讨论某些问题，无权通过任何法律。布尔什维克号召工人和农民积极抵制布里根杜马。１９０５年十月全俄政治罢工迫使沙皇颁布１０月１７日宣言，保证召开立法杜马。布里根杜马没有召开就被革命风暴扫除了。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 67,
+              "start": 42,
+              "end": 45
+            }
+          ]
+        },
+        {
+          "id": "printed-4406711d55820c7b",
+          "marker": "[5]",
+          "content": [
+            "饶勒斯派是１９世纪末２０世纪初法国社会主义运动中以让・饶勒斯为首的右翼改良派。饶勒斯派对马克思主义基本原理持修正态度，认为社会主义的胜利不会通过无产阶级同资产阶级的阶级斗争而取得，这一胜利将是民主主义思想繁荣的结果。他们还赞同蒲鲁东主义关于合作社的主张 认为在资本主义条件下合作社的发展有助于逐渐向社会主义过渡。在米勒兰事件上，饶勒斯派竭力为亚・艾・米勒兰参加资产阶级内阁的背叛行为辩护。１９０２年，饶勒斯派成立了改良主义的法国社会党。１９０５年该党和盖得派的法兰西社会党合并成统一的法国社会党（工人国际法国支部）。第一次世界大战期间，在法国社会党领导中占优势的饶勒斯派采取了社会沙文主义立场，公开支持帝国主义战争。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 86,
+              "start": 193,
+              "end": 196
+            }
+          ]
+        },
+        {
+          "id": "printed-8490bbf74691715e",
+          "marker": "[6]",
+          "content": [
+            "盖得派 是１９世纪８０年代至２０世纪初法国社会主义运动中以茹・盖得为首的一个派别，基本成员是１９世纪７０年代末期团结在盖得创办的《平等报》周围的进步青年知识分子和先进工人。１８７９年组成了法国工人党。１８８０年在勒阿弗尔代表大会上制定了马克思主义纲领。在米勒兰事件上持反对加入资产阶级内阁的立场。１９０１年与其它反入阁派一起组成法兰西社会党。１９０５年法兰西社会党与饶勒斯派的法国社会党合并为统一的法国社会党（工人国际法国支部）。第一次世界大战爆发后，盖得和相当大一部分盖得派分子转到了社会沙文主义方面，盖得、马・桑巴参加了法国政府。１９２０年，以马・加香为首的一部分左翼盖得派分子在建立法国共产党方面起了重要作用。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 86,
+              "start": 226,
+              "end": 229
+            }
+          ]
+        },
+        {
+          "id": "printed-03c4d0dd62c0fb5e",
+          "marker": "[7]",
+          "content": [
+            "《社会主义》杂志（《Le Socialisme》）是法国社会党人茹・盖得创办和主编的刊物，１９０７年至１９１４年６月在巴黎出版。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 86,
+              "start": 272,
+              "end": 275
+            }
+          ]
+        },
+        {
+          "id": "printed-6807c6a78a42824e",
+          "marker": "[8]",
+          "content": [
+            "《新时代》杂志（《НовоВреме》）是保加利亚社会民主党中的革命派――紧密派的科学理论刊物，１８９７年在普罗夫迪夫创刊，后来迁到索非亚出版。１９０３年起是保加利亚社会民主工党（紧密社会党人）的机关刊物。该杂志的创办人和编辑是季・布拉戈耶夫，撰稿人有加・格奥尔吉耶夫、格・约・基尔科夫、赫・斯・卡巴克奇耶夫、瓦・彼・科拉罗夫等。杂志曾于１９１６年２月停刊，１９１９年复刊。１９２３年被保加利亚政府查封。自１９４７年起，《新时代》杂志成为保加利亚共产党中央委员会的理论月刊。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 104,
+              "start": 241,
+              "end": 244
+            }
+          ]
+        },
+        {
+          "id": "printed-9ad558ce59b80e49",
+          "marker": "[9]",
+          "content": [
+            "指卡・李卜克内西写的呼吁书《主要敌人在本国！》。该呼吁书刊登于１９１５年５月３１日《伯尔尼哨兵报》第１２３号，标题是《强有力的警告》。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 110,
+              "start": 207,
+              "end": 210
+            }
+          ]
+        },
+        {
+          "id": "printed-d658981d54cb1d44",
+          "marker": "[10]",
+          "content": [
+            "《普鲁士年鉴》（《Preuβische Jahrbücher》）是德国保守派的政治历史和文学月刊，１８５８―１９３５年在柏林出版。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 111,
+              "start": 23,
+              "end": 27
+            }
+          ]
+        },
+        {
+          "id": "printed-419ae770a9471a24",
+          "marker": "[11]",
+          "content": [
+            "出典于圣经《旧约全书・创世记》第２５章。故事说，一天，雅各布熬红豆汤，其兄以扫打猎回来，累得昏了，求雅各布给他汤喝。雅各布说，须把你的长子名分让给我。以扫就起了誓，出卖了自己的长子权。这个典故常被用来比喻因小失大。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 116,
+              "start": 205,
+              "end": 209
+            }
+          ]
+        },
+        {
+          "id": "printed-b5192f945c48359c",
+          "marker": "[12]",
+          "content": [
+            "经济主义是１９世纪末―２０世纪初俄国社会民主党内的机会主义思潮，是国际机会主义的俄国变种。经济派的代表人物是康・米・塔赫塔廖夫、谢・尼・普罗柯波维奇、叶・德・库斯柯娃、波・尼・克里切夫斯基、亚・萨・皮凯尔（亚・马尔丁诺夫）、弗・彼・马赫诺韦茨（阿基莫夫）等。经济派主张工人阶级只进行争取提高工资、改善劳动条件等等的经济斗争，认为政治斗争是自由派资产阶级的事情。他们否认工人阶级政党的领导作用，崇拜工人运动的自发性，否认向工人运动灌输社会主义意识的必要性，维护分散的和手工业的小组活动方式，反对建立集中的工人阶级政党。经济主义有诱使工人阶级离开革命道路而沦为资产阶级政治附庸的危险。列宁对经济派进行了始终不渝的斗争。他在《俄国社会民主党人抗议书》（见《列宁全集》第２版第４卷第１４４―１５６页）中尖锐地批判了经济派的纲领。列宁的《火星报》在同经济主义的斗争中发挥了重大作用。列宁的《怎么办？》（见《列宁全集》第２版第６卷第１―１８３页）一书，从思想上彻底地粉碎了经济主义。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 137,
+              "start": 359,
+              "end": 363
+            }
+          ]
+        },
+        {
+          "id": "printed-c757ee54df068950",
+          "marker": "[13]",
+          "content": [
+            "《工人思想报》（《РабочаяМысль》）是经济派的报纸，１８９７年１０月―１９０２年１２月先后在彼得堡、柏林、华沙和日内瓦等地出版，共出了１６号。头儿号由“独立工人小组”发行，从第５号起成为彼得堡工人阶级解放斗争协会的机关报。参加该报编辑部的有尼・尼・洛霍夫－奥尔欣、康・米・塔赫塔廖夫、弗・巴・伊万申、阿・亚・雅库波娃等人。该报号召工人阶级为争取狭隘经济利益而斗争。它把经济斗争同政治斗争对立起来，认为政治斗争不在无产阶级任务之内，反对建立马克思主义的无产阶级政党，主张成立工联主义的合法组织。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 137,
+              "start": 491,
+              "end": 495
+            }
+          ]
+        },
+        {
+          "id": "printed-d1e1288a141bba87",
+          "marker": "[14]",
+          "content": [
+            "《工人事业》杂志（《РабочееДело》）是俄国社会民主党内的机会主义派别经济派的不定期杂志，国外俄国社会民主党人联合会的机关刊物，１８９９年４月―１９０２年２月在日内瓦出版，共出了１２期（９册）。它的编辑部设在巴黎，担任编辑的有波・尼・克里切夫斯基、帕・费・捷普洛夫、弗・巴・伊万申和亚・马尔丁诺夫。该杂志支持所谓“批评自由”这一伯恩施坦主义口号，在俄国社会民主党的策略和组织问题上持机会主义立场。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 137,
+              "start": 502,
+              "end": 506
+            }
+          ]
+        },
+        {
+          "id": "printed-23b26e97ede0fb4e",
+          "marker": "[15]",
+          "content": [
+            "指爱・伯恩施坦、胡・哈阿兹和卡・考茨基的联名宣言《当务之急》。该宣言发表于１９１５年６月１９日《莱比锡人民报》第１３９号，俄译文发表于１９１５年６月２５日《我们的言论报》第１２３号。"
+          ],
+          "references": [
+            {
+              "paragraphIndex": 141,
+              "start": 38,
+              "end": 42
+            }
+          ]
+        }
+      ],
+      "sourceAuthorNoteContainerHtml": "<p class=\"MsoFootnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ftnref10\" name=\"_ftn10\" title=\"\">\n<span class=\"MsoFootnoteReference\"><span lang=\"EN-US\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">[</font></span><span lang=\"ZH-CN\"><font size=\"3\">⑩</font></span><span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">]</font></span></span></span></a><span lang=\"EN-US\">\n</span><span lang=\"ZH-CN\">\n<font size=\"3\">\n\t\t有历史意义的８月４日投票之前所发生的事件，是非常典型的。正式的党用官场式的谎言掩盖了这一事件，说多数作出了决定，说大家一致投了</font></span><span lang=\"ZH-CN\" style=\"font-family: SimHei\"><font size=\"3\">赞成票</font></span><span lang=\"ZH-CN\"><font size=\"3\">。但是施特勒贝尔在《国际》杂志上揭穿了这一谎言，道出了真情。当时社会民主党党团分裂为</font></span><span lang=\"ZH-CN\" style=\"font-family: SimHei\"><font size=\"3\">两</font></span><span lang=\"ZH-CN\"><font size=\"3\">派，他们都准备好了</font></span><span lang=\"ZH-CN\" style=\"font-family: SimHei\"><font size=\"3\">最后通牒</font></span><span lang=\"ZH-CN\"><font size=\"3\">，即派别性的、分裂性的决定。一派是机会主义者，约３０人，他们决定</font></span><span lang=\"ZH-CN\" style=\"font-family: SimHei\"><font size=\"3\">在任何情况下</font></span><span lang=\"ZH-CN\"><font size=\"3\">都要投</font></span><span lang=\"ZH-CN\" style=\"font-family: SimHei\"><font size=\"3\">赞成</font></span><span lang=\"ZH-CN\"><font size=\"3\">票，另一派是左派，约１５人，他们决定（不太坚决）投反对票。当没有任何坚定立场的“中派”即“泥潭派”同机会主义者一起投票时，左派遭到了彻底的失败，于是……就服从了！说德国社会民主党是“统一的”，这纯粹是谎话，它实际上掩盖了左派不得不服从机会主义者的最后通牒的真相。</font></span></p>",
+      "sourceEditorNoteContainersHtml": [
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref1\" name=\"_edn1\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[1]</font></span></span></a><span lang=\"EN-US\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\">\n<font size=\"3\">\n\t\t指德国社会民主党开姆尼茨代表大会于１９１２年９月２０日通过的关于帝国主义和社会党人对战争的态度的决议。该决议谴责帝国主义政策，强调争取和平的重要性。决议指出：“虽然只有通过铲除资本主义经济方式才能彻底消灭帝国主义这个资本主义经济方式的产物，但不能放弃任何旨在减少其一般性危险作用的工作。党代表大会决心尽一切可能促成各民族之间的谅解和保卫和平。党代表大会要求通过国际协定来结束军备竞赛，因为它威胁和平，给人类带来可怕的灾难。……党代</font><span style=\"color:black\"><font size=\"3\">表大会希望，党员同志要全力以赴、孜孜不倦地为扩大觉悟了的无产阶级的政治、工会和合作社组织而奋斗，以便更强有力地反对专横跋扈的帝国主义，直到它被打倒为止。无产阶级的任务就是使已经发展到最高阶段的资本主义过渡到社会主义社会，以保障各国人民的持久和平、独立和自由”。</font></span></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref2\" name=\"_edn2\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[2]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">套中人</font></span><span lang=\"ZH-CN\"><font size=\"3\">是俄国作家安・巴・契诃夫的同名小说的主人公别利科夫的绰号。此人对一切变动担惊害怕，忧心忡忡，一天到晚总想用一个套子把自己严严实实地包起来。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref3\" name=\"_edn3\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[3]</font></span></span></a><span lang=\"ZH-CN\"><font size=\"3\">出自德国诗人约・沃・欧德格言诗集《酬唱集》中的《悭吝》一诗。在这首诗里，歌德劝诫年轻人不要犹豫不决，不要成为灵魂空虚的怯懦的庸人。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref4\" name=\"_edn4\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[4]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">布里根杜马</font></span><span lang=\"ZH-CN\"><font size=\"3\">　是俄国沙皇政府计划在１９０６年１月中旬前召开的咨议性国家杜马。召开国家杜马的法令和国家杜马选举条例由以内务大臣亚・格・布里根任主席的特别委员会拟定，于１９０５年８月６日（１９日）和沙皇的诏书一起公布。按照法令和条例，多数居民，包括工人、妇女、军人、学生等，没有选举权；杜马只能作为沙皇属下的咨议性机构讨论某些问题，无权通过任何法律。布尔什维克号召工人和农民积极抵制布里根杜马。１９０５年十月全俄政治罢工迫使沙皇颁布１０月１７日宣言，保证召开立法杜马。布里根杜马没有召开就被革命风暴扫除了。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref5\" name=\"_edn5\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[5]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">饶勒斯派</font></span><span lang=\"ZH-CN\"><font size=\"3\">是１９世纪末２０世纪初法国社会主义运动中以让・饶勒斯为首的右翼改良派。饶勒斯派对马克思主义基本原理持修正态度，认为社会主义的胜利不会通过无产阶级同资产阶级的阶级斗争而取得，这一胜利将是民主主义思想繁荣的结果。他们还赞同蒲鲁东主义关于合作社的主张　认为在资本主义条件下合作社的发展有助于逐渐向社会主义过渡。在米勒兰事件上，饶勒斯派竭力为亚・艾・米勒兰参加资产阶级内阁的背叛行为辩护。１９０２年，饶勒斯派成立了改良主义的法国社会党。１９０５年该党和盖得派的法兰西社会党合并成统一的法国社会党（工人国际法国支部）。第一次世界大战期间，在法国社会党领导中占优势的饶勒斯派采取了社会沙文主义立场，公开支持帝国主义战争。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref6\" name=\"_edn6\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[6]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">盖得派</font></span><span lang=\"ZH-CN\"><font size=\"3\">　是１９世纪８０年代至２０世纪初法国社会主义运动中以茹・盖得为首的一个派别，基本成员是１９世纪７０年代末期团结在盖得创办的《平等报》周围的进步青年知识分子和先进工人。１８７９年组成了法国工人党。１８８０年在勒阿弗尔代表大会上制定了马克思主义纲领。在米勒兰事件上持反对加入资产阶级内阁的立场。１９０１年与其它反入阁派一起组成法兰西社会党。１９０５年法兰西社会党与饶勒斯派的法国社会党合并为统一的法国社会党（工人国际法国支部）。第一次世界大战爆发后，盖得和相当大一部分盖得派分子转到了社会沙文主义方面，盖得、马・桑巴参加了法国政府。１９２０年，以马・加香为首的一部分左翼盖得派分子在建立法国共产党方面起了重要作用。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref7\" name=\"_edn7\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[7]</font></span></span></a><span lang=\"EN-US\"> </span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">《社会主义》杂志</font></span><span lang=\"ZH-CN\"><font size=\"3\">（《</font></span><span lang=\"EN-US\"><font size=\"3\">Le\n\t\tSocialisme</font></span><span lang=\"ZH-CN\"><font size=\"3\">》）是法国社会党人茹・盖得创办和主编的刊物，１９０７年至１９１４年６月在巴黎出版。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref8\" name=\"_edn8\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[8]</font></span></span></a><span lang=\"EN-US\"> </span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">《新时代》杂志</font></span><span lang=\"ZH-CN\"><font size=\"3\">（《</font></span><span lang=\"EN-US\" style=\"color: black\"><font size=\"3\">Ново</font></span><span lang=\"EN-US\"><font size=\"3\">\n</font></span><span lang=\"EN-US\" style=\"color: black\"><font size=\"3\">\n\t\tВреме</font></span><span lang=\"ZH-CN\"><font size=\"3\">》）是保加利亚社会民主党中的革命派――紧密派的科学理论刊物，１８９７年在普罗夫迪夫创刊，后来迁到索非亚出版。１９０３年起是保加利亚社会民主工党（紧密社会党人）的机关刊物。该杂志的创办人和编辑是季・布拉戈耶夫，撰稿人有加・格奥尔吉耶夫、格・约・基尔科夫、赫・斯・卡巴克奇耶夫、瓦・彼・科拉罗夫等。杂志曾于１９１６年２月停刊，１９１９年复刊。１９２３年被保加利亚政府</font></span><span lang=\"ZH-CN\"><font size=\"3\">查封。自１９４７年起，《新时代》杂志成为保加利亚共产党中央委员会的理论月刊。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref9\" name=\"_edn9\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[9]</font></span></span></a><span lang=\"EN-US\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\">\n<font size=\"3\">\n\t\t指卡・李卜克内西写的呼吁书《主要敌人在本国！》。该呼吁书刊登于１９１５年５月３１日《伯尔尼哨兵报》第１２３号，标题是《强有力的警告》。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref10\" name=\"_edn10\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[10]</font></span></span></a><span lang=\"EN-US\"> </span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\">\n\t\t《普鲁士年鉴》</font></span><span lang=\"ZH-CN\"><font size=\"3\">（《</font></span><span lang=\"EN-US\"><font size=\"3\">Preu</font></span><span lang=\"EN-US\"><font size=\"3\">β</font></span><span lang=\"EN-US\"><font size=\"3\">ische\n\t\tJahrb</font></span><span lang=\"ZH-CN\"><font size=\"3\">ü</font></span><span lang=\"EN-US\"><font size=\"3\">cher</font></span><span lang=\"ZH-CN\"><font size=\"3\">》）是德国保守派的政治历史和文学月刊，１８５８―１９３５年在柏林出版。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref11\" name=\"_edn11\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[11]</font></span></span></a><span lang=\"EN-US\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\">\n<font size=\"3\">\n\t\t出典于圣经《旧约全书・创世记》第２５章。故事说，一天，雅各布熬红豆汤，其兄以扫打猎回来，累得昏了，求雅各布给他汤喝。雅各布说，须把你的长子名分让给我。以扫就起了誓，出卖了自己的长子权。这个典故常被用来比喻因小失大。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref12\" name=\"_edn12\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[12]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">经济主义</font></span><span lang=\"ZH-CN\"><font size=\"3\">是１９世纪末―２０世纪初俄国社会民主党内的机会主义思潮，是国际机会主义的俄国变种。经济派的代表人物是康・米・塔赫塔廖夫、谢・尼・普罗柯波维奇、叶・德・库斯柯娃、波・尼・克里切夫斯基、亚・萨・皮凯尔（亚・马尔丁诺夫）、弗・彼・马赫诺韦茨（阿基莫夫）等。经济派主张工人阶级只进行争取提高工资、改善劳动条件等等的经济斗争，认为政治斗争是自由派资产阶级的事情。他们否认工人阶级政党的领导作用，崇拜工人运动的自发性，否认向工人运动灌输社会主义意识的必要性，维护分散的和手工业的小组活动方式，反对建立集中的工人阶级政党。经济主义有诱使工人阶级离开革命道路而沦为资产阶级政治附庸的危险。列宁对经济派进行了始终不渝的斗争。他在《俄国社会民主党人抗议书》（见《列宁全集》第２版第４卷第１４４―１５６页）中尖锐地批判了经济派的纲领。列宁的《火星报》在同经济主义的斗争中发挥了重大作用。列宁的《怎么办？》（见《列宁全集》第２版第６卷第１―１８３页）一书，从思想上彻底地粉碎了经济主义。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref13\" name=\"_edn13\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[13]</font></span></span></a><span lang=\"EN-US\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\">\n<font size=\"3\">《工人思想报》</font></span><span lang=\"ZH-CN\"><font size=\"3\">（《</font></span><span lang=\"EN-US\"><font size=\"3\">Рабочая</font></span><span lang=\"EN-US\"><font size=\"3\">\n</font></span><span lang=\"EN-US\"><font size=\"3\">Мысль</font></span><span lang=\"ZH-CN\"><font size=\"3\">》）是经济派的报纸，１８９７年１０月―１９０２年１２月先后在彼得堡、柏林、华沙和日内瓦等地出版，共出了１６号。头儿号由“独立工人小组”发行，从第５号起成为彼得堡工人阶级解放斗争协会的机关报。参加该报编辑部的有尼・尼・洛霍夫－奥尔欣、康・米・塔赫塔廖夫、弗・巴・伊万申、阿・亚・雅库波娃等人。该报号召工人阶级为争取狭隘经济利益而斗争。它把经济斗争同政治斗争对立起来，认为政治斗争不在无产阶级任务之内，反对建立马克思主义的无产阶级政党，主张成立工联主义的合法组织。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref14\" name=\"_edn14\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[14]</font></span></span></a><span lang=\"EN-US\"> </span>\n<span lang=\"ZH-CN\" style=\"font-family: KaiTi_GB2312\"><font size=\"3\">\n\t\t《工人事业》杂志</font></span><span lang=\"ZH-CN\"><font size=\"3\">（《</font></span><span lang=\"EN-US\"><font size=\"3\">Рабочее</font></span><span lang=\"EN-US\"><font size=\"3\">\n</font></span><span lang=\"EN-US\"><font size=\"3\">Дело</font></span><span lang=\"ZH-CN\"><font size=\"3\">》）是俄国社会民主党内的机会主义派别经济派的不定期杂志，国外俄国社会民主党人联合会的机关刊物，１８９９年４月―１９０２年２月在日内瓦出版，共出了１２期（９册）。它的编辑部设在巴黎，担任编辑的有波・尼・克里切夫斯基、帕・费・捷普洛夫、弗・巴・伊万申和亚・马尔丁诺夫。该杂志支持所谓“批评自由”这一伯恩施坦主义口号，在俄国社会民主党的策略和组织问题上持机会主义立场。</font></span></p>",
+        "<p class=\"MsoEndnoteText\" style=\"line-height: 200%\">\n<a href=\"#_ednref15\" name=\"_edn15\" title=\"\">\n<span class=\"MsoEndnoteReference\">\n<span lang=\"EN-US\" style=\"font-family: Times New Roman\"><font size=\"3\">\n\t\t[15]</font></span></span></a><span lang=\"EN-US\"><font size=\"3\"> \n\t\t</font></span><span lang=\"ZH-CN\">\n<font size=\"3\">\n\t\t指爱・伯恩施坦、胡・哈阿兹和卡・考茨基的联名宣言《当务之急》。该宣言发表于１９１５年６月１９日《莱比锡人民报》第１３９号，俄译文发表于１９１５年６月２５日《我们的言论报》第１２３号。</font></span></p>"
+      ]
+    }
+  ]
+}

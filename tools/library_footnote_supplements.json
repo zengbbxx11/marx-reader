@@ -2447,10 +2447,10 @@
       "context": "一个方面制约着另一个方面，就如同高利贷者和挥霍者相互制约一样②。",
       "status": "SOURCE_MISSING",
       "content": [
-        "【源站原注位置待复核】",
-        "中文网页保留编号②但缺注释正文。源站《选集》CHM 在本句末附有日期注释，但同一注释又在下一段重复出现；《全集》第六卷和2012年《选集》的本句位置未见该注释。目前不能确定应采用的位置。",
-        "校补候选（CHM 原样，尚未确认为本句原注）：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注",
-        "对照来源：https://www.marxists.org/chinese/pdf/new/Marx.chm（020.htm，第348页）；https://www.marxists.org/chinese/pdf/marx-engels/me06.pdf（PDF第525页，印本第491页）；https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf（PDF第360页，印本第344页）。"
+        "【源网页孤立注号：原注缺失】",
+        "已核对源站《马克思恩格斯全集》第六卷和2012年《马克思恩格斯选集》第一卷：本句末未见对应原注。保留网页②及原引用位置，不猜补原注。",
+        "CHM重复出现的“科隆4月7日”日期注不能作为本句的原注；2012年《选集》该日期注明确对应后文“资本越增长，雇佣劳动量就越增长……”段。",
+        "核验出处：源站 me06.pdf，PDF第525页（印本第491页）；mes01.pdf，PDF第360—361页（印本第344—345页）。"
       ],
       "source": {
         "title": "源站《马克思恩格斯选集》CHM",
@@ -2461,7 +2461,27 @@
         "printedPage": 348,
         "sourceExcerpt": "高利贷者和挥霍者相互制约一样（注：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注）。 只要雇佣工人仍然是雇佣工人，他的命运就取决于资本。这就是一再被人称道的工人和资本家利益的共同性。 资本越增长，雇佣劳动量就越增长，雇佣工人人数就越增加，一句话，受资本支配的人数就越增多。（注：在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注）。我们且假定有这样一种最有利的情形：随着生产资本的增加，对劳动的需求也增加了。因而劳动价格即工资也提高了。 一座房子不管怎样小，在周围的房屋都是这样小的时候，它是能满足社会对住房的一切要求的。但是，一旦在这座小房子近旁耸立起一座宫殿，这座小房子就缩成茅舍模样了。这时，狭小的房子证明它的居住者不能讲究或者只能有很低的要求；并且，不管小房子的规模怎样随着文明的进步而扩大起来，只要近旁的宫殿以同样的或更大的程度扩大起来，那座较小房子的居住者就会在那四壁之内越发觉得不舒适，越发不满意，越发感到受压",
         "verifiedNoteText": "在《新莱茵报》上发表时，这句话前面加有“科隆4月7日”。——编者注",
-        "marker": "②"
+        "marker": "②",
+        "resolution": {
+          "status": "verified_source_gap",
+          "date": "2026-10-02",
+          "report": "docs/SOURCE_ORPHAN_NOTE_REVIEW_2026-10-02.json",
+          "pdfs": {
+            "me06": {
+              "url": "https://www.marxists.org/chinese/pdf/marx-engels/me06.pdf",
+              "rawSha256": "27b0239c5e57a51ab62ddc737ff60774408348f981285f412088d4e0e2a43283",
+              "bytes": 3550578,
+              "retrievedAt": "2026-10-02T14:19:14.848306+00:00"
+            },
+            "mes01": {
+              "url": "https://www.marxists.org/chinese/pdf/marx-engels/mes01.pdf",
+              "rawSha256": "b60c9c2ade17c09c82cb70689dea57d40e4cf69cfbb5bd3546db77e6f486a3cf",
+              "bytes": 22143179,
+              "retrievedAt": "2026-10-02T14:19:25.669002+00:00"
+            }
+          },
+          "conclusion": "两份印本高利贷者句末没有日期注；2012选集日期注明确属于后文资本越增长段，CHM在前后两处重复同一日期注不能证明当前网页②的原注。排除将日期注填入此处，确认为源网页无可校对原注的孤立编号，保留旧定位和源缺注标识，不伪造原注。"
+        }
       }
     },
     {
@@ -2486,6 +2506,790 @@
         "sourceExcerpt": "上面，在第14页上，（注：见本卷第335页。——编者注）我们说过：“工资不是工人在他所生产的商品中占有的一份。工资是原有商品中由资本家用以购买一定量的生产性劳动力（注：在《新莱茵报》上发表时不是“劳动力”，而是“劳动”。——编者注）的那一部分。”但是，资本家必须从出卖由工人创造的产品的价格中再补偿这笔工资。资本家必须这样做：他在补偿这笔工资时，照例要剩下一笔超出他所支出的生产费用的余◎第351页◎额即利润。工人所生产的商品的销售价格，对资本家来说可分为三部分：第一，补偿他所预付的原料价格和他所预付的工具、机器及其他劳动资料的损耗；第二",
         "verifiedNoteText": "在《新莱茵报》上发表时不是“劳动力”，而是“劳动”。——编者注",
         "marker": "③"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 2,
+      "start": 61,
+      "marker": "［①］",
+      "paragraphSha256": "fbb651b23a6b18459d0d405f24db0c0bd0c2904bb90a8a989fa89ac2c9f48c09",
+      "context": "上的三篇文章，它们译自恩格斯最近的著作《科学中的变革》356［①］。",
+      "content": [
+        "在保・拉法格出版的《社会主义从空想到科学的发展》的版本中，此处有如下补充：“文章经作者校阅过，而且作者为了使资本主义生产的经济力量的辩证运动更容易为法国读者所理解，还在第三部分作了一些补充。”――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 687,
+        "definitionParagraphIndex": 159,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 4,
+      "start": 290,
+      "marker": "［①］",
+      "paragraphSha256": "f5f8313a07ed33aa6447cfca4041b1e1d47fe61cfa3d5958b09e0337332a9a3c",
+      "context": "言》在二月革命前不久出版，并且几乎立即被翻译成欧洲的各种语言［①］。",
+      "content": [
+        "在保・拉法格出版的小册子原文中还作了如下的补充：“《共产党宣言》是现代社会主义最有价值的文件之一；它现在仍然是描述资产阶级社会的发展和必将结束资本主义社会的无产阶级的形成的最有力和最鲜明的著作之一；在这一著作中，正像在早一年出版的马克思的《哲学的贫困》中一样，第一次清楚地表述了阶级斗争的理论。”――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 688,
+        "definitionParagraphIndex": 161,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 17,
+      "start": 127,
+      "marker": "［①］",
+      "paragraphSha256": "6e4d23e2cf7b02d643c99f5788fbfc4eb545c734abfb5c7365e9ad21e0e4efec",
+      "context": "在古典哲学还生气勃勃地保存着自觉的辩证法传统的国家，即在德国［①］。唯物主义历史观及其在现代的无产阶级和资产阶级之间的阶级斗争",
+      "content": [
+        "恩格斯在1883年德文版上加了一个注：“‘在德国’是笔误，应当说‘在德国人中间’，因为科学社会主义的产生，一方面必须有德国的辩证法，同样也必须有英国和法国的发达的经济关系和政治关系。",
+        "德国的落后的――40年代初比现在还落后得多――经济和政治的发展阶段，最多只能产生社会主义的讽刺画(参看《共产党宣言》第三章(丙)《德国的或‘真正的’社会主义》)。只有在英国和法国所产生的经济和政治状况受到德国辩证法的批判以后，才能产生真正的结果。因而，从这方面看来，科学社会主义并不完全是德国的产物，而同样是国际的产物。”――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 691,
+        "definitionParagraphIndex": 163,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 29,
+      "start": 255,
+      "marker": "［①］",
+      "paragraphSha256": "d860de741b7cfa83105f8207b42327082ff86239ed9a57ce9f484a0dc79898b1",
+      "context": "活的庞大的家长制家庭公社(现在还存在的南部斯拉夫人的扎德鲁加［①］可以作为例证)共同耕种的；后来，公社范围扩大，共同经营已日益",
+      "content": [
+        "扎德鲁加(Zadruga)是古代南部斯拉夫人、克尔特人的家长制家庭公社，这种公社包括几个或十几个在血缘、经济、土地上有联系的家庭。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 697,
+        "definitionParagraphIndex": 166,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 31,
+      "start": 52,
+      "marker": "［①］",
+      "paragraphSha256": "b41e0aecb1a45b128c48f2c811133c7a5a8935a9acc7e30451a5ad0897f3f95f",
+      "context": "的反对。但是，如果我们大陆上的人稍微注意一下英国“体面人物”［①］的偏见，那么我们的处境也许更加糟糕。本书所捍卫的是我们称之为",
+      "content": [
+        "在发表于《新时代》杂志上的德译文中，“体面人物”的后面加有“即英国庸人”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 698,
+        "definitionParagraphIndex": 168,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 34,
+      "start": 77,
+      "marker": "［②］",
+      "paragraphSha256": "9b600cedfd3f65acb98d44f7e5f2ec796869f4fef9cbad6120661d0b2d3b8932",
+      "context": "369。唯名论，唯物主义的最初形式，主要存在于英国经院哲学家［②］中间。",
+      "content": [
+        "在德译文中不是“经院哲学家”，而是“唯物主义者”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 698,
+        "definitionParagraphIndex": 170,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 35,
+      "start": 254,
+      "marker": "［①］",
+      "paragraphSha256": "2f6db88f34f660f4dc0c908dfd89fb716574c7b5c685efe0f5ef10ff0188445d",
+      "context": "生机、紧张，或者用雅科布・伯麦的术语来说，物质的‘Qual’［①］[‘痛苦’]。",
+      "content": [
+        "恩格斯在这里加了一个注，而在德译文中此注被删去：“‘Qual’是哲学上的双关语。‘Qual’按字面的意思是苦闷，是一种促使采取某种行动的痛苦；同时，神秘主义者伯麦把拉丁语‘qualitas’［质］的某些意义加进这个德国字；他的‘Qual’和外来的痛苦相反，是能动的本原，这种本原从受‘Qual’支配的事物、关系或个人的自发发展中产生出来，而反过来又推进这种发展。”――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 699,
+        "definitionParagraphIndex": 172,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 40,
+      "start": 115,
+      "marker": "［①］",
+      "paragraphSha256": "94cff3d0eb01c081053aa723adb0d37e81fe964c0892ceed7f1b3ad108d7311a",
+      "context": "来说，自然神论371不过是摆脱宗教的一种简便易行的方法罢了”［①］。",
+      "content": [
+        "马克思和恩格斯《神圣家族》1845年美因河畔法兰克福版第201――204页。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 700,
+        "definitionParagraphIndex": 174,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 44,
+      "start": 180,
+      "marker": "［①］",
+      "paragraphSha256": "e7f910b4155d91849b29037d7832727f140561efa2471294195b8ada640aab67",
+      "context": "思，那时拉普拉斯对拿破仑的关于这位伟大天文学家的《天体力学》［①］为何只字不提造物主这个问题，曾骄傲地回答：“我不需要这个假说",
+      "content": [
+        "指比・西・拉普拉斯《论天体力学》1799－1825年巴黎版第1－5卷。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 702,
+        "definitionParagraphIndex": 176,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 45,
+      "start": 191,
+      "marker": "［②］",
+      "paragraphSha256": "d77e93d88172c3976bddcdaf2bc7c38cd118e04b62aa1a1766d39169680dd95a",
+      "context": "予以驳倒。但是人们在论证之前，已经先有了行动。“起初是行动”［②］。在人类的才智虚构出这个难题以前，人类的行动早就解决了这个难",
+      "content": [
+        "见歌德《浮士德》第1部第3场(《浮士德的书斋》)。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 702,
+        "definitionParagraphIndex": 178,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 48,
+      "start": 144,
+      "marker": "［①］",
+      "paragraphSha256": "26c17bf8120f6cc44f107dfd5d8bd01605c7c1ce8677eb1739b695a02aeb2885",
+      "context": "”这个名词来表达一种关于历史过程的观点，我希望英国的体面人物［①］不致于过分感到吃惊。这种观点认为一切重要历史事件的终极原因和",
+      "content": [
+        "在德译文中，“体面人物”后面加有“用德语来说叫作庸人。”――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 704,
+        "definitionParagraphIndex": 180,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 50,
+      "start": 21,
+      "marker": "［①］",
+      "paragraphSha256": "6db7f0e78f191cf5ce5ede9b828c3e71ab558d7bfe4ae1f80fe86301aabc3651",
+      "context": "当欧洲脱离中世纪的时候，新兴的城市中间阶级［①］是欧洲的革命因素。这个阶级在中世纪的封建体制内已经赢得公认的",
+      "content": [
+        "在德译文中，从这里开始，直至以“新的起点是……的妥协”一句起首的那一段(本卷第708页)，恩格斯将英文用语“middle class”(“中间阶级”)、“bourgeoisie”(“资产阶级”)都译为“Burgerthum”；后面，恩格斯又把这些用语译为“Bourgeoisie”，后两个德文用语都指的是资产阶级。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 705,
+        "definitionParagraphIndex": 182,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 58,
+      "start": 48,
+      "marker": "［①］",
+      "paragraphSha256": "4f08ebf916f6fd2f4fa289412d83eda00ba2c45c9e63eda91ced98cafc51f73c",
+      "context": "是不可避免的反动，这个反动也同样超出它可能继续存在下去的限度［①］。经过多次动荡以后，新的重心终于确立了，并且成了今后发展的新",
+      "content": [
+        "在德译文中不是“超出它可能继续存在下去的限度”，而是“超出自己的目的”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 707,
+        "definitionParagraphIndex": 184,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 58,
+      "start": 94,
+      "marker": "［①］",
+      "paragraphSha256": "4f08ebf916f6fd2f4fa289412d83eda00ba2c45c9e63eda91ced98cafc51f73c",
+      "context": "心终于确立了，并且成了今后发展的新起点。英国历史上被体面人物［①］称为“大叛乱”的这段辉煌时期，以及随后的几次战斗，以自由党历",
+      "content": [
+        "在德译文中，不是“体面人物”，而是“庸人”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 708,
+        "definitionParagraphIndex": 186,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 59,
+      "start": 12,
+      "marker": "［②］",
+      "paragraphSha256": "a7d1a9b9812c5781fa5a1b697659f03d3fba0bc1ef04fb610f79528a612f67f1",
+      "context": "新的起点是新兴的中间阶级［②］和以前的封建地主之间的妥协。后者在当时和现在均被称为贵族，其",
+      "content": [
+        "在德译文中这里以及后面几处，恩格斯将英文用语“middle class”(“中间阶级”)和“bourgeoisie”(“资产阶级”)，都译为“Bourgeoisie”(“资产阶级”)。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 708,
+        "definitionParagraphIndex": 188,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 61,
+      "start": 39,
+      "marker": "［①］",
+      "paragraphSha256": "aff560e9b55658711c40c04f986ed2fda94835d5734eab5eab1e8ae8e65e9106",
+      "context": "长了资产阶级的宗教倾向。这就是唯物主义在英国的兴起。这个新的［①］学说，不仅震撼了中间阶级的宗教情感，还自称是一种只适合世上有",
+      "content": [
+        "在德译文中，在“新的”的后面加有“无神论的”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 709,
+        "definitionParagraphIndex": 190,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 70,
+      "start": 269,
+      "marker": "［①］",
+      "paragraphSha256": "207705b3b790a39161c422a89ada780fd1fb32c35404d6b952376aba4f785da0",
+      "context": "夹杂着精明生意经的岛国狭隘性和岛国自大狂，而是其他一些本领。［①］甚至目前报纸上关于中间阶级教育的无休止的争论，也表明英国中间",
+      "content": [
+        "民族沙文主义的狂妄自大，即使在商业上，也是会坏事的。直到最近，普通的英国工厂主还以为，英国人不说本国话而说外国话，是有失尊严的，当他们看到外国的“可怜虫”迁居英国，使他们免去向国外推销产品的麻烦时，还引以自傲。他们根本没有觉察，这些外国人，大部分是德国人，因此而控制了英国很大一部分对外贸易，进口和出口，英国人的直接对外贸易几乎只局限于殖民地、中国、美国和南美洲了。他们也没有看到，这些德国人同在外国的其他德国人进行贸易，后者逐渐组织了一个遍及世界各地的完整的商业殖民地网。大约40年前，当德国认真地开始生产出口商品时，这个商业殖民地网，就给德国帮了很大的忙，使它在很短的时期内从一个输出粮食的国家变成一个头等的工业国。后来，大约10年前，英国的工厂主才大吃一惊，便询问英国的大使们和领事们：为什么他们再也不能保持自己的顾客。一致的答复是：(1)你们不学你们的顾客的语言，却要求他们说你们的语言；(2)你们不但不设法适应你们的顾客的需要、习惯和爱好，反而要他们迁就你们英国式的那一套。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 714,
+        "definitionParagraphIndex": 192,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 71,
+      "start": 260,
+      "marker": "［①］",
+      "paragraphSha256": "00adfd6c9e575159dc24c43faca16bcde28dae2685ca8d132572c50cc988097b",
+      "context": "，他促使托利党人抓紧有利时机，在城市选区中实施了户主的选举权［①］，并且重新划分选区。随后实行了秘密投票；1884年又把户主的",
+      "content": [
+        "在德译文中，在“户主的选举权”的后面加了一个括号，内中的文字是“它适用于每一个租有单独住房的人”。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 715,
+        "definitionParagraphIndex": 194,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 80,
+      "start": 161,
+      "marker": "［①］",
+      "paragraphSha256": "a1189cc425ae3de584b1c7ee7ab6df1784e8a0f1d6600b71ee5e1816d0fa37e0",
+      "context": "一切的唯一尺度。那时，如黑格尔所说的，是世界用头立地的时代。［①］最初，这句话的意思是：人的头脑以及通过头脑的思维发现的原理，",
+      "content": [
+        "关于法国革命，黑格尔有如下一段话：“正义思想、正义概念一下子就得到了承认，非正义的旧支柱不能对它作任何抵抗。因此，在正义思想的基础上现在创立了宪法，今后一切都必须以此为根据。自从太阳照耀在天空而行星围绕着太阳旋转的时候起，还从来没有看到人用头立地，即用思想立地并按照思想去构造现实。阿那克萨哥拉第一个说，Nus即理性支配着世界；可是，直到现在人们才认识到，思想应当支配精神的现实。因此，这是一次壮丽的日出。一切能思维的生物都欢庆这个时代的来临。这时到处笼罩着一种高尚的热情，全世界都浸透了一种精神的热忱，仿佛正是现在达到了神意和人世的和解。”(黑格尔《历史哲学》1840年版第535页)难道现在不正是应当用反社会党人法去反对已故的黑格尔教授的这种危害社会秩序的颠覆学说吗？"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 719,
+        "definitionParagraphIndex": 196,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 84,
+      "start": 667,
+      "marker": "［①］",
+      "paragraphSha256": "d411c458c1f1314f993f006bd8892c3a19fb4299a2796de6844102eaf9cdace5",
+      "context": "产阶级罪恶却更加猖獗了。商业日益变成欺诈。革命的箴言“博爱”［①］化为竞争中的蓄意刁难和忌妒。贿赂代替了暴力压迫，金钱代替刀剑",
+      "content": [
+        "指18世纪末法国资产阶级革命的口号“自由、平等、博爱”。编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 723,
+        "definitionParagraphIndex": 198,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 84,
+      "start": 903,
+      "marker": "［②］",
+      "paragraphSha256": "d411c458c1f1314f993f006bd8892c3a19fb4299a2796de6844102eaf9cdace5",
+      "context": "新世纪的到来就出现了。1802年出版了圣西门的《日内瓦书信》［②］；1808年出版了傅立叶的第一部著作［③］，虽然他的理论基础",
+      "content": [
+        "圣西门《一个日内瓦居民给当代人的信》1803年巴黎版。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 723,
+        "definitionParagraphIndex": 200,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 84,
+      "start": 924,
+      "marker": "［③］",
+      "paragraphSha256": "d411c458c1f1314f993f006bd8892c3a19fb4299a2796de6844102eaf9cdace5",
+      "context": "门的《日内瓦书信》［②］；1808年出版了傅立叶的第一部著作［③］，虽然他的理论基础在1799年就已经奠定了；1800年1月1",
+      "content": [
+        "傅立叶《关于四种运动和普遍命运的理论》1808年莱比锡版。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 723,
+        "definitionParagraphIndex": 202,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 84,
+      "start": 972,
+      "marker": "［④］",
+      "paragraphSha256": "d411c458c1f1314f993f006bd8892c3a19fb4299a2796de6844102eaf9cdace5",
+      "context": "就已经奠定了；1800年1月1日，罗伯特・欧文担负了新拉纳克［④］的管理工作。",
+      "content": [
+        "苏格兰拉纳克附近的一个棉纺织厂，创办于1784年，在工厂周围形成了一个小镇。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 723,
+        "definitionParagraphIndex": 204,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 93,
+      "start": 37,
+      "marker": "［①］",
+      "paragraphSha256": "7b77f614db438fe2d78e8257afae7e648bafd4a7f1fd04478eebd4fa321cfd67",
+      "context": "的伙伴统治法国的时候，那里发生了什么事情？他们造成了饥荒!”［①］",
+      "content": [
+        "圣西门《一个日内瓦居民给当代人的信》的第二封信。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 726,
+        "definitionParagraphIndex": 206,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 97,
+      "start": 49,
+      "marker": "［①］",
+      "paragraphSha256": "7b4b1bd50cabfc17c97fc99a8867d0c593055f21c15166973311748eaea8f7e0",
+      "context": "犯下的罪恶，都采取了复杂的、暖昧的、两面的、虚伪的存在形式”［①］；文明时代是在“恶性循环”［①］中运动，是在它不断地重新制造",
+      "content": [
+        "傅立叶《关于普遍统一的理论》第1卷和第4卷；《傅立叶全集》1843年巴黎版第2卷第78－79页和1841年巴黎版第5卷第213－214页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 727,
+        "definitionParagraphIndex": 208,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 97,
+      "start": 65,
+      "marker": "［①］",
+      "paragraphSha256": "7b4b1bd50cabfc17c97fc99a8867d0c593055f21c15166973311748eaea8f7e0",
+      "context": "的、两面的、虚伪的存在形式”［①］；文明时代是在“恶性循环”［①］中运动，是在它不断地重新制造出来而又无法克服的矛盾中运动，因",
+      "content": [
+        "傅立叶《经济的和协会的新世界，或按情欲分类的引人入胜的和合乎自然的劳动方式的发现》；《傅立叶全集》1845年巴黎版第6卷第27－46、390页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 728,
+        "definitionParagraphIndex": 210,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 98,
+      "start": 19,
+      "marker": "［②］",
+      "paragraphSha256": "5a1a230917f1967172401c023b524932d2e7c8c60fc19fc7ea48dc1bae02eb57",
+      "context": "“在文明时代，贫困是由过剩本身产生的”［②］。",
+      "content": [
+        "《傅立叶全集》1845年巴黎版第6卷第35页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 728,
+        "definitionParagraphIndex": 212,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 99,
+      "start": 74,
+      "marker": "［③］",
+      "paragraphSha256": "f2ccadbc98dbe6155a6a00780271a26b9988156d73378ab2e28cb35a8152bb9f",
+      "context": "的能力的空谈，而同样辩证地断言，每个历史阶段都有它的上升时期［③］，但是也有它的下降时期，而且他还把这个看法运用于整个人类的未",
+      "content": [
+        "参看《傅立叶全集》1841年巴黎版第1卷第50页及以下几页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 728,
+        "definitionParagraphIndex": 214,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 105,
+      "start": 56,
+      "marker": "［①］",
+      "paragraphSha256": "dff1039a71af76afa92bfcbd4cd1433809bfafc95d0b87fc2553f1940d80555a",
+      "context": "保持贵族的社会原则的战争。而这种新的力量是劳动阶级创造的。”［①］因此，果实也应当属于劳动阶级。在欧文看来，以前仅仅使个别人发",
+      "content": [
+        "摘自《头脑和实践中的革命――致全体“欧洲红色共和党人、共产主义者和社会主义者”并呈1848年法国临时政府以及“维多利亚女王和女王的责任顾问”的备忘录》。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 730,
+        "definitionParagraphIndex": 216,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 112,
+      "start": 105,
+      "marker": "［①］",
+      "paragraphSha256": "69add6a5de019ad717344c3a573368e93238ad3dcd9217d5706e7f5bcc75587d",
+      "context": "维；他们的说法是：“是就是，不是就不是；除此以外，都是鬼话”［①］。在他们看来，一个事物要么存在，要么就不存在；同样，一个事物",
+      "content": [
+        "《新约全书・马太福音》第5章第37节。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 734,
+        "definitionParagraphIndex": 218,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 121,
+      "start": 245,
+      "marker": "［①］",
+      "paragraphSha256": "f22e1ec0d58905c3b10a4955a3f20b09bacbe01bce7d43851618170eeffff98c",
+      "context": "社会制度的不合理性和不公平、对“理性化为无稽，幸福变成苦痛”［①］的日益觉醒的认识，只是一种征兆，表示在生产方法和交换形式中已",
+      "content": [
+        "见歌德《浮士德》第1部第4场(《浮士德的书斋》)。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 741,
+        "definitionParagraphIndex": 220,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 125,
+      "start": 275,
+      "marker": "［①］",
+      "paragraphSha256": "d5e4a92ecf3fe9c01741b9e9a13fd842c650e9ded6007a66f2cfa4b14c50cca6",
+      "context": "现了这种作用，马克思在《资本论》第四篇中已经作了详尽的阐述。［①］但是，正如马克思在那里所证明的，资产阶级要是不把这些有限的生",
+      "content": [
+        "见《马克思恩格斯全集》第23卷第347－553页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 742,
+        "definitionParagraphIndex": 222,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 127,
+      "start": 564,
+      "marker": "［①］",
+      "paragraphSha256": "4879a9007e1a073b93e5db4f334683c87f23287a6d63e37be757a30cfc6da0c8",
+      "context": "然已经消灭了这一占有形式的前提，但是它仍然服从于这一占有形式［①］。赋予新的生产方式以资本主义性质的这一矛盾，已经包含着现代的",
+      "content": [
+        "这里无须解释，虽然占有形式还是原来那样，可是占有的性质由于上述过程而经历的革命，并不亚于生产所经历的革命。我占有我自己的产品还是占有别人的产品，这自然是两种很不相同的占有。顺便提一下：包含着整个资本主义生产方式的萌芽的雇佣劳动是很古老的；它个别地和分散地同奴隶制度并存了几百年。但是，只有在历史前提已经具备时，这一萌芽才能发展成为资本主义生产方式。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 744,
+        "definitionParagraphIndex": 224,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 130,
+      "start": 377,
+      "marker": "［①］",
+      "paragraphSha256": "69c172d3ebbd92e0df6d2e56a83803a8de5d65d5fec7003142df547990a861cc",
+      "context": "稳定的，地方和外界是隔绝的，地方内部是统一的；农村中有马尔克［①］，城市中有行会。",
+      "content": [
+        "参看恩格斯《马尔克》，见《马克思恩格斯全集》第19卷第351－369页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 746,
+        "definitionParagraphIndex": 226,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 132,
+      "start": 389,
+      "marker": "［①］",
+      "paragraphSha256": "fe9296f739d49413663ce3dfb71279a3fba64ab9987bfe7964b6bc966c5e7992",
+      "context": "劳动者，一支真正的产业后备军(我早在1845年就这样称呼他们［①］)，这支后备军在工业开足马力工作的时期可供随意支配，而由于必",
+      "content": [
+        "《英国工人阶级状况》第109页。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 748,
+        "definitionParagraphIndex": 228,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 132,
+      "start": 573,
+      "marker": "［②］",
+      "paragraphSha256": "fe9296f739d49413663ce3dfb71279a3fba64ab9987bfe7964b6bc966c5e7992",
+      "context": "地夺走工人手中的生活资料，工人自己的产品变成了奴役工人的工具［②］。于是，劳动资料的节约，一开始就同时成为对劳动力的最无情的浪",
+      "content": [
+        "《资本论》第1卷第13章，见《马克思恩格斯全集》第23卷第476―477和534页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 748,
+        "definitionParagraphIndex": 230,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 132,
+      "start": 621,
+      "marker": "［③］",
+      "paragraphSha256": "fe9296f739d49413663ce3dfb71279a3fba64ab9987bfe7964b6bc966c5e7992",
+      "context": "就同时成为对劳动力的最无情的浪费和对劳动职能的正常前提的剥夺［③］；机器这一缩短劳动时间的最有力的手段，变成了使工人及其家属一",
+      "content": [
+        "同上，第506－507页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 748,
+        "definitionParagraphIndex": 232,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 132,
+      "start": 936,
+      "marker": "［①］",
+      "paragraphSha256": "fe9296f739d49413663ce3dfb71279a3fba64ab9987bfe7964b6bc966c5e7992",
+      "context": "无知、粗野和道德堕落的积累。”(马克思《资本论》第671页)［①］而期待资本主义生产方式有另一种产品分配，那就等于要求电池的电",
+      "content": [
+        "见本选集第2卷第259页，着重号是恩格斯加的。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 749,
+        "definitionParagraphIndex": 234,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 134,
+      "start": 412,
+      "marker": "［①］",
+      "paragraphSha256": "d7c444764ef96deade2c08ab61bbdc10acd27f1af60ab4a68182949fb2a3257d",
+      "context": "，即由过剩引起的危机时，就中肯地说明了所有这几次危机的实质。［①］在危机中，社会的生产和资本主义占有之间的矛盾剧烈地爆发出来。",
+      "content": [
+        "参看《傅立叶全集》1845年巴黎版第6卷第393－394页。――编者注"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 750,
+        "definitionParagraphIndex": 236,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 138,
+      "start": 40,
+      "marker": "［①］",
+      "paragraphSha256": "e2a15c522d49cd1407ce5ce08c5ae04a9f6557119ad7bc1aaba1654aeafa5b0c",
+      "context": "论有或者没有托拉斯，资本主义社会的正式代表――国家终究不得不［①］承担起对生产的领导。这种转化为国家财产的必然性首先表现在大规",
+      "content": [
+        "我说“不得不”，因为只有在生产资料或交通手段真正发展到不适于由股份公司来管理，因而国有化在经济上已成为不可避免的情况下，国有化――即使是由目前的国家实行的――才意味着经济上的进步，才意味着达到了一个新的为社会本身占有一切生产力作准备的阶段。但是最近，自从俾斯麦致力于国有化以来，出现了一种冒牌的社会主义，它有时甚至堕落为某些奴才气，无条件地把任何一种国有化，甚至俾斯麦的国有化，都说成社会主义的。显然，如果烟草国营是社会主义的，那么拿破仑和梅特涅也应该算入社会主义创始人之列了。比利时国家出于纯粹日常的政治和财政方面的考虑而自己修建国家的铁路干线，俾斯麦并非考虑经济上的必要性，而只是为了使铁路能够更好地适用于战时，只是为了把铁路官员训练成政府的投票家畜，主要是为了取得一种不依赖于议会决定的新的收入来源而把普鲁士的铁路干线收归国有，这无论如何不是社会主义的步骤，既不是直接的，也不是间接的，既不是自觉的，也不是不自觉的。否则，皇家海外贸易公司335、皇家陶瓷厂，甚至陆军被服厂，以致在30年代弗里德里希－威廉三世时期由一个聪明人一本正经地建议过的妓院国营，也都是社会主义的设施了。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 752,
+        "definitionParagraphIndex": 238,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
+      }
+    },
+    {
+      "bookId": "engels-work-51ea5fb19353",
+      "chapterId": "chapter-001-51ea5fb193",
+      "paragraphIndex": 145,
+      "start": 723,
+      "marker": "［①］",
+      "paragraphSha256": "202ad4d39f43d250330cf74391bfddeeeb0dcb19244fe355dc3bbea6a6fb2ed7",
+      "context": "由的发展和运用，这种可能性现在第一次出现了，但它确实是出现了［①］。",
+      "content": [
+        "有几个数字可以使人们对现代生产资料即使在资本主义压制下仍然具有的巨大扩张力有个大体的概念。根据吉芬的最新统计337，大不列颠和爱尔兰的全部财富约计如下：",
+        "1814年……22亿英镑＝440亿马克",
+        "1865年……61亿英镑＝1220亿马克",
+        "1875年……85亿英镑＝1700亿马克至于在危机中生产资料和产品被破坏的情况，根据1878年2月21日在柏林举行的德国工业家第二次代表大会所作的统计，在最近一次崩溃中，单是德国铁工业所遭受的全部损失就达45500",
+        "万马克。"
+      ],
+      "source": {
+        "url": "https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1880a.htm",
+        "rawSha256": "0405058f69176776af155a4826fc86485683f0e0ee7129c3ee9cb2af8308d3ce",
+        "printedPage": 757,
+        "definitionParagraphIndex": 240,
+        "evidence": "docs/SOURCE_NINE_WORKS_REVIEW_2026-10-02.json"
       }
     }
   ],

@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-02",
+  "scope": "8个来源／版本关键词短行：6项分布于4个源页重新访问，2项独立来源行复用此前逐项证据，不重复核查／修复。",
+  "reviews": [
+    {
+      "bookId": "marx-work-bcd6bcd970b2",
+      "chapterId": "chapter-001-bcd6bcd970",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+      "sourceRawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+      "lineIndex": 2,
+      "text": "雇佣劳动与资本 （1849年著，1891年发表的版本）",
+      "compactLength": 26,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "finalUrl": "https://www.marxists.org/chinese/marx/mia-chinese-marx-184904.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:22.990374+00:00",
+        "rawSha256": "11fdf4330c01545b240cf3be9810ba7e8660ca4a4686ec68a917d59f92fc13c2",
+        "bytes": 56961
+      },
+      "sourceNodesHtml": [
+        "<title>雇佣劳动与资本 （1849年著，1891年发表的版本）</title>"
+      ],
+      "localChapterTitle": "雇佣劳动与资本",
+      "localBookTitle": "雇佣劳动与资本",
+      "localFirstParagraphs": [
+        "（1849年著，1891年发表的版本）",
+        "恩格斯写的1891年单行本导言 [163]"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-marx-work-bcd6bcd970b2-chapter-chapter-001-bcd6bcd970",
+          "parentId": "toc-marx-work-bcd6bcd970b2-root",
+          "title": "雇佣劳动与资本",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-bcd6bcd970",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localBodySha256": "d22fa066eb818b0015c3ccc4af7ebbfb172c13d7038f3e02251b36c8dfad3305",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    },
+    {
+      "bookId": "lenin-work-a418dc761243",
+      "chapterId": "chapter-001-a418dc7612",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/12.htm",
+      "sourceRawSha256": "ba20374323859baff76c26c82536e03702fa081be3b0e47030a5e0d3ec929e19",
+      "lineIndex": 3,
+      "text": "列宁：马克思主义的三个来源和三个组成部分（1913年3月）",
+      "compactLength": 29,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:24.002810+00:00",
+        "rawSha256": "ba20374323859baff76c26c82536e03702fa081be3b0e47030a5e0d3ec929e19",
+        "bytes": 7507
+      },
+      "sourceNodesHtml": [
+        "<title>列宁：马克思主义的三个来源和三个组成部分（1913年3月）</title>"
+      ],
+      "localChapterTitle": "马克思主义的三个来源和三个组成部分",
+      "localBookTitle": "马克思主义的三个来源和三个组成部分",
+      "localFirstParagraphs": [
+        "列宁（1913年3月）",
+        "马克思学说在整个文明世界中引起全部资产阶级科学(官方科学和自由派科学)极大的仇视和憎恨，这种科学把马克思主义看作某种“有害的宗派”。也不能期望有别的态度，因为建筑在阶级斗争上的社会是不可能有“公正的”社会科学的。全部官方的和自由的科学都这样或那样地为雇佣奴隶制辩护，而马克思主义则对这种奴隶制宣布了无情的战争。期望在雇佣奴隶制的社会里有公正的科学，正像期望厂主在应不应该减少利润来增加工人工资问题上会采取公正态度一样，是愚蠢可笑的。"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-a418dc761243-chapter-chapter-001-a418dc7612",
+          "parentId": "toc-lenin-work-a418dc761243-root",
+          "title": "马克思主义的三个来源和三个组成部分",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-a418dc7612",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localBodySha256": "78c9af3bbdcf6a857f5f6e828e349e0ac627e0ceac403c28c9d0b1925d38ca5f",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    },
+    {
+      "bookId": "lenin-work-a418dc761243",
+      "chapterId": "chapter-001-a418dc7612",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/12.htm",
+      "sourceRawSha256": "ba20374323859baff76c26c82536e03702fa081be3b0e47030a5e0d3ec929e19",
+      "lineIndex": 6,
+      "text": "马克思主义的三个来源和三个组成部分",
+      "compactLength": 17,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/12.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/12.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:24.002810+00:00",
+        "rawSha256": "ba20374323859baff76c26c82536e03702fa081be3b0e47030a5e0d3ec929e19",
+        "bytes": 7507
+      },
+      "sourceNodesHtml": [
+        "<p class=\"title1\">马克思主义的三个来源和三个组成部分</p>"
+      ],
+      "localChapterTitle": "马克思主义的三个来源和三个组成部分",
+      "localBookTitle": "马克思主义的三个来源和三个组成部分",
+      "localFirstParagraphs": [
+        "列宁（1913年3月）",
+        "马克思学说在整个文明世界中引起全部资产阶级科学(官方科学和自由派科学)极大的仇视和憎恨，这种科学把马克思主义看作某种“有害的宗派”。也不能期望有别的态度，因为建筑在阶级斗争上的社会是不可能有“公正的”社会科学的。全部官方的和自由的科学都这样或那样地为雇佣奴隶制辩护，而马克思主义则对这种奴隶制宣布了无情的战争。期望在雇佣奴隶制的社会里有公正的科学，正像期望厂主在应不应该减少利润来增加工人工资问题上会采取公正态度一样，是愚蠢可笑的。"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-a418dc761243-chapter-chapter-001-a418dc7612",
+          "parentId": "toc-lenin-work-a418dc761243-root",
+          "title": "马克思主义的三个来源和三个组成部分",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-a418dc7612",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localBodySha256": "78c9af3bbdcf6a857f5f6e828e349e0ac627e0ceac403c28c9d0b1925d38ca5f",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    },
+    {
+      "bookId": "marx-work-8fab9f5331e5",
+      "chapterId": "chapter-001-8fab9f5331",
+      "sourceUrl": "https://www.marxists.org/chinese/marx/marxist.org-chinese-marx-184712.htm",
+      "sourceRawSha256": "3324a44c8a3da9e36be7d83c6aefad4d2c85c0bb07d0bb9fc7ba92c83c86f2a7",
+      "lineIndex": 32,
+      "text": "来源：《马克思恩格斯全集》第六卷",
+      "compactLength": 16,
+      "status": "reviewed_prior_evidence_reused",
+      "previousStatus": "reviewed_standalone_source_credit_filtered",
+      "previousEvidence": "docs/SOURCE_FOURTH_SHORT_REVIEW_2026-10-02.json"
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-002-dc20a02202",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+      "sourceRawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+      "lineIndex": 6,
+      "text": "编者的话",
+      "compactLength": 4,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:25.160380+00:00",
+        "rawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+        "bytes": 2478
+      },
+      "sourceNodesHtml": [
+        "<title>编者的话</title>",
+        "<h1>编者的话</h1>"
+      ],
+      "localChapterTitle": "编者的话",
+      "localBookTitle": "列宁选集（网页版节选）",
+      "localFirstParagraphs": [
+        "1960年，《列宁选集》第1版编辑出版。1972年，又在这一版的基础上对所选文章作了部分调整，重新校订了译文，编辑出版了这部选集的第2版。在20年后的今天，《列宁全集》中文第2版60卷已经出齐，现在有必要也有可能重新编辑一部译文更准确、选材更合理、更符合新时期广大读者需要的《列宁选集》。",
+        "收入这一版的列宁著作，和前两个版本的《列宁选集》一样，大部分是全文，小部分是节选。这一版在选材上作了适当调整，力求全面准确地反映列宁的思想理论遗产的精华以及他对马克思主义所作的理论贡献，同时又尽可能照顾社会各界广大读者的需要。为了帮助读者掌握马克思主义的精髓，提高实际运用马克思主义的能力，本版选集酌量增收了列宁有关马克思主义方法论的著述。从探索和研究有中国特色的社会主义的需要出发，还较多地增收了反映列宁建设社会主义的理论和实践的文献。"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-002-dc20a02202",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "编者的话",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-dc20a02202",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localBodySha256": "fb47e1d1ecd402e3ed8b78f9b71ee91ae6f839f01d37c84934fb11467048415c",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    },
+    {
+      "bookId": "lenin-work-1d0fc116fd84",
+      "chapterId": "chapter-002-dc20a02202",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+      "sourceRawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+      "lineIndex": 13,
+      "text": "编者的话",
+      "compactLength": 4,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "finalUrl": "https://www.marxists.org/chinese/lenin/selectedworks/selectedWorks-b.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:25.160380+00:00",
+        "rawSha256": "d9cb041b253f2aa411c246870b94d2d9e25d6bcd63bcac28a527281b10c1ce2b",
+        "bytes": 2478
+      },
+      "sourceNodesHtml": [
+        "<title>编者的话</title>",
+        "<h1>编者的话</h1>"
+      ],
+      "localChapterTitle": "编者的话",
+      "localBookTitle": "列宁选集（网页版节选）",
+      "localFirstParagraphs": [
+        "1960年，《列宁选集》第1版编辑出版。1972年，又在这一版的基础上对所选文章作了部分调整，重新校订了译文，编辑出版了这部选集的第2版。在20年后的今天，《列宁全集》中文第2版60卷已经出齐，现在有必要也有可能重新编辑一部译文更准确、选材更合理、更符合新时期广大读者需要的《列宁选集》。",
+        "收入这一版的列宁著作，和前两个版本的《列宁选集》一样，大部分是全文，小部分是节选。这一版在选材上作了适当调整，力求全面准确地反映列宁的思想理论遗产的精华以及他对马克思主义所作的理论贡献，同时又尽可能照顾社会各界广大读者的需要。为了帮助读者掌握马克思主义的精髓，提高实际运用马克思主义的能力，本版选集酌量增收了列宁有关马克思主义方法论的著述。从探索和研究有中国特色的社会主义的需要出发，还较多地增收了反映列宁建设社会主义的理论和实践的文献。"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-lenin-work-1d0fc116fd84-chapter-chapter-002-dc20a02202",
+          "parentId": "toc-lenin-work-1d0fc116fd84-root",
+          "title": "编者的话",
+          "type": "CHAPTER",
+          "order": 1,
+          "chapterId": "chapter-002-dc20a02202",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-2"
+        }
+      ],
+      "localBodySha256": "fb47e1d1ecd402e3ed8b78f9b71ee91ae6f839f01d37c84934fb11467048415c",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    },
+    {
+      "bookId": "lenin-work-e59d5ea41776",
+      "chapterId": "chapter-001-e59d5ea417",
+      "sourceUrl": "https://www.marxists.org/chinese/lenin/mia-chinese-lenin-talkaboutplekhanov.htm",
+      "sourceRawSha256": "0fbb79790b44cb5a533b743befeedf9be473186a075b9d4716168cf619312435",
+      "lineIndex": 106,
+      "text": "来源：《党史研究资料》（内部刊物）第一集P1-P7。中国革命博物馆党史研究室编。（1982年，成都，四川人民出版社出版）",
+      "compactLength": 60,
+      "status": "reviewed_prior_evidence_reused",
+      "previousStatus": "reviewed_standalone_source_credit_filtered",
+      "previousEvidence": "docs/SOURCE_SIXTH_SHORT_REVIEW_2026-10-02.json"
+    },
+    {
+      "bookId": "stalin-work-4b3dd86998cd",
+      "chapterId": "chapter-001-4b3dd86998",
+      "sourceUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19171024-25.htm",
+      "sourceRawSha256": "9b447b5f973805b7cb12038c6833a92a00b927c00bae15163d02af81c68c05ee",
+      "lineIndex": 2,
+      "text": "十月变革〔原始版本〕（约・斯大林，1917年10月24日和25日）",
+      "compactLength": 33,
+      "status": "reviewed_document_or_root_title",
+      "freshEvidence": {
+        "url": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19171024-25.htm",
+        "finalUrl": "https://www.marxists.org/chinese/stalin/mia-chinese-stalin-19171024-25.htm",
+        "status": 200,
+        "charset": null,
+        "retrievedAt": "2026-10-02T09:21:26.504337+00:00",
+        "rawSha256": "9b447b5f973805b7cb12038c6833a92a00b927c00bae15163d02af81c68c05ee",
+        "bytes": 3758
+      },
+      "sourceNodesHtml": [
+        "<title>十月变革〔原始版本〕（约・斯大林，1917年10月24日和25日）</title>"
+      ],
+      "localChapterTitle": "十月变革〔原始版本〕（1917年10月24日和25日）",
+      "localBookTitle": "十月变革〔原始版本〕（1917年10月24日和25日）",
+      "localFirstParagraphs": [
+        "十月变革〔原始版本〕约・斯大林1917年10月24日和25日在彼得格勒载于1918年11月6日“真理报”第241号",
+        "加速十月起义的最重要事件是：临时政府打算（在放弃里加后）放弃彼得格勒；克伦斯基政府准备迁往莫斯科；旧军队的指挥人员决定把彼得格勒的全部卫戍部队调往前线，使首都成为不设防的城市；在莫斯科举行的以罗将柯为首的黑帮代表大会进行狂热的活动，组织反革命的活动。这一切再加上日益深重的经济破坏和前线士兵的厌战，就决定了摆脱当时局势的唯一出路必然是迅速而严密地组织起义。"
+      ],
+      "localChapterToc": [
+        {
+          "id": "toc-stalin-work-4b3dd86998cd-chapter-chapter-001-4b3dd86998",
+          "parentId": "toc-stalin-work-4b3dd86998cd-root",
+          "title": "十月变革〔原始版本〕（1917年10月24日和25日）",
+          "type": "CHAPTER",
+          "order": 0,
+          "chapterId": "chapter-001-4b3dd86998",
+          "paragraphIndex": 0,
+          "counterpartKey": "chapter-1"
+        }
+      ],
+      "localBodySha256": "1296199a8d9fa1531f2c88d8baef723205709ef45225de48d45ce0b06153d371",
+      "nativeNoteDifferences": [],
+      "reason": "候选为源HEAD/TITLE或页首根标题，由本地书名／章节栏与章目录呈现；正式正文、版本日期或作者信息另行保留，未吞入原注。"
+    }
+  ],
+  "validation": {
+    "freshSourcePages": 4,
+    "freshCandidates": 6,
+    "priorEvidenceReused": 2,
+    "newRepairs": 0,
+    "paragraphsFootnotesTocAndAnnotationsUnchanged": true
+  }
+}
